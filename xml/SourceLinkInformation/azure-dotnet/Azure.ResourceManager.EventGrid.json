@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.EventGrid",
   "GUID": "01B34E597A7F4B018BAAEBFFAA50630CFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -67,7 +67,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventSubscriptionAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventSubscription(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -211,7 +211,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventGridDomainAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventGridDomain(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -223,7 +223,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventGridNamespaceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventGridNamespace(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -235,7 +235,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventGridTopicAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetEventGridTopic(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -251,7 +251,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetPartnerNamespaceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetPartnerNamespace(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -263,7 +263,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetPartnerRegistrationAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetPartnerRegistration(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -275,7 +275,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetPartnerTopicAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetPartnerTopic(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -287,7 +287,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetSystemTopicAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetSystemTopic(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -363,7 +363,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetTopicTypeAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetTopicType(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -375,7 +375,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetVerifiedPartnerAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/EventGridExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/EventGridExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.EventGridExtensions.GetVerifiedPartner(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -14469,7 +14469,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridArmClient.GetEventSubscriptionAsync(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridArmClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridArmClient.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridArmClient.GetEventSubscription(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -14647,7 +14647,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetEventGridDomainAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetEventGridDomain(System.String,System.Threading.CancellationToken)",
@@ -14659,7 +14659,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetEventGridNamespaceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetEventGridNamespace(System.String,System.Threading.CancellationToken)",
@@ -14671,7 +14671,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetEventGridTopicAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetEventGridTopic(System.String,System.Threading.CancellationToken)",
@@ -14687,7 +14687,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetPartnerNamespaceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetPartnerNamespace(System.String,System.Threading.CancellationToken)",
@@ -14699,7 +14699,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetPartnerRegistrationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetPartnerRegistration(System.String,System.Threading.CancellationToken)",
@@ -14711,7 +14711,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetPartnerTopicAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetPartnerTopic(System.String,System.Threading.CancellationToken)",
@@ -14723,7 +14723,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetSystemTopicAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Customized/Extensions/MockableEventGridResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/707f264e1c541be0f5af8d9215f00ed5eabb5173/sdk/eventgrid/Azure.ResourceManager.EventGrid/src/Generated/Extensions/MockableEventGridResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.EventGrid.Mocking.MockableEventGridResourceGroupResource.GetSystemTopic(System.String,System.Threading.CancellationToken)",

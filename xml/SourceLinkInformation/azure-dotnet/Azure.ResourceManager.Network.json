@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Network",
   "GUID": "C257A893F529447EA8E7CF47686FB70DFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -23,7 +23,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.Get(System.Threading.CancellationToken)",
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.Update(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -47,7 +47,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.GetLearnedPrefixesAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.GetLearnedPrefixes(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.PacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.FirewallPacketCaptureRequestContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.PacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.FirewallPacketCaptureRequestContent,System.Threading.CancellationToken)",
@@ -63,7 +63,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.PacketCaptureOperationAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.FirewallPacketCaptureRequestContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.PacketCaptureOperation(Azure.WaitUntil,Azure.ResourceManager.Network.Models.FirewallPacketCaptureRequestContent,System.Threading.CancellationToken)",
@@ -71,7 +71,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -79,7 +79,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -87,7 +87,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/AzureFirewallResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/AzureFirewallResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.AzureFirewallResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -149,7 +149,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.Get(System.Threading.CancellationToken)",
@@ -157,7 +157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -165,7 +165,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.Update(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -173,7 +173,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.DeleteBastionShareableLinkByTokenAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.BastionShareableLinkTokenListContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.DeleteBastionShareableLinkByToken(Azure.WaitUntil,Azure.ResourceManager.Network.Models.BastionShareableLinkTokenListContent,System.Threading.CancellationToken)",
@@ -181,7 +181,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -189,7 +189,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -197,7 +197,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BastionHostResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BastionHostResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BastionHostResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -243,7 +243,7 @@
       "Members": [
         {
           "DocsId": "M:Azure.ResourceManager.Network.BgpConnectionResource.GetLearnedRoutesVirtualHubBgpConnectionAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BgpConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BgpCoonectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BgpConnectionResource.GetLearnedRoutesVirtualHubBgpConnection(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -251,7 +251,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BgpConnectionResource.GetAdvertisedRoutesVirtualHubBgpConnectionAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/BgpConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/BgpCoonectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.BgpConnectionResource.GetAdvertisedRoutesVirtualHubBgpConnection(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -369,7 +369,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.Get(System.Threading.CancellationToken)",
@@ -377,7 +377,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -385,7 +385,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.UpdateAsync(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.Update(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -393,7 +393,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.StopAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.Stop(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -401,7 +401,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -409,7 +409,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -417,7 +417,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ConnectionMonitorResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ConnectionMonitorResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ConnectionMonitorResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -745,7 +745,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ExpressRoutePortsLocationResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/ExpressRoutePortsLocationResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/ExpressRoutePortsLocationResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.ExpressRoutePortsLocationResource.Get(System.Threading.CancellationToken)",
@@ -1339,7 +1339,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetManagementGroupNetworkManagerConnectionAsync(Azure.ResourceManager.ManagementGroups.ManagementGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetManagementGroupNetworkManagerConnection(Azure.ResourceManager.ManagementGroups.ManagementGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1351,7 +1351,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1363,7 +1363,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationSecurityGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationSecurityGroup(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1375,7 +1375,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetAzureFirewallAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetAzureFirewall(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1387,7 +1387,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetBastionHostAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetBastionHost(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1399,7 +1399,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetCloudServiceSwapAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetCloudServiceSwap(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1411,7 +1411,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetCustomIPPrefixAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetCustomIPPrefix(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1423,7 +1423,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetDdosCustomPolicyAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetDdosCustomPolicy(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1435,7 +1435,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetDdosProtectionPlanAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetDdosProtectionPlan(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1447,7 +1447,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetDscpConfigurationAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetDscpConfiguration(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1459,7 +1459,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteCircuitAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteCircuit(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1471,7 +1471,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteCrossConnectionAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteCrossConnection(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1483,7 +1483,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRoutePortAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRoutePort(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1495,7 +1495,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetFirewallPolicyAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetFirewallPolicy(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1507,7 +1507,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetIPAllocationAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetIPAllocation(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1519,7 +1519,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetIPGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetIPGroup(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1531,7 +1531,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetLoadBalancerAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetLoadBalancer(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1543,7 +1543,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNatGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNatGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1555,7 +1555,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkInterfaceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkInterface(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1567,7 +1567,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkManagerAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkManager(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1579,7 +1579,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkProfileAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkProfile(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1591,7 +1591,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkSecurityGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkSecurityGroup(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1603,7 +1603,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkSecurityPerimeterAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkSecurityPerimeter(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1615,7 +1615,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkVirtualApplianceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkVirtualAppliance(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1627,7 +1627,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkWatcherAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkWatcher(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1639,7 +1639,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPrivateEndpointAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPrivateEndpoint(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1651,7 +1651,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPrivateLinkServiceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPrivateLinkService(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1663,7 +1663,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPublicIPAddressAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPublicIPAddress(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1675,7 +1675,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPublicIPPrefixAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetPublicIPPrefix(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1687,7 +1687,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetRouteFilterAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetRouteFilter(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1699,7 +1699,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetRouteTableAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetRouteTable(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1711,7 +1711,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetSecurityPartnerProviderAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetSecurityPartnerProvider(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1723,7 +1723,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetServiceEndpointPolicyAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetServiceEndpointPolicy(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1735,7 +1735,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetServiceGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetServiceGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1747,7 +1747,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetwork(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1759,7 +1759,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkApplianceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkAppliance(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1771,7 +1771,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1783,7 +1783,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkGatewayConnectionAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkGatewayConnection(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1795,7 +1795,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetLocalNetworkGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetLocalNetworkGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1807,7 +1807,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkTapAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualNetworkTap(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1819,7 +1819,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualRouterAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualRouter(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1831,7 +1831,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualWanAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualWan(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1843,7 +1843,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVpnSiteAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVpnSite(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1855,7 +1855,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVpnServerConfigurationAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVpnServerConfiguration(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1867,7 +1867,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualHubAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVirtualHub(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1879,7 +1879,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVpnGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetVpnGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1891,7 +1891,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetP2SVpnGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetP2SVpnGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1903,7 +1903,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteGatewayAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteGateway(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1915,7 +1915,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetWebApplicationFirewallPolicyAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetWebApplicationFirewallPolicy(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1947,7 +1947,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.CheckPrivateLinkServiceVisibilityByResourceGroupPrivateLinkServiceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.CheckPrivateLinkServiceVisibilityRequest,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.CheckPrivateLinkServiceVisibilityByResourceGroupPrivateLinkService(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.CheckPrivateLinkServiceVisibilityRequest,System.Threading.CancellationToken)",
@@ -1967,7 +1967,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewayWafDynamicManifestAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewayWafDynamicManifest(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
@@ -1979,7 +1979,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetAzureWebCategoryAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetAzureWebCategory(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1991,7 +1991,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteProviderPortAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRouteProviderPort(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
@@ -2003,7 +2003,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRoutePortsLocationAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetExpressRoutePortsLocation(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
@@ -2015,7 +2015,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetSubscriptionNetworkManagerConnectionAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetSubscriptionNetworkManagerConnection(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
@@ -2027,7 +2027,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkVirtualApplianceSkuAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetNetworkVirtualApplianceSku(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
@@ -2075,7 +2075,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewayAvailableSslOptionsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewayAvailableSslOptions(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)",
@@ -2091,7 +2091,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewaySslPredefinedPolicyAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetApplicationGatewaySslPredefinedPolicy(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
@@ -2147,7 +2147,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.CheckDnsNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.CheckDnsNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -2251,7 +2251,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.SwapPublicIPAddressesLoadBalancerAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.LoadBalancerVipSwapContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.SwapPublicIPAddressesLoadBalancer(Azure.ResourceManager.Resources.SubscriptionResource,Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.LoadBalancerVipSwapContent,System.Threading.CancellationToken)",
@@ -2363,7 +2363,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.CheckPrivateLinkServiceVisibilityPrivateLinkServiceAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.CheckPrivateLinkServiceVisibilityRequest,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.CheckPrivateLinkServiceVisibilityPrivateLinkService(Azure.ResourceManager.Resources.SubscriptionResource,Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.CheckPrivateLinkServiceVisibilityRequest,System.Threading.CancellationToken)",
@@ -2443,7 +2443,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetServiceTagAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/NetworkExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/NetworkExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkExtensions.GetServiceTag(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
@@ -2703,7 +2703,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetFirewallPolicyRuleCollectionGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetFirewallPolicyRuleCollectionGroup(System.String,System.Threading.CancellationToken)",
@@ -2719,7 +2719,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.Get(System.String,System.Threading.CancellationToken)",
@@ -2727,7 +2727,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -2735,7 +2735,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.UpdateAsync(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.Update(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -2743,7 +2743,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetFirewallPolicyIdpsSignatureAsync(Azure.ResourceManager.Network.Models.IdpsQueryContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetFirewallPolicyIdpsSignature(Azure.ResourceManager.Network.Models.IdpsQueryContent,System.Threading.CancellationToken)",
@@ -2751,7 +2751,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetFirewallPolicyIdpsSignaturesFilterValueAsync(Azure.ResourceManager.Network.Models.SignatureOverridesFilterValuesQueryContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.GetFirewallPolicyIdpsSignaturesFilterValue(Azure.ResourceManager.Network.Models.SignatureOverridesFilterValuesQueryContent,System.Threading.CancellationToken)",
@@ -2759,7 +2759,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.DeployFirewallPolicyDeploymentAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.DeployFirewallPolicyDeployment(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -2767,7 +2767,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -2775,7 +2775,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -2783,7 +2783,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/FirewallPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/FirewallPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.FirewallPolicyResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -2841,7 +2841,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Network.IpamPoolData,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Network.IpamPoolData,System.String,System.Threading.CancellationToken)",
@@ -2849,7 +2849,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -2865,7 +2865,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -2873,7 +2873,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -2927,7 +2927,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.GetStaticCidrAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.GetStaticCidr(System.String,System.Threading.CancellationToken)",
@@ -2935,7 +2935,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.Get(System.Threading.CancellationToken)",
@@ -2943,7 +2943,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.DeleteAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.Delete(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -2951,7 +2951,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.UpdateAsync(Azure.ResourceManager.Network.Models.IpamPoolPatch,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.Update(Azure.ResourceManager.Network.Models.IpamPoolPatch,System.String,System.Threading.CancellationToken)",
@@ -2959,7 +2959,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.GetPoolUsageAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.GetPoolUsage(System.Threading.CancellationToken)",
@@ -2975,7 +2975,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -2983,7 +2983,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -2991,7 +2991,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/IpamPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/IpamPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.IpamPoolResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -3217,7 +3217,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Network.NetworkVerifierWorkspaceData,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Network.NetworkVerifierWorkspaceData,System.String,System.Threading.CancellationToken)",
@@ -3225,7 +3225,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -3241,7 +3241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -3249,7 +3249,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -3303,7 +3303,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.GetReachabilityAnalysisIntentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.GetReachabilityAnalysisIntent(System.String,System.Threading.CancellationToken)",
@@ -3315,7 +3315,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.GetReachabilityAnalysisRunAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.GetReachabilityAnalysisRun(System.String,System.Threading.CancellationToken)",
@@ -3323,7 +3323,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.Get(System.Threading.CancellationToken)",
@@ -3331,7 +3331,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.DeleteAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.Delete(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -3339,7 +3339,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.UpdateAsync(Azure.ResourceManager.Network.Models.NetworkVerifierWorkspacePatch,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.Update(Azure.ResourceManager.Network.Models.NetworkVerifierWorkspacePatch,System.String,System.Threading.CancellationToken)",
@@ -3347,7 +3347,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -3355,7 +3355,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -3363,7 +3363,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVerifierWorkspaceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVerifierWorkspaceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVerifierWorkspaceResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -3507,7 +3507,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetVirtualApplianceSiteAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetVirtualApplianceSite(System.String,System.Threading.CancellationToken)",
@@ -3519,7 +3519,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetInboundSecurityRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetInboundSecurityRule(System.String,System.Threading.CancellationToken)",
@@ -3531,7 +3531,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetNetworkVirtualApplianceConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetNetworkVirtualApplianceConnection(System.String,System.Threading.CancellationToken)",
@@ -3539,7 +3539,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.Get(System.String,System.Threading.CancellationToken)",
@@ -3547,7 +3547,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3555,7 +3555,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.UpdateAsync(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.Update(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -3563,7 +3563,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.RestartAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkVirtualApplianceInstanceIds,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.Restart(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkVirtualApplianceInstanceIds,System.Threading.CancellationToken)",
@@ -3571,7 +3571,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.ReimageAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkVirtualApplianceInstanceIds,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.Reimage(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkVirtualApplianceInstanceIds,System.Threading.CancellationToken)",
@@ -3579,7 +3579,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetBootDiagnosticLogsAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkVirtualApplianceBootDiagnosticContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.GetBootDiagnosticLogs(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkVirtualApplianceBootDiagnosticContent,System.Threading.CancellationToken)",
@@ -3587,7 +3587,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -3595,7 +3595,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -3603,7 +3603,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -3681,7 +3681,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceSkuResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/NetworkVirtualApplianceSkuResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/NetworkVirtualApplianceSkuResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.NetworkVirtualApplianceSkuResource.Get(System.Threading.CancellationToken)",
@@ -3763,7 +3763,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetRouteMapAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetRouteMap(System.String,System.Threading.CancellationToken)",
@@ -3775,7 +3775,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetHubVirtualNetworkConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetHubVirtualNetworkConnection(System.String,System.Threading.CancellationToken)",
@@ -3787,7 +3787,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubRouteTableV2Async(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubRouteTableV2(System.String,System.Threading.CancellationToken)",
@@ -3799,7 +3799,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetBgpConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetBgpConnection(System.String,System.Threading.CancellationToken)",
@@ -3811,7 +3811,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetHubIPConfigurationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetHubIPConfiguration(System.String,System.Threading.CancellationToken)",
@@ -3823,7 +3823,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetHubRouteTableAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetHubRouteTable(System.String,System.Threading.CancellationToken)",
@@ -3835,7 +3835,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetRoutingIntentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetRoutingIntent(System.String,System.Threading.CancellationToken)",
@@ -3843,7 +3843,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.Get(System.Threading.CancellationToken)",
@@ -3851,7 +3851,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3859,7 +3859,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.UpdateAsync(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.Update(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -3867,7 +3867,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubEffectiveRoutesAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.EffectiveRoutesContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubEffectiveRoutes(Azure.WaitUntil,Azure.ResourceManager.Network.Models.EffectiveRoutesContent,System.Threading.CancellationToken)",
@@ -3875,7 +3875,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubInboundRoutesAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualHubInboundRoutesContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubInboundRoutes(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualHubInboundRoutesContent,System.Threading.CancellationToken)",
@@ -3883,7 +3883,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubOutboundRoutesAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualHubOutboundRoutesContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.GetVirtualHubOutboundRoutes(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualHubOutboundRoutesContent,System.Threading.CancellationToken)",
@@ -3891,7 +3891,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -3899,7 +3899,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -3907,7 +3907,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualHubResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -4183,7 +4183,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.Get(System.Threading.CancellationToken)",
@@ -4191,7 +4191,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4199,7 +4199,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.Update(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -4207,7 +4207,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.VpnDeviceConfigurationScriptAsync(Azure.ResourceManager.Network.Models.VpnDeviceScriptContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.VpnDeviceConfigurationScript(Azure.ResourceManager.Network.Models.VpnDeviceScriptContent,System.Threading.CancellationToken)",
@@ -4215,7 +4215,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.SetSharedKeyAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.ConnectionSharedKey,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.SetSharedKey(Azure.WaitUntil,Azure.ResourceManager.Network.Models.ConnectionSharedKey,System.Threading.CancellationToken)",
@@ -4223,7 +4223,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.GetSharedKeyAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.GetSharedKey(System.Threading.CancellationToken)",
@@ -4231,7 +4231,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.ResetSharedKeyAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.ConnectionResetSharedKey,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.ResetSharedKey(Azure.WaitUntil,Azure.ResourceManager.Network.Models.ConnectionResetSharedKey,System.Threading.CancellationToken)",
@@ -4239,7 +4239,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.StartPacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStartContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.StartPacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStartContent,System.Threading.CancellationToken)",
@@ -4247,7 +4247,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.StopPacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStopContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.StopPacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStopContent,System.Threading.CancellationToken)",
@@ -4255,7 +4255,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.GetIkeSasAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.GetIkeSas(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4263,7 +4263,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.ResetConnectionAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.ResetConnection(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4271,7 +4271,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -4279,7 +4279,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -4287,7 +4287,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayConnectionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayConnectionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -4559,7 +4559,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVirtualNetworkGatewayNatRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVirtualNetworkGatewayNatRule(System.String,System.Threading.CancellationToken)",
@@ -4567,7 +4567,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.Get(System.Threading.CancellationToken)",
@@ -4575,7 +4575,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4583,7 +4583,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.Update(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -4599,7 +4599,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.ResetAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.Reset(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -4607,7 +4607,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.ResetVpnClientSharedKeyAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.ResetVpnClientSharedKey(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4615,7 +4615,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GenerateVpnClientPackageAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnClientContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GenerateVpnClientPackage(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnClientContent,System.Threading.CancellationToken)",
@@ -4623,7 +4623,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GenerateVpnProfileAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnClientContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GenerateVpnProfile(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnClientContent,System.Threading.CancellationToken)",
@@ -4631,7 +4631,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVpnProfilePackageUrlAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVpnProfilePackageUrl(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4639,7 +4639,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetBgpPeerStatusAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetBgpPeerStatus(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -4647,7 +4647,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.SupportedVpnDevicesAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.SupportedVpnDevices(System.Threading.CancellationToken)",
@@ -4663,7 +4663,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetLearnedRoutesAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetLearnedRoutes(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4671,7 +4671,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetAdvertisedRoutesAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetAdvertisedRoutes(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -4679,7 +4679,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetResiliencyInformationAsync(Azure.WaitUntil,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetResiliencyInformation(Azure.WaitUntil,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -4687,7 +4687,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetRoutesInformationAsync(Azure.WaitUntil,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetRoutesInformation(Azure.WaitUntil,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -4695,7 +4695,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.SetVpnclientIPsecParametersAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnClientIPsecParameters,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.SetVpnclientIPsecParameters(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnClientIPsecParameters,System.Threading.CancellationToken)",
@@ -4703,7 +4703,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVpnclientIPsecParametersAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVpnclientIPsecParameters(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4711,7 +4711,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StartPacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStartContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StartPacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStartContent,System.Threading.CancellationToken)",
@@ -4719,7 +4719,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StopPacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStopContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StopPacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnPacketCaptureStopContent,System.Threading.CancellationToken)",
@@ -4727,7 +4727,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StartExpressRouteSiteFailoverSimulationAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StartExpressRouteSiteFailoverSimulation(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -4735,7 +4735,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StopExpressRouteSiteFailoverSimulationAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.ExpressRouteFailoverStopApiContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.StopExpressRouteSiteFailoverSimulation(Azure.WaitUntil,Azure.ResourceManager.Network.Models.ExpressRouteFailoverStopApiContent,System.Threading.CancellationToken)",
@@ -4743,7 +4743,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVpnclientConnectionHealthAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.GetVpnclientConnectionHealth(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4751,7 +4751,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.DisconnectVirtualNetworkGatewayVpnConnectionsAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.P2SVpnConnectionRequest,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.DisconnectVirtualNetworkGatewayVpnConnections(Azure.WaitUntil,Azure.ResourceManager.Network.Models.P2SVpnConnectionRequest,System.Threading.CancellationToken)",
@@ -4759,7 +4759,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokePrepareMigrationAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualNetworkGatewayMigrationContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokePrepareMigration(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualNetworkGatewayMigrationContent,System.Threading.CancellationToken)",
@@ -4767,7 +4767,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokeExecuteMigrationAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokeExecuteMigration(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4775,7 +4775,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokeCommitMigrationAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokeCommitMigration(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4783,7 +4783,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokeAbortMigrationAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.InvokeAbortMigration(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4791,7 +4791,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -4799,7 +4799,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -4807,7 +4807,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualNetworkGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualNetworkGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualNetworkGatewayResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -5007,7 +5007,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.Get(System.Threading.CancellationToken)",
@@ -5015,7 +5015,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -5023,7 +5023,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.UpdateAsync(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.Update(Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -5031,7 +5031,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.SupportedSecurityProvidersAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.SupportedSecurityProviders(System.Threading.CancellationToken)",
@@ -5039,7 +5039,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.GenerateVirtualWanVpnServerConfigurationVpnProfileAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualWanVpnProfileContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.GenerateVirtualWanVpnServerConfigurationVpnProfile(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VirtualWanVpnProfileContent,System.Threading.CancellationToken)",
@@ -5047,7 +5047,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.DownloadVpnSitesConfigurationAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.GetVpnSitesConfigurationContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.DownloadVpnSitesConfiguration(Azure.WaitUntil,Azure.ResourceManager.Network.Models.GetVpnSitesConfigurationContent,System.Threading.CancellationToken)",
@@ -5055,7 +5055,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.GetVpnServerConfigurationsAssociatedWithVirtualWanAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.GetVpnServerConfigurationsAssociatedWithVirtualWan(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -5063,7 +5063,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -5071,7 +5071,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -5079,7 +5079,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VirtualWanResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VirtualWanResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VirtualWanResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -5145,7 +5145,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.GetVpnConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.GetVpnConnection(System.String,System.Threading.CancellationToken)",
@@ -5157,7 +5157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.GetVpnGatewayNatRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.GetVpnGatewayNatRule(System.String,System.Threading.CancellationToken)",
@@ -5165,7 +5165,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.Get(System.Threading.CancellationToken)",
@@ -5173,7 +5173,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -5181,7 +5181,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.Update(Azure.WaitUntil,Azure.ResourceManager.Network.Models.NetworkTagsObject,System.Threading.CancellationToken)",
@@ -5189,7 +5189,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.ResetAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.Reset(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -5197,7 +5197,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.StartPacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnGatewayPacketCaptureStartContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.StartPacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnGatewayPacketCaptureStartContent,System.Threading.CancellationToken)",
@@ -5205,7 +5205,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.StopPacketCaptureAsync(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnGatewayPacketCaptureStopContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.StopPacketCapture(Azure.WaitUntil,Azure.ResourceManager.Network.Models.VpnGatewayPacketCaptureStopContent,System.Threading.CancellationToken)",
@@ -5213,7 +5213,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -5221,7 +5221,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -5229,7 +5229,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/VpnGatewayResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/VpnGatewayResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.VpnGatewayResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -31375,7 +31375,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetApplicationGatewayWafDynamicManifestAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetApplicationGatewayWafDynamicManifest(Azure.Core.AzureLocation,System.Threading.CancellationToken)",
@@ -31387,7 +31387,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetAzureWebCategoryAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetAzureWebCategory(System.String,System.String,System.Threading.CancellationToken)",
@@ -31399,7 +31399,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetExpressRouteProviderPortAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetExpressRouteProviderPort(System.String,System.Threading.CancellationToken)",
@@ -31411,7 +31411,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetExpressRoutePortsLocationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetExpressRoutePortsLocation(System.String,System.Threading.CancellationToken)",
@@ -31423,7 +31423,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetSubscriptionNetworkManagerConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetSubscriptionNetworkManagerConnection(System.String,System.Threading.CancellationToken)",
@@ -31435,7 +31435,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetNetworkVirtualApplianceSkuAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetNetworkVirtualApplianceSku(System.String,System.Threading.CancellationToken)",
@@ -31483,7 +31483,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetApplicationGatewayAvailableSslOptionsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetApplicationGatewayAvailableSslOptions(System.Threading.CancellationToken)",
@@ -31499,7 +31499,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetApplicationGatewaySslPredefinedPolicyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetApplicationGatewaySslPredefinedPolicy(System.String,System.Threading.CancellationToken)",
@@ -31555,7 +31555,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.CheckDnsNameAvailabilityAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.CheckDnsNameAvailability(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -31659,7 +31659,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.SwapPublicIPAddressesLoadBalancerAsync(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.LoadBalancerVipSwapContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.SwapPublicIPAddressesLoadBalancer(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.LoadBalancerVipSwapContent,System.Threading.CancellationToken)",
@@ -31771,7 +31771,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.CheckPrivateLinkServiceVisibilityPrivateLinkServiceAsync(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.CheckPrivateLinkServiceVisibilityRequest,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.CheckPrivateLinkServiceVisibilityPrivateLinkService(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.Network.Models.CheckPrivateLinkServiceVisibilityRequest,System.Threading.CancellationToken)",
@@ -31851,7 +31851,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetServiceTagAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Customization/Extensions/MockableNetworkSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/3be76e535fc2623d40220b5c1255a494da017570/sdk/network/Azure.ResourceManager.Network/src/Generated/Extensions/MockableNetworkSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Network.Mocking.MockableNetworkSubscriptionResource.GetServiceTag(Azure.Core.AzureLocation,System.Threading.CancellationToken)",

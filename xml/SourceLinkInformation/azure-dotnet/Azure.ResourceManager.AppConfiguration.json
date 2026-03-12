@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.AppConfiguration",
   "GUID": "1993818F8828494D957099B8270F189CFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Custom/AppConfigurationKeyValueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Generated/AppConfigurationKeyValueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueData,System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Custom/AppConfigurationKeyValueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Generated/AppConfigurationKeyValueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -47,7 +47,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Custom/AppConfigurationKeyValueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Generated/AppConfigurationKeyValueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Custom/AppConfigurationKeyValueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Generated/AppConfigurationKeyValueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -155,7 +155,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Custom/DeletedAppConfigurationStoreResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Generated/DeletedAppConfigurationStoreResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource.Get(System.Threading.CancellationToken)",
@@ -163,7 +163,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource.PurgeDeletedAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Custom/DeletedAppConfigurationStoreResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d7ebdbb6b646cc69c205b19c9e432880d98810f6/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/src/Generated/DeletedAppConfigurationStoreResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource.PurgeDeleted(Azure.WaitUntil,System.Threading.CancellationToken)",

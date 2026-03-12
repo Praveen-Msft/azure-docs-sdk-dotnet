@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.MySql",
   "GUID": "EB99790C6E164927B7B9D1E40131683DFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -5467,7 +5467,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.GetMySqlFlexibleServerAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/FlexibleServersExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/FlexibleServersExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.GetMySqlFlexibleServer(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -5479,7 +5479,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.GetMySqlFlexibleServersCapabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/FlexibleServersExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/FlexibleServersExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.GetMySqlFlexibleServersCapability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -5503,7 +5503,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.ExecuteCheckVirtualNetworkSubnetUsageAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerVirtualNetworkSubnetUsageParameter,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/FlexibleServersExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/FlexibleServersExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.ExecuteCheckVirtualNetworkSubnetUsage(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerVirtualNetworkSubnetUsageParameter,System.Threading.CancellationToken)",
@@ -5511,7 +5511,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.CheckMySqlFlexibleServerNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/FlexibleServersExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/FlexibleServersExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.CheckMySqlFlexibleServerNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -5519,7 +5519,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.CheckMySqlFlexibleServerNameAvailabilityWithoutLocationAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/FlexibleServersExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/FlexibleServersExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.CheckMySqlFlexibleServerNameAvailabilityWithoutLocation(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -5527,7 +5527,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.ExecuteGetPrivateDnsZoneSuffixAsync(Azure.ResourceManager.Resources.TenantResource,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/FlexibleServersExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/FlexibleServersExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.FlexibleServersExtensions.ExecuteGetPrivateDnsZoneSuffix(Azure.ResourceManager.Resources.TenantResource,System.Threading.CancellationToken)",
@@ -5603,7 +5603,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/MySqlFlexibleServerConfigurationCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/MySqlFlexibleServerConfigurationCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationData,System.Threading.CancellationToken)",
@@ -5611,7 +5611,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/MySqlFlexibleServerConfigurationCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/MySqlFlexibleServerConfigurationCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -5627,7 +5627,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/MySqlFlexibleServerConfigurationCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/MySqlFlexibleServerConfigurationCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -5635,7 +5635,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/MySqlFlexibleServerConfigurationCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/MySqlFlexibleServerConfigurationCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -7903,7 +7903,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.GetMySqlFlexibleServersCapabilityAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.GetMySqlFlexibleServersCapability(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -7927,7 +7927,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.ExecuteCheckVirtualNetworkSubnetUsageAsync(Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerVirtualNetworkSubnetUsageParameter,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.ExecuteCheckVirtualNetworkSubnetUsage(Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerVirtualNetworkSubnetUsageParameter,System.Threading.CancellationToken)",
@@ -7935,7 +7935,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.CheckMySqlFlexibleServerNameAvailabilityAsync(Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.CheckMySqlFlexibleServerNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -7943,7 +7943,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.CheckMySqlFlexibleServerNameAvailabilityWithoutLocationAsync(Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Custom/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/abf3d957b9cfa9367eb9a20c27c738610daf9480/sdk/mysql/Azure.ResourceManager.MySql/src/Generated/Extensions/MockableMySqlFlexibleServersSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.MySql.FlexibleServers.Mocking.MockableMySqlFlexibleServersSubscriptionResource.CheckMySqlFlexibleServerNameAvailabilityWithoutLocation(Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent,System.Threading.CancellationToken)",

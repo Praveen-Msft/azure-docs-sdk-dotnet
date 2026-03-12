@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.ContainerService",
   "GUID": "ED1FBA17530C407D9215053EB7A01FD3FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -19,7 +19,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolData,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolData,System.String,System.String,System.Threading.CancellationToken)",
@@ -27,7 +27,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -51,7 +51,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -375,7 +375,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.GetContainerServiceMachineAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.GetContainerServiceMachine(System.String,System.Threading.CancellationToken)",
@@ -383,7 +383,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.Get(System.Threading.CancellationToken)",
@@ -391,7 +391,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.DeleteAsync(Azure.WaitUntil,System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.Delete(Azure.WaitUntil,System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)",
@@ -399,7 +399,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolData,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.Update(Azure.WaitUntil,Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolData,System.String,System.String,System.Threading.CancellationToken)",
@@ -407,7 +407,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.AbortLatestOperationAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.AbortLatestOperation(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -415,7 +415,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.DeleteMachinesAsync(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.AgentPoolDeleteMachinesContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.DeleteMachines(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.AgentPoolDeleteMachinesContent,System.Threading.CancellationToken)",
@@ -423,7 +423,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.UpgradeNodeImageVersionAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.UpgradeNodeImageVersion(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -431,7 +431,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -439,7 +439,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -447,7 +447,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceAgentPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceAgentPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceAgentPoolResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -505,7 +505,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterData,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterData,System.String,System.String,System.Threading.CancellationToken)",
@@ -513,7 +513,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -529,7 +529,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -537,7 +537,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -857,7 +857,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetMeshUpgradeProfileAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetMeshUpgradeProfile(System.String,System.Threading.CancellationToken)",
@@ -869,7 +869,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServiceMaintenanceConfigurationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServiceMaintenanceConfiguration(System.String,System.Threading.CancellationToken)",
@@ -881,7 +881,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetManagedClusterNamespaceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetManagedClusterNamespace(System.String,System.Threading.CancellationToken)",
@@ -893,7 +893,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServiceAgentPoolAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServiceAgentPool(System.String,System.Threading.CancellationToken)",
@@ -905,7 +905,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServicePrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServicePrivateEndpointConnection(System.String,System.Threading.CancellationToken)",
@@ -917,7 +917,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServiceTrustedAccessRoleBindingAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetContainerServiceTrustedAccessRoleBinding(System.String,System.Threading.CancellationToken)",
@@ -925,7 +925,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.Get(System.Threading.CancellationToken)",
@@ -933,7 +933,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.DeleteAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.Delete(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -941,7 +941,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ContainerServiceTagsObject,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.Update(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ContainerServiceTagsObject,System.String,System.Threading.CancellationToken)",
@@ -949,7 +949,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetAccessProfileAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetAccessProfile(System.String,System.Threading.CancellationToken)",
@@ -957,7 +957,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetClusterAdminCredentialsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetClusterAdminCredentials(System.String,System.Threading.CancellationToken)",
@@ -965,7 +965,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetClusterUserCredentialsAsync(System.String,System.Nullable{Azure.ResourceManager.ContainerService.Models.KubeConfigFormat},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetClusterUserCredentials(System.String,System.Nullable{Azure.ResourceManager.ContainerService.Models.KubeConfigFormat},System.Threading.CancellationToken)",
@@ -973,7 +973,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetClusterMonitoringUserCredentialsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetClusterMonitoringUserCredentials(System.String,System.Threading.CancellationToken)",
@@ -981,7 +981,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.ResetServicePrincipalProfileAsync(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ManagedClusterServicePrincipalProfile,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.ResetServicePrincipalProfile(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ManagedClusterServicePrincipalProfile,System.Threading.CancellationToken)",
@@ -989,7 +989,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.ResetAadProfileAsync(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ManagedClusterAadProfile,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.ResetAadProfile(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ManagedClusterAadProfile,System.Threading.CancellationToken)",
@@ -997,7 +997,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RotateClusterCertificatesAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RotateClusterCertificates(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1005,7 +1005,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.AbortLatestOperationAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.AbortLatestOperation(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1013,7 +1013,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RotateServiceAccountSigningKeysAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RotateServiceAccountSigningKeys(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1021,7 +1021,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.StopAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.Stop(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1029,7 +1029,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.StartAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.Start(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1037,7 +1037,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RunCommandAsync(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ManagedClusterRunCommandContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RunCommand(Azure.WaitUntil,Azure.ResourceManager.ContainerService.Models.ManagedClusterRunCommandContent,System.Threading.CancellationToken)",
@@ -1045,7 +1045,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetCommandResultAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetCommandResult(System.String,System.Threading.CancellationToken)",
@@ -1061,7 +1061,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetAvailableAgentPoolVersionsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.GetAvailableAgentPoolVersions(System.Threading.CancellationToken)",
@@ -1077,7 +1077,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.ResolvePrivateLinkServiceIdAsync(Azure.ResourceManager.ContainerService.Models.ContainerServicePrivateLinkResourceData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.ResolvePrivateLinkServiceId(Azure.ResourceManager.ContainerService.Models.ContainerServicePrivateLinkResourceData,System.Threading.CancellationToken)",
@@ -1085,7 +1085,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -1093,7 +1093,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -1101,7 +1101,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/ContainerServiceManagedClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/ContainerServiceManagedClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceManagedClusterResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -1207,7 +1207,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetContainerServiceManagedClusterAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/Extensions/ContainerServiceExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/Extensions/ContainerServiceExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetContainerServiceManagedCluster(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1219,7 +1219,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetAgentPoolSnapshotAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/Extensions/ContainerServiceExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/Extensions/ContainerServiceExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetAgentPoolSnapshot(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -1231,7 +1231,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetMeshRevisionProfileAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/Extensions/ContainerServiceExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/Extensions/ContainerServiceExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetMeshRevisionProfile(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -1239,7 +1239,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetKubernetesVersionsManagedClusterAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Custom/Extensions/ContainerServiceExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/19ada93bbce4f10d51993d9e2792597f7b486089/sdk/containerservice/Azure.ResourceManager.ContainerService/src/Generated/Extensions/ContainerServiceExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ContainerService.ContainerServiceExtensions.GetKubernetesVersionsManagedCluster(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",

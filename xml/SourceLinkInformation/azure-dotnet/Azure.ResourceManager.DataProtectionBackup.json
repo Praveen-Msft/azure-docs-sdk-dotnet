@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.DataProtectionBackup",
   "GUID": "D6448DD11CF94333BF652769D18599E6FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -19,7 +19,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceData,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceData,System.String,System.Threading.CancellationToken)",
@@ -27,7 +27,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -51,7 +51,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -129,7 +129,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.GetDataProtectionBackupRecoveryPointAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.GetDataProtectionBackupRecoveryPoint(System.String,System.Threading.CancellationToken)",
@@ -137,7 +137,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.Get(System.Threading.CancellationToken)",
@@ -145,7 +145,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.DeleteAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.Delete(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -153,7 +153,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceData,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.Update(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceData,System.String,System.Threading.CancellationToken)",
@@ -161,7 +161,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.TriggerAdhocBackupAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.AdhocBackupTriggerContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.TriggerAdhocBackup(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.AdhocBackupTriggerContent,System.Threading.CancellationToken)",
@@ -169,7 +169,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.TriggerRehydrationAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.TriggerRehydration(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent,System.Threading.CancellationToken)",
@@ -177,7 +177,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.TriggerRestoreAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.TriggerRestore(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent,System.String,System.Threading.CancellationToken)",
@@ -185,7 +185,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ResumeBackupsAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ResumeBackups(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -193,7 +193,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ResumeProtectionAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ResumeProtection(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -201,7 +201,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.StopProtectionAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.StopProtectionContent,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.StopProtection(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.StopProtectionContent,System.String,System.Threading.CancellationToken)",
@@ -209,7 +209,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.SuspendBackupsAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.SuspendBackupContent,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.SuspendBackups(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.SuspendBackupContent,System.String,System.Threading.CancellationToken)",
@@ -217,7 +217,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.SyncBackupInstanceAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupInstanceSyncContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.SyncBackupInstance(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupInstanceSyncContent,System.Threading.CancellationToken)",
@@ -225,7 +225,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ValidateForModifyBackupAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.ValidateForModifyBackupContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ValidateForModifyBackup(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.ValidateForModifyBackupContent,System.Threading.CancellationToken)",
@@ -233,7 +233,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ValidateRestoreAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupValidateRestoreContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.ValidateRestore(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.BackupValidateRestoreContent,System.Threading.CancellationToken)",
@@ -241,7 +241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.FindRestorableTimeRangeAsync(Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.FindRestorableTimeRange(Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent,System.Threading.CancellationToken)",
@@ -249,7 +249,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -257,7 +257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -265,7 +265,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -323,7 +323,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultData,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultData,System.String,System.Threading.CancellationToken)",
@@ -331,7 +331,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -347,7 +347,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -355,7 +355,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -409,7 +409,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDataProtectionBackupInstanceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDataProtectionBackupInstance(System.String,System.Threading.CancellationToken)",
@@ -421,7 +421,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDataProtectionBackupJobAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDataProtectionBackupJob(System.String,System.Threading.CancellationToken)",
@@ -433,7 +433,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDataProtectionBackupPolicyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDataProtectionBackupPolicy(System.String,System.Threading.CancellationToken)",
@@ -445,7 +445,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetResourceGuardProxyBaseResourceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetResourceGuardProxyBaseResource(System.String,System.Threading.CancellationToken)",
@@ -457,7 +457,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDeletedDataProtectionBackupInstanceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetDeletedDataProtectionBackupInstance(System.String,System.Threading.CancellationToken)",
@@ -465,7 +465,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.Get(System.Threading.CancellationToken)",
@@ -473,7 +473,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -481,7 +481,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupVaultPatch,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.Update(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupVaultPatch,System.String,System.Threading.CancellationToken)",
@@ -489,7 +489,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.ValidateAdhocBackupAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.AdhocBackupValidateContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.ValidateAdhocBackup(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.Models.AdhocBackupValidateContent,System.Threading.CancellationToken)",
@@ -497,7 +497,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.TriggerExportJobAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.TriggerExportJob(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -505,7 +505,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -513,7 +513,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -521,7 +521,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/DataProtectionBackupVaultResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/DataProtectionBackupVaultResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -633,7 +633,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardProxyBaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardProxyBaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.Get(System.Threading.CancellationToken)",
@@ -641,7 +641,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardProxyBaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardProxyBaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -649,7 +649,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResourceData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardProxyBaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardProxyBaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.Update(Azure.WaitUntil,Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResourceData,System.Threading.CancellationToken)",
@@ -657,7 +657,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.UnlockDeleteAsync(Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionUnlockDeleteContent,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardProxyBaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardProxyBaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResource.UnlockDelete(Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionUnlockDeleteContent,System.String,System.Threading.CancellationToken)",
@@ -719,7 +719,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.Get(System.Threading.CancellationToken)",
@@ -727,7 +727,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -735,7 +735,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.UpdateAsync(Azure.ResourceManager.DataProtectionBackup.Models.ResourceGuardPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.Update(Azure.ResourceManager.DataProtectionBackup.Models.ResourceGuardPatch,System.Threading.CancellationToken)",
@@ -751,7 +751,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetDeleteProtectedItemObjectAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetDeleteProtectedItemObject(System.String,System.Threading.CancellationToken)",
@@ -767,7 +767,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetDeleteResourceGuardProxyObjectAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetDeleteResourceGuardProxyObject(System.String,System.Threading.CancellationToken)",
@@ -783,7 +783,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetDisableSoftDeleteObjectAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetDisableSoftDeleteObject(System.String,System.Threading.CancellationToken)",
@@ -799,7 +799,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetBackupSecurityPinObjectAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetBackupSecurityPinObject(System.String,System.Threading.CancellationToken)",
@@ -815,7 +815,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetUpdateProtectedItemObjectAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetUpdateProtectedItemObject(System.String,System.Threading.CancellationToken)",
@@ -831,7 +831,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetUpdateProtectionPolicyObjectAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.GetUpdateProtectionPolicyObject(System.String,System.Threading.CancellationToken)",
@@ -839,7 +839,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -847,7 +847,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -855,7 +855,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Customized/ResourceGuardResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d49e7bfe8de78b0e17da04ed0146e01cc4157785/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup/src/Generated/ResourceGuardResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataProtectionBackup.ResourceGuardResource.RemoveTag(System.String,System.Threading.CancellationToken)",

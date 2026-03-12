@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Search.Documents",
   "GUID": "03F69674D7814C998A477208A0C11ABBFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -1113,7 +1113,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.CreateDataSourceConnectionAsync(Azure.Search.Documents.Indexes.Models.SearchIndexerDataSourceConnection,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.DataSources.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.CreateOrUpdateDataSourceConnection(Azure.Search.Documents.Indexes.Models.SearchIndexerDataSourceConnection,System.Boolean,System.Threading.CancellationToken)",
@@ -1121,7 +1121,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.CreateOrUpdateDataSourceConnectionAsync(Azure.Search.Documents.Indexes.Models.SearchIndexerDataSourceConnection,System.Boolean,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.DataSources.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteDataSourceConnection(System.String,System.Threading.CancellationToken)",
@@ -1129,7 +1129,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteDataSourceConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.DataSources.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteDataSourceConnection(Azure.Search.Documents.Indexes.Models.SearchIndexerDataSourceConnection,System.Boolean,System.Threading.CancellationToken)",
@@ -1137,7 +1137,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteDataSourceConnectionAsync(Azure.Search.Documents.Indexes.Models.SearchIndexerDataSourceConnection,System.Boolean,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.DataSources.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetDataSourceConnection(System.String,System.Threading.CancellationToken)",
@@ -1145,7 +1145,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetDataSourceConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.DataSources.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetDataSourceConnections(System.Threading.CancellationToken)",
@@ -1153,7 +1153,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetDataSourceConnectionsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.DataSources.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetDataSourceConnectionNames(System.Threading.CancellationToken)",
@@ -1169,7 +1169,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.CreateSkillsetAsync(Azure.Search.Documents.Indexes.Models.SearchIndexerSkillset,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.SkillSets.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.CreateOrUpdateSkillset(Azure.Search.Documents.Indexes.Models.SearchIndexerSkillset,System.Boolean,System.Threading.CancellationToken)",
@@ -1177,7 +1177,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.CreateOrUpdateSkillsetAsync(Azure.Search.Documents.Indexes.Models.SearchIndexerSkillset,System.Boolean,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.SkillSets.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteSkillset(System.String,System.Threading.CancellationToken)",
@@ -1185,7 +1185,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteSkillsetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.SkillSets.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteSkillset(Azure.Search.Documents.Indexes.Models.SearchIndexerSkillset,System.Boolean,System.Threading.CancellationToken)",
@@ -1193,7 +1193,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.DeleteSkillsetAsync(Azure.Search.Documents.Indexes.Models.SearchIndexerSkillset,System.Boolean,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.SkillSets.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetSkillset(System.String,System.Threading.CancellationToken)",
@@ -1201,7 +1201,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetSkillsetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.SkillSets.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetSkillsets(System.Threading.CancellationToken)",
@@ -1209,7 +1209,7 @@
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetSkillsetsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/192d13ffeddd2ff0787e057b03894a7cbf758cb1/sdk/search/Azure.Search.Documents/src/Indexes/SearchIndexerClient.SkillSets.cs"
         },
         {
           "DocsId": "M:Azure.Search.Documents.Indexes.SearchIndexerClient.GetSkillsetNames(System.Threading.CancellationToken)",

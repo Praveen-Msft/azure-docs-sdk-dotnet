@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Compute.Batch",
   "GUID": "31E3C0375319420AB14ECC55F2A6E5FCFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -37,7 +37,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.PoolExistsAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.PoolExists(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
@@ -45,7 +45,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.JobScheduleExistsAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.JobScheduleExists(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
@@ -53,7 +53,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.GetTaskFilePropertiesAsync(System.String,System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.GetTaskFileProperties(System.String,System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
@@ -61,7 +61,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.GetNodeFilePropertiesAsync(System.String,System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.GetNodeFileProperties(System.String,System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
@@ -69,7 +69,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.UpdatePoolAsync(System.String,Azure.Compute.Batch.BatchPoolUpdateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.UpdatePool(System.String,Azure.Compute.Batch.BatchPoolUpdateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -77,7 +77,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.UpdateJobAsync(System.String,Azure.Compute.Batch.BatchJobUpdateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.UpdateJob(System.String,Azure.Compute.Batch.BatchJobUpdateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -85,7 +85,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.UpdateJobScheduleAsync(System.String,Azure.Compute.Batch.BatchJobScheduleUpdateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.UpdateJobSchedule(System.String,Azure.Compute.Batch.BatchJobScheduleUpdateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -93,7 +93,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.CreateTasksAsync(System.String,System.Collections.Generic.IEnumerable{Azure.Compute.Batch.BatchTaskCreateOptions},Azure.Compute.Batch.CreateTasksOptions,System.Nullable{System.TimeSpan},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.CreateTasks(System.String,System.Collections.Generic.IEnumerable{Azure.Compute.Batch.BatchTaskCreateOptions},Azure.Compute.Batch.CreateTasksOptions,System.Nullable{System.TimeSpan},System.Threading.CancellationToken)",
@@ -101,7 +101,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeleteJobAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeleteJob(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,Azure.RequestContext)",
@@ -109,7 +109,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeleteJobScheduleAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeleteJobSchedule(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,Azure.RequestContext)",
@@ -117,7 +117,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeletePoolAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeletePool(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
@@ -125,7 +125,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.TerminateJobAsync(System.String,Azure.Compute.Batch.BatchJobTerminateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.TerminateJob(System.String,Azure.Compute.Batch.BatchJobTerminateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -133,7 +133,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.TerminateJobScheduleAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.TerminateJobSchedule(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},Azure.RequestConditions,Azure.RequestContext)",
@@ -141,7 +141,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DisableJobAsync(System.String,Azure.Compute.Batch.BatchJobDisableOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DisableJob(System.String,Azure.Compute.Batch.BatchJobDisableOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -149,7 +149,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.EnableJobAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.EnableJob(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
@@ -157,7 +157,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeallocateNodeAsync(System.String,System.String,Azure.Compute.Batch.BatchNodeDeallocateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.DeallocateNode(System.String,System.String,Azure.Compute.Batch.BatchNodeDeallocateOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
@@ -165,7 +165,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.StartNodeAsync(System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.StartNode(System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestContext)",
@@ -173,7 +173,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.RebootNodeAsync(System.String,System.String,Azure.Compute.Batch.BatchNodeRebootOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.RebootNode(System.String,System.String,Azure.Compute.Batch.BatchNodeRebootOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
@@ -181,7 +181,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.ReimageNodeAsync(System.String,System.String,Azure.Compute.Batch.BatchNodeReimageOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.ReimageNode(System.String,System.String,Azure.Compute.Batch.BatchNodeReimageOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)",
@@ -189,7 +189,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.ResizePoolAsync(System.String,Azure.Compute.Batch.BatchPoolResizeOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.ResizePool(System.String,Azure.Compute.Batch.BatchPoolResizeOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -197,7 +197,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.StopPoolResizeAsync(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.StopPoolResize(System.String,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,Azure.RequestContext)",
@@ -205,7 +205,7 @@
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.RemoveNodesAsync(System.String,Azure.Compute.Batch.BatchNodeRemoveOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Generated/BatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5b869ebdbf17c39411855036384c185cb285b24c/sdk/batch/Azure.Compute.Batch/src/Custom/BatchClientCustom.cs"
         },
         {
           "DocsId": "M:Azure.Compute.Batch.BatchClient.RemoveNodes(System.String,Azure.Compute.Batch.BatchNodeRemoveOptions,System.Nullable{System.TimeSpan},System.Nullable{System.DateTimeOffset},Azure.RequestConditions,System.Threading.CancellationToken)",

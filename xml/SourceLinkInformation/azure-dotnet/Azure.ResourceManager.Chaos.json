@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Chaos",
   "GUID": "7593098AA156449FB104ECCB53BFEA71FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -245,7 +245,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.ChaosExtensions.GetChaosExperimentAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Customization/ChaosExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Generated/Extensions/ChaosExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.ChaosExtensions.GetChaosExperiment(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -257,7 +257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.ChaosExtensions.GetChaosTargetAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Customization/ChaosExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Generated/Extensions/ChaosExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.ChaosExtensions.GetChaosTarget(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -269,7 +269,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.ChaosExtensions.GetChaosTargetMetadataAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Customization/ChaosExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Generated/Extensions/ChaosExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.ChaosExtensions.GetChaosTargetMetadata(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -1681,7 +1681,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.Mocking.MockableChaosSubscriptionResource.GetChaosTargetMetadataAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Customization/MockableChaosSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/89ec1c9f0571919c81fad2f803946ceb785e3c19/sdk/chaos/Azure.ResourceManager.Chaos/src/Generated/Extensions/MockableChaosSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Chaos.Mocking.MockableChaosSubscriptionResource.GetChaosTargetMetadata(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",

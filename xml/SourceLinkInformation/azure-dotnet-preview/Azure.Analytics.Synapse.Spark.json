@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Analytics.Synapse.Spark",
   "GUID": "D10D505598F34FF39001E46FEA6C6E1EFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -23,7 +23,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkBatchClient.GetSparkBatchJobsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkBatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkBatchClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkBatchClient.GetSparkBatchJobs(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkBatchClient.GetSparkBatchJobAsync(System.Int32,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkBatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkBatchClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkBatchClient.GetSparkBatchJob(System.Int32,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkBatchClient.CancelSparkBatchJobAsync(System.Int32,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkBatchClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkBatchClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkBatchClient.CancelSparkBatchJob(System.Int32,System.Threading.CancellationToken)",
@@ -131,7 +131,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkSessionsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkSessions(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -139,7 +139,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkSessionAsync(System.Int32,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkSession(System.Int32,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -147,7 +147,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.CancelSparkSessionAsync(System.Int32,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.CancelSparkSession(System.Int32,System.Threading.CancellationToken)",
@@ -155,7 +155,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.ResetSparkSessionTimeoutAsync(System.Int32,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.ResetSparkSessionTimeout(System.Int32,System.Threading.CancellationToken)",
@@ -163,7 +163,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkStatementsAsync(System.Int32,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkStatements(System.Int32,System.Threading.CancellationToken)",
@@ -171,7 +171,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkStatementAsync(System.Int32,System.Int32,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.GetSparkStatement(System.Int32,System.Int32,System.Threading.CancellationToken)",
@@ -179,7 +179,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.CancelSparkStatementAsync(System.Int32,System.Int32,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Customization/SparkSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a9a4f3ba1167ddab347a93de093e3e4a5da9240b/sdk/synapse/Azure.Analytics.Synapse.Spark/src/Generated/SparkSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Synapse.Spark.SparkSessionClient.CancelSparkStatement(System.Int32,System.Int32,System.Threading.CancellationToken)",

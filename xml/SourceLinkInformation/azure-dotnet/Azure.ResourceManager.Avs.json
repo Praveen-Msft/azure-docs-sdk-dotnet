@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Avs",
   "GUID": "E2F1B1E544914B0FBF743AE06E13A589FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -97,7 +97,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.Get(System.Threading.CancellationToken)",
@@ -105,7 +105,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Avs.Models.AvsPrivateCloudClusterPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.Update(Azure.WaitUntil,Azure.ResourceManager.Avs.Models.AvsPrivateCloudClusterPatch,System.Threading.CancellationToken)",
@@ -113,7 +113,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -121,7 +121,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetClusterZonesAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetClusterZones(System.Threading.CancellationToken)",
@@ -133,7 +133,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAvsPrivateCloudDatastoreAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAvsPrivateCloudDatastore(System.String,System.Threading.CancellationToken)",
@@ -145,7 +145,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAvsHostAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAvsHost(System.String,System.Threading.CancellationToken)",
@@ -157,7 +157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetPlacementPolicyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetPlacementPolicy(System.String,System.Threading.CancellationToken)",
@@ -169,7 +169,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAvsPrivateCloudClusterVirtualMachineAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource.GetAvsPrivateCloudClusterVirtualMachine(System.String,System.Threading.CancellationToken)",
@@ -497,7 +497,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.Get(System.Threading.CancellationToken)",
@@ -505,7 +505,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Avs.Models.AvsPrivateCloudPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.Update(Azure.WaitUntil,Azure.ResourceManager.Avs.Models.AvsPrivateCloudPatch,System.Threading.CancellationToken)",
@@ -513,7 +513,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -521,7 +521,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetVcfLicenseAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetVcfLicense(System.Threading.CancellationToken)",
@@ -529,7 +529,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAdminCredentialsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAdminCredentials(System.Threading.CancellationToken)",
@@ -537,7 +537,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.RotateNsxtPasswordAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.RotateNsxtPassword(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -545,7 +545,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.RotateVCenterPasswordAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.RotateVCenterPassword(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -553,7 +553,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -561,7 +561,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -569,7 +569,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -581,7 +581,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsPrivateCloudAddonAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsPrivateCloudAddon(System.String,System.Threading.CancellationToken)",
@@ -593,7 +593,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetExpressRouteAuthorizationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetExpressRouteAuthorization(System.String,System.Threading.CancellationToken)",
@@ -605,7 +605,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsCloudLinkAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsCloudLink(System.String,System.Threading.CancellationToken)",
@@ -617,7 +617,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsPrivateCloudClusterAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsPrivateCloudCluster(System.String,System.Threading.CancellationToken)",
@@ -629,7 +629,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetGlobalReachConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetGlobalReachConnection(System.String,System.Threading.CancellationToken)",
@@ -641,7 +641,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetHcxEnterpriseSiteAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetHcxEnterpriseSite(System.String,System.Threading.CancellationToken)",
@@ -657,7 +657,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsLicenseAsync(Azure.ResourceManager.Avs.Models.AvsLicenseName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsLicense(Azure.ResourceManager.Avs.Models.AvsLicenseName,System.Threading.CancellationToken)",
@@ -669,7 +669,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsMaintenanceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsMaintenance(System.String,System.Threading.CancellationToken)",
@@ -681,7 +681,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsProvisionedNetworkAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsProvisionedNetwork(System.String,System.Threading.CancellationToken)",
@@ -693,7 +693,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsPureStoragePolicyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsPureStoragePolicy(System.String,System.Threading.CancellationToken)",
@@ -705,7 +705,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetScriptExecutionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetScriptExecution(System.String,System.Threading.CancellationToken)",
@@ -717,7 +717,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetScriptPackageAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/AvsPrivateCloudResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/AvsPrivateCloudResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetScriptPackage(System.String,System.Threading.CancellationToken)",
@@ -895,7 +895,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsExtensions.GetAvsPrivateCloudAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/Extensions/AvsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/Extensions/AvsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsExtensions.GetAvsPrivateCloud(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -911,7 +911,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsExtensions.CheckAvsTrialAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.Avs.Models.AvsSku,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/Extensions/AvsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/Extensions/AvsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsExtensions.CheckAvsTrialAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.Avs.Models.AvsSku,System.Threading.CancellationToken)",
@@ -919,7 +919,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsExtensions.CheckAvsQuotaAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/Extensions/AvsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/Extensions/AvsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.AvsExtensions.CheckAvsQuotaAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
@@ -957,7 +957,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.ScriptExecutionResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/ScriptExecutionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/ScriptExecutionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.ScriptExecutionResource.Get(System.Threading.CancellationToken)",
@@ -965,7 +965,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.ScriptExecutionResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/ScriptExecutionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/ScriptExecutionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.ScriptExecutionResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -973,7 +973,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.ScriptExecutionResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Avs.ScriptExecutionData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/ScriptExecutionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/ScriptExecutionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.ScriptExecutionResource.Update(Azure.WaitUntil,Azure.ResourceManager.Avs.ScriptExecutionData,System.Threading.CancellationToken)",
@@ -1085,7 +1085,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.Get(System.Threading.CancellationToken)",
@@ -1097,7 +1097,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkDhcpAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkDhcp(System.String,System.Threading.CancellationToken)",
@@ -1109,7 +1109,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkDnsServiceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkDnsService(System.String,System.Threading.CancellationToken)",
@@ -1121,7 +1121,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkDnsZoneAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkDnsZone(System.String,System.Threading.CancellationToken)",
@@ -1133,7 +1133,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkGatewayAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkGateway(System.String,System.Threading.CancellationToken)",
@@ -1145,7 +1145,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkPortMirroringProfileAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkPortMirroringProfile(System.String,System.Threading.CancellationToken)",
@@ -1157,7 +1157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkPublicIPAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkPublicIP(System.String,System.Threading.CancellationToken)",
@@ -1169,7 +1169,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkSegmentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkSegment(System.String,System.Threading.CancellationToken)",
@@ -1181,7 +1181,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkVirtualMachineAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkVirtualMachine(System.String,System.Threading.CancellationToken)",
@@ -1193,7 +1193,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkVmGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/WorkloadNetworkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/WorkloadNetworkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.WorkloadNetworkResource.GetWorkloadNetworkVmGroup(System.String,System.Threading.CancellationToken)",
@@ -6223,7 +6223,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.Mocking.MockableAvsSubscriptionResource.CheckAvsTrialAvailabilityAsync(Azure.Core.AzureLocation,Azure.ResourceManager.Avs.Models.AvsSku,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/Extensions/MockableAvsSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/Extensions/MockableAvsSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.Mocking.MockableAvsSubscriptionResource.CheckAvsTrialAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.Avs.Models.AvsSku,System.Threading.CancellationToken)",
@@ -6231,7 +6231,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.Mocking.MockableAvsSubscriptionResource.CheckAvsQuotaAvailabilityAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Customized/Extensions/MockableAvsSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5a496e14b6cbdc7957ba2fb01c409163d8fd2c0f/sdk/avs/Azure.ResourceManager.Avs/src/Generated/Extensions/MockableAvsSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Avs.Mocking.MockableAvsSubscriptionResource.CheckAvsQuotaAvailability(Azure.Core.AzureLocation,System.Threading.CancellationToken)",

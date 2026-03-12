@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Security.ConfidentialLedger",
   "GUID": "C501C719E87F4914863763660079042EFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -35,7 +35,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetConstitutionAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetConstitution(Azure.RequestContext)",
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetEnclaveQuotesAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetEnclaveQuotes(Azure.RequestContext)",
@@ -51,7 +51,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.CreateLedgerEntryAsync(Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.CreateLedgerEntry(Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -59,7 +59,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetLedgerEntryAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetLedgerEntry(System.String,System.String,Azure.RequestContext)",
@@ -67,7 +67,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetReceiptAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetReceipt(System.String,Azure.RequestContext)",
@@ -75,7 +75,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetTransactionStatusAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetTransactionStatus(System.String,Azure.RequestContext)",
@@ -83,7 +83,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetCurrentLedgerEntryAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetCurrentLedgerEntry(System.String,Azure.RequestContext)",
@@ -91,7 +91,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.DeleteUserAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.DeleteUser(System.String,Azure.RequestContext)",
@@ -99,7 +99,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetUserAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.GetUser(System.String,Azure.RequestContext)",
@@ -107,7 +107,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.CreateOrUpdateUserAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.ConfidentialLedgerClient.CreateOrUpdateUser(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -183,7 +183,7 @@
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.Certificate.ConfidentialLedgerCertificateClient.GetLedgerIdentityAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/ConfidentialLedgerCertificateClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b4b3c408b0c889aea7b1280a47ab653887a47db4/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/Generated/ConfidentialLedgerCertificateClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.ConfidentialLedger.Certificate.ConfidentialLedgerCertificateClient.GetLedgerIdentity(System.String,Azure.RequestContext)",

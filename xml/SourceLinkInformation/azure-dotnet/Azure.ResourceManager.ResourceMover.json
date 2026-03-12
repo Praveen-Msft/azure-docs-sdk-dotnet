@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.ResourceMover",
   "GUID": "53C9CE7B05164D0CB6B364478B7009B0FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -61,7 +61,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.GetMoverResourceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.GetMoverResource(System.String,System.Threading.CancellationToken)",
@@ -69,7 +69,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.Get(System.Threading.CancellationToken)",
@@ -77,7 +77,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.UpdateAsync(Azure.ResourceManager.ResourceMover.Models.MoverResourceSetPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.Update(Azure.ResourceManager.ResourceMover.Models.MoverResourceSetPatch,System.Threading.CancellationToken)",
@@ -85,7 +85,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.PrepareAsync(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverPrepareContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.Prepare(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverPrepareContent,System.Threading.CancellationToken)",
@@ -93,7 +93,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.InitiateMoveAsync(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverResourceMoveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.InitiateMove(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverResourceMoveContent,System.Threading.CancellationToken)",
@@ -101,7 +101,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.CommitAsync(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverCommitContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.Commit(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverCommitContent,System.Threading.CancellationToken)",
@@ -109,7 +109,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.DiscardAsync(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverDiscardContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.Discard(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverDiscardContent,System.Threading.CancellationToken)",
@@ -117,7 +117,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.ResolveDependenciesAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.ResolveDependencies(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -125,7 +125,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.BulkRemoveAsync(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverBulkRemoveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.BulkRemove(Azure.WaitUntil,Azure.ResourceManager.ResourceMover.Models.MoverBulkRemoveContent,System.Threading.CancellationToken)",
@@ -133,7 +133,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.GetRequiredForResourcesAsync(Azure.Core.ResourceIdentifier,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Customized/MoverResourceSetResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/dc30246d41318a1bdb7bc5b832299daae1cf6b35/sdk/resourcemover/Azure.ResourceManager.ResourceMover/src/Generated/MoverResourceSetResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceMover.MoverResourceSetResource.GetRequiredForResources(Azure.Core.ResourceIdentifier,System.Threading.CancellationToken)",

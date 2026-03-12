@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.AI.ContentUnderstanding",
   "GUID": "7101AFD176BA4237A32A1ABA67721185FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -221,7 +221,7 @@
       "Members": [
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.AnalyzeAsync(Azure.WaitUntil,System.String,System.Collections.Generic.IEnumerable{Azure.AI.ContentUnderstanding.AnalyzeInput},System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.AI.ContentUnderstanding.ProcessingLocation},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/Generated/ContentUnderstandingClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/ContentUnderstandingClient.Customizations.cs"
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.Analyze(Azure.WaitUntil,System.String,System.Collections.Generic.IEnumerable{Azure.AI.ContentUnderstanding.AnalyzeInput},System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.AI.ContentUnderstanding.ProcessingLocation},System.Threading.CancellationToken)",
@@ -229,7 +229,7 @@
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.AnalyzeBinaryAsync(Azure.WaitUntil,System.String,System.BinaryData,System.String,System.Nullable{Azure.AI.ContentUnderstanding.ProcessingLocation},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/Generated/ContentUnderstandingClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/ContentUnderstandingClient.Customizations.cs"
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.AnalyzeBinary(Azure.WaitUntil,System.String,System.BinaryData,System.String,System.Nullable{Azure.AI.ContentUnderstanding.ProcessingLocation},System.String,System.Threading.CancellationToken)",
@@ -237,7 +237,7 @@
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.AnalyzeAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/Generated/ContentUnderstandingClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/ContentUnderstandingClient.Customizations.cs"
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.Analyze(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)",
@@ -245,7 +245,7 @@
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.AnalyzeBinaryAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.String,System.String,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/Generated/ContentUnderstandingClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/ContentUnderstandingClient.Customizations.cs"
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.AnalyzeBinary(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.String,System.String,System.String,System.String,Azure.RequestContext)",
@@ -257,7 +257,7 @@
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.UpdateAnalyzerAsync(System.String,Azure.AI.ContentUnderstanding.ContentAnalyzer,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/Generated/ContentUnderstandingClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/ca2de13e2e4baf3e775bef3edaf5bf327602609f/sdk/contentunderstanding/Azure.AI.ContentUnderstanding/src/ContentUnderstandingClient.Customizations.cs"
         },
         {
           "DocsId": "M:Azure.AI.ContentUnderstanding.ContentUnderstandingClient.UpdateDefaults(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",

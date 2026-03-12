@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Hci",
   "GUID": "8F975C0AC2BE4541AE05AA4123FA732DFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/ArcExtensionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/ArcExtensionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.Get(System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/ArcExtensionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/ArcExtensionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -47,7 +47,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.ArcExtensionPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/ArcExtensionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/ArcExtensionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.Update(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.ArcExtensionPatch,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.UpgradeAsync(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.ArcExtensionUpgradeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/ArcExtensionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/ArcExtensionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.ArcExtensionResource.Upgrade(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.ArcExtensionUpgradeContent,System.Threading.CancellationToken)",
@@ -125,7 +125,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciExtensions.GetHciEdgeDeviceAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/Extensions/HciExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/Extensions/HciExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciExtensions.GetHciEdgeDevice(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -185,7 +185,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciExtensions.GetHciClusterAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/Extensions/HciExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/Extensions/HciExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciExtensions.GetHciCluster(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -255,7 +255,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetArcSettingAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetArcSetting(System.String,System.Threading.CancellationToken)",
@@ -267,7 +267,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterDeploymentSettingAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterDeploymentSetting(System.String,System.Threading.CancellationToken)",
@@ -279,7 +279,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterPublisherAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterPublisher(System.String,System.Threading.CancellationToken)",
@@ -291,7 +291,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterSecuritySettingAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterSecuritySetting(System.String,System.Threading.CancellationToken)",
@@ -307,7 +307,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterUpdateAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetHciClusterUpdate(System.String,System.Threading.CancellationToken)",
@@ -315,7 +315,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.Get(System.Threading.CancellationToken)",
@@ -323,7 +323,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -331,7 +331,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.UpdateAsync(Azure.ResourceManager.Hci.Models.HciClusterPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.Update(Azure.ResourceManager.Hci.Models.HciClusterPatch,System.Threading.CancellationToken)",
@@ -339,7 +339,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.UploadCertificateAsync(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.HciClusterCertificateContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.UploadCertificate(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.HciClusterCertificateContent,System.Threading.CancellationToken)",
@@ -347,7 +347,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.CreateIdentityAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.CreateIdentity(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -355,7 +355,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.ExtendSoftwareAssuranceBenefitAsync(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.SoftwareAssuranceChangeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.ExtendSoftwareAssuranceBenefit(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.SoftwareAssuranceChangeContent,System.Threading.CancellationToken)",
@@ -363,7 +363,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.TriggerLogCollectionAsync(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.LogCollectionContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.TriggerLogCollection(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.LogCollectionContent,System.Threading.CancellationToken)",
@@ -371,7 +371,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.ConfigureRemoteSupportAsync(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.RemoteSupportContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.ConfigureRemoteSupport(Azure.WaitUntil,Azure.ResourceManager.Hci.Models.RemoteSupportContent,System.Threading.CancellationToken)",
@@ -387,7 +387,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -395,7 +395,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -403,7 +403,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/HciClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/HciClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.HciClusterResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -3591,7 +3591,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetHciEdgeDeviceAsync(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Custom/Extensions/MockableHciArmClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/azurestackhci/Azure.ResourceManager.Hci/src/Generated/Extensions/MockableHciArmClient.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetHciEdgeDevice(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",

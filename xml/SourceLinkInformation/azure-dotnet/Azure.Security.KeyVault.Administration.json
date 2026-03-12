@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Security.KeyVault.Administration",
   "GUID": "B432A7DC13A8426CB7A39ECFA69A76C7FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -83,7 +83,7 @@
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.GetRoleDefinitionAsync(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/Generated/KeyVaultAccessControlClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/KeyVaultAccessControlClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.CreateOrUpdateRoleDefinitionAsync(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.Nullable{System.Guid},System.Threading.CancellationToken)",
@@ -95,7 +95,7 @@
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.CreateOrUpdateRoleDefinitionAsync(Azure.Security.KeyVault.Administration.CreateOrUpdateRoleDefinitionOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/Generated/KeyVaultAccessControlClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/KeyVaultAccessControlClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.CreateOrUpdateRoleDefinition(Azure.Security.KeyVault.Administration.CreateOrUpdateRoleDefinitionOptions,System.Threading.CancellationToken)",
@@ -103,7 +103,7 @@
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.DeleteRoleDefinitionAsync(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/Generated/KeyVaultAccessControlClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/KeyVaultAccessControlClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.DeleteRoleDefinition(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.Guid,System.Threading.CancellationToken)",
@@ -123,7 +123,7 @@
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.CreateRoleAssignmentAsync(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.String,System.String,System.Nullable{System.Guid},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/Generated/KeyVaultAccessControlClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/KeyVaultAccessControlClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.GetRoleAssignment(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.String,System.Threading.CancellationToken)",
@@ -131,7 +131,7 @@
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.GetRoleAssignmentAsync(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/Generated/KeyVaultAccessControlClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fc23a898906fc3a5fadc7d7b999f14a4099fe88a/sdk/keyvault/Azure.Security.KeyVault.Administration/src/KeyVaultAccessControlClient.cs"
         },
         {
           "DocsId": "M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.DeleteRoleAssignment(Azure.Security.KeyVault.Administration.KeyVaultRoleScope,System.String,System.Threading.CancellationToken)",

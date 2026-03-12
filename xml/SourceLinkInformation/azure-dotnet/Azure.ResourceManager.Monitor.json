@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Monitor",
   "GUID": "05507FF6B06E4164A70D15D42666D178FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDiagnosticSettingAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDiagnosticSetting(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -203,7 +203,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDiagnosticSettingsCategoryAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDiagnosticSettingsCategory(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -219,7 +219,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDataCollectionRuleAssociationAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDataCollectionRuleAssociation(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -335,7 +335,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetAutoscaleSettingAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetAutoscaleSetting(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -347,7 +347,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetAlertRuleAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetAlertRule(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -359,7 +359,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetActionGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetActionGroup(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -371,7 +371,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetMetricAlertAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetMetricAlert(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -383,7 +383,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetScheduledQueryRuleAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetScheduledQueryRule(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -395,7 +395,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetMonitorPrivateLinkScopeAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetMonitorPrivateLinkScope(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -407,7 +407,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetActivityLogAlertAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetActivityLogAlert(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -419,7 +419,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDataCollectionEndpointAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDataCollectionEndpoint(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -431,7 +431,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDataCollectionRuleAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetDataCollectionRule(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -443,7 +443,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetMonitorWorkspaceResourceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetMonitorWorkspaceResource(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -451,7 +451,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetPrivateLinkScopeOperationStatusAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetPrivateLinkScopeOperationStatus(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -463,7 +463,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetLogProfileAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MonitorExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MonitorExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.MonitorExtensions.GetLogProfile(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)",
@@ -13939,7 +13939,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetAutoscaleSettingAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetAutoscaleSetting(System.String,System.Threading.CancellationToken)",
@@ -13951,7 +13951,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetAlertRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetAlertRule(System.String,System.Threading.CancellationToken)",
@@ -13963,7 +13963,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetActionGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetActionGroup(System.String,System.Threading.CancellationToken)",
@@ -13975,7 +13975,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetMetricAlertAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetMetricAlert(System.String,System.Threading.CancellationToken)",
@@ -13987,7 +13987,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetScheduledQueryRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetScheduledQueryRule(System.String,System.Threading.CancellationToken)",
@@ -13999,7 +13999,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetMonitorPrivateLinkScopeAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetMonitorPrivateLinkScope(System.String,System.Threading.CancellationToken)",
@@ -14011,7 +14011,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetActivityLogAlertAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetActivityLogAlert(System.String,System.Threading.CancellationToken)",
@@ -14023,7 +14023,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetDataCollectionEndpointAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetDataCollectionEndpoint(System.String,System.Threading.CancellationToken)",
@@ -14035,7 +14035,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetDataCollectionRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetDataCollectionRule(System.String,System.Threading.CancellationToken)",
@@ -14047,7 +14047,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetMonitorWorkspaceResourceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetMonitorWorkspaceResource(System.String,System.Threading.CancellationToken)",
@@ -14055,7 +14055,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetPrivateLinkScopeOperationStatusAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorResourceGroupResource.GetPrivateLinkScopeOperationStatus(System.String,System.Threading.CancellationToken)",
@@ -14093,7 +14093,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorSubscriptionResource.GetLogProfileAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Customized/Extensions/MockableMonitorSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/757013e6575a0bfac1b7901a0aa9bf83636036e3/sdk/monitor/Azure.ResourceManager.Monitor/src/Generated/Extensions/MockableMonitorSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Monitor.Mocking.MockableMonitorSubscriptionResource.GetLogProfile(System.String,System.Threading.CancellationToken)",

@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Analytics.Purview.DataMap",
   "GUID": "20C36168A52D482F8399296A7B353BE1FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -71,7 +71,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.CreateOrUpdateAsync(Azure.Analytics.Purview.DataMap.AtlasEntityWithExtInfo,System.Nullable{Azure.Analytics.Purview.DataMap.BusinessAttributeUpdateBehavior},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.CreateOrUpdate(Azure.Analytics.Purview.DataMap.AtlasEntityWithExtInfo,System.Nullable{Azure.Analytics.Purview.DataMap.BusinessAttributeUpdateBehavior},System.String,System.Threading.CancellationToken)",
@@ -79,7 +79,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.CreateOrUpdateAsync(Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.CreateOrUpdate(Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)",
@@ -87,7 +87,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByIds(System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -95,7 +95,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByIds(System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -103,7 +103,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchCreateOrUpdateAsync(Azure.Analytics.Purview.DataMap.AtlasEntitiesWithExtInfo,System.String,System.Nullable{Azure.Analytics.Purview.DataMap.BusinessAttributeUpdateBehavior},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchCreateOrUpdate(Azure.Analytics.Purview.DataMap.AtlasEntitiesWithExtInfo,System.String,System.Nullable{Azure.Analytics.Purview.DataMap.BusinessAttributeUpdateBehavior},System.Threading.CancellationToken)",
@@ -111,7 +111,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchCreateOrUpdateAsync(Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchCreateOrUpdate(Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)",
@@ -119,7 +119,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchDeleteAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchDelete(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
@@ -127,7 +127,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchDeleteAsync(System.Collections.Generic.IEnumerable{System.String},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchDelete(System.Collections.Generic.IEnumerable{System.String},Azure.RequestContext)",
@@ -135,7 +135,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationAsync(Azure.Analytics.Purview.DataMap.ClassificationAssociateConfig,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassification(Azure.Analytics.Purview.DataMap.ClassificationAssociateConfig,System.Threading.CancellationToken)",
@@ -143,7 +143,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassification(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -151,7 +151,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetEntityAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetEntity(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -159,7 +159,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetEntityAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetEntity(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -167,7 +167,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateAttributeByIdAsync(System.String,System.String,System.BinaryData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateAttributeById(System.String,System.String,System.BinaryData,System.Threading.CancellationToken)",
@@ -175,7 +175,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateAttributeByIdAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateAttributeById(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -183,7 +183,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.DeleteAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.Delete(System.String,System.Threading.CancellationToken)",
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.DeleteAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.Delete(System.String,Azure.RequestContext)",
@@ -199,7 +199,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassificationAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassification(System.String,System.String,System.Threading.CancellationToken)",
@@ -207,7 +207,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassificationAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassification(System.String,System.String,Azure.RequestContext)",
@@ -215,7 +215,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveClassificationAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveClassification(System.String,System.String,Azure.RequestContext)",
@@ -223,7 +223,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassificationsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassifications(System.String,System.Threading.CancellationToken)",
@@ -231,7 +231,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassificationsAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetClassifications(System.String,Azure.RequestContext)",
@@ -239,7 +239,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationsAsync(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassifications(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.Threading.CancellationToken)",
@@ -247,7 +247,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationsAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassifications(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -255,7 +255,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassificationsAsync(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassifications(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.Threading.CancellationToken)",
@@ -263,7 +263,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassificationsAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassifications(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -271,7 +271,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByUniqueAttributeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByUniqueAttribute(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)",
@@ -279,7 +279,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByUniqueAttributeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetByUniqueAttribute(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,Azure.RequestContext)",
@@ -287,7 +287,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateByUniqueAttributeAsync(System.String,Azure.Analytics.Purview.DataMap.AtlasEntityWithExtInfo,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateByUniqueAttribute(System.String,Azure.Analytics.Purview.DataMap.AtlasEntityWithExtInfo,System.String,System.Threading.CancellationToken)",
@@ -295,7 +295,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateByUniqueAttributeAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateByUniqueAttribute(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -303,7 +303,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.DeleteByUniqueAttributeAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.DeleteByUniqueAttribute(System.String,System.String,System.Threading.CancellationToken)",
@@ -311,7 +311,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.DeleteByUniqueAttributeAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.DeleteByUniqueAttribute(System.String,System.String,Azure.RequestContext)",
@@ -319,7 +319,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveClassificationByUniqueAttributeAsync(System.String,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveClassificationByUniqueAttribute(System.String,System.String,System.String,Azure.RequestContext)",
@@ -327,7 +327,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationsByUniqueAttributeAsync(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationsByUniqueAttribute(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.String,System.Threading.CancellationToken)",
@@ -335,7 +335,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationsByUniqueAttributeAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddClassificationsByUniqueAttribute(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -343,7 +343,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassificationsUniqueByAttributeAsync(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassificationsUniqueByAttribute(System.String,System.Collections.Generic.IEnumerable{Azure.Analytics.Purview.DataMap.AtlasClassification},System.String,System.Threading.CancellationToken)",
@@ -351,7 +351,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassificationsUniqueByAttributeAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.UpdateClassificationsUniqueByAttribute(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -359,7 +359,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchSetClassificationsAsync(Azure.Analytics.Purview.DataMap.AtlasEntityHeaders,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchSetClassifications(Azure.Analytics.Purview.DataMap.AtlasEntityHeaders,System.Threading.CancellationToken)",
@@ -367,7 +367,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchSetClassificationsAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchSetClassifications(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -375,7 +375,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchGetByUniqueAttributesAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchGetByUniqueAttributes(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)",
@@ -383,7 +383,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchGetByUniqueAttributesAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.BatchGetByUniqueAttributes(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,Azure.RequestContext)",
@@ -391,7 +391,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetHeaderAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetHeader(System.String,System.Threading.CancellationToken)",
@@ -399,7 +399,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetHeaderAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetHeader(System.String,Azure.RequestContext)",
@@ -407,7 +407,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadataAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData}},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadata(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData}},System.Threading.CancellationToken)",
@@ -415,7 +415,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadataAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadata(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -423,7 +423,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadataAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData}},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadata(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData}},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -431,7 +431,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadataAsync(System.String,Azure.Core.RequestContent,System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadata(System.String,Azure.Core.RequestContent,System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -439,7 +439,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadataAttributesAsync(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadataAttributes(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData},System.Threading.CancellationToken)",
@@ -447,7 +447,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadataAttributesAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveBusinessMetadataAttributes(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -455,7 +455,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadataAttributesAsync(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadataAttributes(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.BinaryData},System.Threading.CancellationToken)",
@@ -463,7 +463,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadataAttributesAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddOrUpdateBusinessMetadataAttributes(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -471,7 +471,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetBusinessMetadataTemplateAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetBusinessMetadataTemplate(System.Threading.CancellationToken)",
@@ -479,7 +479,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetBusinessMetadataTemplateAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.GetBusinessMetadataTemplate(Azure.RequestContext)",
@@ -487,7 +487,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.ImportBusinessMetadataAsync(Azure.Analytics.Purview.DataMap.BusinessMetadataOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.ImportBusinessMetadata(Azure.Analytics.Purview.DataMap.BusinessMetadataOptions,System.Threading.CancellationToken)",
@@ -495,7 +495,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.ImportBusinessMetadataAsync(Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.ImportBusinessMetadata(Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -503,7 +503,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabelsAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabels(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
@@ -511,7 +511,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabelsAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabels(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -519,7 +519,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabelsAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabels(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
@@ -527,7 +527,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabelsAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabels(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -535,7 +535,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabelAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabel(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
@@ -543,7 +543,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabelAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabel(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -551,7 +551,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabelsByUniqueAttributeAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabelsByUniqueAttribute(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)",
@@ -559,7 +559,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabelsByUniqueAttributeAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.RemoveLabelsByUniqueAttribute(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -567,7 +567,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabelsByUniqueAttributeAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabelsByUniqueAttribute(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)",
@@ -575,7 +575,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabelsByUniqueAttributeAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.SetLabelsByUniqueAttribute(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -583,7 +583,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabelsByUniqueAttributeAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabelsByUniqueAttribute(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)",
@@ -591,7 +591,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabelsByUniqueAttributeAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.AddLabelsByUniqueAttribute(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -599,7 +599,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.MoveEntitiesToCollectionAsync(System.String,Azure.Analytics.Purview.DataMap.MoveEntitiesConfig,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.MoveEntitiesToCollection(System.String,Azure.Analytics.Purview.DataMap.MoveEntitiesConfig,System.Threading.CancellationToken)",
@@ -607,7 +607,7 @@
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.MoveEntitiesToCollectionAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Custom/Entity.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fce40ef670392e8a6e3397e252ad6a2e33bb2abc/sdk/purview/Azure.Analytics.Purview.DataMap/src/Generated/Entity.cs"
         },
         {
           "DocsId": "M:Azure.Analytics.Purview.DataMap.Entity.MoveEntitiesToCollection(System.String,Azure.Core.RequestContent,Azure.RequestContext)",

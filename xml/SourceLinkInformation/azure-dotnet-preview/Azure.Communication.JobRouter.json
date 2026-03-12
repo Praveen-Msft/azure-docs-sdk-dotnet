@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Communication.JobRouter",
   "GUID": "586621E8CC8C4C58BC182D730C6B4819FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -1249,7 +1249,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateClassificationPolicyAsync(Azure.Communication.JobRouter.CreateClassificationPolicyOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateClassificationPolicy(Azure.Communication.JobRouter.CreateClassificationPolicyOptions,System.Threading.CancellationToken)",
@@ -1257,7 +1257,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateClassificationPolicyAsync(Azure.Communication.JobRouter.ClassificationPolicy,Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateClassificationPolicy(Azure.Communication.JobRouter.ClassificationPolicy,Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -1265,7 +1265,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateClassificationPolicyAsync(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateClassificationPolicy(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
@@ -1289,7 +1289,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateDistributionPolicyAsync(Azure.Communication.JobRouter.CreateDistributionPolicyOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateDistributionPolicy(Azure.Communication.JobRouter.CreateDistributionPolicyOptions,System.Threading.CancellationToken)",
@@ -1297,7 +1297,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateDistributionPolicyAsync(Azure.Communication.JobRouter.DistributionPolicy,Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateDistributionPolicy(Azure.Communication.JobRouter.DistributionPolicy,Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -1305,7 +1305,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateDistributionPolicyAsync(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateDistributionPolicy(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
@@ -1329,7 +1329,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateExceptionPolicyAsync(Azure.Communication.JobRouter.CreateExceptionPolicyOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateExceptionPolicy(Azure.Communication.JobRouter.CreateExceptionPolicyOptions,System.Threading.CancellationToken)",
@@ -1337,7 +1337,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateExceptionPolicyAsync(Azure.Communication.JobRouter.ExceptionPolicy,Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateExceptionPolicy(Azure.Communication.JobRouter.ExceptionPolicy,Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -1345,7 +1345,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateExceptionPolicyAsync(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateExceptionPolicy(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
@@ -1369,7 +1369,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateQueueAsync(Azure.Communication.JobRouter.CreateQueueOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.CreateQueue(Azure.Communication.JobRouter.CreateQueueOptions,System.Threading.CancellationToken)",
@@ -1377,7 +1377,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateQueueAsync(Azure.Communication.JobRouter.RouterQueue,Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateQueue(Azure.Communication.JobRouter.RouterQueue,Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -1385,7 +1385,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateQueueAsync(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterAdministrationClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterAdministrationClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterAdministrationClient.UpdateQueue(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
@@ -1531,7 +1531,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CreateJobWithClassificationPolicyAsync(Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CreateJobWithClassificationPolicy(Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions,System.Threading.CancellationToken)",
@@ -1539,7 +1539,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CreateJobAsync(Azure.Communication.JobRouter.CreateJobOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CreateJob(Azure.Communication.JobRouter.CreateJobOptions,System.Threading.CancellationToken)",
@@ -1547,7 +1547,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateJobAsync(Azure.Communication.JobRouter.RouterJob,Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateJob(Azure.Communication.JobRouter.RouterJob,Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -1555,7 +1555,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateJobAsync(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateJob(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
@@ -1563,7 +1563,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.ReclassifyJobAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.ReclassifyJob(System.String,System.Threading.CancellationToken)",
@@ -1571,7 +1571,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.ReclassifyJobAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.ReclassifyJob(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -1579,7 +1579,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CloseJobAsync(Azure.Communication.JobRouter.CloseJobOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CloseJob(Azure.Communication.JobRouter.CloseJobOptions,System.Threading.CancellationToken)",
@@ -1587,7 +1587,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CloseJobAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CloseJob(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -1595,7 +1595,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CancelJobAsync(Azure.Communication.JobRouter.CancelJobOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CancelJob(Azure.Communication.JobRouter.CancelJobOptions,System.Threading.CancellationToken)",
@@ -1603,7 +1603,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CancelJobAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CancelJob(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -1611,7 +1611,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CompleteJobAsync(Azure.Communication.JobRouter.CompleteJobOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CompleteJob(Azure.Communication.JobRouter.CompleteJobOptions,System.Threading.CancellationToken)",
@@ -1619,7 +1619,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CompleteJobAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CompleteJob(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -1627,7 +1627,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.DeclineJobOfferAsync(Azure.Communication.JobRouter.DeclineJobOfferOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.DeclineJobOffer(Azure.Communication.JobRouter.DeclineJobOfferOptions,System.Threading.CancellationToken)",
@@ -1635,7 +1635,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.DeclineJobOfferAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.DeclineJobOffer(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -1643,7 +1643,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UnassignJobAsync(Azure.Communication.JobRouter.UnassignJobOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UnassignJob(Azure.Communication.JobRouter.UnassignJobOptions,System.Threading.CancellationToken)",
@@ -1651,7 +1651,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UnassignJobAsync(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UnassignJob(System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -1675,7 +1675,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CreateWorkerAsync(Azure.Communication.JobRouter.CreateWorkerOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.CreateWorker(Azure.Communication.JobRouter.CreateWorkerOptions,System.Threading.CancellationToken)",
@@ -1683,7 +1683,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateWorkerAsync(Azure.Communication.JobRouter.RouterWorker,Azure.RequestConditions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateWorker(Azure.Communication.JobRouter.RouterWorker,Azure.RequestConditions,System.Threading.CancellationToken)",
@@ -1691,7 +1691,7 @@
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateWorkerAsync(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/Generated/JobRouterClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5d4a448db81a340f3c8d996294228d01c95ec0df/sdk/communication/Azure.Communication.JobRouter/src/JobRouterClient.cs"
         },
         {
           "DocsId": "M:Azure.Communication.JobRouter.JobRouterClient.UpdateWorker(System.String,Azure.Core.RequestContent,Azure.RequestConditions,Azure.RequestContext)",

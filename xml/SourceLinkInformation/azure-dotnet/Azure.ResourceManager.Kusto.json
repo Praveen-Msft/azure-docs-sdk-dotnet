@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Kusto",
   "GUID": "BB2FF6E8C0B94A0398F7CC90CC3F359CFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -109,7 +109,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Kusto.KustoDatabaseData,System.Nullable{Azure.ResourceManager.Kusto.Models.KustoDatabaseCallerRole},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Kusto.KustoDatabaseData,System.Nullable{Azure.ResourceManager.Kusto.Models.KustoDatabaseCallerRole},System.Threading.CancellationToken)",
@@ -117,7 +117,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -125,7 +125,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -133,7 +133,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -253,7 +253,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetKustoDatabasePrincipalAssignmentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetKustoDatabasePrincipalAssignment(System.String,System.Threading.CancellationToken)",
@@ -265,7 +265,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetKustoScriptAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetKustoScript(System.String,System.Threading.CancellationToken)",
@@ -277,7 +277,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetKustoDataConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetKustoDataConnection(System.String,System.Threading.CancellationToken)",
@@ -285,7 +285,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.Get(System.Threading.CancellationToken)",
@@ -293,7 +293,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -301,7 +301,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Kusto.KustoDatabaseData,System.Nullable{Azure.ResourceManager.Kusto.Models.KustoDatabaseCallerRole},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.Update(Azure.WaitUntil,Azure.ResourceManager.Kusto.KustoDatabaseData,System.Nullable{Azure.ResourceManager.Kusto.Models.KustoDatabaseCallerRole},System.Threading.CancellationToken)",
@@ -333,7 +333,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.InviteFollowerDatabaseAsync(Azure.ResourceManager.Kusto.Models.DatabaseInviteFollowerContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.InviteFollowerDatabase(Azure.ResourceManager.Kusto.Models.DatabaseInviteFollowerContent,System.Threading.CancellationToken)",
@@ -341,7 +341,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.CheckKustoDatabasePrincipalAssignmentNameAvailabilityAsync(Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipalAssignmentNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.CheckKustoDatabasePrincipalAssignmentNameAvailability(Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipalAssignmentNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -349,7 +349,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.CheckKustoScriptNameAvailabilityAsync(Azure.ResourceManager.Kusto.Models.KustoScriptNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.CheckKustoScriptNameAvailability(Azure.ResourceManager.Kusto.Models.KustoScriptNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -357,7 +357,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.ValidateDataConnectionAsync(Azure.WaitUntil,Azure.ResourceManager.Kusto.Models.DataConnectionValidationContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.ValidateDataConnection(Azure.WaitUntil,Azure.ResourceManager.Kusto.Models.DataConnectionValidationContent,System.Threading.CancellationToken)",
@@ -365,7 +365,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.CheckKustoDataConnectionNameAvailabilityAsync(Azure.ResourceManager.Kusto.Models.KustoDataConnectionNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Customized/KustoDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/49375bac70586b5be87942adc6684d8b081d6888/sdk/kusto/Azure.ResourceManager.Kusto/src/Generated/KustoDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Kusto.KustoDatabaseResource.CheckKustoDataConnectionNameAvailability(Azure.ResourceManager.Kusto.Models.KustoDataConnectionNameAvailabilityContent,System.Threading.CancellationToken)",

@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.ServiceNetworking",
   "GUID": "FA77808339564EDEAB8C6AB49860A500FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -241,7 +241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.ServiceNetworkingExtensions.GetTrafficControllerAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/Extensions/ServiceNetworkingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/Extensions/ServiceNetworkingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.ServiceNetworkingExtensions.GetTrafficController(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -567,7 +567,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetTrafficControllerAssociationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetTrafficControllerAssociation(System.String,System.Threading.CancellationToken)",
@@ -579,7 +579,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetTrafficControllerFrontendAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetTrafficControllerFrontend(System.String,System.Threading.CancellationToken)",
@@ -591,7 +591,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetApplicationGatewayForContainersSecurityPolicyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetApplicationGatewayForContainersSecurityPolicy(System.String,System.Threading.CancellationToken)",
@@ -599,7 +599,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.Get(System.Threading.CancellationToken)",
@@ -607,7 +607,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -615,7 +615,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.UpdateAsync(Azure.ResourceManager.ServiceNetworking.Models.TrafficControllerPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.Update(Azure.ResourceManager.ServiceNetworking.Models.TrafficControllerPatch,System.Threading.CancellationToken)",
@@ -623,7 +623,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -631,7 +631,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -639,7 +639,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Custom/TrafficControllerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/36ea78c24db2cc169830f6ba6b0dfa38e8714aaf/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking/src/Generated/TrafficControllerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ServiceNetworking.TrafficControllerResource.RemoveTag(System.String,System.Threading.CancellationToken)",

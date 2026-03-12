@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.NotificationHubs",
   "GUID": "1A4C728479174B9D816B6CD04F74D022FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubsExtensions.GetNotificationHubNamespaceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/Extensions/NotificationHubsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/Extensions/NotificationHubsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubsExtensions.GetNotificationHubNamespace(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -51,7 +51,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubsExtensions.CheckNotificationHubNamespaceAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/Extensions/NotificationHubsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/Extensions/NotificationHubsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubsExtensions.CheckNotificationHubNamespaceAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent,System.Threading.CancellationToken)",
@@ -85,7 +85,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
@@ -93,7 +93,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -109,7 +109,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -117,7 +117,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -241,7 +241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.Get(System.Threading.CancellationToken)",
@@ -249,7 +249,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -257,7 +257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.Update(Azure.WaitUntil,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
@@ -265,7 +265,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.GetKeysAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.GetKeys(System.Threading.CancellationToken)",
@@ -273,7 +273,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.RegenerateKeysAsync(Azure.ResourceManager.NotificationHubs.Models.NotificationHubPolicyKey,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.RegenerateKeys(Azure.ResourceManager.NotificationHubs.Models.NotificationHubPolicyKey,System.Threading.CancellationToken)",
@@ -281,7 +281,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -289,7 +289,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -297,7 +297,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -363,7 +363,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubData,System.Threading.CancellationToken)",
@@ -371,7 +371,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -387,7 +387,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -395,7 +395,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -433,7 +433,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
@@ -441,7 +441,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -457,7 +457,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -465,7 +465,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -507,7 +507,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.Get(System.Threading.CancellationToken)",
@@ -515,7 +515,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -523,7 +523,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.Update(Azure.WaitUntil,Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData,System.Threading.CancellationToken)",
@@ -531,7 +531,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.GetKeysAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.GetKeys(System.Threading.CancellationToken)",
@@ -539,7 +539,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.RegenerateKeysAsync(Azure.ResourceManager.NotificationHubs.Models.NotificationHubPolicyKey,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.RegenerateKeys(Azure.ResourceManager.NotificationHubs.Models.NotificationHubPolicyKey,System.Threading.CancellationToken)",
@@ -547,7 +547,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -555,7 +555,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -563,7 +563,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceAuthorizationRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceAuthorizationRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -629,7 +629,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceData,System.Threading.CancellationToken)",
@@ -637,7 +637,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -653,7 +653,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -661,7 +661,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubNamespaceCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubNamespaceCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -861,7 +861,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.GetNotificationHubAuthorizationRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.GetNotificationHubAuthorizationRule(System.String,System.Threading.CancellationToken)",
@@ -869,7 +869,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.Get(System.Threading.CancellationToken)",
@@ -877,7 +877,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -885,7 +885,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.DebugSendAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.DebugSend(System.Threading.CancellationToken)",
@@ -893,7 +893,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.GetPnsCredentialsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.GetPnsCredentials(System.Threading.CancellationToken)",
@@ -901,7 +901,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -909,7 +909,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -917,7 +917,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/NotificationHubResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/NotificationHubResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.NotificationHubResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -1551,7 +1551,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.Mocking.MockableNotificationHubsSubscriptionResource.CheckNotificationHubNamespaceAvailabilityAsync(Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Customization/Extensions/MockableNotificationHubsSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/af4bb40d185794e79fe75642991d0d216a5ff2ae/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs/src/Generated/Extensions/MockableNotificationHubsSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.NotificationHubs.Mocking.MockableNotificationHubsSubscriptionResource.CheckNotificationHubNamespaceAvailability(Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent,System.Threading.CancellationToken)",

@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.AI.Projects",
   "GUID": "014453C55A324E3496D9FD22EBC870DCFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -353,7 +353,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentAsync(System.ClientModel.BinaryContent,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentVersion(System.String,System.ClientModel.BinaryContent,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -361,7 +361,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentVersionAsync(System.String,System.ClientModel.BinaryContent,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentVersionFromManifest(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -369,7 +369,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentVersionFromManifestAsync(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentFromManifest(System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -377,7 +377,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.CreateAgentFromManifestAsync(System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.GetAgentVersion(System.String,System.String,System.Threading.CancellationToken)",
@@ -385,7 +385,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.GetAgentVersionAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.UpdateAgent(System.String,System.ClientModel.BinaryContent,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -393,7 +393,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.UpdateAgentAsync(System.String,System.ClientModel.BinaryContent,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.UpdateAgentFromManifest(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -401,7 +401,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.UpdateAgentFromManifestAsync(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.GetAgent(System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -409,7 +409,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.GetAgentAsync(System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.DeleteAgent(System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -417,7 +417,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.DeleteAgentAsync(System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.GetAgentVersion(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -425,7 +425,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.GetAgentVersionAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Agents/AIProjectAgentsOperations.RestClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectAgentsOperations.DeleteAgentVersion(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -645,7 +645,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectConnectionsOperations.GetConnectionAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/AIProjectConnectionsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Connections/AIProjectConnectionsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectConnectionsOperations.GetConnection(System.String,System.Boolean,System.Threading.CancellationToken)",
@@ -653,7 +653,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectConnectionsOperations.GetConnectionAsync(System.String,System.Boolean,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/AIProjectConnectionsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Connections/AIProjectConnectionsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectConnectionsOperations.GetDefaultConnection(System.Nullable{Azure.AI.Projects.ConnectionType},System.Boolean)",
@@ -735,7 +735,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDeploymentsOperations.GetDeploymentAsync(System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/AIProjectDeploymentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDeploymentsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDeploymentsOperations.GetDeployment(System.String,System.Threading.CancellationToken)",
@@ -743,7 +743,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDeploymentsOperations.GetDeploymentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/AIProjectDeploymentsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDeploymentsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDeploymentsOperations.GetDeployments(System.String,System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -1699,7 +1699,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.GetDatasetAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.GetDataset(System.String,System.String,System.Threading.CancellationToken)",
@@ -1707,7 +1707,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.GetDatasetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.Delete(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -1715,7 +1715,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.DeleteAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.Delete(System.String,System.String,System.Threading.CancellationToken)",
@@ -1723,7 +1723,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.CreateOrUpdate(System.String,System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -1731,7 +1731,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.CreateOrUpdateAsync(System.String,System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.PendingUpload(System.String,System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -1739,7 +1739,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.PendingUploadAsync(System.String,System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.PendingUpload(System.String,System.String,Azure.AI.Projects.PendingUploadConfiguration,System.Threading.CancellationToken)",
@@ -1747,7 +1747,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.PendingUploadAsync(System.String,System.String,Azure.AI.Projects.PendingUploadConfiguration,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.GetCredentials(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -1755,7 +1755,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.GetCredentialsAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Datasets/AIProjectDatasetsOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectDatasetsOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectDatasetsOperations.GetCredentials(System.String,System.String,System.Threading.CancellationToken)",
@@ -2139,7 +2139,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.GetIndexAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Index/AIProjectIndexesOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectIndexesOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.GetIndex(System.String,System.String,System.Threading.CancellationToken)",
@@ -2147,7 +2147,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.GetIndexAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Index/AIProjectIndexesOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectIndexesOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.Delete(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -2155,7 +2155,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.DeleteAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Index/AIProjectIndexesOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectIndexesOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.Delete(System.String,System.String,System.Threading.CancellationToken)",
@@ -2163,7 +2163,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/Index/AIProjectIndexesOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectIndexesOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectIndexesOperations.CreateOrUpdate(System.String,System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -2287,7 +2287,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.CreateMemoryStoreAsync(System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.CreateMemoryStore(System.String,Azure.AI.Projects.MemoryStoreDefinition,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -2295,7 +2295,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.CreateMemoryStoreAsync(System.String,Azure.AI.Projects.MemoryStoreDefinition,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.UpdateMemoryStore(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -2303,7 +2303,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.UpdateMemoryStoreAsync(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.UpdateMemoryStore(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -2311,7 +2311,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.UpdateMemoryStoreAsync(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetMemoryStore(System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -2319,7 +2319,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetMemoryStoreAsync(System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetMemoryStore(System.String,System.Threading.CancellationToken)",
@@ -2327,7 +2327,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetMemoryStoreAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteMemoryStore(System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -2335,7 +2335,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteMemoryStoreAsync(System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteMemoryStore(System.String,System.Threading.CancellationToken)",
@@ -2343,7 +2343,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteMemoryStoreAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.SearchMemories(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -2351,7 +2351,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.SearchMemoriesAsync(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.UpdateMemories(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -2359,7 +2359,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.UpdateMemoriesAsync(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetUpdateResult(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
@@ -2367,7 +2367,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetUpdateResultAsync(System.String,System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetUpdateResult(System.String,System.String,System.Threading.CancellationToken)",
@@ -2375,7 +2375,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.GetUpdateResultAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteScope(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
@@ -2383,7 +2383,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteScopeAsync(System.String,System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/MemoryStores/AIProjectMemoryStoresOperations.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/AIProjectMemoryStoresOperations.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.AIProjectMemoryStoresOperations.DeleteScope(System.String,System.String,System.Threading.CancellationToken)",
@@ -2715,7 +2715,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.RedTeams.GetAsync(System.String,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/RedTeams/RedTeams.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/RedTeams.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.RedTeams.Get(System.String,System.Threading.CancellationToken)",
@@ -2723,7 +2723,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.RedTeams.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/RedTeams/RedTeams.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/RedTeams.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.RedTeams.GetAll(System.ClientModel.Primitives.RequestOptions)",
@@ -2747,7 +2747,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Projects.RedTeams.CreateAsync(System.ClientModel.BinaryContent,System.ClientModel.Primitives.RequestOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Custom/RedTeams/RedTeams.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/8dfd89d19647cb28096ab39ef73b2e1287bfda73/sdk/ai/Azure.AI.Projects/src/Generated/RedTeams.cs"
         },
         {
           "DocsId": "M:Azure.AI.Projects.RedTeams.Create(Azure.AI.Projects.RedTeam,System.Threading.CancellationToken)",

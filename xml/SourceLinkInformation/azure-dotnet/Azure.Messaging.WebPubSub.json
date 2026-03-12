@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.Messaging.WebPubSub",
   "GUID": "D5751897852740A7BE5B60B430A84AEEFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -151,7 +151,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToGroupAsync(System.String,Azure.Core.RequestContent,Azure.Core.ContentType,System.Collections.Generic.IEnumerable{System.String},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToGroup(System.String,Azure.Core.RequestContent,Azure.Core.ContentType,System.Collections.Generic.IEnumerable{System.String},Azure.RequestContext)",
@@ -159,7 +159,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToUserAsync(System.String,Azure.Core.RequestContent,Azure.Core.ContentType,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToUser(System.String,Azure.Core.RequestContent,Azure.Core.ContentType,Azure.RequestContext)",
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToAllAsync(System.String,Azure.Core.ContentType)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToAll(System.String,Azure.Core.ContentType)",
@@ -199,7 +199,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToUserAsync(System.String,System.String,Azure.Core.ContentType)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToUser(System.String,System.String,Azure.Core.ContentType)",
@@ -207,7 +207,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToConnectionAsync(System.String,System.String,Azure.Core.ContentType)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToConnection(System.String,System.String,Azure.Core.ContentType)",
@@ -215,7 +215,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToGroupAsync(System.String,System.String,Azure.Core.ContentType)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.SendToGroup(System.String,System.String,Azure.Core.ContentType)",
@@ -223,7 +223,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GroupExistsAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GroupExists(System.String,Azure.RequestContext)",
@@ -231,7 +231,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.UserExistsAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.UserExists(System.String,Azure.RequestContext)",
@@ -239,7 +239,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.ConnectionExistsAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.ConnectionExists(System.String,Azure.RequestContext)",
@@ -247,7 +247,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GrantPermissionAsync(Azure.Messaging.WebPubSub.WebPubSubPermission,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GrantPermission(Azure.Messaging.WebPubSub.WebPubSubPermission,System.String,System.String,Azure.RequestContext)",
@@ -255,7 +255,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.RevokePermissionAsync(Azure.Messaging.WebPubSub.WebPubSubPermission,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.RevokePermission(Azure.Messaging.WebPubSub.WebPubSubPermission,System.String,System.String,Azure.RequestContext)",
@@ -263,7 +263,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.CheckPermissionAsync(Azure.Messaging.WebPubSub.WebPubSubPermission,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.CheckPermission(Azure.Messaging.WebPubSub.WebPubSubPermission,System.String,System.String,Azure.RequestContext)",
@@ -271,7 +271,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.AddUserToGroupAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.AddUserToGroup(System.String,System.String,Azure.RequestContext)",
@@ -279,7 +279,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.RemoveUserFromGroupAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.RemoveUserFromGroup(System.String,System.String,Azure.RequestContext)",
@@ -291,7 +291,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.AddConnectionsToGroupsAsync(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.RemoveConnectionsFromGroups(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.RequestContext)",
@@ -299,7 +299,7 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.RemoveConnectionsFromGroupsAsync(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_extensions.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.ListConnectionsInGroup(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)",
@@ -323,15 +323,15 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUriAsync(System.DateTimeOffset,System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_helpers.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUriAsync(System.DateTimeOffset,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_helpers.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUriAsync(System.DateTimeOffset,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},Azure.Messaging.WebPubSub.WebPubSubClientProtocol,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_helpers.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUri(System.TimeSpan,System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
@@ -347,15 +347,15 @@
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUriAsync(System.TimeSpan,System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_helpers.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUriAsync(System.TimeSpan,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_helpers.cs"
         },
         {
           "DocsId": "M:Azure.Messaging.WebPubSub.WebPubSubServiceClient.GetClientAccessUriAsync(System.TimeSpan,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},Azure.Messaging.WebPubSub.WebPubSubClientProtocol,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/Generated/WebPubSubServiceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/79d149f4b332034e52bfc26b392956bcfea262cf/sdk/webpubsub/Azure.Messaging.WebPubSub/src/WebPubSubServiceClient_helpers.cs"
         },
         {
           "DocsId": "P:Azure.Messaging.WebPubSub.WebPubSubServiceClient.Pipeline",

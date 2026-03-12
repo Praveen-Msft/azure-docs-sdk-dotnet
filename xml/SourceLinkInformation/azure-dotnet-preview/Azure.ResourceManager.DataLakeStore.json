@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.DataLakeStore",
   "GUID": "1C3B0ADE090340499314A362766F60C4FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -19,7 +19,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreAccountCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.DataLakeStore.Models.DataLakeStoreAccountCreateOrUpdateContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Custom/DataLakeStoreAccountCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Generated/DataLakeStoreAccountCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreAccountCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.DataLakeStore.Models.DataLakeStoreAccountCreateOrUpdateContent,System.Threading.CancellationToken)",
@@ -27,7 +27,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreAccountCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Custom/DataLakeStoreAccountCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Generated/DataLakeStoreAccountCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreAccountCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreAccountCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Custom/DataLakeStoreAccountCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Generated/DataLakeStoreAccountCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreAccountCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -97,7 +97,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreExtensions.GetDataLakeStoreAccountAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Custom/Extensions/DataLakeStoreExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Generated/Extensions/DataLakeStoreExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreExtensions.GetDataLakeStoreAccount(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -113,7 +113,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreExtensions.CheckDataLakeStoreAccountNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.DataLakeStore.Models.DataLakeStoreAccountNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Custom/Extensions/DataLakeStoreExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Generated/Extensions/DataLakeStoreExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreExtensions.CheckDataLakeStoreAccountNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.DataLakeStore.Models.DataLakeStoreAccountNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -121,7 +121,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreExtensions.GetCapabilityByLocationAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Custom/Extensions/DataLakeStoreExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/667b736ea6f6fcf653b0d04d7c91d2beeac77844/sdk/datalake-store/Azure.ResourceManager.DataLakeStore/src/Generated/Extensions/DataLakeStoreExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.DataLakeStore.DataLakeStoreExtensions.GetCapabilityByLocation(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)",

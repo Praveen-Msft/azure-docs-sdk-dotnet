@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Storage",
   "GUID": "1351C67DEE2047149B6567C68A5D8740FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -19,7 +19,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.BlobContainerData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/BlobContainerCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/BlobContainerCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.BlobContainerData,System.Threading.CancellationToken)",
@@ -27,7 +27,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/BlobContainerCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/BlobContainerCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/BlobContainerCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/BlobContainerCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -51,7 +51,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/BlobContainerCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/BlobContainerCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.BlobContainerCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -89,7 +89,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.EncryptionScopeData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/EncryptionScopeCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/EncryptionScopeCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.EncryptionScopeData,System.Threading.CancellationToken)",
@@ -97,7 +97,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/EncryptionScopeCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/EncryptionScopeCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -113,7 +113,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/EncryptionScopeCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/EncryptionScopeCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -121,7 +121,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/EncryptionScopeCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/EncryptionScopeCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.EncryptionScopeCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -217,7 +217,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.FileShareData,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/FileShareCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/FileShareCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.FileShareData,System.String,System.Threading.CancellationToken)",
@@ -225,7 +225,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/FileShareCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/FileShareCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.Get(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -241,7 +241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.ExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/FileShareCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/FileShareCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.Exists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -249,7 +249,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.GetIfExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/FileShareCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/FileShareCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.FileShareCollection.GetIfExists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -587,7 +587,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.StorageAccountLocalUserData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountLocalUserCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountLocalUserCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.StorageAccountLocalUserData,System.Threading.CancellationToken)",
@@ -595,7 +595,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountLocalUserCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountLocalUserCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -611,7 +611,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountLocalUserCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountLocalUserCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -619,7 +619,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountLocalUserCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountLocalUserCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountLocalUserCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -685,7 +685,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStorageAccountMigrationAsync(Azure.ResourceManager.Storage.Models.StorageAccountMigrationName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStorageAccountMigration(Azure.ResourceManager.Storage.Models.StorageAccountMigrationName,System.Threading.CancellationToken)",
@@ -705,7 +705,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStoragePrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStoragePrivateEndpointConnection(System.String,System.Threading.CancellationToken)",
@@ -717,7 +717,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetObjectReplicationPolicyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetObjectReplicationPolicy(System.String,System.Threading.CancellationToken)",
@@ -729,7 +729,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStorageAccountLocalUserAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStorageAccountLocalUser(System.String,System.Threading.CancellationToken)",
@@ -741,7 +741,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetEncryptionScopeAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetEncryptionScope(System.String,System.Threading.CancellationToken)",
@@ -757,7 +757,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetNetworkSecurityPerimeterConfigurationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetNetworkSecurityPerimeterConfiguration(System.String,System.Threading.CancellationToken)",
@@ -769,7 +769,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStorageTaskAssignmentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetStorageTaskAssignment(System.String,System.Threading.CancellationToken)",
@@ -777,7 +777,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetAsync(System.Nullable{Azure.ResourceManager.Storage.Models.StorageAccountExpand},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.Get(System.Nullable{Azure.ResourceManager.Storage.Models.StorageAccountExpand},System.Threading.CancellationToken)",
@@ -785,7 +785,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -793,7 +793,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.UpdateAsync(Azure.ResourceManager.Storage.Models.StorageAccountPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.Update(Azure.ResourceManager.Storage.Models.StorageAccountPatch,System.Threading.CancellationToken)",
@@ -817,7 +817,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetAccountSasAsync(Azure.ResourceManager.Storage.Models.AccountSasContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetAccountSas(Azure.ResourceManager.Storage.Models.AccountSasContent,System.Threading.CancellationToken)",
@@ -825,7 +825,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetServiceSasAsync(Azure.ResourceManager.Storage.Models.ServiceSasContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.GetServiceSas(Azure.ResourceManager.Storage.Models.ServiceSasContent,System.Threading.CancellationToken)",
@@ -833,7 +833,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.FailoverAsync(Azure.WaitUntil,System.Nullable{Azure.ResourceManager.Storage.Models.StorageAccountFailoverType},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.Failover(Azure.WaitUntil,System.Nullable{Azure.ResourceManager.Storage.Models.StorageAccountFailoverType},System.Threading.CancellationToken)",
@@ -841,7 +841,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.EnableHierarchicalNamespaceAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.EnableHierarchicalNamespace(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -849,7 +849,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.AbortHierarchicalNamespaceMigrationAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.AbortHierarchicalNamespaceMigration(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -857,7 +857,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.CustomerInitiatedMigrationAsync(Azure.WaitUntil,Azure.ResourceManager.Storage.StorageAccountMigrationData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.CustomerInitiatedMigration(Azure.WaitUntil,Azure.ResourceManager.Storage.StorageAccountMigrationData,System.Threading.CancellationToken)",
@@ -865,7 +865,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.RevokeUserDelegationKeysAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.RevokeUserDelegationKeys(System.Threading.CancellationToken)",
@@ -889,7 +889,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -897,7 +897,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -905,7 +905,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageAccountResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageAccountResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageAccountResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -963,7 +963,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.StorageQueueData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageQueueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageQueueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Storage.StorageQueueData,System.Threading.CancellationToken)",
@@ -971,7 +971,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageQueueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageQueueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -987,7 +987,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageQueueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageQueueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -995,7 +995,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Customize/StorageQueueCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eca9f1afeab979ebc876d1b2b4e5402f027dedde/sdk/storage/Azure.ResourceManager.Storage/src/Generated/StorageQueueCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Storage.StorageQueueCollection.GetIfExists(System.String,System.Threading.CancellationToken)",

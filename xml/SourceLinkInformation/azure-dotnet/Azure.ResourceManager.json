@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager",
   "GUID": "626A470C32BC49BC8C57AF918C1EE4B1FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -369,7 +369,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ArmResource.GetPolicyAssignmentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ArmResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/Extensions/ArmResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ArmResource.GetPolicyAssignment(System.String,System.Threading.CancellationToken)",
@@ -381,7 +381,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ArmResource.GetManagementLockAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ArmResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/Extensions/ArmResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ArmResource.GetManagementLock(System.String,System.Threading.CancellationToken)",
@@ -477,7 +477,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetGenericResourceAsync(Azure.Core.ResourceIdentifier,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/Extensions/TenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/TenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetGenericResource(Azure.Core.ResourceIdentifier,System.Threading.CancellationToken)",
@@ -493,7 +493,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetTenantPolicyDefinitionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/Extensions/TenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetTenantPolicyDefinition(System.String,System.Threading.CancellationToken)",
@@ -505,7 +505,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetTenantPolicySetDefinitionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/Extensions/TenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetTenantPolicySetDefinition(System.String,System.Threading.CancellationToken)",
@@ -517,7 +517,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetDataPolicyManifestAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/Extensions/TenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetDataPolicyManifest(System.String,System.Threading.CancellationToken)",
@@ -533,7 +533,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetSubscriptionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/Extensions/TenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetSubscription(System.String,System.Threading.CancellationToken)",
@@ -549,7 +549,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetTenantResourceProviderAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/Extensions/TenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantResource.GetTenantResourceProvider(System.String,System.String,System.Threading.CancellationToken)",
@@ -633,7 +633,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.FeatureResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/FeatureResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/FeatureResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.FeatureResource.Get(System.Threading.CancellationToken)",
@@ -641,7 +641,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.FeatureResource.RegisterAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/FeatureResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/FeatureResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.FeatureResource.Register(System.Threading.CancellationToken)",
@@ -649,7 +649,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.FeatureResource.UnregisterAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/FeatureResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/FeatureResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.FeatureResource.Unregister(System.Threading.CancellationToken)",
@@ -979,7 +979,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.PolicyAssignmentResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/PolicyAssignmentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/PolicyAssignmentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.PolicyAssignmentResource.Get(System.Threading.CancellationToken)",
@@ -987,7 +987,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.PolicyAssignmentResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/PolicyAssignmentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/PolicyAssignmentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.PolicyAssignmentResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -995,7 +995,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.PolicyAssignmentResource.UpdateAsync(Azure.ResourceManager.Resources.Models.PolicyAssignmentPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/PolicyAssignmentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/PolicyAssignmentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.PolicyAssignmentResource.Update(Azure.ResourceManager.Resources.Models.PolicyAssignmentPatch,System.Threading.CancellationToken)",
@@ -1045,7 +1045,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Resources.ResourceGroupData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Resources.ResourceGroupData,System.Threading.CancellationToken)",
@@ -1053,7 +1053,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -1069,7 +1069,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -1077,7 +1077,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -1119,7 +1119,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.Get(System.Threading.CancellationToken)",
@@ -1127,7 +1127,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.DeleteAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.Delete(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -1135,7 +1135,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.UpdateAsync(Azure.ResourceManager.Resources.Models.ResourceGroupPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.Update(Azure.ResourceManager.Resources.Models.ResourceGroupPatch,System.Threading.CancellationToken)",
@@ -1143,7 +1143,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.MoveResourcesAsync(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.ResourcesMoveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.MoveResources(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.ResourcesMoveContent,System.Threading.CancellationToken)",
@@ -1151,7 +1151,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.ValidateMoveResourcesAsync(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.ResourcesMoveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.ValidateMoveResources(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.ResourcesMoveContent,System.Threading.CancellationToken)",
@@ -1159,7 +1159,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.ExportTemplateAsync(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.ExportTemplate,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.ExportTemplate(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.ExportTemplate,System.Threading.CancellationToken)",
@@ -1167,7 +1167,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -1175,7 +1175,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -1183,7 +1183,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceGroupResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -1241,7 +1241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceProviderCollection.GetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceProviderCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceProviderCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceProviderCollection.Get(System.String,System.String,System.Threading.CancellationToken)",
@@ -1257,7 +1257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceProviderCollection.ExistsAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceProviderCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceProviderCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceProviderCollection.Exists(System.String,System.String,System.Threading.CancellationToken)",
@@ -1265,7 +1265,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceProviderCollection.GetIfExistsAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/ResourceProviderCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/ResourceProviderCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.ResourceProviderCollection.GetIfExists(System.String,System.String,System.Threading.CancellationToken)",
@@ -1545,7 +1545,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetSubscriptionPolicyDefinitionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetSubscriptionPolicyDefinition(System.String,System.Threading.CancellationToken)",
@@ -1557,7 +1557,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetSubscriptionPolicySetDefinitionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetSubscriptionPolicySetDefinition(System.String,System.Threading.CancellationToken)",
@@ -1569,7 +1569,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetResourceProviderAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetResourceProvider(System.String,System.String,System.Threading.CancellationToken)",
@@ -1581,7 +1581,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetResourceGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetResourceGroup(System.String,System.Threading.CancellationToken)",
@@ -1589,7 +1589,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.Get(System.Threading.CancellationToken)",
@@ -1597,7 +1597,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.DeletePredefinedTagValueAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.DeletePredefinedTagValue(System.String,System.String,System.Threading.CancellationToken)",
@@ -1605,7 +1605,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.CreateOrUpdatePredefinedTagValueAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.CreateOrUpdatePredefinedTagValue(System.String,System.String,System.Threading.CancellationToken)",
@@ -1613,7 +1613,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.CreateOrUpdatePredefinedTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.CreateOrUpdatePredefinedTag(System.String,System.Threading.CancellationToken)",
@@ -1621,7 +1621,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.DeletePredefinedTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/SubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/SubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.SubscriptionResource.DeletePredefinedTag(System.String,System.Threading.CancellationToken)",
@@ -1707,7 +1707,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/TagResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TagResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.Get(System.Threading.CancellationToken)",
@@ -1715,7 +1715,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/TagResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TagResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1723,7 +1723,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.TagResourcePatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/TagResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TagResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.Update(Azure.WaitUntil,Azure.ResourceManager.Resources.Models.TagResourcePatch,System.Threading.CancellationToken)",
@@ -1731,7 +1731,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.CreateOrUpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Resources.TagResourceData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/TagResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TagResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TagResource.CreateOrUpdate(Azure.WaitUntil,Azure.ResourceManager.Resources.TagResourceData,System.Threading.CancellationToken)",
@@ -1789,7 +1789,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantCollection.CheckResourceNameAsync(Azure.ResourceManager.Resources.Models.ResourceNameValidationContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Custom/TenantCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/TenantCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Resources.TenantCollection.CheckResourceName(Azure.ResourceManager.Resources.Models.ResourceNameValidationContent,System.Threading.CancellationToken)",
@@ -6777,7 +6777,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagementGroups.ManagementGroupResource.GetManagementGroupPolicyDefinitionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/ManagementGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/Extensions/ManagementGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagementGroups.ManagementGroupResource.GetManagementGroupPolicyDefinition(System.String,System.Threading.CancellationToken)",
@@ -6789,7 +6789,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagementGroups.ManagementGroupResource.GetManagementGroupPolicySetDefinitionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/ManagementGroup/Generated/ManagementGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/20650984a4054fe812c415898c0593415c97da06/sdk/resourcemanager/Azure.ResourceManager/src/Resources/Generated/Extensions/ManagementGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagementGroups.ManagementGroupResource.GetManagementGroupPolicySetDefinition(System.String,System.Threading.CancellationToken)",

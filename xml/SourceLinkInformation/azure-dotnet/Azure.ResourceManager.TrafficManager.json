@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.TrafficManager",
   "GUID": "B3412B6E6E994AEDB05724CCC46A84D4FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,System.String,Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.CreateOrUpdate(Azure.WaitUntil,System.String,System.String,Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData,System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.GetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.Get(System.String,System.String,System.Threading.CancellationToken)",
@@ -47,7 +47,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.ExistsAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.Exists(System.String,System.String,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.GetIfExistsAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointCollection.GetIfExists(System.String,System.String,System.Threading.CancellationToken)",
@@ -77,7 +77,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.Get(System.Threading.CancellationToken)",
@@ -85,7 +85,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -93,7 +93,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.UpdateAsync(Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerEndpointResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerEndpointResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.Update(Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData,System.Threading.CancellationToken)",
@@ -155,7 +155,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerUserMetricsResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerUserMetricsResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -163,7 +163,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource.CreateOrUpdateAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Customization/TrafficManagerUserMetricsResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/trafficmanager/Azure.ResourceManager.TrafficManager/src/Generated/TrafficManagerUserMetricsResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource.CreateOrUpdate(Azure.WaitUntil,System.Threading.CancellationToken)",

@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.ApiManagement",
   "GUID": "787C9DC5B3D949D491162DF19C0E6562FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -27,7 +27,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetApiManagementProductPolicyAsync(Azure.ResourceManager.ApiManagement.Models.PolicyName,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyExportFormat},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetApiManagementProductPolicy(Azure.ResourceManager.ApiManagement.Models.PolicyName,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyExportFormat},System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetApiManagementProductTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetApiManagementProductTag(System.String,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetServiceProductApiLinkAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetServiceProductApiLink(System.String,System.Threading.CancellationToken)",
@@ -67,7 +67,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetServiceProductGroupLinkAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetServiceProductGroupLink(System.String,System.Threading.CancellationToken)",
@@ -75,7 +75,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.Get(System.Threading.CancellationToken)",
@@ -83,7 +83,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.DeleteAsync(Azure.WaitUntil,Azure.ETag,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.Delete(Azure.WaitUntil,Azure.ETag,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -91,7 +91,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.UpdateAsync(Azure.ETag,Azure.ResourceManager.ApiManagement.Models.ApiManagementProductPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.Update(Azure.ETag,Azure.ResourceManager.ApiManagement.Models.ApiManagementProductPatch,System.Threading.CancellationToken)",
@@ -107,7 +107,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CheckProductApiEntityExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CheckProductApiEntityExists(System.String,System.Threading.CancellationToken)",
@@ -115,7 +115,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CreateOrUpdateProductApiAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CreateOrUpdateProductApi(System.String,System.Threading.CancellationToken)",
@@ -123,7 +123,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.DeleteProductApiAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.DeleteProductApi(System.String,System.Threading.CancellationToken)",
@@ -139,7 +139,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CheckProductGroupEntityExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CheckProductGroupEntityExists(System.String,System.Threading.CancellationToken)",
@@ -147,7 +147,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CreateOrUpdateProductGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.CreateOrUpdateProductGroup(System.String,System.Threading.CancellationToken)",
@@ -155,7 +155,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.DeleteProductGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.DeleteProductGroup(System.String,System.Threading.CancellationToken)",
@@ -163,7 +163,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetEntityTagAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementProductResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementProductResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementProductResource.GetEntityTag(System.Threading.CancellationToken)",
@@ -229,7 +229,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApi(System.String,System.Threading.CancellationToken)",
@@ -241,7 +241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPolicyAsync(Azure.ResourceManager.ApiManagement.Models.PolicyName,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyExportFormat},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPolicy(Azure.ResourceManager.ApiManagement.Models.PolicyName,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyExportFormat},System.Threading.CancellationToken)",
@@ -253,7 +253,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementTag(System.String,System.Threading.CancellationToken)",
@@ -265,7 +265,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementDiagnosticAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementDiagnostic(System.String,System.Threading.CancellationToken)",
@@ -277,7 +277,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementIssueAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementIssue(System.String,System.Threading.CancellationToken)",
@@ -289,7 +289,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiVersionSetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiVersionSet(System.String,System.Threading.CancellationToken)",
@@ -301,7 +301,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetAuthorizationProviderContractAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetAuthorizationProviderContract(System.String,System.Threading.CancellationToken)",
@@ -313,7 +313,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementAuthorizationServerAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementAuthorizationServer(System.String,System.Threading.CancellationToken)",
@@ -325,7 +325,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementBackendAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementBackend(System.String,System.Threading.CancellationToken)",
@@ -337,7 +337,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementCacheAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementCache(System.String,System.Threading.CancellationToken)",
@@ -349,7 +349,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementCertificateAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementCertificate(System.String,System.Threading.CancellationToken)",
@@ -361,7 +361,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetDocumentationContractAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetDocumentationContract(System.String,System.Threading.CancellationToken)",
@@ -373,7 +373,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementEmailTemplateAsync(Azure.ResourceManager.ApiManagement.Models.TemplateName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementEmailTemplate(Azure.ResourceManager.ApiManagement.Models.TemplateName,System.Threading.CancellationToken)",
@@ -385,7 +385,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementGatewayAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementGateway(System.String,System.Threading.CancellationToken)",
@@ -397,7 +397,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementGroup(System.String,System.Threading.CancellationToken)",
@@ -409,7 +409,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementIdentityProviderAsync(Azure.ResourceManager.ApiManagement.Models.IdentityProviderType,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementIdentityProvider(Azure.ResourceManager.ApiManagement.Models.IdentityProviderType,System.Threading.CancellationToken)",
@@ -421,7 +421,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementLoggerAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementLogger(System.String,System.Threading.CancellationToken)",
@@ -433,7 +433,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementNamedValueAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementNamedValue(System.String,System.Threading.CancellationToken)",
@@ -445,7 +445,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementNotificationAsync(Azure.ResourceManager.ApiManagement.Models.NotificationName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementNotification(Azure.ResourceManager.ApiManagement.Models.NotificationName,System.Threading.CancellationToken)",
@@ -457,7 +457,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementOpenIdConnectProviderAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementOpenIdConnectProvider(System.String,System.Threading.CancellationToken)",
@@ -469,7 +469,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetPolicyFragmentContractAsync(System.String,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyFragmentContentFormat},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetPolicyFragmentContract(System.String,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyFragmentContentFormat},System.Threading.CancellationToken)",
@@ -481,7 +481,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetPortalConfigContractAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetPortalConfigContract(System.String,System.Threading.CancellationToken)",
@@ -493,7 +493,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPortalRevisionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPortalRevision(System.String,System.Threading.CancellationToken)",
@@ -517,7 +517,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPrivateEndpointConnection(System.String,System.Threading.CancellationToken)",
@@ -529,7 +529,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPrivateLinkResourceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementPrivateLinkResource(System.String,System.Threading.CancellationToken)",
@@ -541,7 +541,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementProductAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementProduct(System.String,System.Threading.CancellationToken)",
@@ -553,7 +553,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementGlobalSchemaAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementGlobalSchema(System.String,System.Threading.CancellationToken)",
@@ -565,7 +565,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementTenantSettingAsync(Azure.ResourceManager.ApiManagement.Models.SettingsType,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementTenantSetting(Azure.ResourceManager.ApiManagement.Models.SettingsType,System.Threading.CancellationToken)",
@@ -577,7 +577,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementSubscriptionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementSubscription(System.String,System.Threading.CancellationToken)",
@@ -589,7 +589,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetTenantAccessInfoAsync(Azure.ResourceManager.ApiManagement.Models.AccessName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetTenantAccessInfo(Azure.ResourceManager.ApiManagement.Models.AccessName,System.Threading.CancellationToken)",
@@ -601,7 +601,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementUserAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetApiManagementUser(System.String,System.Threading.CancellationToken)",
@@ -613,7 +613,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetWorkspaceContractAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetWorkspaceContract(System.String,System.Threading.CancellationToken)",
@@ -621,7 +621,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.Get(System.Threading.CancellationToken)",
@@ -629,7 +629,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -637,7 +637,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServicePatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.Update(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServicePatch,System.Threading.CancellationToken)",
@@ -653,7 +653,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.PerformConnectivityCheckAsyncAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConnectivityCheckContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.PerformConnectivityCheckAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConnectivityCheckContent,System.Threading.CancellationToken)",
@@ -669,7 +669,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetContentTypeAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetContentType(System.String,System.Threading.CancellationToken)",
@@ -677,7 +677,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.CreateOrUpdateContentTypeAsync(System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.CreateOrUpdateContentType(System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)",
@@ -685,7 +685,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeleteContentTypeAsync(System.String,Azure.ETag,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeleteContentType(System.String,Azure.ETag,System.Threading.CancellationToken)",
@@ -701,7 +701,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetContentItemEntityTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetContentItemEntityTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -709,7 +709,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetContentItemAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetContentItem(System.String,System.String,System.Threading.CancellationToken)",
@@ -717,7 +717,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.CreateOrUpdateContentItemAsync(System.String,System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.CreateOrUpdateContentItem(System.String,System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)",
@@ -725,7 +725,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeleteContentItemAsync(System.String,System.String,Azure.ETag,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeleteContentItem(System.String,System.String,Azure.ETag,System.Threading.CancellationToken)",
@@ -741,7 +741,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.RestoreAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServiceBackupRestoreContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.Restore(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServiceBackupRestoreContent,System.Threading.CancellationToken)",
@@ -749,7 +749,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.BackupAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServiceBackupRestoreContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.Backup(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServiceBackupRestoreContent,System.Threading.CancellationToken)",
@@ -757,7 +757,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.MigrateToStv2Async(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.MigrateToStv2Contract,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.MigrateToStv2(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.MigrateToStv2Contract,System.Threading.CancellationToken)",
@@ -765,7 +765,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetSsoTokenAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetSsoToken(System.Threading.CancellationToken)",
@@ -773,7 +773,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.ApplyNetworkConfigurationUpdatesAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServiceApplyNetworkConfigurationContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.ApplyNetworkConfigurationUpdates(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ApiManagementServiceApplyNetworkConfigurationContent,System.Threading.CancellationToken)",
@@ -789,7 +789,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetNetworkStatusByLocationAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetNetworkStatusByLocation(Azure.Core.AzureLocation,System.Threading.CancellationToken)",
@@ -845,7 +845,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetQuotaByPeriodKeyAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetQuotaByPeriodKey(System.String,System.String,System.Threading.CancellationToken)",
@@ -853,7 +853,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.UpdateQuotaByPeriodKeyAsync(System.String,System.String,Azure.ResourceManager.ApiManagement.Models.QuotaCounterValueUpdateContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.UpdateQuotaByPeriodKey(System.String,System.String,Azure.ResourceManager.ApiManagement.Models.QuotaCounterValueUpdateContent,System.Threading.CancellationToken)",
@@ -941,7 +941,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeployTenantConfigurationAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConfigurationName,Azure.ResourceManager.ApiManagement.Models.ConfigurationDeployContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.DeployTenantConfiguration(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConfigurationName,Azure.ResourceManager.ApiManagement.Models.ConfigurationDeployContent,System.Threading.CancellationToken)",
@@ -949,7 +949,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.SaveTenantConfigurationAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConfigurationName,Azure.ResourceManager.ApiManagement.Models.ConfigurationSaveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.SaveTenantConfiguration(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConfigurationName,Azure.ResourceManager.ApiManagement.Models.ConfigurationSaveContent,System.Threading.CancellationToken)",
@@ -957,7 +957,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.ValidateTenantConfigurationAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConfigurationName,Azure.ResourceManager.ApiManagement.Models.ConfigurationDeployContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.ValidateTenantConfiguration(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.ConfigurationName,Azure.ResourceManager.ApiManagement.Models.ConfigurationDeployContent,System.Threading.CancellationToken)",
@@ -965,7 +965,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetTenantConfigurationSyncStateAsync(Azure.ResourceManager.ApiManagement.Models.ConfigurationName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.GetTenantConfigurationSyncState(Azure.ResourceManager.ApiManagement.Models.ConfigurationName,System.Threading.CancellationToken)",
@@ -973,7 +973,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -981,7 +981,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -989,7 +989,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementServiceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementServiceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementServiceResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -1055,7 +1055,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetApiManagementUserSubscriptionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetApiManagementUserSubscription(System.String,System.Threading.CancellationToken)",
@@ -1063,7 +1063,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.Get(System.Threading.CancellationToken)",
@@ -1071,7 +1071,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.DeleteAsync(Azure.WaitUntil,Azure.ETag,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.ApiManagement.Models.AppType},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.Delete(Azure.WaitUntil,Azure.ETag,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.ApiManagement.Models.AppType},System.Threading.CancellationToken)",
@@ -1079,7 +1079,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.UpdateAsync(Azure.ETag,Azure.ResourceManager.ApiManagement.Models.ApiManagementUserPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.Update(Azure.ETag,Azure.ResourceManager.ApiManagement.Models.ApiManagementUserPatch,System.Threading.CancellationToken)",
@@ -1087,7 +1087,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GenerateSsoUriAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GenerateSsoUri(System.Threading.CancellationToken)",
@@ -1095,7 +1095,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetSharedAccessTokenAsync(Azure.ResourceManager.ApiManagement.Models.UserTokenContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetSharedAccessToken(Azure.ResourceManager.ApiManagement.Models.UserTokenContent,System.Threading.CancellationToken)",
@@ -1111,7 +1111,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.SendUserConfirmationPasswordAsync(System.Nullable{Azure.ResourceManager.ApiManagement.Models.AppType},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.SendUserConfirmationPassword(System.Nullable{Azure.ResourceManager.ApiManagement.Models.AppType},System.Threading.CancellationToken)",
@@ -1119,7 +1119,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetEntityTagAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiManagementUserResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiManagementUserResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiManagementUserResource.GetEntityTag(System.Threading.CancellationToken)",
@@ -1185,7 +1185,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiReleaseAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiRelease(System.String,System.Threading.CancellationToken)",
@@ -1197,7 +1197,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiOperationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiOperation(System.String,System.Threading.CancellationToken)",
@@ -1209,7 +1209,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiPolicyAsync(Azure.ResourceManager.ApiManagement.Models.PolicyName,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyExportFormat},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiPolicy(Azure.ResourceManager.ApiManagement.Models.PolicyName,System.Nullable{Azure.ResourceManager.ApiManagement.Models.PolicyExportFormat},System.Threading.CancellationToken)",
@@ -1221,7 +1221,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiTag(System.String,System.Threading.CancellationToken)",
@@ -1233,7 +1233,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetResolverContractAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetResolverContract(System.String,System.Threading.CancellationToken)",
@@ -1245,7 +1245,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiSchemaAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiSchema(System.String,System.Threading.CancellationToken)",
@@ -1257,7 +1257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiDiagnosticAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiDiagnostic(System.String,System.Threading.CancellationToken)",
@@ -1269,7 +1269,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiIssueAsync(System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiIssue(System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -1281,7 +1281,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiTagDescriptionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetApiTagDescription(System.String,System.Threading.CancellationToken)",
@@ -1293,7 +1293,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.Get(System.Threading.CancellationToken)",
@@ -1301,7 +1301,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.DeleteAsync(Azure.WaitUntil,Azure.ETag,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.Delete(Azure.WaitUntil,Azure.ETag,System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -1309,7 +1309,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.UpdateAsync(Azure.ETag,Azure.ResourceManager.ApiManagement.Models.ApiPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.Update(Azure.ETag,Azure.ResourceManager.ApiManagement.Models.ApiPatch,System.Threading.CancellationToken)",
@@ -1333,7 +1333,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetEntityTagAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Customized/ApiResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/9e8e8ae03f2ff3c0b68c1b95bdf411631df2bde4/sdk/apimanagement/Azure.ResourceManager.ApiManagement/src/Generated/ApiResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ApiManagement.ApiResource.GetEntityTag(System.Threading.CancellationToken)",

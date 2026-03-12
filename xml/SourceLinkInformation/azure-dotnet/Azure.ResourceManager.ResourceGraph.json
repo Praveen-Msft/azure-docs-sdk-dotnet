@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.ResourceGraph",
   "GUID": "AAF87CCD993B4465A1CFC9C28E9BA256FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -23,7 +23,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceGraph.ResourceGraphExtensions.GetResourceGraphQueryAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e9fe4ffd2d09cc041ed0c063b427241e96e22e78/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph/src/Custom/Extensions/ResourceGraphExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e9fe4ffd2d09cc041ed0c063b427241e96e22e78/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph/src/Generated/Extensions/ResourceGraphExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceGraph.ResourceGraphExtensions.GetResourceGraphQuery(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceGraph.ResourceGraphExtensions.GetResourcesAsync(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.ResourceGraph.Models.ResourceQueryContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e9fe4ffd2d09cc041ed0c063b427241e96e22e78/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph/src/Custom/Extensions/ResourceGraphExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e9fe4ffd2d09cc041ed0c063b427241e96e22e78/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph/src/Generated/Extensions/ResourceGraphExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceGraph.ResourceGraphExtensions.GetResources(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.ResourceGraph.Models.ResourceQueryContent,System.Threading.CancellationToken)",
@@ -1123,7 +1123,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceGraph.Mocking.MockableResourceGraphTenantResource.GetResourcesAsync(Azure.ResourceManager.ResourceGraph.Models.ResourceQueryContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e9fe4ffd2d09cc041ed0c063b427241e96e22e78/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph/src/Custom/Extensions/MockableResourceGraphTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e9fe4ffd2d09cc041ed0c063b427241e96e22e78/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph/src/Generated/Extensions/MockableResourceGraphTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ResourceGraph.Mocking.MockableResourceGraphTenantResource.GetResources(Azure.ResourceManager.ResourceGraph.Models.ResourceQueryContent,System.Threading.CancellationToken)",

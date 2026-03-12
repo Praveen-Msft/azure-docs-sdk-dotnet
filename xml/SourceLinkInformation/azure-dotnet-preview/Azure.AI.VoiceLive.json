@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.AI.VoiceLive",
   "GUID": "725905A7EFED4C2F8DA191E6E99089DBFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -1667,23 +1667,23 @@
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveClient.StartSessionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveClient.core.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/VoiceLiveClient.WebSockets.cs"
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveClient.StartSessionAsync(Azure.AI.VoiceLive.VoiceLiveSessionOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveClient.core.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/VoiceLiveClient.WebSockets.cs"
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveClient.StartSessionAsync(Azure.AI.VoiceLive.AgentSessionConfig,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveClient.core.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/VoiceLiveClient.WebSockets.cs"
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveClient.StartSessionAsync(Azure.AI.VoiceLive.SessionTarget,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveClient.core.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/VoiceLiveClient.WebSockets.cs"
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveClient.StartSessionAsync(Azure.AI.VoiceLive.SessionTarget,Azure.AI.VoiceLive.VoiceLiveSessionOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveClient.core.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/VoiceLiveClient.WebSockets.cs"
         }
       ],
       "DocsId": "T:Azure.AI.VoiceLive.VoiceLiveClient",
@@ -1865,15 +1865,15 @@
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveSession.GetUpdatesAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveSession.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveSession.Protocol.cs"
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveSession.GetUpdatesAsync``1(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveSession.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveSession.Protocol.cs"
         },
         {
           "DocsId": "M:Azure.AI.VoiceLive.VoiceLiveSession.WaitForUpdateAsync``1(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveSession.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/eaf6902c0268e343bce86532a2a6841121e91e51/sdk/voicelive/Azure.AI.VoiceLive/src/Customizations/VoiceLiveSession.Protocol.cs"
         },
         {
           "DocsId": "P:Azure.AI.VoiceLive.VoiceLiveSession.ConnectionState",

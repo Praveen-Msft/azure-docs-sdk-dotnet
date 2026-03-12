@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Sql",
   "GUID": "589BF7FB0F1E4B86A1C8EB398456AD9FFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -47,7 +47,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.Get(System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -63,7 +63,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ElasticPoolPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ElasticPoolPatch,System.Threading.CancellationToken)",
@@ -87,7 +87,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.CancelElasticPoolOperationAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.CancelElasticPoolOperation(System.Guid,System.Threading.CancellationToken)",
@@ -95,7 +95,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.FailoverAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.Failover(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -103,7 +103,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -111,7 +111,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -119,7 +119,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/ElasticPoolResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ElasticPoolResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ElasticPoolResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -765,7 +765,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetInstanceFailoverGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetInstanceFailoverGroup(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -777,7 +777,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetInstancePoolAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetInstancePool(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -789,7 +789,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetResourceGroupLongTermRetentionBackupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetResourceGroupLongTermRetentionBackup(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -801,7 +801,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetResourceGroupLongTermRetentionManagedInstanceBackupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetResourceGroupLongTermRetentionManagedInstanceBackup(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -813,7 +813,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetManagedInstanceAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetManagedInstance(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -825,7 +825,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSqlServerAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSqlServer(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -837,7 +837,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSqlServerTrustGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSqlServerTrustGroup(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -849,7 +849,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetVirtualClusterAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetVirtualCluster(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -893,7 +893,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetDeletedServerAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetDeletedServer(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -905,7 +905,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSubscriptionLongTermRetentionBackupAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSubscriptionLongTermRetentionBackup(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -917,7 +917,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSubscriptionLongTermRetentionManagedInstanceBackupAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSubscriptionLongTermRetentionManagedInstanceBackup(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -929,7 +929,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSubscriptionUsageAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSubscriptionUsage(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -941,7 +941,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSqlTimeZoneAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetSqlTimeZone(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -965,7 +965,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetCapabilitiesByLocationAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Nullable{Azure.ResourceManager.Sql.Models.SqlCapabilityGroup},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.GetCapabilitiesByLocation(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Nullable{Azure.ResourceManager.Sql.Models.SqlCapabilityGroup},System.Threading.CancellationToken)",
@@ -1013,7 +1013,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.CheckSqlServerNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.Sql.Models.SqlNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/Extensions/SqlExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/SqlExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlExtensions.CheckSqlServerNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.Sql.Models.SqlNameAvailabilityContent,System.Threading.CancellationToken)",
@@ -1257,7 +1257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetBackupShortTermRetentionPolicyAsync(Azure.ResourceManager.Sql.Models.ShortTermRetentionPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetBackupShortTermRetentionPolicy(Azure.ResourceManager.Sql.Models.ShortTermRetentionPolicyName,System.Threading.CancellationToken)",
@@ -1269,7 +1269,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseBlobAuditingPolicyAsync(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseBlobAuditingPolicy(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
@@ -1281,7 +1281,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetExtendedDatabaseBlobAuditingPolicyAsync(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetExtendedDatabaseBlobAuditingPolicy(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
@@ -1293,7 +1293,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetDatabaseAdvancedThreatProtectionAsync(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetDatabaseAdvancedThreatProtection(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
@@ -1305,7 +1305,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseAdvisorAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseAdvisor(System.String,System.Threading.CancellationToken)",
@@ -1321,7 +1321,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseSchemaAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseSchema(System.String,System.Threading.CancellationToken)",
@@ -1333,7 +1333,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseSecurityAlertPolicyAsync(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseSecurityAlertPolicy(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
@@ -1345,7 +1345,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseSqlVulnerabilityAssessmentAsync(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseSqlVulnerabilityAssessment(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
@@ -1357,7 +1357,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseVulnerabilityAssessmentAsync(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlDatabaseVulnerabilityAssessment(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
@@ -1369,7 +1369,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetDataMaskingPolicyAsync(Azure.ResourceManager.Sql.Models.DataMaskingPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetDataMaskingPolicy(Azure.ResourceManager.Sql.Models.DataMaskingPolicyName,System.Threading.CancellationToken)",
@@ -1381,7 +1381,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetDataWarehouseUserActivityAsync(Azure.ResourceManager.Sql.Models.DataWarehouseUserActivityName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetDataWarehouseUserActivity(Azure.ResourceManager.Sql.Models.DataWarehouseUserActivityName,System.Threading.CancellationToken)",
@@ -1393,7 +1393,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetGeoBackupPolicyAsync(Azure.ResourceManager.Sql.Models.GeoBackupPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetGeoBackupPolicy(Azure.ResourceManager.Sql.Models.GeoBackupPolicyName,System.Threading.CancellationToken)",
@@ -1405,7 +1405,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetLedgerDigestUploadAsync(Azure.ResourceManager.Sql.Models.LedgerDigestUploadsName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetLedgerDigestUpload(Azure.ResourceManager.Sql.Models.LedgerDigestUploadsName,System.Threading.CancellationToken)",
@@ -1417,7 +1417,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetLongTermRetentionPolicyAsync(Azure.ResourceManager.Sql.Models.LongTermRetentionPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetLongTermRetentionPolicy(Azure.ResourceManager.Sql.Models.LongTermRetentionPolicyName,System.Threading.CancellationToken)",
@@ -1437,7 +1437,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlServerDatabaseReplicationLinkAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlServerDatabaseReplicationLink(System.String,System.Threading.CancellationToken)",
@@ -1449,7 +1449,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlServerDatabaseRestorePointAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSqlServerDatabaseRestorePoint(System.String,System.Threading.CancellationToken)",
@@ -1461,7 +1461,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSyncGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetSyncGroup(System.String,System.Threading.CancellationToken)",
@@ -1473,7 +1473,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetLogicalDatabaseTransparentDataEncryptionAsync(Azure.ResourceManager.Sql.Models.TransparentDataEncryptionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetLogicalDatabaseTransparentDataEncryption(Azure.ResourceManager.Sql.Models.TransparentDataEncryptionName,System.Threading.CancellationToken)",
@@ -1485,7 +1485,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetWorkloadGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetWorkloadGroup(System.String,System.Threading.CancellationToken)",
@@ -1493,7 +1493,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.GetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Get(System.String,System.String,System.Threading.CancellationToken)",
@@ -1501,7 +1501,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1509,7 +1509,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.SqlDatabasePatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.SqlDatabasePatch,System.Threading.CancellationToken)",
@@ -1525,7 +1525,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RevalidateDatabaseEncryptionProtectorAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RevalidateDatabaseEncryptionProtector(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
@@ -1533,7 +1533,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RevertDatabaseEncryptionProtectorAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RevertDatabaseEncryptionProtector(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
@@ -1549,7 +1549,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.CreateOrUpdateDatabaseExtensionAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Sql.Models.SqlDatabaseExtension,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.CreateOrUpdateDatabaseExtension(Azure.WaitUntil,System.String,Azure.ResourceManager.Sql.Models.SqlDatabaseExtension,System.Threading.CancellationToken)",
@@ -1565,7 +1565,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.CancelDatabaseOperationAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.CancelDatabaseOperation(System.Guid,System.Threading.CancellationToken)",
@@ -1573,7 +1573,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.ExportAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.DatabaseExportDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Export(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.DatabaseExportDefinition,System.Threading.CancellationToken)",
@@ -1581,7 +1581,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.FailoverAsync(Azure.WaitUntil,System.Nullable{Azure.ResourceManager.Sql.Models.ReplicaType},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Failover(Azure.WaitUntil,System.Nullable{Azure.ResourceManager.Sql.Models.ReplicaType},System.Threading.CancellationToken)",
@@ -1589,7 +1589,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.ImportAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ImportExistingDatabaseDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Import(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ImportExistingDatabaseDefinition,System.Threading.CancellationToken)",
@@ -1597,7 +1597,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RenameAsync(Azure.ResourceManager.Sql.Models.SqlResourceMoveDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Rename(Azure.ResourceManager.Sql.Models.SqlResourceMoveDefinition,System.Threading.CancellationToken)",
@@ -1605,7 +1605,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.PauseAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Pause(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1613,7 +1613,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.ResumeAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.Resume(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1621,7 +1621,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpgradeDataWarehouseAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpgradeDataWarehouse(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -1637,7 +1637,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.CreateRestorePointAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.CreateDatabaseRestorePointDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.CreateRestorePoint(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.CreateDatabaseRestorePointDefinition,System.Threading.CancellationToken)",
@@ -1653,7 +1653,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpdateSensitivityLabelAsync(Azure.ResourceManager.Sql.Models.SensitivityLabelUpdateList,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpdateSensitivityLabel(Azure.ResourceManager.Sql.Models.SensitivityLabelUpdateList,System.Threading.CancellationToken)",
@@ -1669,7 +1669,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpdateRecommendedSensitivityLabelAsync(Azure.ResourceManager.Sql.Models.RecommendedSensitivityLabelUpdateList,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.UpdateRecommendedSensitivityLabel(Azure.ResourceManager.Sql.Models.RecommendedSensitivityLabelUpdateList,System.Threading.CancellationToken)",
@@ -1693,7 +1693,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -1701,7 +1701,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -1709,7 +1709,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -1973,7 +1973,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetRestorableDroppedDatabaseAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetRestorableDroppedDatabase(System.String,System.Threading.CancellationToken)",
@@ -1981,7 +1981,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlDatabaseAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlDatabase(System.String,System.Threading.CancellationToken)",
@@ -2001,7 +2001,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerBlobAuditingPolicyAsync(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerBlobAuditingPolicy(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
@@ -2013,7 +2013,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetExtendedServerBlobAuditingPolicyAsync(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetExtendedServerBlobAuditingPolicy(Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName,System.Threading.CancellationToken)",
@@ -2025,7 +2025,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerAdvisorAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerAdvisor(System.String,System.Threading.CancellationToken)",
@@ -2037,7 +2037,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlDatabaseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlDatabase(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -2049,7 +2049,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerSqlVulnerabilityAssessmentAsync(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerSqlVulnerabilityAssessment(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
@@ -2061,7 +2061,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetElasticPoolAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetElasticPool(System.String,System.Threading.CancellationToken)",
@@ -2073,7 +2073,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetEncryptionProtectorAsync(Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetEncryptionProtector(Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
@@ -2085,7 +2085,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetFailoverGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetFailoverGroup(System.String,System.Threading.CancellationToken)",
@@ -2097,7 +2097,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlFirewallRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlFirewallRule(System.String,System.Threading.CancellationToken)",
@@ -2109,7 +2109,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetIPv6FirewallRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetIPv6FirewallRule(System.String,System.Threading.CancellationToken)",
@@ -2121,7 +2121,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerJobAgentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerJobAgent(System.String,System.Threading.CancellationToken)",
@@ -2133,7 +2133,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlNetworkSecurityPerimeterConfigurationAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlNetworkSecurityPerimeterConfiguration(System.String,System.Threading.CancellationToken)",
@@ -2145,7 +2145,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetOutboundFirewallRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetOutboundFirewallRule(System.String,System.Threading.CancellationToken)",
@@ -2157,7 +2157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlPrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlPrivateEndpointConnection(System.String,System.Threading.CancellationToken)",
@@ -2169,7 +2169,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlPrivateLinkResourceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlPrivateLinkResource(System.String,System.Threading.CancellationToken)",
@@ -2181,7 +2181,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetRecoverableDatabaseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetRecoverableDatabase(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -2193,7 +2193,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetRestorableDroppedDatabaseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetRestorableDroppedDatabase(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -2205,7 +2205,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetServerAdvancedThreatProtectionAsync(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetServerAdvancedThreatProtection(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
@@ -2221,7 +2221,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerAzureADAdministratorAsync(Azure.ResourceManager.Sql.Models.SqlAdministratorName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerAzureADAdministrator(Azure.ResourceManager.Sql.Models.SqlAdministratorName,System.Threading.CancellationToken)",
@@ -2233,7 +2233,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerAzureADOnlyAuthenticationAsync(Azure.ResourceManager.Sql.Models.AuthenticationName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerAzureADOnlyAuthentication(Azure.ResourceManager.Sql.Models.AuthenticationName,System.Threading.CancellationToken)",
@@ -2245,7 +2245,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerConnectionPolicyAsync(Azure.ResourceManager.Sql.Models.ConnectionPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerConnectionPolicy(Azure.ResourceManager.Sql.Models.ConnectionPolicyName,System.Threading.CancellationToken)",
@@ -2257,7 +2257,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerDevOpsAuditingSettingAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerDevOpsAuditingSetting(System.String,System.Threading.CancellationToken)",
@@ -2269,7 +2269,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerDnsAliasAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerDnsAlias(System.String,System.Threading.CancellationToken)",
@@ -2281,7 +2281,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerKeyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerKey(System.String,System.Threading.CancellationToken)",
@@ -2293,7 +2293,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerSecurityAlertPolicyAsync(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerSecurityAlertPolicy(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
@@ -2305,7 +2305,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerVulnerabilityAssessmentAsync(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerVulnerabilityAssessment(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
@@ -2317,7 +2317,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSyncAgentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSyncAgent(System.String,System.Threading.CancellationToken)",
@@ -2329,7 +2329,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerVirtualNetworkRuleAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetSqlServerVirtualNetworkRule(System.String,System.Threading.CancellationToken)",
@@ -2337,7 +2337,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.Get(System.String,System.Threading.CancellationToken)",
@@ -2345,7 +2345,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -2353,7 +2353,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.SqlServerPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.SqlServerPatch,System.Threading.CancellationToken)",
@@ -2385,7 +2385,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.ImportDatabaseAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.DatabaseImportDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.ImportDatabase(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.DatabaseImportDefinition,System.Threading.CancellationToken)",
@@ -2393,7 +2393,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.RefreshStatusAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.RefreshStatus(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -2409,7 +2409,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.CreateTdeCertificateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.TdeCertificate,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.CreateTdeCertificate(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.TdeCertificate,System.Threading.CancellationToken)",
@@ -2417,7 +2417,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -2425,7 +2425,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -2433,7 +2433,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/2014-04-01/SqlServerResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -2499,7 +2499,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.DataMaskingPolicyResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/DataMaskingPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/DataMaskingPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.DataMaskingPolicyResource.Get(System.Threading.CancellationToken)",
@@ -2507,7 +2507,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.DataMaskingPolicyResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.DataMaskingPolicyData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/DataMaskingPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/DataMaskingPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.DataMaskingPolicyResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.DataMaskingPolicyData,System.Threading.CancellationToken)",
@@ -2523,7 +2523,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.DataMaskingPolicyResource.CreateOrUpdateDataMaskingRuleAsync(System.String,Azure.ResourceManager.Sql.Models.DataMaskingRule,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/DataMaskingPolicyResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/DataMaskingPolicyResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.DataMaskingPolicyResource.CreateOrUpdateDataMaskingRule(System.String,Azure.ResourceManager.Sql.Models.DataMaskingRule,System.Threading.CancellationToken)",
@@ -2943,7 +2943,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseSchemaAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseSchema(System.String,System.Threading.CancellationToken)",
@@ -2955,7 +2955,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseVulnerabilityAssessmentAsync(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseVulnerabilityAssessment(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
@@ -2967,7 +2967,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedBackupShortTermRetentionPolicyAsync(Azure.ResourceManager.Sql.Models.ManagedShortTermRetentionPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedBackupShortTermRetentionPolicy(Azure.ResourceManager.Sql.Models.ManagedShortTermRetentionPolicyName,System.Threading.CancellationToken)",
@@ -2979,7 +2979,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseAdvancedThreatProtectionAsync(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseAdvancedThreatProtection(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
@@ -2991,7 +2991,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseRestoreDetailAsync(Azure.ResourceManager.Sql.Models.RestoreDetailsName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseRestoreDetail(Azure.ResourceManager.Sql.Models.RestoreDetailsName,System.Threading.CancellationToken)",
@@ -3003,7 +3003,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseSecurityAlertPolicyAsync(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseSecurityAlertPolicy(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
@@ -3015,7 +3015,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedTransparentDataEncryptionAsync(Azure.ResourceManager.Sql.Models.TransparentDataEncryptionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedTransparentDataEncryption(Azure.ResourceManager.Sql.Models.TransparentDataEncryptionName,System.Threading.CancellationToken)",
@@ -3027,7 +3027,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedInstanceLongTermRetentionPolicyAsync(Azure.ResourceManager.Sql.Models.ManagedInstanceLongTermRetentionPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedInstanceLongTermRetentionPolicy(Azure.ResourceManager.Sql.Models.ManagedInstanceLongTermRetentionPolicyName,System.Threading.CancellationToken)",
@@ -3039,7 +3039,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedLedgerDigestUploadAsync(Azure.ResourceManager.Sql.Models.ManagedLedgerDigestUploadsName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedLedgerDigestUpload(Azure.ResourceManager.Sql.Models.ManagedLedgerDigestUploadsName,System.Threading.CancellationToken)",
@@ -3047,7 +3047,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.Get(System.Threading.CancellationToken)",
@@ -3055,7 +3055,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3063,7 +3063,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabasePatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabasePatch,System.Threading.CancellationToken)",
@@ -3079,7 +3079,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseQueryAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.GetManagedDatabaseQuery(System.String,System.Threading.CancellationToken)",
@@ -3095,7 +3095,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.CancelMoveAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabaseMoveDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.CancelMove(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabaseMoveDefinition,System.Threading.CancellationToken)",
@@ -3103,7 +3103,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.CompleteMoveAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabaseMoveDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.CompleteMove(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabaseMoveDefinition,System.Threading.CancellationToken)",
@@ -3111,7 +3111,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.CompleteRestoreAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.CompleteDatabaseRestoreDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.CompleteRestore(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.CompleteDatabaseRestoreDefinition,System.Threading.CancellationToken)",
@@ -3119,7 +3119,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.ReevaluateInaccessibleDatabaseStateAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.ReevaluateInaccessibleDatabaseState(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3127,7 +3127,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.StartMoveAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabaseStartMoveDefinition,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.StartMove(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedDatabaseStartMoveDefinition,System.Threading.CancellationToken)",
@@ -3151,7 +3151,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.UpdateManagedDatabaseSensitivityLabelAsync(Azure.ResourceManager.Sql.Models.SensitivityLabelUpdateList,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.UpdateManagedDatabaseSensitivityLabel(Azure.ResourceManager.Sql.Models.SensitivityLabelUpdateList,System.Threading.CancellationToken)",
@@ -3167,7 +3167,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.UpdateRecommendedManagedDatabaseSensitivityLabelAsync(Azure.ResourceManager.Sql.Models.RecommendedSensitivityLabelUpdateList,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.UpdateRecommendedManagedDatabaseSensitivityLabel(Azure.ResourceManager.Sql.Models.RecommendedSensitivityLabelUpdateList,System.Threading.CancellationToken)",
@@ -3183,7 +3183,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -3191,7 +3191,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -3199,7 +3199,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedDatabaseResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -3633,7 +3633,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetSqlDistributedAvailabilityGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetSqlDistributedAvailabilityGroup(System.String,System.Threading.CancellationToken)",
@@ -3645,7 +3645,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetEndpointCertificateAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetEndpointCertificate(System.String,System.Threading.CancellationToken)",
@@ -3657,7 +3657,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedDatabaseAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedDatabase(System.String,System.Threading.CancellationToken)",
@@ -3669,7 +3669,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceAdministratorAsync(Azure.ResourceManager.Sql.Models.SqlAdministratorName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceAdministrator(Azure.ResourceManager.Sql.Models.SqlAdministratorName,System.Threading.CancellationToken)",
@@ -3681,7 +3681,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceAdvancedThreatProtectionAsync(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceAdvancedThreatProtection(Azure.ResourceManager.Sql.Models.AdvancedThreatProtectionName,System.Threading.CancellationToken)",
@@ -3693,7 +3693,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceAzureADOnlyAuthenticationAsync(Azure.ResourceManager.Sql.Models.AuthenticationName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceAzureADOnlyAuthentication(Azure.ResourceManager.Sql.Models.AuthenticationName,System.Threading.CancellationToken)",
@@ -3705,7 +3705,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceDtcAsync(Azure.ResourceManager.Sql.Models.DtcName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceDtc(Azure.ResourceManager.Sql.Models.DtcName,System.Threading.CancellationToken)",
@@ -3717,7 +3717,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceEncryptionProtectorAsync(Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceEncryptionProtector(Azure.ResourceManager.Sql.Models.EncryptionProtectorName,System.Threading.CancellationToken)",
@@ -3729,7 +3729,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceKeyAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceKey(System.String,System.Threading.CancellationToken)",
@@ -3741,7 +3741,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceOperationAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceOperation(System.Guid,System.Threading.CancellationToken)",
@@ -3753,7 +3753,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstancePrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstancePrivateEndpointConnection(System.String,System.Threading.CancellationToken)",
@@ -3765,7 +3765,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstancePrivateLinkAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstancePrivateLink(System.String,System.Threading.CancellationToken)",
@@ -3777,7 +3777,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceVulnerabilityAssessmentAsync(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceVulnerabilityAssessment(Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.Threading.CancellationToken)",
@@ -3789,7 +3789,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedServerDnsAliasAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedServerDnsAlias(System.String,System.Threading.CancellationToken)",
@@ -3801,7 +3801,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedServerSecurityAlertPolicyAsync(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedServerSecurityAlertPolicy(Azure.ResourceManager.Sql.Models.SqlSecurityAlertPolicyName,System.Threading.CancellationToken)",
@@ -3813,7 +3813,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetRecoverableManagedDatabaseAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetRecoverableManagedDatabase(System.String,System.Threading.CancellationToken)",
@@ -3825,7 +3825,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetRestorableDroppedManagedDatabaseAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetRestorableDroppedManagedDatabase(System.String,System.Threading.CancellationToken)",
@@ -3837,7 +3837,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceServerConfigurationOptionAsync(Azure.ResourceManager.Sql.Models.ManagedInstanceServerConfigurationOptionName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceServerConfigurationOption(Azure.ResourceManager.Sql.Models.ManagedInstanceServerConfigurationOptionName,System.Threading.CancellationToken)",
@@ -3849,7 +3849,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceServerTrustCertificateAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceServerTrustCertificate(System.String,System.Threading.CancellationToken)",
@@ -3865,7 +3865,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceStartStopScheduleAsync(Azure.ResourceManager.Sql.Models.ManagedInstanceStartStopScheduleName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetManagedInstanceStartStopSchedule(Azure.ResourceManager.Sql.Models.ManagedInstanceStartStopScheduleName,System.Threading.CancellationToken)",
@@ -3873,7 +3873,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.Get(System.String,System.Threading.CancellationToken)",
@@ -3881,7 +3881,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3889,7 +3889,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedInstancePatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedInstancePatch,System.Threading.CancellationToken)",
@@ -3905,7 +3905,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.FailoverAsync(Azure.WaitUntil,System.Nullable{Azure.ResourceManager.Sql.Models.ReplicaType},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.Failover(Azure.WaitUntil,System.Nullable{Azure.ResourceManager.Sql.Models.ReplicaType},System.Threading.CancellationToken)",
@@ -3921,7 +3921,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.ReevaluateInaccessibleDatabaseStateAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.ReevaluateInaccessibleDatabaseState(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3929,7 +3929,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.RefreshStatusAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.RefreshStatus(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3937,7 +3937,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.StartAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.Start(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3945,7 +3945,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.StopAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.Stop(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -3961,7 +3961,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.ValidateAzureKeyVaultEncryptionKeyAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.ValidateAzureKeyVaultEncryptionKey(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyContent,System.Threading.CancellationToken)",
@@ -3969,7 +3969,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.CreateManagedInstanceTdeCertificateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.TdeCertificate,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.CreateManagedInstanceTdeCertificate(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.TdeCertificate,System.Threading.CancellationToken)",
@@ -3985,7 +3985,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -3993,7 +3993,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -4001,7 +4001,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/ManagedInstanceResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/ManagedInstanceResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.ManagedInstanceResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -4059,7 +4059,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/OutboundFirewallRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/OutboundFirewallRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.CreateOrUpdate(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
@@ -4067,7 +4067,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/OutboundFirewallRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/OutboundFirewallRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -4083,7 +4083,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/OutboundFirewallRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/OutboundFirewallRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -4091,7 +4091,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/OutboundFirewallRuleCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/OutboundFirewallRuleCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -4133,7 +4133,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/OutboundFirewallRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/OutboundFirewallRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleResource.Get(System.Threading.CancellationToken)",
@@ -4141,7 +4141,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/OutboundFirewallRuleResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/OutboundFirewallRuleResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.OutboundFirewallRuleResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4353,7 +4353,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseCollection.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RecoverableDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RecoverableDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseCollection.Get(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4369,7 +4369,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseCollection.ExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RecoverableDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RecoverableDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseCollection.Exists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4377,7 +4377,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseCollection.GetIfExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RecoverableDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RecoverableDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseCollection.GetIfExists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4419,7 +4419,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseResource.GetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RecoverableDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RecoverableDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RecoverableDatabaseResource.Get(System.String,System.String,System.Threading.CancellationToken)",
@@ -4485,7 +4485,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseCollection.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RestorableDroppedDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RestorableDroppedDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseCollection.Get(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4501,7 +4501,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseCollection.ExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RestorableDroppedDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RestorableDroppedDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseCollection.Exists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4509,7 +4509,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseCollection.GetIfExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RestorableDroppedDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RestorableDroppedDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseCollection.GetIfExists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4575,7 +4575,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseResource.GetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RestorableDroppedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RestorableDroppedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedDatabaseResource.Get(System.String,System.String,System.Threading.CancellationToken)",
@@ -4657,7 +4657,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseResource.GetManagedRestorableDroppedDbBackupShortTermRetentionPolicyAsync(Azure.ResourceManager.Sql.Models.ManagedShortTermRetentionPolicyName,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RestorableDroppedManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RestorableDroppedManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseResource.GetManagedRestorableDroppedDbBackupShortTermRetentionPolicy(Azure.ResourceManager.Sql.Models.ManagedShortTermRetentionPolicyName,System.Threading.CancellationToken)",
@@ -4665,7 +4665,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/RestorableDroppedManagedDatabaseResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/RestorableDroppedManagedDatabaseResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseResource.Get(System.Threading.CancellationToken)",
@@ -4731,7 +4731,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Sql.SqlDatabaseData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Sql.SqlDatabaseData,System.Threading.CancellationToken)",
@@ -4739,7 +4739,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.Get(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4755,7 +4755,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.ExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.Exists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4763,7 +4763,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.GetIfExistsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlDatabaseCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlDatabaseCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlDatabaseCollection.GetIfExists(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -4931,7 +4931,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetSqlServerJobCredentialAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetSqlServerJobCredential(System.String,System.Threading.CancellationToken)",
@@ -4943,7 +4943,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetSqlServerJobAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetSqlServerJob(System.String,System.Threading.CancellationToken)",
@@ -4955,7 +4955,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetSqlServerJobTargetGroupAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetSqlServerJobTargetGroup(System.String,System.Threading.CancellationToken)",
@@ -4963,7 +4963,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.Get(System.Threading.CancellationToken)",
@@ -4971,7 +4971,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -4979,7 +4979,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.SqlServerJobAgentPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.SqlServerJobAgentPatch,System.Threading.CancellationToken)",
@@ -4995,7 +4995,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -5003,7 +5003,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -5011,7 +5011,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobAgentResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobAgentResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobAgentResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -5077,7 +5077,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.CreateOrUpdate(Azure.WaitUntil,System.Guid,System.Threading.CancellationToken)",
@@ -5085,7 +5085,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.GetAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.Get(System.Guid,System.Threading.CancellationToken)",
@@ -5109,7 +5109,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.ExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.Exists(System.Guid,System.Threading.CancellationToken)",
@@ -5117,7 +5117,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.GetIfExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionCollection.GetIfExists(System.Guid,System.Threading.CancellationToken)",
@@ -5155,7 +5155,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionStepCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionStepCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -5171,7 +5171,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionStepCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionStepCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -5179,7 +5179,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionStepCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionStepCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -5217,7 +5217,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepTargetCollection.GetAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionStepTargetCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionStepTargetCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepTargetCollection.Get(System.Guid,System.Threading.CancellationToken)",
@@ -5233,7 +5233,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepTargetCollection.ExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionStepTargetCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionStepTargetCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepTargetCollection.Exists(System.Guid,System.Threading.CancellationToken)",
@@ -5241,7 +5241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepTargetCollection.GetIfExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/SqlServerJobExecutionStepTargetCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/SqlServerJobExecutionStepTargetCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.SqlServerJobExecutionStepTargetCollection.GetIfExists(System.Guid,System.Threading.CancellationToken)",
@@ -5341,7 +5341,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.Get(System.Threading.CancellationToken)",
@@ -5349,7 +5349,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -5357,7 +5357,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.VirtualClusterPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.Update(Azure.WaitUntil,Azure.ResourceManager.Sql.Models.VirtualClusterPatch,System.Threading.CancellationToken)",
@@ -5365,7 +5365,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.UpdateDnsServersAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.UpdateDnsServers(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -5373,7 +5373,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -5381,7 +5381,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -5389,7 +5389,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/VirtualClusterResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/VirtualClusterResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.VirtualClusterResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -46843,7 +46843,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetInstanceFailoverGroupAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetInstanceFailoverGroup(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -46855,7 +46855,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetInstancePoolAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetInstancePool(System.String,System.Threading.CancellationToken)",
@@ -46867,7 +46867,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetResourceGroupLongTermRetentionBackupAsync(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetResourceGroupLongTermRetentionBackup(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -46879,7 +46879,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetResourceGroupLongTermRetentionManagedInstanceBackupAsync(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetResourceGroupLongTermRetentionManagedInstanceBackup(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -46891,7 +46891,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetManagedInstanceAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetManagedInstance(System.String,System.String,System.Threading.CancellationToken)",
@@ -46903,7 +46903,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetSqlServerAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetSqlServer(System.String,System.String,System.Threading.CancellationToken)",
@@ -46915,7 +46915,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetSqlServerTrustGroupAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetSqlServerTrustGroup(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -46927,7 +46927,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetVirtualClusterAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlResourceGroupResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlResourceGroupResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlResourceGroupResource.GetVirtualCluster(System.String,System.Threading.CancellationToken)",
@@ -47021,7 +47021,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetDeletedServerAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetDeletedServer(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -47033,7 +47033,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSubscriptionLongTermRetentionBackupAsync(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSubscriptionLongTermRetentionBackup(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -47045,7 +47045,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSubscriptionLongTermRetentionManagedInstanceBackupAsync(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSubscriptionLongTermRetentionManagedInstanceBackup(Azure.Core.AzureLocation,System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -47057,7 +47057,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSubscriptionUsageAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSubscriptionUsage(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -47069,7 +47069,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSqlTimeZoneAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetSqlTimeZone(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -47093,7 +47093,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetCapabilitiesByLocationAsync(Azure.Core.AzureLocation,System.Nullable{Azure.ResourceManager.Sql.Models.SqlCapabilityGroup},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.GetCapabilitiesByLocation(Azure.Core.AzureLocation,System.Nullable{Azure.ResourceManager.Sql.Models.SqlCapabilityGroup},System.Threading.CancellationToken)",
@@ -47141,7 +47141,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.CheckSqlServerNameAvailabilityAsync(Azure.ResourceManager.Sql.Models.SqlNameAvailabilityContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Custom/Extensions/MockableSqlSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/5dcf96126c00f734328df57b01adac3e97eaafef/sdk/sqlmanagement/Azure.ResourceManager.Sql/src/Generated/Extensions/MockableSqlSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Sql.Mocking.MockableSqlSubscriptionResource.CheckSqlServerNameAvailability(Azure.ResourceManager.Sql.Models.SqlNameAvailabilityContent,System.Threading.CancellationToken)",

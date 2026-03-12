@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.AI.OpenAI.Assistants",
   "GUID": "FC91E595DFE04365B1D3F0843E5AAD25FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -93,7 +93,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.DeleteAssistantAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.DeleteThread(System.String,System.Threading.CancellationToken)",
@@ -101,7 +101,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.DeleteThreadAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UnlinkAssistantFile(System.String,System.String,System.Threading.CancellationToken)",
@@ -109,7 +109,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UnlinkAssistantFileAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetFiles(System.Nullable{Azure.AI.OpenAI.Assistants.OpenAIFilePurpose},System.Threading.CancellationToken)",
@@ -117,7 +117,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetFilesAsync(System.Nullable{Azure.AI.OpenAI.Assistants.OpenAIFilePurpose},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.DeleteFile(System.String,System.Threading.CancellationToken)",
@@ -125,7 +125,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.DeleteFileAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistants(System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
@@ -133,7 +133,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistantsAsync(System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistantFiles(System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
@@ -141,7 +141,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistantFilesAsync(System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessageFiles(System.String,System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
@@ -149,7 +149,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessageFilesAsync(System.String,System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRunSteps(System.String,System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
@@ -157,7 +157,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRunStepsAsync(System.String,System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessages(System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
@@ -165,7 +165,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessagesAsync(System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRuns(System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
@@ -173,7 +173,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRunsAsync(System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.OpenAI.Assistants.ListSortOrder},System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Custom/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.#ctor",
@@ -181,7 +181,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateAssistantAsync(Azure.AI.OpenAI.Assistants.AssistantCreationOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateAssistant(Azure.AI.OpenAI.Assistants.AssistantCreationOptions,System.Threading.CancellationToken)",
@@ -189,7 +189,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistantAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistant(System.String,System.Threading.CancellationToken)",
@@ -197,7 +197,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateAssistantAsync(System.String,Azure.AI.OpenAI.Assistants.UpdateAssistantOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateAssistant(System.String,Azure.AI.OpenAI.Assistants.UpdateAssistantOptions,System.Threading.CancellationToken)",
@@ -205,7 +205,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.LinkAssistantFileAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.LinkAssistantFile(System.String,System.String,System.Threading.CancellationToken)",
@@ -213,7 +213,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistantFileAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetAssistantFile(System.String,System.String,System.Threading.CancellationToken)",
@@ -221,7 +221,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateThreadAsync(Azure.AI.OpenAI.Assistants.AssistantThreadCreationOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateThread(Azure.AI.OpenAI.Assistants.AssistantThreadCreationOptions,System.Threading.CancellationToken)",
@@ -229,7 +229,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetThreadAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetThread(System.String,System.Threading.CancellationToken)",
@@ -237,7 +237,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateThreadAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateThread(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -245,7 +245,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateMessageAsync(System.String,Azure.AI.OpenAI.Assistants.MessageRole,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateMessage(System.String,Azure.AI.OpenAI.Assistants.MessageRole,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -253,7 +253,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessageAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessage(System.String,System.String,System.Threading.CancellationToken)",
@@ -261,7 +261,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateMessageAsync(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateMessage(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -269,7 +269,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessageFileAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetMessageFile(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -277,7 +277,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateRunAsync(System.String,Azure.AI.OpenAI.Assistants.CreateRunOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateRun(System.String,Azure.AI.OpenAI.Assistants.CreateRunOptions,System.Threading.CancellationToken)",
@@ -285,7 +285,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRunAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRun(System.String,System.String,System.Threading.CancellationToken)",
@@ -293,7 +293,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateRunAsync(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UpdateRun(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -301,7 +301,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.SubmitToolOutputsToRunAsync(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.OpenAI.Assistants.ToolOutput},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.SubmitToolOutputsToRun(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.OpenAI.Assistants.ToolOutput},System.Threading.CancellationToken)",
@@ -309,7 +309,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CancelRunAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CancelRun(System.String,System.String,System.Threading.CancellationToken)",
@@ -317,7 +317,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateThreadAndRunAsync(Azure.AI.OpenAI.Assistants.CreateAndRunThreadOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.CreateThreadAndRun(Azure.AI.OpenAI.Assistants.CreateAndRunThreadOptions,System.Threading.CancellationToken)",
@@ -325,7 +325,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRunStepAsync(System.String,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetRunStep(System.String,System.String,System.String,System.Threading.CancellationToken)",
@@ -333,7 +333,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UploadFileAsync(System.IO.Stream,Azure.AI.OpenAI.Assistants.OpenAIFilePurpose,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.UploadFile(System.IO.Stream,Azure.AI.OpenAI.Assistants.OpenAIFilePurpose,System.String,System.Threading.CancellationToken)",
@@ -341,7 +341,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetFileAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetFile(System.String,System.Threading.CancellationToken)",
@@ -349,7 +349,7 @@
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetFileContentAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Convenience/AssistantsClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/668f81b30a6a177723ec859f4ac1d3a2873cd378/sdk/openai/Azure.AI.OpenAI.Assistants/src/Generated/AssistantsClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.OpenAI.Assistants.AssistantsClient.GetFileContent(System.String,System.Threading.CancellationToken)",

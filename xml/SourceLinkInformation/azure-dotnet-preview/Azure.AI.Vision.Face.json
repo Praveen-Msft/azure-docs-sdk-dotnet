@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.AI.Vision.Face",
   "GUID": "222E1403C05F4BC4A3DF6E7FE6A8BA3DFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilarAsync(System.Guid,System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Int32},System.Nullable{Azure.AI.Vision.Face.FindSimilarMatchMode},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilar(System.Guid,System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Int32},System.Nullable{Azure.AI.Vision.Face.FindSimilarMatchMode},System.Threading.CancellationToken)",
@@ -199,7 +199,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilarAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilar(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -207,7 +207,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFaceToFaceAsync(System.Guid,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFaceToFace(System.Guid,System.Guid,System.Threading.CancellationToken)",
@@ -215,7 +215,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFaceToFaceAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFaceToFace(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -223,7 +223,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.GroupAsync(System.Collections.Generic.IEnumerable{System.Guid},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.Group(System.Collections.Generic.IEnumerable{System.Guid},System.Threading.CancellationToken)",
@@ -231,7 +231,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.GroupAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.Group(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -239,7 +239,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilarFromLargeFaceListAsync(System.Guid,System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.Vision.Face.FindSimilarMatchMode},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilarFromLargeFaceList(System.Guid,System.String,System.Nullable{System.Int32},System.Nullable{Azure.AI.Vision.Face.FindSimilarMatchMode},System.Threading.CancellationToken)",
@@ -247,7 +247,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilarFromLargeFaceListAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.FindSimilarFromLargeFaceList(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -255,7 +255,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.IdentifyFromLargePersonGroupAsync(System.Collections.Generic.IEnumerable{System.Guid},System.String,System.Nullable{System.Int32},System.Nullable{System.Single},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.IdentifyFromLargePersonGroup(System.Collections.Generic.IEnumerable{System.Guid},System.String,System.Nullable{System.Int32},System.Nullable{System.Single},System.Threading.CancellationToken)",
@@ -263,7 +263,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.IdentifyFromLargePersonGroupAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.IdentifyFromLargePersonGroup(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -271,7 +271,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFromLargePersonGroupAsync(System.Guid,System.String,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFromLargePersonGroup(System.Guid,System.String,System.Guid,System.Threading.CancellationToken)",
@@ -279,7 +279,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFromLargePersonGroupAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceClient.VerifyFromLargePersonGroup(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -325,7 +325,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.CreateLivenessSessionAsync(Azure.AI.Vision.Face.CreateLivenessSessionContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.CreateLivenessSession(Azure.AI.Vision.Face.CreateLivenessSessionContent,System.Threading.CancellationToken)",
@@ -333,7 +333,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.CreateLivenessSessionAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.CreateLivenessSession(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -341,7 +341,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DeleteLivenessSessionAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DeleteLivenessSession(System.String,Azure.RequestContext)",
@@ -349,7 +349,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionResultAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionResult(System.String,System.Threading.CancellationToken)",
@@ -357,7 +357,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionResultAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionResult(System.String,Azure.RequestContext)",
@@ -365,7 +365,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionsAsync(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessions(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -373,7 +373,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionsAsync(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessions(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
@@ -381,7 +381,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionAuditEntriesAsync(System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionAuditEntries(System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -389,7 +389,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionAuditEntriesAsync(System.String,System.String,System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessSessionAuditEntries(System.String,System.String,System.Nullable{System.Int32},Azure.RequestContext)",
@@ -397,7 +397,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DeleteLivenessWithVerifySessionAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DeleteLivenessWithVerifySession(System.String,Azure.RequestContext)",
@@ -405,7 +405,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionResultAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionResult(System.String,System.Threading.CancellationToken)",
@@ -413,7 +413,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionResultAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionResult(System.String,Azure.RequestContext)",
@@ -421,7 +421,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionsAsync(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessions(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -429,7 +429,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionsAsync(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessions(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
@@ -437,7 +437,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionAuditEntriesAsync(System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionAuditEntries(System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -445,7 +445,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionAuditEntriesAsync(System.String,System.String,System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetLivenessWithVerifySessionAuditEntries(System.String,System.String,System.Nullable{System.Int32},Azure.RequestContext)",
@@ -453,7 +453,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DetectFromSessionImageAsync(System.String,System.Nullable{Azure.AI.Vision.Face.FaceDetectionModel},System.Nullable{Azure.AI.Vision.Face.FaceRecognitionModel},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{Azure.AI.Vision.Face.FaceAttributeType},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DetectFromSessionImage(System.String,System.Nullable{Azure.AI.Vision.Face.FaceDetectionModel},System.Nullable{Azure.AI.Vision.Face.FaceRecognitionModel},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{Azure.AI.Vision.Face.FaceAttributeType},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -461,7 +461,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DetectFromSessionImageAsync(Azure.Core.RequestContent,System.String,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{Azure.AI.Vision.Face.FaceAttributeType},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.DetectFromSessionImage(Azure.Core.RequestContent,System.String,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{Azure.AI.Vision.Face.FaceAttributeType},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},Azure.RequestContext)",
@@ -469,7 +469,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetSessionImageAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetSessionImage(System.String,System.Threading.CancellationToken)",
@@ -477,7 +477,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetSessionImageAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/FaceSessionClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/FaceSessionClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.FaceSessionClient.GetSessionImage(System.String,Azure.RequestContext)",
@@ -539,7 +539,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.CreateAsync(System.String,System.String,System.Nullable{Azure.AI.Vision.Face.FaceRecognitionModel},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.Create(System.String,System.String,System.Nullable{Azure.AI.Vision.Face.FaceRecognitionModel},System.Threading.CancellationToken)",
@@ -547,7 +547,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.CreateAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.Create(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -555,7 +555,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.DeleteAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.Delete(Azure.RequestContext)",
@@ -563,7 +563,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceListAsync(System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceList(System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -571,7 +571,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceListAsync(System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceList(System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -579,7 +579,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.UpdateAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.Update(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -587,7 +587,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceListsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceLists(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -595,7 +595,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceListsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetLargeFaceLists(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -603,7 +603,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetTrainingStatusAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetTrainingStatus(System.Threading.CancellationToken)",
@@ -611,7 +611,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetTrainingStatusAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetTrainingStatus(Azure.RequestContext)",
@@ -619,7 +619,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.DeleteFaceAsync(System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.DeleteFace(System.Guid,Azure.RequestContext)",
@@ -627,7 +627,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFaceAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFace(System.Guid,System.Threading.CancellationToken)",
@@ -635,7 +635,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFaceAsync(System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFace(System.Guid,Azure.RequestContext)",
@@ -643,7 +643,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.UpdateFaceAsync(System.Guid,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.UpdateFace(System.Guid,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -651,7 +651,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFacesAsync(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFaces(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -659,7 +659,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFacesAsync(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.GetFaces(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
@@ -667,7 +667,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.TrainAsync(Azure.WaitUntil,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargeFaceListClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargeFaceListClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargeFaceListClient.Train(Azure.WaitUntil,Azure.RequestContext)",
@@ -729,7 +729,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.CreateAsync(System.String,System.String,System.Nullable{Azure.AI.Vision.Face.FaceRecognitionModel},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.Create(System.String,System.String,System.Nullable{Azure.AI.Vision.Face.FaceRecognitionModel},System.Threading.CancellationToken)",
@@ -737,7 +737,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.CreateAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.Create(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -745,7 +745,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.DeleteAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.Delete(Azure.RequestContext)",
@@ -753,7 +753,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroupAsync(System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroup(System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -761,7 +761,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroupAsync(System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroup(System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -769,7 +769,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.UpdateAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.Update(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -777,7 +777,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroupsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroups(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Threading.CancellationToken)",
@@ -785,7 +785,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroupsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetLargePersonGroups(System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -793,7 +793,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetTrainingStatusAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetTrainingStatus(System.Threading.CancellationToken)",
@@ -801,7 +801,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetTrainingStatusAsync(Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetTrainingStatus(Azure.RequestContext)",
@@ -809,7 +809,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.CreatePersonAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.CreatePerson(System.String,System.String,System.Threading.CancellationToken)",
@@ -817,7 +817,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.CreatePersonAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.CreatePerson(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -825,7 +825,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.DeletePersonAsync(System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.DeletePerson(System.Guid,Azure.RequestContext)",
@@ -833,7 +833,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPersonAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPerson(System.Guid,System.Threading.CancellationToken)",
@@ -841,7 +841,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPersonAsync(System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPerson(System.Guid,Azure.RequestContext)",
@@ -849,7 +849,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.UpdatePersonAsync(System.Guid,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.UpdatePerson(System.Guid,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -857,7 +857,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPersonsAsync(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPersons(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)",
@@ -865,7 +865,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPersonsAsync(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetPersons(System.String,System.Nullable{System.Int32},Azure.RequestContext)",
@@ -873,7 +873,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.DeleteFaceAsync(System.Guid,System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.DeleteFace(System.Guid,System.Guid,Azure.RequestContext)",
@@ -881,7 +881,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetFaceAsync(System.Guid,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetFace(System.Guid,System.Guid,System.Threading.CancellationToken)",
@@ -889,7 +889,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetFaceAsync(System.Guid,System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.GetFace(System.Guid,System.Guid,Azure.RequestContext)",
@@ -897,7 +897,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.UpdateFaceAsync(System.Guid,System.Guid,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.UpdateFace(System.Guid,System.Guid,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -905,7 +905,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.TrainAsync(Azure.WaitUntil,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Custom/LargePersonGroupClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a5714d4c1d3f516db2528ac3f000dde20bbd4b49/sdk/face/Azure.AI.Vision.Face/src/Generated/LargePersonGroupClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Vision.Face.LargePersonGroupClient.Train(Azure.WaitUntil,Azure.RequestContext)",

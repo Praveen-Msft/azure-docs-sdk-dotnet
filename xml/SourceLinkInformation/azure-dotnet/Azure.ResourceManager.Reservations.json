@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Reservations",
   "GUID": "3D4BBA10C62147218091325F1E8B8E13FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetReservationQuotaAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetReservationQuota(Azure.ResourceManager.Resources.SubscriptionResource,System.String,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetQuotaRequestDetailAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,Azure.Core.AzureLocation,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetQuotaRequestDetail(Azure.ResourceManager.Resources.SubscriptionResource,System.String,Azure.Core.AzureLocation,System.Guid,System.Threading.CancellationToken)",
@@ -71,7 +71,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetAppliedReservationsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetAppliedReservations(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)",
@@ -83,7 +83,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetReservationOrderAsync(Azure.ResourceManager.Resources.TenantResource,System.Guid,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.GetReservationOrder(Azure.ResourceManager.Resources.TenantResource,System.Guid,System.String,System.Threading.CancellationToken)",
@@ -99,7 +99,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.CalculateReservationOrderAsync(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.Reservations.Models.ReservationPurchaseContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.CalculateReservationOrder(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.Reservations.Models.ReservationPurchaseContent,System.Threading.CancellationToken)",
@@ -107,7 +107,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.CalculateReservationExchangeAsync(Azure.ResourceManager.Resources.TenantResource,Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.CalculateExchangeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.CalculateReservationExchange(Azure.ResourceManager.Resources.TenantResource,Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.CalculateExchangeContent,System.Threading.CancellationToken)",
@@ -115,7 +115,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.ExchangeAsync(Azure.ResourceManager.Resources.TenantResource,Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ExchangeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/ReservationsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/ReservationsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationsExtensions.Exchange(Azure.ResourceManager.Resources.TenantResource,Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ExchangeContent,System.Threading.CancellationToken)",
@@ -149,7 +149,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.GetReservationDetailAsync(System.Guid,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.GetReservationDetail(System.Guid,System.String,System.Threading.CancellationToken)",
@@ -157,7 +157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.Get(System.String,System.Threading.CancellationToken)",
@@ -165,7 +165,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ReservationPurchaseContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.Update(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ReservationPurchaseContent,System.Threading.CancellationToken)",
@@ -173,7 +173,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.SplitReservationAsync(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.SplitContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.SplitReservation(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.SplitContent,System.Threading.CancellationToken)",
@@ -181,7 +181,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.MergeReservationAsync(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.MergeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.MergeReservation(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.MergeContent,System.Threading.CancellationToken)",
@@ -189,7 +189,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.ChangeDirectoryAsync(Azure.ResourceManager.Reservations.Models.ChangeDirectoryContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.ChangeDirectory(Azure.ResourceManager.Reservations.Models.ChangeDirectoryContent,System.Threading.CancellationToken)",
@@ -197,7 +197,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.CalculateRefundAsync(Azure.ResourceManager.Reservations.Models.ReservationCalculateRefundContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.CalculateRefund(Azure.ResourceManager.Reservations.Models.ReservationCalculateRefundContent,System.Threading.CancellationToken)",
@@ -205,7 +205,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.ReturnAsync(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ReservationRefundContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/ReservationOrderResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/ReservationOrderResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.ReservationOrderResource.Return(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ReservationRefundContent,System.Threading.CancellationToken)",
@@ -5953,7 +5953,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsSubscriptionResource.GetReservationQuotaAsync(System.String,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsSubscriptionResource.GetReservationQuota(System.String,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)",
@@ -5965,7 +5965,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsSubscriptionResource.GetQuotaRequestDetailAsync(System.String,Azure.Core.AzureLocation,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsSubscriptionResource.GetQuotaRequestDetail(System.String,Azure.Core.AzureLocation,System.Guid,System.Threading.CancellationToken)",
@@ -5981,7 +5981,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsSubscriptionResource.GetAppliedReservationsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsSubscriptionResource.GetAppliedReservations(System.Threading.CancellationToken)",
@@ -6011,7 +6011,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.GetReservationOrderAsync(System.Guid,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.GetReservationOrder(System.Guid,System.String,System.Threading.CancellationToken)",
@@ -6027,7 +6027,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.CalculateReservationOrderAsync(Azure.ResourceManager.Reservations.Models.ReservationPurchaseContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.CalculateReservationOrder(Azure.ResourceManager.Reservations.Models.ReservationPurchaseContent,System.Threading.CancellationToken)",
@@ -6035,7 +6035,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.CalculateReservationExchangeAsync(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.CalculateExchangeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.CalculateReservationExchange(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.CalculateExchangeContent,System.Threading.CancellationToken)",
@@ -6043,7 +6043,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.ExchangeAsync(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ExchangeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Custom/Extensions/MockableReservationsTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/d930c3645504aef36171a6c93cc525949724c0be/sdk/reservations/Azure.ResourceManager.Reservations/src/Generated/Extensions/MockableReservationsTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Reservations.Mocking.MockableReservationsTenantResource.Exchange(Azure.WaitUntil,Azure.ResourceManager.Reservations.Models.ExchangeContent,System.Threading.CancellationToken)",

@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.ManagedServiceIdentities",
   "GUID": "A10DA98A088B490C89DB5ADA473EF934FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -93,7 +93,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.SystemAssignedIdentityResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/SystemAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/SystemAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.SystemAssignedIdentityResource.Get(System.Threading.CancellationToken)",
@@ -159,7 +159,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.GetFederatedIdentityCredentialAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.GetFederatedIdentityCredential(System.String,System.Threading.CancellationToken)",
@@ -167,7 +167,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.Get(System.Threading.CancellationToken)",
@@ -175,7 +175,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -183,7 +183,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.UpdateAsync(Azure.ResourceManager.ManagedServiceIdentities.Models.UserAssignedIdentityPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.Update(Azure.ResourceManager.ManagedServiceIdentities.Models.UserAssignedIdentityPatch,System.Threading.CancellationToken)",
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -199,7 +199,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -207,7 +207,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Custom/UserAssignedIdentityResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/85b2b4a3c06c295fbbc79b0e1776e14ad7ccbe51/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/src/Generated/UserAssignedIdentityResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource.RemoveTag(System.String,System.Threading.CancellationToken)",

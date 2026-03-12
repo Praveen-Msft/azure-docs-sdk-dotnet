@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.HealthBot",
   "GUID": "B5F8845BDBD944D1BBEF18A034079748FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -23,7 +23,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.Get(System.Threading.CancellationToken)",
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -39,7 +39,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.HealthBot.Models.HealthBotPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.Update(Azure.WaitUntil,Azure.ResourceManager.HealthBot.Models.HealthBotPatch,System.Threading.CancellationToken)",
@@ -47,7 +47,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.GetSecretsAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.GetSecrets(System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.RegenerateApiJwtSecretAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.RegenerateApiJwtSecret(System.Threading.CancellationToken)",
@@ -63,7 +63,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -71,7 +71,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -79,7 +79,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Custom/HealthBotResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/13b0e90d0b53fc3450e7536be5da53ae9d2645e9/sdk/healthbot/Azure.ResourceManager.HealthBot/src/Generated/HealthBotResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.HealthBot.HealthBotResource.RemoveTag(System.String,System.Threading.CancellationToken)",

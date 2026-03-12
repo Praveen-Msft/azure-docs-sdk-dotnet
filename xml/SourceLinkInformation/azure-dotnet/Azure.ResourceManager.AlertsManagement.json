@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.AlertsManagement",
   "GUID": "B42F1B3095034EE1B41F699692B59822FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -31,7 +31,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetAlertProcessingRuleAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/AlertsManagementExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/AlertsManagementExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetAlertProcessingRule(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)",
@@ -43,7 +43,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetServiceAlertAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/AlertsManagementExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/AlertsManagementExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetServiceAlert(Azure.ResourceManager.Resources.SubscriptionResource,System.Guid,System.Threading.CancellationToken)",
@@ -55,7 +55,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetSmartGroupAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/AlertsManagementExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/AlertsManagementExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetSmartGroup(Azure.ResourceManager.Resources.SubscriptionResource,System.Guid,System.Threading.CancellationToken)",
@@ -71,7 +71,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetServiceAlertSummaryAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.AlertsManagement.Models.SubscriptionResourceGetServiceAlertSummaryOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/AlertsManagementExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/AlertsManagementExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetServiceAlertSummary(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.AlertsManagement.Models.SubscriptionResourceGetServiceAlertSummaryOptions,System.Threading.CancellationToken)",
@@ -79,7 +79,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetServiceAlertMetadataAsync(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.AlertsManagement.Models.RetrievedInformationIdentifier,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/AlertsManagementExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/AlertsManagementExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.AlertsManagementExtensions.GetServiceAlertMetadata(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.AlertsManagement.Models.RetrievedInformationIdentifier,System.Threading.CancellationToken)",
@@ -105,7 +105,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.GetAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/ServiceAlertCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/ServiceAlertCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.Get(System.Guid,System.Threading.CancellationToken)",
@@ -121,7 +121,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.ExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/ServiceAlertCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/ServiceAlertCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.Exists(System.Guid,System.Threading.CancellationToken)",
@@ -129,7 +129,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.GetIfExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/ServiceAlertCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/ServiceAlertCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.GetIfExists(System.Guid,System.Threading.CancellationToken)",
@@ -167,7 +167,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.GetAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/SmartGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/SmartGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.Get(System.Guid,System.Threading.CancellationToken)",
@@ -183,7 +183,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.ExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/SmartGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/SmartGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.Exists(System.Guid,System.Threading.CancellationToken)",
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.GetIfExistsAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/SmartGroupCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/SmartGroupCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.GetIfExists(System.Guid,System.Threading.CancellationToken)",
@@ -3243,7 +3243,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.Mocking.MockableAlertsManagementSubscriptionResource.GetServiceAlertAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/MockableAlertsManagementSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/MockableAlertsManagementSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.Mocking.MockableAlertsManagementSubscriptionResource.GetServiceAlert(System.Guid,System.Threading.CancellationToken)",
@@ -3255,7 +3255,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.Mocking.MockableAlertsManagementSubscriptionResource.GetSmartGroupAsync(System.Guid,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/MockableAlertsManagementSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/MockableAlertsManagementSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.Mocking.MockableAlertsManagementSubscriptionResource.GetSmartGroup(System.Guid,System.Threading.CancellationToken)",
@@ -3271,7 +3271,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.Mocking.MockableAlertsManagementSubscriptionResource.GetServiceAlertSummaryAsync(Azure.ResourceManager.AlertsManagement.Models.SubscriptionResourceGetServiceAlertSummaryOptions,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Custom/Extensions/MockableAlertsManagementSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/909b5eb2b97b8ac35e1031bf41d1b4ee724e38f4/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement/src/Generated/Extensions/MockableAlertsManagementSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.AlertsManagement.Mocking.MockableAlertsManagementSubscriptionResource.GetServiceAlertSummary(Azure.ResourceManager.AlertsManagement.Models.SubscriptionResourceGetServiceAlertSummaryOptions,System.Threading.CancellationToken)",

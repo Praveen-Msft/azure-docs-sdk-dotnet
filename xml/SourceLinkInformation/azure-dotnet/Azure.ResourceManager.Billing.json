@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.Billing",
   "GUID": "176FF08489474D79AC48C2F870DF4D06FFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -101,7 +101,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingPaymentMethodLinkResource.GetAsync(System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingPaymentMethodLinkResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingPaymentMethodLinkResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingPaymentMethodLinkResource.Get(System.Threading.CancellationToken)",
@@ -159,7 +159,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.Billing.BillingSubscriptionAliasData,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionAliasCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionAliasCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.Billing.BillingSubscriptionAliasData,System.Threading.CancellationToken)",
@@ -167,7 +167,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionAliasCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionAliasCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.Get(System.String,System.Threading.CancellationToken)",
@@ -183,7 +183,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionAliasCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionAliasCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.Exists(System.String,System.Threading.CancellationToken)",
@@ -191,7 +191,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionAliasCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionAliasCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionAliasCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
@@ -491,7 +491,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionCollection.GetAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionCollection.Get(System.String,System.String,System.Threading.CancellationToken)",
@@ -507,7 +507,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionCollection.ExistsAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionCollection.Exists(System.String,System.String,System.Threading.CancellationToken)",
@@ -515,7 +515,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionCollection.GetIfExistsAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionCollection.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionCollection.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionCollection.GetIfExists(System.String,System.String,System.Threading.CancellationToken)",
@@ -795,7 +795,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.GetAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Get(System.String,System.Threading.CancellationToken)",
@@ -803,7 +803,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -811,7 +811,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionPatch,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Update(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionPatch,System.Threading.CancellationToken)",
@@ -819,7 +819,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.CancelAsync(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.CancelSubscriptionContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Cancel(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.CancelSubscriptionContent,System.Threading.CancellationToken)",
@@ -827,7 +827,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.MergeAsync(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionMergeContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Merge(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionMergeContent,System.Threading.CancellationToken)",
@@ -835,7 +835,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.MoveAsync(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionMoveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Move(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionMoveContent,System.Threading.CancellationToken)",
@@ -843,7 +843,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.SplitAsync(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionSplitContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.Split(Azure.WaitUntil,Azure.ResourceManager.Billing.Models.BillingSubscriptionSplitContent,System.Threading.CancellationToken)",
@@ -851,7 +851,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.ValidateMoveEligibilityAsync(Azure.ResourceManager.Billing.Models.BillingSubscriptionMoveContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.ValidateMoveEligibility(Azure.ResourceManager.Billing.Models.BillingSubscriptionMoveContent,System.Threading.CancellationToken)",
@@ -859,7 +859,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
@@ -867,7 +867,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
@@ -875,7 +875,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/BillingSubscriptionResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/BillingSubscriptionResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingSubscriptionResource.RemoveTag(System.String,System.Threading.CancellationToken)",
@@ -1165,7 +1165,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetBillingAccountAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetBillingAccount(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -1177,7 +1177,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetBillingRequestAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetBillingRequest(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -1189,7 +1189,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetSubscriptionBillingInvoiceAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetSubscriptionBillingInvoice(Azure.ResourceManager.Resources.TenantResource,System.String,System.String,System.Threading.CancellationToken)",
@@ -1201,7 +1201,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetDefaultBillingInvoiceAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetDefaultBillingInvoice(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -1213,7 +1213,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetBillingPaymentMethodAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetBillingPaymentMethod(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -1225,7 +1225,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetRecipientTransferDetailAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.GetRecipientTransferDetail(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
@@ -1233,7 +1233,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.ValidateAddresAsync(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.Billing.Models.BillingAddressDetails,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.ValidateAddres(Azure.ResourceManager.Resources.TenantResource,Azure.ResourceManager.Billing.Models.BillingAddressDetails,System.Threading.CancellationToken)",
@@ -1241,7 +1241,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.DownloadDocumentsByBillingSubscriptionInvoiceAsync(Azure.ResourceManager.Resources.TenantResource,Azure.WaitUntil,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Billing.Models.BillingDocumentDownloadRequestContent},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/BillingExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/BillingExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.BillingExtensions.DownloadDocumentsByBillingSubscriptionInvoice(Azure.ResourceManager.Resources.TenantResource,Azure.WaitUntil,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Billing.Models.BillingDocumentDownloadRequestContent},System.Threading.CancellationToken)",
@@ -9089,7 +9089,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetBillingAccountAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetBillingAccount(System.String,System.Threading.CancellationToken)",
@@ -9101,7 +9101,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetBillingRequestAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetBillingRequest(System.String,System.Threading.CancellationToken)",
@@ -9113,7 +9113,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetSubscriptionBillingInvoiceAsync(System.String,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetSubscriptionBillingInvoice(System.String,System.String,System.Threading.CancellationToken)",
@@ -9125,7 +9125,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetDefaultBillingInvoiceAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetDefaultBillingInvoice(System.String,System.Threading.CancellationToken)",
@@ -9137,7 +9137,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetBillingPaymentMethodAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetBillingPaymentMethod(System.String,System.Threading.CancellationToken)",
@@ -9149,7 +9149,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetRecipientTransferDetailAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.GetRecipientTransferDetail(System.String,System.Threading.CancellationToken)",
@@ -9157,7 +9157,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.ValidateAddresAsync(Azure.ResourceManager.Billing.Models.BillingAddressDetails,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.ValidateAddres(Azure.ResourceManager.Billing.Models.BillingAddressDetails,System.Threading.CancellationToken)",
@@ -9165,7 +9165,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.DownloadDocumentsByBillingSubscriptionInvoiceAsync(Azure.WaitUntil,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Billing.Models.BillingDocumentDownloadRequestContent},System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Custom/Extensions/MockableBillingTenantResource.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/208bb6124d823c0d31f269f6ec198c83ba6e64e2/sdk/billing/Azure.ResourceManager.Billing/src/Generated/Extensions/MockableBillingTenantResource.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.Billing.Mocking.MockableBillingTenantResource.DownloadDocumentsByBillingSubscriptionInvoice(Azure.WaitUntil,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Billing.Models.BillingDocumentDownloadRequestContent},System.Threading.CancellationToken)",

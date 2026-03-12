@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.AI.Language.Conversations",
   "GUID": "A3528001ADAB40DC8831E60D4B93E76FFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -49,7 +49,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.AnalyzeConversationAsync(Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/ConversationAnalysisClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAnalysisClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.AnalyzeConversation(Azure.Core.RequestContent,Azure.RequestContext)",
@@ -57,7 +57,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.GetAnalyzeConversationJobStatusAsync(System.Guid,System.Nullable{System.Boolean},Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/ConversationAnalysisClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAnalysisClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.GetAnalyzeConversationJobStatus(System.Guid,System.Nullable{System.Boolean},Azure.RequestContext)",
@@ -65,7 +65,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.AnalyzeConversationsAsync(Azure.WaitUntil,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/ConversationAnalysisClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAnalysisClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.AnalyzeConversations(Azure.WaitUntil,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -73,7 +73,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.CancelAnalyzeConversationsAsync(Azure.WaitUntil,System.Guid,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/ConversationAnalysisClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAnalysisClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.ConversationAnalysisClient.CancelAnalyzeConversations(Azure.WaitUntil,System.Guid,Azure.RequestContext)",
@@ -137,7 +137,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.CreateProjectAsync(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.CreateProject(System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -145,7 +145,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetProjectAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetProject(System.String,Azure.RequestContext)",
@@ -153,7 +153,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetDeploymentAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetDeployment(System.String,System.String,Azure.RequestContext)",
@@ -161,7 +161,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetDeploymentJobStatusAsync(System.String,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetDeploymentJobStatus(System.String,System.String,System.String,Azure.RequestContext)",
@@ -169,7 +169,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetSwapDeploymentsJobStatusAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetSwapDeploymentsJobStatus(System.String,System.String,Azure.RequestContext)",
@@ -177,7 +177,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetExportProjectJobStatusAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetExportProjectJobStatus(System.String,System.String,Azure.RequestContext)",
@@ -185,7 +185,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetImportProjectJobStatusAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetImportProjectJobStatus(System.String,System.String,Azure.RequestContext)",
@@ -193,7 +193,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetTrainedModelAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetTrainedModel(System.String,System.String,Azure.RequestContext)",
@@ -201,7 +201,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeleteTrainedModelAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeleteTrainedModel(System.String,System.String,Azure.RequestContext)",
@@ -209,7 +209,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetModelEvaluationSummaryAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetModelEvaluationSummary(System.String,System.String,Azure.RequestContext)",
@@ -217,7 +217,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetLoadSnapshotJobStatusAsync(System.String,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetLoadSnapshotJobStatus(System.String,System.String,System.String,Azure.RequestContext)",
@@ -225,7 +225,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetTrainingJobStatusAsync(System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetTrainingJobStatus(System.String,System.String,Azure.RequestContext)",
@@ -233,7 +233,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetProjectDeletionJobStatusAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.GetProjectDeletionJobStatus(System.String,Azure.RequestContext)",
@@ -305,7 +305,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeleteProjectAsync(Azure.WaitUntil,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeleteProject(Azure.WaitUntil,System.String,Azure.RequestContext)",
@@ -313,7 +313,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.ExportProjectAsync(Azure.WaitUntil,System.String,System.String,System.String,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.ExportProject(Azure.WaitUntil,System.String,System.String,System.String,System.String,System.String,Azure.RequestContext)",
@@ -321,7 +321,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.ImportProjectAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.ImportProject(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)",
@@ -329,7 +329,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.TrainAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.Train(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -337,7 +337,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.SwapDeploymentsAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.SwapDeployments(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -345,7 +345,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeployProjectAsync(Azure.WaitUntil,System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeployProject(Azure.WaitUntil,System.String,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
@@ -353,7 +353,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeleteDeploymentAsync(Azure.WaitUntil,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.DeleteDeployment(Azure.WaitUntil,System.String,System.String,Azure.RequestContext)",
@@ -361,7 +361,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.LoadSnapshotAsync(Azure.WaitUntil,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.LoadSnapshot(Azure.WaitUntil,System.String,System.String,Azure.RequestContext)",
@@ -369,7 +369,7 @@
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.CancelTrainingJobAsync(Azure.WaitUntil,System.String,System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Authoring/ConversationAuthoringClient.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/2a0f6eadcaf9bf8e03d8ec5c3b7aef241e31c24d/sdk/cognitivelanguage/Azure.AI.Language.Conversations/src/Generated/ConversationAuthoringClient.cs"
         },
         {
           "DocsId": "M:Azure.AI.Language.Conversations.Authoring.ConversationAuthoringClient.CancelTrainingJob(Azure.WaitUntil,System.String,System.String,Azure.RequestContext)",

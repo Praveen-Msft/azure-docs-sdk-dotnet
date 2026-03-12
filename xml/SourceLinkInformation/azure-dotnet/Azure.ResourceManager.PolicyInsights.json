@@ -1,7 +1,7 @@
 {
   "Assembly": "Azure.ResourceManager.PolicyInsights",
   "GUID": "0554E34ACFBD44F894DDAE38E6A14FEAFFFFFFFF",
-  "Tag": "ycSeuY1Ti7n664MZq8KfYA1pJoJF8rliWzKN05Rzi7I=",
+  "Tag": "sOuFXp/LX61mtz1UPvAyMe3FBigrguL1VKxSEdcXi8c=",
   "Types": [
     {
       "Members": [
@@ -83,7 +83,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.GetPolicyRemediationAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.GetPolicyRemediation(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -95,7 +95,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.GetPolicyAttestationAsync(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.GetPolicyAttestation(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)",
@@ -187,7 +187,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.CheckPolicyRestrictionsAsync(Azure.ResourceManager.ManagementGroups.ManagementGroupResource,Azure.ResourceManager.PolicyInsights.Models.CheckManagementGroupPolicyRestrictionsContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.CheckPolicyRestrictions(Azure.ResourceManager.ManagementGroups.ManagementGroupResource,Azure.ResourceManager.PolicyInsights.Models.CheckManagementGroupPolicyRestrictionsContent,System.Threading.CancellationToken)",
@@ -227,7 +227,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.TriggerPolicyStateEvaluationAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.TriggerPolicyStateEvaluation(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -235,7 +235,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.CheckPolicyRestrictionsAsync(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.CheckPolicyRestrictions(Azure.ResourceManager.Resources.ResourceGroupResource,Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsContent,System.Threading.CancellationToken)",
@@ -291,7 +291,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.TriggerPolicyStateEvaluationAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.WaitUntil,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.TriggerPolicyStateEvaluation(Azure.ResourceManager.Resources.SubscriptionResource,Azure.WaitUntil,System.Threading.CancellationToken)",
@@ -299,7 +299,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.CheckPolicyRestrictionsAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsContent,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.CheckPolicyRestrictions(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsContent,System.Threading.CancellationToken)",
@@ -335,7 +335,7 @@
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.GetPolicyMetadataAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Customized/Extensions/PolicyInsightsExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/a6b54f57efb1cf2375b789f210cedbd23cf632db/sdk/policyinsights/Azure.ResourceManager.PolicyInsights/src/Generated/Extensions/PolicyInsightsExtensions.cs"
         },
         {
           "DocsId": "M:Azure.ResourceManager.PolicyInsights.PolicyInsightsExtensions.GetPolicyMetadata(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
