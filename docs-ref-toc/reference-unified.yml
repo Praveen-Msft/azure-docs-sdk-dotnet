@@ -348,10 +348,7 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.webjobs.extensions.authenticationevents-readme.md
       children:
       - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents
-      - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.Framework
       - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.TokenIssuanceStart
-      - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.TokenIssuanceStart.Actions
-      - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.TokenIssuanceStart.Data
   - name: Authorization
     href: ~/api/overview/azure/{moniker}/authorization.md
     landingPageType: Service
@@ -732,7 +729,6 @@
       href: ~/api/overview/azure/{moniker}/ai.language.questionanswering.inference-readme.md
       children:
       - Azure.AI.Language.QuestionAnswering.Inference
-      - Microsoft.Extensions.Azure
     - name: Language Text
       href: ~/api/overview/azure/{moniker}/ai.language.text-readme.md
       children:
@@ -762,7 +758,6 @@
       href: ~/api/overview/azure/{moniker}/ai.projects-readme.md
       children:
       - Azure.AI.Projects
-      - Azure.Core
       - OpenAI
     - name: AI Projects - OpenAI
       href: ~/api/overview/azure/{moniker}/ai.projects.openai-readme.md
@@ -1883,7 +1878,7 @@
         - Azure.ResourceManager.DisconnectedOperations
         - Azure.ResourceManager.DisconnectedOperations.Mocking
         - Azure.ResourceManager.DisconnectedOperations.Models
-  - name: Dns
+  - name: DNS
     href: ~/api/overview/azure/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -2535,6 +2530,7 @@
       href: ~/api/overview/azure/{moniker}/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Models Repository
       href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
       children:
@@ -4064,6 +4060,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.account-readme.md
       children:
       - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
     - name: Purview Administration
       href: ~/api/overview/azure/{moniker}/analytics.purview.administration-readme.md
       children:
@@ -4072,6 +4069,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.catalog-readme.md
       children:
       - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
     - name: Purview Data Map
       href: ~/api/overview/azure/{moniker}/analytics.purview.datamap-readme.md
       children:
@@ -4081,6 +4079,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.scanning-readme.md
       children:
       - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
     - name: Purview Share (deprecated)
       href: ~/api/overview/azure/{moniker}/analytics.purview.share-readme.md
       children:
