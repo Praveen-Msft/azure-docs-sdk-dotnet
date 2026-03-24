@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Storage.Blobs.ChangeFeed",
-  "Version": "12.0.0-preview.60",
-  "DevVersion": null,
+  "Version": "12.0.0-alpha.20260324.3",
+  "DevVersion": "12.0.0-alpha.20260324.3",
   "DirectoryPath": "sdk/storage/Azure.Storage.Blobs.ChangeFeed",
   "ServiceDirectory": "storage",
   "ReadMePath": "sdk/storage/Azure.Storage.Blobs.ChangeFeed/README.md",
@@ -10,22 +10,20 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Storage.Blobs.ChangeFeed",
-  "ReleaseStatus": "2026-01-20",
+  "ReleaseStatus": "2026-03-24",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureStorageBlobsChangeFeed",
-    "name": "Azure.Storage.Blobs.ChangeFeed",
     "triggeringPaths": [
       "/sdk/storage/ci.yml"
     ],
+    "name": "Azure.Storage.Blobs.ChangeFeed",
+    "safeName": "AzureStorageBlobsChangeFeed",
     "skipSmokeTests": true
   },
   "CIParameters": {
-    "CIMatrixConfigs": [],
-    "CheckAOTCompat": false,
     "BuildSnippets": false,
-    "AOTTestInputs": []
+    "CIMatrixConfigs": []
   },
   "SpecProjectPath": null,
   "Namespaces": [
