@@ -14,6 +14,7 @@
     <AssemblyVersion>1.2.2.0</AssemblyVersion>
     <AssemblyVersion>1.2.3.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -44,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -64,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.Models.SearchAadAuthDataPlaneAuthOptions</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceComputeType&gt;</ReturnType>
@@ -104,29 +108,10 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Search.Models.SearchDataExfiltrationProtection&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> A list of data exfiltration scenarios that are explicitly disallowed for the search service. Currently, the only supported value is 'All' to disable all possible data export scenarios with more fine grained controls planned for the future. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="DisabledDataExfiltrationOptions">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.Search.Models.SearchDisabledDataExfiltrationOption&gt; DisabledDataExfiltrationOptions { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Azure.ResourceManager.Search.Models.SearchDisabledDataExfiltrationOption&gt; DisabledDataExfiltrationOptions" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Search.Models.SearchServicePatch.DisabledDataExfiltrationOptions" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisabledDataExfiltrationOptions As IList(Of SearchDisabledDataExfiltrationOption)" />
-      <MemberSignature Language="F#" Value="member this.DisabledDataExfiltrationOptions : System.Collections.Generic.IList&lt;Azure.ResourceManager.Search.Models.SearchDisabledDataExfiltrationOption&gt;" Usage="Azure.ResourceManager.Search.Models.SearchServicePatch.DisabledDataExfiltrationOptions" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Search.Models.SearchDisabledDataExfiltrationOption&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> A list of data exfiltration scenarios that are explicitly disallowed for the search service. Currently, the only supported value is 'All' to disable all possible data export scenarios with more fine grained controls planned for the future. </summary>
@@ -144,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.Models.SearchEncryptionWithCmk</ReturnType>
@@ -164,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -184,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
@@ -204,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceHostingMode&gt;</ReturnType>
@@ -224,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Models.ManagedServiceIdentity</ReturnType>
@@ -244,6 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -270,6 +261,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -281,23 +273,19 @@
       </Docs>
     </Member>
     <Member MemberName="IsUpgradeAvailable">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable? IsUpgradeAvailable { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable&gt; IsUpgradeAvailable" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable? IsUpgradeAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable&gt; IsUpgradeAvailable" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Search.Models.SearchServicePatch.IsUpgradeAvailable" />
-      <MemberSignature Language="VB.NET" Value="Public Property IsUpgradeAvailable As Nullable(Of SearchServiceUpgradeAvailable)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.IsUpgradeAvailable : Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable&gt; with get, set" Usage="Azure.ResourceManager.Search.Models.SearchServicePatch.IsUpgradeAvailable" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public bool? IsUpgradeAvailable { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsUpgradeAvailable" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUpgradeAvailable As Nullable(Of Boolean)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.IsUpgradeAvailable : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.Search.Models.SearchServicePatch.IsUpgradeAvailable" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsUpgradeAvailable As Nullable(Of SearchServiceUpgradeAvailable)" />
+      <MemberSignature Language="F#" Value="member this.IsUpgradeAvailable : Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable&gt; with get, set" Usage="Azure.ResourceManager.Search.Models.SearchServicePatch.IsUpgradeAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceUpgradeAvailable&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Indicates if the search service has an upgrade available. </summary>
@@ -315,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -340,6 +329,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.Models.SearchServiceNetworkRuleSet</ReturnType>
@@ -360,6 +350,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -380,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Search.SearchPrivateEndpointConnectionData&gt;</ReturnType>
@@ -400,6 +392,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceProvisioningState&gt;</ReturnType>
@@ -420,6 +413,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServicePublicInternetAccess&gt;</ReturnType>
@@ -440,6 +434,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -466,6 +461,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -486,6 +482,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceSkuName&gt;</ReturnType>
@@ -506,6 +503,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchSemanticSearch&gt;</ReturnType>
@@ -526,26 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The date and time the search service was last upgraded. This field will be null until the service gets upgraded for the first time. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ServiceUpgradeOn">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? ServiceUpgradeOn { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ServiceUpgradeOn" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Search.Models.SearchServicePatch.ServiceUpgradeOn" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceUpgradeOn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.ServiceUpgradeOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.ResourceManager.Search.Models.SearchServicePatch.ServiceUpgradeOn" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -566,6 +545,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Search.SharedSearchServicePrivateLinkResourceData&gt;</ReturnType>
@@ -586,6 +566,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -612,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Search.Models.SearchServiceStatus&gt;</ReturnType>
@@ -632,6 +614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -655,6 +638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.Models.SearchServicePatch</ReturnType>
@@ -687,6 +671,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -718,6 +703,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.Models.SearchServicePatch</ReturnType>
@@ -750,6 +736,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -779,6 +766,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

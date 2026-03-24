@@ -3470,6 +3470,42 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetUriWithSas">
+      <MemberSignature Language="C#" Value="protected static Uri GetUriWithSas (Azure.Storage.Files.Shares.ShareFileClient client);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig class System.Uri GetUriWithSas(class Azure.Storage.Files.Shares.ShareFileClient client) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Files.Shares.ShareFileClient.GetUriWithSas(Azure.Storage.Files.Shares.ShareFileClient)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetUriWithSas (client As ShareFileClient) As Uri" />
+      <MemberSignature Language="F#" Value="static member GetUriWithSas : Azure.Storage.Files.Shares.ShareFileClient -&gt; Uri" Usage="Azure.Storage.Files.Shares.ShareFileClient.GetUriWithSas client" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.Storage.Files.Shares.ShareFileClient" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client">
+             The storage client from which to retrieve the URI and SAS credential.
+             </param>
+        <summary>
+             Get the Uri with SAS appended if the <see cref="T:Azure.Storage.Files.Shares.ShareFileClient" /> has an <see cref="T:Azure.AzureSasCredential" />,
+             for use as the source URI when performing service to service copy
+             where the client was initialized with an <see cref="T:Azure.AzureSasCredential" />.
+            
+             To retrieve, please utilize the <see cref="T:Azure.Storage.Files.Shares.ShareUriBuilder" />.
+             To inspect the SAS token (after parsed) utilize the <see cref="T:Azure.Storage.Sas.SasQueryParameters" /> or <see cref="T:Azure.Storage.Sas.ShareSasQueryParameters" />.
+             </summary>
+        <returns>
+             The URI with SAS appended if the client has an <see cref="T:Azure.AzureSasCredential" />;
+             otherwise, the original URI.
+             </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Name">
       <MemberSignature Language="C#" Value="public virtual string Name { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />

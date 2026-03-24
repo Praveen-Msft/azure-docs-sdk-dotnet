@@ -23,26 +23,6 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TranscriptionOptions (Azure.Communication.CallAutomation.StreamingTransport streamingTransport = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Communication.CallAutomation.StreamingTransport streamingTransport) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.TranscriptionOptions.#ctor(Azure.Communication.CallAutomation.StreamingTransport)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional streamingTransport As StreamingTransport = Nothing)" />
-      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.TranscriptionOptions : Azure.Communication.CallAutomation.StreamingTransport -&gt; Azure.Communication.CallAutomation.TranscriptionOptions" Usage="new Azure.Communication.CallAutomation.TranscriptionOptions streamingTransport" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="streamingTransport" Type="Azure.Communication.CallAutomation.StreamingTransport" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="streamingTransport"> Transport URL for live transcription. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallAutomation.TranscriptionOptions" />. </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TranscriptionOptions (string locale, Azure.Communication.CallAutomation.StreamingTransport streamingTransport = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string locale, valuetype Azure.Communication.CallAutomation.StreamingTransport streamingTransport) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.TranscriptionOptions.#ctor(System.String,Azure.Communication.CallAutomation.StreamingTransport)" />
@@ -59,8 +39,8 @@
         <Parameter Name="streamingTransport" Type="Azure.Communication.CallAutomation.StreamingTransport" />
       </Parameters>
       <Docs>
-        <param name="locale"> Defines the locale for the data e.g en-CA, en-AU. </param>
         <param name="streamingTransport"> Transport URL for live transcription. </param>
+        <param name="locale"> Defines the locale for the data e.g en-CA, en-AU. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallAutomation.TranscriptionOptions" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -88,26 +68,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsSentimentAnalysisEnabled">
-      <MemberSignature Language="C#" Value="public bool? IsSentimentAnalysisEnabled { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsSentimentAnalysisEnabled" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TranscriptionOptions.IsSentimentAnalysisEnabled" />
-      <MemberSignature Language="VB.NET" Value="Public Property IsSentimentAnalysisEnabled As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.IsSentimentAnalysisEnabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.Communication.CallAutomation.TranscriptionOptions.IsSentimentAnalysisEnabled" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Indicating if sentiment analysis should be used. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Locale">
       <MemberSignature Language="C#" Value="public string Locale { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Locale" />
@@ -125,46 +85,6 @@
       </ReturnValue>
       <Docs>
         <summary> Defines the locale for the data e.g en-CA, en-AU. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Locales">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Locales { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Locales" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TranscriptionOptions.Locales" />
-      <MemberSignature Language="VB.NET" Value="Public Property Locales As IList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.Locales : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Azure.Communication.CallAutomation.TranscriptionOptions.Locales" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>  List of locales for Language Identification. Supports upto 4 locales in the format: ["en-us", "fr-fr", "hi-in"] etc. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="PiiRedactionOptions">
-      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.PiiRedactionOptions PiiRedactionOptions { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.PiiRedactionOptions PiiRedactionOptions" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TranscriptionOptions.PiiRedactionOptions" />
-      <MemberSignature Language="VB.NET" Value="Public Property PiiRedactionOptions As PiiRedactionOptions" />
-      <MemberSignature Language="F#" Value="member this.PiiRedactionOptions : Azure.Communication.CallAutomation.PiiRedactionOptions with get, set" Usage="Azure.Communication.CallAutomation.TranscriptionOptions.PiiRedactionOptions" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.PiiRedactionOptions</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> PII redaction configuration options. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -207,26 +127,6 @@
       </ReturnValue>
       <Docs>
         <summary> Determines if the transcription should be started immediately after call is answered or not. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SummarizationOptions">
-      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.SummarizationOptions SummarizationOptions { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.SummarizationOptions SummarizationOptions" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TranscriptionOptions.SummarizationOptions" />
-      <MemberSignature Language="VB.NET" Value="Public Property SummarizationOptions As SummarizationOptions" />
-      <MemberSignature Language="F#" Value="member this.SummarizationOptions : Azure.Communication.CallAutomation.SummarizationOptions with get, set" Usage="Azure.Communication.CallAutomation.TranscriptionOptions.SummarizationOptions" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.SummarizationOptions</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Summarization configuration options. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

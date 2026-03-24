@@ -25,6 +25,7 @@
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
     <AssemblyVersion>1.14.0.0</AssemblyVersion>
     <AssemblyVersion>1.15.0.0</AssemblyVersion>
+    <AssemblyVersion>1.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -41,7 +42,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> NetApp account patch resource. </summary>
+    <summary> Patch model for NetApp accounts. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,6 +56,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -75,6 +77,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppAccountActiveDirectory&gt;</ReturnType>
@@ -95,7 +98,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
@@ -115,12 +125,33 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.Models.NetAppAccountEncryption</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Encryption settings. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntraIdConfig">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch EntraIdConfig { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch EntraIdConfig" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.EntraIdConfig" />
+      <MemberSignature Language="VB.NET" Value="Public Property EntraIdConfig As EntraIdConfigPatch" />
+      <MemberSignature Language="F#" Value="member this.EntraIdConfig : Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.EntraIdConfig" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Entra ID configuration for the account. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,6 +166,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Models.ManagedServiceIdentity</ReturnType>
@@ -155,6 +187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -171,18 +204,18 @@
       </Docs>
     </Member>
     <Member MemberName="LdapConfiguration">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.LdapConfiguration LdapConfiguration { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.LdapConfiguration LdapConfiguration" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch LdapConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch LdapConfiguration" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.LdapConfiguration" />
-      <MemberSignature Language="VB.NET" Value="Public Property LdapConfiguration As LdapConfiguration" />
-      <MemberSignature Language="F#" Value="member this.LdapConfiguration : Azure.ResourceManager.NetApp.Models.LdapConfiguration with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.LdapConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property LdapConfiguration As LdapConfigurationPatch" />
+      <MemberSignature Language="F#" Value="member this.LdapConfiguration : Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.LdapConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.Models.LdapConfiguration</ReturnType>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> LDAP Configuration for the account. </summary>
@@ -191,15 +224,19 @@
       </Docs>
     </Member>
     <Member MemberName="MultiAdStatus">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.MultiAdStatus? MultiAdStatus { get; }" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.MultiAdStatus? MultiAdStatus { get; }" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.MultiAdStatus&gt; MultiAdStatus" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.MultiAdStatus" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MultiAdStatus As Nullable(Of MultiAdStatus)" />
-      <MemberSignature Language="F#" Value="member this.MultiAdStatus : Nullable&lt;Azure.ResourceManager.NetApp.Models.MultiAdStatus&gt;" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.MultiAdStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MultiAdStatus As Nullable(Of MultiAdStatus)" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="member this.MultiAdStatus : Nullable&lt;Azure.ResourceManager.NetApp.Models.MultiAdStatus&gt;" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.MultiAdStatus" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.MultiAdStatus? MultiAdStatus { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiAdStatus As Nullable(Of MultiAdStatus)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="member this.MultiAdStatus : Nullable&lt;Azure.ResourceManager.NetApp.Models.MultiAdStatus&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.MultiAdStatus" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.MultiAdStatus&gt;</ReturnType>
@@ -220,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -240,7 +278,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -263,6 +308,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.Models.NetAppAccountPatch</ReturnType>
@@ -295,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -326,6 +373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.Models.NetAppAccountPatch</ReturnType>
@@ -358,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -387,6 +436,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

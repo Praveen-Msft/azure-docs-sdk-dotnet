@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,28 +28,6 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public NginxDeploymentPropertiesNginxAppProtect (Azure.ResourceManager.Nginx.Models.WebApplicationFirewallSettings webApplicationFirewallSettings);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.Nginx.Models.WebApplicationFirewallSettings webApplicationFirewallSettings) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect.#ctor(Azure.ResourceManager.Nginx.Models.WebApplicationFirewallSettings)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (webApplicationFirewallSettings As WebApplicationFirewallSettings)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect : Azure.ResourceManager.Nginx.Models.WebApplicationFirewallSettings -&gt; Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect" Usage="new Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect webApplicationFirewallSettings" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="webApplicationFirewallSettings" Type="Azure.ResourceManager.Nginx.Models.WebApplicationFirewallSettings" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="webApplicationFirewallSettings"> Settings for the NGINX App Protect Web Application Firewall (WAF). </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect" />. </summary>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="webApplicationFirewallSettings" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="JsonModelCreateCore">
       <MemberSignature Language="C#" Value="protected virtual Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
@@ -59,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect</ReturnType>
@@ -85,6 +65,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -110,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect</ReturnType>
@@ -136,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -163,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect</ReturnType>
@@ -195,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -226,6 +211,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Nginx.Models.NginxDeploymentPropertiesNginxAppProtect</ReturnType>
@@ -258,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -287,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -314,6 +302,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Nginx.Models.WebApplicationFirewallActivationState&gt;</ReturnType>
@@ -334,6 +323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Nginx</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Nginx.Models.WebApplicationFirewallStatus</ReturnType>

@@ -16,7 +16,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class to add extension methods to ArmClient. </summary>
+    <summary> A class to add extension methods to <see cref="T:Azure.ResourceManager.ArmClient" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -33,7 +33,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerArmClient" /> class for mocking. </summary>
+        <summary> Initializes a new instance of MockableTrafficManagerArmClient for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,10 +57,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,10 +82,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource.CreateResourceIdentifier" /> to create a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,10 +107,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapType)" /> to create a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,10 +132,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -169,10 +157,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource.CreateResourceIdentifier(System.String)" /> to create a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

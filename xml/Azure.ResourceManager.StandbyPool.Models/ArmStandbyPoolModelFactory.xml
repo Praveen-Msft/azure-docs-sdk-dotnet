@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,12 +29,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolResourceStateCount&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="instanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolResourceStateCount&gt;" />
       </Parameters>
       <Docs>
         <param name="instanceCountsByState"> The count of pooled resources in each state. </param>
@@ -52,18 +54,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="zone" Type="System.Nullable&lt;System.Int64&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="standbyContainerGroupInstanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupStateCount&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="zone" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="standbyContainerGroupInstanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupStateCount&gt;" />
       </Parameters>
       <Docs>
         <param name="zone"> The zone that the provided counts are in. It will not have a value if zones are not enabled. </param>
         <param name="standbyContainerGroupInstanceCountsByState"> The count of pooled container groups in each state for the given zone. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary" />. </summary>
+        <summary> Displays the counts of container groups in each state, as known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -78,18 +81,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupStateCount</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="state" Type="Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupState" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="count" Type="System.Int64" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="state" Type="Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupState" />
+        <Parameter Name="count" Type="System.Int64" />
       </Parameters>
       <Docs>
         <param name="state"> The state that the pooled container groups count is for. </param>
         <param name="count"> The count of pooled container groups in the given state. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupStateCount" />. </summary>
+        <summary> Displays the counts of pooled container groups in each state, as known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.PoolContainerGroupStateCount" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,13 +108,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.PoolResourceStateCount</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="state" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="count" Type="System.Int64" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="count" Type="System.Int64" />
       </Parameters>
       <Docs>
         <param name="state"> The state that the pooled resources count is for. </param>
@@ -130,18 +135,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="state" Type="Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineState" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="count" Type="System.Int64" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="state" Type="Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineState" />
+        <Parameter Name="count" Type="System.Int64" />
       </Parameters>
       <Docs>
         <param name="state"> The state that the pooled virtual machines count is for. </param>
         <param name="count"> The count of pooled virtual machines in the given state. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount" />. </summary>
+        <summary> Displays the counts of pooled virtual machines in each state, as known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,69 +162,56 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolProperties" Index="6" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The geo-location where the resource lives. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData" />. </summary>
+        <summary> A StandbyContainerGroupPoolResource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="StandbyContainerGroupPoolData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData StandbyContainerGroupPoolData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile elasticityProfile = default, Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties containerGroupProperties = default, Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState? provisioningState = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData StandbyContainerGroupPoolData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile elasticityProfile, class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties containerGroupProperties, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt; provisioningState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupPoolData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.Collections.Generic.IDictionary{System.String,System.String},Azure.Core.AzureLocation,Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile,Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties,System.Nullable{Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyContainerGroupPoolData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As AzureLocation = Nothing, Optional elasticityProfile As StandbyContainerGroupPoolElasticityProfile = Nothing, Optional containerGroupProperties As StandbyContainerGroupProperties = Nothing, Optional provisioningState As Nullable(Of StandbyPoolProvisioningState) = Nothing) As StandbyContainerGroupPoolData" />
-      <MemberSignature Language="F#" Value="static member StandbyContainerGroupPoolData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.Core.AzureLocation * Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile * Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties * Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt; -&gt; Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupPoolData (id, name, resourceType, systemData, tags, location, elasticityProfile, containerGroupProperties, provisioningState)" />
+    <Member MemberName="StandbyContainerGroupPoolPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPatch StandbyContainerGroupPoolPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties properties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPatch StandbyContainerGroupPoolPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupPoolPatch(System.Collections.Generic.IDictionary{System.String,System.String},Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyContainerGroupPoolPatch (Optional tags As IDictionary(Of String, String) = Nothing, Optional properties As StandbyContainerGroupPoolUpdateProperties = Nothing) As StandbyContainerGroupPoolPatch" />
+      <MemberSignature Language="F#" Value="static member StandbyContainerGroupPoolPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties -&gt; Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPatch" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupPoolPatch (tags, properties)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData</ReturnType>
+        <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPatch</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile" Index="6" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="containerGroupProperties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" Index="7" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
-        <param name="elasticityProfile"> Specifies elasticity profile of standby container group pools. </param>
-        <param name="containerGroupProperties"> Specifies container group properties of standby container group pools. </param>
-        <param name="provisioningState"> The status of the last operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData" />. </summary>
-        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolData" /> instance for mocking. </returns>
+        <param name="tags"> Resource tags. </param>
+        <param name="properties"> The resource-specific properties for this resource. </param>
+        <summary> The type used for update operations of the StandbyContainerGroupPoolResource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -232,17 +225,18 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPrediction</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="forecastValuesInstancesRequestedCount" Type="System.Collections.Generic.IEnumerable&lt;System.Int64&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="forecastStartOn" Type="System.DateTimeOffset" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="forecastInfo" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="forecastValuesInstancesRequestedCount" Type="System.Collections.Generic.IEnumerable&lt;System.Int64&gt;" />
+        <Parameter Name="forecastStartOn" Type="System.DateTimeOffset" />
+        <Parameter Name="forecastInfo" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="forecastValuesInstancesRequestedCount"> Displays the forecast information of the standby pool. </param>
+        <param name="forecastValuesInstancesRequestedCount"> Displays the predicted count of instances to be requested from the standby pool. </param>
         <param name="forecastStartOn"> Displays the UTC timestamp of when the prediction was retrieved for the standby pool. </param>
         <param name="forecastInfo"> Displays additional information for the prediction of the standby pool. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPrediction" />. </summary>
@@ -260,9 +254,10 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -271,9 +266,9 @@
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="containerGroupProperties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile" />
+        <Parameter Name="containerGroupProperties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="elasticityProfile"> Specifies elasticity profile of standby container group pools. </param>
@@ -294,22 +289,23 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="containerGroupProperties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="zones" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile" />
+        <Parameter Name="containerGroupProperties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" />
+        <Parameter Name="zones" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="elasticityProfile"> Specifies elasticity profile of standby container group pools. </param>
         <param name="containerGroupProperties"> Specifies container group properties of standby container group pools. </param>
         <param name="zones"> Specifies zones of standby container group pools. </param>
         <param name="provisioningState"> The status of the last operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolProperties" />. </summary>
+        <summary> Details of the StandbyContainerGroupPool. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,24 +320,25 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolRuntimeViewData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolRuntimeViewProperties" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolRuntimeViewProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolRuntimeViewData" />. </summary>
+        <summary> Contains information about a standby container group pool as last known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyContainerGroupPoolRuntimeViewData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,9 +353,10 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -367,8 +365,8 @@
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolRuntimeViewProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="instanceCountSummary"> A list containing the counts of container groups in each possible state, as known by the StandbyPool resource provider. </param>
@@ -388,23 +386,78 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolRuntimeViewProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="status" Type="Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="prediction" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPrediction" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.ContainerGroupInstanceCountSummary&gt;" />
+        <Parameter Name="status" Type="Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
+        <Parameter Name="prediction" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolPrediction" />
       </Parameters>
       <Docs>
         <param name="instanceCountSummary"> A list containing the counts of container groups in each possible state, as known by the StandbyPool resource provider. </param>
         <param name="status"> Display status of the standby pool. </param>
         <param name="provisioningState"> Displays the provisioning state of the standby pool. </param>
         <param name="prediction"> Displays prediction information of the standby pool. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolRuntimeViewProperties" />. </summary>
+        <summary> Contains information about a standby pool as last known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolRuntimeViewProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandbyContainerGroupPoolUpdateProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties StandbyContainerGroupPoolUpdateProperties (Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile elasticityProfile = default, Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties containerGroupProperties = default, System.Collections.Generic.IEnumerable&lt;string&gt; zones = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties StandbyContainerGroupPoolUpdateProperties(class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile elasticityProfile, class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties containerGroupProperties, class System.Collections.Generic.IEnumerable`1&lt;string&gt; zones) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupPoolUpdateProperties(Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile,Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties,System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyContainerGroupPoolUpdateProperties (Optional elasticityProfile As StandbyContainerGroupPoolElasticityProfile = Nothing, Optional containerGroupProperties As StandbyContainerGroupProperties = Nothing, Optional zones As IEnumerable(Of String) = Nothing) As StandbyContainerGroupPoolUpdateProperties" />
+      <MemberSignature Language="F#" Value="static member StandbyContainerGroupPoolUpdateProperties : Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile * Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties * seq&lt;string&gt; -&gt; Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupPoolUpdateProperties (elasticityProfile, containerGroupProperties, zones)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolElasticityProfile" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="containerGroupProperties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="zones" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="elasticityProfile"> Specifies elasticity profile of standby container group pools. </param>
+        <param name="containerGroupProperties"> Specifies container group properties of standby container group pools. </param>
+        <param name="zones"> Specifies zones of standby container group pools. </param>
+        <summary> The updatable properties of the StandbyContainerGroupPoolResource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupPoolUpdateProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandbyContainerGroupProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties StandbyContainerGroupProperties (Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProfile containerGroupProfile = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt; subnetIds = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties StandbyContainerGroupProperties(class Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProfile containerGroupProfile, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.WritableSubResource&gt; subnetIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupProperties(Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProfile,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Resources.Models.WritableSubResource})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyContainerGroupProperties (Optional containerGroupProfile As StandbyContainerGroupProfile = Nothing, Optional subnetIds As IEnumerable(Of WritableSubResource) = Nothing) As StandbyContainerGroupProperties" />
+      <MemberSignature Language="F#" Value="static member StandbyContainerGroupProperties : Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProfile * seq&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt; -&gt; Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyContainerGroupProperties (containerGroupProfile, subnetIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="containerGroupProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProfile" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="subnetIds" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="containerGroupProfile"> Specifies container group profile of standby container groups. </param>
+        <param name="subnetIds"> Specifies subnet Ids for container group. </param>
+        <summary> Details of the ContainerGroupProperties. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyContainerGroupProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -418,18 +471,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="code" Type="Azure.ResourceManager.StandbyPool.Models.StandbyPoolHealthStateCode" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="message" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="code" Type="Azure.ResourceManager.StandbyPool.Models.StandbyPoolHealthStateCode" />
+        <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="code"> Displays the healthy state of the StandbyPool. </param>
         <param name="message"> Displays the StandbyPool health state details. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus" />. </summary>
+        <summary> Displays StandbyPool status. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -444,58 +498,25 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineProperties" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData" />. </summary>
-        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="StandbyVirtualMachineData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData StandbyVirtualMachineData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.Core.ResourceIdentifier virtualMachineResourceId = default, Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState? provisioningState = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData StandbyVirtualMachineData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.Core.ResourceIdentifier virtualMachineResourceId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt; provisioningState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachineData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.Core.ResourceIdentifier,System.Nullable{Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyVirtualMachineData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional virtualMachineResourceId As ResourceIdentifier = Nothing, Optional provisioningState As Nullable(Of StandbyPoolProvisioningState) = Nothing) As StandbyVirtualMachineData" />
-      <MemberSignature Language="F#" Value="static member StandbyVirtualMachineData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.Core.ResourceIdentifier * Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt; -&gt; Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachineData (id, name, resourceType, systemData, virtualMachineResourceId, provisioningState)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="virtualMachineResourceId" Type="Azure.Core.ResourceIdentifier" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="virtualMachineResourceId"> Resource id of the virtual machine. </param>
-        <param name="provisioningState"> The status of the last operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData" />. </summary>
+        <summary> Concrete proxy resource types can be created by aliasing this type using a specific property type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachineData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -510,13 +531,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="zone" Type="System.Nullable&lt;System.Int64&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="instanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolResourceStateCount&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="zone" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="instanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolResourceStateCount&gt;" />
       </Parameters>
       <Docs>
         <param name="zone"> The zone that the provided counts are in. This is null if zones are not enabled on the attached VMSS. </param>
@@ -527,22 +549,31 @@
       </Docs>
     </Member>
     <Member MemberName="StandbyVirtualMachineInstanceCountSummary">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary StandbyVirtualMachineInstanceCountSummary (long? zone = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt; standbyVirtualMachineInstanceCountsByState = default);" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary StandbyVirtualMachineInstanceCountSummary (long? zone = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt; standbyVirtualMachineInstanceCountsByState = default);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary StandbyVirtualMachineInstanceCountSummary(valuetype System.Nullable`1&lt;int64&gt; zone, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt; standbyVirtualMachineInstanceCountsByState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachineInstanceCountSummary(System.Nullable{System.Int64},System.Collections.Generic.IEnumerable{Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyVirtualMachineInstanceCountSummary (Optional zone As Nullable(Of Long) = Nothing, Optional standbyVirtualMachineInstanceCountsByState As IEnumerable(Of PoolVirtualMachineStateCount) = Nothing) As StandbyVirtualMachineInstanceCountSummary" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyVirtualMachineInstanceCountSummary (Optional zone As Nullable(Of Long) = Nothing, Optional standbyVirtualMachineInstanceCountsByState As IEnumerable(Of PoolVirtualMachineStateCount) = Nothing) As StandbyVirtualMachineInstanceCountSummary" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="static member StandbyVirtualMachineInstanceCountSummary : Nullable&lt;int64&gt; * seq&lt;Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt; -&gt; Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachineInstanceCountSummary (zone, standbyVirtualMachineInstanceCountsByState)" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary StandbyVirtualMachineInstanceCountSummary (long? zone, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt; standbyVirtualMachineInstanceCountsByState);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyVirtualMachineInstanceCountSummary (zone As Nullable(Of Long), standbyVirtualMachineInstanceCountsByState As IEnumerable(Of PoolVirtualMachineStateCount)) As StandbyVirtualMachineInstanceCountSummary" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="zone" Type="System.Nullable&lt;System.Int64&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="standbyVirtualMachineInstanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="zone" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="standbyVirtualMachineInstanceCountsByState" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.PoolVirtualMachineStateCount&gt;" />
       </Parameters>
       <Docs>
         <param name="zone"> The zone that the provided counts are in. It will not have a value if zones are not enabled on the attached VMSS. </param>
@@ -562,71 +593,56 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolProperties" Index="6" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The geo-location where the resource lives. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData" />. </summary>
+        <summary> A StandbyVirtualMachinePoolResource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="StandbyVirtualMachinePoolData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData StandbyVirtualMachinePoolData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, long? elasticityMaxReadyCapacity = default, Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState? virtualMachineState = default, Azure.Core.ResourceIdentifier attachedVirtualMachineScaleSetId = default, Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState? provisioningState = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData StandbyVirtualMachinePoolData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, valuetype System.Nullable`1&lt;int64&gt; elasticityMaxReadyCapacity, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState&gt; virtualMachineState, class Azure.Core.ResourceIdentifier attachedVirtualMachineScaleSetId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt; provisioningState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachinePoolData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.Collections.Generic.IDictionary{System.String,System.String},Azure.Core.AzureLocation,System.Nullable{System.Int64},System.Nullable{Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState},Azure.Core.ResourceIdentifier,System.Nullable{Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyVirtualMachinePoolData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As AzureLocation = Nothing, Optional elasticityMaxReadyCapacity As Nullable(Of Long) = Nothing, Optional virtualMachineState As Nullable(Of StandbyVirtualMachineState) = Nothing, Optional attachedVirtualMachineScaleSetId As ResourceIdentifier = Nothing, Optional provisioningState As Nullable(Of StandbyPoolProvisioningState) = Nothing) As StandbyVirtualMachinePoolData" />
-      <MemberSignature Language="F#" Value="static member StandbyVirtualMachinePoolData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.Core.AzureLocation * Nullable&lt;int64&gt; * Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState&gt; * Azure.Core.ResourceIdentifier * Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt; -&gt; Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachinePoolData (id, name, resourceType, systemData, tags, location, elasticityMaxReadyCapacity, virtualMachineState, attachedVirtualMachineScaleSetId, provisioningState)" />
+    <Member MemberName="StandbyVirtualMachinePoolPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPatch StandbyVirtualMachinePoolPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolUpdateProperties properties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPatch StandbyVirtualMachinePoolPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolUpdateProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachinePoolPatch(System.Collections.Generic.IDictionary{System.String,System.String},Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolUpdateProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StandbyVirtualMachinePoolPatch (Optional tags As IDictionary(Of String, String) = Nothing, Optional properties As StandbyVirtualMachinePoolUpdateProperties = Nothing) As StandbyVirtualMachinePoolPatch" />
+      <MemberSignature Language="F#" Value="static member StandbyVirtualMachinePoolPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolUpdateProperties -&gt; Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPatch" Usage="Azure.ResourceManager.StandbyPool.Models.ArmStandbyPoolModelFactory.StandbyVirtualMachinePoolPatch (tags, properties)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData</ReturnType>
+        <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPatch</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="elasticityMaxReadyCapacity" Type="System.Nullable&lt;System.Int64&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="virtualMachineState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="attachedVirtualMachineScaleSetId" Type="Azure.Core.ResourceIdentifier" Index="8" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyPoolProvisioningState&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolUpdateProperties" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
-        <param name="elasticityMaxReadyCapacity"> Specifies the elasticity profile of the standby virtual machine pools. </param>
-        <param name="virtualMachineState"> Specifies the desired state of virtual machines in the pool. </param>
-        <param name="attachedVirtualMachineScaleSetId"> Specifies the fully qualified resource ID of a virtual machine scale set the pool is attached to. </param>
-        <param name="provisioningState"> The status of the last operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData" />. </summary>
-        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolData" /> instance for mocking. </returns>
+        <param name="tags"> Resource tags. </param>
+        <param name="properties"> The resource-specific properties for this resource. </param>
+        <summary> The type used for update operations of the StandbyVirtualMachinePoolResource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -640,17 +656,18 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPrediction</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="forecastValuesInstancesRequestedCount" Type="System.Collections.Generic.IEnumerable&lt;System.Int64&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="forecastStartOn" Type="System.DateTimeOffset" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="forecastInfo" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="forecastValuesInstancesRequestedCount" Type="System.Collections.Generic.IEnumerable&lt;System.Int64&gt;" />
+        <Parameter Name="forecastStartOn" Type="System.DateTimeOffset" />
+        <Parameter Name="forecastInfo" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="forecastValuesInstancesRequestedCount"> Displays the forecast information of the standby pool. </param>
+        <param name="forecastValuesInstancesRequestedCount"> Displays the predicted count of instances to be requested from the standby pool. </param>
         <param name="forecastStartOn"> Displays the UTC timestamp of when the prediction was retrieved for the standby pool. </param>
         <param name="forecastInfo"> Displays additional information for the prediction of the standby pool. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPrediction" />. </summary>
@@ -668,22 +685,23 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolElasticityProfile" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="virtualMachineState" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="attachedVirtualMachineScaleSetId" Type="Azure.Core.ResourceIdentifier" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="elasticityProfile" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolElasticityProfile" />
+        <Parameter Name="virtualMachineState" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineState" />
+        <Parameter Name="attachedVirtualMachineScaleSetId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="elasticityProfile"> Specifies the elasticity profile of the standby virtual machine pools. </param>
         <param name="virtualMachineState"> Specifies the desired state of virtual machines in the pool. </param>
         <param name="attachedVirtualMachineScaleSetId"> Specifies the fully qualified resource ID of a virtual machine scale set the pool is attached to. </param>
         <param name="provisioningState"> The status of the last operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolProperties" />. </summary>
+        <summary> Details of the StandbyVirtualMachinePool. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -698,24 +716,25 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolRuntimeViewData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolRuntimeViewData" />. </summary>
+        <summary> Contains information about a standby virtual machine pool as last known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.StandbyVirtualMachinePoolRuntimeViewData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -730,9 +749,10 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -741,15 +761,15 @@
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="instanceCountSummary">
             A list containing the counts of virtual machines in each possible power state for each zone if enabled, as known by the StandbyPool resource provider.
-            If zones are not enabled on the attached VMSS, the list will contain a single entry with null zone values.
-            Note: any updates to pool resources outside of StandbyPoolRP (i.e deleting a VM through portal) are not reflected here.
-            Note: any resources in the Running state may still be installing extensions / not fully provisioned.
+                        If zones are not enabled on the attached VMSS, the list will contain a single entry with null zone values.
+                        Note: any updates to pool resources outside of StandbyPoolRP (i.e deleting a VM through portal) are not reflected here.
+                        Note: any resources in the Running state may still be installing extensions / not fully provisioned.
             </param>
         <param name="provisioningState"> Displays the provisioning state of the standby pool. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties" />. </summary>
@@ -767,22 +787,23 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="status" Type="Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="prediction" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPrediction" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="instanceCountSummary" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineInstanceCountSummary&gt;" />
+        <Parameter Name="status" Type="Azure.ResourceManager.StandbyPool.Models.StandbyPoolStatus" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
+        <Parameter Name="prediction" Type="Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolPrediction" />
       </Parameters>
       <Docs>
         <param name="instanceCountSummary"> A list containing the counts of virtual machines in each possible power state for each zone if enabled, as known by the StandbyPool resource provider. If zones are not enabled on the attached VMSS, the list will contain a single entry without zone values. Note: any resources in the Running state may still be installing extensions / not fully provisioned. </param>
         <param name="status"> Display status of the standby pool. </param>
         <param name="provisioningState"> Displays the provisioning state of the standby pool. </param>
         <param name="prediction"> Displays prediction information of the standby pool. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties" />. </summary>
+        <summary> Contains information about a standby pool as last known by the StandbyPool resource provider. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachinePoolRuntimeViewProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -797,18 +818,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StandbyPool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="virtualMachineResourceId" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="virtualMachineResourceId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.StandbyPool.Models.StandbyProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="virtualMachineResourceId"> Resource id of the virtual machine. </param>
         <param name="provisioningState"> The status of the last operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineProperties" />. </summary>
+        <summary> Details of the StandbyVirtualMachine. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.StandbyPool.Models.StandbyVirtualMachineProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

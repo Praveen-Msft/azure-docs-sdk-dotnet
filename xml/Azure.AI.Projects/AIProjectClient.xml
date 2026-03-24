@@ -110,18 +110,18 @@
       </Docs>
     </Member>
     <Member MemberName="Agents">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Agents.AgentsClient Agents { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Agents.AgentsClient Agents" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Agents.AgentAdministrationClient Agents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Agents.AgentAdministrationClient Agents" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.AIProjectClient.Agents" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Agents As AgentsClient" />
-      <MemberSignature Language="F#" Value="member this.Agents : Azure.AI.Projects.Agents.AgentsClient" Usage="Azure.AI.Projects.AIProjectClient.Agents" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Agents As AgentAdministrationClient" />
+      <MemberSignature Language="F#" Value="member this.Agents : Azure.AI.Projects.Agents.AgentAdministrationClient" Usage="Azure.AI.Projects.AIProjectClient.Agents" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Agents.AgentsClient</ReturnType>
+        <ReturnType>Azure.AI.Projects.Agents.AgentAdministrationClient</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

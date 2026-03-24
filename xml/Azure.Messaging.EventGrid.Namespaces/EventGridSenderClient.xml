@@ -8,13 +8,14 @@
     <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary />
+    <summary> The EventGridSenderClient. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -27,10 +28,31 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary> Initializes a new instance of EventGridSenderClient for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventGridSenderClient (Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClient.#ctor(Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As EventGridSenderClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.Messaging.EventGrid.Namespaces.EventGridSenderClient : Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings -&gt; Azure.Messaging.EventGrid.Namespaces.EventGridSenderClient" Usage="new Azure.Messaging.EventGrid.Namespaces.EventGridSenderClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for EventGridSenderClient. </param>
+        <summary> Initializes a new instance of EventGridSenderClient from a <see cref="T:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings" />. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -44,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -72,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -100,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -130,6 +155,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -160,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -180,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -208,6 +236,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -236,6 +265,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -264,6 +294,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -292,6 +323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -333,6 +365,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -374,6 +407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -415,6 +449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

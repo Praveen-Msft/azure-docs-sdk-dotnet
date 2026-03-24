@@ -9,6 +9,7 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,9 +30,10 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -40,8 +42,8 @@
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsContent</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceDetails" Type="Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionsResourceDetails" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="pendingFields" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.PendingField&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceDetails" Type="Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionsResourceDetails" />
+        <Parameter Name="pendingFields" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.PendingField&gt;" />
       </Parameters>
       <Docs>
         <param name="resourceDetails"> The information about the resource that will be evaluated. </param>
@@ -61,14 +63,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsContent</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceDetails" Type="Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionsResourceDetails" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="pendingFields" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.PendingField&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="includeAuditEffect" Type="System.Nullable&lt;System.Boolean&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceDetails" Type="Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionsResourceDetails" />
+        <Parameter Name="pendingFields" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.PendingField&gt;" />
+        <Parameter Name="includeAuditEffect" Type="System.Nullable&lt;System.Boolean&gt;" />
       </Parameters>
       <Docs>
         <param name="resourceDetails"> The information about the resource that will be evaluated. </param>
@@ -88,8 +91,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.CheckPolicyRestrictionsResult</ReturnType>
@@ -116,14 +119,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionEvaluationDetails</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="evaluatedExpressions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.ExpressionEvaluationDetails&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="ifNotExistsDetails" Type="Azure.ResourceManager.PolicyInsights.Models.IfNotExistsEvaluationDetails" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="reason" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="evaluatedExpressions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.ExpressionEvaluationDetails&gt;" />
+        <Parameter Name="ifNotExistsDetails" Type="Azure.ResourceManager.PolicyInsights.Models.IfNotExistsEvaluationDetails" />
+        <Parameter Name="reason" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="evaluatedExpressions"> Details of the evaluated expressions. </param>
@@ -144,14 +148,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionsResourceDetails</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceContent" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="apiVersion" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="scope" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceContent" Type="System.BinaryData" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="scope" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="resourceContent"> The resource content. This should include whatever properties are already known and can be a partial set of all resource properties. </param>
@@ -171,8 +176,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ComplianceDetail</ReturnType>
@@ -198,8 +203,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ComponentEventDetails</ReturnType>
@@ -240,18 +245,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ComponentExpressionEvaluationDetails</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="result" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expression" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expressionKind" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="path" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expressionValue" Type="System.BinaryData" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="targetValue" Type="System.BinaryData" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="operator" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="result" Type="System.String" />
+        <Parameter Name="expression" Type="System.String" />
+        <Parameter Name="expressionKind" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="expressionValue" Type="System.BinaryData" />
+        <Parameter Name="targetValue" Type="System.BinaryData" />
+        <Parameter Name="operator" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="result"> Evaluation result. </param>
@@ -276,13 +282,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ComponentPolicyEvaluationDetails</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="evaluatedExpressions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.ComponentExpressionEvaluationDetails&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="reason" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="evaluatedExpressions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.PolicyInsights.Models.ComponentExpressionEvaluationDetails&gt;" />
+        <Parameter Name="reason" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="evaluatedExpressions"> Details of the evaluated expressions. </param>
@@ -302,44 +309,45 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ComponentPolicyState</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="odataId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="odataContext" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="timestamp" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="componentId" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="componentType" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="componentName" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceId" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentId" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionId" Type="System.String" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="subscriptionId" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceLocation" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceGroup" Type="System.String" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentName" Type="System.String" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentOwner" Type="System.String" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentParameters" Type="System.String" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentScope" Type="System.String" Index="16" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionName" Type="System.String" Index="17" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionAction" Type="System.String" Index="18" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionCategory" Type="System.String" Index="19" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policySetDefinitionId" Type="System.String" Index="20" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policySetDefinitionName" Type="System.String" Index="21" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policySetDefinitionOwner" Type="System.String" Index="22" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policySetDefinitionCategory" Type="System.String" Index="23" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policySetDefinitionParameters" Type="System.String" Index="24" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionReferenceId" Type="System.String" Index="25" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="complianceState" Type="System.String" Index="26" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyEvaluationDetails" Type="Azure.ResourceManager.PolicyInsights.Models.ComponentPolicyEvaluationDetails" Index="27" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionGroupNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="28" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionVersion" Type="System.String" Index="29" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policySetDefinitionVersion" Type="System.String" Index="30" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentVersion" Type="System.String" Index="31" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.BinaryData&gt;" Index="32" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="odataId" Type="System.String" />
+        <Parameter Name="odataContext" Type="System.String" />
+        <Parameter Name="timestamp" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="componentId" Type="System.String" />
+        <Parameter Name="componentType" Type="System.String" />
+        <Parameter Name="componentName" Type="System.String" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="policyAssignmentId" Type="System.String" />
+        <Parameter Name="policyDefinitionId" Type="System.String" />
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.String" />
+        <Parameter Name="resourceLocation" Type="System.String" />
+        <Parameter Name="resourceGroup" Type="System.String" />
+        <Parameter Name="policyAssignmentName" Type="System.String" />
+        <Parameter Name="policyAssignmentOwner" Type="System.String" />
+        <Parameter Name="policyAssignmentParameters" Type="System.String" />
+        <Parameter Name="policyAssignmentScope" Type="System.String" />
+        <Parameter Name="policyDefinitionName" Type="System.String" />
+        <Parameter Name="policyDefinitionAction" Type="System.String" />
+        <Parameter Name="policyDefinitionCategory" Type="System.String" />
+        <Parameter Name="policySetDefinitionId" Type="System.String" />
+        <Parameter Name="policySetDefinitionName" Type="System.String" />
+        <Parameter Name="policySetDefinitionOwner" Type="System.String" />
+        <Parameter Name="policySetDefinitionCategory" Type="System.String" />
+        <Parameter Name="policySetDefinitionParameters" Type="System.String" />
+        <Parameter Name="policyDefinitionReferenceId" Type="System.String" />
+        <Parameter Name="complianceState" Type="System.String" />
+        <Parameter Name="policyEvaluationDetails" Type="Azure.ResourceManager.PolicyInsights.Models.ComponentPolicyEvaluationDetails" />
+        <Parameter Name="policyDefinitionGroupNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="policyDefinitionVersion" Type="System.String" />
+        <Parameter Name="policySetDefinitionVersion" Type="System.String" />
+        <Parameter Name="policyAssignmentVersion" Type="System.String" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.BinaryData&gt;" />
       </Parameters>
       <Docs>
         <param name="odataId"> OData entity ID; always set to null since component policy state records do not have an entity ID. </param>
@@ -389,8 +397,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ComponentStateDetails</ReturnType>
@@ -426,8 +434,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.ExpressionEvaluationDetails</ReturnType>
@@ -455,21 +463,19 @@
       </Docs>
     </Member>
     <Member MemberName="FieldRestriction">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PolicyInsights.Models.FieldRestriction FieldRestriction (Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult? result, string defaultValue, System.Collections.Generic.IEnumerable&lt;string&gt; values, Azure.ResourceManager.PolicyInsights.Models.PolicyReference policy);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PolicyInsights.Models.FieldRestriction FieldRestriction (Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult? result, string defaultValue, System.Collections.Generic.IEnumerable&lt;string&gt; values, Azure.ResourceManager.PolicyInsights.Models.PolicyReference policy);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.PolicyInsights.Models.FieldRestriction FieldRestriction(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult&gt; result, string defaultValue, class System.Collections.Generic.IEnumerable`1&lt;string&gt; values, class Azure.ResourceManager.PolicyInsights.Models.PolicyReference policy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PolicyInsights.Models.ArmPolicyInsightsModelFactory.FieldRestriction(System.Nullable{Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult},System.String,System.Collections.Generic.IEnumerable{System.String},Azure.ResourceManager.PolicyInsights.Models.PolicyReference)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function FieldRestriction (result As Nullable(Of FieldRestrictionResult), defaultValue As String, values As IEnumerable(Of String), policy As PolicyReference) As FieldRestriction" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FieldRestriction (result As Nullable(Of FieldRestrictionResult), defaultValue As String, values As IEnumerable(Of String), policy As PolicyReference) As FieldRestriction" />
       <MemberSignature Language="F#" Value="static member FieldRestriction : Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult&gt; * string * seq&lt;string&gt; * Azure.ResourceManager.PolicyInsights.Models.PolicyReference -&gt; Azure.ResourceManager.PolicyInsights.Models.FieldRestriction" Usage="Azure.ResourceManager.PolicyInsights.Models.ArmPolicyInsightsModelFactory.FieldRestriction (result, defaultValue, values, policy)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PolicyInsights.Models.FieldRestriction FieldRestriction (Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult? result = default, string defaultValue = default, System.Collections.Generic.IEnumerable&lt;string&gt; values = default, Azure.ResourceManager.PolicyInsights.Models.PolicyReference policy = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function FieldRestriction (Optional result As Nullable(Of FieldRestrictionResult) = Nothing, Optional defaultValue As String = Nothing, Optional values As IEnumerable(Of String) = Nothing, Optional policy As PolicyReference = Nothing) As FieldRestriction" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -503,17 +509,18 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.FieldRestriction</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="result" Type="System.Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="defaultValue" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policy" Type="Azure.ResourceManager.PolicyInsights.Models.PolicyReference" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyEffect" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="reason" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="result" Type="System.Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.FieldRestrictionResult&gt;" />
+        <Parameter Name="defaultValue" Type="System.String" />
+        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="policy" Type="Azure.ResourceManager.PolicyInsights.Models.PolicyReference" />
+        <Parameter Name="policyEffect" Type="System.String" />
+        <Parameter Name="reason" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="result"> The type of restriction that is imposed on the field. </param>
@@ -536,8 +543,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.FieldRestrictions</ReturnType>
@@ -563,8 +570,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.IfNotExistsEvaluationDetails</ReturnType>
@@ -591,13 +598,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PendingField</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="field" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="field" Type="System.String" />
+        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="field"> The name of the field. This can be a top-level property like 'name' or 'type' or an Azure Policy field alias. </param>
@@ -616,8 +624,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyAssignmentSummary</ReturnType>
@@ -649,8 +657,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.PolicyAttestationData</ReturnType>
@@ -702,8 +710,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyDefinitionSummary</ReturnType>
@@ -735,8 +743,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyDetails</ReturnType>
@@ -770,8 +778,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyEvaluationDetails</ReturnType>
@@ -797,11 +805,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -833,15 +841,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyEvaluationResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="policyInfo" Type="Azure.ResourceManager.PolicyInsights.Models.PolicyReference" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="evaluationResult" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="checkRestrictionEvaluationDetails" Type="Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionEvaluationDetails" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyEffect" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="policyInfo" Type="Azure.ResourceManager.PolicyInsights.Models.PolicyReference" />
+        <Parameter Name="evaluationResult" Type="System.String" />
+        <Parameter Name="checkRestrictionEvaluationDetails" Type="Azure.ResourceManager.PolicyInsights.Models.CheckRestrictionEvaluationDetails" />
+        <Parameter Name="policyEffect" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="policyInfo"> The details of the policy that was evaluated. </param>
@@ -862,8 +871,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyEvent</ReturnType>
@@ -949,8 +958,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyGroupSummary</ReturnType>
@@ -976,8 +985,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.PolicyMetadataData</ReturnType>
@@ -1023,8 +1032,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyReference</ReturnType>
@@ -1055,28 +1064,29 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.PolicyRemediationData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyAssignmentId" Type="Azure.Core.ResourceIdentifier" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyDefinitionReferenceId" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceDiscoveryMode" Type="System.Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.ResourceDiscoveryMode&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="createdOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="lastUpdatedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="filter" Type="Azure.ResourceManager.PolicyInsights.Models.RemediationFilters" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="deploymentStatus" Type="Azure.ResourceManager.PolicyInsights.Models.RemediationDeploymentSummary" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="statusMessage" Type="System.String" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="correlationId" Type="System.String" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceCount" Type="System.Nullable&lt;System.Int32&gt;" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="parallelDeployments" Type="System.Nullable&lt;System.Int32&gt;" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="failureThresholdPercentage" Type="System.Nullable&lt;System.Single&gt;" Index="16" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="policyAssignmentId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="policyDefinitionReferenceId" Type="System.String" />
+        <Parameter Name="resourceDiscoveryMode" Type="System.Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.ResourceDiscoveryMode&gt;" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="createdOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="lastUpdatedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="filter" Type="Azure.ResourceManager.PolicyInsights.Models.RemediationFilters" />
+        <Parameter Name="deploymentStatus" Type="Azure.ResourceManager.PolicyInsights.Models.RemediationDeploymentSummary" />
+        <Parameter Name="statusMessage" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="resourceCount" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="parallelDeployments" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="failureThresholdPercentage" Type="System.Nullable&lt;System.Single&gt;" />
       </Parameters>
       <Docs>
         <param name="id"> The id. </param>
@@ -1110,11 +1120,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -1173,8 +1183,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyState</ReturnType>
@@ -1266,8 +1276,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicySummary</ReturnType>
@@ -1297,8 +1307,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicySummaryResults</ReturnType>
@@ -1332,8 +1342,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.PolicyTrackedResourceRecord</ReturnType>
@@ -1365,8 +1375,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.RemediationDeployment</ReturnType>
@@ -1402,8 +1412,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.RemediationDeploymentSummary</ReturnType>
@@ -1431,8 +1441,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.SlimPolicyMetadata</ReturnType>
@@ -1474,8 +1484,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PolicyInsights.Models.TrackedResourceModificationDetails</ReturnType>

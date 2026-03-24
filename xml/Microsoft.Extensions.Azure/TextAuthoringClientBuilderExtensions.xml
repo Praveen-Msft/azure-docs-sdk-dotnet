@@ -13,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Extension methods to add <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> to client builder. </summary>
+    <summary> Extension methods to add clients to <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,10 +45,12 @@
       <Docs>
         <typeparam name="TBuilder">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="endpoint"> Supported Cognitive Services endpoint e.g., https://&lt;resource-name&gt;.api.cognitiveservices.azure.com. </param>
-        <summary> Registers a <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> instance. </summary>
+        <param name="endpoint"> Service endpoint. </param>
+        <summary> Registers a <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="AddTextAnalysisAuthoringClient&lt;TBuilder&gt;">
@@ -80,9 +82,9 @@
       <Docs>
         <typeparam name="TBuilder">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="endpoint"> Supported Cognitive Services endpoint e.g., https://&lt;resource-name&gt;.api.cognitiveservices.azure.com. </param>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
-        <summary> Registers a <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> instance. </summary>
+        <param name="endpoint" />
+        <param name="credential" />
+        <summary> Registers a <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,8 +119,8 @@
         <typeparam name="TBuilder">To be added.</typeparam>
         <typeparam name="TConfiguration">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="configuration"> The configuration values. </param>
-        <summary> Registers a <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> instance. </summary>
+        <param name="configuration"> The configuration to use for the client. </param>
+        <summary> Registers a <see cref="T:Azure.AI.Language.Text.Authoring.TextAnalysisAuthoringClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

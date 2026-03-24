@@ -2589,32 +2589,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PagedInsight">
-      <MemberSignature Language="C#" Value="public static Azure.Core.PagedInsight PagedInsight (System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.Insight&gt; value = default, Uri nextLink = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.PagedInsight PagedInsight(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Projects.Insight&gt; value, class System.Uri nextLink) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.PagedInsight(System.Collections.Generic.IEnumerable{Azure.AI.Projects.Insight},System.Uri)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function PagedInsight (Optional value As IEnumerable(Of Insight) = Nothing, Optional nextLink As Uri = Nothing) As PagedInsight" />
-      <MemberSignature Language="F#" Value="static member PagedInsight : seq&lt;Azure.AI.Projects.Insight&gt; * Uri -&gt; Azure.Core.PagedInsight" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.PagedInsight (value, nextLink)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Core.PagedInsight</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.Insight&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="nextLink" Type="System.Uri" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="value"> The Insight items on this page. </param>
-        <param name="nextLink"> The link to the next page of items. </param>
-        <summary> Paged collection of Insight items. </summary>
-        <returns> A new <see cref="T:Azure.Core.PagedInsight" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="PendingUploadConfiguration">
       <MemberSignature Language="C#" Value="public static Azure.AI.Projects.PendingUploadConfiguration PendingUploadConfiguration (string pendingUploadId = default, string connectionName = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.PendingUploadConfiguration PendingUploadConfiguration(string pendingUploadId, string connectionName) cil managed" />

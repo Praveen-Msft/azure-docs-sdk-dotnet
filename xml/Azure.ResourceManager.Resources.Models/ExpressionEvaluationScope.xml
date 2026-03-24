@@ -24,12 +24,17 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.11.1.0</AssemblyVersion>
     <AssemblyVersion>1.11.2.0</AssemblyVersion>
+    <AssemblyVersion>1.12.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface>
+    <Interface FrameworkAlternate="azure-dotnet-preview">
       <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -47,11 +52,15 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
@@ -73,14 +82,18 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="other" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" />
+        <Parameter Name="other" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="other">An object to compare with this object.</param>
@@ -99,8 +112,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -112,7 +129,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="obj">The object to compare with the current instance.</param>
@@ -131,8 +148,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -159,8 +180,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope</ReturnType>
@@ -180,8 +205,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope</ReturnType>
@@ -201,15 +230,19 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" />
-        <Parameter Name="right" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" />
+        <Parameter Name="left" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="left">To be added.</param>
@@ -228,14 +261,18 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
@@ -253,15 +290,19 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" />
-        <Parameter Name="right" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" />
+        <Parameter Name="left" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="left">To be added.</param>
@@ -280,8 +321,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope</ReturnType>
@@ -301,8 +346,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Resources.Deployments</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -34,6 +34,26 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BatchClient (Azure.Compute.Batch.BatchClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Compute.Batch.BatchClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Compute.Batch.BatchClient.#ctor(Azure.Compute.Batch.BatchClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As BatchClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.Compute.Batch.BatchClient : Azure.Compute.Batch.BatchClientSettings -&gt; Azure.Compute.Batch.BatchClient" Usage="new Azure.Compute.Batch.BatchClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Compute.Batch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.Compute.Batch.BatchClientSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for BatchClient. </param>
+        <summary> Initializes a new instance of BatchClient from a <see cref="T:Azure.Compute.Batch.BatchClientSettings" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public BatchClient (Uri endpoint, Azure.AzureNamedKeyCredential credential);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.AzureNamedKeyCredential credential) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Compute.Batch.BatchClient.#ctor(System.Uri,Azure.AzureNamedKeyCredential)" />

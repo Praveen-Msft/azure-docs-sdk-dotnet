@@ -22,10 +22,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Azure AI Search client that can be used to query an index and
-            upload, merge, or delete documents.
-            </summary>
+    <summary> The SearchClient. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,6 +43,26 @@
             Initializes a new instance of the SearchClient class for
             mocking.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchClient (Azure.Search.Documents.SearchClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Search.Documents.SearchClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.#ctor(Azure.Search.Documents.SearchClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As SearchClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.SearchClient : Azure.Search.Documents.SearchClientSettings -&gt; Azure.Search.Documents.SearchClient" Usage="new Azure.Search.Documents.SearchClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.Search.Documents.SearchClientSettings" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for SearchClient. </param>
+        <summary> Initializes a new instance of SearchClient from a <see cref="T:Azure.Search.Documents.SearchClientSettings" />. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -616,6 +633,82 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetDocument">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetDocument (string key, string querySourceAuthorization, bool? enableElevatedRead, System.Collections.Generic.IEnumerable&lt;string&gt; selectedFields, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetDocument(string key, string querySourceAuthorization, valuetype System.Nullable`1&lt;bool&gt; enableElevatedRead, class System.Collections.Generic.IEnumerable`1&lt;string&gt; selectedFields, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocument(System.String,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDocument (key As String, querySourceAuthorization As String, enableElevatedRead As Nullable(Of Boolean), selectedFields As IEnumerable(Of String), context As RequestContext) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetDocument : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetDocument : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * Azure.RequestContext -&gt; Azure.Response" Usage="searchClient.GetDocument (key, querySourceAuthorization, enableElevatedRead, selectedFields, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enableElevatedRead" Type="System.Nullable&lt;System.Boolean&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="selectedFields" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="context" Type="Azure.RequestContext" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="key"> The key of the document to retrieve. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="enableElevatedRead"> A value that enables elevated read that bypass document level permission checks for the query operation. </param>
+        <param name="selectedFields"> List of field names to retrieve for the document; Any field not retrieved will be missing from the returned document. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Retrieves a document from the index.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="key" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="key" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDocument">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt; GetDocument (string key, string querySourceAuthorization = default, bool? enableElevatedRead = default, System.Collections.Generic.IEnumerable&lt;string&gt; selectedFields = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Search.Documents.Models.LookupDocument&gt; GetDocument(string key, string querySourceAuthorization, valuetype System.Nullable`1&lt;bool&gt; enableElevatedRead, class System.Collections.Generic.IEnumerable`1&lt;string&gt; selectedFields, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocument(System.String,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDocument (key As String, Optional querySourceAuthorization As String = Nothing, Optional enableElevatedRead As Nullable(Of Boolean) = Nothing, Optional selectedFields As IEnumerable(Of String) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of LookupDocument)" />
+      <MemberSignature Language="F#" Value="abstract member GetDocument : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;&#xA;override this.GetDocument : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;" Usage="searchClient.GetDocument (key, querySourceAuthorization, enableElevatedRead, selectedFields, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enableElevatedRead" Type="System.Nullable&lt;System.Boolean&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="selectedFields" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="key"> The key of the document to retrieve. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="enableElevatedRead"> A value that enables elevated read that bypass document level permission checks for the query operation. </param>
+        <param name="selectedFields"> List of field names to retrieve for the document; Any field not retrieved will be missing from the returned document. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Retrieves a document from the index. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="key" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="key" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="GetDocument&lt;T&gt;">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;T&gt; GetDocument&lt;T&gt; (string key, Azure.Search.Documents.GetDocumentOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;!!T&gt; GetDocument&lt;T&gt;(string key, class Azure.Search.Documents.GetDocumentOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -753,6 +846,82 @@
         <exception cref="T:Azure.RequestFailedException">
             Thrown when a failure is returned by the Search Service.
             </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDocumentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetDocumentAsync (string key, string querySourceAuthorization, bool? enableElevatedRead, System.Collections.Generic.IEnumerable&lt;string&gt; selectedFields, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetDocumentAsync(string key, string querySourceAuthorization, valuetype System.Nullable`1&lt;bool&gt; enableElevatedRead, class System.Collections.Generic.IEnumerable`1&lt;string&gt; selectedFields, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocumentAsync(System.String,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDocumentAsync (key As String, querySourceAuthorization As String, enableElevatedRead As Nullable(Of Boolean), selectedFields As IEnumerable(Of String), context As RequestContext) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetDocumentAsync : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetDocumentAsync : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="searchClient.GetDocumentAsync (key, querySourceAuthorization, enableElevatedRead, selectedFields, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enableElevatedRead" Type="System.Nullable&lt;System.Boolean&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="selectedFields" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="context" Type="Azure.RequestContext" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="key"> The key of the document to retrieve. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="enableElevatedRead"> A value that enables elevated read that bypass document level permission checks for the query operation. </param>
+        <param name="selectedFields"> List of field names to retrieve for the document; Any field not retrieved will be missing from the returned document. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Retrieves a document from the index.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="key" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="key" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDocumentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;&gt; GetDocumentAsync (string key, string querySourceAuthorization = default, bool? enableElevatedRead = default, System.Collections.Generic.IEnumerable&lt;string&gt; selectedFields = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Search.Documents.Models.LookupDocument&gt;&gt; GetDocumentAsync(string key, string querySourceAuthorization, valuetype System.Nullable`1&lt;bool&gt; enableElevatedRead, class System.Collections.Generic.IEnumerable`1&lt;string&gt; selectedFields, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocumentAsync(System.String,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDocumentAsync (key As String, Optional querySourceAuthorization As String = Nothing, Optional enableElevatedRead As Nullable(Of Boolean) = Nothing, Optional selectedFields As IEnumerable(Of String) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of LookupDocument))" />
+      <MemberSignature Language="F#" Value="abstract member GetDocumentAsync : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;&gt;&#xA;override this.GetDocumentAsync : string * string * Nullable&lt;bool&gt; * seq&lt;string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;&gt;" Usage="searchClient.GetDocumentAsync (key, querySourceAuthorization, enableElevatedRead, selectedFields, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.Models.LookupDocument&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enableElevatedRead" Type="System.Nullable&lt;System.Boolean&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="selectedFields" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="key"> The key of the document to retrieve. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="enableElevatedRead"> A value that enables elevated read that bypass document level permission checks for the query operation. </param>
+        <param name="selectedFields"> List of field names to retrieve for the document; Any field not retrieved will be missing from the returned document. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Retrieves a document from the index. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="key" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="key" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDocumentAsync&lt;T&gt;">
@@ -1011,6 +1180,33 @@
       </Docs>
     </Member>
     <Member MemberName="GetDocumentCount">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetDocumentCount (Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetDocumentCount(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocumentCount(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDocumentCount (context As RequestContext) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetDocumentCount : Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetDocumentCount : Azure.RequestContext -&gt; Azure.Response" Usage="searchClient.GetDocumentCount context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Queries the number of documents in the index.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDocumentCount">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;long&gt; GetDocumentCount (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;int64&gt; GetDocumentCount(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocumentCount(System.Threading.CancellationToken)" />
@@ -1029,18 +1225,38 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="cancellationToken">
-            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate notifications
-            that the operation should be canceled.
-            </param>
-        <summary>
-            Retrieves a count of the number of documents in this search index.
-            </summary>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Queries the number of documents in the index. </summary>
         <returns>The number of documents in the search index.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Azure.RequestFailedException">
-            Thrown when a failure is returned by the Search Service.
-            </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDocumentCountAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetDocumentCountAsync (Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetDocumentCountAsync(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.SearchClient.GetDocumentCountAsync(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDocumentCountAsync (context As RequestContext) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetDocumentCountAsync : Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetDocumentCountAsync : Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="searchClient.GetDocumentCountAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Queries the number of documents in the index.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDocumentCountAsync">
@@ -1062,18 +1278,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="cancellationToken">
-            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate notifications
-            that the operation should be canceled.
-            </param>
-        <summary>
-            Retrieves a count of the number of documents in this search index.
-            </summary>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Queries the number of documents in the index. </summary>
         <returns>The number of documents in the search index.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Azure.RequestFailedException">
-            Thrown when a failure is returned by the Search Service.
-            </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
     <Member MemberName="IndexDocuments&lt;T&gt;">
@@ -1507,9 +1716,7 @@
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            The HTTP pipeline for sending and receiving REST requests and responses.
-            </summary>
+        <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
