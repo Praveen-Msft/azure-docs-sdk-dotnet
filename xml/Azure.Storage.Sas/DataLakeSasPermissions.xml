@@ -33,6 +33,7 @@
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
+    <AssemblyVersion>12.27.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -63,7 +64,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -85,7 +86,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -107,7 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -129,7 +130,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -151,7 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -173,7 +174,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -195,7 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -217,7 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -239,7 +240,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -261,7 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
@@ -270,6 +271,27 @@
       <Docs>
         <summary>
             Indicates that Read is permitted.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="Tag" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Storage.Sas.DataLakeSasPermissions Tag = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Storage.Sas.DataLakeSasPermissions.Tag" />
+      <MemberSignature Language="VB.NET" Value="Tag" />
+      <MemberSignature Language="F#" Value="Tag = 1024" Usage="Azure.Storage.Sas.DataLakeSasPermissions.Tag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that reading and writing Tags are permitted.
             </summary>
       </Docs>
     </Member>
@@ -283,7 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.DataLakeSasPermissions</ReturnType>

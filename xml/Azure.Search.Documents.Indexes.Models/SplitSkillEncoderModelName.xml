@@ -37,19 +37,19 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
+        <param name="value"> The value. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="CL100KBase">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName CL100KBase { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName CL100KBase" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.CL100KBase" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CL100KBase As SplitSkillEncoderModelName" />
-      <MemberSignature Language="F#" Value="static member CL100KBase : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.CL100KBase" />
+    <Member MemberName="CL100kBase">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName CL100kBase { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName CL100kBase" />
+      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.CL100kBase" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CL100kBase As SplitSkillEncoderModelName" />
+      <MemberSignature Language="F#" Value="static member CL100kBase : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.CL100kBase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
@@ -169,8 +169,8 @@
         <Parameter Name="right" Type="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" /> values are the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -194,8 +194,32 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
+        <param name="value"> The value. </param>
+        <summary> Converts a string to a <see cref="T:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName? (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Nullable`1&lt;valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName&gt; op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.op_Implicit(System.String)~System.Nullable{Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As Nullable(Of SplitSkillEncoderModelName)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Nullable&lt;Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName&gt;" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
         <param name="value">To be added.</param>
-        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" />. </summary>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -219,19 +243,19 @@
         <Parameter Name="right" Type="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" /> values are not the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="P50KBase">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50KBase { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50KBase" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50KBase" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property P50KBase As SplitSkillEncoderModelName" />
-      <MemberSignature Language="F#" Value="static member P50KBase : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50KBase" />
+    <Member MemberName="P50kBase">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50kBase { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50kBase" />
+      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50kBase" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property P50kBase As SplitSkillEncoderModelName" />
+      <MemberSignature Language="F#" Value="static member P50kBase : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50kBase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
@@ -246,12 +270,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="P50KEdit">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50KEdit { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50KEdit" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50KEdit" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property P50KEdit As SplitSkillEncoderModelName" />
-      <MemberSignature Language="F#" Value="static member P50KEdit : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50KEdit" />
+    <Member MemberName="P50kEdit">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50kEdit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName P50kEdit" />
+      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50kEdit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property P50kEdit As SplitSkillEncoderModelName" />
+      <MemberSignature Language="F#" Value="static member P50kEdit : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.P50kEdit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
@@ -266,12 +290,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="R50KBase">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName R50KBase { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName R50KBase" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.R50KBase" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property R50KBase As SplitSkillEncoderModelName" />
-      <MemberSignature Language="F#" Value="static member R50KBase : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.R50KBase" />
+    <Member MemberName="R50kBase">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName R50kBase { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName R50kBase" />
+      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.R50kBase" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property R50kBase As SplitSkillEncoderModelName" />
+      <MemberSignature Language="F#" Value="static member R50kBase : Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName" Usage="Azure.Search.Documents.Indexes.Models.SplitSkillEncoderModelName.R50kBase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>

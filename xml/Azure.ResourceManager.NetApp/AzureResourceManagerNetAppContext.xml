@@ -11,6 +11,7 @@
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
     <AssemblyVersion>1.14.0.0</AssemblyVersion>
     <AssemblyVersion>1.15.0.0</AssemblyVersion>
+    <AssemblyVersion>1.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
@@ -65,7 +66,7 @@
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.GetGroupIdListForLdapUserResult))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.GetGroupIdListForLdapUserResult))&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet">
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.ListQuotaReportResult))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.ListQuotaReportResult))&gt;]</AttributeName>
     </Attribute>
@@ -201,11 +202,11 @@
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppRestoreStatus))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppRestoreStatus))&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet">
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppSubscriptionQuotaItemData))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppSubscriptionQuotaItemData))&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet">
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppSubscriptionQuotaItemResource))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppSubscriptionQuotaItemResource))&gt;]</AttributeName>
     </Attribute>
@@ -389,7 +390,7 @@
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.QuotaItemList))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.QuotaItemList))&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet">
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.QuotaReportFilterContent))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.QuotaReportFilterContent))&gt;]</AttributeName>
     </Attribute>
@@ -566,24 +567,88 @@
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.ActiveDirectoryConfigUpdateProperties))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.AzureKeyVaultDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.AzureKeyVaultDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.AzureResourceManagerCommonTypesManagedServiceIdentityUpdate))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.AzureResourceManagerCommonTypesManagedServiceIdentityUpdate))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketCredentialsExpiry))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketCredentialsExpiry))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.BucketData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.BucketData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketGenerateCredentials))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketGenerateCredentials))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.BucketResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.BucketResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketServerPatchProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketServerPatchProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketServerProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.BucketServerProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.CacheData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.CacheData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheList))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheMountTargetProperties))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheMountTargetProperties))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CachePatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CachePatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CachePropertiesExportPolicy))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CachePropertiesExportPolicy))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.CacheResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.CacheResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheUpdateProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CacheUpdateProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CertificateAkvDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CertificateAkvDetails))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.ChangeZoneContent))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.ChangeZoneContent))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CheckElasticResourceAvailabilityResult))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CheckElasticResourceAvailabilityResult))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CheckElasticResourceAvailabilityResponseResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CheckElasticResourceAvailabilityResponseResult))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CheckElasticVolumeFilePathAvailabilityContent))]</AttributeName>
@@ -592,6 +657,10 @@
     <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CifsUser))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CifsUser))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CredentialsAkvDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.CredentialsAkvDetails))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.ElasticAccountData))]</AttributeName>
@@ -854,76 +923,36 @@
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.ElasticVolumeUpdateProperties))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdAkvConfig))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdAkvConfig))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdAkvConfigPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdAkvConfigPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdConfig))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdConfig))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.FileSystemUser))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.FileSystemUser))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.LdapConfiguration))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.LdapConfiguration))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketCredentialsExpiry))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketCredentialsExpiry))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppBucketData))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppBucketData))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketFileSystemUser))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketFileSystemUser))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketGenerateCredentials))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketGenerateCredentials))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketList))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketList))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketNfsUser))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketNfsUser))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketPatch))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketPatch))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppBucketResource))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppBucketResource))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketServerPatchProperties))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketServerPatchProperties))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketServerProperties))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppBucketServerProperties))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppCacheData))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppCacheData))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCacheList))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCacheList))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCachePatch))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCachePatch))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCacheProperties))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCacheProperties))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppCacheResource))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.NetAppCacheResource))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCacheUpdateProperties))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppCacheUpdateProperties))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet-preview">
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NfsUser))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.NfsUser))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet-preview">
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.NetApp.Models.OriginClusterInformation))]</AttributeName>
@@ -976,6 +1005,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.AzureResourceManagerNetAppContext</ReturnType>
@@ -996,6 +1026,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.15.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

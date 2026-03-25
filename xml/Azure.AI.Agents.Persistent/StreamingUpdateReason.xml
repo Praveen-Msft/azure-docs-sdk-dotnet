@@ -66,6 +66,27 @@
             </summary>
       </Docs>
     </Member>
+    <Member MemberName="KeepAlive">
+      <MemberSignature Language="C#" Value="KeepAlive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.Agents.Persistent.StreamingUpdateReason KeepAlive = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Azure.AI.Agents.Persistent.StreamingUpdateReason.KeepAlive" />
+      <MemberSignature Language="VB.NET" Value="KeepAlive" />
+      <MemberSignature Language="F#" Value="KeepAlive = 26" Usage="Azure.AI.Agents.Persistent.StreamingUpdateReason.KeepAlive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Agents.Persistent</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Agents.Persistent.StreamingUpdateReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that a keep-alive message was received, signifying that the connection is still active.
+            </summary>
+      </Docs>
+    </Member>
     <Member MemberName="MessageCompleted">
       <MemberSignature Language="C#" Value="MessageCompleted" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.Agents.Persistent.StreamingUpdateReason MessageCompleted = int32(22)" />

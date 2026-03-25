@@ -33,6 +33,7 @@
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
+    <AssemblyVersion>12.27.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -55,7 +56,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeFileReadResult</ReturnType>
@@ -84,7 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeFileReadStreamingResult</ReturnType>
@@ -113,7 +114,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeQueryError</ReturnType>
@@ -146,7 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -219,7 +220,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -294,7 +295,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -371,7 +372,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileDownloadDetails</ReturnType>
@@ -444,7 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -483,7 +484,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileSystemInfo</ReturnType>
@@ -512,7 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -547,7 +548,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileSystemItem</ReturnType>
@@ -580,7 +581,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -627,7 +628,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileSystemProperties</ReturnType>
@@ -664,6 +665,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetPathTagResult">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.DataLake.Models.GetPathTagResult GetPathTagResult (System.Collections.Generic.IDictionary&lt;string,string&gt; tags);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Files.DataLake.Models.GetPathTagResult GetPathTagResult(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.GetPathTagResult(System.Collections.Generic.IDictionary{System.String,System.String})" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPathTagResult (tags As IDictionary(Of String, String)) As GetPathTagResult" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="static member GetPathTagResult : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.Storage.Files.DataLake.Models.GetPathTagResult" Usage="Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.GetPathTagResult tags" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Storage.Files.DataLake.Models.GetPathTagResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="tags">To be added.</param>
+        <summary>
+            Creates a new GetPathTagResult for mocking.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Lease">
       <MemberSignature Language="C#" Value="public static Azure.Storage.Files.DataLake.Models.DataLakeLease Lease (Azure.ETag eTag, DateTimeOffset lastModified, string leaseId, int? leaseTime);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Files.DataLake.Models.DataLakeLease Lease(valuetype Azure.ETag eTag, valuetype System.DateTimeOffset lastModified, string leaseId, valuetype System.Nullable`1&lt;int32&gt; leaseTime) cil managed" />
@@ -674,7 +701,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeLease</ReturnType>
@@ -707,7 +734,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathAccessControl</ReturnType>
@@ -740,7 +767,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathContentInfo</ReturnType>
@@ -789,7 +816,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathCreateInfo</ReturnType>
@@ -818,7 +845,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathInfo</ReturnType>
@@ -847,7 +874,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -894,7 +921,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -945,7 +972,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathItem</ReturnType>
@@ -992,7 +1019,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1077,7 +1104,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1164,7 +1191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1253,7 +1280,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1348,8 +1375,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathProperties</ReturnType>
       </ReturnValue>
@@ -1429,6 +1462,150 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PathProperties">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.DataLake.Models.PathProperties PathProperties (DateTimeOffset lastModified, DateTimeOffset creationTime, System.Collections.Generic.IDictionary&lt;string,string&gt; metadata, DateTimeOffset copyCompletionTime, string copyStatusDescription, string copyId, string copyProgress, Uri copySource, Azure.Storage.Files.DataLake.Models.CopyStatus copyStatus, bool isIncrementalCopy, Azure.Storage.Files.DataLake.Models.DataLakeLeaseDuration leaseDuration, Azure.Storage.Files.DataLake.Models.DataLakeLeaseState leaseState, Azure.Storage.Files.DataLake.Models.DataLakeLeaseStatus leaseStatus, long contentLength, string contentType, Azure.ETag eTag, byte[] contentHash, string contentEncoding, string contentDisposition, string contentLanguage, string cacheControl, string acceptRanges, bool isServerEncrypted, string encryptionKeySha256, string accessTier, string archiveStatus, DateTimeOffset accessTierChangeTime, bool isDirectory, string encryptionContext, string owner, string group, string permissions, System.Collections.Generic.IList&lt;Azure.Storage.Files.DataLake.Models.PathAccessControlItem&gt; accessControlList, string smartAccessTier, bool accessTierInferred);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Files.DataLake.Models.PathProperties PathProperties(valuetype System.DateTimeOffset lastModified, valuetype System.DateTimeOffset creationTime, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; metadata, valuetype System.DateTimeOffset copyCompletionTime, string copyStatusDescription, string copyId, string copyProgress, class System.Uri copySource, valuetype Azure.Storage.Files.DataLake.Models.CopyStatus copyStatus, bool isIncrementalCopy, valuetype Azure.Storage.Files.DataLake.Models.DataLakeLeaseDuration leaseDuration, valuetype Azure.Storage.Files.DataLake.Models.DataLakeLeaseState leaseState, valuetype Azure.Storage.Files.DataLake.Models.DataLakeLeaseStatus leaseStatus, int64 contentLength, string contentType, valuetype Azure.ETag eTag, unsigned int8[] contentHash, string contentEncoding, string contentDisposition, string contentLanguage, string cacheControl, string acceptRanges, bool isServerEncrypted, string encryptionKeySha256, string accessTier, string archiveStatus, valuetype System.DateTimeOffset accessTierChangeTime, bool isDirectory, string encryptionContext, string owner, string group, string permissions, class System.Collections.Generic.IList`1&lt;class Azure.Storage.Files.DataLake.Models.PathAccessControlItem&gt; accessControlList, string smartAccessTier, bool accessTierInferred) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.PathProperties(System.DateTimeOffset,System.DateTimeOffset,System.Collections.Generic.IDictionary{System.String,System.String},System.DateTimeOffset,System.String,System.String,System.String,System.Uri,Azure.Storage.Files.DataLake.Models.CopyStatus,System.Boolean,Azure.Storage.Files.DataLake.Models.DataLakeLeaseDuration,Azure.Storage.Files.DataLake.Models.DataLakeLeaseState,Azure.Storage.Files.DataLake.Models.DataLakeLeaseStatus,System.Int64,System.String,Azure.ETag,System.Byte[],System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.DateTimeOffset,System.Boolean,System.String,System.String,System.String,System.String,System.Collections.Generic.IList{Azure.Storage.Files.DataLake.Models.PathAccessControlItem},System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PathProperties (lastModified As DateTimeOffset, creationTime As DateTimeOffset, metadata As IDictionary(Of String, String), copyCompletionTime As DateTimeOffset, copyStatusDescription As String, copyId As String, copyProgress As String, copySource As Uri, copyStatus As CopyStatus, isIncrementalCopy As Boolean, leaseDuration As DataLakeLeaseDuration, leaseState As DataLakeLeaseState, leaseStatus As DataLakeLeaseStatus, contentLength As Long, contentType As String, eTag As ETag, contentHash As Byte(), contentEncoding As String, contentDisposition As String, contentLanguage As String, cacheControl As String, acceptRanges As String, isServerEncrypted As Boolean, encryptionKeySha256 As String, accessTier As String, archiveStatus As String, accessTierChangeTime As DateTimeOffset, isDirectory As Boolean, encryptionContext As String, owner As String, group As String, permissions As String, accessControlList As IList(Of PathAccessControlItem), smartAccessTier As String, accessTierInferred As Boolean) As PathProperties" />
+      <MemberSignature Language="F#" Value="static member PathProperties : DateTimeOffset * DateTimeOffset * System.Collections.Generic.IDictionary&lt;string, string&gt; * DateTimeOffset * string * string * string * Uri * Azure.Storage.Files.DataLake.Models.CopyStatus * bool * Azure.Storage.Files.DataLake.Models.DataLakeLeaseDuration * Azure.Storage.Files.DataLake.Models.DataLakeLeaseState * Azure.Storage.Files.DataLake.Models.DataLakeLeaseStatus * int64 * string * Azure.ETag * byte[] * string * string * string * string * string * bool * string * string * string * DateTimeOffset * bool * string * string * string * string * System.Collections.Generic.IList&lt;Azure.Storage.Files.DataLake.Models.PathAccessControlItem&gt; * string * bool -&gt; Azure.Storage.Files.DataLake.Models.PathProperties" Usage="Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.PathProperties (lastModified, creationTime, metadata, copyCompletionTime, copyStatusDescription, copyId, copyProgress, copySource, copyStatus, isIncrementalCopy, leaseDuration, leaseState, leaseStatus, contentLength, contentType, eTag, contentHash, contentEncoding, contentDisposition, contentLanguage, cacheControl, acceptRanges, isServerEncrypted, encryptionKeySha256, accessTier, archiveStatus, accessTierChangeTime, isDirectory, encryptionContext, owner, group, permissions, accessControlList, smartAccessTier, accessTierInferred)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.DataLake.Models.PathProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lastModified" Type="System.DateTimeOffset" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="creationTime" Type="System.DateTimeOffset" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="metadata" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="copyCompletionTime" Type="System.DateTimeOffset" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="copyStatusDescription" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="copyId" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="copyProgress" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="copySource" Type="System.Uri" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="copyStatus" Type="Azure.Storage.Files.DataLake.Models.CopyStatus" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isIncrementalCopy" Type="System.Boolean" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="leaseDuration" Type="Azure.Storage.Files.DataLake.Models.DataLakeLeaseDuration" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="leaseState" Type="Azure.Storage.Files.DataLake.Models.DataLakeLeaseState" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="leaseStatus" Type="Azure.Storage.Files.DataLake.Models.DataLakeLeaseStatus" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentLength" Type="System.Int64" Index="13" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentType" Type="System.String" Index="14" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="eTag" Type="Azure.ETag" Index="15" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentHash" Type="System.Byte[]" Index="16" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentEncoding" Type="System.String" Index="17" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentDisposition" Type="System.String" Index="18" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentLanguage" Type="System.String" Index="19" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cacheControl" Type="System.String" Index="20" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="acceptRanges" Type="System.String" Index="21" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isServerEncrypted" Type="System.Boolean" Index="22" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionKeySha256" Type="System.String" Index="23" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="accessTier" Type="System.String" Index="24" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="archiveStatus" Type="System.String" Index="25" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="accessTierChangeTime" Type="System.DateTimeOffset" Index="26" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isDirectory" Type="System.Boolean" Index="27" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionContext" Type="System.String" Index="28" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="owner" Type="System.String" Index="29" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="group" Type="System.String" Index="30" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="permissions" Type="System.String" Index="31" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="accessControlList" Type="System.Collections.Generic.IList&lt;Azure.Storage.Files.DataLake.Models.PathAccessControlItem&gt;" Index="32" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="smartAccessTier" Type="System.String" Index="33" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="accessTierInferred" Type="System.Boolean" Index="34" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="lastModified">To be added.</param>
+        <param name="creationTime">To be added.</param>
+        <param name="metadata">To be added.</param>
+        <param name="copyCompletionTime">To be added.</param>
+        <param name="copyStatusDescription">To be added.</param>
+        <param name="copyId">To be added.</param>
+        <param name="copyProgress">To be added.</param>
+        <param name="copySource">To be added.</param>
+        <param name="copyStatus">To be added.</param>
+        <param name="isIncrementalCopy">To be added.</param>
+        <param name="leaseDuration">To be added.</param>
+        <param name="leaseState">To be added.</param>
+        <param name="leaseStatus">To be added.</param>
+        <param name="contentLength">To be added.</param>
+        <param name="contentType">To be added.</param>
+        <param name="eTag">To be added.</param>
+        <param name="contentHash">To be added.</param>
+        <param name="contentEncoding">To be added.</param>
+        <param name="contentDisposition">To be added.</param>
+        <param name="contentLanguage">To be added.</param>
+        <param name="cacheControl">To be added.</param>
+        <param name="acceptRanges">To be added.</param>
+        <param name="isServerEncrypted">To be added.</param>
+        <param name="encryptionKeySha256">To be added.</param>
+        <param name="accessTier">To be added.</param>
+        <param name="archiveStatus">To be added.</param>
+        <param name="accessTierChangeTime">To be added.</param>
+        <param name="isDirectory">To be added.</param>
+        <param name="encryptionContext">To be added.</param>
+        <param name="owner">To be added.</param>
+        <param name="group">To be added.</param>
+        <param name="permissions">To be added.</param>
+        <param name="accessControlList">To be added.</param>
+        <param name="smartAccessTier">To be added.</param>
+        <param name="accessTierInferred">To be added.</param>
+        <summary>
+            Creates a new PathProperties instance for mocking.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PathSystemProperties">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.DataLake.Models.PathSystemProperties PathSystemProperties (DateTimeOffset? creationTime, DateTimeOffset? lastModifiedTime, Azure.ETag eTag, long? contentLength, bool? isDirectory, bool? isServerEncrypted, string encryptionKeySha256, DateTimeOffset? expiresOn, string encryptionScope, string encryptionContext, string owner, string group, Azure.Storage.Files.DataLake.Models.PathPermissions permissions);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Files.DataLake.Models.PathSystemProperties PathSystemProperties(valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; creationTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedTime, valuetype Azure.ETag eTag, valuetype System.Nullable`1&lt;int64&gt; contentLength, valuetype System.Nullable`1&lt;bool&gt; isDirectory, valuetype System.Nullable`1&lt;bool&gt; isServerEncrypted, string encryptionKeySha256, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; expiresOn, string encryptionScope, string encryptionContext, string owner, string group, class Azure.Storage.Files.DataLake.Models.PathPermissions permissions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.PathSystemProperties(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},Azure.ETag,System.Nullable{System.Int64},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Nullable{System.DateTimeOffset},System.String,System.String,System.String,System.String,Azure.Storage.Files.DataLake.Models.PathPermissions)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PathSystemProperties (creationTime As Nullable(Of DateTimeOffset), lastModifiedTime As Nullable(Of DateTimeOffset), eTag As ETag, contentLength As Nullable(Of Long), isDirectory As Nullable(Of Boolean), isServerEncrypted As Nullable(Of Boolean), encryptionKeySha256 As String, expiresOn As Nullable(Of DateTimeOffset), encryptionScope As String, encryptionContext As String, owner As String, group As String, permissions As PathPermissions) As PathSystemProperties" />
+      <MemberSignature Language="F#" Value="static member PathSystemProperties : Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Azure.ETag * Nullable&lt;int64&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * Nullable&lt;DateTimeOffset&gt; * string * string * string * string * Azure.Storage.Files.DataLake.Models.PathPermissions -&gt; Azure.Storage.Files.DataLake.Models.PathSystemProperties" Usage="Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.PathSystemProperties (creationTime, lastModifiedTime, eTag, contentLength, isDirectory, isServerEncrypted, encryptionKeySha256, expiresOn, encryptionScope, encryptionContext, owner, group, permissions)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.DataLake.Models.PathSystemProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="creationTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="lastModifiedTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="eTag" Type="Azure.ETag" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentLength" Type="System.Nullable&lt;System.Int64&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isDirectory" Type="System.Nullable&lt;System.Boolean&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isServerEncrypted" Type="System.Nullable&lt;System.Boolean&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionKeySha256" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="expiresOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionScope" Type="System.String" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionContext" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="owner" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="group" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="permissions" Type="Azure.Storage.Files.DataLake.Models.PathPermissions" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="creationTime">To be added.</param>
+        <param name="lastModifiedTime">To be added.</param>
+        <param name="eTag">To be added.</param>
+        <param name="contentLength">To be added.</param>
+        <param name="isDirectory">To be added.</param>
+        <param name="isServerEncrypted">To be added.</param>
+        <param name="encryptionKeySha256">To be added.</param>
+        <param name="expiresOn">To be added.</param>
+        <param name="encryptionScope">To be added.</param>
+        <param name="encryptionContext">To be added.</param>
+        <param name="owner">To be added.</param>
+        <param name="group">To be added.</param>
+        <param name="permissions">To be added.</param>
+        <summary>
+            Creates a new <see cref="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.PathSystemProperties(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},Azure.ETag,System.Nullable{System.Int64},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Nullable{System.DateTimeOffset},System.String,System.String,System.String,System.String,Azure.Storage.Files.DataLake.Models.PathPermissions)" /> instance for mocking.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="UserDelegationKey">
       <MemberSignature Language="C#" Value="public static Azure.Storage.Files.DataLake.Models.UserDelegationKey UserDelegationKey (string signedObjectId, string signedTenantId, DateTimeOffset signedStart, DateTimeOffset signedExpiry, string signedService, string signedVersion, string value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Files.DataLake.Models.UserDelegationKey UserDelegationKey(string signedObjectId, string signedTenantId, valuetype System.DateTimeOffset signedStart, valuetype System.DateTimeOffset signedExpiry, string signedService, string signedVersion, string value) cil managed" />
@@ -1439,7 +1616,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet-preview">
@@ -1483,7 +1660,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.UserDelegationKey</ReturnType>

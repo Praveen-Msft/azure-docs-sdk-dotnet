@@ -156,11 +156,11 @@
     - name: Management
       items:
       - name: Resource Management - App Platform (deprecated)
+        href: ~/api/overview/azure/preview/resourcemanager.appplatform-readme.md
         children:
         - Azure.ResourceManager.AppPlatform
         - Azure.ResourceManager.AppPlatform.Mocking
         - Azure.ResourceManager.AppPlatform.Models
-        landingPageType: Service
   - name: App Service
     href: ~/api/overview/azure/preview/app-service.md
     landingPageType: Service
@@ -299,6 +299,20 @@
       children:
       - Azure.Compute.Batch
       - Microsoft.Extensions.Azure
+    - name: Batch
+      href: ~/api/overview/azure/preview/microsoft.azure.batch-readme.md
+      children:
+      - Microsoft.Azure.Batch
+      - Microsoft.Azure.Batch.Auth
+      - Microsoft.Azure.Batch.Common
+      - Microsoft.Azure.Batch.FileStaging
+      - Microsoft.Azure.Batch.Protocol
+      - Microsoft.Azure.Batch.Protocol.BatchRequests
+      - Microsoft.Azure.Batch.Protocol.Models
+    - name: Batch - File Staging
+      children:
+      - Microsoft.Azure.Batch.FileStaging
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Batch
@@ -574,10 +588,10 @@
       - Azure.AI.Projects
       - Azure.AI.Projects.OpenAI
     - name: Text Analytics
+      href: ~/api/overview/azure/preview/ai.textanalytics-readme.md
       children:
       - Azure.AI.TextAnalytics
       - Microsoft.Extensions.Azure
-      landingPageType: Service
     - name: Document Translation
       href: ~/api/overview/azure/preview/ai.translation.document-readme.md
       children:
@@ -1197,6 +1211,18 @@
         children:
         - Azure.ResourceManager.DeploymentManager
         - Azure.ResourceManager.DeploymentManager.Models
+  - name: Desktop Virtualization
+    href: ~/api/overview/azure/preview/desktop-virtualization.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Desktop Virtualization
+        href: ~/api/overview/azure/preview/resourcemanager.desktopvirtualization-readme.md
+        children:
+        - Azure.ResourceManager.DesktopVirtualization
+        - Azure.ResourceManager.DesktopVirtualization.Mocking
+        - Azure.ResourceManager.DesktopVirtualization.Models
   - name: Dev Center
     href: ~/api/overview/azure/preview/dev-center.md
     landingPageType: Service
@@ -1207,6 +1233,14 @@
       - Azure.Developer.DevCenter
       - Azure.Developer.DevCenter.Models
       - Microsoft.Extensions.Azure
+    - name: Management
+      items:
+      - name: Resource Management - Dev Center
+        href: ~/api/overview/azure/preview/resourcemanager.devcenter-readme.md
+        children:
+        - Azure.ResourceManager.DevCenter
+        - Azure.ResourceManager.DevCenter.Mocking
+        - Azure.ResourceManager.DevCenter.Models
   - name: Dev Spaces
     href: ~/api/overview/azure/preview/dev-spaces.md
     landingPageType: Service
@@ -1255,7 +1289,7 @@
         - Azure.ResourceManager.DisconnectedOperations
         - Azure.ResourceManager.DisconnectedOperations.Mocking
         - Azure.ResourceManager.DisconnectedOperations.Models
-  - name: Dns
+  - name: DNS
     href: ~/api/overview/azure/preview/dns.md
     landingPageType: Service
     items:
@@ -2142,6 +2176,16 @@
       - Microsoft.Azure.Media.LiveVideoAnalytics.Edge
       - Microsoft.Azure.Media.LiveVideoAnalytics.Edge.Models
       landingPageType: Service
+  - name: Metrics Advisor
+    href: ~/api/overview/azure/preview/metrics-advisor.md
+    landingPageType: Service
+    items:
+    - name: Metrics Advisor
+      href: ~/api/overview/azure/preview/ai.metricsadvisor-readme.md
+      children:
+      - Azure.AI.MetricsAdvisor
+      - Azure.AI.MetricsAdvisor.Administration
+      - Azure.AI.MetricsAdvisor.Models
   - name: Migration
     href: ~/api/overview/azure/preview/migration.md
     landingPageType: Service
@@ -2172,6 +2216,18 @@
         - Azure.ResourceManager.MixedReality.Mocking
         - Azure.ResourceManager.MixedReality.Models
         landingPageType: Service
+  - name: Mobile Network
+    href: ~/api/overview/azure/preview/mobile-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mobile Network (deprecated)
+        href: ~/api/overview/azure/preview/resourcemanager.mobilenetwork-readme.md
+        children:
+        - Azure.ResourceManager.MobileNetwork
+        - Azure.ResourceManager.MobileNetwork.Mocking
+        - Azure.ResourceManager.MobileNetwork.Models
   - name: Mongo Cluster
     href: ~/api/overview/azure/preview/mongo-cluster.md
     landingPageType: Service
@@ -2307,11 +2363,11 @@
     - name: Management
       items:
       - name: Resource Management - Network Analytics (deprecated)
+        href: ~/api/overview/azure/preview/resourcemanager.networkanalytics-readme.md
         children:
         - Azure.ResourceManager.NetworkAnalytics
         - Azure.ResourceManager.NetworkAnalytics.Mocking
         - Azure.ResourceManager.NetworkAnalytics.Models
-        landingPageType: Service
   - name: Network Function
     href: ~/api/overview/azure/preview/network-function.md
     landingPageType: Service
@@ -3458,20 +3514,24 @@
     landingPageType: Service
     items:
     - name: Web PubSub
+      href: ~/api/overview/azure/preview/messaging.webpubsub-readme.md
       children:
       - Azure.Messaging.WebPubSub
       - Microsoft.Extensions.Azure
-      landingPageType: Service
     - name: Web PubSub Client
       href: ~/api/overview/azure/preview/messaging.webpubsub.client-readme.md
       children:
       - Azure.Messaging.WebPubSub.Clients
     - name: Microsoft.Azure.WebPubSub.AspNetCore
+      href: ~/api/overview/azure/preview/microsoft.azure.webpubsub.aspnetcore-readme.md
       children:
       - Microsoft.AspNetCore.Builder
       - Microsoft.Azure.WebPubSub.AspNetCore
       - Microsoft.Extensions.DependencyInjection
-      landingPageType: Service
+    - name: Microsoft.Azure.WebPubSub.Common
+      href: ~/api/overview/azure/preview/microsoft.azure.webpubsub.common-readme.md
+      children:
+      - Microsoft.Azure.WebPubSub.Common
     - name: Management
       items:
       - name: Resource Management - Web PubSub

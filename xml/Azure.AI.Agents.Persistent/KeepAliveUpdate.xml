@@ -1,0 +1,24 @@
+<Type Name="KeepAliveUpdate" FullName="Azure.AI.Agents.Persistent.KeepAliveUpdate">
+  <TypeSignature Language="C#" Value="public class KeepAliveUpdate : Azure.AI.Agents.Persistent.StreamingUpdate" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeepAliveUpdate extends Azure.AI.Agents.Persistent.StreamingUpdate" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.Agents.Persistent.KeepAliveUpdate" />
+  <TypeSignature Language="VB.NET" Value="Public Class KeepAliveUpdate&#xA;Inherits StreamingUpdate" />
+  <TypeSignature Language="F#" Value="type KeepAliveUpdate = class&#xA;    inherit StreamingUpdate" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.Agents.Persistent</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.AI.Agents.Persistent.StreamingUpdate</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a streaming update that serves as a keep-alive signal within a sequence of run steps.
+            </summary>
+    <remarks>A KeepAliveUpdate is used to indicate ongoing activity or maintain a connection during streaming
+            operations. It does not contain any run step data and is typically used internally to prevent timeouts or signal
+            liveness in long-running processes.</remarks>
+  </Docs>
+  <Members />
+</Type>

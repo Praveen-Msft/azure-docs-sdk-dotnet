@@ -41,6 +41,7 @@
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
     <AssemblyVersion>12.28.0.0</AssemblyVersion>
+    <AssemblyVersion>12.29.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -62,7 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -82,7 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -105,7 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -116,7 +117,7 @@
             For a list of allowed premium page blob tiers, see
             <see href="https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#features" />. For general
             purpose v2 and blob storage account types, the valid values are:
-            <list type="bullet"><item><description>Hot</description></item><item><description>Cool</description></item><item><description>Archive</description></item></list></summary>
+            <list type="bullet"><item><description>Hot</description></item><item><description>Cool</description></item><item><description>Archive</description></item><item><description>Smart</description></item></list></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -131,7 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -154,7 +155,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -178,14 +179,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            For blob storage LRS accounts, valid values are rehydrate-pending-to-hot/rehydrate-pending-to-cool.
+            For blob storage LRS accounts, valid values are rehydrate-pending-to-hot/rehydrate-pending-to-cool/rehydrate-pending-to-cold/rehydrate-pending-to-smart.
             If the blob is being rehydrated and is not complete then this header is returned indicating that
             rehydrate is pending and also tells the destination tier.
             </summary>
@@ -203,7 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -226,7 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Blobs.Models.CopyStatus&gt;</ReturnType>
@@ -249,7 +250,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -272,7 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobType</ReturnType>
@@ -295,7 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -318,7 +319,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -345,7 +346,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,7 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -392,7 +393,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -415,7 +416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -438,7 +439,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -461,7 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -488,7 +489,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -512,7 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -539,7 +540,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -565,7 +566,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -595,7 +596,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -621,7 +622,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -644,7 +645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -668,7 +669,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -692,7 +693,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -716,7 +717,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ETag</ReturnType>
@@ -740,7 +741,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -763,7 +764,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -786,7 +787,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobImmutabilityPolicy</ReturnType>
@@ -809,7 +810,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -832,7 +833,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -855,7 +856,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -878,7 +879,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -903,7 +904,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -926,7 +927,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -950,7 +951,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.LeaseDurationType</ReturnType>
@@ -973,7 +974,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.LeaseState</ReturnType>
@@ -996,7 +997,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.LeaseStatus</ReturnType>
@@ -1019,7 +1020,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -1042,7 +1043,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1065,7 +1066,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Storage.Blobs.Models.ObjectReplicationPolicy&gt;</ReturnType>
@@ -1088,7 +1089,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1097,6 +1098,29 @@
         <summary>
             If this blob is in rehydrate pending state, this indicates the rehydrate priority.
             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartAccessTier">
+      <MemberSignature Language="C#" Value="public string SmartAccessTier { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmartAccessTier" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Models.BlobProperties.SmartAccessTier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartAccessTier As String" />
+      <MemberSignature Language="F#" Value="member this.SmartAccessTier : string" Usage="Azure.Storage.Blobs.Models.BlobProperties.SmartAccessTier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The underlying tier of a smart tier blob. Only returned if the blob is in Smart tier.
+            For general purpose v2 and blob storage account types, the valid values are:
+            <list type="bullet"><item><description>Hot</description></item><item><description>Cool</description></item><item><description>Cold</description></item></list></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1111,7 +1135,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -1134,7 +1158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -1,0 +1,93 @@
+<Type Name="PlanetaryComputerClientBuilderExtensions" FullName="Microsoft.Extensions.Azure.PlanetaryComputerClientBuilderExtensions">
+  <TypeSignature Language="C#" Value="public static class PlanetaryComputerClientBuilderExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PlanetaryComputerClientBuilderExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.Azure.PlanetaryComputerClientBuilderExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PlanetaryComputerClientBuilderExtensions" />
+  <TypeSignature Language="F#" Value="type PlanetaryComputerClientBuilderExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Analytics.PlanetaryComputer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Extension methods to add clients to <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddPlanetaryComputerProClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient,Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt; AddPlanetaryComputerProClient&lt;TBuilder&gt; (this TBuilder builder, Uri endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient, class Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt; AddPlanetaryComputerProClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, class System.Uri endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PlanetaryComputerClientBuilderExtensions.AddPlanetaryComputerProClient``1(``0,System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddPlanetaryComputerProClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As Uri) As IAzureClientBuilder(Of PlanetaryComputerProClient, PlanetaryComputerProClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddPlanetaryComputerProClient : 'Builder * Uri -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient, Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PlanetaryComputerClientBuilderExtensions.AddPlanetaryComputerProClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.PlanetaryComputer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient,Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> Service endpoint. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPlanetaryComputerProClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient,Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt; AddPlanetaryComputerProClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient, class Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt; AddPlanetaryComputerProClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PlanetaryComputerClientBuilderExtensions.AddPlanetaryComputerProClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddPlanetaryComputerProClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of PlanetaryComputerProClient, PlanetaryComputerProClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddPlanetaryComputerProClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient, Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PlanetaryComputerClientBuilderExtensions.AddPlanetaryComputerProClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.PlanetaryComputer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient,Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration to use for the client. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.PlanetaryComputer.PlanetaryComputerProClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
