@@ -1,0 +1,269 @@
+<Type Name="ImageOSDisk" FullName="Azure.Provisioning.Compute.ImageOSDisk">
+  <TypeSignature Language="C#" Value="public class ImageOSDisk : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageOSDisk extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ImageOSDisk" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImageOSDisk&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ImageOSDisk = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes an Operating System disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageOSDisk ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ImageOSDisk.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ImageOSDisk.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlobUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; BlobUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; BlobUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.BlobUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlobUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.BlobUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.BlobUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Virtual Hard Disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caching">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt; Caching { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.CachingType&gt; Caching" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.Caching" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caching As BicepValue(Of CachingType)" />
+      <MemberSignature Language="F#" Value="member this.Caching : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.Caching" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the caching requirements. Possible values are: **None,**
+            **ReadOnly,** **ReadWrite.** The default values are: **None for
+            Standard storage. ReadOnly for Premium storage.**.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ImageOSDisk.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="imageOSDisk.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ImageOSDisk.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskEncryptionSetId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; DiskEncryptionSetId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; DiskEncryptionSetId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.DiskEncryptionSetId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiskEncryptionSetId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.DiskEncryptionSetId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.DiskEncryptionSetId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskSizeGB">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; DiskSizeGB { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; DiskSizeGB" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.DiskSizeGB" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiskSizeGB As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.DiskSizeGB : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.DiskSizeGB" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the size of empty data disks in gigabytes. This element can
+            be used to overwrite the name of the disk in a virtual machine image.
+            This value cannot be larger than 1023 GB.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedDiskId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; ManagedDiskId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; ManagedDiskId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.ManagedDiskId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedDiskId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.ManagedDiskId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.ManagedDiskId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OperatingSystemStateType&gt; OSState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.OperatingSystemStateType&gt; OSState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.OSState" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSState As BicepValue(Of OperatingSystemStateType)" />
+      <MemberSignature Language="F#" Value="member this.OSState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OperatingSystemStateType&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.OSState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OperatingSystemStateType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The OS State. For managed images, use Generalized.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; OSType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; OSType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.OSType" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSType As BicepValue(Of SupportedOperatingSystemType)" />
+      <MemberSignature Language="F#" Value="member this.OSType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.OSType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property allows you to specify the type of the OS that is included
+            in the disk if creating a VM from a custom image. Possible values are:
+            **Windows,** **Linux.**.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SnapshotId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; SnapshotId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; SnapshotId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.SnapshotId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SnapshotId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.SnapshotId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.SnapshotId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageAccountType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.StorageAccountType&gt; StorageAccountType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.StorageAccountType&gt; StorageAccountType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageOSDisk.StorageAccountType" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageAccountType As BicepValue(Of StorageAccountType)" />
+      <MemberSignature Language="F#" Value="member this.StorageAccountType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.StorageAccountType&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageOSDisk.StorageAccountType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.StorageAccountType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the storage account type for the managed disk. NOTE:
+            UltraSSD_LRS can only be used with data disks, it cannot be used with
+            OS Disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

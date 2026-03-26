@@ -1,0 +1,169 @@
+<Type Name="ExecutionState" FullName="Azure.Provisioning.Compute.ExecutionState">
+  <TypeSignature Language="C#" Value="public enum ExecutionState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExecutionState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ExecutionState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExecutionState" />
+  <TypeSignature Language="F#" Value="type ExecutionState = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Script execution status.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="Canceled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState Canceled = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.Canceled" />
+      <MemberSignature Language="VB.NET" Value="Canceled" />
+      <MemberSignature Language="F#" Value="Canceled = 6" Usage="Azure.Provisioning.Compute.ExecutionState.Canceled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Canceled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState Failed = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 3" Usage="Azure.Provisioning.Compute.ExecutionState.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Failed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Pending">
+      <MemberSignature Language="C#" Value="Pending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState Pending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.Pending" />
+      <MemberSignature Language="VB.NET" Value="Pending" />
+      <MemberSignature Language="F#" Value="Pending = 1" Usage="Azure.Provisioning.Compute.ExecutionState.Pending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Pending.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Running">
+      <MemberSignature Language="C#" Value="Running" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState Running = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.Running" />
+      <MemberSignature Language="VB.NET" Value="Running" />
+      <MemberSignature Language="F#" Value="Running = 2" Usage="Azure.Provisioning.Compute.ExecutionState.Running" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Running.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Succeeded">
+      <MemberSignature Language="C#" Value="Succeeded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState Succeeded = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.Succeeded" />
+      <MemberSignature Language="VB.NET" Value="Succeeded" />
+      <MemberSignature Language="F#" Value="Succeeded = 4" Usage="Azure.Provisioning.Compute.ExecutionState.Succeeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Succeeded.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TimedOut">
+      <MemberSignature Language="C#" Value="TimedOut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState TimedOut = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.TimedOut" />
+      <MemberSignature Language="VB.NET" Value="TimedOut" />
+      <MemberSignature Language="F#" Value="TimedOut = 5" Usage="Azure.Provisioning.Compute.ExecutionState.TimedOut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            TimedOut.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ExecutionState Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ExecutionState.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Azure.Provisioning.Compute.ExecutionState.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ExecutionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unknown.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

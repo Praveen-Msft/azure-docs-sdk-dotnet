@@ -1419,11 +1419,11 @@
       </Docs>
     </Member>
     <Member MemberName="DeviceRegistryNamespacePatch">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch DeviceRegistryNamespacePatch (Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity identity = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.ResourceManager.DeviceRegistry.Models.NamespaceUpdateProperties properties = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch DeviceRegistryNamespacePatch(class Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity identity, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Azure.ResourceManager.DeviceRegistry.Models.NamespaceUpdateProperties properties) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DeviceRegistry.Models.ArmDeviceRegistryModelFactory.DeviceRegistryNamespacePatch(Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity,System.Collections.Generic.IDictionary{System.String,System.String},Azure.ResourceManager.DeviceRegistry.Models.NamespaceUpdateProperties)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function DeviceRegistryNamespacePatch (Optional identity As SystemAssignedServiceIdentity = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional properties As NamespaceUpdateProperties = Nothing) As DeviceRegistryNamespacePatch" />
-      <MemberSignature Language="F#" Value="static member DeviceRegistryNamespacePatch : Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.ResourceManager.DeviceRegistry.Models.NamespaceUpdateProperties -&gt; Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch" Usage="Azure.ResourceManager.DeviceRegistry.Models.ArmDeviceRegistryModelFactory.DeviceRegistryNamespacePatch (identity, tags, properties)" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch DeviceRegistryNamespacePatch (Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity identity = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, System.Collections.Generic.IDictionary&lt;string,Azure.ResourceManager.DeviceRegistry.Models.MessagingEndpoint&gt; namespaceUpdateMessagingEndpoints = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch DeviceRegistryNamespacePatch(class Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity identity, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class System.Collections.Generic.IDictionary`2&lt;string, class Azure.ResourceManager.DeviceRegistry.Models.MessagingEndpoint&gt; namespaceUpdateMessagingEndpoints) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DeviceRegistry.Models.ArmDeviceRegistryModelFactory.DeviceRegistryNamespacePatch(Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.DeviceRegistry.Models.MessagingEndpoint})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeviceRegistryNamespacePatch (Optional identity As SystemAssignedServiceIdentity = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional namespaceUpdateMessagingEndpoints As IDictionary(Of String, MessagingEndpoint) = Nothing) As DeviceRegistryNamespacePatch" />
+      <MemberSignature Language="F#" Value="static member DeviceRegistryNamespacePatch : Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IDictionary&lt;string, Azure.ResourceManager.DeviceRegistry.Models.MessagingEndpoint&gt; -&gt; Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch" Usage="Azure.ResourceManager.DeviceRegistry.Models.ArmDeviceRegistryModelFactory.DeviceRegistryNamespacePatch (identity, tags, namespaceUpdateMessagingEndpoints)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DeviceRegistry</AssemblyName>
@@ -1435,13 +1435,13 @@
       <Parameters>
         <Parameter Name="identity" Type="Azure.ResourceManager.DeviceRegistry.Models.SystemAssignedServiceIdentity" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.DeviceRegistry.Models.NamespaceUpdateProperties" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="namespaceUpdateMessagingEndpoints" Type="System.Collections.Generic.IDictionary&lt;System.String,Azure.ResourceManager.DeviceRegistry.Models.MessagingEndpoint&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="identity"> The managed service identities assigned to this resource. </param>
         <param name="tags"> Resource tags. </param>
-        <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> The type used for update operations of the Namespace. </summary>
+        <param name="namespaceUpdateMessagingEndpoints"> Dictionary of messaging endpoints. </param>
+        <summary>To be added.</summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceRegistry.Models.DeviceRegistryNamespacePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

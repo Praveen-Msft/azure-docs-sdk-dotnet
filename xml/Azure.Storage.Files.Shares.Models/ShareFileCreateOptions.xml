@@ -14,6 +14,7 @@
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
+    <AssemblyVersion>12.27.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -35,11 +36,34 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public System.IO.Stream Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream Content" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As Stream" />
+      <MemberSignature Language="F#" Value="member this.Content : System.IO.Stream with get, set" Usage="Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.Content" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional, valid for version 2026-02-06 and later.
+            The content to upload to the file when it is created.  Must be less than or equal to 4 MiB in size.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -53,7 +77,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareFilePermission</ReturnType>
@@ -76,7 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareFileHttpHeaders</ReturnType>
@@ -99,7 +123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -122,7 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.FilePosixProperties</ReturnType>
@@ -131,6 +155,56 @@
         <summary>
             Optional properties to set on NFS files.
             Note that this property is only applicable to files created in NFS shares.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgressHandler">
+      <MemberSignature Language="C#" Value="public IProgress&lt;long&gt; ProgressHandler { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IProgress`1&lt;int64&gt; ProgressHandler" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.ProgressHandler" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProgressHandler As IProgress(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.ProgressHandler : IProgress&lt;int64&gt; with get, set" Usage="Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.ProgressHandler" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IProgress&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional, only valid if Content is specified. <see cref="T:System.IProgress`1" /> to provide
+            progress updates about data transfers.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertySemantics">
+      <MemberSignature Language="C#" Value="public Azure.Storage.Files.Shares.Models.FilePropertySemantics? PropertySemantics { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Storage.Files.Shares.Models.FilePropertySemantics&gt; PropertySemantics" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.PropertySemantics" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySemantics As Nullable(Of FilePropertySemantics)" />
+      <MemberSignature Language="F#" Value="member this.PropertySemantics : Nullable&lt;Azure.Storage.Files.Shares.Models.FilePropertySemantics&gt; with get, set" Usage="Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.PropertySemantics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Storage.Files.Shares.Models.FilePropertySemantics&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional, only applicable to SMB files.
+            How attributes and permissions should be set on the file.
+            <see cref="P:Azure.Storage.Files.Shares.Models.FilePropertySemantics.New" />: automatically adds the ARCHIVE file attribute flag to the file and uses
+            Windows create file permissions semantics (ex: inherit from parent).
+            <see cref="P:Azure.Storage.Files.Shares.Models.FilePropertySemantics.Restore" />: does not modify file attribute flag and uses Windows update file permissions semantics.
+            If Restore is specified, the file permission must also be provided or PropertySemantics will default to New.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -146,7 +220,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
-        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.FileSmbProperties</ReturnType>
@@ -155,6 +229,29 @@
         <summary>
             Optional SMB properties to set for the file.
             Note that this property is only applicable to files created in SMB shares.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferValidation">
+      <MemberSignature Language="C#" Value="public Azure.Storage.UploadTransferValidationOptions TransferValidation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.UploadTransferValidationOptions TransferValidation" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.TransferValidation" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransferValidation As UploadTransferValidationOptions" />
+      <MemberSignature Language="F#" Value="member this.TransferValidation : Azure.Storage.UploadTransferValidationOptions with get, set" Usage="Azure.Storage.Files.Shares.Models.ShareFileCreateOptions.TransferValidation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.UploadTransferValidationOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional, only valid if Content is specified. Override settings for this client'
+            <see cref="P:Azure.Storage.Files.Shares.ShareClientOptions.TransferValidation" /> settings hashing on uploads.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

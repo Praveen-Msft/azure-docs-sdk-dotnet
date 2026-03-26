@@ -1,0 +1,124 @@
+<Type Name="VirtualMachineHardwareProfile" FullName="Azure.Provisioning.Compute.VirtualMachineHardwareProfile">
+  <TypeSignature Language="C#" Value="public class VirtualMachineHardwareProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineHardwareProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineHardwareProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineHardwareProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineHardwareProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies the hardware settings for the virtual machine.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineHardwareProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineHardwareProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineHardwareProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineHardwareProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineHardwareProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineHardwareProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VmSize">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VirtualMachineSizeType&gt; VmSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.VirtualMachineSizeType&gt; VmSize" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineHardwareProfile.VmSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property VmSize As BicepValue(Of VirtualMachineSizeType)" />
+      <MemberSignature Language="F#" Value="member this.VmSize : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VirtualMachineSizeType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineHardwareProfile.VmSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VirtualMachineSizeType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the size of the virtual machine. The enum data type is
+            currently deprecated and will be removed by December 23rd 2023. The
+            recommended way to get the list of available sizes is using these
+            APIs: [List all available virtual machine sizes in an availability
+            set](https://docs.microsoft.com/rest/api/compute/availabilitysets/listavailablesizes),
+            [List all available virtual machine sizes in a region](
+            https://docs.microsoft.com/rest/api/compute/resourceskus/list), [List
+            all available virtual machine sizes for
+            resizing](https://docs.microsoft.com/rest/api/compute/virtualmachines/listavailablesizes).
+            For more information about virtual machine sizes, see [Sizes for
+            virtual
+            machines](https://docs.microsoft.com/azure/virtual-machines/sizes).
+            The available VM sizes depend on region and availability set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VmSizeProperties">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineSizeProperties VmSizeProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineSizeProperties VmSizeProperties" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineHardwareProfile.VmSizeProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property VmSizeProperties As VirtualMachineSizeProperties" />
+      <MemberSignature Language="F#" Value="member this.VmSizeProperties : Azure.Provisioning.Compute.VirtualMachineSizeProperties with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineHardwareProfile.VmSizeProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineSizeProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the properties for customizing the size of the virtual
+            machine. Minimum api-version: 2021-07-01. This feature is still in
+            preview mode and is not supported for VirtualMachineScaleSet. Please
+            follow the instructions in [VM
+            Customization](https://aka.ms/vmcustomization) for more details.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

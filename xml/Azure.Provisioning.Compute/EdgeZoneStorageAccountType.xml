@@ -1,0 +1,131 @@
+<Type Name="EdgeZoneStorageAccountType" FullName="Azure.Provisioning.Compute.EdgeZoneStorageAccountType">
+  <TypeSignature Language="C#" Value="public enum EdgeZoneStorageAccountType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EdgeZoneStorageAccountType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.EdgeZoneStorageAccountType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EdgeZoneStorageAccountType" />
+  <TypeSignature Language="F#" Value="type EdgeZoneStorageAccountType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the storage account type to be used to store the image. This
+            property is not updatable.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PremiumLrs">
+      <MemberSignature Language="C#" Value="PremiumLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.EdgeZoneStorageAccountType PremiumLrs = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.EdgeZoneStorageAccountType.PremiumLrs" />
+      <MemberSignature Language="VB.NET" Value="PremiumLrs" />
+      <MemberSignature Language="F#" Value="PremiumLrs = 3" Usage="Azure.Provisioning.Compute.EdgeZoneStorageAccountType.PremiumLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Premium_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Premium_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EdgeZoneStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Premium_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardLrs">
+      <MemberSignature Language="C#" Value="StandardLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.EdgeZoneStorageAccountType StandardLrs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.EdgeZoneStorageAccountType.StandardLrs" />
+      <MemberSignature Language="VB.NET" Value="StandardLrs" />
+      <MemberSignature Language="F#" Value="StandardLrs = 0" Usage="Azure.Provisioning.Compute.EdgeZoneStorageAccountType.StandardLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Standard_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Standard_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EdgeZoneStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Standard_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardSsdLrs">
+      <MemberSignature Language="C#" Value="StandardSsdLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.EdgeZoneStorageAccountType StandardSsdLrs = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.EdgeZoneStorageAccountType.StandardSsdLrs" />
+      <MemberSignature Language="VB.NET" Value="StandardSsdLrs" />
+      <MemberSignature Language="F#" Value="StandardSsdLrs = 2" Usage="Azure.Provisioning.Compute.EdgeZoneStorageAccountType.StandardSsdLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="StandardSSD_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="StandardSSD_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EdgeZoneStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            StandardSSD_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardZrs">
+      <MemberSignature Language="C#" Value="StandardZrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.EdgeZoneStorageAccountType StandardZrs = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.EdgeZoneStorageAccountType.StandardZrs" />
+      <MemberSignature Language="VB.NET" Value="StandardZrs" />
+      <MemberSignature Language="F#" Value="StandardZrs = 1" Usage="Azure.Provisioning.Compute.EdgeZoneStorageAccountType.StandardZrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Standard_ZRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Standard_ZRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EdgeZoneStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Standard_ZRS.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

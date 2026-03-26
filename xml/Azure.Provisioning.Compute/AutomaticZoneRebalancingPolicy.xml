@@ -1,0 +1,135 @@
+<Type Name="AutomaticZoneRebalancingPolicy" FullName="Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy">
+  <TypeSignature Language="C#" Value="public class AutomaticZoneRebalancingPolicy : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutomaticZoneRebalancingPolicy extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class AutomaticZoneRebalancingPolicy&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type AutomaticZoneRebalancingPolicy = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The configuration parameters used while performing automatic AZ balancing.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutomaticZoneRebalancingPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new AutomaticZoneRebalancingPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="automaticZoneRebalancingPolicy.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            AutomaticZoneRebalancingPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether Automatic AZ Balancing should be enabled on the
+            virtual machine scale set. The default value is false.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebalanceBehavior">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VmssRebalanceBehavior&gt; RebalanceBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.VmssRebalanceBehavior&gt; RebalanceBehavior" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.RebalanceBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property RebalanceBehavior As BicepValue(Of VmssRebalanceBehavior)" />
+      <MemberSignature Language="F#" Value="member this.RebalanceBehavior : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VmssRebalanceBehavior&gt; with get, set" Usage="Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.RebalanceBehavior" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VmssRebalanceBehavior&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Type of rebalance behavior that will be used for recreating virtual
+            machines in the scale set across availability zones. Default and only
+            supported value for now is CreateBeforeDelete.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebalanceStrategy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VmssRebalanceStrategy&gt; RebalanceStrategy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.VmssRebalanceStrategy&gt; RebalanceStrategy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.RebalanceStrategy" />
+      <MemberSignature Language="VB.NET" Value="Public Property RebalanceStrategy As BicepValue(Of VmssRebalanceStrategy)" />
+      <MemberSignature Language="F#" Value="member this.RebalanceStrategy : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VmssRebalanceStrategy&gt; with get, set" Usage="Azure.Provisioning.Compute.AutomaticZoneRebalancingPolicy.RebalanceStrategy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.VmssRebalanceStrategy&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Type of rebalance strategy that will be used for rebalancing virtual
+            machines in the scale set across availability zones. Default and only
+            supported value for now is Recreate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

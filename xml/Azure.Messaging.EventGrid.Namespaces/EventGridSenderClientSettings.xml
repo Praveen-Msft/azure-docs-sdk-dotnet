@@ -1,0 +1,100 @@
+<Type Name="EventGridSenderClientSettings" FullName="Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings">
+  <TypeSignature Language="C#" Value="public class EventGridSenderClientSettings : System.ClientModel.Primitives.ClientSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventGridSenderClientSettings extends System.ClientModel.Primitives.ClientSettings" />
+  <TypeSignature Language="DocId" Value="T:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventGridSenderClientSettings&#xA;Inherits ClientSettings" />
+  <TypeSignature Language="F#" Value="type EventGridSenderClientSettings = class&#xA;    inherit ClientSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Represents the settings used to configure a <see cref="T:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClient" /> that can be loaded from an <see cref="!:IConfigurationSection" />. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventGridSenderClientSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindCore">
+      <MemberSignature Language="C#" Value="protected override void BindCore (Microsoft.Extensions.Configuration.IConfigurationSection section);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void BindCore(class Microsoft.Extensions.Configuration.IConfigurationSection section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings.BindCore(Microsoft.Extensions.Configuration.IConfigurationSection)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub BindCore (section As IConfigurationSection)" />
+      <MemberSignature Language="F#" Value="override this.BindCore : Microsoft.Extensions.Configuration.IConfigurationSection -&gt; unit" Usage="eventGridSenderClientSettings.BindCore section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
+      </Parameters>
+      <Docs>
+        <param name="section"> The configuration section. </param>
+        <summary> Binds configuration values from the given section. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Endpoint">
+      <MemberSignature Language="C#" Value="public Uri Endpoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Endpoint" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Endpoint As Uri" />
+      <MemberSignature Language="F#" Value="member this.Endpoint : Uri with get, set" Usage="Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings.Endpoint" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the Endpoint. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Options">
+      <MemberSignature Language="C#" Value="public Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientOptions Options { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientOptions Options" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings.Options" />
+      <MemberSignature Language="VB.NET" Value="Public Property Options As EventGridSenderClientOptions" />
+      <MemberSignature Language="F#" Value="member this.Options : Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientOptions with get, set" Usage="Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientSettings.Options" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.Namespaces.EventGridSenderClientOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the Options. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

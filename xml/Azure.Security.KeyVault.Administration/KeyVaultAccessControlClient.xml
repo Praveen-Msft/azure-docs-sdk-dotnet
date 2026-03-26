@@ -14,6 +14,7 @@
     <AssemblyVersion>4.5.0.0</AssemblyVersion>
     <AssemblyVersion>4.6.0.0</AssemblyVersion>
     <AssemblyVersion>4.7.0.0</AssemblyVersion>
+    <AssemblyVersion>4.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,14 +33,34 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
             Initializes a new instance of the <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient" /> class for mocking.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KeyVaultAccessControlClient (Azure.Security.KeyVault.Administration.KeyVaultAccessControlClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Security.KeyVault.Administration.KeyVaultAccessControlClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient.#ctor(Azure.Security.KeyVault.Administration.KeyVaultAccessControlClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As KeyVaultAccessControlClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient : Azure.Security.KeyVault.Administration.KeyVaultAccessControlClientSettings -&gt; Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient" Usage="new Azure.Security.KeyVault.Administration.KeyVaultAccessControlClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.Security.KeyVault.Administration.KeyVaultAccessControlClientSettings" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for KeyVaultAccessControlClient. </param>
+        <summary> Initializes a new instance of KeyVaultAccessControlClient from a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultAccessControlClientSettings" />. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -52,8 +73,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="vaultUri" Type="System.Uri" />
@@ -79,8 +100,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="vaultUri" Type="System.Uri" />
@@ -109,8 +130,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;</ReturnType>
@@ -140,8 +161,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;</ReturnType>
@@ -171,8 +192,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;&gt;</ReturnType>
@@ -202,8 +223,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;&gt;</ReturnType>
@@ -233,8 +254,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment&gt;</ReturnType>
@@ -273,8 +294,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment&gt;&gt;</ReturnType>
@@ -313,8 +334,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -349,8 +370,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -385,8 +406,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -416,8 +437,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -447,8 +468,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment&gt;</ReturnType>
@@ -483,8 +504,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment&gt;&gt;</ReturnType>
@@ -519,8 +540,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment&gt;</ReturnType>
@@ -551,8 +572,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment&gt;</ReturnType>
@@ -583,8 +604,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;</ReturnType>
@@ -617,8 +638,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;&gt;</ReturnType>
@@ -651,8 +672,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;</ReturnType>
@@ -683,8 +704,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition&gt;</ReturnType>
@@ -716,6 +737,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -735,8 +757,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
-        <AssemblyVersion>4.6.0.0</AssemblyVersion>
         <AssemblyVersion>4.7.0.0</AssemblyVersion>
+        <AssemblyVersion>4.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>

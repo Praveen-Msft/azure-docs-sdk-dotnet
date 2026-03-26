@@ -235,18 +235,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetAll">
-      <MemberSignature Language="C#" Value="public virtual System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt; GetAll (Azure.AI.Projects.FoundryFeaturesOptInKeys? foundryFeatures = default, Azure.AI.Projects.InsightType? type = default, string evalId = default, string runId = default, string agentName = default, bool? includeCoordinates = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.ClientResult`1&lt;class Azure.Core.PagedInsight&gt; GetAll(valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; foundryFeatures, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.InsightType&gt; type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.ClientModel.CollectionResult&lt;Azure.AI.Projects.Insight&gt; GetAll (Azure.AI.Projects.FoundryFeaturesOptInKeys? foundryFeatures = default, Azure.AI.Projects.InsightType? type = default, string evalId = default, string runId = default, string agentName = default, bool? includeCoordinates = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.CollectionResult`1&lt;class Azure.AI.Projects.Insight&gt; GetAll(valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; foundryFeatures, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.InsightType&gt; type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Insights.GetAll(System.Nullable{Azure.AI.Projects.FoundryFeaturesOptInKeys},System.Nullable{Azure.AI.Projects.InsightType},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAll (Optional foundryFeatures As Nullable(Of FoundryFeaturesOptInKeys) = Nothing, Optional type As Nullable(Of InsightType) = Nothing, Optional evalId As String = Nothing, Optional runId As String = Nothing, Optional agentName As String = Nothing, Optional includeCoordinates As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ClientResult(Of PagedInsight)" />
-      <MemberSignature Language="F#" Value="abstract member GetAll : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;&#xA;override this.GetAll : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;" Usage="insights.GetAll (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAll (Optional foundryFeatures As Nullable(Of FoundryFeaturesOptInKeys) = Nothing, Optional type As Nullable(Of InsightType) = Nothing, Optional evalId As String = Nothing, Optional runId As String = Nothing, Optional agentName As String = Nothing, Optional includeCoordinates As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As CollectionResult(Of Insight)" />
+      <MemberSignature Language="F#" Value="abstract member GetAll : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.ClientModel.CollectionResult&lt;Azure.AI.Projects.Insight&gt;&#xA;override this.GetAll : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.ClientModel.CollectionResult&lt;Azure.AI.Projects.Insight&gt;" Usage="insights.GetAll (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;</ReturnType>
+        <ReturnType>System.ClientModel.CollectionResult&lt;Azure.AI.Projects.Insight&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="foundryFeatures" Type="System.Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt;" />
@@ -272,18 +272,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetAll">
-      <MemberSignature Language="C#" Value="public virtual System.ClientModel.ClientResult GetAll (string foundryFeatures, string type, string evalId, string runId, string agentName, bool? includeCoordinates, System.ClientModel.Primitives.RequestOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.ClientResult GetAll(string foundryFeatures, string type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, class System.ClientModel.Primitives.RequestOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.ClientModel.Primitives.CollectionResult GetAll (string foundryFeatures, string type, string evalId, string runId, string agentName, bool? includeCoordinates, System.ClientModel.Primitives.RequestOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.Primitives.CollectionResult GetAll(string foundryFeatures, string type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, class System.ClientModel.Primitives.RequestOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Insights.GetAll(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.ClientModel.Primitives.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAll (foundryFeatures As String, type As String, evalId As String, runId As String, agentName As String, includeCoordinates As Nullable(Of Boolean), options As RequestOptions) As ClientResult" />
-      <MemberSignature Language="F#" Value="abstract member GetAll : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.ClientModel.ClientResult&#xA;override this.GetAll : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.ClientModel.ClientResult" Usage="insights.GetAll (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, options)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAll (foundryFeatures As String, type As String, evalId As String, runId As String, agentName As String, includeCoordinates As Nullable(Of Boolean), options As RequestOptions) As CollectionResult" />
+      <MemberSignature Language="F#" Value="abstract member GetAll : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.ClientModel.Primitives.CollectionResult&#xA;override this.GetAll : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.ClientModel.Primitives.CollectionResult" Usage="insights.GetAll (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.ClientModel.ClientResult</ReturnType>
+        <ReturnType>System.ClientModel.Primitives.CollectionResult</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="foundryFeatures" Type="System.String" />
@@ -311,18 +311,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetAllAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;&gt; GetAllAsync (Azure.AI.Projects.FoundryFeaturesOptInKeys? foundryFeatures = default, Azure.AI.Projects.InsightType? type = default, string evalId = default, string runId = default, string agentName = default, bool? includeCoordinates = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.ClientModel.ClientResult`1&lt;class Azure.Core.PagedInsight&gt;&gt; GetAllAsync(valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; foundryFeatures, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.InsightType&gt; type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.ClientModel.AsyncCollectionResult&lt;Azure.AI.Projects.Insight&gt; GetAllAsync (Azure.AI.Projects.FoundryFeaturesOptInKeys? foundryFeatures = default, Azure.AI.Projects.InsightType? type = default, string evalId = default, string runId = default, string agentName = default, bool? includeCoordinates = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.AsyncCollectionResult`1&lt;class Azure.AI.Projects.Insight&gt; GetAllAsync(valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; foundryFeatures, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.InsightType&gt; type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Insights.GetAllAsync(System.Nullable{Azure.AI.Projects.FoundryFeaturesOptInKeys},System.Nullable{Azure.AI.Projects.InsightType},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllAsync (Optional foundryFeatures As Nullable(Of FoundryFeaturesOptInKeys) = Nothing, Optional type As Nullable(Of InsightType) = Nothing, Optional evalId As String = Nothing, Optional runId As String = Nothing, Optional agentName As String = Nothing, Optional includeCoordinates As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ClientResult(Of PagedInsight))" />
-      <MemberSignature Language="F#" Value="abstract member GetAllAsync : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;&gt;&#xA;override this.GetAllAsync : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;&gt;" Usage="insights.GetAllAsync (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllAsync (Optional foundryFeatures As Nullable(Of FoundryFeaturesOptInKeys) = Nothing, Optional type As Nullable(Of InsightType) = Nothing, Optional evalId As String = Nothing, Optional runId As String = Nothing, Optional agentName As String = Nothing, Optional includeCoordinates As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncCollectionResult(Of Insight)" />
+      <MemberSignature Language="F#" Value="abstract member GetAllAsync : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.ClientModel.AsyncCollectionResult&lt;Azure.AI.Projects.Insight&gt;&#xA;override this.GetAllAsync : Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt; * Nullable&lt;Azure.AI.Projects.InsightType&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.ClientModel.AsyncCollectionResult&lt;Azure.AI.Projects.Insight&gt;" Usage="insights.GetAllAsync (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&lt;Azure.Core.PagedInsight&gt;&gt;</ReturnType>
+        <ReturnType>System.ClientModel.AsyncCollectionResult&lt;Azure.AI.Projects.Insight&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="foundryFeatures" Type="System.Nullable&lt;Azure.AI.Projects.FoundryFeaturesOptInKeys&gt;" />
@@ -348,18 +348,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetAllAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&gt; GetAllAsync (string foundryFeatures, string type, string evalId, string runId, string agentName, bool? includeCoordinates, System.ClientModel.Primitives.RequestOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.ClientModel.ClientResult&gt; GetAllAsync(string foundryFeatures, string type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, class System.ClientModel.Primitives.RequestOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.ClientModel.Primitives.AsyncCollectionResult GetAllAsync (string foundryFeatures, string type, string evalId, string runId, string agentName, bool? includeCoordinates, System.ClientModel.Primitives.RequestOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.Primitives.AsyncCollectionResult GetAllAsync(string foundryFeatures, string type, string evalId, string runId, string agentName, valuetype System.Nullable`1&lt;bool&gt; includeCoordinates, class System.ClientModel.Primitives.RequestOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Insights.GetAllAsync(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.ClientModel.Primitives.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllAsync (foundryFeatures As String, type As String, evalId As String, runId As String, agentName As String, includeCoordinates As Nullable(Of Boolean), options As RequestOptions) As Task(Of ClientResult)" />
-      <MemberSignature Language="F#" Value="abstract member GetAllAsync : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&gt;&#xA;override this.GetAllAsync : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&gt;" Usage="insights.GetAllAsync (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, options)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllAsync (foundryFeatures As String, type As String, evalId As String, runId As String, agentName As String, includeCoordinates As Nullable(Of Boolean), options As RequestOptions) As AsyncCollectionResult" />
+      <MemberSignature Language="F#" Value="abstract member GetAllAsync : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.ClientModel.Primitives.AsyncCollectionResult&#xA;override this.GetAllAsync : string * string * string * string * string * Nullable&lt;bool&gt; * System.ClientModel.Primitives.RequestOptions -&gt; System.ClientModel.Primitives.AsyncCollectionResult" Usage="insights.GetAllAsync (foundryFeatures, type, evalId, runId, agentName, includeCoordinates, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.ClientModel.ClientResult&gt;</ReturnType>
+        <ReturnType>System.ClientModel.Primitives.AsyncCollectionResult</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="foundryFeatures" Type="System.String" />

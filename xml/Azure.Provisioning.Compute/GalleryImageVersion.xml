@@ -1,0 +1,415 @@
+<Type Name="GalleryImageVersion" FullName="Azure.Provisioning.Compute.GalleryImageVersion">
+  <TypeSignature Language="C#" Value="public class GalleryImageVersion : Azure.Provisioning.Primitives.ProvisionableResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryImageVersion extends Azure.Provisioning.Primitives.ProvisionableResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryImageVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryImageVersion&#xA;Inherits ProvisionableResource" />
+  <TypeSignature Language="F#" Value="type GalleryImageVersion = class&#xA;    inherit ProvisionableResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            GalleryImageVersion.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryImageVersion (string bicepIdentifier, string? resourceVersion = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string bicepIdentifier, string resourceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersion.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (bicepIdentifier As String, Optional resourceVersion As String = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.Compute.GalleryImageVersion : string * string -&gt; Azure.Provisioning.Compute.GalleryImageVersion" Usage="new Azure.Provisioning.Compute.GalleryImageVersion (bicepIdentifier, resourceVersion)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="bicepIdentifier" Type="System.String" />
+        <Parameter Name="resourceVersion" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bicepIdentifier">
+            The the Bicep identifier name of the GalleryImageVersion resource.
+            This can be used to refer to the resource in expressions, but is not
+            the Azure name of the resource.  This value can contain letters,
+            numbers, and underscores.
+            </param>
+        <param name="resourceVersion">Version of the GalleryImageVersion.</param>
+        <summary>
+            Creates a new GalleryImageVersion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersion.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryImageVersion.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of GalleryImageVersion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromExisting">
+      <MemberSignature Language="C#" Value="public static Azure.Provisioning.Compute.GalleryImageVersion FromExisting (string bicepIdentifier, string? resourceVersion = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.Compute.GalleryImageVersion FromExisting(string bicepIdentifier, string resourceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersion.FromExisting(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromExisting (bicepIdentifier As String, Optional resourceVersion As String = Nothing) As GalleryImageVersion" />
+      <MemberSignature Language="F#" Value="static member FromExisting : string * string -&gt; Azure.Provisioning.Compute.GalleryImageVersion" Usage="Azure.Provisioning.Compute.GalleryImageVersion.FromExisting (bicepIdentifier, resourceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bicepIdentifier" Type="System.String" />
+        <Parameter Name="resourceVersion" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bicepIdentifier">
+            The the Bicep identifier name of the GalleryImageVersion resource.
+            This can be used to refer to the resource in expressions, but is not
+            the Azure name of the resource.  This value can contain letters,
+            numbers, and underscores.
+            </param>
+        <param name="resourceVersion">Version of the GalleryImageVersion.</param>
+        <summary>
+            Creates a reference to an existing GalleryImageVersion.
+            </summary>
+        <returns>The existing GalleryImageVersion resource.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.Id : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.Provisioning.Compute.GalleryImageVersion.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRestoreEnabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsRestoreEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsRestoreEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.IsRestoreEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRestoreEnabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsRestoreEnabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.IsRestoreEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates if this is a soft-delete resource restoration request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt; Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Core.AzureLocation&gt; Location" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As BicepValue(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.Location : Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.Location" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Location.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name of the gallery image version to be retrieved.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryImage? Parent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryImage Parent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parent As GalleryImage" />
+      <MemberSignature Language="F#" Value="member this.Parent : Azure.Provisioning.Compute.GalleryImage with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.Parent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a reference to the parent GalleryImage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt; ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.GalleryProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As BicepValue(Of GalleryProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt;" Usage="Azure.Provisioning.Compute.GalleryImageVersion.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The provisioning state, which only appears in the response.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishingProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryImageVersionPublishingProfile PublishingProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryImageVersionPublishingProfile PublishingProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.PublishingProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublishingProfile As GalleryImageVersionPublishingProfile" />
+      <MemberSignature Language="F#" Value="member this.PublishingProfile : Azure.Provisioning.Compute.GalleryImageVersionPublishingProfile with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.PublishingProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionPublishingProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The publishing profile of a gallery image Version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplicationStatus">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ReplicationStatus ReplicationStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ReplicationStatus ReplicationStatus" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.ReplicationStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplicationStatus As ReplicationStatus" />
+      <MemberSignature Language="F#" Value="member this.ReplicationStatus : Azure.Provisioning.Compute.ReplicationStatus" Usage="Azure.Provisioning.Compute.GalleryImageVersion.ReplicationStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ReplicationStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the replication status of the gallery image version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SafetyProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryImageVersionSafetyProfile SafetyProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryImageVersionSafetyProfile SafetyProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.SafetyProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property SafetyProfile As GalleryImageVersionSafetyProfile" />
+      <MemberSignature Language="F#" Value="member this.SafetyProfile : Azure.Provisioning.Compute.GalleryImageVersionSafetyProfile with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.SafetyProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionSafetyProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the safety profile of the Gallery Image Version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecurityUefiSettings">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryImageVersionUefiSettings SecurityUefiSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryImageVersionUefiSettings SecurityUefiSettings" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.SecurityUefiSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecurityUefiSettings As GalleryImageVersionUefiSettings" />
+      <MemberSignature Language="F#" Value="member this.SecurityUefiSettings : Azure.Provisioning.Compute.GalleryImageVersionUefiSettings with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.SecurityUefiSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionUefiSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Contains UEFI settings for the image version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryImageVersionStorageProfile StorageProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryImageVersionStorageProfile StorageProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.StorageProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageProfile As GalleryImageVersionStorageProfile" />
+      <MemberSignature Language="F#" Value="member this.StorageProfile : Azure.Provisioning.Compute.GalleryImageVersionStorageProfile with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.StorageProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionStorageProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the storage profile of a Gallery Image Version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemData">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Resources.SystemData SystemData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Resources.SystemData SystemData" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.SystemData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemData As SystemData" />
+      <MemberSignature Language="F#" Value="member this.SystemData : Azure.Provisioning.Resources.SystemData" Usage="Azure.Provisioning.Compute.GalleryImageVersion.SystemData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Resources.SystemData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the SystemData.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepDictionary&lt;string&gt; Tags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepDictionary`1&lt;string&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As BicepDictionary(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Tags : Azure.Provisioning.BicepDictionary&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersion.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepDictionary&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Tags.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidationsProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryImageValidationsProfile ValidationsProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryImageValidationsProfile ValidationsProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersion.ValidationsProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValidationsProfile As GalleryImageValidationsProfile" />
+      <MemberSignature Language="F#" Value="member this.ValidationsProfile : Azure.Provisioning.Compute.GalleryImageValidationsProfile" Usage="Azure.Provisioning.Compute.GalleryImageVersion.ValidationsProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageValidationsProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the validations profile of a Gallery Image Version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

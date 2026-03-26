@@ -1,0 +1,138 @@
+<Type Name="AutomaticRepairsPolicy" FullName="Azure.Provisioning.Compute.AutomaticRepairsPolicy">
+  <TypeSignature Language="C#" Value="public class AutomaticRepairsPolicy : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutomaticRepairsPolicy extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.AutomaticRepairsPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class AutomaticRepairsPolicy&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type AutomaticRepairsPolicy = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies the configuration parameters for automatic repairs on the virtual
+            machine scale set.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutomaticRepairsPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.AutomaticRepairsPolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new AutomaticRepairsPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.AutomaticRepairsPolicy.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="automaticRepairsPolicy.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of AutomaticRepairsPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AutomaticRepairsPolicy.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.AutomaticRepairsPolicy.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether automatic repairs should be enabled on the virtual
+            machine scale set. The default value is false.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GracePeriod">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; GracePeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; GracePeriod" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AutomaticRepairsPolicy.GracePeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Property GracePeriod As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.GracePeriod : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.AutomaticRepairsPolicy.GracePeriod" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The amount of time for which automatic repairs are suspended due to a
+            state change on VM. The grace time starts after the state change has
+            completed. This helps avoid premature or accidental repairs. The time
+            duration should be specified in ISO 8601 format. The minimum allowed
+            grace period is 10 minutes (PT10M), which is also the default value.
+            The maximum allowed grace period is 90 minutes (PT90M).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepairAction">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.RepairAction&gt; RepairAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.RepairAction&gt; RepairAction" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AutomaticRepairsPolicy.RepairAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property RepairAction As BicepValue(Of RepairAction)" />
+      <MemberSignature Language="F#" Value="member this.RepairAction : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.RepairAction&gt; with get, set" Usage="Azure.Provisioning.Compute.AutomaticRepairsPolicy.RepairAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.RepairAction&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Type of repair action (replace, restart, reimage) that will be used for
+            repairing unhealthy virtual machines in the scale set. Default value
+            is replace.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

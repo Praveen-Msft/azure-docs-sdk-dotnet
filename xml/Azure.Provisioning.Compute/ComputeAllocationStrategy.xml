@@ -1,0 +1,86 @@
+<Type Name="ComputeAllocationStrategy" FullName="Azure.Provisioning.Compute.ComputeAllocationStrategy">
+  <TypeSignature Language="C#" Value="public enum ComputeAllocationStrategy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComputeAllocationStrategy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputeAllocationStrategy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComputeAllocationStrategy" />
+  <TypeSignature Language="F#" Value="type ComputeAllocationStrategy = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the allocation strategy for the virtual machine scale set based
+            on which the VMs will be allocated.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CapacityOptimized">
+      <MemberSignature Language="C#" Value="CapacityOptimized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeAllocationStrategy CapacityOptimized = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeAllocationStrategy.CapacityOptimized" />
+      <MemberSignature Language="VB.NET" Value="CapacityOptimized" />
+      <MemberSignature Language="F#" Value="CapacityOptimized = 1" Usage="Azure.Provisioning.Compute.ComputeAllocationStrategy.CapacityOptimized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeAllocationStrategy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            CapacityOptimized.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LowestPrice">
+      <MemberSignature Language="C#" Value="LowestPrice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeAllocationStrategy LowestPrice = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeAllocationStrategy.LowestPrice" />
+      <MemberSignature Language="VB.NET" Value="LowestPrice" />
+      <MemberSignature Language="F#" Value="LowestPrice = 0" Usage="Azure.Provisioning.Compute.ComputeAllocationStrategy.LowestPrice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeAllocationStrategy</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            LowestPrice.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Prioritized">
+      <MemberSignature Language="C#" Value="Prioritized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeAllocationStrategy Prioritized = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeAllocationStrategy.Prioritized" />
+      <MemberSignature Language="VB.NET" Value="Prioritized" />
+      <MemberSignature Language="F#" Value="Prioritized = 2" Usage="Azure.Provisioning.Compute.ComputeAllocationStrategy.Prioritized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeAllocationStrategy</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Prioritized.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

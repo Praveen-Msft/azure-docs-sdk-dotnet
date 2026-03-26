@@ -1,0 +1,422 @@
+<Type Name="AzureResourceManagerCostManagementContext" FullName="Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext">
+  <TypeSignature Language="C#" Value="public class AzureResourceManagerCostManagementContext : System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureResourceManagerCostManagementContext extends System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureResourceManagerCostManagementContext&#xA;Inherits ModelReaderWriterContext" />
+  <TypeSignature Language="F#" Value="type AzureResourceManagerCostManagementContext = class&#xA;    inherit ModelReaderWriterContext" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AlertPropertiesDefinition))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AlertPropertiesDefinition))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AlertPropertiesDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AlertPropertiesDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AllSavingsBenefitDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AllSavingsBenefitDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AllSavingsList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AllSavingsList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AsyncOperationStatusProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.AsyncOperationStatusProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitRecommendationModel))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitRecommendationModel))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitRecommendationProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitRecommendationProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitRecommendationsListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitRecommendationsListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesOperationStatus))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesOperationStatus))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummary))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummary))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CommonExportProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CommonExportProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementAlertData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementAlertData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementAlertPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementAlertPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementAlertResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementAlertResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementAlertsResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementAlertsResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementDimension))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementDimension))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementDimensionsListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementDimensionsListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementExportData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementExportData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementExportResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementExportResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementNameAvailabilityContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementNameAvailabilityContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementNameAvailabilityResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.CostManagementNameAvailabilityResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementViewData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementViewData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementViewsResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.CostManagementViewsResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.DownloadURL))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.DownloadURL))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDataset))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDataset))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDatasetConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDatasetConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDefinition))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDefinition))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDeliveryDestination))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDeliveryDestination))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDeliveryInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportDeliveryInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportExecutionListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportExecutionListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportRecurrencePeriod))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportRecurrencePeriod))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportRun))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportRun))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportRunErrorDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportRunErrorDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportSchedule))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportSchedule))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportTimePeriod))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ExportTimePeriod))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.FileDestination))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.FileDestination))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastAggregation))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastAggregation))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastColumn))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastColumn))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastComparisonExpression))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastComparisonExpression))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastDataset))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastDataset))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastDatasetConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastDatasetConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastDefinition))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastDefinition))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastFilter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastFilter))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastTimePeriod))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ForecastTimePeriod))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.IncludedQuantityUtilizationSummary))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.IncludedQuantityUtilizationSummary))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.NotificationProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.NotificationProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.OperationStatus))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.OperationStatus))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryAggregation))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryAggregation))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryColumn))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryColumn))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryComparisonExpression))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryComparisonExpression))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryDataset))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryDataset))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryDatasetConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryDatasetConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryDefinition))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryDefinition))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryFilter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryFilter))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryGrouping))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryGrouping))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryTimePeriod))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.QueryTimePeriod))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.RecommendationUsageDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.RecommendationUsageDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigAggregation))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigAggregation))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigComparisonExpression))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigComparisonExpression))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigDataset))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigDataset))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigDatasetConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigDatasetConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigFilter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigFilter))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigGrouping))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigGrouping))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigSorting))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigSorting))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigTimePeriod))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ReportConfigTimePeriod))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.SavingsPlanUtilizationSummary))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.SavingsPlanUtilizationSummary))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.ScheduledActionData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.ScheduledActionData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ScheduledActionListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ScheduledActionListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.ScheduledActionResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.ScheduledActionResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ScheduleProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ScheduleProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.SharedScopeBenefitRecommendationProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.SharedScopeBenefitRecommendationProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.SingleScopeBenefitRecommendationProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.SingleScopeBenefitRecommendationProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.TenantResourceByExternalCloudProviderTypeDimensionsOptions))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.TenantResourceByExternalCloudProviderTypeDimensionsOptions))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.TenantScheduledActionResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.TenantScheduledActionResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.TenantsCostManagementViewsResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.TenantsCostManagementViewsResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.UnknownBenefitRecommendationProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.UnknownBenefitRecommendationProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.UnknownBenefitUtilizationSummary))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.UnknownBenefitUtilizationSummary))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ViewKpiProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ViewKpiProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ViewListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ViewListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ViewPivotProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.CostManagement.Models.ViewPivotProperties))&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Context class which will be filled in by the System.ClientModel.SourceGeneration.
+            For more information see 'https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/System.ClientModel/src/docs/ModelReaderWriterContext.md'
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext Default" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As AzureResourceManagerCostManagementContext" />
+      <MemberSignature Language="F#" Value="static member Default : Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext" Usage="Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the default instance </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetTypeBuilderCore">
+      <MemberSignature Language="C#" Value="protected override bool TryGetTypeBuilderCore (Type type, out System.ClientModel.Primitives.ModelReaderWriterTypeBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool TryGetTypeBuilderCore(class System.Type type, [out] class System.ClientModel.Primitives.ModelReaderWriterTypeBuilder&amp; builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CostManagement.AzureResourceManagerCostManagementContext.TryGetTypeBuilderCore(System.Type,System.ClientModel.Primitives.ModelReaderWriterTypeBuilder@)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function TryGetTypeBuilderCore (type As Type, ByRef builder As ModelReaderWriterTypeBuilder) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.TryGetTypeBuilderCore : Type * ModelReaderWriterTypeBuilder -&gt; bool" Usage="azureResourceManagerCostManagementContext.TryGetTypeBuilderCore (type, builder)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="builder" Type="System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="type">The type to get info for.</param>
+        <param name="builder">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if found.</param>
+        <summary>
+            Tries to gets a <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> for the given <see cref="T:System.Type" /> to allow <see cref="T:System.ClientModel.Primitives.ModelReaderWriter" /> to work with AOT.
+            </summary>
+        <returns>True if the corresponding <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if defined in the context otherwise false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

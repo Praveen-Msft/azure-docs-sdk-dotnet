@@ -23,6 +23,7 @@
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
     <AssemblyVersion>1.14.0.0</AssemblyVersion>
+    <AssemblyVersion>1.15.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -56,8 +57,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -74,8 +75,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
@@ -107,8 +108,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
@@ -140,8 +141,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -170,8 +171,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -200,8 +201,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.VirtualMachineStorageProfile&gt;</ReturnType>
@@ -234,8 +235,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.VirtualMachineStorageProfile&gt;&gt;</ReturnType>
@@ -268,8 +269,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -299,8 +300,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmData</ReturnType>
@@ -321,8 +322,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -351,8 +352,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -381,8 +382,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -413,8 +414,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -445,8 +446,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
@@ -474,8 +475,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
@@ -503,8 +504,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetVmInstanceView&gt;</ReturnType>
@@ -530,8 +531,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetVmInstanceView&gt;&gt;</ReturnType>
@@ -557,8 +558,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmExtensionResource&gt;</ReturnType>
@@ -592,8 +593,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmExtensionResource&gt;&gt;</ReturnType>
@@ -627,8 +628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmExtensionCollection</ReturnType>
@@ -649,8 +650,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmRunCommandResource&gt;</ReturnType>
@@ -684,8 +685,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmRunCommandResource&gt;&gt;</ReturnType>
@@ -719,8 +720,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmRunCommandCollection</ReturnType>
@@ -741,8 +742,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -762,8 +763,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -792,8 +793,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -822,8 +823,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -854,8 +855,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -886,8 +887,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -916,8 +917,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -946,8 +947,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -976,8 +977,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1006,8 +1007,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1038,8 +1039,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1068,8 +1069,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1098,8 +1099,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1130,8 +1131,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
@@ -1161,8 +1162,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
@@ -1192,8 +1193,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1212,8 +1213,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1242,8 +1243,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1272,8 +1273,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.RetrieveBootDiagnosticsDataResult&gt;</ReturnType>
@@ -1301,8 +1302,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.RetrieveBootDiagnosticsDataResult&gt;&gt;</ReturnType>
@@ -1330,8 +1331,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.VirtualMachineRunCommandResult&gt;</ReturnType>
@@ -1364,8 +1365,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.VirtualMachineRunCommandResult&gt;&gt;</ReturnType>
@@ -1398,8 +1399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
@@ -1429,8 +1430,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
@@ -1460,8 +1461,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1487,8 +1488,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1517,8 +1518,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmData</ReturnType>
@@ -1533,7 +1534,7 @@
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
-        <returns>A <see cref="T:Azure.ResourceManager.Compute.VirtualMachineScaleSetVmData" /> representation of the JSON value.</returns>
+        <returns>A <typeparamref name="T" /> representation of the JSON value.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -1550,8 +1551,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1582,8 +1583,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmData</ReturnType>
@@ -1598,7 +1599,7 @@
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
-        <returns>A <see cref="T:Azure.ResourceManager.Compute.VirtualMachineScaleSetVmData" /> representation of the data.</returns>
+        <returns>A <typeparamref name="T" /> representation of the data.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -1615,8 +1616,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1645,8 +1646,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -1673,8 +1674,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1713,8 +1714,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
@@ -1751,8 +1752,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1791,8 +1792,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
         <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>

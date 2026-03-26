@@ -1,0 +1,309 @@
+<Type Name="PathSystemProperties" FullName="Azure.Storage.Files.DataLake.Models.PathSystemProperties">
+  <TypeSignature Language="C#" Value="public class PathSystemProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PathSystemProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Storage.Files.DataLake.Models.PathSystemProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class PathSystemProperties" />
+  <TypeSignature Language="F#" Value="type PathSystemProperties = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+    <AssemblyVersion>12.27.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The system properties for a path.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContentLength">
+      <MemberSignature Language="C#" Value="public long? ContentLength { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; ContentLength" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.ContentLength" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentLength As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.ContentLength : Nullable&lt;int64&gt;" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.ContentLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The content length of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? CreationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.CreationTime : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.CreationTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The creation time of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionContext">
+      <MemberSignature Language="C#" Value="public string EncryptionContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EncryptionContext" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.EncryptionContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EncryptionContext As String" />
+      <MemberSignature Language="F#" Value="member this.EncryptionContext : string" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.EncryptionContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The encryption context of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionKeySha256">
+      <MemberSignature Language="C#" Value="public string EncryptionKeySha256 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EncryptionKeySha256" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.EncryptionKeySha256" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EncryptionKeySha256 As String" />
+      <MemberSignature Language="F#" Value="member this.EncryptionKeySha256 : string" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.EncryptionKeySha256" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The SHA-256 hash of the encryption key.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionScope">
+      <MemberSignature Language="C#" Value="public string EncryptionScope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EncryptionScope" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.EncryptionScope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EncryptionScope As String" />
+      <MemberSignature Language="F#" Value="member this.EncryptionScope : string" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.EncryptionScope" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The encryption scope of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ETag">
+      <MemberSignature Language="C#" Value="public Azure.ETag ETag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ETag ETag" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.ETag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ETag As ETag" />
+      <MemberSignature Language="F#" Value="member this.ETag : Azure.ETag" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.ETag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ETag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The eTag of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpiresOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpiresOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpiresOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.ExpiresOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpiresOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ExpiresOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.ExpiresOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The expiration time of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Group">
+      <MemberSignature Language="C#" Value="public string Group { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Group" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.Group" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Group As String" />
+      <MemberSignature Language="F#" Value="member this.Group : string" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.Group" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The owning group of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirectory">
+      <MemberSignature Language="C#" Value="public bool? IsDirectory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsDirectory" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.IsDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirectory As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsDirectory : Nullable&lt;bool&gt;" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.IsDirectory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If the path is a directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsServerEncrypted">
+      <MemberSignature Language="C#" Value="public bool? IsServerEncrypted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsServerEncrypted" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.IsServerEncrypted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsServerEncrypted As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsServerEncrypted : Nullable&lt;bool&gt;" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.IsServerEncrypted" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If the path is server encrypted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.LastModifiedTime : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.LastModifiedTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The last modified time of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public string Owner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As String" />
+      <MemberSignature Language="F#" Value="member this.Owner : string" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.Owner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The owner of the file or directory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public Azure.Storage.Files.DataLake.Models.PathPermissions Permissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.Files.DataLake.Models.PathPermissions Permissions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.PathSystemProperties.Permissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permissions As PathPermissions" />
+      <MemberSignature Language="F#" Value="member this.Permissions : Azure.Storage.Files.DataLake.Models.PathPermissions" Usage="Azure.Storage.Files.DataLake.Models.PathSystemProperties.Permissions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.DataLake.Models.PathPermissions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The POSIX access permissions for the file owner, the file owning group, and others.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

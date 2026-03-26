@@ -164,18 +164,18 @@
       </Docs>
     </Member>
     <Member MemberName="ExternalReplicationSetupStatus">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.ExternalReplicationSetupStatus? ExternalReplicationSetupStatus { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.ExternalReplicationSetupStatus&gt; ExternalReplicationSetupStatus" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppExternalReplicationSetupStatus? ExternalReplicationSetupStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.NetAppExternalReplicationSetupStatus&gt; ExternalReplicationSetupStatus" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppReplicationObject.ExternalReplicationSetupStatus" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalReplicationSetupStatus As Nullable(Of ExternalReplicationSetupStatus)" />
-      <MemberSignature Language="F#" Value="member this.ExternalReplicationSetupStatus : Nullable&lt;Azure.ResourceManager.NetApp.Models.ExternalReplicationSetupStatus&gt;" Usage="Azure.ResourceManager.NetApp.Models.NetAppReplicationObject.ExternalReplicationSetupStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalReplicationSetupStatus As Nullable(Of NetAppExternalReplicationSetupStatus)" />
+      <MemberSignature Language="F#" Value="member this.ExternalReplicationSetupStatus : Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppExternalReplicationSetupStatus&gt;" Usage="Azure.ResourceManager.NetApp.Models.NetAppReplicationObject.ExternalReplicationSetupStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.ExternalReplicationSetupStatus&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppExternalReplicationSetupStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Property that only applies to external replications. Provides a machine-readable value for the status of the external replication setup. </summary>

@@ -24,6 +24,7 @@
     <summary>
             Specifies the syntax of the search query.  The default is "simple".
             Use "full" if your query uses the Lucene query syntax.
+            Renames generated QueryType to SearchQueryType for backward compatibility.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>

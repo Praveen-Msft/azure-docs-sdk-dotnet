@@ -1,0 +1,89 @@
+<Type Name="DiskEncryptionSetType" FullName="Azure.Provisioning.Compute.DiskEncryptionSetType">
+  <TypeSignature Language="C#" Value="public enum DiskEncryptionSetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskEncryptionSetType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskEncryptionSetType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskEncryptionSetType" />
+  <TypeSignature Language="F#" Value="type DiskEncryptionSetType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The type of key used to encrypt the data of the disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConfidentialVmEncryptedWithCustomerKey">
+      <MemberSignature Language="C#" Value="ConfidentialVmEncryptedWithCustomerKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskEncryptionSetType ConfidentialVmEncryptedWithCustomerKey = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskEncryptionSetType.ConfidentialVmEncryptedWithCustomerKey" />
+      <MemberSignature Language="VB.NET" Value="ConfidentialVmEncryptedWithCustomerKey" />
+      <MemberSignature Language="F#" Value="ConfidentialVmEncryptedWithCustomerKey = 2" Usage="Azure.Provisioning.Compute.DiskEncryptionSetType.ConfidentialVmEncryptedWithCustomerKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskEncryptionSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Confidential VM supported disk and VM guest state would be encrypted
+            with customer managed key.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionAtRestWithCustomerKey">
+      <MemberSignature Language="C#" Value="EncryptionAtRestWithCustomerKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskEncryptionSetType EncryptionAtRestWithCustomerKey = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskEncryptionSetType.EncryptionAtRestWithCustomerKey" />
+      <MemberSignature Language="VB.NET" Value="EncryptionAtRestWithCustomerKey" />
+      <MemberSignature Language="F#" Value="EncryptionAtRestWithCustomerKey = 0" Usage="Azure.Provisioning.Compute.DiskEncryptionSetType.EncryptionAtRestWithCustomerKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskEncryptionSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Resource using diskEncryptionSet would be encrypted at rest with
+            Customer managed key that can be changed and revoked by a customer.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionAtRestWithPlatformAndCustomerKeys">
+      <MemberSignature Language="C#" Value="EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskEncryptionSetType EncryptionAtRestWithPlatformAndCustomerKeys = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskEncryptionSetType.EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberSignature Language="VB.NET" Value="EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberSignature Language="F#" Value="EncryptionAtRestWithPlatformAndCustomerKeys = 1" Usage="Azure.Provisioning.Compute.DiskEncryptionSetType.EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskEncryptionSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Resource using diskEncryptionSet would be encrypted at rest with two
+            layers of encryption. One of the keys is Customer managed and the
+            other key is Platform managed.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

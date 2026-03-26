@@ -1,0 +1,598 @@
+<Type Name="AzureResourceManagerHciContext" FullName="Azure.ResourceManager.Hci.AzureResourceManagerHciContext">
+  <TypeSignature Language="C#" Value="public class AzureResourceManagerHciContext : System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureResourceManagerHciContext extends System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Hci.AzureResourceManagerHciContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureResourceManagerHciContext&#xA;Inherits ModelReaderWriterContext" />
+  <TypeSignature Language="F#" Value="type AzureResourceManagerHciContext = class&#xA;    inherit ModelReaderWriterContext" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcDefaultExtensionDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcDefaultExtensionDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcExtensionData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcExtensionData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionInstanceView))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionInstanceView))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionInstanceViewStatus))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionInstanceViewStatus))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionPatchContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionPatchContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcExtensionResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcExtensionResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionUpgradeContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcExtensionUpgradeContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcIdentityResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcIdentityResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcPasswordCredential))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcPasswordCredential))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcSettingData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcSettingData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcSettingList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcSettingList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcSettingPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.ArcSettingPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcSettingResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.ArcSettingResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingAdapterPropertyOverrides))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingAdapterPropertyOverrides))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingHostNetwork))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingHostNetwork))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingInfrastructureNetwork))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingInfrastructureNetwork))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingIntents))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingIntents))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingIPPools))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingIPPools))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingNetworkController))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingNetworkController))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingObservability))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingObservability))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingPhysicalNodes))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingPhysicalNodes))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingQosPolicyOverrides))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingQosPolicyOverrides))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingScaleUnits))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingScaleUnits))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingStorage))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingStorage))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingStorageAdapterIPInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingStorageAdapterIPInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingStorageNetworks))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingStorageNetworks))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingVirtualSwitchConfigurationOverrides))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.DeploymentSettingVirtualSwitchConfigurationOverrides))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EceActionStatus))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EceActionStatus))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EceDeploymentSecrets))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EceDeploymentSecrets))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EceReportedProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EceReportedProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EdgeDeviceListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.EdgeDeviceListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciArcEnabledEdgeDevice))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciArcEnabledEdgeDevice))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciArcEnabledEdgeDeviceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciArcEnabledEdgeDeviceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterCertificateContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterCertificateContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentSecuritySettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentSecuritySettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterDeploymentSettingData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterDeploymentSettingData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterDeploymentSettingResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterDeploymentSettingResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentStep))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDeploymentStep))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterIdentityResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterIdentityResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterNode))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterNode))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterOfferData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterOfferData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterOfferResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterOfferResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterPublisherData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterPublisherData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterPublisherResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterPublisherResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterRawCertificate))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterRawCertificate))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterReportedProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterReportedProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterSecuritySettingData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterSecuritySettingData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterSecuritySettingResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterSecuritySettingResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterUpdatePrerequisite))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciClusterUpdatePrerequisite))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateRunData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateRunData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateRunResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateRunResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateSummaryData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateSummaryData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateSummaryResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciClusterUpdateSummaryResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciDeploymentCluster))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciDeploymentCluster))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceAdapterPropertyOverrides))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceAdapterPropertyOverrides))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceArcExtension))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceArcExtension))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciEdgeDeviceData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciEdgeDeviceData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceExtensionProfile))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceExtensionProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceHostNetwork))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceHostNetwork))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceIntents))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceIntents))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceNicDetail))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceNicDetail))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceReportedProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceReportedProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciEdgeDeviceResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciEdgeDeviceResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceStorageAdapterIPInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceStorageAdapterIPInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceStorageNetworks))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceStorageNetworks))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceSwitchDetail))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceSwitchDetail))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceValidateContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceValidateContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceValidateResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceValidateResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceVirtualSwitchConfigurationOverrides))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeDeviceVirtualSwitchConfigurationOverrides))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeSwitchExtension))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciEdgeSwitchExtension))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciNetworkProfile))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciNetworkProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciNicDetail))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciNicDetail))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciOfferList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciOfferList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciOSProfile))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciOSProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPackageVersionInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPackageVersionInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPrecheckResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPrecheckResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPrecheckResultTags))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPrecheckResultTags))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPublisherList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciPublisherList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciReportedProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciReportedProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciSkuData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciSkuData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciSkuList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciSkuList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciSkuMappings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciSkuMappings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciSkuResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.HciSkuResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciUpdateList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciUpdateList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciUpdateStep))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciUpdateStep))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciValidationFailureDetail))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.HciValidationFailureDetail))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.IsolatedVmAttestationConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.IsolatedVmAttestationConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionContentProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionContentProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionError))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionError))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionSession))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.LogCollectionSession))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.OptionalServices))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.OptionalServices))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.PerNodeArcState))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.PerNodeArcState))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.PerNodeExtensionState))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.PerNodeExtensionState))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.PerNodeRemoteSupportSession))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.PerNodeRemoteSupportSession))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportContentProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportContentProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportNodeSettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportNodeSettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.RemoteSupportProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbeCredentials))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbeCredentials))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbeDeploymentInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbeDeploymentInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbeDeploymentPackageInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbeDeploymentPackageInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbePartnerInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbePartnerInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbePartnerProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SbePartnerProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SdnIntegration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SdnIntegration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SecurityComplianceStatus))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SecurityComplianceStatus))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SecuritySettingListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SecuritySettingListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SoftwareAssuranceChangeContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SoftwareAssuranceChangeContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SoftwareAssuranceChangeRequestProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SoftwareAssuranceChangeRequestProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SoftwareAssuranceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.SoftwareAssuranceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.UnknownEdgeDevice))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.UnknownEdgeDevice))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.UpdateRunList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.UpdateRunList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.UpdateSummariesList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Hci.Models.UpdateSummariesList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.UserAssignedIdentity))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.UserAssignedIdentity))&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Context class which will be filled in by the System.ClientModel.SourceGeneration.
+            For more information see 'https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/System.ClientModel/src/docs/ModelReaderWriterContext.md'
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Hci.AzureResourceManagerHciContext Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Azure.ResourceManager.Hci.AzureResourceManagerHciContext Default" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Hci.AzureResourceManagerHciContext.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As AzureResourceManagerHciContext" />
+      <MemberSignature Language="F#" Value="static member Default : Azure.ResourceManager.Hci.AzureResourceManagerHciContext" Usage="Azure.ResourceManager.Hci.AzureResourceManagerHciContext.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Hci.AzureResourceManagerHciContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the default instance </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetTypeBuilderCore">
+      <MemberSignature Language="C#" Value="protected override bool TryGetTypeBuilderCore (Type type, out System.ClientModel.Primitives.ModelReaderWriterTypeBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool TryGetTypeBuilderCore(class System.Type type, [out] class System.ClientModel.Primitives.ModelReaderWriterTypeBuilder&amp; builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Hci.AzureResourceManagerHciContext.TryGetTypeBuilderCore(System.Type,System.ClientModel.Primitives.ModelReaderWriterTypeBuilder@)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function TryGetTypeBuilderCore (type As Type, ByRef builder As ModelReaderWriterTypeBuilder) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.TryGetTypeBuilderCore : Type * ModelReaderWriterTypeBuilder -&gt; bool" Usage="azureResourceManagerHciContext.TryGetTypeBuilderCore (type, builder)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="builder" Type="System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="type">The type to get info for.</param>
+        <param name="builder">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if found.</param>
+        <summary>
+            Tries to gets a <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> for the given <see cref="T:System.Type" /> to allow <see cref="T:System.ClientModel.Primitives.ModelReaderWriter" /> to work with AOT.
+            </summary>
+        <returns>True if the corresponding <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if defined in the context otherwise false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

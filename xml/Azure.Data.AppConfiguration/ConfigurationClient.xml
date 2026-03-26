@@ -20,6 +20,7 @@
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <AssemblyVersion>1.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.9.0.0</AssemblyVersion>
+    <AssemblyVersion>1.10.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,8 +41,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -59,9 +60,10 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="settings" Type="Azure.Data.AppConfiguration.ConfigurationClientSettings" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="settings" Type="Azure.Data.AppConfiguration.ConfigurationClientSettings" />
       </Parameters>
       <Docs>
         <param name="settings">The <see cref="T:Azure.Data.AppConfiguration.ConfigurationClientSettings" /> used to configure the client.</param>
@@ -82,8 +84,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -105,8 +107,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -130,8 +132,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -155,8 +157,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -184,8 +186,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -213,8 +215,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -246,8 +248,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -275,8 +277,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -308,8 +310,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -335,8 +337,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -364,8 +366,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;&gt;</ReturnType>
@@ -391,8 +393,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;&gt;</ReturnType>
@@ -421,13 +423,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingSelector" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingSelector" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="selector">Set of options for selecting <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> from the configuration store.</param>
@@ -449,13 +452,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingSelector" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingSelector" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="selector">Options used to select a set of <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> entities from the configuration store.</param>
@@ -476,8 +480,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.AppConfiguration.CreateSnapshotOperation</ReturnType>
@@ -510,8 +514,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Data.AppConfiguration.CreateSnapshotOperation&gt;</ReturnType>
@@ -544,8 +548,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -578,8 +582,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -609,8 +613,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -643,8 +647,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -674,8 +678,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -707,8 +711,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -741,8 +745,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -772,8 +776,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -803,8 +807,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -837,8 +841,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -868,8 +872,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -899,8 +903,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -928,8 +932,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -957,8 +961,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -986,8 +990,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1017,8 +1021,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1046,8 +1050,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1077,8 +1081,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1108,13 +1112,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.SettingLabel&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingLabelSelector" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingLabelSelector" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="selector">Set of options for selecting <see cref="T:Azure.Data.AppConfiguration.SettingLabel" />.</param>
@@ -1134,13 +1139,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.SettingLabel&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingLabelSelector" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="selector" Type="Azure.Data.AppConfiguration.SettingLabelSelector" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="selector">Set of options for selecting <see cref="T:Azure.Data.AppConfiguration.SettingLabel" />.</param>
@@ -1159,8 +1165,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1188,8 +1194,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1219,8 +1225,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1248,8 +1254,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1279,8 +1285,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -1308,8 +1314,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;&gt;</ReturnType>
@@ -1337,8 +1343,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -1364,8 +1370,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -1391,8 +1397,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -1412,8 +1418,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -1439,8 +1445,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;</ReturnType>
@@ -1468,8 +1474,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;&gt;</ReturnType>
@@ -1495,8 +1501,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSnapshot&gt;&gt;</ReturnType>
@@ -1524,8 +1530,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1558,8 +1564,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1591,8 +1597,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -1625,8 +1631,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -1658,8 +1664,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1689,8 +1695,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1703,11 +1709,11 @@
       </Parameters>
       <Docs>
         <param name="setting">The <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> to update.</param>
-        <param name="isReadOnly">If true, the <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> will be set to read only in the configuration store. If false, it will be set to read write.</param>
         <param name="onlyIfUnchanged">If set to true and the configuration setting exists in the configuration store, update the setting
             if the passed-in <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> is the same version as the one in the configuration store. The setting versions
             are the same if their ETag fields match.  If the two settings are different versions, this method will throw an exception to indicate
             that the setting in the configuration store was modified since it was last obtained by the client.</param>
+        <param name="isReadOnly">If true, the <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> will be set to read only in the configuration store. If false, it will be set to read write.</param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> controlling the request lifetime.</param>
         <summary>
             Sets an existing <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> to read only or read write state in the configuration store.
@@ -1725,8 +1731,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;</ReturnType>
@@ -1758,8 +1764,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -1789,8 +1795,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -1803,11 +1809,11 @@
       </Parameters>
       <Docs>
         <param name="setting">The <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> to update.</param>
-        <param name="isReadOnly">If true, the <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> will be set to read only in the configuration store. If false, it will be set to read write.</param>
         <param name="onlyIfUnchanged">If set to true and the configuration setting exists in the configuration store, update the setting
             if the passed-in <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> is the same version as the one in the configuration store. The setting versions
             are the same if their ETag fields match.  If the two settings are different versions, this method will throw an exception to indicate
             that the setting in the configuration store was modified since it was last obtained by the client.</param>
+        <param name="isReadOnly">If true, the <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> will be set to read only in the configuration store. If false, it will be set to read write.</param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> controlling the request lifetime.</param>
         <summary>
             Sets an existing <see cref="T:Azure.Data.AppConfiguration.ConfigurationSetting" /> to read only or read write state in the configuration store.
@@ -1825,8 +1831,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Data.AppConfiguration.ConfigurationSetting&gt;&gt;</ReturnType>
@@ -1858,8 +1864,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1888,8 +1894,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Data.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

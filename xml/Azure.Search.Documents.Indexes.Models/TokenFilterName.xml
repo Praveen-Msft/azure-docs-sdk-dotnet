@@ -46,7 +46,7 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
+        <param name="value"> The value. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.Search.Documents.Indexes.Models.TokenFilterName" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -153,7 +153,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.TokenFilterName</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Normalizes CJK width differences. Folds fullwidth ASCII variants into the equivalent basic Latin, and half-width Katakana variants into the equivalent Kana. See http://lucene.apache.org/core/4_10_3/analyzers-common/org/apache/lucene/analysis/cjk/CJKWidthFilter.html. </summary>
+        <summary> Normalizes CJK width differences. Folds full-width ASCII variants into the equivalent basic Latin, and half-width Katakana variants into the equivalent Kana. See http://lucene.apache.org/core/4_10_3/analyzers-common/org/apache/lucene/analysis/cjk/CJKWidthFilter.html. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -543,8 +543,8 @@
         <Parameter Name="right" Type="Azure.Search.Documents.Indexes.Models.TokenFilterName" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.Search.Documents.Indexes.Models.TokenFilterName" /> values are the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -569,8 +569,32 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
+        <param name="value"> The value. </param>
+        <summary> Converts a string to a <see cref="T:Azure.Search.Documents.Indexes.Models.TokenFilterName" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Search.Documents.Indexes.Models.TokenFilterName? (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Nullable`1&lt;valuetype Azure.Search.Documents.Indexes.Models.TokenFilterName&gt; op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.TokenFilterName.op_Implicit(System.String)~System.Nullable{Azure.Search.Documents.Indexes.Models.TokenFilterName}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As Nullable(Of TokenFilterName)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Nullable&lt;Azure.Search.Documents.Indexes.Models.TokenFilterName&gt;" Usage="Azure.Search.Documents.Indexes.Models.TokenFilterName.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Search.Documents.Indexes.Models.TokenFilterName&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
         <param name="value">To be added.</param>
-        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.Search.Documents.Indexes.Models.TokenFilterName" />. </summary>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -595,8 +619,8 @@
         <Parameter Name="right" Type="Azure.Search.Documents.Indexes.Models.TokenFilterName" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.Search.Documents.Indexes.Models.TokenFilterName" /> values are not the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -702,7 +726,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.TokenFilterName</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Folds Scandinavian characters åÅäæÄÆ-&gt;a and öÖøØ-&gt;o. It also discriminates against use of double vowels aa, ae, ao, oe and oo, leaving just the first one. See http://lucene.apache.org/core/4_10_3/analyzers-common/org/apache/lucene/analysis/miscellaneous/ScandinavianFoldingFilter.html. </summary>
+        <summary> Folds Scandinavian characters Ã¥Ã…Ã¤Ã¦Ã„Ã†-&gt;a and Ã¶Ã–Ã¸Ã˜-&gt;o. It also discriminates against use of double vowels aa, ae, ao, oe and oo, leaving just the first one. See http://lucene.apache.org/core/4_10_3/analyzers-common/org/apache/lucene/analysis/miscellaneous/ScandinavianFoldingFilter.html. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

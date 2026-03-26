@@ -1,0 +1,292 @@
+<Type Name="RestorePointSourceMetadata" FullName="Azure.Provisioning.Compute.RestorePointSourceMetadata">
+  <TypeSignature Language="C#" Value="public class RestorePointSourceMetadata : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RestorePointSourceMetadata extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.RestorePointSourceMetadata" />
+  <TypeSignature Language="VB.NET" Value="Public Class RestorePointSourceMetadata&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type RestorePointSourceMetadata = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the properties of the Virtual Machine for which the restore point
+            was created. The properties provided are a subset and the snapshot of the
+            overall Virtual Machine properties captured at the time of the restore
+            point creation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RestorePointSourceMetadata ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.RestorePointSourceMetadata.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new RestorePointSourceMetadata.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BootDiagnostics">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.BootDiagnostics BootDiagnostics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.BootDiagnostics BootDiagnostics" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.BootDiagnostics" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BootDiagnostics As BootDiagnostics" />
+      <MemberSignature Language="F#" Value="member this.BootDiagnostics : Azure.Provisioning.Compute.BootDiagnostics" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.BootDiagnostics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.BootDiagnostics</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Boot Diagnostics is a debugging feature which allows you to view
+            Console Output and Screenshot to diagnose VM status. **NOTE**: If
+            storageUri is being specified then ensure that the storage account is
+            in the same region and subscription as the VM. You can easily view the
+            output of your console log. Azure also enables you to see a screenshot
+            of the VM from the hypervisor.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.RestorePointSourceMetadata.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="restorePointSourceMetadata.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of RestorePointSourceMetadata.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineHardwareProfile HardwareProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineHardwareProfile HardwareProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.HardwareProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareProfile As VirtualMachineHardwareProfile" />
+      <MemberSignature Language="F#" Value="member this.HardwareProfile : Azure.Provisioning.Compute.VirtualMachineHardwareProfile" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.HardwareProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineHardwareProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the hardware profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HyperVGeneration">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.HyperVGeneration&gt; HyperVGeneration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.HyperVGeneration&gt; HyperVGeneration" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.HyperVGeneration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HyperVGeneration As BicepValue(Of HyperVGeneration)" />
+      <MemberSignature Language="F#" Value="member this.HyperVGeneration : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.HyperVGeneration&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.HyperVGeneration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.HyperVGeneration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            HyperVGeneration of the source VM for which restore point is captured.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicenseType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; LicenseType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; LicenseType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.LicenseType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LicenseType As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.LicenseType : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.LicenseType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the license type, which is for bring your own license scenario.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt; Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Core.AzureLocation&gt; Location" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As BicepValue(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.Location : Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.Location" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Location of the VM from which the restore point was created.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineOSProfile OSProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineOSProfile OSProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.OSProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSProfile As VirtualMachineOSProfile" />
+      <MemberSignature Language="F#" Value="member this.OSProfile : Azure.Provisioning.Compute.VirtualMachineOSProfile" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.OSProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineOSProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the OS profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecurityProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.SecurityProfile SecurityProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.SecurityProfile SecurityProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.SecurityProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SecurityProfile As SecurityProfile" />
+      <MemberSignature Language="F#" Value="member this.SecurityProfile : Azure.Provisioning.Compute.SecurityProfile" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.SecurityProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the security profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.RestorePointSourceVmStorageProfile StorageProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.RestorePointSourceVmStorageProfile StorageProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.StorageProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageProfile As RestorePointSourceVmStorageProfile" />
+      <MemberSignature Language="F#" Value="member this.StorageProfile : Azure.Provisioning.Compute.RestorePointSourceVmStorageProfile with get, set" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.StorageProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RestorePointSourceVmStorageProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the storage profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserData">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; UserData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; UserData" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.UserData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserData As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.UserData : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.UserData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            UserData associated with the source VM for which restore point is
+            captured, which is a base-64 encoded value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VmId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; VmId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; VmId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceMetadata.VmId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VmId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.VmId : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceMetadata.VmId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the virtual machine unique id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

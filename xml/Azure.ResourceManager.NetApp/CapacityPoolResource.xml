@@ -301,19 +301,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetCache">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt; GetCache (string cacheName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.CacheResource&gt; GetCache(string cacheName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolResource.GetCache(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCache (cacheName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of CacheResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetCache : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;&#xA;override this.GetCache : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;" Usage="capacityPoolResource.GetCache (cacheName, cancellationToken)" />
+    <Member MemberName="GetNetAppCache">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt; GetNetAppCache (string cacheName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.NetAppCacheResource&gt; GetNetAppCache(string cacheName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolResource.GetNetAppCache(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppCache (cacheName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of NetAppCacheResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppCache : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;&#xA;override this.GetNetAppCache : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;" Usage="capacityPoolResource.GetNetAppCache (cacheName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cacheName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
@@ -324,7 +324,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of the specified Cache
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}/capacityPools/{poolName}/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.CacheResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}/capacityPools/{poolName}/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -333,19 +333,19 @@
           <paramref name="cacheName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetCacheAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;&gt; GetCacheAsync (string cacheName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.CacheResource&gt;&gt; GetCacheAsync(string cacheName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolResource.GetCacheAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCacheAsync (cacheName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CacheResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetCacheAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;&gt;&#xA;override this.GetCacheAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;&gt;" Usage="capacityPoolResource.GetCacheAsync (cacheName, cancellationToken)" />
+    <Member MemberName="GetNetAppCacheAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;&gt; GetNetAppCacheAsync (string cacheName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.NetAppCacheResource&gt;&gt; GetNetAppCacheAsync(string cacheName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolResource.GetNetAppCacheAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppCacheAsync (cacheName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of NetAppCacheResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppCacheAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;&gt;&#xA;override this.GetNetAppCacheAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;&gt;" Usage="capacityPoolResource.GetNetAppCacheAsync (cacheName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.CacheResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppCacheResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cacheName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
@@ -356,7 +356,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of the specified Cache
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}/capacityPools/{poolName}/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.CacheResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}/capacityPools/{poolName}/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -365,24 +365,24 @@
           <paramref name="cacheName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetCaches">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.CacheCollection GetCaches ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.CacheCollection GetCaches() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolResource.GetCaches" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCaches () As CacheCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetCaches : unit -&gt; Azure.ResourceManager.NetApp.CacheCollection&#xA;override this.GetCaches : unit -&gt; Azure.ResourceManager.NetApp.CacheCollection" Usage="capacityPoolResource.GetCaches " />
+    <Member MemberName="GetNetAppCaches">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppCacheCollection GetNetAppCaches ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppCacheCollection GetNetAppCaches() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolResource.GetNetAppCaches" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppCaches () As NetAppCacheCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppCaches : unit -&gt; Azure.ResourceManager.NetApp.NetAppCacheCollection&#xA;override this.GetNetAppCaches : unit -&gt; Azure.ResourceManager.NetApp.NetAppCacheCollection" Usage="capacityPoolResource.GetNetAppCaches " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.CacheCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppCacheCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of CacheResources in the CapacityPool. </summary>
-        <returns> An object representing collection of CacheResources and their operations over a CacheResource. </returns>
+        <summary> Gets a collection of NetAppCacheResources in the CapacityPool. </summary>
+        <returns> An object representing collection of NetAppCacheResources and their operations over a NetAppCacheResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

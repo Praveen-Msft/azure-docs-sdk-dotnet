@@ -1,0 +1,175 @@
+<Type Name="VirtualMachineExtensionInstanceView" FullName="Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView">
+  <TypeSignature Language="C#" Value="public class VirtualMachineExtensionInstanceView : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineExtensionInstanceView extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineExtensionInstanceView&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineExtensionInstanceView = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The instance view of a virtual machine extension.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineExtensionInstanceView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineExtensionInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineExtensionInstanceView.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineExtensionInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The virtual machine extension name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Statuses">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt; Statuses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.InstanceViewStatus&gt; Statuses" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.Statuses" />
+      <MemberSignature Language="VB.NET" Value="Public Property Statuses As BicepList(Of InstanceViewStatus)" />
+      <MemberSignature Language="F#" Value="member this.Statuses : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.Statuses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The resource status information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Substatuses">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt; Substatuses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.InstanceViewStatus&gt; Substatuses" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.Substatuses" />
+      <MemberSignature Language="VB.NET" Value="Public Property Substatuses As BicepList(Of InstanceViewStatus)" />
+      <MemberSignature Language="F#" Value="member this.Substatuses : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.Substatuses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The resource status information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TypeHandlerVersion">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; TypeHandlerVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; TypeHandlerVersion" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.TypeHandlerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property TypeHandlerVersion As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.TypeHandlerVersion : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.TypeHandlerVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the version of the script handler.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineExtensionInstanceViewType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; VirtualMachineExtensionInstanceViewType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; VirtualMachineExtensionInstanceViewType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.VirtualMachineExtensionInstanceViewType" />
+      <MemberSignature Language="VB.NET" Value="Public Property VirtualMachineExtensionInstanceViewType As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.VirtualMachineExtensionInstanceViewType : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineExtensionInstanceView.VirtualMachineExtensionInstanceViewType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the type of the extension; an example is
+            "CustomScriptExtension".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

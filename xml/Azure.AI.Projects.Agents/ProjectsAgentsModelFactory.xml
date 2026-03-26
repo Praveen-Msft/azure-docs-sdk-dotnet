@@ -74,7 +74,7 @@
         <param name="contentFilterConfiguration"> Configuration for Responsible AI (RAI) content filtering and safety features. </param>
         <summary>
             The AgentDefinition.
-            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.Agents.PromptAgentDefinition" />, <see cref="T:Azure.AI.Projects.Agents.WorkflowAgentDefinition" />, and <see cref="T:Azure.AI.Projects.Agents.HostedAgentDefinition" />.
+            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.Agents.DeclarativeAgentDefinition" />, <see cref="T:Azure.AI.Projects.Agents.WorkflowAgentDefinition" />, and <see cref="T:Azure.AI.Projects.Agents.HostedAgentDefinition" />.
             </summary>
         <returns> A new <see cref="T:Azure.AI.Projects.Agents.AgentDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>

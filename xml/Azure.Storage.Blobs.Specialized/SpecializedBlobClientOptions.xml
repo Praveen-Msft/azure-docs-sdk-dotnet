@@ -41,6 +41,7 @@
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
     <AssemblyVersion>12.28.0.0</AssemblyVersion>
+    <AssemblyVersion>12.29.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Storage.Blobs.BlobClientOptions</BaseTypeName>
@@ -60,13 +61,13 @@
       <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.Specialized.SpecializedBlobClientOptions.#ctor(Azure.Storage.Blobs.BlobClientOptions.ServiceVersion)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As BlobClientOptions.ServiceVersion = Azure.Storage.Blobs.BlobClientOptions+ServiceVersion.V2026_02_06)" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="new Azure.Storage.Blobs.Specialized.SpecializedBlobClientOptions : Azure.Storage.Blobs.BlobClientOptions.ServiceVersion -&gt; Azure.Storage.Blobs.Specialized.SpecializedBlobClientOptions" Usage="new Azure.Storage.Blobs.Specialized.SpecializedBlobClientOptions version" />
-      <MemberSignature Language="C#" Value="public SpecializedBlobClientOptions (Azure.Storage.Blobs.BlobClientOptions.ServiceVersion version = Azure.Storage.Blobs.BlobClientOptions+ServiceVersion.V2026_04_06);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As BlobClientOptions.ServiceVersion = Azure.Storage.Blobs.BlobClientOptions+ServiceVersion.V2026_04_06)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="C#" Value="public SpecializedBlobClientOptions (Azure.Storage.Blobs.BlobClientOptions.ServiceVersion version = Azure.Storage.Blobs.BlobClientOptions+ServiceVersion.V2026_06_06);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As BlobClientOptions.ServiceVersion = Azure.Storage.Blobs.BlobClientOptions+ServiceVersion.V2026_06_06)" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="version" Type="Azure.Storage.Blobs.BlobClientOptions+ServiceVersion" />
@@ -93,7 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.ClientSideEncryptionOptions</ReturnType>

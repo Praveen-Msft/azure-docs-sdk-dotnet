@@ -1,0 +1,221 @@
+<Type Name="GalleryScriptProperties" FullName="Azure.Provisioning.Compute.GalleryScriptProperties">
+  <TypeSignature Language="C#" Value="public class GalleryScriptProperties : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryScriptProperties extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryScriptProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryScriptProperties&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type GalleryScriptProperties = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the properties of a gallery script definition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryScriptProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryScriptProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new GalleryScriptProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryScriptProperties.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryScriptProperties.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of GalleryScriptProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Description" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Description : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The description of this gallery script definition resource. This
+            property is updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndOfLifeOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; EndOfLifeOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; EndOfLifeOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.EndOfLifeOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndOfLifeOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.EndOfLifeOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.EndOfLifeOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The end of life date of the gallery Script Definition. This property
+            can be used for decommissioning purposes. This property is updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Eula">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Eula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Eula" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.Eula" />
+      <MemberSignature Language="VB.NET" Value="Public Property Eula As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Eula : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.Eula" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Eula agreement (End User License Agreement) for the gallery Script
+            Definition.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivacyStatementUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; PrivacyStatementUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; PrivacyStatementUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.PrivacyStatementUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivacyStatementUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.PrivacyStatementUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.PrivacyStatementUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The privacy statement uri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt; ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.GalleryProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As BicepValue(Of GalleryProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt;" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The provisioning state, which only appears in the response.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReleaseNoteUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; ReleaseNoteUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; ReleaseNoteUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.ReleaseNoteUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReleaseNoteUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.ReleaseNoteUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.ReleaseNoteUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The release note uri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedOSType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; SupportedOSType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; SupportedOSType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryScriptProperties.SupportedOSType" />
+      <MemberSignature Language="VB.NET" Value="Public Property SupportedOSType As BicepValue(Of SupportedOperatingSystemType)" />
+      <MemberSignature Language="F#" Value="member this.SupportedOSType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryScriptProperties.SupportedOSType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property allows you to specify the supported type of the OS that
+            application is built for. Possible values are: **Windows,** **Linux.**.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

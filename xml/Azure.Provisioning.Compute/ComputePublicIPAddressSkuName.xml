@@ -1,0 +1,64 @@
+<Type Name="ComputePublicIPAddressSkuName" FullName="Azure.Provisioning.Compute.ComputePublicIPAddressSkuName">
+  <TypeSignature Language="C#" Value="public enum ComputePublicIPAddressSkuName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComputePublicIPAddressSkuName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputePublicIPAddressSkuName" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComputePublicIPAddressSkuName" />
+  <TypeSignature Language="F#" Value="type ComputePublicIPAddressSkuName = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specify public IP sku name.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Basic">
+      <MemberSignature Language="C#" Value="Basic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputePublicIPAddressSkuName Basic = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputePublicIPAddressSkuName.Basic" />
+      <MemberSignature Language="VB.NET" Value="Basic" />
+      <MemberSignature Language="F#" Value="Basic = 0" Usage="Azure.Provisioning.Compute.ComputePublicIPAddressSkuName.Basic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputePublicIPAddressSkuName</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Basic.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputePublicIPAddressSkuName Standard = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputePublicIPAddressSkuName.Standard" />
+      <MemberSignature Language="VB.NET" Value="Standard" />
+      <MemberSignature Language="F#" Value="Standard = 1" Usage="Azure.Provisioning.Compute.ComputePublicIPAddressSkuName.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputePublicIPAddressSkuName</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Standard.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

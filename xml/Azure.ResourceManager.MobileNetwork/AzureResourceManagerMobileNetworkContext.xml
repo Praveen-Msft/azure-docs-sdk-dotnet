@@ -1,0 +1,518 @@
+<Type Name="AzureResourceManagerMobileNetworkContext" FullName="Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext">
+  <TypeSignature Language="C#" Value="public class AzureResourceManagerMobileNetworkContext : System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureResourceManagerMobileNetworkContext extends System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureResourceManagerMobileNetworkContext&#xA;Inherits ModelReaderWriterContext" />
+  <TypeSignature Language="F#" Value="type AzureResourceManagerMobileNetworkContext = class&#xA;    inherit ModelReaderWriterContext" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.Ambr))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.Ambr))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.AttachedDataNetworkListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.AttachedDataNetworkListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DataNetworkConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DataNetworkConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DataNetworkListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DataNetworkListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DiagnosticsPackageListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DiagnosticsPackageListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DiagnosticsUploadConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DiagnosticsUploadConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DnnIPPair))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.DnnIPPair))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.EncryptedSimUploadList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.EncryptedSimUploadList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.ExtendedUEInfoData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.ExtendedUEInfoData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.ExtendedUEInfoProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.ExtendedUEInfoProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.ExtendedUEInfoResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.ExtendedUEInfoResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.HomeNetworkPrivateKeysProvisioning))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.HomeNetworkPrivateKeysProvisioning))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.HomeNetworkPublicKey))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.HomeNetworkPublicKey))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.KeyVaultKey))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.KeyVaultKey))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileDataNetworkData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileDataNetworkData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkCertificateProvisioning))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkCertificateProvisioning))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkEventHubConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkEventHubConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkHttpsServerCertificate))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkHttpsServerCertificate))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkInstallation))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkInstallation))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkInterfaceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkInterfaceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkIPv4Route))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkIPv4Route))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkIPv4RouteNextHop))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkIPv4RouteNextHop))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkLocalDiagnosticsAccessConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkLocalDiagnosticsAccessConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkManagedServiceIdentity))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkManagedServiceIdentity))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlatform))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlatform))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlatformConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlatformConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlmnId))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlmnId))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPortRange))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPortRange))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPortReuseHoldTimes))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPortReuseHoldTimes))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkQosPolicy))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkQosPolicy))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkResourcePatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkResourcePatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkRoutingInfoData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkRoutingInfoData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkRoutingInfoResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkRoutingInfoResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkServiceData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkServiceData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkServiceDataFlowTemplate))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkServiceDataFlowTemplate))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkServiceResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkServiceResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSimResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSiteData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSiteData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSiteResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSiteResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSliceConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSliceConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSliceData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSliceData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSliceResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.MobileNetworkSliceResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkTagsPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.MobileNetworkTagsPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.NaptConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.NaptConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.NASRerouteConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.NASRerouteConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCaptureListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCaptureListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreControlPlaneCollectDiagnosticsPackage))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreControlPlaneCollectDiagnosticsPackage))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreControlPlaneListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreControlPlaneListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneVersionData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneVersionData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreControlPlaneVersionListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreControlPlaneVersionListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreDataPlaneListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreDataPlaneListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreSignalingConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PacketCoreSignalingConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PccRuleConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PccRuleConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PccRuleQosPolicy))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PccRuleQosPolicy))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PinholeTimeouts))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PinholeTimeouts))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PublicLandMobileNetwork))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PublicLandMobileNetwork))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PublicLandMobileNetworkHomeNetworkPublicKeys))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.PublicLandMobileNetworkHomeNetworkPublicKeys))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.RoutingInfoListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.RoutingInfoListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.ServiceListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.ServiceListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimCloneContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimCloneContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimDeleteList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimDeleteList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimGroupListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimGroupListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimMoveContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimMoveContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimPolicyListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimPolicyListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimStaticIPPropertiesStaticIP))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimStaticIPPropertiesStaticIP))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimUploadList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SimUploadList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SiteDeletePacketCore))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SiteDeletePacketCore))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SiteListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SiteListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SliceListResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.SliceListResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.Snssai))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.Snssai))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.SubResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.SubResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfo4G))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfo4G))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfo5G))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfo5G))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfoList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEInfoList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEQosFlow))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UEQosFlow))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UESessionInfo4G))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UESessionInfo4G))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UESessionInfo5G))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UESessionInfo5G))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UnknownExtendedUEInfoProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UnknownExtendedUEInfoProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.UserAssignedIdentity))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.UserAssignedIdentity))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UserConsentConfiguration))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UserConsentConfiguration))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UserPlaneDataRoutesItem))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.MobileNetwork.Models.UserPlaneDataRoutesItem))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.WritableSubResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.WritableSubResource))&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Context class which will be filled in by the System.ClientModel.SourceGeneration.
+            For more information see 'https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/System.ClientModel/src/docs/ModelReaderWriterContext.md'
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext Default" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As AzureResourceManagerMobileNetworkContext" />
+      <MemberSignature Language="F#" Value="static member Default : Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext" Usage="Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the default instance </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetTypeBuilderCore">
+      <MemberSignature Language="C#" Value="protected override bool TryGetTypeBuilderCore (Type type, out System.ClientModel.Primitives.ModelReaderWriterTypeBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool TryGetTypeBuilderCore(class System.Type type, [out] class System.ClientModel.Primitives.ModelReaderWriterTypeBuilder&amp; builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MobileNetwork.AzureResourceManagerMobileNetworkContext.TryGetTypeBuilderCore(System.Type,System.ClientModel.Primitives.ModelReaderWriterTypeBuilder@)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function TryGetTypeBuilderCore (type As Type, ByRef builder As ModelReaderWriterTypeBuilder) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.TryGetTypeBuilderCore : Type * ModelReaderWriterTypeBuilder -&gt; bool" Usage="azureResourceManagerMobileNetworkContext.TryGetTypeBuilderCore (type, builder)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="builder" Type="System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="type">The type to get info for.</param>
+        <param name="builder">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if found.</param>
+        <summary>
+            Tries to gets a <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> for the given <see cref="T:System.Type" /> to allow <see cref="T:System.ClientModel.Primitives.ModelReaderWriter" /> to work with AOT.
+            </summary>
+        <returns>True if the corresponding <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if defined in the context otherwise false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

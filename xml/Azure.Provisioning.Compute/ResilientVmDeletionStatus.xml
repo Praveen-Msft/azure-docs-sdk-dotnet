@@ -1,0 +1,106 @@
+<Type Name="ResilientVmDeletionStatus" FullName="Azure.Provisioning.Compute.ResilientVmDeletionStatus">
+  <TypeSignature Language="C#" Value="public enum ResilientVmDeletionStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResilientVmDeletionStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ResilientVmDeletionStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResilientVmDeletionStatus" />
+  <TypeSignature Language="F#" Value="type ResilientVmDeletionStatus = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the resilient VM deletion status for the virtual machine.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ResilientVmDeletionStatus Disabled = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ResilientVmDeletionStatus.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="F#" Value="Disabled = 1" Usage="Azure.Provisioning.Compute.ResilientVmDeletionStatus.Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResilientVmDeletionStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="Enabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ResilientVmDeletionStatus Enabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ResilientVmDeletionStatus.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Enabled" />
+      <MemberSignature Language="F#" Value="Enabled = 0" Usage="Azure.Provisioning.Compute.ResilientVmDeletionStatus.Enabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResilientVmDeletionStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ResilientVmDeletionStatus Failed = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ResilientVmDeletionStatus.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 3" Usage="Azure.Provisioning.Compute.ResilientVmDeletionStatus.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResilientVmDeletionStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Failed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InProgress">
+      <MemberSignature Language="C#" Value="InProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ResilientVmDeletionStatus InProgress = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ResilientVmDeletionStatus.InProgress" />
+      <MemberSignature Language="VB.NET" Value="InProgress" />
+      <MemberSignature Language="F#" Value="InProgress = 2" Usage="Azure.Provisioning.Compute.ResilientVmDeletionStatus.InProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResilientVmDeletionStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            InProgress.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,611 @@
+<Type Name="VirtualMachineScaleSetProperties" FullName="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties">
+  <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetProperties : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetProperties extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetProperties&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineScaleSetProperties = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the properties of a Virtual Machine Scale Set.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineScaleSetProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalCapabilities">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.AdditionalCapabilities AdditionalCapabilities { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.AdditionalCapabilities AdditionalCapabilities" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.AdditionalCapabilities" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalCapabilities As AdditionalCapabilities" />
+      <MemberSignature Language="F#" Value="member this.AdditionalCapabilities : Azure.Provisioning.Compute.AdditionalCapabilities with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.AdditionalCapabilities" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.AdditionalCapabilities</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies additional capabilities enabled or disabled on the Virtual
+            Machines in the Virtual Machine Scale Set. For instance: whether the
+            Virtual Machines have the capability to support attaching managed data
+            disks with UltraSSD_LRS storage account type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticRepairsPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.AutomaticRepairsPolicy AutomaticRepairsPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.AutomaticRepairsPolicy AutomaticRepairsPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.AutomaticRepairsPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutomaticRepairsPolicy As AutomaticRepairsPolicy" />
+      <MemberSignature Language="F#" Value="member this.AutomaticRepairsPolicy : Azure.Provisioning.Compute.AutomaticRepairsPolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.AutomaticRepairsPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.AutomaticRepairsPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Policy for automatic repairs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineScaleSetProperties.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineScaleSetProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotRunExtensionsOnOverprovisionedVms">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; DoNotRunExtensionsOnOverprovisionedVms { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; DoNotRunExtensionsOnOverprovisionedVms" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.DoNotRunExtensionsOnOverprovisionedVms" />
+      <MemberSignature Language="VB.NET" Value="Public Property DoNotRunExtensionsOnOverprovisionedVms As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.DoNotRunExtensionsOnOverprovisionedVms : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.DoNotRunExtensionsOnOverprovisionedVms" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            When Overprovision is enabled, extensions are launched only on the
+            requested number of VMs which are finally kept. This property will
+            hence ensure that the extensions do not run on the extra
+            overprovisioned VMs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighSpeedInterconnectPlacement">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.HighSpeedInterconnectPlacement&gt; HighSpeedInterconnectPlacement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.HighSpeedInterconnectPlacement&gt; HighSpeedInterconnectPlacement" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.HighSpeedInterconnectPlacement" />
+      <MemberSignature Language="VB.NET" Value="Public Property HighSpeedInterconnectPlacement As BicepValue(Of HighSpeedInterconnectPlacement)" />
+      <MemberSignature Language="F#" Value="member this.HighSpeedInterconnectPlacement : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.HighSpeedInterconnectPlacement&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.HighSpeedInterconnectPlacement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.HighSpeedInterconnectPlacement&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the high speed interconnect placement for the virtual machine
+            scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HostGroupId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; HostGroupId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; HostGroupId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.HostGroupId" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostGroupId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.HostGroupId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.HostGroupId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMaximumCapacityConstrained">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsMaximumCapacityConstrained { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsMaximumCapacityConstrained" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.IsMaximumCapacityConstrained" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMaximumCapacityConstrained As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsMaximumCapacityConstrained : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.IsMaximumCapacityConstrained" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional property which must either be set to True or omitted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrchestrationMode">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OrchestrationMode&gt; OrchestrationMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.OrchestrationMode&gt; OrchestrationMode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.OrchestrationMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrchestrationMode As BicepValue(Of OrchestrationMode)" />
+      <MemberSignature Language="F#" Value="member this.OrchestrationMode : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OrchestrationMode&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.OrchestrationMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OrchestrationMode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the orchestration mode for the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Overprovision">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; Overprovision { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; Overprovision" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.Overprovision" />
+      <MemberSignature Language="VB.NET" Value="Public Property Overprovision As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Overprovision : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.Overprovision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether the Virtual Machine Scale Set should be
+            overprovisioned.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformFaultDomainCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; PlatformFaultDomainCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; PlatformFaultDomainCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.PlatformFaultDomainCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlatformFaultDomainCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.PlatformFaultDomainCount : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.PlatformFaultDomainCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Fault Domain count for each placement group.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PriorityMixPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineScaleSetPriorityMixPolicy PriorityMixPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineScaleSetPriorityMixPolicy PriorityMixPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.PriorityMixPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property PriorityMixPolicy As VirtualMachineScaleSetPriorityMixPolicy" />
+      <MemberSignature Language="F#" Value="member this.PriorityMixPolicy : Azure.Provisioning.Compute.VirtualMachineScaleSetPriorityMixPolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.PriorityMixPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetPriorityMixPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the desired targets for mixing Spot and Regular priority VMs
+            within the same VMSS Flex instance.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The provisioning state, which only appears in the response.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProximityPlacementGroupId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; ProximityPlacementGroupId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; ProximityPlacementGroupId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ProximityPlacementGroupId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProximityPlacementGroupId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.ProximityPlacementGroupId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ProximityPlacementGroupId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResiliencyPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ResiliencyPolicy ResiliencyPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ResiliencyPolicy ResiliencyPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ResiliencyPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResiliencyPolicy As ResiliencyPolicy" />
+      <MemberSignature Language="F#" Value="member this.ResiliencyPolicy : Azure.Provisioning.Compute.ResiliencyPolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ResiliencyPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResiliencyPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Policy for Resiliency.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleInPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ScaleInPolicy ScaleInPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ScaleInPolicy ScaleInPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ScaleInPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScaleInPolicy As ScaleInPolicy" />
+      <MemberSignature Language="F#" Value="member this.ScaleInPolicy : Azure.Provisioning.Compute.ScaleInPolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ScaleInPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ScaleInPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the policies applied when scaling in Virtual Machines in the
+            Virtual Machine Scale Set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduledEventsPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ScheduledEventsPolicy ScheduledEventsPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ScheduledEventsPolicy ScheduledEventsPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ScheduledEventsPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScheduledEventsPolicy As ScheduledEventsPolicy" />
+      <MemberSignature Language="F#" Value="member this.ScheduledEventsPolicy : Azure.Provisioning.Compute.ScheduledEventsPolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ScheduledEventsPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ScheduledEventsPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The ScheduledEventsPolicy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SinglePlacementGroup">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; SinglePlacementGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; SinglePlacementGroup" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.SinglePlacementGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property SinglePlacementGroup As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.SinglePlacementGroup : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.SinglePlacementGroup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            When true this limits the scale set to a single placement group, of max
+            size 100 virtual machines. NOTE: If singlePlacementGroup is true, it
+            may be modified to false. However, if singlePlacementGroup is false,
+            it may not be modified to true.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkuProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ComputeSkuProfile SkuProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ComputeSkuProfile SkuProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.SkuProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property SkuProfile As ComputeSkuProfile" />
+      <MemberSignature Language="F#" Value="member this.SkuProfile : Azure.Provisioning.Compute.ComputeSkuProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.SkuProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeSkuProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the sku profile for the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpotRestorePolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.SpotRestorePolicy SpotRestorePolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.SpotRestorePolicy SpotRestorePolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.SpotRestorePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpotRestorePolicy As SpotRestorePolicy" />
+      <MemberSignature Language="F#" Value="member this.SpotRestorePolicy : Azure.Provisioning.Compute.SpotRestorePolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.SpotRestorePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SpotRestorePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the Spot Restore properties for the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeCreated">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; TimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; TimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.TimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeCreated As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.TimeCreated : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.TimeCreated" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the time at which the Virtual Machine Scale Set resource was
+            created. Minimum api-version: 2021-11-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; UniqueId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.UniqueId : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.UniqueId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the ID which uniquely identifies a Virtual Machine Scale Set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradePolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineScaleSetUpgradePolicy UpgradePolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineScaleSetUpgradePolicy UpgradePolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.UpgradePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpgradePolicy As VirtualMachineScaleSetUpgradePolicy" />
+      <MemberSignature Language="F#" Value="member this.UpgradePolicy : Azure.Provisioning.Compute.VirtualMachineScaleSetUpgradePolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.UpgradePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetUpgradePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The upgrade policy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineScaleSetVmProfile VirtualMachineProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineScaleSetVmProfile VirtualMachineProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.VirtualMachineProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property VirtualMachineProfile As VirtualMachineScaleSetVmProfile" />
+      <MemberSignature Language="F#" Value="member this.VirtualMachineProfile : Azure.Provisioning.Compute.VirtualMachineScaleSetVmProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.VirtualMachineProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetVmProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The virtual machine profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZonalPlatformFaultDomainAlignMode">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ZonalPlatformFaultDomainAlignMode&gt; ZonalPlatformFaultDomainAlignMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ZonalPlatformFaultDomainAlignMode&gt; ZonalPlatformFaultDomainAlignMode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ZonalPlatformFaultDomainAlignMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ZonalPlatformFaultDomainAlignMode As BicepValue(Of ZonalPlatformFaultDomainAlignMode)" />
+      <MemberSignature Language="F#" Value="member this.ZonalPlatformFaultDomainAlignMode : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ZonalPlatformFaultDomainAlignMode&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ZonalPlatformFaultDomainAlignMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ZonalPlatformFaultDomainAlignMode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the align mode between Virtual Machine Scale Set compute and
+            storage Fault Domain count.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZoneBalance">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; ZoneBalance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; ZoneBalance" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ZoneBalance" />
+      <MemberSignature Language="VB.NET" Value="Public Property ZoneBalance As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ZoneBalance : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetProperties.ZoneBalance" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether to force strictly even Virtual Machine distribution cross
+            x-zones in case there is zone outage. zoneBalance property can only be
+            set if the zones property of the scale set contains more than one
+            zone. If there are no zones or only one zone specified, then
+            zoneBalance property should not be set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

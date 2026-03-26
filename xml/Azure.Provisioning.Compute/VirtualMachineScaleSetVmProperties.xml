@@ -1,0 +1,506 @@
+<Type Name="VirtualMachineScaleSetVmProperties" FullName="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties">
+  <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetVmProperties : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetVmProperties extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetVmProperties&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineScaleSetVmProperties = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the properties of a virtual machine scale set virtual machine.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetVmProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineScaleSetVmProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalCapabilities">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.AdditionalCapabilities AdditionalCapabilities { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.AdditionalCapabilities AdditionalCapabilities" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.AdditionalCapabilities" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalCapabilities As AdditionalCapabilities" />
+      <MemberSignature Language="F#" Value="member this.AdditionalCapabilities : Azure.Provisioning.Compute.AdditionalCapabilities with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.AdditionalCapabilities" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.AdditionalCapabilities</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies additional capabilities enabled or disabled on the virtual
+            machine in the scale set. For instance: whether the virtual machine
+            has the capability to support attaching managed data disks with
+            UltraSSD_LRS storage account type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailabilitySetId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; AvailabilitySetId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; AvailabilitySetId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.AvailabilitySetId" />
+      <MemberSignature Language="VB.NET" Value="Public Property AvailabilitySetId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.AvailabilitySetId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.AvailabilitySetId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BootDiagnostics">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.BootDiagnostics BootDiagnostics { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.BootDiagnostics BootDiagnostics" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.BootDiagnostics" />
+      <MemberSignature Language="VB.NET" Value="Public Property BootDiagnostics As BootDiagnostics" />
+      <MemberSignature Language="F#" Value="member this.BootDiagnostics : Azure.Provisioning.Compute.BootDiagnostics with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.BootDiagnostics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.BootDiagnostics</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Boot Diagnostics is a debugging feature which allows you to view
+            Console Output and Screenshot to diagnose VM status. **NOTE**: If
+            storageUri is being specified then ensure that the storage account is
+            in the same region and subscription as the VM. You can easily view the
+            output of your console log. Azure also enables you to see a screenshot
+            of the VM from the hypervisor.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineScaleSetVmProperties.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineScaleSetVmProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineHardwareProfile HardwareProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineHardwareProfile HardwareProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.HardwareProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property HardwareProfile As VirtualMachineHardwareProfile" />
+      <MemberSignature Language="F#" Value="member this.HardwareProfile : Azure.Provisioning.Compute.VirtualMachineHardwareProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.HardwareProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineHardwareProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the hardware settings for the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceView">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineScaleSetVmInstanceView InstanceView { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineScaleSetVmInstanceView InstanceView" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.InstanceView" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceView As VirtualMachineScaleSetVmInstanceView" />
+      <MemberSignature Language="F#" Value="member this.InstanceView : Azure.Provisioning.Compute.VirtualMachineScaleSetVmInstanceView" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.InstanceView" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetVmInstanceView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The virtual machine instance view.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LatestModelApplied">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; LatestModelApplied { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; LatestModelApplied" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.LatestModelApplied" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LatestModelApplied As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.LatestModelApplied : Azure.Provisioning.BicepValue&lt;bool&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.LatestModelApplied" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether the latest model has been applied to the virtual
+            machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicenseType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; LicenseType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; LicenseType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.LicenseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicenseType As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.LicenseType : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.LicenseType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies that the image or disk that is being used was licensed
+            on-premises. &lt;br&gt;&lt;br&gt; Possible values for Windows Server
+            operating system are: &lt;br&gt;&lt;br&gt; Windows_Client
+            &lt;br&gt;&lt;br&gt; Windows_Server &lt;br&gt;&lt;br&gt; Possible
+            values for Linux Server operating system are: &lt;br&gt;&lt;br&gt;
+            RHEL_BYOS (for RHEL) &lt;br&gt;&lt;br&gt; SLES_BYOS (for SUSE)
+            &lt;br&gt;&lt;br&gt; For more information, see [Azure Hybrid Use
+            Benefit for Windows
+            Server](https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing)
+            &lt;br&gt;&lt;br&gt; [Azure Hybrid Use Benefit for Linux
+            Server](https://docs.microsoft.com/azure/virtual-machines/linux/azure-hybrid-benefit-linux)
+            &lt;br&gt;&lt;br&gt; Minimum api-version: 2015-06-15.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModelDefinitionApplied">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ModelDefinitionApplied { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ModelDefinitionApplied" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ModelDefinitionApplied" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModelDefinitionApplied As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ModelDefinitionApplied : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ModelDefinitionApplied" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether the model applied to the virtual machine is the model
+            of the virtual machine scale set or the customized model for the
+            virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkInterfaceConfigurations">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineScaleSetNetworkConfiguration&gt; NetworkInterfaceConfigurations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.VirtualMachineScaleSetNetworkConfiguration&gt; NetworkInterfaceConfigurations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.NetworkInterfaceConfigurations" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkInterfaceConfigurations As BicepList(Of VirtualMachineScaleSetNetworkConfiguration)" />
+      <MemberSignature Language="F#" Value="member this.NetworkInterfaceConfigurations : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineScaleSetNetworkConfiguration&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.NetworkInterfaceConfigurations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineScaleSetNetworkConfiguration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The list of network configurations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineNetworkProfile NetworkProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineNetworkProfile NetworkProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.NetworkProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkProfile As VirtualMachineNetworkProfile" />
+      <MemberSignature Language="F#" Value="member this.NetworkProfile : Azure.Provisioning.Compute.VirtualMachineNetworkProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.NetworkProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineNetworkProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the network interfaces of the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineOSProfile OSProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineOSProfile OSProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.OSProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSProfile As VirtualMachineOSProfile" />
+      <MemberSignature Language="F#" Value="member this.OSProfile : Azure.Provisioning.Compute.VirtualMachineOSProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.OSProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineOSProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the operating system settings for the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineScaleSetVmProtectionPolicy ProtectionPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineScaleSetVmProtectionPolicy ProtectionPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ProtectionPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProtectionPolicy As VirtualMachineScaleSetVmProtectionPolicy" />
+      <MemberSignature Language="F#" Value="member this.ProtectionPolicy : Azure.Provisioning.Compute.VirtualMachineScaleSetVmProtectionPolicy with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ProtectionPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetVmProtectionPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the protection policy of the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The provisioning state, which only appears in the response.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResilientVmDeletionStatus">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ResilientVmDeletionStatus&gt; ResilientVmDeletionStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ResilientVmDeletionStatus&gt; ResilientVmDeletionStatus" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ResilientVmDeletionStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResilientVmDeletionStatus As BicepValue(Of ResilientVmDeletionStatus)" />
+      <MemberSignature Language="F#" Value="member this.ResilientVmDeletionStatus : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ResilientVmDeletionStatus&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.ResilientVmDeletionStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ResilientVmDeletionStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the resilient VM deletion status for the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecurityProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.SecurityProfile SecurityProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.SecurityProfile SecurityProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.SecurityProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecurityProfile As SecurityProfile" />
+      <MemberSignature Language="F#" Value="member this.SecurityProfile : Azure.Provisioning.Compute.SecurityProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.SecurityProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the Security related profile settings for the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineStorageProfile StorageProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineStorageProfile StorageProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.StorageProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageProfile As VirtualMachineStorageProfile" />
+      <MemberSignature Language="F#" Value="member this.StorageProfile : Azure.Provisioning.Compute.VirtualMachineStorageProfile with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.StorageProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineStorageProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the storage settings for the virtual machine disks.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeCreated">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; TimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; TimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.TimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeCreated As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.TimeCreated : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.TimeCreated" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the time at which the Virtual Machine resource was created.
+            Minimum api-version: 2021-11-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserData">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; UserData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; UserData" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.UserData" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserData As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.UserData : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.UserData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            UserData for the VM, which must be base-64 encoded. Customer should not
+            pass any secrets in here. Minimum api-version: 2021-03-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VmId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; VmId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; VmId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.VmId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VmId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.VmId : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetVmProperties.VmId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Azure VM unique ID.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

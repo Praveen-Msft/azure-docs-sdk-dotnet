@@ -1,0 +1,249 @@
+<Type Name="VirtualMachineNetworkInterfaceIPConfiguration" FullName="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration">
+  <TypeSignature Language="C#" Value="public class VirtualMachineNetworkInterfaceIPConfiguration : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineNetworkInterfaceIPConfiguration extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineNetworkInterfaceIPConfiguration&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineNetworkInterfaceIPConfiguration = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a virtual machine network profile's IP configuration.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineNetworkInterfaceIPConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineNetworkInterfaceIPConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationGatewayBackendAddressPools">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt; ApplicationGatewayBackendAddressPools { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Resources.WritableSubResource&gt; ApplicationGatewayBackendAddressPools" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.ApplicationGatewayBackendAddressPools" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationGatewayBackendAddressPools As BicepList(Of WritableSubResource)" />
+      <MemberSignature Language="F#" Value="member this.ApplicationGatewayBackendAddressPools : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.ApplicationGatewayBackendAddressPools" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies an array of references to backend address pools of
+            application gateways. A virtual machine can reference backend address
+            pools of multiple application gateways. Multiple virtual machines
+            cannot use the same application gateway.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationSecurityGroups">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt; ApplicationSecurityGroups { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Resources.WritableSubResource&gt; ApplicationSecurityGroups" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.ApplicationSecurityGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationSecurityGroups As BicepList(Of WritableSubResource)" />
+      <MemberSignature Language="F#" Value="member this.ApplicationSecurityGroups : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.ApplicationSecurityGroups" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies an array of references to application security group.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineNetworkInterfaceIPConfiguration.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineNetworkInterfaceIPConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadBalancerBackendAddressPools">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt; LoadBalancerBackendAddressPools { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Resources.WritableSubResource&gt; LoadBalancerBackendAddressPools" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.LoadBalancerBackendAddressPools" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoadBalancerBackendAddressPools As BicepList(Of WritableSubResource)" />
+      <MemberSignature Language="F#" Value="member this.LoadBalancerBackendAddressPools : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.LoadBalancerBackendAddressPools" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Resources.WritableSubResource&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies an array of references to backend address pools of load
+            balancers. A virtual machine can reference backend address pools of
+            one public and one internal load balancer. [Multiple virtual machines
+            cannot use the same basic sku load balancer].
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The IP configuration name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Primary">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; Primary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; Primary" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.Primary" />
+      <MemberSignature Language="VB.NET" Value="Public Property Primary As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Primary : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.Primary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the primary network interface in case the virtual machine has
+            more than 1 network interface.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateIPAddressVersion">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.IPVersion&gt; PrivateIPAddressVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.IPVersion&gt; PrivateIPAddressVersion" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.PrivateIPAddressVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateIPAddressVersion As BicepValue(Of IPVersion)" />
+      <MemberSignature Language="F#" Value="member this.PrivateIPAddressVersion : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.IPVersion&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.PrivateIPAddressVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.IPVersion&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Available from Api-Version 2017-03-30 onwards, it represents whether
+            the specific ipconfiguration is IPv4 or IPv6. Default is taken as
+            IPv4.  Possible values are: 'IPv4' and 'IPv6'.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPAddressConfiguration">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration PublicIPAddressConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration PublicIPAddressConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.PublicIPAddressConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicIPAddressConfiguration As VirtualMachinePublicIPAddressConfiguration" />
+      <MemberSignature Language="F#" Value="member this.PublicIPAddressConfiguration : Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.PublicIPAddressConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The publicIPAddressConfiguration.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubnetId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; SubnetId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; SubnetId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.SubnetId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubnetId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.SubnetId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceIPConfiguration.SubnetId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

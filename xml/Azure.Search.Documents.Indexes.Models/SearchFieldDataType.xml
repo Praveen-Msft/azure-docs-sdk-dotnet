@@ -46,7 +46,7 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
+        <param name="value"> The value. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.Search.Documents.Indexes.Models.SearchFieldDataType" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -69,7 +69,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A <see cref="T:System.Boolean" /> type.</summary>
+        <summary> Indicates that a field contains a Boolean value (true or false). </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -138,7 +138,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A complex type with child fields.</summary>
+        <summary> Indicates that a field contains one or more complex objects that in turn have sub-fields of other types. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -159,7 +159,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A <see cref="T:System.DateTimeOffset" /> type, or <see cref="T:System.DateTime" /> converted to a <see cref="T:System.DateTimeOffset" />.</summary>
+        <summary> Indicates that a field contains a date/time value, including timezone information. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,7 +180,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A <see cref="T:System.Double" /> type, or something that can convert to a <see cref="T:System.Double" />.</summary>
+        <summary> Indicates that a field contains an IEEE double-precision floating point number. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,7 +264,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A geographic point type.</summary>
+        <summary> Indicates that a field contains a geo-location in terms of longitude and latitude. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,7 +356,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>An <see cref="T:System.Int32" /> type, or something that can convert to an <see cref="T:System.Int32" />.</summary>
+        <summary> Indicates that a field contains a 32-bit signed integer. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -377,7 +377,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>An <see cref="T:System.Int64" /> type, or something that can convert to an <see cref="T:System.Int64" />.</summary>
+        <summary> Indicates that a field contains a 64-bit signed integer. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -425,8 +425,8 @@
         <Parameter Name="right" Type="Azure.Search.Documents.Indexes.Models.SearchFieldDataType" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.Search.Documents.Indexes.Models.SearchFieldDataType" /> values are the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -451,8 +451,32 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
+        <param name="value"> The value. </param>
+        <summary> Converts a string to a <see cref="T:Azure.Search.Documents.Indexes.Models.SearchFieldDataType" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Search.Documents.Indexes.Models.SearchFieldDataType? (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Nullable`1&lt;valuetype Azure.Search.Documents.Indexes.Models.SearchFieldDataType&gt; op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.SearchFieldDataType.op_Implicit(System.String)~System.Nullable{Azure.Search.Documents.Indexes.Models.SearchFieldDataType}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As Nullable(Of SearchFieldDataType)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Nullable&lt;Azure.Search.Documents.Indexes.Models.SearchFieldDataType&gt;" Usage="Azure.Search.Documents.Indexes.Models.SearchFieldDataType.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Search.Documents.Indexes.Models.SearchFieldDataType&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
         <param name="value">To be added.</param>
-        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.Search.Documents.Indexes.Models.SearchFieldDataType" />. </summary>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,8 +501,8 @@
         <Parameter Name="right" Type="Azure.Search.Documents.Indexes.Models.SearchFieldDataType" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.Search.Documents.Indexes.Models.SearchFieldDataType" /> values are not the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -521,7 +545,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A single type.</summary>
+        <summary> Indicates that a field contains a single-precision floating point number. This is only valid when used with Collection(Edm.Single). </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -542,7 +566,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchFieldDataType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A <see cref="T:System.String" /> type.</summary>
+        <summary> Indicates that a field contains a string. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -47,87 +47,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetActiveDirectoryConfigResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource GetActiveDirectoryConfigResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource GetActiveDirectoryConfigResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetActiveDirectoryConfigResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetActiveDirectoryConfigResource (id As ResourceIdentifier) As ActiveDirectoryConfigResource" />
-      <MemberSignature Language="F#" Value="abstract member GetActiveDirectoryConfigResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&#xA;override this.GetActiveDirectoryConfigResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" Usage="mockableNetAppArmClient.GetActiveDirectoryConfigResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetBucketResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.BucketResource GetBucketResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.BucketResource GetBucketResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetBucketResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetBucketResource (id As ResourceIdentifier) As BucketResource" />
-      <MemberSignature Language="F#" Value="abstract member GetBucketResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.BucketResource&#xA;override this.GetBucketResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.BucketResource" Usage="mockableNetAppArmClient.GetBucketResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.BucketResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.BucketResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.BucketResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.BucketResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.BucketResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetCacheResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.CacheResource GetCacheResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.CacheResource GetCacheResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetCacheResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCacheResource (id As ResourceIdentifier) As CacheResource" />
-      <MemberSignature Language="F#" Value="abstract member GetCacheResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.CacheResource&#xA;override this.GetCacheResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.CacheResource" Usage="mockableNetAppArmClient.GetCacheResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.CacheResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.CacheResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.CacheResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.CacheResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.CacheResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetCapacityPoolResource">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.CapacityPoolResource GetCapacityPoolResource (Azure.Core.ResourceIdentifier id);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.CapacityPoolResource GetCapacityPoolResource(class Azure.Core.ResourceIdentifier id) cil managed" />
@@ -153,222 +72,6 @@
             You can use <see cref="M:Azure.ResourceManager.NetApp.CapacityPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.CapacityPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.CapacityPoolResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccountResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticAccountResource GetElasticAccountResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticAccountResource GetElasticAccountResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticAccountResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticAccountResource (id As ResourceIdentifier) As ElasticAccountResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticAccountResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticAccountResource&#xA;override this.GetElasticAccountResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticAccountResource" Usage="mockableNetAppArmClient.GetElasticAccountResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticAccountResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticBackupPolicyResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticBackupPolicyResource GetElasticBackupPolicyResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticBackupPolicyResource GetElasticBackupPolicyResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticBackupPolicyResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticBackupPolicyResource (id As ResourceIdentifier) As ElasticBackupPolicyResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticBackupPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupPolicyResource&#xA;override this.GetElasticBackupPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" Usage="mockableNetAppArmClient.GetElasticBackupPolicyResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticBackupPolicyResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticBackupResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticBackupResource GetElasticBackupResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticBackupResource GetElasticBackupResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticBackupResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticBackupResource (id As ResourceIdentifier) As ElasticBackupResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticBackupResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupResource&#xA;override this.GetElasticBackupResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupResource" Usage="mockableNetAppArmClient.GetElasticBackupResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticBackupResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticBackupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticBackupVaultResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticBackupVaultResource GetElasticBackupVaultResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticBackupVaultResource GetElasticBackupVaultResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticBackupVaultResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticBackupVaultResource (id As ResourceIdentifier) As ElasticBackupVaultResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticBackupVaultResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupVaultResource&#xA;override this.GetElasticBackupVaultResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupVaultResource" Usage="mockableNetAppArmClient.GetElasticBackupVaultResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticBackupVaultResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupVaultResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupVaultResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticCapacityPoolResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticCapacityPoolResource GetElasticCapacityPoolResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticCapacityPoolResource GetElasticCapacityPoolResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticCapacityPoolResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticCapacityPoolResource (id As ResourceIdentifier) As ElasticCapacityPoolResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticCapacityPoolResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticCapacityPoolResource&#xA;override this.GetElasticCapacityPoolResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" Usage="mockableNetAppArmClient.GetElasticCapacityPoolResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticCapacityPoolResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticSnapshotPolicyResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource GetElasticSnapshotPolicyResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource GetElasticSnapshotPolicyResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticSnapshotPolicyResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticSnapshotPolicyResource (id As ResourceIdentifier) As ElasticSnapshotPolicyResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticSnapshotPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource&#xA;override this.GetElasticSnapshotPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" Usage="mockableNetAppArmClient.GetElasticSnapshotPolicyResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticSnapshotResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticSnapshotResource GetElasticSnapshotResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticSnapshotResource GetElasticSnapshotResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticSnapshotResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticSnapshotResource (id As ResourceIdentifier) As ElasticSnapshotResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticSnapshotResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticSnapshotResource&#xA;override this.GetElasticSnapshotResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticSnapshotResource" Usage="mockableNetAppArmClient.GetElasticSnapshotResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticSnapshotResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticSnapshotResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticVolumeResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.ElasticVolumeResource GetElasticVolumeResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.ElasticVolumeResource GetElasticVolumeResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticVolumeResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticVolumeResource (id As ResourceIdentifier) As ElasticVolumeResource" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticVolumeResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticVolumeResource&#xA;override this.GetElasticVolumeResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticVolumeResource" Usage="mockableNetAppArmClient.GetElasticVolumeResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticVolumeResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticVolumeResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticVolumeResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticVolumeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticVolumeResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -431,6 +134,33 @@
             You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource GetNetAppActiveDirectoryConfigResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource GetNetAppActiveDirectoryConfigResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppActiveDirectoryConfigResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppActiveDirectoryConfigResource (id As ResourceIdentifier) As NetAppActiveDirectoryConfigResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppActiveDirectoryConfigResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&#xA;override this.GetNetAppActiveDirectoryConfigResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" Usage="mockableNetAppArmClient.GetNetAppActiveDirectoryConfigResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -515,6 +245,276 @@
             You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppBucketResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppBucketResource GetNetAppBucketResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppBucketResource GetNetAppBucketResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppBucketResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppBucketResource (id As ResourceIdentifier) As NetAppBucketResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppBucketResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppBucketResource&#xA;override this.GetNetAppBucketResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppBucketResource" Usage="mockableNetAppArmClient.GetNetAppBucketResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppBucketResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppBucketResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppBucketResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppBucketResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppBucketResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppCacheResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppCacheResource GetNetAppCacheResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppCacheResource GetNetAppCacheResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppCacheResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppCacheResource (id As ResourceIdentifier) As NetAppCacheResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppCacheResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppCacheResource&#xA;override this.GetNetAppCacheResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppCacheResource" Usage="mockableNetAppArmClient.GetNetAppCacheResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppCacheResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppCacheResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccountResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticAccountResource GetNetAppElasticAccountResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticAccountResource GetNetAppElasticAccountResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticAccountResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticAccountResource (id As ResourceIdentifier) As NetAppElasticAccountResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticAccountResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticAccountResource&#xA;override this.GetNetAppElasticAccountResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticAccountResource" Usage="mockableNetAppArmClient.GetNetAppElasticAccountResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticAccountResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticBackupPolicyResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource GetNetAppElasticBackupPolicyResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource GetNetAppElasticBackupPolicyResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticBackupPolicyResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticBackupPolicyResource (id As ResourceIdentifier) As NetAppElasticBackupPolicyResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticBackupPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource&#xA;override this.GetNetAppElasticBackupPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" Usage="mockableNetAppArmClient.GetNetAppElasticBackupPolicyResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticBackupResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticBackupResource GetNetAppElasticBackupResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticBackupResource GetNetAppElasticBackupResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticBackupResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticBackupResource (id As ResourceIdentifier) As NetAppElasticBackupResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticBackupResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupResource&#xA;override this.GetNetAppElasticBackupResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupResource" Usage="mockableNetAppArmClient.GetNetAppElasticBackupResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticBackupResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticBackupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticBackupVaultResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource GetNetAppElasticBackupVaultResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource GetNetAppElasticBackupVaultResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticBackupVaultResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticBackupVaultResource (id As ResourceIdentifier) As NetAppElasticBackupVaultResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticBackupVaultResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource&#xA;override this.GetNetAppElasticBackupVaultResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" Usage="mockableNetAppArmClient.GetNetAppElasticBackupVaultResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticCapacityPoolResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource GetNetAppElasticCapacityPoolResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource GetNetAppElasticCapacityPoolResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticCapacityPoolResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticCapacityPoolResource (id As ResourceIdentifier) As NetAppElasticCapacityPoolResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticCapacityPoolResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource&#xA;override this.GetNetAppElasticCapacityPoolResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" Usage="mockableNetAppArmClient.GetNetAppElasticCapacityPoolResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticSnapshotPolicyResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource GetNetAppElasticSnapshotPolicyResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource GetNetAppElasticSnapshotPolicyResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticSnapshotPolicyResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticSnapshotPolicyResource (id As ResourceIdentifier) As NetAppElasticSnapshotPolicyResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticSnapshotPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource&#xA;override this.GetNetAppElasticSnapshotPolicyResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" Usage="mockableNetAppArmClient.GetNetAppElasticSnapshotPolicyResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticSnapshotResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource GetNetAppElasticSnapshotResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource GetNetAppElasticSnapshotResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticSnapshotResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticSnapshotResource (id As ResourceIdentifier) As NetAppElasticSnapshotResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticSnapshotResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource&#xA;override this.GetNetAppElasticSnapshotResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" Usage="mockableNetAppArmClient.GetNetAppElasticSnapshotResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticVolumeResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.NetApp.NetAppElasticVolumeResource GetNetAppElasticVolumeResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.NetApp.NetAppElasticVolumeResource GetNetAppElasticVolumeResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticVolumeResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticVolumeResource (id As ResourceIdentifier) As NetAppElasticVolumeResource" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticVolumeResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticVolumeResource&#xA;override this.GetNetAppElasticVolumeResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" Usage="mockableNetAppArmClient.GetNetAppElasticVolumeResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticVolumeResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

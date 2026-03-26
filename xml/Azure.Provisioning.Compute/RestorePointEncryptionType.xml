@@ -1,0 +1,88 @@
+<Type Name="RestorePointEncryptionType" FullName="Azure.Provisioning.Compute.RestorePointEncryptionType">
+  <TypeSignature Language="C#" Value="public enum RestorePointEncryptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RestorePointEncryptionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.RestorePointEncryptionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RestorePointEncryptionType" />
+  <TypeSignature Language="F#" Value="type RestorePointEncryptionType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The type of key used to encrypt the data of the disk restore point.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EncryptionAtRestWithCustomerKey">
+      <MemberSignature Language="C#" Value="EncryptionAtRestWithCustomerKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RestorePointEncryptionType EncryptionAtRestWithCustomerKey = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RestorePointEncryptionType.EncryptionAtRestWithCustomerKey" />
+      <MemberSignature Language="VB.NET" Value="EncryptionAtRestWithCustomerKey" />
+      <MemberSignature Language="F#" Value="EncryptionAtRestWithCustomerKey = 1" Usage="Azure.Provisioning.Compute.RestorePointEncryptionType.EncryptionAtRestWithCustomerKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RestorePointEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Disk Restore Point is encrypted at rest with Customer managed key that
+            can be changed and revoked by a customer.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionAtRestWithPlatformAndCustomerKeys">
+      <MemberSignature Language="C#" Value="EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RestorePointEncryptionType EncryptionAtRestWithPlatformAndCustomerKeys = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RestorePointEncryptionType.EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberSignature Language="VB.NET" Value="EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberSignature Language="F#" Value="EncryptionAtRestWithPlatformAndCustomerKeys = 2" Usage="Azure.Provisioning.Compute.RestorePointEncryptionType.EncryptionAtRestWithPlatformAndCustomerKeys" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RestorePointEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Disk Restore Point is encrypted at rest with 2 layers of encryption.
+            One of the keys is Customer managed and the other key is Platform
+            managed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionAtRestWithPlatformKey">
+      <MemberSignature Language="C#" Value="EncryptionAtRestWithPlatformKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RestorePointEncryptionType EncryptionAtRestWithPlatformKey = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RestorePointEncryptionType.EncryptionAtRestWithPlatformKey" />
+      <MemberSignature Language="VB.NET" Value="EncryptionAtRestWithPlatformKey" />
+      <MemberSignature Language="F#" Value="EncryptionAtRestWithPlatformKey = 0" Usage="Azure.Provisioning.Compute.RestorePointEncryptionType.EncryptionAtRestWithPlatformKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RestorePointEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Disk Restore Point is encrypted at rest with Platform managed key.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

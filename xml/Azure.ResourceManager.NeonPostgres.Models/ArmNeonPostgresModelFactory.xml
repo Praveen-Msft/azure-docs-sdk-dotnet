@@ -7,13 +7,14 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,7 +27,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.ConnectionUriProperties</ReturnType>
@@ -48,7 +49,7 @@
         <param name="endpointId"> the endpoint Id with this connection. </param>
         <param name="isPooled"> Indicates if the connection is pooled. </param>
         <param name="connectionStringUri"> connection uri returned for the database. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.ConnectionUriProperties" />. </summary>
+        <summary> Connection uri parameters for the associated database. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.ConnectionUriProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -62,7 +63,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.NeonBranchData</ReturnType>
@@ -75,27 +76,33 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.NeonBranchData" />. </summary>
+        <summary> The Branch resource type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.NeonBranchData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NeonBranchProperties">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties NeonBranchProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string projectId = default, string parentId = default, string roleName = default, string databaseName = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; roles = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; databases = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; endpoints = default);" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties NeonBranchProperties (string entityId, string entityName, string createdAt, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string projectId, string parentId, string roleName, string databaseName, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; roles, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; databases, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; endpoints);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties NeonBranchProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string projectId, string parentId, string roleName, string databaseName, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; roles, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; databases, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; endpoints) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonBranchProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonBranchProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional projectId As String = Nothing, Optional parentId As String = Nothing, Optional roleName As String = Nothing, Optional databaseName As String = Nothing, Optional roles As IEnumerable(Of NeonRoleProperties) = Nothing, Optional databases As IEnumerable(Of NeonDatabaseProperties) = Nothing, Optional endpoints As IEnumerable(Of NeonEndpointProperties) = Nothing) As NeonBranchProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonBranchProperties (entityId As String, entityName As String, createdAt As String, provisioningState As Nullable(Of NeonResourceProvisioningState), attributes As IEnumerable(Of Attributes), projectId As String, parentId As String, roleName As String, databaseName As String, roles As IEnumerable(Of NeonRoleProperties), databases As IEnumerable(Of NeonDatabaseProperties), endpoints As IEnumerable(Of NeonEndpointProperties)) As NeonBranchProperties" />
       <MemberSignature Language="F#" Value="static member NeonBranchProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * string * string * string * seq&lt;Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonBranchProperties (entityId, entityName, createdAt, provisioningState, attributes, projectId, parentId, roleName, databaseName, roles, databases, endpoints)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties</ReturnType>
       </ReturnValue>
@@ -131,6 +138,66 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="NeonBranchProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties NeonBranchProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string projectId = default, string parentId = default, string roleName = default, string databaseName = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; roles = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; databases = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; endpoints = default, string branchId = default, string branch = default, string dataSize = default, string lastActive = default, string computeHours = default, bool? isProtected = default, bool? isDefault = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties NeonBranchProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string projectId, string parentId, string roleName, string databaseName, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; roles, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; databases, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; endpoints, string branchId, string branch, string dataSize, string lastActive, string computeHours, valuetype System.Nullable`1&lt;bool&gt; isProtected, valuetype System.Nullable`1&lt;bool&gt; isDefault) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonBranchProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties},System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonBranchProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional projectId As String = Nothing, Optional parentId As String = Nothing, Optional roleName As String = Nothing, Optional databaseName As String = Nothing, Optional roles As IEnumerable(Of NeonRoleProperties) = Nothing, Optional databases As IEnumerable(Of NeonDatabaseProperties) = Nothing, Optional endpoints As IEnumerable(Of NeonEndpointProperties) = Nothing, Optional branchId As String = Nothing, Optional branch As String = Nothing, Optional dataSize As String = Nothing, Optional lastActive As String = Nothing, Optional computeHours As String = Nothing, Optional isProtected As Nullable(Of Boolean) = Nothing, Optional isDefault As Nullable(Of Boolean) = Nothing) As NeonBranchProperties" />
+      <MemberSignature Language="F#" Value="static member NeonBranchProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * string * string * string * seq&lt;Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt; * string * string * string * string * string * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonBranchProperties (entityId, entityName, createdAt, provisioningState, attributes, projectId, parentId, roleName, databaseName, roles, databases, endpoints, branchId, branch, dataSize, lastActive, computeHours, isProtected, isDefault)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityId" Type="System.String" />
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="createdAt" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt;" />
+        <Parameter Name="attributes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt;" />
+        <Parameter Name="projectId" Type="System.String" />
+        <Parameter Name="parentId" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="databaseName" Type="System.String" />
+        <Parameter Name="roles" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties&gt;" />
+        <Parameter Name="databases" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties&gt;" />
+        <Parameter Name="endpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties&gt;" />
+        <Parameter Name="branchId" Type="System.String" />
+        <Parameter Name="branch" Type="System.String" />
+        <Parameter Name="dataSize" Type="System.String" />
+        <Parameter Name="lastActive" Type="System.String" />
+        <Parameter Name="computeHours" Type="System.String" />
+        <Parameter Name="isProtected" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="isDefault" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="entityId"> Unique identifier for the entity. </param>
+        <param name="entityName"> Name of the resource. </param>
+        <param name="createdAt"> Timestamp indicating when the entity was created. </param>
+        <param name="provisioningState"> Provisioning state of the resource. </param>
+        <param name="attributes"> Additional attributes for the entity. </param>
+        <param name="projectId"> The ID of the project this branch belongs to. </param>
+        <param name="parentId"> The ID of the parent branch. </param>
+        <param name="roleName"> Role name associated with the branch. </param>
+        <param name="databaseName"> Database name associated with the branch. </param>
+        <param name="roles"> Roles associated with the branch. </param>
+        <param name="databases"> Neon Databases associated with the branch. </param>
+        <param name="endpoints"> Endpoints associated with the branch. </param>
+        <param name="branchId"> Unique identifier for the branch. </param>
+        <param name="branch"> Name of the branch. </param>
+        <param name="dataSize"> Total data size in MB for the branch. </param>
+        <param name="lastActive"> Last active compute for the branch. </param>
+        <param name="computeHours"> Compute hours for the branch. </param>
+        <param name="isProtected"> Branch protected status. </param>
+        <param name="isDefault"> Branch default status. </param>
+        <summary> Properties specific to Branch. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="NeonCompute">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonCompute NeonCompute (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.NeonPostgres.Models.NeonComputeProperties properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonCompute NeonCompute(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.NeonPostgres.Models.NeonComputeProperties properties) cil managed" />
@@ -140,7 +207,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonCompute</ReturnType>
@@ -153,12 +220,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonComputeProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonCompute" />. </summary>
+        <summary> The Compute resource type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonCompute" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +239,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonComputeProperties</ReturnType>
@@ -198,7 +265,7 @@
         <param name="cpuCores"> Number of allocated CPU cores. </param>
         <param name="memory"> Memory allocated in GB. </param>
         <param name="status"> Current status of the compute instance. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonComputeProperties" />. </summary>
+        <summary> Properties specific to Compute. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonComputeProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -212,7 +279,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonDatabase</ReturnType>
@@ -225,27 +292,33 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonDatabase" />. </summary>
+        <summary> The Neon Database resource type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonDatabase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NeonDatabaseProperties">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties NeonDatabaseProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string branchId = default, string ownerName = default);" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties NeonDatabaseProperties (string entityId, string entityName, string createdAt, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string branchId, string ownerName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties NeonDatabaseProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string branchId, string ownerName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonDatabaseProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonDatabaseProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional branchId As String = Nothing, Optional ownerName As String = Nothing) As NeonDatabaseProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonDatabaseProperties (entityId As String, entityName As String, createdAt As String, provisioningState As Nullable(Of NeonResourceProvisioningState), attributes As IEnumerable(Of Attributes), branchId As String, ownerName As String) As NeonDatabaseProperties" />
       <MemberSignature Language="F#" Value="static member NeonDatabaseProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * string -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonDatabaseProperties (entityId, entityName, createdAt, provisioningState, attributes, branchId, ownerName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties</ReturnType>
       </ReturnValue>
@@ -271,6 +344,46 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="NeonDatabaseProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties NeonDatabaseProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string branchId = default, string ownerName = default, string databaseName = default, DateTimeOffset? lastUpdatedOn = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties NeonDatabaseProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string branchId, string ownerName, string databaseName, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastUpdatedOn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonDatabaseProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.String,System.String,System.Nullable{System.DateTimeOffset})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonDatabaseProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional branchId As String = Nothing, Optional ownerName As String = Nothing, Optional databaseName As String = Nothing, Optional lastUpdatedOn As Nullable(Of DateTimeOffset) = Nothing) As NeonDatabaseProperties" />
+      <MemberSignature Language="F#" Value="static member NeonDatabaseProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * string * string * Nullable&lt;DateTimeOffset&gt; -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonDatabaseProperties (entityId, entityName, createdAt, provisioningState, attributes, branchId, ownerName, databaseName, lastUpdatedOn)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityId" Type="System.String" />
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="createdAt" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt;" />
+        <Parameter Name="attributes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt;" />
+        <Parameter Name="branchId" Type="System.String" />
+        <Parameter Name="ownerName" Type="System.String" />
+        <Parameter Name="databaseName" Type="System.String" />
+        <Parameter Name="lastUpdatedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="entityId"> Unique identifier for the entity. </param>
+        <param name="entityName"> Name of the resource. </param>
+        <param name="createdAt"> Timestamp indicating when the entity was created. </param>
+        <param name="provisioningState"> Provisioning state of the resource. </param>
+        <param name="attributes"> Additional attributes for the entity. </param>
+        <param name="branchId"> The ID of the branch this database belongs to. </param>
+        <param name="ownerName"> The name of the role that owns the database. </param>
+        <param name="databaseName"> Name of the database. </param>
+        <param name="lastUpdatedOn"> Timestamp indicating when the database was last updated. </param>
+        <summary> Properties specific to Databases. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="NeonEndpoint">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonEndpoint NeonEndpoint (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonEndpoint NeonEndpoint(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties properties) cil managed" />
@@ -280,7 +393,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonEndpoint</ReturnType>
@@ -293,27 +406,33 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonEndpoint" />. </summary>
+        <summary> The Neon compute endpoint resource type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonEndpoint" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NeonEndpointProperties">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties NeonEndpointProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string projectId = default, string branchId = default, Azure.ResourceManager.NeonPostgres.Models.EndpointType? endpointType = default);" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties NeonEndpointProperties (string entityId, string entityName, string createdAt, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string projectId, string branchId, Azure.ResourceManager.NeonPostgres.Models.EndpointType? endpointType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties NeonEndpointProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string projectId, string branchId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.EndpointType&gt; endpointType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonEndpointProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.EndpointType})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonEndpointProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional projectId As String = Nothing, Optional branchId As String = Nothing, Optional endpointType As Nullable(Of EndpointType) = Nothing) As NeonEndpointProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonEndpointProperties (entityId As String, entityName As String, createdAt As String, provisioningState As Nullable(Of NeonResourceProvisioningState), attributes As IEnumerable(Of Attributes), projectId As String, branchId As String, endpointType As Nullable(Of EndpointType)) As NeonEndpointProperties" />
       <MemberSignature Language="F#" Value="static member NeonEndpointProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.EndpointType&gt; -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonEndpointProperties (entityId, entityName, createdAt, provisioningState, attributes, projectId, branchId, endpointType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties</ReturnType>
       </ReturnValue>
@@ -341,6 +460,54 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="NeonEndpointProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties NeonEndpointProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string projectId = default, string branchId = default, Azure.ResourceManager.NeonPostgres.Models.EndpointType? endpointType = default, string endpointId = default, string computeName = default, Azure.ResourceManager.NeonPostgres.Models.NeonComputeEndpointStatus? status = default, DateTimeOffset? lastActiveOn = default, Azure.ResourceManager.NeonPostgres.Models.NeonComputeAutoscalingSize size = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties NeonEndpointProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string projectId, string branchId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.EndpointType&gt; endpointType, string endpointId, string computeName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonComputeEndpointStatus&gt; status, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastActiveOn, class Azure.ResourceManager.NeonPostgres.Models.NeonComputeAutoscalingSize size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonEndpointProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.EndpointType},System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonComputeEndpointStatus},System.Nullable{System.DateTimeOffset},Azure.ResourceManager.NeonPostgres.Models.NeonComputeAutoscalingSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonEndpointProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional projectId As String = Nothing, Optional branchId As String = Nothing, Optional endpointType As Nullable(Of EndpointType) = Nothing, Optional endpointId As String = Nothing, Optional computeName As String = Nothing, Optional status As Nullable(Of NeonComputeEndpointStatus) = Nothing, Optional lastActiveOn As Nullable(Of DateTimeOffset) = Nothing, Optional size As NeonComputeAutoscalingSize = Nothing) As NeonEndpointProperties" />
+      <MemberSignature Language="F#" Value="static member NeonEndpointProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.EndpointType&gt; * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonComputeEndpointStatus&gt; * Nullable&lt;DateTimeOffset&gt; * Azure.ResourceManager.NeonPostgres.Models.NeonComputeAutoscalingSize -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonEndpointProperties (entityId, entityName, createdAt, provisioningState, attributes, projectId, branchId, endpointType, endpointId, computeName, status, lastActiveOn, size)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityId" Type="System.String" />
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="createdAt" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt;" />
+        <Parameter Name="attributes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt;" />
+        <Parameter Name="projectId" Type="System.String" />
+        <Parameter Name="branchId" Type="System.String" />
+        <Parameter Name="endpointType" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.EndpointType&gt;" />
+        <Parameter Name="endpointId" Type="System.String" />
+        <Parameter Name="computeName" Type="System.String" />
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonComputeEndpointStatus&gt;" />
+        <Parameter Name="lastActiveOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="size" Type="Azure.ResourceManager.NeonPostgres.Models.NeonComputeAutoscalingSize" />
+      </Parameters>
+      <Docs>
+        <param name="entityId"> Unique identifier for the entity. </param>
+        <param name="entityName"> Name of the resource. </param>
+        <param name="createdAt"> Timestamp indicating when the entity was created. </param>
+        <param name="provisioningState"> Provisioning state of the resource. </param>
+        <param name="attributes"> Additional attributes for the entity. </param>
+        <param name="projectId"> The ID of the project this endpoint belongs to. </param>
+        <param name="branchId"> The ID of the branch this endpoint belongs to. </param>
+        <param name="endpointType"> The type of the endpoint. </param>
+        <param name="endpointId"> Unique identifier for the compute endpoint. </param>
+        <param name="computeName"> Name of the compute endpoint. </param>
+        <param name="status"> The current status of the compute endpoint. </param>
+        <param name="lastActiveOn"> The timestamp when the compute endpoint was last active. </param>
+        <param name="size"> The compute units size range for autoscaling (MinCU-MaxCU). </param>
+        <summary> Properties specific to Endpoints. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="NeonOrganizationData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.NeonOrganizationData NeonOrganizationData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationProperties properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.NeonOrganizationData NeonOrganizationData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationProperties properties) cil managed" />
@@ -350,7 +517,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.NeonOrganizationData</ReturnType>
@@ -365,15 +532,41 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The geo-location where the resource lives. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.NeonOrganizationData" />. </summary>
+        <summary> Organization Resource by Neon. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.NeonOrganizationData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeonOrganizationPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatch NeonOrganizationPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatchProperties properties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatch NeonOrganizationPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatchProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonOrganizationPatch(System.Collections.Generic.IDictionary{System.String,System.String},Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatchProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonOrganizationPatch (Optional tags As IDictionary(Of String, String) = Nothing, Optional properties As NeonOrganizationPatchProperties = Nothing) As NeonOrganizationPatch" />
+      <MemberSignature Language="F#" Value="static member NeonOrganizationPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatchProperties -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatch" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonOrganizationPatch (tags, properties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatchProperties" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> Resource tags. </param>
+        <param name="properties"> The resource-specific properties for this resource. </param>
+        <summary> The type used for update operations of the OrganizationResource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -386,7 +579,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationProperties</ReturnType>
@@ -406,7 +599,7 @@
         <param name="provisioningState"> Provisioning state of the resource. </param>
         <param name="partnerOrganizationProperties"> Neon Organization properties. </param>
         <param name="projectProperties"> Neon Project Properties. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationProperties" />. </summary>
+        <summary> Properties specific to Neon Organization resource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonOrganizationProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,7 +613,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.NeonProjectData</ReturnType>
@@ -433,12 +626,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonProjectProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.NeonProjectData" />. </summary>
+        <summary> The Project resource type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.NeonProjectData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -452,7 +645,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonProjectProperties</ReturnType>
@@ -488,7 +681,7 @@
         <param name="roles"> Roles associated with the project. </param>
         <param name="databases"> Neon Databases associated with the project. </param>
         <param name="endpoints"> Endpoints associated with the project. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonProjectProperties" />. </summary>
+        <summary> Properties specific to Project. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonProjectProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -502,7 +695,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonRole</ReturnType>
@@ -515,27 +708,33 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonRole" />. </summary>
+        <summary> The Neon Role resource type. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonRole" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NeonRoleProperties">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties NeonRoleProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string branchId = default, System.Collections.Generic.IEnumerable&lt;string&gt; permissions = default, bool? isSuperUser = default);" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties NeonRoleProperties (string entityId, string entityName, string createdAt, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string branchId, System.Collections.Generic.IEnumerable&lt;string&gt; permissions, bool? isSuperUser);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties NeonRoleProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string branchId, class System.Collections.Generic.IEnumerable`1&lt;string&gt; permissions, valuetype System.Nullable`1&lt;bool&gt; isSuperUser) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonRoleProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonRoleProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional branchId As String = Nothing, Optional permissions As IEnumerable(Of String) = Nothing, Optional isSuperUser As Nullable(Of Boolean) = Nothing) As NeonRoleProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonRoleProperties (entityId As String, entityName As String, createdAt As String, provisioningState As Nullable(Of NeonResourceProvisioningState), attributes As IEnumerable(Of Attributes), branchId As String, permissions As IEnumerable(Of String), isSuperUser As Nullable(Of Boolean)) As NeonRoleProperties" />
       <MemberSignature Language="F#" Value="static member NeonRoleProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * seq&lt;string&gt; * Nullable&lt;bool&gt; -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonRoleProperties (entityId, entityName, createdAt, provisioningState, attributes, branchId, permissions, isSuperUser)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties</ReturnType>
       </ReturnValue>
@@ -563,6 +762,80 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="NeonRoleProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties NeonRoleProperties (string entityId = default, string entityName = default, string createdAt = default, Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState? provisioningState = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes = default, string branchId = default, System.Collections.Generic.IEnumerable&lt;string&gt; permissions = default, bool? isSuperUser = default, string roleName = default, DateTimeOffset? lastUpdatedOn = default, string owns = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties NeonRoleProperties(string entityId, string entityName, string createdAt, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; provisioningState, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; attributes, string branchId, class System.Collections.Generic.IEnumerable`1&lt;string&gt; permissions, valuetype System.Nullable`1&lt;bool&gt; isSuperUser, string roleName, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastUpdatedOn, string owns) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonRoleProperties(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState},System.Collections.Generic.IEnumerable{Azure.ResourceManager.NeonPostgres.Models.Attributes},System.String,System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.DateTimeOffset},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonRoleProperties (Optional entityId As String = Nothing, Optional entityName As String = Nothing, Optional createdAt As String = Nothing, Optional provisioningState As Nullable(Of NeonResourceProvisioningState) = Nothing, Optional attributes As IEnumerable(Of Attributes) = Nothing, Optional branchId As String = Nothing, Optional permissions As IEnumerable(Of String) = Nothing, Optional isSuperUser As Nullable(Of Boolean) = Nothing, Optional roleName As String = Nothing, Optional lastUpdatedOn As Nullable(Of DateTimeOffset) = Nothing, Optional owns As String = Nothing) As NeonRoleProperties" />
+      <MemberSignature Language="F#" Value="static member NeonRoleProperties : string * string * string * Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt; * seq&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt; * string * seq&lt;string&gt; * Nullable&lt;bool&gt; * string * Nullable&lt;DateTimeOffset&gt; * string -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonRoleProperties (entityId, entityName, createdAt, provisioningState, attributes, branchId, permissions, isSuperUser, roleName, lastUpdatedOn, owns)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityId" Type="System.String" />
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="createdAt" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonResourceProvisioningState&gt;" />
+        <Parameter Name="attributes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.Attributes&gt;" />
+        <Parameter Name="branchId" Type="System.String" />
+        <Parameter Name="permissions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="isSuperUser" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="lastUpdatedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="owns" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="entityId"> Unique identifier for the entity. </param>
+        <param name="entityName"> Name of the resource. </param>
+        <param name="createdAt"> Timestamp indicating when the entity was created. </param>
+        <param name="provisioningState"> Provisioning state of the resource. </param>
+        <param name="attributes"> Additional attributes for the entity. </param>
+        <param name="branchId"> The ID of the branch this role belongs to. </param>
+        <param name="permissions"> Permissions assigned to the role. </param>
+        <param name="isSuperUser"> Indicates whether the role has superuser privileges. </param>
+        <param name="roleName"> Name of the role. </param>
+        <param name="lastUpdatedOn"> Timestamp indicating when the role was last updated. </param>
+        <param name="owns"> Databases name associated with the role. </param>
+        <summary> Properties specific to Roles. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeonSingleSignOnProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnProperties NeonSingleSignOnProperties (Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnState? singleSignOnState = default, string enterpriseAppId = default, string singleSignOnUri = default, System.Collections.Generic.IEnumerable&lt;string&gt; aadDomains = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnProperties NeonSingleSignOnProperties(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnState&gt; singleSignOnState, string enterpriseAppId, string singleSignOnUri, class System.Collections.Generic.IEnumerable`1&lt;string&gt; aadDomains) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonSingleSignOnProperties(System.Nullable{Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnState},System.String,System.String,System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NeonSingleSignOnProperties (Optional singleSignOnState As Nullable(Of NeonSingleSignOnState) = Nothing, Optional enterpriseAppId As String = Nothing, Optional singleSignOnUri As String = Nothing, Optional aadDomains As IEnumerable(Of String) = Nothing) As NeonSingleSignOnProperties" />
+      <MemberSignature Language="F#" Value="static member NeonSingleSignOnProperties : Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnState&gt; * string * string * seq&lt;string&gt; -&gt; Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnProperties" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.NeonSingleSignOnProperties (singleSignOnState, enterpriseAppId, singleSignOnUri, aadDomains)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="singleSignOnState" Type="System.Nullable&lt;Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnState&gt;" />
+        <Parameter Name="enterpriseAppId" Type="System.String" />
+        <Parameter Name="singleSignOnUri" Type="System.String" />
+        <Parameter Name="aadDomains" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="singleSignOnState"> State of the Single Sign On for the organization. </param>
+        <param name="enterpriseAppId"> AAD enterprise application Id used to setup SSO. </param>
+        <param name="singleSignOnUri"> URL for SSO to be used by the partner to redirect the user to their system. </param>
+        <param name="aadDomains"> List of AAD domains fetched from Microsoft Graph for user. </param>
+        <summary> Properties specific to Single Sign On Resource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.NeonSingleSignOnProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="PgVersionsResult">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.PgVersionsResult PgVersionsResult (System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.NeonPostgres.Models.PgVersion&gt; versions = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.PgVersionsResult PgVersionsResult(class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.NeonPostgres.Models.PgVersion&gt; versions) cil managed" />
@@ -572,7 +845,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NeonPostgres.Models.PgVersionsResult</ReturnType>
@@ -582,8 +855,74 @@
       </Parameters>
       <Docs>
         <param name="versions"> List of PostgreSQL versions. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NeonPostgres.Models.PgVersionsResult" />. </summary>
+        <summary> Response model for PostgreSQL versions. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.PgVersionsResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreflightCheckContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.PreflightCheckContent PreflightCheckContent (string projectId = default, string branchId = default, Azure.ResourceManager.NeonPostgres.Models.PreflightCheckEntityType entityType = default, Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties branchProperties = default, Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties roleProperties = default, Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties databaseProperties = default, Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties endpointProperties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.PreflightCheckContent PreflightCheckContent(string projectId, string branchId, valuetype Azure.ResourceManager.NeonPostgres.Models.PreflightCheckEntityType entityType, class Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties branchProperties, class Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties roleProperties, class Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties databaseProperties, class Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties endpointProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.PreflightCheckContent(System.String,System.String,Azure.ResourceManager.NeonPostgres.Models.PreflightCheckEntityType,Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties,Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties,Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties,Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PreflightCheckContent (Optional projectId As String = Nothing, Optional branchId As String = Nothing, Optional entityType As PreflightCheckEntityType = Nothing, Optional branchProperties As NeonBranchProperties = Nothing, Optional roleProperties As NeonRoleProperties = Nothing, Optional databaseProperties As NeonDatabaseProperties = Nothing, Optional endpointProperties As NeonEndpointProperties = Nothing) As PreflightCheckContent" />
+      <MemberSignature Language="F#" Value="static member PreflightCheckContent : string * string * Azure.ResourceManager.NeonPostgres.Models.PreflightCheckEntityType * Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties * Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties * Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties * Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties -&gt; Azure.ResourceManager.NeonPostgres.Models.PreflightCheckContent" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.PreflightCheckContent (projectId, branchId, entityType, branchProperties, roleProperties, databaseProperties, endpointProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.PreflightCheckContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="projectId" Type="System.String" />
+        <Parameter Name="branchId" Type="System.String" />
+        <Parameter Name="entityType" Type="Azure.ResourceManager.NeonPostgres.Models.PreflightCheckEntityType" />
+        <Parameter Name="branchProperties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonBranchProperties" />
+        <Parameter Name="roleProperties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonRoleProperties" />
+        <Parameter Name="databaseProperties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonDatabaseProperties" />
+        <Parameter Name="endpointProperties" Type="Azure.ResourceManager.NeonPostgres.Models.NeonEndpointProperties" />
+      </Parameters>
+      <Docs>
+        <param name="projectId"> Project Id associated with this connection. </param>
+        <param name="branchId"> Branch Id associated with this connection. </param>
+        <param name="entityType"> Entity type to be validated for deletion. </param>
+        <param name="branchProperties"> The branch properties - ONLY provided when entityType is 'branch'. </param>
+        <param name="roleProperties"> The role properties - ONLY provided when entityType is 'role'. </param>
+        <param name="databaseProperties"> The database properties - ONLY provided when entityType is 'database'. </param>
+        <param name="endpointProperties"> The endpoint properties - ONLY provided when entityType is 'endpoint'. </param>
+        <summary>
+            Preflight check parameters for branch and child resources.
+            IMPORTANT: Only one of the property types (branchProperties, roleProperties, databaseProperties,
+            or endpointProperties) should be provided at a time, based on the entityType value:
+            <list type="bullet"><item><description>When entityType is "branch", provide only branchProperties</description></item><item><description>When entityType is "role", provide only roleProperties</description></item><item><description>When entityType is "database", provide only databaseProperties</description></item><item><description>When entityType is "endpoint", provide only endpointProperties</description></item></list></summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.PreflightCheckContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreflightCheckResult">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NeonPostgres.Models.PreflightCheckResult PreflightCheckResult (bool isValid = false, string reason = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NeonPostgres.Models.PreflightCheckResult PreflightCheckResult(bool isValid, string reason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.PreflightCheckResult(System.Boolean,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PreflightCheckResult (Optional isValid As Boolean = false, Optional reason As String = Nothing) As PreflightCheckResult" />
+      <MemberSignature Language="F#" Value="static member PreflightCheckResult : bool * string -&gt; Azure.ResourceManager.NeonPostgres.Models.PreflightCheckResult" Usage="Azure.ResourceManager.NeonPostgres.Models.ArmNeonPostgresModelFactory.PreflightCheckResult (isValid, reason)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NeonPostgres</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NeonPostgres.Models.PreflightCheckResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isValid" Type="System.Boolean" />
+        <Parameter Name="reason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="isValid"> Indicates whether action is allowed. </param>
+        <param name="reason"> Optional message in case action is not allowed. </param>
+        <summary> Result of the pre-deletion validation operation. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NeonPostgres.Models.PreflightCheckResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

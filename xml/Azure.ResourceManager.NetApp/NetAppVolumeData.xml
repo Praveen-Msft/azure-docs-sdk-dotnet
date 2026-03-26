@@ -188,18 +188,18 @@
       </Docs>
     </Member>
     <Member MemberName="BreakthroughMode">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.BreakthroughMode? BreakthroughMode { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.BreakthroughMode&gt; BreakthroughMode" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppBreakthroughMode? BreakthroughMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.NetAppBreakthroughMode&gt; BreakthroughMode" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.NetAppVolumeData.BreakthroughMode" />
-      <MemberSignature Language="VB.NET" Value="Public Property BreakthroughMode As Nullable(Of BreakthroughMode)" />
-      <MemberSignature Language="F#" Value="member this.BreakthroughMode : Nullable&lt;Azure.ResourceManager.NetApp.Models.BreakthroughMode&gt; with get, set" Usage="Azure.ResourceManager.NetApp.NetAppVolumeData.BreakthroughMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property BreakthroughMode As Nullable(Of NetAppBreakthroughMode)" />
+      <MemberSignature Language="F#" Value="member this.BreakthroughMode : Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppBreakthroughMode&gt; with get, set" Usage="Azure.ResourceManager.NetApp.NetAppVolumeData.BreakthroughMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.BreakthroughMode&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppBreakthroughMode&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies whether the volume operates in Breakthrough Mode. </summary>
@@ -895,18 +895,18 @@
       </Docs>
     </Member>
     <Member MemberName="LargeVolumeType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.LargeVolumeType? LargeVolumeType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.LargeVolumeType&gt; LargeVolumeType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppLargeVolumeType? LargeVolumeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.NetAppLargeVolumeType&gt; LargeVolumeType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.NetAppVolumeData.LargeVolumeType" />
-      <MemberSignature Language="VB.NET" Value="Public Property LargeVolumeType As Nullable(Of LargeVolumeType)" />
-      <MemberSignature Language="F#" Value="member this.LargeVolumeType : Nullable&lt;Azure.ResourceManager.NetApp.Models.LargeVolumeType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.NetAppVolumeData.LargeVolumeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property LargeVolumeType As Nullable(Of NetAppLargeVolumeType)" />
+      <MemberSignature Language="F#" Value="member this.LargeVolumeType : Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppLargeVolumeType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.NetAppVolumeData.LargeVolumeType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.LargeVolumeType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppLargeVolumeType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -919,18 +919,18 @@
       </Docs>
     </Member>
     <Member MemberName="LdapServerType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.LdapServerType? LdapServerType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.LdapServerType&gt; LdapServerType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppLdapServerType? LdapServerType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.NetAppLdapServerType&gt; LdapServerType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.NetAppVolumeData.LdapServerType" />
-      <MemberSignature Language="VB.NET" Value="Public Property LdapServerType As Nullable(Of LdapServerType)" />
-      <MemberSignature Language="F#" Value="member this.LdapServerType : Nullable&lt;Azure.ResourceManager.NetApp.Models.LdapServerType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.NetAppVolumeData.LdapServerType" />
+      <MemberSignature Language="VB.NET" Value="Public Property LdapServerType As Nullable(Of NetAppLdapServerType)" />
+      <MemberSignature Language="F#" Value="member this.LdapServerType : Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppLdapServerType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.NetAppVolumeData.LdapServerType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.LdapServerType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppLdapServerType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the type of LDAP server for a given NFS volume. </summary>

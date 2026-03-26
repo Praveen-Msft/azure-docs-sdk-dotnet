@@ -9,13 +9,14 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.2.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,8 +29,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.Models.LoadTestingEndpointDependency</ReturnType>
@@ -43,7 +44,7 @@
         <param name="domainName"> The domain name of the dependency. Domain names may be fully qualified or may contain a * wildcard. </param>
         <param name="description"> Human-readable supplemental information about the dependency and when it is applicable. </param>
         <param name="endpointDetails"> The list of connection details for this endpoint. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingEndpointDependency" />. </summary>
+        <summary> A domain name and connection details used to access a dependency. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingEndpointDependency" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -57,8 +58,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.Models.LoadTestingEndpointDetail</ReturnType>
@@ -68,7 +69,7 @@
       </Parameters>
       <Docs>
         <param name="port"> The port an endpoint is connected to. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingEndpointDetail" />. </summary>
+        <summary> Details about the connection between the Batch service and the endpoint. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingEndpointDetail" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -82,8 +83,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.Models.LoadTestingOutboundEnvironmentEndpoint</ReturnType>
@@ -95,7 +96,7 @@
       <Docs>
         <param name="category"> The type of service that Azure Load Testing connects to. </param>
         <param name="endpoints"> The endpoints for this service to which the Batch service makes outbound calls. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingOutboundEnvironmentEndpoint" />. </summary>
+        <summary> A collection of related endpoints from the same service for which the Batch service requires outbound access. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingOutboundEnvironmentEndpoint" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,8 +110,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.Models.LoadTestingQuotaAvailabilityResult</ReturnType>
@@ -124,10 +125,10 @@
         <Parameter Name="availabilityStatus" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="isAvailable"> True/False indicating whether the quota request be granted based on availability. </param>
         <param name="availabilityStatus"> Message indicating additional details to add to quota support request. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.LoadTesting.Models.LoadTestingQuotaAvailabilityResult" />. </summary>
@@ -144,8 +145,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.Models.LoadTestingQuotaBucketContent</ReturnType>
@@ -161,10 +162,10 @@
         <Parameter Name="dimensions" Type="Azure.ResourceManager.LoadTesting.Models.LoadTestingQuotaBucketDimensions" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="currentUsage"> Current quota usage of the quota bucket. </param>
         <param name="currentQuota"> Current quota limit of the quota bucket. </param>
         <param name="newQuota"> New quota limit of the quota bucket. </param>
@@ -183,8 +184,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.LoadTestingQuotaData</ReturnType>
@@ -199,10 +200,10 @@
         <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.LoadTesting.Models.LoadTestingProvisioningState&gt;" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="limit"> Current quota limit of the quota bucket. </param>
         <param name="usage"> Current quota usage of the quota bucket. </param>
         <param name="provisioningState"> Resource provisioning state. </param>
@@ -220,8 +221,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.2.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LoadTesting.LoadTestingResourceData</ReturnType>
@@ -253,6 +254,130 @@
         <param name="encryption"> CMK Encryption property. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.LoadTesting.LoadTestingResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.LoadTestingResourceData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadTestMappingData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.LoadTesting.LoadTestMappingData LoadTestMappingData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.LoadTesting.Models.LoadTestMappingProperties properties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.LoadTesting.LoadTestMappingData LoadTestMappingData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.LoadTesting.Models.LoadTestMappingProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.LoadTestMappingData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.LoadTesting.Models.LoadTestMappingProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadTestMappingData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional properties As LoadTestMappingProperties = Nothing) As LoadTestMappingData" />
+      <MemberSignature Language="F#" Value="static member LoadTestMappingData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.LoadTesting.Models.LoadTestMappingProperties -&gt; Azure.ResourceManager.LoadTesting.LoadTestMappingData" Usage="Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.LoadTestMappingData (id, name, resourceType, systemData, properties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.LoadTesting.LoadTestMappingData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.LoadTesting.Models.LoadTestMappingProperties" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="properties"> The resource-specific properties for this resource. </param>
+        <summary> LoadTest mapping resource details. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.LoadTestMappingData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadTestProfileMappingData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.LoadTesting.LoadTestProfileMappingData LoadTestProfileMappingData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.LoadTesting.Models.LoadTestProfileMappingProperties properties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.LoadTesting.LoadTestProfileMappingData LoadTestProfileMappingData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.LoadTesting.Models.LoadTestProfileMappingProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.LoadTestProfileMappingData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.LoadTesting.Models.LoadTestProfileMappingProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadTestProfileMappingData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional properties As LoadTestProfileMappingProperties = Nothing) As LoadTestProfileMappingData" />
+      <MemberSignature Language="F#" Value="static member LoadTestProfileMappingData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.LoadTesting.Models.LoadTestProfileMappingProperties -&gt; Azure.ResourceManager.LoadTesting.LoadTestProfileMappingData" Usage="Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.LoadTestProfileMappingData (id, name, resourceType, systemData, properties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.LoadTesting.LoadTestProfileMappingData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.LoadTesting.Models.LoadTestProfileMappingProperties" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="properties"> The resource-specific properties for this resource. </param>
+        <summary> LoadTest profile mapping resource details. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.LoadTestProfileMappingData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxMonthlyVirtualUserHoursData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.LoadTesting.MaxMonthlyVirtualUserHoursData MaxMonthlyVirtualUserHoursData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties properties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.LoadTesting.MaxMonthlyVirtualUserHoursData MaxMonthlyVirtualUserHoursData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.MaxMonthlyVirtualUserHoursData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MaxMonthlyVirtualUserHoursData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional properties As MaxMonthlyVirtualUserHoursProperties = Nothing) As MaxMonthlyVirtualUserHoursData" />
+      <MemberSignature Language="F#" Value="static member MaxMonthlyVirtualUserHoursData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties -&gt; Azure.ResourceManager.LoadTesting.MaxMonthlyVirtualUserHoursData" Usage="Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.MaxMonthlyVirtualUserHoursData (id, name, resourceType, systemData, properties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.LoadTesting.MaxMonthlyVirtualUserHoursData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="properties"> The resource-specific properties for this resource. </param>
+        <summary> Max monthly virtual usage hours resource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.MaxMonthlyVirtualUserHoursData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxMonthlyVirtualUserHoursProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties MaxMonthlyVirtualUserHoursProperties (int? limit = default, int? usage = default, Azure.ResourceManager.LoadTesting.Models.LoadTestingProvisioningState? provisioningState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties MaxMonthlyVirtualUserHoursProperties(valuetype System.Nullable`1&lt;int32&gt; limit, valuetype System.Nullable`1&lt;int32&gt; usage, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.LoadTesting.Models.LoadTestingProvisioningState&gt; provisioningState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.MaxMonthlyVirtualUserHoursProperties(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{Azure.ResourceManager.LoadTesting.Models.LoadTestingProvisioningState})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MaxMonthlyVirtualUserHoursProperties (Optional limit As Nullable(Of Integer) = Nothing, Optional usage As Nullable(Of Integer) = Nothing, Optional provisioningState As Nullable(Of LoadTestingProvisioningState) = Nothing) As MaxMonthlyVirtualUserHoursProperties" />
+      <MemberSignature Language="F#" Value="static member MaxMonthlyVirtualUserHoursProperties : Nullable&lt;int&gt; * Nullable&lt;int&gt; * Nullable&lt;Azure.ResourceManager.LoadTesting.Models.LoadTestingProvisioningState&gt; -&gt; Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties" Usage="Azure.ResourceManager.LoadTesting.Models.ArmLoadTestingModelFactory.MaxMonthlyVirtualUserHoursProperties (limit, usage, provisioningState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.LoadTesting</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="limit" Type="System.Nullable&lt;System.Int32&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="usage" Type="System.Nullable&lt;System.Int32&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.LoadTesting.Models.LoadTestingProvisioningState&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="limit"> Current limit value, with -1 indicating that there is no limit. </param>
+        <param name="usage"> Current usage value. </param>
+        <param name="provisioningState"> Resource provisioning state. </param>
+        <summary> Max monthly virtual usage hours resource limit properties. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.LoadTesting.Models.MaxMonthlyVirtualUserHoursProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -15,7 +15,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,7 +53,7 @@
         <param name="certificate"> base-64 representation of X509 certificate .cer file or just .pem file content. </param>
         <param name="createdOn"> Certificate created time. </param>
         <param name="updatedOn"> Certificate updated time. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.CertificateVerificationCodeProperties" />. </summary>
+        <summary> The CertificateVerificationCodeProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.CertificateVerificationCodeProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,13 +171,13 @@
         <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" Index="11" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
-        <param name="etag"> The Etag field is *not* required. If it is provided in the response body, it must also be provided as a header per the normal ETag convention. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The geo-location where the resource lives. </param>
+        <param name="etag"> The Etag field is <i>not</i> required. If it is provided in the response body, it must also be provided as a header per the normal ETag convention. </param>
         <param name="resourceGroup"> The resource group of the resource. </param>
         <param name="subscriptionId"> The subscription id of the resource. </param>
         <param name="properties"> Service specific properties for a provisioning service. </param>
@@ -185,6 +185,30 @@
         <param name="identity"> The managed service identities assigned to this resource. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServiceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServiceData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceProvisioningServicePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicePatch DeviceProvisioningServicePatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicePatch DeviceProvisioningServicePatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DeviceProvisioningServices.Models.ArmDeviceProvisioningServicesModelFactory.DeviceProvisioningServicePatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeviceProvisioningServicePatch (Optional tags As IDictionary(Of String, String) = Nothing) As DeviceProvisioningServicePatch" />
+      <MemberSignature Language="F#" Value="static member DeviceProvisioningServicePatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicePatch" Usage="Azure.ResourceManager.DeviceProvisioningServices.Models.ArmDeviceProvisioningServicesModelFactory.DeviceProvisioningServicePatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DeviceProvisioningServices</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> Resource tags. </param>
+        <summary> A container holding only the Tags for a resource, allowing the user to update the tags on a Provisioning Service instance. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,7 +263,7 @@
         <param name="authorizationPolicies"> List of authorization keys for a provisioning service. </param>
         <param name="isDataResidencyEnabled">
             Optional.
-            Indicates if the DPS instance has Data Residency enabled, removing the cross geo-pair disaster recovery.
+                        Indicates if the DPS instance has Data Residency enabled, removing the cross geo-pair disaster recovery.
             </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServiceProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServiceProperties" /> instance for mocking. </returns>
@@ -294,7 +318,7 @@
             Indicates if the DPS instance has Data Residency enabled, removing the cross geo-pair disaster recovery.
             </param>
         <param name="portalOperationsHostName"> Portal endpoint to enable CORS for this provisioning service. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServiceProperties" />. </summary>
+        <summary> the service specific properties of a provisioning service, including keys, linked iot hubs, current state, and system generated properties such as hostname and idScope. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServiceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -323,10 +347,10 @@
         <Parameter Name="etag" Type="System.Nullable&lt;Azure.ETag&gt;" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> properties of a certificate. </param>
         <param name="etag"> The entity tag. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServicesCertificateData" />. </summary>
@@ -366,8 +390,32 @@
         <param name="certificate"> base-64 representation of X509 certificate .cer file or just .pem file content. </param>
         <param name="createdOn"> The certificate's creation date and time. </param>
         <param name="updatedOn"> The certificate's last update date and time. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesCertificateProperties" />. </summary>
+        <summary> The description of an X509 CA Certificate. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesCertificateProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceProvisioningServicesNameAvailabilityContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityContent DeviceProvisioningServicesNameAvailabilityContent (string name = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityContent DeviceProvisioningServicesNameAvailabilityContent(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DeviceProvisioningServices.Models.ArmDeviceProvisioningServicesModelFactory.DeviceProvisioningServicesNameAvailabilityContent(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeviceProvisioningServicesNameAvailabilityContent (Optional name As String = Nothing) As DeviceProvisioningServicesNameAvailabilityContent" />
+      <MemberSignature Language="F#" Value="static member DeviceProvisioningServicesNameAvailabilityContent : string -&gt; Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityContent" Usage="Azure.ResourceManager.DeviceProvisioningServices.Models.ArmDeviceProvisioningServicesModelFactory.DeviceProvisioningServicesNameAvailabilityContent name" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DeviceProvisioningServices</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The name of the Provisioning Service to check. </param>
+        <summary> Input values for operation results call. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -395,7 +443,7 @@
         <param name="isNameAvailable"> specifies if a name is available or not. </param>
         <param name="reason"> specifies the reason a name is unavailable. </param>
         <param name="message"> message containing a detailed reason name is unavailable. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityResult" />. </summary>
+        <summary> Description of name availability. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesNameAvailabilityResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -423,12 +471,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesPrivateEndpointConnectionProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The properties of a private endpoint connection. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServicesPrivateEndpointConnectionData" />. </summary>
+        <summary> The private endpoint connection of a provisioning service. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServicesPrivateEndpointConnectionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -456,12 +504,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesPrivateLinkResourceProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The properties for a group information object. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServicesPrivateLinkResourceData" />. </summary>
+        <summary> The group information for creating a private endpoint on a provisioning service. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.DeviceProvisioningServicesPrivateLinkResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -490,7 +538,7 @@
         <param name="groupId"> The group id. </param>
         <param name="requiredMembers"> The required members for a specific group id. </param>
         <param name="requiredZoneNames"> The required DNS zones for a specific group id. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesPrivateLinkResourceProperties" />. </summary>
+        <summary> The properties for a group information object. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesPrivateLinkResourceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -515,7 +563,7 @@
       </Parameters>
       <Docs>
         <param name="name"> Sku name. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesSkuDefinition" />. </summary>
+        <summary> Available SKUs of tier and units. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesSkuDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -544,7 +592,7 @@
         <param name="name"> Sku name. </param>
         <param name="tier"> Pricing tier name of the provisioning service. </param>
         <param name="capacity"> The number of units to provision. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesSkuInfo" />. </summary>
+        <summary> List of possible provisioning service SKUs. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.DeviceProvisioningServicesSkuInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -577,7 +625,7 @@
         <param name="name"> Host name of the IoT hub. </param>
         <param name="connectionString"> Connection string of the IoT hub. </param>
         <param name="location"> ARM region of the IoT hub. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.IotHubDefinitionDescription" />. </summary>
+        <summary> Description of the IoT hub. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DeviceProvisioningServices.Models.IotHubDefinitionDescription" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

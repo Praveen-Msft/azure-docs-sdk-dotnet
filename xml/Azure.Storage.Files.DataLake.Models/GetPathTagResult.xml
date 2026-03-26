@@ -1,0 +1,45 @@
+<Type Name="GetPathTagResult" FullName="Azure.Storage.Files.DataLake.Models.GetPathTagResult">
+  <TypeSignature Language="C#" Value="public class GetPathTagResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GetPathTagResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Storage.Files.DataLake.Models.GetPathTagResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetPathTagResult" />
+  <TypeSignature Language="F#" Value="type GetPathTagResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+    <AssemblyVersion>12.27.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The result of DataLakePathClient.GetTags() call.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Tags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.GetPathTagResult.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.Tags : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="Azure.Storage.Files.DataLake.Models.GetPathTagResult.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Path Tags.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

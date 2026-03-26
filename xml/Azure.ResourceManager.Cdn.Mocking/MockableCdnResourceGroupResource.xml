@@ -12,6 +12,7 @@
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.1.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Cdn.Models.CanMigrateResult&gt;</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Cdn.Models.CanMigrateResult&gt;&gt;</ReturnType>
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityResult&gt;</ReturnType>
@@ -144,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -174,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyCollection</ReturnType>
@@ -195,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyResource&gt;</ReturnType>
@@ -227,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyResource&gt;&gt;</ReturnType>
@@ -259,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;</ReturnType>
@@ -291,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt;</ReturnType>
@@ -323,6 +334,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.ProfileCollection</ReturnType>
@@ -344,6 +356,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Cdn.Models.MigrateResult&gt;</ReturnType>
@@ -377,6 +390,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Cdn.Models.MigrateResult&gt;&gt;</ReturnType>

@@ -1,0 +1,43 @@
+<Type Name="PassName" FullName="Azure.Provisioning.Compute.PassName">
+  <TypeSignature Language="C#" Value="public enum PassName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PassName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.PassName" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PassName" />
+  <TypeSignature Language="F#" Value="type PassName = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The PassName.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OobeSystem">
+      <MemberSignature Language="C#" Value="OobeSystem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.PassName OobeSystem = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.PassName.OobeSystem" />
+      <MemberSignature Language="VB.NET" Value="OobeSystem" />
+      <MemberSignature Language="F#" Value="OobeSystem = 0" Usage="Azure.Provisioning.Compute.PassName.OobeSystem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.PassName</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            OobeSystem.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

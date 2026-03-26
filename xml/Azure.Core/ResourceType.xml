@@ -43,6 +43,7 @@
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.1.0</AssemblyVersion>
+    <AssemblyVersion>1.52.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -71,7 +72,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="resourceType" Type="System.String" />
@@ -96,7 +97,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -138,7 +139,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -165,7 +166,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -196,7 +197,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -223,7 +224,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -252,7 +253,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -274,7 +275,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -302,7 +303,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -321,7 +322,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.ResourceType (string resourceType);" />
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.ResourceType (string? resourceType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Core.ResourceType op_Implicit(string resourceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.ResourceType.op_Implicit(System.String)~Azure.Core.ResourceType" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (resourceType As String) As ResourceType" />
@@ -329,7 +330,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -355,7 +356,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -383,7 +384,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -404,7 +405,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

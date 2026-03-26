@@ -1,0 +1,85 @@
+<Type Name="UefiSignatureTemplateName" FullName="Azure.Provisioning.Compute.UefiSignatureTemplateName">
+  <TypeSignature Language="C#" Value="public enum UefiSignatureTemplateName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UefiSignatureTemplateName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.UefiSignatureTemplateName" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UefiSignatureTemplateName" />
+  <TypeSignature Language="F#" Value="type UefiSignatureTemplateName = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The name of the signature template that contains default UEFI keys.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MicrosoftUefiCertificateAuthorityTemplate">
+      <MemberSignature Language="C#" Value="MicrosoftUefiCertificateAuthorityTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.UefiSignatureTemplateName MicrosoftUefiCertificateAuthorityTemplate = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.UefiSignatureTemplateName.MicrosoftUefiCertificateAuthorityTemplate" />
+      <MemberSignature Language="VB.NET" Value="MicrosoftUefiCertificateAuthorityTemplate" />
+      <MemberSignature Language="F#" Value="MicrosoftUefiCertificateAuthorityTemplate = 1" Usage="Azure.Provisioning.Compute.UefiSignatureTemplateName.MicrosoftUefiCertificateAuthorityTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.UefiSignatureTemplateName</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            MicrosoftUefiCertificateAuthorityTemplate.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MicrosoftWindowsTemplate">
+      <MemberSignature Language="C#" Value="MicrosoftWindowsTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.UefiSignatureTemplateName MicrosoftWindowsTemplate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.UefiSignatureTemplateName.MicrosoftWindowsTemplate" />
+      <MemberSignature Language="VB.NET" Value="MicrosoftWindowsTemplate" />
+      <MemberSignature Language="F#" Value="MicrosoftWindowsTemplate = 2" Usage="Azure.Provisioning.Compute.UefiSignatureTemplateName.MicrosoftWindowsTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.UefiSignatureTemplateName</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            MicrosoftWindowsTemplate.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoSignatureTemplate">
+      <MemberSignature Language="C#" Value="NoSignatureTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.UefiSignatureTemplateName NoSignatureTemplate = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.UefiSignatureTemplateName.NoSignatureTemplate" />
+      <MemberSignature Language="VB.NET" Value="NoSignatureTemplate" />
+      <MemberSignature Language="F#" Value="NoSignatureTemplate = 0" Usage="Azure.Provisioning.Compute.UefiSignatureTemplateName.NoSignatureTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.UefiSignatureTemplateName</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            NoSignatureTemplate.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

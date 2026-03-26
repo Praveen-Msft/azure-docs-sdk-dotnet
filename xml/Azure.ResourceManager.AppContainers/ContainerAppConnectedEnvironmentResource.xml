@@ -17,6 +17,7 @@
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.1.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -50,8 +51,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -69,14 +70,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="value" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="key"> The key for the tag. </param>
@@ -101,14 +103,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="value" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="key"> The key for the tag. </param>
@@ -132,8 +135,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.Models.ContainerAppNameAvailabilityResult&gt;</ReturnType>
@@ -163,8 +166,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.Models.ContainerAppNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -194,8 +197,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -223,8 +226,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentData</ReturnType>
@@ -245,8 +248,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -275,8 +278,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -305,8 +308,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
@@ -332,8 +335,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;&gt;</ReturnType>
@@ -359,8 +362,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource&gt;</ReturnType>
@@ -392,8 +395,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource&gt;&gt;</ReturnType>
@@ -425,8 +428,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateCollection</ReturnType>
@@ -447,8 +450,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource&gt;</ReturnType>
@@ -480,8 +483,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource&gt;&gt;</ReturnType>
@@ -513,8 +516,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentCollection</ReturnType>
@@ -535,8 +538,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource&gt;</ReturnType>
@@ -568,8 +571,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource&gt;&gt;</ReturnType>
@@ -601,8 +604,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageCollection</ReturnType>
@@ -623,8 +626,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -645,13 +648,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="key"> The key for the tag. </param>
@@ -675,13 +679,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="key"> The key for the tag. </param>
@@ -704,8 +709,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -725,13 +730,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="tags"> The set of tags to use as replacement. </param>
@@ -755,13 +761,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="tags"> The set of tags to use as replacement. </param>
@@ -787,8 +794,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentData</ReturnType>
@@ -820,8 +827,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -852,8 +859,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentData</ReturnType>
@@ -885,8 +892,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -915,8 +922,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -943,15 +950,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.Obsolete("This method is obsolete and will be removed in a future release")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This method is obsolete and will be removed in a future release")&gt;]</AttributeName>
         </Attribute>
@@ -981,13 +988,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="patch" Type="Azure.ResourceManager.AppContainers.Models.ContainerAppConnectedEnvironmentPatch" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="patch" Type="Azure.ResourceManager.AppContainers.Models.ContainerAppConnectedEnvironmentPatch" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="patch"> Configuration details of the connectedEnvironment. </param>
@@ -1010,15 +1018,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.Obsolete("This method is obsolete and will be removed in a future release")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This method is obsolete and will be removed in a future release")&gt;]</AttributeName>
         </Attribute>
@@ -1048,13 +1056,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="patch" Type="Azure.ResourceManager.AppContainers.Models.ContainerAppConnectedEnvironmentPatch" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="patch" Type="Azure.ResourceManager.AppContainers.Models.ContainerAppConnectedEnvironmentPatch" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="patch"> Configuration details of the connectedEnvironment. </param>

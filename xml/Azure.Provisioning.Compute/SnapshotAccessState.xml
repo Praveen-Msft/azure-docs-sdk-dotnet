@@ -1,0 +1,131 @@
+<Type Name="SnapshotAccessState" FullName="Azure.Provisioning.Compute.SnapshotAccessState">
+  <TypeSignature Language="C#" Value="public enum SnapshotAccessState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SnapshotAccessState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.SnapshotAccessState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SnapshotAccessState" />
+  <TypeSignature Language="F#" Value="type SnapshotAccessState = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The state of snapshot which determines the access availability of the
+            snapshot.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Available">
+      <MemberSignature Language="C#" Value="Available" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotAccessState Available = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotAccessState.Available" />
+      <MemberSignature Language="VB.NET" Value="Available" />
+      <MemberSignature Language="F#" Value="Available = 2" Usage="Azure.Provisioning.Compute.SnapshotAccessState.Available" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotAccessState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The snapshot can be used for restore, copy to different region, and
+            download to offline.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailableWithInstantAccess">
+      <MemberSignature Language="C#" Value="AvailableWithInstantAccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotAccessState AvailableWithInstantAccess = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotAccessState.AvailableWithInstantAccess" />
+      <MemberSignature Language="VB.NET" Value="AvailableWithInstantAccess" />
+      <MemberSignature Language="F#" Value="AvailableWithInstantAccess = 4" Usage="Azure.Provisioning.Compute.SnapshotAccessState.AvailableWithInstantAccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotAccessState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            The snapshot can be used for restoring disks with fast performance,
+            copied and downloaded.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantAccess">
+      <MemberSignature Language="C#" Value="InstantAccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotAccessState InstantAccess = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotAccessState.InstantAccess" />
+      <MemberSignature Language="VB.NET" Value="InstantAccess" />
+      <MemberSignature Language="F#" Value="InstantAccess = 3" Usage="Azure.Provisioning.Compute.SnapshotAccessState.InstantAccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotAccessState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            The snapshot can be used for restoring disks with fast performance but
+            cannot be copied or downloaded.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Pending">
+      <MemberSignature Language="C#" Value="Pending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotAccessState Pending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotAccessState.Pending" />
+      <MemberSignature Language="VB.NET" Value="Pending" />
+      <MemberSignature Language="F#" Value="Pending = 1" Usage="Azure.Provisioning.Compute.SnapshotAccessState.Pending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotAccessState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The snapshot cannot be used for restore, copy or download to offline.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotAccessState Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotAccessState.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Azure.Provisioning.Compute.SnapshotAccessState.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotAccessState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default value.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

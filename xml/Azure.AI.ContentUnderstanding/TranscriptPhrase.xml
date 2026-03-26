@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -38,8 +39,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Single&gt;</ReturnType>
@@ -60,32 +61,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the end time of the phrase. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="EndTimeMs">
-      <MemberSignature Language="C#" Value="public long EndTimeMs { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance int64 EndTimeMs" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.ContentUnderstanding.TranscriptPhrase.EndTimeMs" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTimeMs As Long" />
-      <MemberSignature Language="F#" Value="member this.EndTimeMs : int64" Usage="Azure.AI.ContentUnderstanding.TranscriptPhrase.EndTimeMs" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int64</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> End time of the phrase in milliseconds. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,8 +81,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.ContentUnderstanding.TranscriptPhrase</ReturnType>
@@ -126,8 +108,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -152,8 +134,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -173,8 +155,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.ContentUnderstanding.TranscriptPhrase</ReturnType>
@@ -200,8 +182,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -225,8 +207,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.ContentUnderstanding.ContentSpan</ReturnType>
@@ -246,8 +228,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -268,32 +250,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the start time of the phrase. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="StartTimeMs">
-      <MemberSignature Language="C#" Value="public long StartTimeMs { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance int64 StartTimeMs" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.ContentUnderstanding.TranscriptPhrase.StartTimeMs" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTimeMs As Long" />
-      <MemberSignature Language="F#" Value="member this.StartTimeMs : int64" Usage="Azure.AI.ContentUnderstanding.TranscriptPhrase.StartTimeMs" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int64</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Start time of the phrase in milliseconds. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -310,8 +273,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.ContentUnderstanding.TranscriptPhrase</ReturnType>
@@ -340,8 +303,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -369,8 +332,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.ContentUnderstanding.TranscriptPhrase</ReturnType>
@@ -399,8 +362,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -427,8 +390,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -452,8 +415,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -473,8 +436,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.ContentUnderstanding</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.AI.ContentUnderstanding.TranscriptWord&gt;</ReturnType>

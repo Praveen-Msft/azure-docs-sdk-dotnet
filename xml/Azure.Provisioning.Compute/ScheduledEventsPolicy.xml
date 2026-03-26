@@ -1,0 +1,155 @@
+<Type Name="ScheduledEventsPolicy" FullName="Azure.Provisioning.Compute.ScheduledEventsPolicy">
+  <TypeSignature Language="C#" Value="public class ScheduledEventsPolicy : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScheduledEventsPolicy extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ScheduledEventsPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class ScheduledEventsPolicy&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ScheduledEventsPolicy = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies Redeploy, Reboot and ScheduledEventsAdditionalPublishingTargets
+            Scheduled Event related configurations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ScheduledEventsPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ScheduledEventsPolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ScheduledEventsPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllInstancesDown">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.AllInstancesDown AllInstancesDown { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.AllInstancesDown AllInstancesDown" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ScheduledEventsPolicy.AllInstancesDown" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllInstancesDown As AllInstancesDown" />
+      <MemberSignature Language="F#" Value="member this.AllInstancesDown : Azure.Provisioning.Compute.AllInstancesDown with get, set" Usage="Azure.Provisioning.Compute.ScheduledEventsPolicy.AllInstancesDown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.AllInstancesDown</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The configuration parameters used while creating AllInstancesDown
+            scheduled event setting creation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticallyApprove">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; AutomaticallyApprove { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; AutomaticallyApprove" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ScheduledEventsPolicy.AutomaticallyApprove" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutomaticallyApprove As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AutomaticallyApprove : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.ScheduledEventsPolicy.AutomaticallyApprove" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies Reboot Scheduled Event related configurations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ScheduledEventsPolicy.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="scheduledEventsPolicy.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ScheduledEventsPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.EventGridAndResourceGraph ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.EventGridAndResourceGraph ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ScheduledEventsPolicy.ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph As EventGridAndResourceGraph" />
+      <MemberSignature Language="F#" Value="member this.ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph : Azure.Provisioning.Compute.EventGridAndResourceGraph with get, set" Usage="Azure.Provisioning.Compute.ScheduledEventsPolicy.ScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EventGridAndResourceGraph</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The configuration parameters used while creating
+            eventGridAndResourceGraph Scheduled Event setting.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserInitiatedRedeploy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.UserInitiatedRedeploy UserInitiatedRedeploy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.UserInitiatedRedeploy UserInitiatedRedeploy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ScheduledEventsPolicy.UserInitiatedRedeploy" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserInitiatedRedeploy As UserInitiatedRedeploy" />
+      <MemberSignature Language="F#" Value="member this.UserInitiatedRedeploy : Azure.Provisioning.Compute.UserInitiatedRedeploy with get, set" Usage="Azure.Provisioning.Compute.ScheduledEventsPolicy.UserInitiatedRedeploy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.UserInitiatedRedeploy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The configuration parameters used while creating userInitiatedRedeploy
+            scheduled event setting creation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

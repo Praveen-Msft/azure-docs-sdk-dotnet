@@ -1,0 +1,70 @@
+<Type Name="CapacityReservationType" FullName="Azure.Provisioning.Compute.CapacityReservationType">
+  <TypeSignature Language="C#" Value="public enum CapacityReservationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CapacityReservationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.CapacityReservationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CapacityReservationType" />
+  <TypeSignature Language="F#" Value="type CapacityReservationType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Indicates the type of capacity reservation. Allowed values are
+            'Block' for block capacity reservations and 'Targeted'
+            for reservations that enable a VM to consume a specific capacity
+            reservation when a capacity reservation group is provided. The reservation
+            type is immutable and cannot be changed after it is assigned.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Block">
+      <MemberSignature Language="C#" Value="Block" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.CapacityReservationType Block = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.CapacityReservationType.Block" />
+      <MemberSignature Language="VB.NET" Value="Block" />
+      <MemberSignature Language="F#" Value="Block = 1" Usage="Azure.Provisioning.Compute.CapacityReservationType.Block" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.CapacityReservationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            To consume scheduled allocated block capacity reservation when a
+            capacity reservation group is provided.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Targeted">
+      <MemberSignature Language="C#" Value="Targeted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.CapacityReservationType Targeted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.CapacityReservationType.Targeted" />
+      <MemberSignature Language="VB.NET" Value="Targeted" />
+      <MemberSignature Language="F#" Value="Targeted = 0" Usage="Azure.Provisioning.Compute.CapacityReservationType.Targeted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.CapacityReservationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            To consume on demand allocated capacity reservation when a capacity
+            reservation group is provided.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

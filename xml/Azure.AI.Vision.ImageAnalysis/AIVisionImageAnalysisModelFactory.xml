@@ -7,13 +7,14 @@
   <AssemblyInfo>
     <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.CaptionResult</ReturnType>
@@ -41,7 +43,7 @@
             Higher values indicating higher confidence.
             </param>
         <param name="text"> The text of the caption. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.CaptionResult" />. </summary>
+        <summary> Represents a generated phrase that describes the content of the whole image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.CaptionResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -58,6 +60,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.CropRegion</ReturnType>
@@ -74,7 +77,10 @@
             Otherwise, it will be in the range 0.5 to 2.0 (inclusive).
             </param>
         <param name="boundingBox"> The bounding box of the region. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.CropRegion" />. </summary>
+        <summary>
+            A region at the desired aspect ratio that can be used as image thumbnail.
+            The region preserves as much content as possible from the analyzed image, with priority given to detected faces.
+            </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.CropRegion" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -91,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DenseCaption</ReturnType>
@@ -107,7 +114,7 @@
             </param>
         <param name="text"> The text of the caption. </param>
         <param name="boundingBox"> The image region of which this caption applies. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DenseCaption" />. </summary>
+        <summary> Represents a generated phrase that describes the content of the whole image or a region in the image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DenseCaption" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -124,6 +131,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DenseCaptionsResult</ReturnType>
@@ -133,7 +141,10 @@
       </Parameters>
       <Docs>
         <param name="values"> The list of image captions. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DenseCaptionsResult" />. </summary>
+        <summary>
+            Represents a list of up to 10 image captions for different regions of the image.
+            The first caption always applies to the whole image.
+            </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DenseCaptionsResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DetectedObject</ReturnType>
@@ -159,7 +171,7 @@
       <Docs>
         <param name="boundingBox"> A rectangular boundary where the object was detected. </param>
         <param name="tags"> A single-item list containing the object information. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedObject" />. </summary>
+        <summary> Represents a physical object detected in an image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedObject" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -174,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DetectedPerson</ReturnType>
@@ -188,7 +201,7 @@
             A score, in the range of 0 to 1 (inclusive), representing the confidence that this detection was accurate.
             Higher values indicating higher confidence.
             </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedPerson" />. </summary>
+        <summary> Represents a person detected in an image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedPerson" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,6 +216,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DetectedTag</ReturnType>
@@ -217,7 +231,10 @@
             Higher values indicating higher confidence.
             </param>
         <param name="name"> Name of the entity. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTag" />. </summary>
+        <summary>
+            A content entity observation in the image. A tag can be a physical object, living being, scenery, or action
+            that appear in the image.
+            </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTag" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -234,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DetectedTextBlock</ReturnType>
@@ -243,7 +261,7 @@
       </Parameters>
       <Docs>
         <param name="lines"> A list of text lines in this block. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTextBlock" />. </summary>
+        <summary> Represents a single block of detected text in the image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTextBlock" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DetectedTextLine</ReturnType>
@@ -271,7 +290,7 @@
         <param name="text"> Text content of the detected text line. </param>
         <param name="boundingPolygon"> A bounding polygon around the text line. At the moment only quadrilaterals are supported (represented by 4 image points). </param>
         <param name="words"> A list of words in this line. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTextLine" />. </summary>
+        <summary> Represents a single line of text in the image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTextLine" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -286,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.DetectedTextWord</ReturnType>
@@ -299,7 +319,10 @@
         <param name="text"> Text content of the word. </param>
         <param name="boundingPolygon"> A bounding polygon around the word. At the moment only quadrilaterals are supported (represented by 4 image points). </param>
         <param name="confidence"> The level of confidence that the word was detected. Confidence scores span the range of 0.0 to 1.0 (inclusive), with higher values indicating a higher confidence of detection. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTextWord" />. </summary>
+        <summary>
+            A word object consisting of a contiguous sequence of characters. For non-space delimited languages,
+            such as Chinese, Japanese, and Korean, each character is represented as its own word.
+            </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.DetectedTextWord" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -314,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult</ReturnType>
@@ -345,7 +369,7 @@
             These regions preserve as much content as possible from the analyzed image, with priority given to detected faces.
             </param>
         <param name="tags"> A list of content tags in the analyzed image. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult" />. </summary>
+        <summary> Represents the outcome of an Image Analysis operation. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -360,6 +384,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.ImageBoundingBox</ReturnType>
@@ -375,7 +400,7 @@
         <param name="y"> Y-coordinate of the top left point of the area, in pixels. </param>
         <param name="width"> Width of the area, in pixels. </param>
         <param name="height"> Height of the area, in pixels. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageBoundingBox" />. </summary>
+        <summary> A basic rectangle specifying a sub-region of the image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageBoundingBox" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -390,6 +415,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.ImageMetadata</ReturnType>
@@ -401,7 +427,7 @@
       <Docs>
         <param name="height"> The height of the image in pixels. </param>
         <param name="width"> The width of the image in pixels. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageMetadata" />. </summary>
+        <summary> Metadata associated with the analyzed image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageMetadata" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -416,6 +442,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.ImagePoint</ReturnType>
@@ -427,7 +454,7 @@
       <Docs>
         <param name="x"> The horizontal x-coordinate of this point, in pixels. Zero values corresponds to the left-most pixels in the image. </param>
         <param name="y"> The vertical y-coordinate of this point, in pixels. Zero values corresponds to the top-most pixels in the image. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.ImagePoint" />. </summary>
+        <summary> Represents the coordinates of a single pixel in the image. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.ImagePoint" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -442,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.ObjectsResult</ReturnType>
@@ -451,7 +479,7 @@
       </Parameters>
       <Docs>
         <param name="values"> A list of physical object detected in an image and their location. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.ObjectsResult" />. </summary>
+        <summary> Represents a list of physical object detected in an image and their location. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.ObjectsResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,6 +494,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.PeopleResult</ReturnType>
@@ -475,7 +504,7 @@
       </Parameters>
       <Docs>
         <param name="values"> A list of people detected in an image and their location. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.PeopleResult" />. </summary>
+        <summary> Represents a list of people detected in an image and their location. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.PeopleResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -490,6 +519,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.ReadResult</ReturnType>
@@ -499,7 +529,7 @@
       </Parameters>
       <Docs>
         <param name="blocks"> A list of text blocks in the image. At the moment only one block is returned, containing all the text detected in the image. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.ReadResult" />. </summary>
+        <summary> The results of a Read (OCR) operation. </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.ReadResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -514,6 +544,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.SmartCropsResult</ReturnType>
@@ -523,7 +554,10 @@
       </Parameters>
       <Docs>
         <param name="values"> A list of crop regions. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.SmartCropsResult" />. </summary>
+        <summary>
+            Smart cropping result. A list of crop regions at the desired as aspect ratios (if provided) that can be used as image thumbnails.
+            These regions preserve as much content as possible from the analyzed image, with priority given to detected faces.
+            </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.SmartCropsResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -538,6 +572,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Vision.ImageAnalysis.TagsResult</ReturnType>
@@ -547,7 +582,10 @@
       </Parameters>
       <Docs>
         <param name="values"> A list of tags. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.AI.Vision.ImageAnalysis.TagsResult" />. </summary>
+        <summary>
+            A list of entities observed in the image. Tags can be physical objects, living being, scenery, or actions
+            that appear in the image.
+            </summary>
         <returns> A new <see cref="T:Azure.AI.Vision.ImageAnalysis.TagsResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

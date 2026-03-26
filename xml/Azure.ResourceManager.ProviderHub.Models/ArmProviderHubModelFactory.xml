@@ -9,6 +9,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,11 +29,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -65,8 +66,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.CustomRolloutData</ReturnType>
@@ -99,14 +100,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.CustomRolloutProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="specification" Type="Azure.ResourceManager.ProviderHub.Models.CustomRolloutSpecification" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="status" Type="Azure.ResourceManager.ProviderHub.Models.CustomRolloutStatus" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
+        <Parameter Name="specification" Type="Azure.ResourceManager.ProviderHub.Models.CustomRolloutSpecification" />
+        <Parameter Name="status" Type="Azure.ResourceManager.ProviderHub.Models.CustomRolloutStatus" />
       </Parameters>
       <Docs>
         <param name="provisioningState"> The provisioned state of the resource. </param>
@@ -126,8 +128,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.DefaultRolloutData</ReturnType>
@@ -160,14 +162,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.DefaultRolloutProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="specification" Type="Azure.ResourceManager.ProviderHub.Models.DefaultRolloutSpecification" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="status" Type="Azure.ResourceManager.ProviderHub.Models.DefaultRolloutStatus" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
+        <Parameter Name="specification" Type="Azure.ResourceManager.ProviderHub.Models.DefaultRolloutSpecification" />
+        <Parameter Name="status" Type="Azure.ResourceManager.ProviderHub.Models.DefaultRolloutStatus" />
       </Parameters>
       <Docs>
         <param name="provisioningState"> The provisioned state of the resource. </param>
@@ -187,11 +190,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -220,8 +223,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.NotificationRegistrationData</ReturnType>
@@ -254,16 +257,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.NotificationRegistrationProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="notificationMode" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.NotificationMode&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="messageScope" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.MessageScope&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="includedEvents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.NotificationEndpoint&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="notificationMode" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.NotificationMode&gt;" />
+        <Parameter Name="messageScope" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.MessageScope&gt;" />
+        <Parameter Name="includedEvents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="notificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.NotificationEndpoint&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="notificationMode"> The notification mode. </param>
@@ -286,16 +290,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ProviderAuthorizedApplicationData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.ProviderHub.Models.ProviderAuthorizedApplicationProperties" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.ProviderHub.Models.ProviderAuthorizedApplicationProperties" />
       </Parameters>
       <Docs>
         <param name="id"> The id. </param>
@@ -318,14 +323,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ProviderAuthorizedApplicationProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="providerAuthorization" Type="Azure.ResourceManager.ProviderHub.Models.ApplicationProviderAuthorization" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="dataAuthorizations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ApplicationDataAuthorization&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="providerAuthorization" Type="Azure.ResourceManager.ProviderHub.Models.ApplicationProviderAuthorization" />
+        <Parameter Name="dataAuthorizations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ApplicationDataAuthorization&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="providerAuthorization" />
@@ -346,18 +352,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ProviderMonitorSettingData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerMonitorSettingProvisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="providerMonitorSettingProvisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="id"> The id. </param>
@@ -373,21 +380,19 @@
       </Docs>
     </Member>
     <Member MemberName="ProviderRegistrationData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ProviderHub.ProviderRegistrationData ProviderRegistrationData (Azure.Core.ResourceIdentifier id, string name, Azure.Core.ResourceType resourceType, Azure.ResourceManager.Models.SystemData systemData, Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties properties);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ProviderHub.ProviderRegistrationData ProviderRegistrationData (Azure.Core.ResourceIdentifier id, string name, Azure.Core.ResourceType resourceType, Azure.ResourceManager.Models.SystemData systemData, Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties properties);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ProviderHub.ProviderRegistrationData ProviderRegistrationData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties properties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ProviderHub.Models.ArmProviderHubModelFactory.ProviderRegistrationData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ProviderRegistrationData (id As ResourceIdentifier, name As String, resourceType As ResourceType, systemData As SystemData, properties As ProviderRegistrationProperties) As ProviderRegistrationData" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ProviderRegistrationData (id As ResourceIdentifier, name As String, resourceType As ResourceType, systemData As SystemData, properties As ProviderRegistrationProperties) As ProviderRegistrationData" />
       <MemberSignature Language="F#" Value="static member ProviderRegistrationData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties -&gt; Azure.ResourceManager.ProviderHub.ProviderRegistrationData" Usage="Azure.ResourceManager.ProviderHub.Models.ArmProviderHubModelFactory.ProviderRegistrationData (id, name, resourceType, systemData, properties)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ProviderHub.ProviderRegistrationData ProviderRegistrationData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties properties = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ProviderRegistrationData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional properties As ProviderRegistrationProperties = Nothing) As ProviderRegistrationData" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -423,17 +428,18 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ProviderRegistrationData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="kind" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationKind&gt;" Index="5" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties" />
+        <Parameter Name="kind" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationKind&gt;" />
       </Parameters>
       <Docs>
         <param name="id"> The id. </param>
@@ -457,47 +463,48 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ProviderRegistrationProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="providerAuthenticationAllowedAudiences" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerAuthorizations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderAuthorization&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="namespace" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="services" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderService&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="serviceName" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerVersion" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderType&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="management" Type="Azure.ResourceManager.ProviderHub.Models.ResourceProviderManagement" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="capabilities" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderCapabilities&gt;" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="metadata" Type="System.BinaryData" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="templateDeploymentOptions" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentOptions" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="globalNotificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="enableTenantLinkedNotification" Type="System.Nullable&lt;System.Boolean&gt;" Index="16" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" Index="17" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.FanoutLinkedNotificationRule&gt;" Index="18" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" Index="19" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="dstsConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.ProviderDstsConfiguration" Index="20" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notificationOptions" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotificationOption&gt;" Index="21" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceHydrationAccounts" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceHydrationAccount&gt;" Index="22" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notificationSubscriberSettings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.SubscriberSetting&gt;" Index="23" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="managementGroupGlobalNotificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" Index="24" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="optionalFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="25" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceGroupLockOptionDuringMoveBlockActionVerb" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.BlockActionVerb&gt;" Index="26" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="serviceClientOptionsType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ServiceClientOptionsType&gt;" Index="27" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="legacyNamespace" Type="System.String" Index="28" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="legacyRegistrations" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="29" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="customManifestVersion" Type="System.String" Index="30" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerHubMetadata" Type="Azure.ResourceManager.ProviderHub.Models.ProviderHubMetadata" Index="31" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="32" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="subscriptionLifecycleNotificationSpecifications" Type="Azure.ResourceManager.ProviderHub.Models.SubscriptionLifecycleNotificationSpecifications" Index="33" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="privateResourceProviderAllowedSubscriptions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="34" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tokenAuthConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.TokenAuthConfiguration" Index="35" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="providerAuthenticationAllowedAudiences" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="providerAuthorizations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderAuthorization&gt;" />
+        <Parameter Name="namespace" Type="System.String" />
+        <Parameter Name="services" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderService&gt;" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="providerVersion" Type="System.String" />
+        <Parameter Name="providerType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderType&gt;" />
+        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" />
+        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" />
+        <Parameter Name="management" Type="Azure.ResourceManager.ProviderHub.Models.ResourceProviderManagement" />
+        <Parameter Name="capabilities" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderCapabilities&gt;" />
+        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" />
+        <Parameter Name="metadata" Type="System.BinaryData" />
+        <Parameter Name="templateDeploymentOptions" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentOptions" />
+        <Parameter Name="globalNotificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" />
+        <Parameter Name="enableTenantLinkedNotification" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" />
+        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.FanoutLinkedNotificationRule&gt;" />
+        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" />
+        <Parameter Name="dstsConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.ProviderDstsConfiguration" />
+        <Parameter Name="notificationOptions" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotificationOption&gt;" />
+        <Parameter Name="resourceHydrationAccounts" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceHydrationAccount&gt;" />
+        <Parameter Name="notificationSubscriberSettings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.SubscriberSetting&gt;" />
+        <Parameter Name="managementGroupGlobalNotificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" />
+        <Parameter Name="optionalFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="resourceGroupLockOptionDuringMoveBlockActionVerb" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.BlockActionVerb&gt;" />
+        <Parameter Name="serviceClientOptionsType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ServiceClientOptionsType&gt;" />
+        <Parameter Name="legacyNamespace" Type="System.String" />
+        <Parameter Name="legacyRegistrations" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="customManifestVersion" Type="System.String" />
+        <Parameter Name="providerHubMetadata" Type="Azure.ResourceManager.ProviderHub.Models.ProviderHubMetadata" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
+        <Parameter Name="subscriptionLifecycleNotificationSpecifications" Type="Azure.ResourceManager.ProviderHub.Models.SubscriptionLifecycleNotificationSpecifications" />
+        <Parameter Name="privateResourceProviderAllowedSubscriptions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="tokenAuthConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.TokenAuthConfiguration" />
       </Parameters>
       <Docs>
         <param name="providerAuthenticationAllowedAudiences"> The provider authentication. </param>
@@ -550,11 +557,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -628,42 +635,43 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ProviderResourceType</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="routingType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceRoutingType&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="additionalOptions" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.AdditionalOptionResourceType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceValidation&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="allowedUnauthorizedActions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="allowedUnauthorizedActionsExtensions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AllowedUnauthorizedActionsExtension&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="authorizationActionMappings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AuthorizationActionMapping&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedAccessChecks" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedAccessCheck&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="defaultApiVersion" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="loggingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LoggingRule&gt;" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="throttlingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ThrottlingRule&gt;" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="endpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="marketplaceType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.MarketplaceType&gt;" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="managementType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.IdentityManagementType&gt;" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="metadata" Type="System.BinaryData" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="16" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" Index="17" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="subscriptionStateRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderSubscriptionStateRule&gt;" Index="18" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="serviceTreeInfos" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ServiceTreeInfo&gt;" Index="19" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" Index="20" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="skuLink" Type="System.String" Index="21" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="disallowedActionVerbs" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="22" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="templateDeploymentPolicy" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" Index="23" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="extendedLocations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubExtendedLocationOptions&gt;" Index="24" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedOperationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedOperationRule&gt;" Index="25" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceDeletionPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ManifestResourceDeletionPolicy&gt;" Index="26" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="quotaRule" Type="Azure.ResourceManager.ProviderHub.Models.ProviderQuotaRule" Index="27" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" Index="28" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedNotificationRule&gt;" Index="29" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" Index="30" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="routingType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceRoutingType&gt;" />
+        <Parameter Name="additionalOptions" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.AdditionalOptionResourceType&gt;" />
+        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" />
+        <Parameter Name="resourceValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceValidation&gt;" />
+        <Parameter Name="allowedUnauthorizedActions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="allowedUnauthorizedActionsExtensions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AllowedUnauthorizedActionsExtension&gt;" />
+        <Parameter Name="authorizationActionMappings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AuthorizationActionMapping&gt;" />
+        <Parameter Name="linkedAccessChecks" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedAccessCheck&gt;" />
+        <Parameter Name="defaultApiVersion" Type="System.String" />
+        <Parameter Name="loggingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LoggingRule&gt;" />
+        <Parameter Name="throttlingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ThrottlingRule&gt;" />
+        <Parameter Name="endpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" />
+        <Parameter Name="marketplaceType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.MarketplaceType&gt;" />
+        <Parameter Name="managementType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.IdentityManagementType&gt;" />
+        <Parameter Name="metadata" Type="System.BinaryData" />
+        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" />
+        <Parameter Name="subscriptionStateRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderSubscriptionStateRule&gt;" />
+        <Parameter Name="serviceTreeInfos" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ServiceTreeInfo&gt;" />
+        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" />
+        <Parameter Name="skuLink" Type="System.String" />
+        <Parameter Name="disallowedActionVerbs" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="templateDeploymentPolicy" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" />
+        <Parameter Name="extendedLocations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubExtendedLocationOptions&gt;" />
+        <Parameter Name="linkedOperationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedOperationRule&gt;" />
+        <Parameter Name="resourceDeletionPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ManifestResourceDeletionPolicy&gt;" />
+        <Parameter Name="quotaRule" Type="Azure.ResourceManager.ProviderHub.Models.ProviderQuotaRule" />
+        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" />
+        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedNotificationRule&gt;" />
+        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" />
       </Parameters>
       <Docs>
         <param name="name"> The resource type name. </param>
@@ -711,8 +719,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ReRegisterSubscriptionMetadata</ReturnType>
@@ -739,15 +747,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ResourceManagementEntity</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceId" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="homeTenantId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="status" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="homeTenantId" Type="System.String" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="status" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="resourceId"> The resource id. </param>
@@ -768,11 +777,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -812,20 +821,21 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="isEnabled" Type="System.Nullable&lt;System.Boolean&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="apiVersions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="endpointUri" Type="System.Uri" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="locations" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="timeout" Type="System.Nullable&lt;System.TimeSpan&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="endpointType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderEndpointType&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="skuLink" Type="System.String" Index="8" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="isEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="apiVersions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="endpointUri" Type="System.Uri" />
+        <Parameter Name="locations" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" />
+        <Parameter Name="timeout" Type="System.Nullable&lt;System.TimeSpan&gt;" />
+        <Parameter Name="endpointType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderEndpointType&gt;" />
+        <Parameter Name="skuLink" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="isEnabled"> Whether the endpoint is enabled. </param>
@@ -851,11 +861,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -909,32 +919,33 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ResourceProviderManifest</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="providerAuthenticationAllowedAudiences" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerAuthorizations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderAuthorization&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="namespace" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="services" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderService&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="serviceName" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerVersion" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="providerType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderType&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceTypes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderResourceType&gt;" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="management" Type="Azure.ResourceManager.ProviderHub.Models.ResourceProviderManagement" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="capabilities" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderCapabilities&gt;" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="metadata" Type="System.BinaryData" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="globalNotificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="reRegisterSubscriptionMetadata" Type="Azure.ResourceManager.ProviderHub.Models.ReRegisterSubscriptionMetadata" Index="16" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isTenantLinkedNotificationEnabled" Type="System.Nullable&lt;System.Boolean&gt;" Index="17" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" Index="18" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.FanoutLinkedNotificationRule&gt;" Index="19" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" Index="20" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="providerAuthenticationAllowedAudiences" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="providerAuthorizations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderAuthorization&gt;" />
+        <Parameter Name="namespace" Type="System.String" />
+        <Parameter Name="services" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderService&gt;" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="providerVersion" Type="System.String" />
+        <Parameter Name="providerType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderType&gt;" />
+        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" />
+        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" />
+        <Parameter Name="resourceTypes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderResourceType&gt;" />
+        <Parameter Name="management" Type="Azure.ResourceManager.ProviderHub.Models.ResourceProviderManagement" />
+        <Parameter Name="capabilities" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderCapabilities&gt;" />
+        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" />
+        <Parameter Name="metadata" Type="System.BinaryData" />
+        <Parameter Name="globalNotificationEndpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderEndpoint&gt;" />
+        <Parameter Name="reRegisterSubscriptionMetadata" Type="Azure.ResourceManager.ProviderHub.Models.ReRegisterSubscriptionMetadata" />
+        <Parameter Name="isTenantLinkedNotificationEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" />
+        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.FanoutLinkedNotificationRule&gt;" />
+        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" />
       </Parameters>
       <Docs>
         <param name="providerAuthenticationAllowedAudiences"> The provider authentication. </param>
@@ -964,21 +975,19 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceTypeRegistrationData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationData ResourceTypeRegistrationData (Azure.Core.ResourceIdentifier id, string name, Azure.Core.ResourceType resourceType, Azure.ResourceManager.Models.SystemData systemData, Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties properties);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationData ResourceTypeRegistrationData (Azure.Core.ResourceIdentifier id, string name, Azure.Core.ResourceType resourceType, Azure.ResourceManager.Models.SystemData systemData, Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties properties);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationData ResourceTypeRegistrationData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties properties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ProviderHub.Models.ArmProviderHubModelFactory.ResourceTypeRegistrationData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceTypeRegistrationData (id As ResourceIdentifier, name As String, resourceType As ResourceType, systemData As SystemData, properties As ResourceTypeRegistrationProperties) As ResourceTypeRegistrationData" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceTypeRegistrationData (id As ResourceIdentifier, name As String, resourceType As ResourceType, systemData As SystemData, properties As ResourceTypeRegistrationProperties) As ResourceTypeRegistrationData" />
       <MemberSignature Language="F#" Value="static member ResourceTypeRegistrationData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties -&gt; Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationData" Usage="Azure.ResourceManager.ProviderHub.Models.ArmProviderHubModelFactory.ResourceTypeRegistrationData (id, name, resourceType, systemData, properties)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationData ResourceTypeRegistrationData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties properties = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceTypeRegistrationData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional properties As ResourceTypeRegistrationProperties = Nothing) As ResourceTypeRegistrationData" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -1014,17 +1023,18 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="kind" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationKind&gt;" Index="5" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties" />
+        <Parameter Name="kind" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationKind&gt;" />
       </Parameters>
       <Docs>
         <param name="id"> The id. </param>
@@ -1048,86 +1058,87 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="routingType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceRoutingType&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="additionalOptions" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.AdditionalOptionResourceTypeRegistration&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="regionality" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationRegionality&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="endpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeEndpoint&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="extensionOptionsResourceCreationBegin" Type="Azure.ResourceManager.ProviderHub.Models.ExtensionOptions" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="marketplaceType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.MarketplaceType&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="swaggerSpecifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.SwaggerSpecification&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="allowedUnauthorizedActions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="allowedUnauthorizedActionsExtensions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AllowedUnauthorizedActionsExtension&gt;" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="authorizationActionMappings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AuthorizationActionMapping&gt;" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedAccessChecks" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedAccessCheck&gt;" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="defaultApiVersion" Type="System.String" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="loggingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LoggingRule&gt;" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="throttlingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ThrottlingRule&gt;" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" Index="16" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isAsyncOperationEnabled" Type="System.Nullable&lt;System.Boolean&gt;" Index="17" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="18" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isThirdPartyS2SEnabled" Type="System.Nullable&lt;System.Boolean&gt;" Index="19" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="subscriptionLifecycleNotificationSpecifications" Type="Azure.ResourceManager.ProviderHub.Models.SubscriptionLifecycleNotificationSpecifications" Index="20" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isPureProxy" Type="System.Nullable&lt;System.Boolean&gt;" Index="21" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="identityManagement" Type="Azure.ResourceManager.ProviderHub.Models.IdentityManagementProperties" Index="22" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="checkNameAvailabilitySpecifications" Type="Azure.ResourceManager.ProviderHub.Models.CheckNameAvailabilitySpecifications" Index="23" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="disallowedActionVerbs" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="24" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="serviceTreeInfos" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ServiceTreeInfo&gt;" Index="25" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" Index="26" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="subscriptionStateRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderSubscriptionStateRule&gt;" Index="27" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="templateDeploymentOptions" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentOptions" Index="28" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="extendedLocations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubExtendedLocationOptions&gt;" Index="29" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceMovePolicy" Type="Azure.ResourceManager.ProviderHub.Models.ResourceMovePolicy" Index="30" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceDeletionPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceDeletionPolicy&gt;" Index="31" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceConcurrencyControlOptions" Type="System.Collections.Generic.IDictionary&lt;System.String,Azure.ResourceManager.ProviderHub.Models.ResourceConcurrencyControlOption&gt;" Index="32" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceGraphConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.ResourceGraphConfiguration" Index="33" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="management" Type="Azure.ResourceManager.ProviderHub.Models.ResourceProviderManagement" Index="34" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isNoncompliantCollectionResponseAllowed" Type="System.Nullable&lt;System.Boolean&gt;" Index="35" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="onBehalfOfTokens" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeOnBehalfOfToken" Index="36" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="category" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeCategory&gt;" Index="37" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceValidation&gt;" Index="38" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="disallowedEndUserOperations" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="39" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="metadata" Type="System.Collections.Generic.IDictionary&lt;System.String,System.BinaryData&gt;" Index="40" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="skuLink" Type="System.String" Index="41" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="quotaRule" Type="Azure.ResourceManager.ProviderHub.Models.ProviderQuotaRule" Index="42" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" Index="43" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedNotificationRule&gt;" Index="44" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" Index="45" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tokenAuthConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.TokenAuthConfiguration" Index="46" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="templateDeploymentPolicy" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" Index="47" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isEmptyRoleAssignmentsAllowed" Type="System.Nullable&lt;System.Boolean&gt;" Index="48" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="policyExecutionType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.PolicyExecutionType&gt;" Index="49" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="availabilityZonePolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.AvailabilityZonePolicy&gt;" Index="50" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="dstsConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.ProviderDstsConfiguration" Index="51" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="asyncTimeoutRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AsyncTimeoutRule&gt;" Index="52" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="commonApiVersions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="53" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="apiProfiles" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationApiProfile&gt;" Index="54" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="linkedOperationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedOperationRule&gt;" Index="55" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="legacyName" Type="System.String" Index="56" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="legacyNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="57" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="allowedTemplateDeploymentReferenceActions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="58" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="legacyPolicy" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationLegacyPolicy" Index="59" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="manifestLink" Type="System.String" Index="60" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="capacityRule" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationCapacityRule" Index="61" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isAddOnPlanConversionAllowed" Type="System.Nullable&lt;System.Boolean&gt;" Index="62" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="allowedResourceNames" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AllowedResourceName&gt;" Index="63" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceCache" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationResourceCache" Index="64" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceQueryManagementFilterOption" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderResourceQueryFilterOption&gt;" Index="65" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="areTagsSupported" Type="System.Nullable&lt;System.Boolean&gt;" Index="66" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceManagementOptions" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationResourceManagementOptions" Index="67" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="groupingTag" Type="System.String" Index="68" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="isAddResourceListTargetLocationsAllowed" Type="System.Nullable&lt;System.Boolean&gt;" Index="69" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="commonApiVersionsMergeMode" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CommonApiVersionsMergeMode&gt;" Index="70" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="routingRuleHostResourceType" Type="System.String" Index="71" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="frontdoorRequestMode" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FrontdoorRequestMode&gt;" Index="72" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceSubType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderResourceSubType&gt;" Index="73" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="asyncOperationResourceTypeName" Type="System.String" Index="74" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="routingType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceRoutingType&gt;" />
+        <Parameter Name="additionalOptions" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.AdditionalOptionResourceTypeRegistration&gt;" />
+        <Parameter Name="crossTenantTokenValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CrossTenantTokenValidation&gt;" />
+        <Parameter Name="regionality" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationRegionality&gt;" />
+        <Parameter Name="endpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeEndpoint&gt;" />
+        <Parameter Name="extensionOptionsResourceCreationBegin" Type="Azure.ResourceManager.ProviderHub.Models.ExtensionOptions" />
+        <Parameter Name="marketplaceType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.MarketplaceType&gt;" />
+        <Parameter Name="swaggerSpecifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.SwaggerSpecification&gt;" />
+        <Parameter Name="allowedUnauthorizedActions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="allowedUnauthorizedActionsExtensions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AllowedUnauthorizedActionsExtension&gt;" />
+        <Parameter Name="authorizationActionMappings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AuthorizationActionMapping&gt;" />
+        <Parameter Name="linkedAccessChecks" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedAccessCheck&gt;" />
+        <Parameter Name="defaultApiVersion" Type="System.String" />
+        <Parameter Name="loggingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LoggingRule&gt;" />
+        <Parameter Name="throttlingRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ThrottlingRule&gt;" />
+        <Parameter Name="requiredFeatures" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="requiredFeaturesPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;" />
+        <Parameter Name="isAsyncOperationEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
+        <Parameter Name="isThirdPartyS2SEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="subscriptionLifecycleNotificationSpecifications" Type="Azure.ResourceManager.ProviderHub.Models.SubscriptionLifecycleNotificationSpecifications" />
+        <Parameter Name="isPureProxy" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="identityManagement" Type="Azure.ResourceManager.ProviderHub.Models.IdentityManagementProperties" />
+        <Parameter Name="checkNameAvailabilitySpecifications" Type="Azure.ResourceManager.ProviderHub.Models.CheckNameAvailabilitySpecifications" />
+        <Parameter Name="disallowedActionVerbs" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="serviceTreeInfos" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ServiceTreeInfo&gt;" />
+        <Parameter Name="requestHeaderOptions" Type="Azure.ResourceManager.ProviderHub.Models.ProviderRequestHeaderOptions" />
+        <Parameter Name="subscriptionStateRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderSubscriptionStateRule&gt;" />
+        <Parameter Name="templateDeploymentOptions" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentOptions" />
+        <Parameter Name="extendedLocations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubExtendedLocationOptions&gt;" />
+        <Parameter Name="resourceMovePolicy" Type="Azure.ResourceManager.ProviderHub.Models.ResourceMovePolicy" />
+        <Parameter Name="resourceDeletionPolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceDeletionPolicy&gt;" />
+        <Parameter Name="resourceConcurrencyControlOptions" Type="System.Collections.Generic.IDictionary&lt;System.String,Azure.ResourceManager.ProviderHub.Models.ResourceConcurrencyControlOption&gt;" />
+        <Parameter Name="resourceGraphConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.ResourceGraphConfiguration" />
+        <Parameter Name="management" Type="Azure.ResourceManager.ProviderHub.Models.ResourceProviderManagement" />
+        <Parameter Name="isNoncompliantCollectionResponseAllowed" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="onBehalfOfTokens" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeOnBehalfOfToken" />
+        <Parameter Name="category" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeCategory&gt;" />
+        <Parameter Name="resourceValidation" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceValidation&gt;" />
+        <Parameter Name="disallowedEndUserOperations" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="metadata" Type="System.Collections.Generic.IDictionary&lt;System.String,System.BinaryData&gt;" />
+        <Parameter Name="skuLink" Type="System.String" />
+        <Parameter Name="quotaRule" Type="Azure.ResourceManager.ProviderHub.Models.ProviderQuotaRule" />
+        <Parameter Name="notifications" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderNotification&gt;" />
+        <Parameter Name="linkedNotificationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedNotificationRule&gt;" />
+        <Parameter Name="asyncOperationPollingRules" Type="Azure.ResourceManager.ProviderHub.Models.AsyncOperationPollingRules" />
+        <Parameter Name="tokenAuthConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.TokenAuthConfiguration" />
+        <Parameter Name="templateDeploymentPolicy" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" />
+        <Parameter Name="isEmptyRoleAssignmentsAllowed" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="policyExecutionType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.PolicyExecutionType&gt;" />
+        <Parameter Name="availabilityZonePolicy" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.AvailabilityZonePolicy&gt;" />
+        <Parameter Name="dstsConfiguration" Type="Azure.ResourceManager.ProviderHub.Models.ProviderDstsConfiguration" />
+        <Parameter Name="asyncTimeoutRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AsyncTimeoutRule&gt;" />
+        <Parameter Name="commonApiVersions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="apiProfiles" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationApiProfile&gt;" />
+        <Parameter Name="linkedOperationRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.LinkedOperationRule&gt;" />
+        <Parameter Name="legacyName" Type="System.String" />
+        <Parameter Name="legacyNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="allowedTemplateDeploymentReferenceActions" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="legacyPolicy" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationLegacyPolicy" />
+        <Parameter Name="manifestLink" Type="System.String" />
+        <Parameter Name="capacityRule" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationCapacityRule" />
+        <Parameter Name="isAddOnPlanConversionAllowed" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="allowedResourceNames" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.AllowedResourceName&gt;" />
+        <Parameter Name="resourceCache" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationResourceCache" />
+        <Parameter Name="resourceQueryManagementFilterOption" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderResourceQueryFilterOption&gt;" />
+        <Parameter Name="areTagsSupported" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="resourceManagementOptions" Type="Azure.ResourceManager.ProviderHub.Models.ResourceTypeRegistrationResourceManagementOptions" />
+        <Parameter Name="groupingTag" Type="System.String" />
+        <Parameter Name="isAddResourceListTargetLocationsAllowed" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="commonApiVersionsMergeMode" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.CommonApiVersionsMergeMode&gt;" />
+        <Parameter Name="routingRuleHostResourceType" Type="System.String" />
+        <Parameter Name="frontdoorRequestMode" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FrontdoorRequestMode&gt;" />
+        <Parameter Name="resourceSubType" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderResourceSubType&gt;" />
+        <Parameter Name="asyncOperationResourceTypeName" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="routingType"> The resource routing type. </param>
@@ -1219,8 +1230,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ResourceTypeSkuData</ReturnType>
@@ -1253,13 +1264,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="skuSettings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuSetting&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="skuSettings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuSetting&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProviderHubProvisioningState&gt;" />
       </Parameters>
       <Docs>
         <param name="skuSettings"> The sku settings. </param>
@@ -1278,11 +1290,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -1311,8 +1323,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.TypedErrorInfo</ReturnType>

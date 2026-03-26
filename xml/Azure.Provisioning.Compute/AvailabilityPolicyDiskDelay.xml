@@ -1,0 +1,66 @@
+<Type Name="AvailabilityPolicyDiskDelay" FullName="Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay">
+  <TypeSignature Language="C#" Value="public enum AvailabilityPolicyDiskDelay" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AvailabilityPolicyDiskDelay extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AvailabilityPolicyDiskDelay" />
+  <TypeSignature Language="F#" Value="type AvailabilityPolicyDiskDelay = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Determines on how to handle disks with slow I/O.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutomaticReattach">
+      <MemberSignature Language="C#" Value="AutomaticReattach" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay AutomaticReattach = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay.AutomaticReattach" />
+      <MemberSignature Language="VB.NET" Value="AutomaticReattach" />
+      <MemberSignature Language="F#" Value="AutomaticReattach = 1" Usage="Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay.AutomaticReattach" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Upon a disk io failure or slow response, try detaching then reattaching
+            the disk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.AvailabilityPolicyDiskDelay</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Defaults to behavior without av policy specified, which is VM restart
+            upon slow disk io.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

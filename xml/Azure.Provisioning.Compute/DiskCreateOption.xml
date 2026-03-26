@@ -1,0 +1,268 @@
+<Type Name="DiskCreateOption" FullName="Azure.Provisioning.Compute.DiskCreateOption">
+  <TypeSignature Language="C#" Value="public enum DiskCreateOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskCreateOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskCreateOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskCreateOption" />
+  <TypeSignature Language="F#" Value="type DiskCreateOption = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            This enumerates the possible sources of a disk's creation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attach">
+      <MemberSignature Language="C#" Value="Attach" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption Attach = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.Attach" />
+      <MemberSignature Language="VB.NET" Value="Attach" />
+      <MemberSignature Language="F#" Value="Attach = 1" Usage="Azure.Provisioning.Compute.DiskCreateOption.Attach" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Disk will be attached to a VM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="Copy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption Copy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.Copy" />
+      <MemberSignature Language="VB.NET" Value="Copy" />
+      <MemberSignature Language="F#" Value="Copy = 4" Usage="Azure.Provisioning.Compute.DiskCreateOption.Copy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Create a new disk or snapshot by copying from a disk or snapshot
+            specified by the given sourceResourceId.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFromSanSnapshot">
+      <MemberSignature Language="C#" Value="CopyFromSanSnapshot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption CopyFromSanSnapshot = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.CopyFromSanSnapshot" />
+      <MemberSignature Language="VB.NET" Value="CopyFromSanSnapshot" />
+      <MemberSignature Language="F#" Value="CopyFromSanSnapshot = 10" Usage="Azure.Provisioning.Compute.DiskCreateOption.CopyFromSanSnapshot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+            Create a new disk by exporting from elastic san volume snapshot.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyStart">
+      <MemberSignature Language="C#" Value="CopyStart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption CopyStart = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.CopyStart" />
+      <MemberSignature Language="VB.NET" Value="CopyStart" />
+      <MemberSignature Language="F#" Value="CopyStart = 7" Usage="Azure.Provisioning.Compute.DiskCreateOption.CopyStart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            Create a new disk by using a deep copy process, where the resource
+            creation is considered complete only after all data has been copied
+            from the source.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="Empty" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption Empty = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.Empty" />
+      <MemberSignature Language="VB.NET" Value="Empty" />
+      <MemberSignature Language="F#" Value="Empty = 0" Usage="Azure.Provisioning.Compute.DiskCreateOption.Empty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Create an empty data disk of a size given by diskSizeGB.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FromImage">
+      <MemberSignature Language="C#" Value="FromImage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption FromImage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.FromImage" />
+      <MemberSignature Language="VB.NET" Value="FromImage" />
+      <MemberSignature Language="F#" Value="FromImage = 2" Usage="Azure.Provisioning.Compute.DiskCreateOption.FromImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Create a new disk from a platform image specified by the given
+            imageReference or galleryImageReference.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Import">
+      <MemberSignature Language="C#" Value="Import" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption Import = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.Import" />
+      <MemberSignature Language="VB.NET" Value="Import" />
+      <MemberSignature Language="F#" Value="Import = 3" Usage="Azure.Provisioning.Compute.DiskCreateOption.Import" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Create a disk by importing from a blob specified by a sourceUri in a
+            storage account specified by storageAccountId.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportSecure">
+      <MemberSignature Language="C#" Value="ImportSecure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption ImportSecure = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.ImportSecure" />
+      <MemberSignature Language="VB.NET" Value="ImportSecure" />
+      <MemberSignature Language="F#" Value="ImportSecure = 8" Usage="Azure.Provisioning.Compute.DiskCreateOption.ImportSecure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Similar to Import create option. Create a new Trusted Launch VM or
+            Confidential VM supported disk by importing additional blobs for VM
+            guest state specified by securityDataUri and VM metadata specified by
+            securityMetadataUri in storage account specified by storageAccountId.
+            The VM metadata is optional and only required for certain Confidential
+            VM configurations and not required for Trusted Launch VM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Restore">
+      <MemberSignature Language="C#" Value="Restore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption Restore = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.Restore" />
+      <MemberSignature Language="VB.NET" Value="Restore" />
+      <MemberSignature Language="F#" Value="Restore = 5" Usage="Azure.Provisioning.Compute.DiskCreateOption.Restore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Create a new disk by copying from a backup recovery point.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Upload">
+      <MemberSignature Language="C#" Value="Upload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption Upload = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.Upload" />
+      <MemberSignature Language="VB.NET" Value="Upload" />
+      <MemberSignature Language="F#" Value="Upload = 6" Usage="Azure.Provisioning.Compute.DiskCreateOption.Upload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Create a new disk by obtaining a write token and using it to directly
+            upload the contents of the disk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UploadPreparedSecure">
+      <MemberSignature Language="C#" Value="UploadPreparedSecure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskCreateOption UploadPreparedSecure = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskCreateOption.UploadPreparedSecure" />
+      <MemberSignature Language="VB.NET" Value="UploadPreparedSecure" />
+      <MemberSignature Language="F#" Value="UploadPreparedSecure = 9" Usage="Azure.Provisioning.Compute.DiskCreateOption.UploadPreparedSecure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskCreateOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            Similar to Upload create option. Create a new Trusted Launch VM or
+            Confidential VM supported disk and upload using write token in disk,
+            VM guest state and VM metadata. The VM metadata is optional and only
+            required for certain Confidential VM configurations and not required
+            for Trusted Launch VM.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

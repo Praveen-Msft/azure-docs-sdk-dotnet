@@ -65,24 +65,24 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="AgentCardPath">
-      <MemberSignature Language="C#" Value="public string AgentCardPath { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string AgentCardPath" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.Agents.A2APreviewTool.AgentCardPath" />
-      <MemberSignature Language="VB.NET" Value="Public Property AgentCardPath As String" />
-      <MemberSignature Language="F#" Value="member this.AgentCardPath : string with get, set" Usage="Azure.AI.Projects.Agents.A2APreviewTool.AgentCardPath" />
+    <Member MemberName="AgentCardUri">
+      <MemberSignature Language="C#" Value="public Uri AgentCardUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AgentCardUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.Agents.A2APreviewTool.AgentCardUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property AgentCardUri As Uri" />
+      <MemberSignature Language="F#" Value="member this.AgentCardUri : Uri with get, set" Usage="Azure.AI.Projects.Agents.A2APreviewTool.AgentCardUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects.Agents</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            The path to the agent card relative to the `base_url`.
-            If not provided, defaults to  `/.well-known/agent-card.json`
+            The uri of agent card.
+            If not provided, defaults to  `${base_url}/.well-known/agent-card.json`
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

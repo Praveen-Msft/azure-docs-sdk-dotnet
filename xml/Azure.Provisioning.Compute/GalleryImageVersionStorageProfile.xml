@@ -1,0 +1,130 @@
+<Type Name="GalleryImageVersionStorageProfile" FullName="Azure.Provisioning.Compute.GalleryImageVersionStorageProfile">
+  <TypeSignature Language="C#" Value="public class GalleryImageVersionStorageProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryImageVersionStorageProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryImageVersionStorageProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryImageVersionStorageProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type GalleryImageVersionStorageProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            This is the storage profile of a Gallery Image Version.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryImageVersionStorageProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new GalleryImageVersionStorageProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataDiskImages">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryDataDiskImage&gt; DataDiskImages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.GalleryDataDiskImage&gt; DataDiskImages" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.DataDiskImages" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataDiskImages As BicepList(Of GalleryDataDiskImage)" />
+      <MemberSignature Language="F#" Value="member this.DataDiskImages : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryDataDiskImage&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.DataDiskImages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryDataDiskImage&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A list of data disk images.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryImageVersionStorageProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            GalleryImageVersionStorageProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GallerySource">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryArtifactVersionFullSource GallerySource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryArtifactVersionFullSource GallerySource" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.GallerySource" />
+      <MemberSignature Language="VB.NET" Value="Public Property GallerySource As GalleryArtifactVersionFullSource" />
+      <MemberSignature Language="F#" Value="member this.GallerySource : Azure.Provisioning.Compute.GalleryArtifactVersionFullSource with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.GallerySource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryArtifactVersionFullSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The source of the gallery artifact version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSDiskImage">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryOSDiskImage OSDiskImage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryOSDiskImage OSDiskImage" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.OSDiskImage" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSDiskImage As GalleryOSDiskImage" />
+      <MemberSignature Language="F#" Value="member this.OSDiskImage : Azure.Provisioning.Compute.GalleryOSDiskImage with get, set" Usage="Azure.Provisioning.Compute.GalleryImageVersionStorageProfile.OSDiskImage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryOSDiskImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the OS disk image.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

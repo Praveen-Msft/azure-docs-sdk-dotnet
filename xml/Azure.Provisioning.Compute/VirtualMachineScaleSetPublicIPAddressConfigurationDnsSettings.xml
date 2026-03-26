@@ -1,0 +1,115 @@
+<Type Name="VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings" FullName="Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings">
+  <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a virtual machines scale sets network configuration's DNS
+            settings.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new
+            VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainNameLabel">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; DomainNameLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; DomainNameLabel" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.DomainNameLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property DomainNameLabel As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.DomainNameLabel : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.DomainNameLabel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Domain name label.The concatenation of the domain name label and vm
+            index will be the domain name labels of the PublicIPAddress resources
+            that will be created.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainNameLabelScope">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DomainNameLabelScopeType&gt; DomainNameLabelScope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DomainNameLabelScopeType&gt; DomainNameLabelScope" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.DomainNameLabelScope" />
+      <MemberSignature Language="VB.NET" Value="Public Property DomainNameLabelScope As BicepValue(Of DomainNameLabelScopeType)" />
+      <MemberSignature Language="F#" Value="member this.DomainNameLabelScope : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DomainNameLabelScopeType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.DomainNameLabelScope" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DomainNameLabelScopeType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Domain name label scope.The concatenation of the hashed domain name
+            label that generated according to the policy from domain name label
+            scope and vm index will be the domain name labels of the
+            PublicIPAddress resources that will be created.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

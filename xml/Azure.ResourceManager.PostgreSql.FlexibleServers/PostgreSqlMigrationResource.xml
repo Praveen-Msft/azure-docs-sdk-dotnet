@@ -11,6 +11,7 @@
     <AssemblyVersion>1.3.1.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.1.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -44,8 +45,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -62,8 +63,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;</ReturnType>
@@ -95,8 +96,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;&gt;</ReturnType>
@@ -120,36 +121,30 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string migrationName);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string migrationName) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string migrationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string migrationName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, serverName As String, migrationName As String) As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, serverName, migrationName)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string targetDbServerName, string migrationName);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string targetDbServerName, string migrationName) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, targetDbServerName As String, migrationName As String) As ResourceIdentifier" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, targetDbServerName, migrationName)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, serverName As String, migrationName As String) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, serverName, migrationName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionId" Type="System.String" Index="0" />
-        <Parameter Name="resourceGroupName" Type="System.String" Index="1" />
-        <Parameter Name="serverName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="targetDbServerName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="migrationName" Type="System.String" Index="3" />
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="serverName" Type="System.String" />
+        <Parameter Name="migrationName" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="subscriptionId"> The subscriptionId. </param>
         <param name="resourceGroupName"> The resourceGroupName. </param>
         <param name="serverName"> The serverName. </param>
-        <param name="targetDbServerName"> The targetDbServerName. </param>
         <param name="migrationName"> The migrationName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource" /> instance. </summary>
         <returns>To be added.</returns>
@@ -165,8 +160,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationData</ReturnType>
@@ -187,8 +182,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -217,8 +212,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -247,8 +242,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;</ReturnType>
@@ -274,8 +269,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;&gt;</ReturnType>
@@ -301,8 +296,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -322,8 +317,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;</ReturnType>
@@ -353,8 +348,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;&gt;</ReturnType>
@@ -384,8 +379,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -404,8 +399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;</ReturnType>
@@ -435,8 +430,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;&gt;</ReturnType>
@@ -469,8 +464,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationData</ReturnType>
@@ -502,8 +497,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -534,8 +529,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationData</ReturnType>
@@ -567,8 +562,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -597,8 +592,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -625,8 +620,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;</ReturnType>
@@ -656,8 +651,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlMigrationResource&gt;&gt;</ReturnType>

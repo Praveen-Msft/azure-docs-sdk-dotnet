@@ -1,0 +1,70 @@
+<Type Name="LinuxVmGuestPatchMode" FullName="Azure.Provisioning.Compute.LinuxVmGuestPatchMode">
+  <TypeSignature Language="C#" Value="public enum LinuxVmGuestPatchMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LinuxVmGuestPatchMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.LinuxVmGuestPatchMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LinuxVmGuestPatchMode" />
+  <TypeSignature Language="F#" Value="type LinuxVmGuestPatchMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the mode of VM Guest Patching to IaaS virtual machine or virtual
+            machines associated to virtual machine scale set with OrchestrationMode as
+            Flexible.&lt;br /&gt;&lt;br /&gt; Possible values are:&lt;br /&gt;&lt;br
+            /&gt; **ImageDefault** - The virtual machine's default patching
+            configuration is used. &lt;br /&gt;&lt;br /&gt; **AutomaticByPlatform** -
+            The virtual machine will be automatically updated by the platform. The
+            property provisionVMAgent must be true.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutomaticByPlatform">
+      <MemberSignature Language="C#" Value="AutomaticByPlatform" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.LinuxVmGuestPatchMode AutomaticByPlatform = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.LinuxVmGuestPatchMode.AutomaticByPlatform" />
+      <MemberSignature Language="VB.NET" Value="AutomaticByPlatform" />
+      <MemberSignature Language="F#" Value="AutomaticByPlatform = 1" Usage="Azure.Provisioning.Compute.LinuxVmGuestPatchMode.AutomaticByPlatform" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.LinuxVmGuestPatchMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            AutomaticByPlatform.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageDefault">
+      <MemberSignature Language="C#" Value="ImageDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.LinuxVmGuestPatchMode ImageDefault = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.LinuxVmGuestPatchMode.ImageDefault" />
+      <MemberSignature Language="VB.NET" Value="ImageDefault" />
+      <MemberSignature Language="F#" Value="ImageDefault = 0" Usage="Azure.Provisioning.Compute.LinuxVmGuestPatchMode.ImageDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.LinuxVmGuestPatchMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            ImageDefault.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

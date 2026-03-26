@@ -32,6 +32,7 @@
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.1.0</AssemblyVersion>
+    <AssemblyVersion>1.52.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -75,7 +76,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -95,7 +96,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -126,7 +127,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -153,7 +154,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -189,7 +190,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -215,7 +216,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -241,7 +242,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
@@ -259,7 +260,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator bool (Azure.Core.Serialization.DynamicData value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator bool (Azure.Core.Serialization.DynamicData? value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Implicit(class Azure.Core.Serialization.DynamicData value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.Serialization.DynamicData.op_Implicit(Azure.Core.Serialization.DynamicData)~System.Boolean" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As DynamicData) As Boolean" />
@@ -267,7 +268,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -293,7 +294,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte</ReturnType>
@@ -311,7 +312,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator decimal (Azure.Core.Serialization.DynamicData value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator decimal (Azure.Core.Serialization.DynamicData? value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Decimal op_Implicit(class Azure.Core.Serialization.DynamicData value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.Serialization.DynamicData.op_Implicit(Azure.Core.Serialization.DynamicData)~System.Decimal" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As DynamicData) As Decimal" />
@@ -319,7 +320,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Decimal</ReturnType>
@@ -337,7 +338,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator double (Azure.Core.Serialization.DynamicData value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator double (Azure.Core.Serialization.DynamicData? value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname float64 op_Implicit(class Azure.Core.Serialization.DynamicData value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.Serialization.DynamicData.op_Implicit(Azure.Core.Serialization.DynamicData)~System.Double" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As DynamicData) As Double" />
@@ -345,7 +346,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -371,7 +372,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int16</ReturnType>
@@ -397,7 +398,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -423,7 +424,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -449,7 +450,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.SByte</ReturnType>
@@ -475,7 +476,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -493,7 +494,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator string? (Azure.Core.Serialization.DynamicData value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator string? (Azure.Core.Serialization.DynamicData? value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Azure.Core.Serialization.DynamicData value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.Serialization.DynamicData.op_Implicit(Azure.Core.Serialization.DynamicData)~System.String" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As DynamicData) As String" />
@@ -501,7 +502,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -527,7 +528,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt16</ReturnType>
@@ -545,7 +546,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator uint (Azure.Core.Serialization.DynamicData value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator uint (Azure.Core.Serialization.DynamicData? value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname unsigned int32 op_Implicit(class Azure.Core.Serialization.DynamicData value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.Serialization.DynamicData.op_Implicit(Azure.Core.Serialization.DynamicData)~System.UInt32" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As DynamicData) As UInteger" />
@@ -553,7 +554,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt32</ReturnType>
@@ -571,7 +572,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator ulong (Azure.Core.Serialization.DynamicData value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator ulong (Azure.Core.Serialization.DynamicData? value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname unsigned int64 op_Implicit(class Azure.Core.Serialization.DynamicData value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.Serialization.DynamicData.op_Implicit(Azure.Core.Serialization.DynamicData)~System.UInt64" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As DynamicData) As ULong" />
@@ -579,7 +580,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
@@ -605,7 +606,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -641,7 +642,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Dynamic.DynamicMetaObject</ReturnType>
@@ -665,7 +666,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

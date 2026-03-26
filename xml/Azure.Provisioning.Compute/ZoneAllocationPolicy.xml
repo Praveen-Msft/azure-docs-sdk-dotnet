@@ -1,0 +1,111 @@
+<Type Name="ZoneAllocationPolicy" FullName="Azure.Provisioning.Compute.ZoneAllocationPolicy">
+  <TypeSignature Language="C#" Value="public class ZoneAllocationPolicy : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ZoneAllocationPolicy extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ZoneAllocationPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class ZoneAllocationPolicy&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ZoneAllocationPolicy = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The configuration parameters for zone allocation of a virtual machine scale
+            set.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ZoneAllocationPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ZoneAllocationPolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ZoneAllocationPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ZoneAllocationPolicy.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="zoneAllocationPolicy.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ZoneAllocationPolicy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxInstancePercentPerZonePolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.MaxInstancePercentPerZonePolicy MaxInstancePercentPerZonePolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.MaxInstancePercentPerZonePolicy MaxInstancePercentPerZonePolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ZoneAllocationPolicy.MaxInstancePercentPerZonePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxInstancePercentPerZonePolicy As MaxInstancePercentPerZonePolicy" />
+      <MemberSignature Language="F#" Value="member this.MaxInstancePercentPerZonePolicy : Azure.Provisioning.Compute.MaxInstancePercentPerZonePolicy with get, set" Usage="Azure.Provisioning.Compute.ZoneAllocationPolicy.MaxInstancePercentPerZonePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.MaxInstancePercentPerZonePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The configuration parameters used to limit the number of virtual
+            machines per availability zone in the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxZoneCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; MaxZoneCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; MaxZoneCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ZoneAllocationPolicy.MaxZoneCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxZoneCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.MaxZoneCount : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.ZoneAllocationPolicy.MaxZoneCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The maximum number of availability zones to use if the
+            ZonePlacementPolicy is 'Auto'. If not specified, all
+            availability zones will be used.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

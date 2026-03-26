@@ -1,0 +1,76 @@
+<Type Name="UefiKeyType" FullName="Azure.Provisioning.Compute.UefiKeyType">
+  <TypeSignature Language="C#" Value="public enum UefiKeyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UefiKeyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.UefiKeyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UefiKeyType" />
+  <TypeSignature Language="F#" Value="type UefiKeyType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The type of key signature.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Sha256">
+      <MemberSignature Language="C#" Value="Sha256" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.UefiKeyType Sha256 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.UefiKeyType.Sha256" />
+      <MemberSignature Language="VB.NET" Value="Sha256" />
+      <MemberSignature Language="F#" Value="Sha256 = 0" Usage="Azure.Provisioning.Compute.UefiKeyType.Sha256" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="sha256")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="sha256")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.UefiKeyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            sha256.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="X509">
+      <MemberSignature Language="C#" Value="X509" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.UefiKeyType X509 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.UefiKeyType.X509" />
+      <MemberSignature Language="VB.NET" Value="X509" />
+      <MemberSignature Language="F#" Value="X509 = 1" Usage="Azure.Provisioning.Compute.UefiKeyType.X509" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="x509")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="x509")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.UefiKeyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            x509.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

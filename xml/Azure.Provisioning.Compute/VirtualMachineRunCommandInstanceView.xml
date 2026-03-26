@@ -1,0 +1,240 @@
+<Type Name="VirtualMachineRunCommandInstanceView" FullName="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView">
+  <TypeSignature Language="C#" Value="public class VirtualMachineRunCommandInstanceView : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineRunCommandInstanceView extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineRunCommandInstanceView&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineRunCommandInstanceView = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The instance view of a virtual machine run command.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineRunCommandInstanceView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineRunCommandInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineRunCommandInstanceView.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineRunCommandInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; EndOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; EndOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.EndOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.EndOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.EndOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Script end time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Error { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Error" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.Error" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Error As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Error : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Script error stream.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionMessage">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ExecutionMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ExecutionMessage" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.ExecutionMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionMessage As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ExecutionMessage : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.ExecutionMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Communicate script configuration errors or execution messages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ExecutionState&gt; ExecutionState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ExecutionState&gt; ExecutionState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.ExecutionState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionState As BicepValue(Of ExecutionState)" />
+      <MemberSignature Language="F#" Value="member this.ExecutionState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ExecutionState&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.ExecutionState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ExecutionState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Script execution status.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; ExitCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitCode As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.ExitCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Exit code returned from script execution.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Output">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Output { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Output" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.Output" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Output As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Output : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.Output" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Script output stream.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; StartOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; StartOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.StartOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.StartOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.StartOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Script start time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Statuses">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt; Statuses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.InstanceViewStatus&gt; Statuses" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.Statuses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Statuses As BicepList(Of InstanceViewStatus)" />
+      <MemberSignature Language="F#" Value="member this.Statuses : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt;" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandInstanceView.Statuses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The resource status information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

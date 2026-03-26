@@ -34,6 +34,26 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WidgetAnalyticsClient (Azure.Template.WidgetAnalyticsClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Template.WidgetAnalyticsClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClient.#ctor(Azure.Template.WidgetAnalyticsClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As WidgetAnalyticsClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.Template.WidgetAnalyticsClient : Azure.Template.WidgetAnalyticsClientSettings -&gt; Azure.Template.WidgetAnalyticsClient" Usage="new Azure.Template.WidgetAnalyticsClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.Template.WidgetAnalyticsClientSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for WidgetAnalyticsClient. </param>
+        <summary> Initializes a new instance of WidgetAnalyticsClient from a <see cref="T:Azure.Template.WidgetAnalyticsClientSettings" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public WidgetAnalyticsClient (Uri endpoint, Azure.Core.TokenCredential credential);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClient.#ctor(System.Uri,Azure.Core.TokenCredential)" />

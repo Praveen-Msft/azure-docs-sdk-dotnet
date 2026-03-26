@@ -1,0 +1,45 @@
+<Type Name="CopyCompletionErrorReason" FullName="Azure.Provisioning.Compute.CopyCompletionErrorReason">
+  <TypeSignature Language="C#" Value="public enum CopyCompletionErrorReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CopyCompletionErrorReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.CopyCompletionErrorReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CopyCompletionErrorReason" />
+  <TypeSignature Language="F#" Value="type CopyCompletionErrorReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Indicates the error code if the background copy of a resource created via
+            the CopyStart operation fails.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CopySourceNotFound">
+      <MemberSignature Language="C#" Value="CopySourceNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.CopyCompletionErrorReason CopySourceNotFound = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.CopyCompletionErrorReason.CopySourceNotFound" />
+      <MemberSignature Language="VB.NET" Value="CopySourceNotFound" />
+      <MemberSignature Language="F#" Value="CopySourceNotFound = 0" Usage="Azure.Provisioning.Compute.CopyCompletionErrorReason.CopySourceNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.CopyCompletionErrorReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the source snapshot was deleted while the background
+            copy of the resource created via CopyStart operation was in progress.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

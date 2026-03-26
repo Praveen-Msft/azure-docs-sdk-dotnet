@@ -1,0 +1,221 @@
+<Type Name="StorageAccountType" FullName="Azure.Provisioning.Compute.StorageAccountType">
+  <TypeSignature Language="C#" Value="public enum StorageAccountType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StorageAccountType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.StorageAccountType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StorageAccountType" />
+  <TypeSignature Language="F#" Value="type StorageAccountType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the storage account type for the managed disk. Managed OS disk
+            storage account type can only be set when you create the scale set. NOTE:
+            UltraSSD_LRS can only be used with data disks. It cannot be used with OS
+            Disk. Standard_LRS uses Standard HDD. StandardSSD_LRS uses Standard SSD.
+            Premium_LRS uses Premium SSD. UltraSSD_LRS uses Ultra disk. Premium_ZRS
+            uses Premium SSD zone redundant storage. StandardSSD_ZRS uses Standard SSD
+            zone redundant storage. For more information regarding disks supported for
+            Windows Virtual Machines, refer to
+            https://docs.microsoft.com/azure/virtual-machines/windows/disks-types and,
+            for Linux Virtual Machines, refer to
+            https://docs.microsoft.com/azure/virtual-machines/linux/disks-types.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PremiumLrs">
+      <MemberSignature Language="C#" Value="PremiumLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType PremiumLrs = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.PremiumLrs" />
+      <MemberSignature Language="VB.NET" Value="PremiumLrs" />
+      <MemberSignature Language="F#" Value="PremiumLrs = 1" Usage="Azure.Provisioning.Compute.StorageAccountType.PremiumLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Premium_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Premium_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Premium_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PremiumV2Lrs">
+      <MemberSignature Language="C#" Value="PremiumV2Lrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType PremiumV2Lrs = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.PremiumV2Lrs" />
+      <MemberSignature Language="VB.NET" Value="PremiumV2Lrs" />
+      <MemberSignature Language="F#" Value="PremiumV2Lrs = 6" Usage="Azure.Provisioning.Compute.StorageAccountType.PremiumV2Lrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="PremiumV2_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="PremiumV2_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            PremiumV2_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PremiumZrs">
+      <MemberSignature Language="C#" Value="PremiumZrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType PremiumZrs = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.PremiumZrs" />
+      <MemberSignature Language="VB.NET" Value="PremiumZrs" />
+      <MemberSignature Language="F#" Value="PremiumZrs = 4" Usage="Azure.Provisioning.Compute.StorageAccountType.PremiumZrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Premium_ZRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Premium_ZRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Premium_ZRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardLrs">
+      <MemberSignature Language="C#" Value="StandardLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType StandardLrs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.StandardLrs" />
+      <MemberSignature Language="VB.NET" Value="StandardLrs" />
+      <MemberSignature Language="F#" Value="StandardLrs = 0" Usage="Azure.Provisioning.Compute.StorageAccountType.StandardLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Standard_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Standard_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Standard_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardSsdLrs">
+      <MemberSignature Language="C#" Value="StandardSsdLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType StandardSsdLrs = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.StandardSsdLrs" />
+      <MemberSignature Language="VB.NET" Value="StandardSsdLrs" />
+      <MemberSignature Language="F#" Value="StandardSsdLrs = 2" Usage="Azure.Provisioning.Compute.StorageAccountType.StandardSsdLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="StandardSSD_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="StandardSSD_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            StandardSSD_LRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardSsdZrs">
+      <MemberSignature Language="C#" Value="StandardSsdZrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType StandardSsdZrs = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.StandardSsdZrs" />
+      <MemberSignature Language="VB.NET" Value="StandardSsdZrs" />
+      <MemberSignature Language="F#" Value="StandardSsdZrs = 5" Usage="Azure.Provisioning.Compute.StorageAccountType.StandardSsdZrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="StandardSSD_ZRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="StandardSSD_ZRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            StandardSSD_ZRS.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UltraSsdLrs">
+      <MemberSignature Language="C#" Value="UltraSsdLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountType UltraSsdLrs = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountType.UltraSsdLrs" />
+      <MemberSignature Language="VB.NET" Value="UltraSsdLrs" />
+      <MemberSignature Language="F#" Value="UltraSsdLrs = 3" Usage="Azure.Provisioning.Compute.StorageAccountType.UltraSsdLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="UltraSSD_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="UltraSSD_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            UltraSSD_LRS.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

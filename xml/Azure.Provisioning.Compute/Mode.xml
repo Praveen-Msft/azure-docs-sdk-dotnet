@@ -1,0 +1,67 @@
+<Type Name="Mode" FullName="Azure.Provisioning.Compute.Mode">
+  <TypeSignature Language="C#" Value="public enum Mode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Mode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.Mode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Mode" />
+  <TypeSignature Language="F#" Value="type Mode = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the mode that ProxyAgent will execute on if the feature is
+            enabled. ProxyAgent will start to audit or monitor but not enforce access
+            control over requests to host endpoints in Audit mode, while in Enforce
+            mode it will enforce access control. The default value is Enforce mode.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Audit">
+      <MemberSignature Language="C#" Value="Audit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.Mode Audit = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.Mode.Audit" />
+      <MemberSignature Language="VB.NET" Value="Audit" />
+      <MemberSignature Language="F#" Value="Audit = 0" Usage="Azure.Provisioning.Compute.Mode.Audit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Audit.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Enforce">
+      <MemberSignature Language="C#" Value="Enforce" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.Mode Enforce = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.Mode.Enforce" />
+      <MemberSignature Language="VB.NET" Value="Enforce" />
+      <MemberSignature Language="F#" Value="Enforce = 1" Usage="Azure.Provisioning.Compute.Mode.Enforce" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Enforce.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

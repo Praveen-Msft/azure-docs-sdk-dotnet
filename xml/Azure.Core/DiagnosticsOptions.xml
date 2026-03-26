@@ -52,6 +52,7 @@
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.1.0</AssemblyVersion>
+    <AssemblyVersion>1.52.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -72,7 +73,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -91,7 +92,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
@@ -113,7 +114,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -123,7 +124,9 @@
             Gets or sets the value sent as the first part of "User-Agent" headers for all requests issues by this client. Defaults to <see cref="P:Azure.Core.DiagnosticsOptions.DefaultApplicationId" />.
             </summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>
+            The length of <see cref="P:Azure.Core.DiagnosticsOptions.ApplicationId" /> is validated against <see cref="P:Azure.Core.DiagnosticsOptions.MaxApplicationIdLength" /> when the HTTP pipeline is built.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultApplicationId">
@@ -135,7 +138,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -157,7 +160,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -179,7 +182,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -201,7 +204,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -223,7 +226,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -247,7 +250,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -269,7 +272,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -291,7 +294,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>

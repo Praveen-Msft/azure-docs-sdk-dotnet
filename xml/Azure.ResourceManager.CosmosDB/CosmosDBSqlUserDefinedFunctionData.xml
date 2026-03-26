@@ -14,6 +14,7 @@
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.2.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -47,6 +48,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -54,26 +56,6 @@
       <Docs>
         <param name="location"> The location. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData" />. </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Identity">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Models.ManagedServiceIdentity Identity { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Models.ManagedServiceIdentity Identity" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData.Identity" />
-      <MemberSignature Language="VB.NET" Value="Public Property Identity As ManagedServiceIdentity" />
-      <MemberSignature Language="F#" Value="member this.Identity : Azure.ResourceManager.Models.ManagedServiceIdentity with get, set" Usage="Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData.Identity" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Models.ManagedServiceIdentity</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Identity for the resource. </summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -87,6 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -112,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlUserDefinedFunctionResourceInfo</ReturnType>
@@ -135,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData</ReturnType>
@@ -167,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -198,6 +184,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData</ReturnType>
@@ -230,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -259,6 +247,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

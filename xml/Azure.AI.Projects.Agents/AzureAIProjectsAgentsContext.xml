@@ -162,6 +162,10 @@
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(OpenAI.CustomToolParamFormat))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.DeclarativeAgentDefinition))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.DeclarativeAgentDefinition))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.FabricDataAgentToolOptions))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.FabricDataAgentToolOptions))&gt;]</AttributeName>
     </Attribute>
@@ -344,10 +348,6 @@
     <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.ProjectWebSearchConfiguration))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.ProjectWebSearchConfiguration))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.PromptAgentDefinition))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.PromptAgentDefinition))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.AI.Projects.Agents.ProtocolVersionRecord))]</AttributeName>

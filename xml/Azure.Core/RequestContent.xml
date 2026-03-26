@@ -52,6 +52,7 @@
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.1.0</AssemblyVersion>
+    <AssemblyVersion>1.52.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -76,7 +77,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -93,7 +94,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -119,7 +120,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -145,7 +146,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -171,7 +172,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -197,7 +198,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -223,7 +224,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -249,7 +250,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -275,7 +276,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -301,7 +302,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -329,7 +330,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -359,7 +360,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -389,7 +390,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -428,7 +429,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -442,7 +443,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.RequestContent (Azure.Core.Serialization.DynamicData content);" />
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.RequestContent? (Azure.Core.Serialization.DynamicData? content);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Core.RequestContent op_Implicit(class Azure.Core.Serialization.DynamicData content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.RequestContent.op_Implicit(Azure.Core.Serialization.DynamicData)~Azure.Core.RequestContent" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (content As DynamicData) As RequestContent" />
@@ -450,7 +451,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -468,7 +469,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.RequestContent (BinaryData content);" />
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.RequestContent? (BinaryData? content);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Core.RequestContent op_Implicit(class System.BinaryData content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.RequestContent.op_Implicit(System.BinaryData)~Azure.Core.RequestContent" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (content As BinaryData) As RequestContent" />
@@ -476,7 +477,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -494,7 +495,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.RequestContent (string content);" />
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.RequestContent? (string? content);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Core.RequestContent op_Implicit(string content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Core.RequestContent.op_Implicit(System.String)~Azure.Core.RequestContent" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (content As String) As RequestContent" />
@@ -502,7 +503,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
@@ -528,7 +529,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -554,7 +555,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -581,7 +582,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

@@ -9,13 +9,14 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,8 +29,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HealthBot.HealthBotData</ReturnType>
@@ -70,18 +71,19 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HealthBot.Models.HealthBotKey</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="keyName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="value" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="keyName"> The name of the key. </param>
         <param name="value"> The value of the key. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotKey" />. </summary>
+        <summary> An entry of HealthBotKeysResponse. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotKey" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -96,36 +98,67 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HealthBot.Models.HealthBotKeysResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="secrets" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.HealthBot.Models.HealthBotKey&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="secrets" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.HealthBot.Models.HealthBotKey&gt;" />
       </Parameters>
       <Docs>
         <param name="secrets"> Array of Azure Health Bot Secrets. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotKeysResult" />. </summary>
+        <summary> Health Bot Keys Response. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotKeysResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="HealthBotProperties">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HealthBot.Models.HealthBotProperties HealthBotProperties (string provisioningState, Uri botManagementPortalLink, Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties keyVaultProperties);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HealthBot.Models.HealthBotProperties HealthBotProperties(string provisioningState, class System.Uri botManagementPortalLink, class Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties keyVaultProperties) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.HealthBot.Models.ArmHealthBotModelFactory.HealthBotProperties(System.String,System.Uri,Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function HealthBotProperties (provisioningState As String, botManagementPortalLink As Uri, keyVaultProperties As HealthBotKeyVaultProperties) As HealthBotProperties" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="static member HealthBotProperties : string * Uri * Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties -&gt; Azure.ResourceManager.HealthBot.Models.HealthBotProperties" Usage="Azure.ResourceManager.HealthBot.Models.ArmHealthBotModelFactory.HealthBotProperties (provisioningState, botManagementPortalLink, keyVaultProperties)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HealthBot.Models.HealthBotProperties HealthBotProperties (string provisioningState = default, Uri botManagementPortalLink = default, Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties keyVaultProperties = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function HealthBotProperties (Optional provisioningState As String = Nothing, Optional botManagementPortalLink As Uri = Nothing, Optional keyVaultProperties As HealthBotKeyVaultProperties = Nothing) As HealthBotProperties" FrameworkAlternate="azure-dotnet-preview" />
+    <Member MemberName="HealthBotPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HealthBot.Models.HealthBotPatch HealthBotPatch (Azure.ResourceManager.HealthBot.Models.HealthBotProperties properties = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.ResourceManager.HealthBot.Models.HealthBotSkuName? skuName = default, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default, Azure.Core.AzureLocation? location = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HealthBot.Models.HealthBotPatch HealthBotPatch(class Azure.ResourceManager.HealthBot.Models.HealthBotProperties properties, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.HealthBot.Models.HealthBotSkuName&gt; skuName, class Azure.ResourceManager.Models.ManagedServiceIdentity identity, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.HealthBot.Models.ArmHealthBotModelFactory.HealthBotPatch(Azure.ResourceManager.HealthBot.Models.HealthBotProperties,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.ResourceManager.HealthBot.Models.HealthBotSkuName},Azure.ResourceManager.Models.ManagedServiceIdentity,System.Nullable{Azure.Core.AzureLocation})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function HealthBotPatch (Optional properties As HealthBotProperties = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional skuName As Nullable(Of HealthBotSkuName) = Nothing, Optional identity As ManagedServiceIdentity = Nothing, Optional location As Nullable(Of AzureLocation) = Nothing) As HealthBotPatch" />
+      <MemberSignature Language="F#" Value="static member HealthBotPatch : Azure.ResourceManager.HealthBot.Models.HealthBotProperties * System.Collections.Generic.IDictionary&lt;string, string&gt; * Nullable&lt;Azure.ResourceManager.HealthBot.Models.HealthBotSkuName&gt; * Azure.ResourceManager.Models.ManagedServiceIdentity * Nullable&lt;Azure.Core.AzureLocation&gt; -&gt; Azure.ResourceManager.HealthBot.Models.HealthBotPatch" Usage="Azure.ResourceManager.HealthBot.Models.ArmHealthBotModelFactory.HealthBotPatch (properties, tags, skuName, identity, location)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.HealthBot.Models.HealthBotPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Azure.ResourceManager.HealthBot.Models.HealthBotProperties" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="skuName" Type="System.Nullable&lt;Azure.ResourceManager.HealthBot.Models.HealthBotSkuName&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="properties"> Properties of Azure Health Bot. </param>
+        <param name="tags"> Tags for a Azure Health Bot. </param>
+        <param name="skuName"> The name of the Azure Health Bot SKU. </param>
+        <param name="identity"> The identity of the Azure Health Bot. </param>
+        <param name="location" />
+        <summary>To be added.</summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HealthBotProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HealthBot.Models.HealthBotProperties HealthBotProperties (string provisioningState, Uri botManagementPortalLink, Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties keyVaultProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HealthBot.Models.HealthBotProperties HealthBotProperties(string provisioningState, class System.Uri botManagementPortalLink, class Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties keyVaultProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.HealthBot.Models.ArmHealthBotModelFactory.HealthBotProperties(System.String,System.Uri,Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function HealthBotProperties (provisioningState As String, botManagementPortalLink As Uri, keyVaultProperties As HealthBotKeyVaultProperties) As HealthBotProperties" />
+      <MemberSignature Language="F#" Value="static member HealthBotProperties : string * Uri * Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties -&gt; Azure.ResourceManager.HealthBot.Models.HealthBotProperties" Usage="Azure.ResourceManager.HealthBot.Models.ArmHealthBotModelFactory.HealthBotProperties (provisioningState, botManagementPortalLink, keyVaultProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -157,22 +190,23 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HealthBot.Models.HealthBotProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provisioningState" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="botManagementPortalLink" Type="System.Uri" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="keyVaultProperties" Type="Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="accessControlMethod" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="botManagementPortalLink" Type="System.Uri" />
+        <Parameter Name="keyVaultProperties" Type="Azure.ResourceManager.HealthBot.Models.HealthBotKeyVaultProperties" />
+        <Parameter Name="accessControlMethod" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="provisioningState"> The provisioning state of the Azure Health Bot resource. </param>
         <param name="botManagementPortalLink"> The link. </param>
         <param name="keyVaultProperties"> KeyVault properties for the resource encryption. </param>
         <param name="accessControlMethod"> The access control method for the Azure Health Bot resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotProperties" />. </summary>
+        <summary> The properties of a Azure Health Bot. The Health Bot Service is a cloud platform that empowers developers in Healthcare organizations to build and deploy their compliant, AI-powered virtual health assistants and health bots, that help them improve processes and reduce costs. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.HealthBot.Models.HealthBotProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

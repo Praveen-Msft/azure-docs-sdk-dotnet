@@ -1,0 +1,64 @@
+<Type Name="ComputePublicIPAddressSkuTier" FullName="Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier">
+  <TypeSignature Language="C#" Value="public enum ComputePublicIPAddressSkuTier" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComputePublicIPAddressSkuTier extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComputePublicIPAddressSkuTier" />
+  <TypeSignature Language="F#" Value="type ComputePublicIPAddressSkuTier = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specify public IP sku tier.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Global">
+      <MemberSignature Language="C#" Value="Global" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier Global = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier.Global" />
+      <MemberSignature Language="VB.NET" Value="Global" />
+      <MemberSignature Language="F#" Value="Global = 1" Usage="Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier.Global" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Global.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Regional">
+      <MemberSignature Language="C#" Value="Regional" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier Regional = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier.Regional" />
+      <MemberSignature Language="VB.NET" Value="Regional" />
+      <MemberSignature Language="F#" Value="Regional = 0" Usage="Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier.Regional" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputePublicIPAddressSkuTier</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Regional.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

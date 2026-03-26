@@ -1,13 +1,9 @@
 <Type Name="DynatraceMonitorResource" FullName="Azure.ResourceManager.Dynatrace.DynatraceMonitorResource">
-  <TypeSignature Language="C#" Value="public class DynatraceMonitorResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DynatraceMonitorResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class DynatraceMonitorResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DynatraceMonitorResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Dynatrace.DynatraceMonitorResource" />
-  <TypeSignature Language="VB.NET" Value="Public Class DynatraceMonitorResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of DynatraceMonitorData), IPersistableModel(Of DynatraceMonitorData)" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type DynatraceMonitorResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;DynatraceMonitorData&gt;&#xA;    interface IPersistableModel&lt;DynatraceMonitorData&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class DynatraceMonitorResource : Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DynatraceMonitorResource extends Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class DynatraceMonitorResource&#xA;Inherits ArmResource" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type DynatraceMonitorResource = class&#xA;    inherit ArmResource" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class DynatraceMonitorResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of DynatraceMonitorData), IPersistableModel(Of DynatraceMonitorData)" />
+  <TypeSignature Language="F#" Value="type DynatraceMonitorResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;DynatraceMonitorData&gt;&#xA;    interface IPersistableModel&lt;DynatraceMonitorData&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -15,18 +11,19 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -47,8 +44,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -65,8 +62,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;</ReturnType>
@@ -96,8 +93,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;&gt;</ReturnType>
@@ -127,8 +124,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -156,8 +153,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceMonitorData</ReturnType>
@@ -178,8 +175,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -208,8 +205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -238,8 +235,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;</ReturnType>
@@ -265,15 +262,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.Obsolete("This method is obsolete and will be removed in a future release.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This method is obsolete and will be removed in a future release.")&gt;]</AttributeName>
         </Attribute>
@@ -302,15 +299,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.Obsolete("This method is obsolete and will be removed in a future release.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This method is obsolete and will be removed in a future release.")&gt;]</AttributeName>
         </Attribute>
@@ -339,8 +336,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceOneAgentEnabledAppServiceInfo&gt;</ReturnType>
@@ -366,8 +363,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceOneAgentEnabledAppServiceInfo&gt;</ReturnType>
@@ -393,8 +390,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;&gt;</ReturnType>
@@ -421,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceMonitoredSubscriptionResource</ReturnType>
@@ -441,8 +439,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;</ReturnType>
@@ -472,8 +470,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt;</ReturnType>
@@ -503,8 +501,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnCollection</ReturnType>
@@ -525,8 +523,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceTagRuleResource&gt;</ReturnType>
@@ -556,8 +554,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceTagRuleResource&gt;&gt;</ReturnType>
@@ -587,8 +585,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceTagRuleCollection</ReturnType>
@@ -609,8 +607,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitorVmInfo&gt;</ReturnType>
@@ -636,8 +634,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitorVmInfo&gt;</ReturnType>
@@ -663,8 +661,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.LinkableEnvironmentResult&gt;</ReturnType>
@@ -694,8 +692,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.LinkableEnvironmentResult&gt;</ReturnType>
@@ -726,13 +724,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMetricsStatusResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMetricStatusContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMetricStatusContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> The details of the metric status request. </param>
@@ -754,13 +753,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMetricsStatusResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMetricStatusContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMetricStatusContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> The details of the metric status request. </param>
@@ -773,21 +773,19 @@
       </Docs>
     </Member>
     <Member MemberName="GetMonitoredResources">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResources (System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResources (System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResources(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dynatrace.DynatraceMonitorResource.GetMonitoredResources(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMonitoredResources (cancellationToken As CancellationToken) As Pageable(Of DynatraceMonitoredResourceDetails)" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMonitoredResources (cancellationToken As CancellationToken) As Pageable(Of DynatraceMonitoredResourceDetails)" />
       <MemberSignature Language="F#" Value="abstract member GetMonitoredResources : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt;&#xA;override this.GetMonitoredResources : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt;" Usage="dynatraceMonitorResource.GetMonitoredResources cancellationToken" />
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResources (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMonitoredResources (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of DynatraceMonitoredResourceDetails)" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -817,13 +815,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> The details of the log status request. </param>
@@ -836,21 +835,19 @@
       </Docs>
     </Member>
     <Member MemberName="GetMonitoredResourcesAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResourcesAsync (System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResourcesAsync (System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResourcesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dynatrace.DynatraceMonitorResource.GetMonitoredResourcesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMonitoredResourcesAsync (cancellationToken As CancellationToken) As AsyncPageable(Of DynatraceMonitoredResourceDetails)" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMonitoredResourcesAsync (cancellationToken As CancellationToken) As AsyncPageable(Of DynatraceMonitoredResourceDetails)" />
       <MemberSignature Language="F#" Value="abstract member GetMonitoredResourcesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt;&#xA;override this.GetMonitoredResourcesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt;" Usage="dynatraceMonitorResource.GetMonitoredResourcesAsync cancellationToken" />
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt; GetMonitoredResourcesAsync (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMonitoredResourcesAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of DynatraceMonitoredResourceDetails)" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -880,13 +877,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceDetails&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceMonitoredResourceContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> The details of the log status request. </param>
@@ -907,8 +905,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceSsoDetailsResult&gt;</ReturnType>
@@ -936,8 +934,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceSsoDetailsResult&gt;&gt;</ReturnType>
@@ -965,8 +963,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceVmExtensionPayload&gt;</ReturnType>
@@ -992,8 +990,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.Models.DynatraceVmExtensionPayload&gt;&gt;</ReturnType>
@@ -1019,8 +1017,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1041,13 +1039,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.ManageAgentInstallationContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.ManageAgentInstallationContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> List of resources and action. </param>
@@ -1071,13 +1070,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.ManageAgentInstallationContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.ManageAgentInstallationContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> List of resources and action. </param>
@@ -1100,8 +1100,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;</ReturnType>
@@ -1129,8 +1129,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;&gt;</ReturnType>
@@ -1158,8 +1158,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1178,8 +1178,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;</ReturnType>
@@ -1207,8 +1207,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;&gt;</ReturnType>
@@ -1240,13 +1240,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceMonitorData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader"> The reader for deserializing the model. </param>
@@ -1272,13 +1273,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer"> The writer to serialize the model to. </param>
@@ -1303,13 +1305,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceMonitorData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data"> The binary data to be processed. </param>
@@ -1335,12 +1338,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options"> The client options for reading and writing models. </param>
@@ -1364,12 +1368,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options"> The client options for reading and writing models. </param>
@@ -1390,8 +1395,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;</ReturnType>
@@ -1421,8 +1426,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Dynatrace.DynatraceMonitorResource&gt;&gt;</ReturnType>
@@ -1453,14 +1458,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceUpgradePlanContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceUpgradePlanContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -1486,14 +1492,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceUpgradePlanContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Dynatrace.Models.DynatraceUpgradePlanContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">

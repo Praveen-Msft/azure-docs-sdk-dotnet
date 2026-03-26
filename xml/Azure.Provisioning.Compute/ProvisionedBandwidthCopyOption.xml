@@ -1,0 +1,65 @@
+<Type Name="ProvisionedBandwidthCopyOption" FullName="Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption">
+  <TypeSignature Language="C#" Value="public enum ProvisionedBandwidthCopyOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProvisionedBandwidthCopyOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProvisionedBandwidthCopyOption" />
+  <TypeSignature Language="F#" Value="type ProvisionedBandwidthCopyOption = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            If this field is set on a snapshot and createOption is CopyStart, the
+            snapshot will be copied at a quicker speed.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enhanced">
+      <MemberSignature Language="C#" Value="Enhanced" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption Enhanced = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption.Enhanced" />
+      <MemberSignature Language="VB.NET" Value="Enhanced" />
+      <MemberSignature Language="F#" Value="Enhanced = 1" Usage="Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption.Enhanced" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Enhanced.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            None.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

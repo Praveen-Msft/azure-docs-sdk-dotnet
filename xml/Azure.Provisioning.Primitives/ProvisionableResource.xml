@@ -123,9 +123,13 @@
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="azure-dotnet">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(Azure.Provisioning.Primitives.ProvisionableResource+&lt;Compile&gt;d__21))]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(Azure.Provisioning.Primitives.ProvisionableResource+&lt;Compile&gt;d__21))&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(Azure.Provisioning.Primitives.ProvisionableResource+&lt;Compile&gt;d__22))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(Azure.Provisioning.Primitives.ProvisionableResource+&lt;Compile&gt;d__22))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -1,0 +1,108 @@
+<Type Name="GalleryImageVersionPolicyViolation" FullName="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation">
+  <TypeSignature Language="C#" Value="public class GalleryImageVersionPolicyViolation : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryImageVersionPolicyViolation extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryImageVersionPolicyViolation&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type GalleryImageVersionPolicyViolation = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A policy violation reported against a gallery artifact.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryImageVersionPolicyViolation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new GalleryImageVersionPolicyViolation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory&gt; Category { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory&gt; Category" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation.Category" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Category As BicepValue(Of GalleryImageVersionPolicyViolationCategory)" />
+      <MemberSignature Language="F#" Value="member this.Category : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory&gt;" Usage="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation.Category" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Describes the nature of the policy violation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryImageVersionPolicyViolation.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            GalleryImageVersionPolicyViolation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Details" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation.Details" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Details As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Details : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolation.Details" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Describes specific details about why this policy violation was reported.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

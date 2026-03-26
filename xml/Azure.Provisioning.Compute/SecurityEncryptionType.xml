@@ -1,0 +1,102 @@
+<Type Name="SecurityEncryptionType" FullName="Azure.Provisioning.Compute.SecurityEncryptionType">
+  <TypeSignature Language="C#" Value="public enum SecurityEncryptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SecurityEncryptionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.SecurityEncryptionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SecurityEncryptionType" />
+  <TypeSignature Language="F#" Value="type SecurityEncryptionType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the EncryptionType of the managed disk. It is set to
+            DiskWithVMGuestState for encryption of the managed disk along with
+            VMGuestState blob, VMGuestStateOnly for encryption of just the
+            VMGuestState blob, and NonPersistedTPM for not persisting firmware state
+            in the VMGuestState blob.. **Note:** It can be set for only Confidential
+            VMs.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DiskWithVmGuestState">
+      <MemberSignature Language="C#" Value="DiskWithVmGuestState" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SecurityEncryptionType DiskWithVmGuestState = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SecurityEncryptionType.DiskWithVmGuestState" />
+      <MemberSignature Language="VB.NET" Value="DiskWithVmGuestState" />
+      <MemberSignature Language="F#" Value="DiskWithVmGuestState = 1" Usage="Azure.Provisioning.Compute.SecurityEncryptionType.DiskWithVmGuestState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="DiskWithVMGuestState")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="DiskWithVMGuestState")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            DiskWithVMGuestState.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonPersistedTPM">
+      <MemberSignature Language="C#" Value="NonPersistedTPM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SecurityEncryptionType NonPersistedTPM = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SecurityEncryptionType.NonPersistedTPM" />
+      <MemberSignature Language="VB.NET" Value="NonPersistedTPM" />
+      <MemberSignature Language="F#" Value="NonPersistedTPM = 2" Usage="Azure.Provisioning.Compute.SecurityEncryptionType.NonPersistedTPM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            NonPersistedTPM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VmGuestStateOnly">
+      <MemberSignature Language="C#" Value="VmGuestStateOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SecurityEncryptionType VmGuestStateOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SecurityEncryptionType.VmGuestStateOnly" />
+      <MemberSignature Language="VB.NET" Value="VmGuestStateOnly" />
+      <MemberSignature Language="F#" Value="VmGuestStateOnly = 0" Usage="Azure.Provisioning.Compute.SecurityEncryptionType.VmGuestStateOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="VMGuestStateOnly")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="VMGuestStateOnly")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            VMGuestStateOnly.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

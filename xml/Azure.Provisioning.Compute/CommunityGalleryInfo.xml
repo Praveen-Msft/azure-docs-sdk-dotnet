@@ -1,0 +1,197 @@
+<Type Name="CommunityGalleryInfo" FullName="Azure.Provisioning.Compute.CommunityGalleryInfo">
+  <TypeSignature Language="C#" Value="public class CommunityGalleryInfo : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommunityGalleryInfo extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.CommunityGalleryInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class CommunityGalleryInfo&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type CommunityGalleryInfo = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Information of community gallery if current gallery is shared to community.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommunityGalleryInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.CommunityGalleryInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new CommunityGalleryInfo.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunityGalleryEnabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; CommunityGalleryEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; CommunityGalleryEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CommunityGalleryInfo.CommunityGalleryEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommunityGalleryEnabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.CommunityGalleryEnabled : Azure.Provisioning.BicepValue&lt;bool&gt;" Usage="Azure.Provisioning.Compute.CommunityGalleryInfo.CommunityGalleryEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Contains info about whether community gallery sharing is enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.CommunityGalleryInfo.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="communityGalleryInfo.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of CommunityGalleryInfo.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Eula">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Eula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Eula" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CommunityGalleryInfo.Eula" />
+      <MemberSignature Language="VB.NET" Value="Public Property Eula As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Eula : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.CommunityGalleryInfo.Eula" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            End-user license agreement for community gallery image.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicNamePrefix">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; PublicNamePrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; PublicNamePrefix" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CommunityGalleryInfo.PublicNamePrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicNamePrefix As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.PublicNamePrefix : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.CommunityGalleryInfo.PublicNamePrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The prefix of the gallery name that will be displayed publicly. Visible
+            to all users.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicNames">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;string&gt; PublicNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;string&gt; PublicNames" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CommunityGalleryInfo.PublicNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublicNames As BicepList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.PublicNames : Azure.Provisioning.BicepList&lt;string&gt;" Usage="Azure.Provisioning.Compute.CommunityGalleryInfo.PublicNames" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Community gallery public name list.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublisherContact">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; PublisherContact { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; PublisherContact" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CommunityGalleryInfo.PublisherContact" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublisherContact As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.PublisherContact : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.CommunityGalleryInfo.PublisherContact" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Community gallery publisher support email. The email address of the
+            publisher. Visible to all users.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublisherUriString">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; PublisherUriString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; PublisherUriString" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CommunityGalleryInfo.PublisherUriString" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublisherUriString As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.PublisherUriString : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.CommunityGalleryInfo.PublisherUriString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The link to the publisher website. Visible to all users.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,110 @@
+<Type Name="ComputeSkuProfile" FullName="Azure.Provisioning.Compute.ComputeSkuProfile">
+  <TypeSignature Language="C#" Value="public class ComputeSkuProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ComputeSkuProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputeSkuProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class ComputeSkuProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ComputeSkuProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies the sku profile for the virtual machine scale set. With this
+            property the customer is able to specify a list of VM sizes and an
+            allocation strategy.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeSkuProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ComputeSkuProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ComputeSkuProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocationStrategy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeAllocationStrategy&gt; AllocationStrategy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ComputeAllocationStrategy&gt; AllocationStrategy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeSkuProfile.AllocationStrategy" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllocationStrategy As BicepValue(Of ComputeAllocationStrategy)" />
+      <MemberSignature Language="F#" Value="member this.AllocationStrategy : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeAllocationStrategy&gt; with get, set" Usage="Azure.Provisioning.Compute.ComputeSkuProfile.AllocationStrategy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeAllocationStrategy&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the allocation strategy for the virtual machine scale set
+            based on which the VMs will be allocated.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ComputeSkuProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="computeSkuProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ComputeSkuProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VmSizes">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ComputeSkuProfileVmSize&gt; VmSizes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.ComputeSkuProfileVmSize&gt; VmSizes" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeSkuProfile.VmSizes" />
+      <MemberSignature Language="VB.NET" Value="Public Property VmSizes As BicepList(Of ComputeSkuProfileVmSize)" />
+      <MemberSignature Language="F#" Value="member this.VmSizes : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ComputeSkuProfileVmSize&gt; with get, set" Usage="Azure.Provisioning.Compute.ComputeSkuProfile.VmSizes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ComputeSkuProfileVmSize&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the VM sizes for the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

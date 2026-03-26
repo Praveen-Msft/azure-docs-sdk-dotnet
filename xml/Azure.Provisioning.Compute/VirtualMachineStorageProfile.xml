@@ -1,0 +1,194 @@
+<Type Name="VirtualMachineStorageProfile" FullName="Azure.Provisioning.Compute.VirtualMachineStorageProfile">
+  <TypeSignature Language="C#" Value="public class VirtualMachineStorageProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineStorageProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineStorageProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineStorageProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineStorageProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies the storage settings for the virtual machine disks.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineStorageProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineStorageProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineStorageProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlignRegionalDisksToVmZone">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; AlignRegionalDisksToVmZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; AlignRegionalDisksToVmZone" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineStorageProfile.AlignRegionalDisksToVmZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlignRegionalDisksToVmZone As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AlignRegionalDisksToVmZone : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineStorageProfile.AlignRegionalDisksToVmZone" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether the regional disks should be aligned/moved to the VM
+            zone. This is applicable only for VMs with placement property set.
+            Please note that this change is irreversible. Minimum api-version:
+            2024-11-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataDisks">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineDataDisk&gt; DataDisks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.VirtualMachineDataDisk&gt; DataDisks" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineStorageProfile.DataDisks" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataDisks As BicepList(Of VirtualMachineDataDisk)" />
+      <MemberSignature Language="F#" Value="member this.DataDisks : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineDataDisk&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineStorageProfile.DataDisks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineDataDisk&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the parameters that are used to add a data disk to a virtual
+            machine. For more information about disks, see [About disks and VHDs
+            for Azure virtual
+            machines](https://docs.microsoft.com/azure/virtual-machines/managed-disks-overview).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineStorageProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineStorageProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of VirtualMachineStorageProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskControllerType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskControllerType&gt; DiskControllerType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DiskControllerType&gt; DiskControllerType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineStorageProfile.DiskControllerType" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiskControllerType As BicepValue(Of DiskControllerType)" />
+      <MemberSignature Language="F#" Value="member this.DiskControllerType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskControllerType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineStorageProfile.DiskControllerType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskControllerType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the disk controller type configured for the VM. **Note:**
+            This property will be set to the default disk controller type if not
+            specified provided virtual machine is being created with
+            'hyperVGeneration' set to V2 based on the capabilities of
+            the operating system disk and VM size from the the specified minimum
+            api version. You need to deallocate the VM before updating its disk
+            controller type unless you are updating the VM size in the VM
+            configuration which implicitly deallocates and reallocates the VM.
+            Minimum api-version: 2022-08-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageReference">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ImageReference ImageReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ImageReference ImageReference" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineStorageProfile.ImageReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImageReference As ImageReference" />
+      <MemberSignature Language="F#" Value="member this.ImageReference : Azure.Provisioning.Compute.ImageReference with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineStorageProfile.ImageReference" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ImageReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies information about the image to use. You can specify
+            information about platform images, marketplace images, or virtual
+            machine images. This element is required when you want to use a
+            platform image, marketplace image, or virtual machine image, but is
+            not used in other creation operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSDisk">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineOSDisk OSDisk { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineOSDisk OSDisk" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineStorageProfile.OSDisk" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSDisk As VirtualMachineOSDisk" />
+      <MemberSignature Language="F#" Value="member this.OSDisk : Azure.Provisioning.Compute.VirtualMachineOSDisk with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineStorageProfile.OSDisk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineOSDisk</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies information about the operating system disk used by the
+            virtual machine. For more information about disks, see [About disks
+            and VHDs for Azure virtual
+            machines](https://docs.microsoft.com/azure/virtual-machines/managed-disks-overview).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

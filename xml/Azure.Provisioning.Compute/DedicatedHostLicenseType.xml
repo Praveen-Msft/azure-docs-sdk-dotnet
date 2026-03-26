@@ -1,0 +1,100 @@
+<Type Name="DedicatedHostLicenseType" FullName="Azure.Provisioning.Compute.DedicatedHostLicenseType">
+  <TypeSignature Language="C#" Value="public enum DedicatedHostLicenseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DedicatedHostLicenseType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DedicatedHostLicenseType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DedicatedHostLicenseType" />
+  <TypeSignature Language="F#" Value="type DedicatedHostLicenseType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the software license type that will be applied to the VMs
+            deployed on the dedicated host. Possible values are: **None,**
+            **Windows_Server_Hybrid,** **Windows_Server_Perpetual.** The default value
+            is: **None.**.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DedicatedHostLicenseType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DedicatedHostLicenseType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Azure.Provisioning.Compute.DedicatedHostLicenseType.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DedicatedHostLicenseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            None.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsServerHybrid">
+      <MemberSignature Language="C#" Value="WindowsServerHybrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DedicatedHostLicenseType WindowsServerHybrid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DedicatedHostLicenseType.WindowsServerHybrid" />
+      <MemberSignature Language="VB.NET" Value="WindowsServerHybrid" />
+      <MemberSignature Language="F#" Value="WindowsServerHybrid = 1" Usage="Azure.Provisioning.Compute.DedicatedHostLicenseType.WindowsServerHybrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Windows_Server_Hybrid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Windows_Server_Hybrid")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DedicatedHostLicenseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Windows_Server_Hybrid.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsServerPerpetual">
+      <MemberSignature Language="C#" Value="WindowsServerPerpetual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DedicatedHostLicenseType WindowsServerPerpetual = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DedicatedHostLicenseType.WindowsServerPerpetual" />
+      <MemberSignature Language="VB.NET" Value="WindowsServerPerpetual" />
+      <MemberSignature Language="F#" Value="WindowsServerPerpetual = 2" Usage="Azure.Provisioning.Compute.DedicatedHostLicenseType.WindowsServerPerpetual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Windows_Server_Perpetual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Windows_Server_Perpetual")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DedicatedHostLicenseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Windows_Server_Perpetual.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

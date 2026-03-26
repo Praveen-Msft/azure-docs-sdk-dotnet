@@ -14,6 +14,7 @@
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.2.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -43,6 +44,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -60,32 +62,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CassandraAuthenticationMethod&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Which authentication method Cassandra should use to authenticate clients. 'None' turns off authentication, so should not be used except in emergencies. 'Cassandra' is the default password based authentication. The default is 'Cassandra'. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AutoReplicate">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.CassandraAutoReplicateForm? AutoReplicate { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CassandraAutoReplicateForm&gt; AutoReplicate" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.AutoReplicate" />
-      <MemberSignature Language="VB.NET" Value="Public Property AutoReplicate As Nullable(Of CassandraAutoReplicateForm)" />
-      <MemberSignature Language="F#" Value="member this.AutoReplicate : Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CassandraAutoReplicateForm&gt; with get, set" Usage="Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.AutoReplicate" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CassandraAutoReplicateForm&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The form of AutoReplicate that is being used by this cluster. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,32 +83,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.ServiceConnectionType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> How to connect to the azure services needed for running the cluster. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="BackupSchedules">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraClusterBackupSchedule&gt; BackupSchedules { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.CosmosDB.Models.CassandraClusterBackupSchedule&gt; BackupSchedules" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.BackupSchedules" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackupSchedules As IList(Of CassandraClusterBackupSchedule)" />
-      <MemberSignature Language="F#" Value="member this.BackupSchedules : System.Collections.Generic.IList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraClusterBackupSchedule&gt;" Usage="Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.BackupSchedules" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraClusterBackupSchedule&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> List of backup schedules that define when you want to back up your data. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,6 +104,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -160,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraCertificate&gt;</ReturnType>
@@ -180,32 +146,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> If you need to set the clusterName property in cassandra.yaml to something besides the resource name of the cluster, set the value to use on this property. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ClusterType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.CassandraClusterType? ClusterType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CassandraClusterType&gt; ClusterType" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.ClusterType" />
-      <MemberSignature Language="VB.NET" Value="Public Property ClusterType As Nullable(Of CassandraClusterType)" />
-      <MemberSignature Language="F#" Value="member this.ClusterType : Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CassandraClusterType&gt; with get, set" Usage="Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.ClusterType" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CassandraClusterType&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Type of the cluster. If set to Production, some operations might not be permitted on cluster. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,52 +167,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Resource id of a subnet that this cluster's management service should have its network interface attached to. The subnet must be routable to all subnets that will be delegated to data centers. The resource id must be of the form '/subscriptions/&lt;subscription id&gt;/resourceGroups/&lt;resource group&gt;/providers/Microsoft.Network/virtualNetworks/&lt;virtual network&gt;/subnets/&lt;subnet&gt;'. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Extensions">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Extensions { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Extensions" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.Extensions" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Extensions As IList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.Extensions : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.Extensions" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Extensions to be added or updated on cluster. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ExternalDataCenters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; ExternalDataCenters { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; ExternalDataCenters" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.ExternalDataCenters" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalDataCenters As IList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.ExternalDataCenters : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.ExternalDataCenters" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> List of the data center names for unmanaged data centers in this cluster to be included in auto-replication. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -280,6 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraCertificate&gt;</ReturnType>
@@ -300,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraDataCenterSeedNode&gt;</ReturnType>
@@ -320,6 +230,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraCertificate&gt;</ReturnType>
@@ -340,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -360,6 +272,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -380,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -400,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -420,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -440,6 +356,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -465,6 +382,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -485,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -505,6 +424,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.Models.CassandraError</ReturnType>
@@ -525,6 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CassandraProvisioningState&gt;</ReturnType>
@@ -545,32 +466,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> To create an empty cluster, omit this field or set it to null. To restore a backup into a new cluster, set this field to the resource id of the backup. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ScheduledEventStrategy">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.ScheduledEventStrategy? ScheduledEventStrategy { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.ScheduledEventStrategy&gt; ScheduledEventStrategy" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.ScheduledEventStrategy" />
-      <MemberSignature Language="VB.NET" Value="Public Property ScheduledEventStrategy As Nullable(Of ScheduledEventStrategy)" />
-      <MemberSignature Language="F#" Value="member this.ScheduledEventStrategy : Nullable&lt;Azure.ResourceManager.CosmosDB.Models.ScheduledEventStrategy&gt; with get, set" Usage="Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties.ScheduledEventStrategy" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.ScheduledEventStrategy&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> How the nodes in the cluster react to scheduled events. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -585,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.CosmosDB.Models.CassandraDataCenterSeedNode&gt;</ReturnType>
@@ -608,6 +511,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties</ReturnType>
@@ -640,6 +544,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -671,6 +576,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties</ReturnType>
@@ -703,6 +609,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -732,6 +639,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

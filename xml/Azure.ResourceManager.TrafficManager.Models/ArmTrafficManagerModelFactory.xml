@@ -17,7 +17,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,8 +45,78 @@
         <param name="relativeName"> The relative DNS name provided by this Traffic Manager profile. This value is combined with the DNS domain name used by Azure Traffic Manager to form the fully-qualified domain name (FQDN) of the profile. </param>
         <param name="fqdn"> The fully-qualified domain name (FQDN) of the Traffic Manager profile. This is formed from the concatenation of the RelativeName with the DNS domain used by Azure Traffic Manager. </param>
         <param name="ttl"> The DNS Time-To-Live (TTL), in seconds. This informs the local DNS resolvers and DNS clients how long to cache DNS responses provided by this Traffic Manager profile. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig" />. </summary>
+        <summary> Class containing DNS settings in a Traffic Manager profile. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrafficManagerHeatMapTrafficFlow">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapTrafficFlow TrafficManagerHeatMapTrafficFlow (System.Net.IPAddress sourceIP = default, double? latitude = default, double? longitude = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapQueryExperience&gt; queryExperiences = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapTrafficFlow TrafficManagerHeatMapTrafficFlow(class System.Net.IPAddress sourceIP, valuetype System.Nullable`1&lt;float64&gt; latitude, valuetype System.Nullable`1&lt;float64&gt; longitude, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapQueryExperience&gt; queryExperiences) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerHeatMapTrafficFlow(System.Net.IPAddress,System.Nullable{System.Double},System.Nullable{System.Double},System.Collections.Generic.IEnumerable{Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapQueryExperience})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TrafficManagerHeatMapTrafficFlow (Optional sourceIP As IPAddress = Nothing, Optional latitude As Nullable(Of Double) = Nothing, Optional longitude As Nullable(Of Double) = Nothing, Optional queryExperiences As IEnumerable(Of TrafficManagerHeatMapQueryExperience) = Nothing) As TrafficManagerHeatMapTrafficFlow" />
+      <MemberSignature Language="F#" Value="static member TrafficManagerHeatMapTrafficFlow : System.Net.IPAddress * Nullable&lt;double&gt; * Nullable&lt;double&gt; * seq&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapQueryExperience&gt; -&gt; Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapTrafficFlow" Usage="Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerHeatMapTrafficFlow (sourceIP, latitude, longitude, queryExperiences)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapTrafficFlow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceIP" Type="System.Net.IPAddress" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="latitude" Type="System.Nullable&lt;System.Double&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="longitude" Type="System.Nullable&lt;System.Double&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="queryExperiences" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapQueryExperience&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="sourceIP"> The IP address that this query experience originated from. </param>
+        <param name="latitude"> The approximate latitude that these queries originated from. </param>
+        <param name="longitude"> The approximate longitude that these queries originated from. </param>
+        <param name="queryExperiences"> The query experiences produced in this HeatMap calculation. </param>
+        <summary> Class representing a Traffic Manager HeatMap traffic flow properties. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerHeatMapTrafficFlow" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrafficManagerMonitorConfig">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig TrafficManagerMonitorConfig (Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileMonitorStatus? profileMonitorStatus = default, Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorProtocol? protocol = default, long? port = default, string path = default, long? intervalInSeconds = default, long? timeoutInSeconds = default, long? toleratedNumberOfFailures = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfigCustomHeaderInfo&gt; customHeaders = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.ExpectedStatusCodeRangeInfo&gt; expectedStatusCodeRanges = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig TrafficManagerMonitorConfig(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileMonitorStatus&gt; profileMonitorStatus, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorProtocol&gt; protocol, valuetype System.Nullable`1&lt;int64&gt; port, string path, valuetype System.Nullable`1&lt;int64&gt; intervalInSeconds, valuetype System.Nullable`1&lt;int64&gt; timeoutInSeconds, valuetype System.Nullable`1&lt;int64&gt; toleratedNumberOfFailures, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfigCustomHeaderInfo&gt; customHeaders, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.TrafficManager.Models.ExpectedStatusCodeRangeInfo&gt; expectedStatusCodeRanges) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerMonitorConfig(System.Nullable{Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileMonitorStatus},System.Nullable{Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorProtocol},System.Nullable{System.Int64},System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Collections.Generic.IEnumerable{Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfigCustomHeaderInfo},System.Collections.Generic.IEnumerable{Azure.ResourceManager.TrafficManager.Models.ExpectedStatusCodeRangeInfo})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TrafficManagerMonitorConfig (Optional profileMonitorStatus As Nullable(Of TrafficManagerProfileMonitorStatus) = Nothing, Optional protocol As Nullable(Of TrafficManagerMonitorProtocol) = Nothing, Optional port As Nullable(Of Long) = Nothing, Optional path As String = Nothing, Optional intervalInSeconds As Nullable(Of Long) = Nothing, Optional timeoutInSeconds As Nullable(Of Long) = Nothing, Optional toleratedNumberOfFailures As Nullable(Of Long) = Nothing, Optional customHeaders As IEnumerable(Of TrafficManagerMonitorConfigCustomHeaderInfo) = Nothing, Optional expectedStatusCodeRanges As IEnumerable(Of ExpectedStatusCodeRangeInfo) = Nothing) As TrafficManagerMonitorConfig" />
+      <MemberSignature Language="F#" Value="static member TrafficManagerMonitorConfig : Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileMonitorStatus&gt; * Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorProtocol&gt; * Nullable&lt;int64&gt; * string * Nullable&lt;int64&gt; * Nullable&lt;int64&gt; * Nullable&lt;int64&gt; * seq&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfigCustomHeaderInfo&gt; * seq&lt;Azure.ResourceManager.TrafficManager.Models.ExpectedStatusCodeRangeInfo&gt; -&gt; Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig" Usage="Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerMonitorConfig (profileMonitorStatus, protocol, port, path, intervalInSeconds, timeoutInSeconds, toleratedNumberOfFailures, customHeaders, expectedStatusCodeRanges)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileMonitorStatus" Type="System.Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileMonitorStatus&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="protocol" Type="System.Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorProtocol&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="port" Type="System.Nullable&lt;System.Int64&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="path" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="intervalInSeconds" Type="System.Nullable&lt;System.Int64&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="timeoutInSeconds" Type="System.Nullable&lt;System.Int64&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="toleratedNumberOfFailures" Type="System.Nullable&lt;System.Int64&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="customHeaders" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfigCustomHeaderInfo&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="expectedStatusCodeRanges" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.ExpectedStatusCodeRangeInfo&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="profileMonitorStatus"> The profile-level monitoring status of the Traffic Manager profile. </param>
+        <param name="protocol"> The protocol (HTTP, HTTPS or TCP) used to probe for endpoint health. </param>
+        <param name="port"> The TCP port used to probe for endpoint health. </param>
+        <param name="path"> The path relative to the endpoint domain name used to probe for endpoint health. </param>
+        <param name="intervalInSeconds"> The monitor interval for endpoints in this profile. This is the interval at which Traffic Manager will check the health of each endpoint in this profile. </param>
+        <param name="timeoutInSeconds"> The monitor timeout for endpoints in this profile. This is the time that Traffic Manager allows endpoints in this profile to response to the health check. </param>
+        <param name="toleratedNumberOfFailures"> The number of consecutive failed health check that Traffic Manager tolerates before declaring an endpoint in this profile Degraded after the next failed health check. </param>
+        <param name="customHeaders"> List of custom headers. </param>
+        <param name="expectedStatusCodeRanges"> List of expected status code ranges. </param>
+        <summary> Class containing endpoint monitoring settings in a Traffic Manager profile. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,8 +148,116 @@
         <param name="isNameAvailable"> Describes whether the relative name is available or not. </param>
         <param name="unavailableReason"> The reason why the name is not available, when applicable. </param>
         <param name="message"> Descriptive message that explains why the name is not available, when applicable. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerNameAvailabilityResult" />. </summary>
+        <summary> Class representing a Traffic Manager Name Availability response. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerNameAvailabilityResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrafficManagerProfileData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.TrafficManager.TrafficManagerProfileData TrafficManagerProfileData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType? resourceType = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation? location = default, Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileStatus? profileStatus = default, Azure.ResourceManager.TrafficManager.Models.TrafficRoutingMethod? trafficRoutingMethod = default, Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig dnsConfig = default, Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig monitorConfig = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData&gt; endpoints = default, Azure.ResourceManager.TrafficManager.Models.TrafficViewEnrollmentStatus? trafficViewEnrollmentStatus = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.AllowedEndpointRecordType&gt; allowedEndpointRecordTypes = default, long? maxReturn = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.TrafficManager.TrafficManagerProfileData TrafficManagerProfileData(class Azure.Core.ResourceIdentifier id, string name, valuetype System.Nullable`1&lt;valuetype Azure.Core.ResourceType&gt; resourceType, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileStatus&gt; profileStatus, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.TrafficManager.Models.TrafficRoutingMethod&gt; trafficRoutingMethod, class Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig dnsConfig, class Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig monitorConfig, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData&gt; endpoints, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.TrafficManager.Models.TrafficViewEnrollmentStatus&gt; trafficViewEnrollmentStatus, class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.TrafficManager.Models.AllowedEndpointRecordType&gt; allowedEndpointRecordTypes, valuetype System.Nullable`1&lt;int64&gt; maxReturn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerProfileData(Azure.Core.ResourceIdentifier,System.String,System.Nullable{Azure.Core.ResourceType},System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.Core.AzureLocation},System.Nullable{Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileStatus},System.Nullable{Azure.ResourceManager.TrafficManager.Models.TrafficRoutingMethod},Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig,Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig,System.Collections.Generic.IEnumerable{Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData},System.Nullable{Azure.ResourceManager.TrafficManager.Models.TrafficViewEnrollmentStatus},System.Collections.Generic.IEnumerable{Azure.ResourceManager.TrafficManager.Models.AllowedEndpointRecordType},System.Nullable{System.Int64})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TrafficManagerProfileData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As Nullable(Of ResourceType) = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As Nullable(Of AzureLocation) = Nothing, Optional profileStatus As Nullable(Of TrafficManagerProfileStatus) = Nothing, Optional trafficRoutingMethod As Nullable(Of TrafficRoutingMethod) = Nothing, Optional dnsConfig As TrafficManagerDnsConfig = Nothing, Optional monitorConfig As TrafficManagerMonitorConfig = Nothing, Optional endpoints As IEnumerable(Of TrafficManagerEndpointData) = Nothing, Optional trafficViewEnrollmentStatus As Nullable(Of TrafficViewEnrollmentStatus) = Nothing, Optional allowedEndpointRecordTypes As IEnumerable(Of AllowedEndpointRecordType) = Nothing, Optional maxReturn As Nullable(Of Long) = Nothing) As TrafficManagerProfileData" />
+      <MemberSignature Language="F#" Value="static member TrafficManagerProfileData : Azure.Core.ResourceIdentifier * string * Nullable&lt;Azure.Core.ResourceType&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * Nullable&lt;Azure.Core.AzureLocation&gt; * Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileStatus&gt; * Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficRoutingMethod&gt; * Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig * Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig * seq&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData&gt; * Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficViewEnrollmentStatus&gt; * seq&lt;Azure.ResourceManager.TrafficManager.Models.AllowedEndpointRecordType&gt; * Nullable&lt;int64&gt; -&gt; Azure.ResourceManager.TrafficManager.TrafficManagerProfileData" Usage="Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerProfileData (id, name, resourceType, tags, location, profileStatus, trafficRoutingMethod, dnsConfig, monitorConfig, endpoints, trafficViewEnrollmentStatus, allowedEndpointRecordTypes, maxReturn)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerProfileData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="System.Nullable&lt;Azure.Core.ResourceType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="profileStatus" Type="System.Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerProfileStatus&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="trafficRoutingMethod" Type="System.Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficRoutingMethod&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="dnsConfig" Type="Azure.ResourceManager.TrafficManager.Models.TrafficManagerDnsConfig" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="monitorConfig" Type="Azure.ResourceManager.TrafficManager.Models.TrafficManagerMonitorConfig" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="endpoints" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointData&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="trafficViewEnrollmentStatus" Type="System.Nullable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficViewEnrollmentStatus&gt;" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="allowedEndpointRecordTypes" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.AllowedEndpointRecordType&gt;" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="maxReturn" Type="System.Nullable&lt;System.Int64&gt;" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Fully qualified resource Id for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficManagerProfiles/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. Ex- Microsoft.Network/trafficManagerProfiles. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The Azure Region where the resource lives. </param>
+        <param name="profileStatus"> The status of the Traffic Manager profile. </param>
+        <param name="trafficRoutingMethod"> The traffic routing method of the Traffic Manager profile. </param>
+        <param name="dnsConfig"> The DNS settings of the Traffic Manager profile. </param>
+        <param name="monitorConfig"> The endpoint monitoring settings of the Traffic Manager profile. </param>
+        <param name="endpoints"> The list of endpoints in the Traffic Manager profile. </param>
+        <param name="trafficViewEnrollmentStatus"> Indicates whether Traffic View is 'Enabled' or 'Disabled' for the Traffic Manager profile. Null, indicates 'Disabled'. Enabling this feature will increase the cost of the Traffic Manage profile. </param>
+        <param name="allowedEndpointRecordTypes"> The list of allowed endpoint record types. </param>
+        <param name="maxReturn"> Maximum number of endpoints to be returned for MultiValue routing type. </param>
+        <summary>To be added.</summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrafficManagerRegion">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion TrafficManagerRegion (string code = default, string name = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion&gt; regions = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion TrafficManagerRegion(string code, string name, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion&gt; regions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerRegion(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TrafficManagerRegion (Optional code As String = Nothing, Optional name As String = Nothing, Optional regions As IEnumerable(Of TrafficManagerRegion) = Nothing) As TrafficManagerRegion" />
+      <MemberSignature Language="F#" Value="static member TrafficManagerRegion : string * string * seq&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion&gt; -&gt; Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion" Usage="Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerRegion (code, name, regions)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="code" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="regions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="code"> The code of the region. </param>
+        <param name="name"> The name of the region. </param>
+        <param name="regions"> The list of Regions grouped under this Region in the Geographic Hierarchy. </param>
+        <summary> Class representing a region in the Geographic hierarchy used with the Geographic traffic routing method. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerRegion" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrafficManagerTrackedResourceData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.TrafficManager.Models.TrafficManagerTrackedResourceData TrafficManagerTrackedResourceData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType? resourceType = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation? location = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.TrafficManager.Models.TrafficManagerTrackedResourceData TrafficManagerTrackedResourceData(class Azure.Core.ResourceIdentifier id, string name, valuetype System.Nullable`1&lt;valuetype Azure.Core.ResourceType&gt; resourceType, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerTrackedResourceData(Azure.Core.ResourceIdentifier,System.String,System.Nullable{Azure.Core.ResourceType},System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.Core.AzureLocation})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TrafficManagerTrackedResourceData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As Nullable(Of ResourceType) = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As Nullable(Of AzureLocation) = Nothing) As TrafficManagerTrackedResourceData" />
+      <MemberSignature Language="F#" Value="static member TrafficManagerTrackedResourceData : Azure.Core.ResourceIdentifier * string * Nullable&lt;Azure.Core.ResourceType&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * Nullable&lt;Azure.Core.AzureLocation&gt; -&gt; Azure.ResourceManager.TrafficManager.Models.TrafficManagerTrackedResourceData" Usage="Azure.ResourceManager.TrafficManager.Models.ArmTrafficManagerModelFactory.TrafficManagerTrackedResourceData (id, name, resourceType, tags, location)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.TrafficManager.Models.TrafficManagerTrackedResourceData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="System.Nullable&lt;Azure.Core.ResourceType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Fully qualified resource Id for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficManagerProfiles/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. Ex- Microsoft.Network/trafficManagerProfiles. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The Azure Region where the resource lives. </param>
+        <summary> The resource model definition for a ARM tracked top level resource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.TrafficManager.Models.TrafficManagerTrackedResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

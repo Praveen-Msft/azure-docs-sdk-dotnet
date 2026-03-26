@@ -1,0 +1,159 @@
+<Type Name="CreateCallOptions" FullName="Azure.Communication.CallingServer.CreateCallOptions">
+  <TypeSignature Language="C#" Value="public class CreateCallOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateCallOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.CreateCallOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateCallOptions" />
+  <TypeSignature Language="F#" Value="type CreateCallOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Options for the Create Call Request.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateCallOptions (Azure.Communication.CallingServer.CallSource callSource, System.Collections.Generic.IEnumerable&lt;Azure.Communication.CommunicationIdentifier&gt; targets, Uri callbackUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.CallingServer.CallSource callSource, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Communication.CommunicationIdentifier&gt; targets, class System.Uri callbackUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.CreateCallOptions.#ctor(Azure.Communication.CallingServer.CallSource,System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifier},System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (callSource As CallSource, targets As IEnumerable(Of CommunicationIdentifier), callbackUri As Uri)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallingServer.CreateCallOptions : Azure.Communication.CallingServer.CallSource * seq&lt;Azure.Communication.CommunicationIdentifier&gt; * Uri -&gt; Azure.Communication.CallingServer.CreateCallOptions" Usage="new Azure.Communication.CallingServer.CreateCallOptions (callSource, targets, callbackUri)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="callSource" Type="Azure.Communication.CallingServer.CallSource" />
+        <Parameter Name="targets" Type="System.Collections.Generic.IEnumerable&lt;Azure.Communication.CommunicationIdentifier&gt;" />
+        <Parameter Name="callbackUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="targets" />
+        <param name="callSource" />
+        <param name="callbackUri" />
+        <summary>
+            Creates a new CreateCallOptions object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallbackUri">
+      <MemberSignature Language="C#" Value="public Uri CallbackUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri CallbackUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.CreateCallOptions.CallbackUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CallbackUri As Uri" />
+      <MemberSignature Language="F#" Value="member this.CallbackUri : Uri" Usage="Azure.Communication.CallingServer.CreateCallOptions.CallbackUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The callback Uri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallSource">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.CallSource CallSource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.CallSource CallSource" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.CreateCallOptions.CallSource" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CallSource As CallSource" />
+      <MemberSignature Language="F#" Value="member this.CallSource : Azure.Communication.CallingServer.CallSource" Usage="Azure.Communication.CallingServer.CreateCallOptions.CallSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.CallSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The source of the call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaStreamingOptions">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.MediaStreamingOptions MediaStreamingOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.MediaStreamingOptions MediaStreamingOptions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.CreateCallOptions.MediaStreamingOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property MediaStreamingOptions As MediaStreamingOptions" />
+      <MemberSignature Language="F#" Value="member this.MediaStreamingOptions : Azure.Communication.CallingServer.MediaStreamingOptions with get, set" Usage="Azure.Communication.CallingServer.CreateCallOptions.MediaStreamingOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.MediaStreamingOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Media Streaming Configuration.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.CreateCallOptions.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="F#" Value="member this.Subject : string with get, set" Usage="Azure.Communication.CallingServer.CreateCallOptions.Subject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The subject.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Targets">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CommunicationIdentifier&gt; Targets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.Communication.CommunicationIdentifier&gt; Targets" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.CreateCallOptions.Targets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Targets As IReadOnlyList(Of CommunicationIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.Targets : System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CommunicationIdentifier&gt;" Usage="Azure.Communication.CallingServer.CreateCallOptions.Targets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CommunicationIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The targets of the call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

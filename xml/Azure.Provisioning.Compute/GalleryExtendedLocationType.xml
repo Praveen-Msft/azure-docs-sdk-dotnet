@@ -1,0 +1,64 @@
+<Type Name="GalleryExtendedLocationType" FullName="Azure.Provisioning.Compute.GalleryExtendedLocationType">
+  <TypeSignature Language="C#" Value="public enum GalleryExtendedLocationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GalleryExtendedLocationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryExtendedLocationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GalleryExtendedLocationType" />
+  <TypeSignature Language="F#" Value="type GalleryExtendedLocationType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            It is type of the extended location.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EdgeZone">
+      <MemberSignature Language="C#" Value="EdgeZone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryExtendedLocationType EdgeZone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryExtendedLocationType.EdgeZone" />
+      <MemberSignature Language="VB.NET" Value="EdgeZone" />
+      <MemberSignature Language="F#" Value="EdgeZone = 0" Usage="Azure.Provisioning.Compute.GalleryExtendedLocationType.EdgeZone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryExtendedLocationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            EdgeZone.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryExtendedLocationType Unknown = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryExtendedLocationType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 1" Usage="Azure.Provisioning.Compute.GalleryExtendedLocationType.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryExtendedLocationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Unknown.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

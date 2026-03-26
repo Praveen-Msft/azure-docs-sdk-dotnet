@@ -1,0 +1,110 @@
+<Type Name="CapacityReservationInstanceView" FullName="Azure.Provisioning.Compute.CapacityReservationInstanceView">
+  <TypeSignature Language="C#" Value="public class CapacityReservationInstanceView : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CapacityReservationInstanceView extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.CapacityReservationInstanceView" />
+  <TypeSignature Language="VB.NET" Value="Public Class CapacityReservationInstanceView&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type CapacityReservationInstanceView = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The instance view of a capacity reservation that provides as snapshot of
+            the runtime properties of the capacity reservation that is managed by the
+            platform and can change outside of control plane operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CapacityReservationInstanceView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.CapacityReservationInstanceView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new CapacityReservationInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.CapacityReservationInstanceView.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="capacityReservationInstanceView.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            CapacityReservationInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Statuses">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt; Statuses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.InstanceViewStatus&gt; Statuses" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CapacityReservationInstanceView.Statuses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Statuses As BicepList(Of InstanceViewStatus)" />
+      <MemberSignature Language="F#" Value="member this.Statuses : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt;" Usage="Azure.Provisioning.Compute.CapacityReservationInstanceView.Statuses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.InstanceViewStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The resource status information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UtilizationInfo">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.CapacityReservationUtilization UtilizationInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.CapacityReservationUtilization UtilizationInfo" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.CapacityReservationInstanceView.UtilizationInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UtilizationInfo As CapacityReservationUtilization" />
+      <MemberSignature Language="F#" Value="member this.UtilizationInfo : Azure.Provisioning.Compute.CapacityReservationUtilization" Usage="Azure.Provisioning.Compute.CapacityReservationInstanceView.UtilizationInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.CapacityReservationUtilization</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Unutilized capacity of the capacity reservation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

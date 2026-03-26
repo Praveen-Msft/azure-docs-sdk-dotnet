@@ -1,0 +1,118 @@
+<Type Name="DiffDiskSettings" FullName="Azure.Provisioning.Compute.DiffDiskSettings">
+  <TypeSignature Language="C#" Value="public class DiffDiskSettings : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiffDiskSettings extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiffDiskSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class DiffDiskSettings&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type DiffDiskSettings = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the parameters of ephemeral disk settings that can be specified
+            for operating system disk. **Note:** The ephemeral disk settings can only
+            be specified for managed disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiffDiskSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiffDiskSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new DiffDiskSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiffDiskSettings.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="diffDiskSettings.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of DiffDiskSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Option">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiffDiskOption&gt; Option { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DiffDiskOption&gt; Option" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiffDiskSettings.Option" />
+      <MemberSignature Language="VB.NET" Value="Public Property Option As BicepValue(Of DiffDiskOption)" />
+      <MemberSignature Language="F#" Value="member this.Option : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiffDiskOption&gt; with get, set" Usage="Azure.Provisioning.Compute.DiffDiskSettings.Option" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiffDiskOption&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the ephemeral disk settings for operating system disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Placement">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiffDiskPlacement&gt; Placement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DiffDiskPlacement&gt; Placement" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiffDiskSettings.Placement" />
+      <MemberSignature Language="VB.NET" Value="Public Property Placement As BicepValue(Of DiffDiskPlacement)" />
+      <MemberSignature Language="F#" Value="member this.Placement : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiffDiskPlacement&gt; with get, set" Usage="Azure.Provisioning.Compute.DiffDiskSettings.Placement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiffDiskPlacement&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the ephemeral disk placement for operating system disk.
+            Possible values are: **CacheDisk,** **ResourceDisk,** **NvmeDisk.**
+            The defaulting behavior is: **CacheDisk** if one is configured for the
+            VM size otherwise **ResourceDisk** or **NvmeDisk** is used. Refer to
+            the VM size documentation for Windows VM at
+            https://docs.microsoft.com/azure/virtual-machines/windows/sizes and
+            Linux VM at
+            https://docs.microsoft.com/azure/virtual-machines/linux/sizes to check
+            which VM sizes exposes a cache disk. Minimum api-version for NvmeDisk:
+            2024-03-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

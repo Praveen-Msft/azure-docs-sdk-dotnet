@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,10 +27,31 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary> Initializes a new instance of ImageAnalysisClient for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageAnalysisClient (Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Vision.ImageAnalysis.ImageAnalysisClient.#ctor(Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As ImageAnalysisClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.Vision.ImageAnalysis.ImageAnalysisClient : Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientSettings -&gt; Azure.AI.Vision.ImageAnalysis.ImageAnalysisClient" Usage="new Azure.AI.Vision.ImageAnalysis.ImageAnalysisClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientSettings" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for ImageAnalysisClient. </param>
+        <summary> Initializes a new instance of ImageAnalysisClient from a <see cref="T:Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientSettings" />. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -43,17 +65,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
         <Parameter Name="credential" Type="Azure.AzureKeyCredential" />
       </Parameters>
       <Docs>
-        <param name="endpoint">
-            Azure AI Computer Vision endpoint (protocol and hostname, for example:
-            https://&lt;resource-name&gt;.cognitiveservices.azure.com).
-            </param>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
         <summary> Initializes a new instance of ImageAnalysisClient. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -70,17 +90,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
         <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
       </Parameters>
       <Docs>
-        <param name="endpoint">
-            Azure AI Computer Vision endpoint (protocol and hostname, for example:
-            https://&lt;resource-name&gt;.cognitiveservices.azure.com).
-            </param>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
         <summary> Initializes a new instance of ImageAnalysisClient. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,6 +115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -104,11 +123,8 @@
         <Parameter Name="options" Type="Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientOptions" />
       </Parameters>
       <Docs>
-        <param name="endpoint">
-            Azure AI Computer Vision endpoint (protocol and hostname, for example:
-            https://&lt;resource-name&gt;.cognitiveservices.azure.com).
-            </param>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
         <param name="options"> The options for configuring the client. </param>
         <summary> Initializes a new instance of ImageAnalysisClient. </summary>
         <remarks>To be added.</remarks>
@@ -126,6 +142,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -133,11 +150,8 @@
         <Parameter Name="options" Type="Azure.AI.Vision.ImageAnalysis.ImageAnalysisClientOptions" />
       </Parameters>
       <Docs>
-        <param name="endpoint">
-            Azure AI Computer Vision endpoint (protocol and hostname, for example:
-            https://&lt;resource-name&gt;.cognitiveservices.azure.com).
-            </param>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
         <param name="options"> The options for configuring the client. </param>
         <summary> Initializes a new instance of ImageAnalysisClient. </summary>
         <remarks>To be added.</remarks>
@@ -155,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult&gt;</ReturnType>
@@ -187,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult&gt;</ReturnType>
@@ -219,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult&gt;&gt;</ReturnType>
@@ -251,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Vision.ImageAnalysis.ImageAnalysisResult&gt;&gt;</ReturnType>
@@ -283,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Vision.ImageAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>

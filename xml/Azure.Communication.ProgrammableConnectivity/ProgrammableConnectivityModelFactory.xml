@@ -1,0 +1,392 @@
+<Type Name="ProgrammableConnectivityModelFactory" FullName="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory">
+  <TypeSignature Language="C#" Value="public static class ProgrammableConnectivityModelFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProgrammableConnectivityModelFactory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProgrammableConnectivityModelFactory" />
+  <TypeSignature Language="F#" Value="type ProgrammableConnectivityModelFactory = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeviceLocationVerificationContent">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationContent DeviceLocationVerificationContent (Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier = default, double latitude = 0, double longitude = 0, int accuracy = 0, Azure.Communication.ProgrammableConnectivity.LocationDevice device = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationContent DeviceLocationVerificationContent(class Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier, float64 latitude, float64 longitude, int32 accuracy, class Azure.Communication.ProgrammableConnectivity.LocationDevice device) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.DeviceLocationVerificationContent(Azure.Communication.ProgrammableConnectivity.NetworkIdentifier,System.Double,System.Double,System.Int32,Azure.Communication.ProgrammableConnectivity.LocationDevice)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeviceLocationVerificationContent (Optional networkIdentifier As NetworkIdentifier = Nothing, Optional latitude As Double = 0, Optional longitude As Double = 0, Optional accuracy As Integer = 0, Optional device As LocationDevice = Nothing) As DeviceLocationVerificationContent" />
+      <MemberSignature Language="F#" Value="static member DeviceLocationVerificationContent : Azure.Communication.ProgrammableConnectivity.NetworkIdentifier * double * double * int * Azure.Communication.ProgrammableConnectivity.LocationDevice -&gt; Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationContent" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.DeviceLocationVerificationContent (networkIdentifier, latitude, longitude, accuracy, device)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="networkIdentifier" Type="Azure.Communication.ProgrammableConnectivity.NetworkIdentifier" />
+        <Parameter Name="latitude" Type="System.Double" />
+        <Parameter Name="longitude" Type="System.Double" />
+        <Parameter Name="accuracy" Type="System.Int32" />
+        <Parameter Name="device" Type="Azure.Communication.ProgrammableConnectivity.LocationDevice" />
+      </Parameters>
+      <Docs>
+        <param name="networkIdentifier"> Network to query for this device, or device information to enable network routing. </param>
+        <param name="latitude"> Latitude of location to be verified. </param>
+        <param name="longitude"> Longitude of location to be verified. </param>
+        <param name="accuracy"> Accuracy expected for location verification in kilometers. </param>
+        <param name="device"> The device to find the location for. Exactly one of Network Access Code, Phone Number, IPv4 address, or IPv6 address. </param>
+        <summary> Request to verify Location. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceLocationVerificationResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationResult DeviceLocationVerificationResult (bool verificationResult = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationResult DeviceLocationVerificationResult(bool verificationResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.DeviceLocationVerificationResult(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeviceLocationVerificationResult (Optional verificationResult As Boolean = false) As DeviceLocationVerificationResult" />
+      <MemberSignature Language="F#" Value="static member DeviceLocationVerificationResult : bool -&gt; Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationResult" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.DeviceLocationVerificationResult verificationResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verificationResult" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="verificationResult"> True if the location is in the specified area, False otherwise. </param>
+        <summary> Response verifying location. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.DeviceLocationVerificationResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ipv4Address">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.Ipv4Address Ipv4Address (string ipv4 = default, int port = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.Ipv4Address Ipv4Address(string ipv4, int32 port) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.Ipv4Address(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Ipv4Address (Optional ipv4 As String = Nothing, Optional port As Integer = 0) As Ipv4Address" />
+      <MemberSignature Language="F#" Value="static member Ipv4Address : string * int -&gt; Azure.Communication.ProgrammableConnectivity.Ipv4Address" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.Ipv4Address (ipv4, port)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.Ipv4Address</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ipv4" Type="System.String" />
+        <Parameter Name="port" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ipv4"> An IPv4 address. This may be specified as an exact address, or as a subnet in CIDR notation. </param>
+        <param name="port"> User equipment port. </param>
+        <summary> IPv4 device indicator. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.Ipv4Address" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ipv6Address">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.Ipv6Address Ipv6Address (string ipv6 = default, int port = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.Ipv6Address Ipv6Address(string ipv6, int32 port) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.Ipv6Address(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Ipv6Address (Optional ipv6 As String = Nothing, Optional port As Integer = 0) As Ipv6Address" />
+      <MemberSignature Language="F#" Value="static member Ipv6Address : string * int -&gt; Azure.Communication.ProgrammableConnectivity.Ipv6Address" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.Ipv6Address (ipv6, port)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.Ipv6Address</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ipv6" Type="System.String" />
+        <Parameter Name="port" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ipv6"> An IPv6 address. This may be specified as an exact address, or as a subnet in CIDR notation. </param>
+        <param name="port"> User equipment port. </param>
+        <summary> IPv6 device indicator. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.Ipv6Address" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationDevice">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.LocationDevice LocationDevice (string networkAccessIdentifier = default, string phoneNumber = default, Azure.Communication.ProgrammableConnectivity.Ipv4Address ipv4Address = default, Azure.Communication.ProgrammableConnectivity.Ipv6Address ipv6Address = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.LocationDevice LocationDevice(string networkAccessIdentifier, string phoneNumber, class Azure.Communication.ProgrammableConnectivity.Ipv4Address ipv4Address, class Azure.Communication.ProgrammableConnectivity.Ipv6Address ipv6Address) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.LocationDevice(System.String,System.String,Azure.Communication.ProgrammableConnectivity.Ipv4Address,Azure.Communication.ProgrammableConnectivity.Ipv6Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LocationDevice (Optional networkAccessIdentifier As String = Nothing, Optional phoneNumber As String = Nothing, Optional ipv4Address As Ipv4Address = Nothing, Optional ipv6Address As Ipv6Address = Nothing) As LocationDevice" />
+      <MemberSignature Language="F#" Value="static member LocationDevice : string * string * Azure.Communication.ProgrammableConnectivity.Ipv4Address * Azure.Communication.ProgrammableConnectivity.Ipv6Address -&gt; Azure.Communication.ProgrammableConnectivity.LocationDevice" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.LocationDevice (networkAccessIdentifier, phoneNumber, ipv4Address, ipv6Address)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.LocationDevice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="networkAccessIdentifier" Type="System.String" />
+        <Parameter Name="phoneNumber" Type="System.String" />
+        <Parameter Name="ipv4Address" Type="Azure.Communication.ProgrammableConnectivity.Ipv4Address" />
+        <Parameter Name="ipv6Address" Type="Azure.Communication.ProgrammableConnectivity.Ipv6Address" />
+      </Parameters>
+      <Docs>
+        <param name="networkAccessIdentifier"> External identifier or network access identifier of the device. </param>
+        <param name="phoneNumber"> Phone number in E.164 format (starting with country code), and optionally prefixed with '+'. </param>
+        <param name="ipv4Address"> The Ipv4 address. </param>
+        <param name="ipv6Address"> The Ipv6 address. </param>
+        <summary> Device information needed by operator to provide location information. Include exactly one of these properties to identify your device. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.LocationDevice" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkIdentifier">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.NetworkIdentifier NetworkIdentifier (string identifierType = default, string identifier = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.NetworkIdentifier NetworkIdentifier(string identifierType, string identifier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NetworkIdentifier(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NetworkIdentifier (Optional identifierType As String = Nothing, Optional identifier As String = Nothing) As NetworkIdentifier" />
+      <MemberSignature Language="F#" Value="static member NetworkIdentifier : string * string -&gt; Azure.Communication.ProgrammableConnectivity.NetworkIdentifier" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NetworkIdentifier (identifierType, identifier)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.NetworkIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="identifierType" Type="System.String" />
+        <Parameter Name="identifier" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="identifierType"> The type of identifier for the network. one of: 'IPv4', 'IPv6', 'MSISDN', 'NetworkCode'. </param>
+        <param name="identifier">
+            The network identifier, based on the identifierType: an IPv4 address, an IPv6 address, an MSISDN, or a Network Code.
+            A Network Code may be obtained from APC documentation or from the APC /Network:retrieve endpoint.
+            </param>
+        <summary> Identifier for the network to be queried. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.NetworkIdentifier" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkRetrievalResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.NetworkRetrievalResult NetworkRetrievalResult (string networkCode = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.NetworkRetrievalResult NetworkRetrievalResult(string networkCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NetworkRetrievalResult(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NetworkRetrievalResult (Optional networkCode As String = Nothing) As NetworkRetrievalResult" />
+      <MemberSignature Language="F#" Value="static member NetworkRetrievalResult : string -&gt; Azure.Communication.ProgrammableConnectivity.NetworkRetrievalResult" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NetworkRetrievalResult networkCode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.NetworkRetrievalResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="networkCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="networkCode"> The identifier for the network. This can be used as the networkIdentifier for the service APIs. </param>
+        <summary> The network that the device is on. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.NetworkRetrievalResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberVerificationResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.NumberVerificationResult NumberVerificationResult (bool verificationResult = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.NumberVerificationResult NumberVerificationResult(bool verificationResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NumberVerificationResult(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NumberVerificationResult (Optional verificationResult As Boolean = false) As NumberVerificationResult" />
+      <MemberSignature Language="F#" Value="static member NumberVerificationResult : bool -&gt; Azure.Communication.ProgrammableConnectivity.NumberVerificationResult" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NumberVerificationResult verificationResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.NumberVerificationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verificationResult" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="verificationResult"> True if number if the phone number matches the device, False otherwise. </param>
+        <summary> Response verifying number of device. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.NumberVerificationResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberVerificationWithCodeContent">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.NumberVerificationWithCodeContent NumberVerificationWithCodeContent (string apcCode = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.NumberVerificationWithCodeContent NumberVerificationWithCodeContent(string apcCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NumberVerificationWithCodeContent(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NumberVerificationWithCodeContent (Optional apcCode As String = Nothing) As NumberVerificationWithCodeContent" />
+      <MemberSignature Language="F#" Value="static member NumberVerificationWithCodeContent : string -&gt; Azure.Communication.ProgrammableConnectivity.NumberVerificationWithCodeContent" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NumberVerificationWithCodeContent apcCode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.NumberVerificationWithCodeContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="apcCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="apcCode"> The code provided by APC in exchange for the operator code. </param>
+        <summary> Request to verify number of device - second call. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.NumberVerificationWithCodeContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberVerificationWithoutCodeContent">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.NumberVerificationWithoutCodeContent NumberVerificationWithoutCodeContent (Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier = default, string phoneNumber = default, string hashedPhoneNumber = default, Uri redirectUri = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.NumberVerificationWithoutCodeContent NumberVerificationWithoutCodeContent(class Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier, string phoneNumber, string hashedPhoneNumber, class System.Uri redirectUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NumberVerificationWithoutCodeContent(Azure.Communication.ProgrammableConnectivity.NetworkIdentifier,System.String,System.String,System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NumberVerificationWithoutCodeContent (Optional networkIdentifier As NetworkIdentifier = Nothing, Optional phoneNumber As String = Nothing, Optional hashedPhoneNumber As String = Nothing, Optional redirectUri As Uri = Nothing) As NumberVerificationWithoutCodeContent" />
+      <MemberSignature Language="F#" Value="static member NumberVerificationWithoutCodeContent : Azure.Communication.ProgrammableConnectivity.NetworkIdentifier * string * string * Uri -&gt; Azure.Communication.ProgrammableConnectivity.NumberVerificationWithoutCodeContent" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.NumberVerificationWithoutCodeContent (networkIdentifier, phoneNumber, hashedPhoneNumber, redirectUri)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.NumberVerificationWithoutCodeContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="networkIdentifier" Type="Azure.Communication.ProgrammableConnectivity.NetworkIdentifier" />
+        <Parameter Name="phoneNumber" Type="System.String" />
+        <Parameter Name="hashedPhoneNumber" Type="System.String" />
+        <Parameter Name="redirectUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="networkIdentifier"> Identifier for the network to query for this device. </param>
+        <param name="phoneNumber"> Phone number in E.164 format (starting with country code), and optionally prefixed with '+'. </param>
+        <param name="hashedPhoneNumber"> Hashed phone number. SHA-256 (in hexadecimal representation) of the mobile phone number in <b>E.164 format (starting with country code)</b>. Optionally prefixed with '+'. </param>
+        <param name="redirectUri"> Redirect URI to backend application. </param>
+        <summary> Request to verify number of device - first call. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.NumberVerificationWithoutCodeContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimSwapRetrievalContent">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalContent SimSwapRetrievalContent (string phoneNumber = default, Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalContent SimSwapRetrievalContent(string phoneNumber, class Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapRetrievalContent(System.String,Azure.Communication.ProgrammableConnectivity.NetworkIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SimSwapRetrievalContent (Optional phoneNumber As String = Nothing, Optional networkIdentifier As NetworkIdentifier = Nothing) As SimSwapRetrievalContent" />
+      <MemberSignature Language="F#" Value="static member SimSwapRetrievalContent : string * Azure.Communication.ProgrammableConnectivity.NetworkIdentifier -&gt; Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalContent" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapRetrievalContent (phoneNumber, networkIdentifier)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="phoneNumber" Type="System.String" />
+        <Parameter Name="networkIdentifier" Type="Azure.Communication.ProgrammableConnectivity.NetworkIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="phoneNumber"> Phone number in E.164 format (starting with country code), and optionally prefixed with '+'. </param>
+        <param name="networkIdentifier"> Network to query for this device. </param>
+        <summary> Request to retrieve SimSwap date. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimSwapRetrievalResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalResult SimSwapRetrievalResult (DateTimeOffset? date = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalResult SimSwapRetrievalResult(valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; date) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapRetrievalResult(System.Nullable{System.DateTimeOffset})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SimSwapRetrievalResult (Optional date As Nullable(Of DateTimeOffset) = Nothing) As SimSwapRetrievalResult" />
+      <MemberSignature Language="F#" Value="static member SimSwapRetrievalResult : Nullable&lt;DateTimeOffset&gt; -&gt; Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalResult" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapRetrievalResult date" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="date" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="date"> Datetime of most recent swap for SIM. </param>
+        <summary> Response with SimSwap date. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.SimSwapRetrievalResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimSwapVerificationContent">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.SimSwapVerificationContent SimSwapVerificationContent (string phoneNumber = default, int? maxAgeHours = default, Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.SimSwapVerificationContent SimSwapVerificationContent(string phoneNumber, valuetype System.Nullable`1&lt;int32&gt; maxAgeHours, class Azure.Communication.ProgrammableConnectivity.NetworkIdentifier networkIdentifier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapVerificationContent(System.String,System.Nullable{System.Int32},Azure.Communication.ProgrammableConnectivity.NetworkIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SimSwapVerificationContent (Optional phoneNumber As String = Nothing, Optional maxAgeHours As Nullable(Of Integer) = Nothing, Optional networkIdentifier As NetworkIdentifier = Nothing) As SimSwapVerificationContent" />
+      <MemberSignature Language="F#" Value="static member SimSwapVerificationContent : string * Nullable&lt;int&gt; * Azure.Communication.ProgrammableConnectivity.NetworkIdentifier -&gt; Azure.Communication.ProgrammableConnectivity.SimSwapVerificationContent" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapVerificationContent (phoneNumber, maxAgeHours, networkIdentifier)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.SimSwapVerificationContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="phoneNumber" Type="System.String" />
+        <Parameter Name="maxAgeHours" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="networkIdentifier" Type="Azure.Communication.ProgrammableConnectivity.NetworkIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="phoneNumber"> Phone number in E.164 format (starting with country code), and optionally prefixed with '+'. </param>
+        <param name="maxAgeHours"> Maximum lookback for SimSwap verification. </param>
+        <param name="networkIdentifier"> Identifier for the network to query for this device. </param>
+        <summary> Request to verify SimSwap in period. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.SimSwapVerificationContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimSwapVerificationResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.ProgrammableConnectivity.SimSwapVerificationResult SimSwapVerificationResult (bool verificationResult = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.ProgrammableConnectivity.SimSwapVerificationResult SimSwapVerificationResult(bool verificationResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapVerificationResult(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SimSwapVerificationResult (Optional verificationResult As Boolean = false) As SimSwapVerificationResult" />
+      <MemberSignature Language="F#" Value="static member SimSwapVerificationResult : bool -&gt; Azure.Communication.ProgrammableConnectivity.SimSwapVerificationResult" Usage="Azure.Communication.ProgrammableConnectivity.ProgrammableConnectivityModelFactory.SimSwapVerificationResult verificationResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.ProgrammableConnectivity</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.ProgrammableConnectivity.SimSwapVerificationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verificationResult" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="verificationResult"> True if the SIM has swapped in the specified period, False otherwise. </param>
+        <summary> Response verifying SimSwap in period. </summary>
+        <returns> A new <see cref="T:Azure.Communication.ProgrammableConnectivity.SimSwapVerificationResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -41,6 +41,7 @@
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
     <AssemblyVersion>12.28.0.0</AssemblyVersion>
+    <AssemblyVersion>12.29.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -60,7 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.ArchiveStatus</ReturnType>
@@ -80,7 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.ArchiveStatus</ReturnType>
@@ -100,7 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
-        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.ArchiveStatus</ReturnType>
@@ -108,6 +109,25 @@
       <MemberValue>0</MemberValue>
       <Docs>
         <summary> rehydrate-pending-to-hot. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RehydratePendingToSmart">
+      <MemberSignature Language="C#" Value="RehydratePendingToSmart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Storage.Blobs.Models.ArchiveStatus RehydratePendingToSmart = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Storage.Blobs.Models.ArchiveStatus.RehydratePendingToSmart" />
+      <MemberSignature Language="VB.NET" Value="RehydratePendingToSmart" />
+      <MemberSignature Language="F#" Value="RehydratePendingToSmart = 3" Usage="Azure.Storage.Blobs.Models.ArchiveStatus.RehydratePendingToSmart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.29.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Blobs.Models.ArchiveStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary> rehydrate-pending-to-smart. </summary>
       </Docs>
     </Member>
   </Members>

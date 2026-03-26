@@ -31,7 +31,7 @@
   <Docs>
     <summary>
             The AgentDefinition.
-            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.Agents.PromptAgentDefinition" />, <see cref="T:Azure.AI.Projects.Agents.WorkflowAgentDefinition" />, and <see cref="T:Azure.AI.Projects.Agents.HostedAgentDefinition" />.
+            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.Agents.DeclarativeAgentDefinition" />, <see cref="T:Azure.AI.Projects.Agents.WorkflowAgentDefinition" />, and <see cref="T:Azure.AI.Projects.Agents.HostedAgentDefinition" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -85,18 +85,18 @@
       </Docs>
     </Member>
     <Member MemberName="CreatePromptAgentDefinition">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Agents.PromptAgentDefinition CreatePromptAgentDefinition (string model);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Agents.PromptAgentDefinition CreatePromptAgentDefinition(string model) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Agents.DeclarativeAgentDefinition CreatePromptAgentDefinition (string model);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Agents.DeclarativeAgentDefinition CreatePromptAgentDefinition(string model) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Agents.AgentDefinition.CreatePromptAgentDefinition(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreatePromptAgentDefinition (model As String) As PromptAgentDefinition" />
-      <MemberSignature Language="F#" Value="static member CreatePromptAgentDefinition : string -&gt; Azure.AI.Projects.Agents.PromptAgentDefinition" Usage="Azure.AI.Projects.Agents.AgentDefinition.CreatePromptAgentDefinition model" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreatePromptAgentDefinition (model As String) As DeclarativeAgentDefinition" />
+      <MemberSignature Language="F#" Value="static member CreatePromptAgentDefinition : string -&gt; Azure.AI.Projects.Agents.DeclarativeAgentDefinition" Usage="Azure.AI.Projects.Agents.AgentDefinition.CreatePromptAgentDefinition model" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects.Agents</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Agents.PromptAgentDefinition</ReturnType>
+        <ReturnType>Azure.AI.Projects.Agents.DeclarativeAgentDefinition</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="model" Type="System.String" />

@@ -1,0 +1,64 @@
+<Type Name="OrchestrationMode" FullName="Azure.Provisioning.Compute.OrchestrationMode">
+  <TypeSignature Language="C#" Value="public enum OrchestrationMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OrchestrationMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.OrchestrationMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OrchestrationMode" />
+  <TypeSignature Language="F#" Value="type OrchestrationMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the orchestration mode for the virtual machine scale set.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Flexible">
+      <MemberSignature Language="C#" Value="Flexible" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.OrchestrationMode Flexible = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.OrchestrationMode.Flexible" />
+      <MemberSignature Language="VB.NET" Value="Flexible" />
+      <MemberSignature Language="F#" Value="Flexible = 1" Usage="Azure.Provisioning.Compute.OrchestrationMode.Flexible" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.OrchestrationMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Flexible.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Uniform">
+      <MemberSignature Language="C#" Value="Uniform" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.OrchestrationMode Uniform = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.OrchestrationMode.Uniform" />
+      <MemberSignature Language="VB.NET" Value="Uniform" />
+      <MemberSignature Language="F#" Value="Uniform = 0" Usage="Azure.Provisioning.Compute.OrchestrationMode.Uniform" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.OrchestrationMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Uniform.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

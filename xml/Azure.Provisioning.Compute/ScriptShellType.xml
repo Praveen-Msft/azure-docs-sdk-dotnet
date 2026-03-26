@@ -1,0 +1,64 @@
+<Type Name="ScriptShellType" FullName="Azure.Provisioning.Compute.ScriptShellType">
+  <TypeSignature Language="C#" Value="public enum ScriptShellType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ScriptShellType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ScriptShellType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ScriptShellType" />
+  <TypeSignature Language="F#" Value="type ScriptShellType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Script shell types.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ScriptShellType Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ScriptShellType.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Azure.Provisioning.Compute.ScriptShellType.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ScriptShellType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default script shell type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Powershell7">
+      <MemberSignature Language="C#" Value="Powershell7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ScriptShellType Powershell7 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ScriptShellType.Powershell7" />
+      <MemberSignature Language="VB.NET" Value="Powershell7" />
+      <MemberSignature Language="F#" Value="Powershell7 = 1" Usage="Azure.Provisioning.Compute.ScriptShellType.Powershell7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ScriptShellType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Powershell7 script shell type.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

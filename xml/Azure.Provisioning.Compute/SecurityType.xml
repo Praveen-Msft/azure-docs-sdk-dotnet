@@ -1,0 +1,72 @@
+<Type Name="SecurityType" FullName="Azure.Provisioning.Compute.SecurityType">
+  <TypeSignature Language="C#" Value="public enum SecurityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SecurityType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.SecurityType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SecurityType" />
+  <TypeSignature Language="F#" Value="type SecurityType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the SecurityType of the virtual machine. It has to be set to any
+            specified value to enable UefiSettings. The default behavior is:
+            UefiSettings will not be enabled unless this property is set.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConfidentialVm">
+      <MemberSignature Language="C#" Value="ConfidentialVm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SecurityType ConfidentialVm = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SecurityType.ConfidentialVm" />
+      <MemberSignature Language="VB.NET" Value="ConfidentialVm" />
+      <MemberSignature Language="F#" Value="ConfidentialVm = 1" Usage="Azure.Provisioning.Compute.SecurityType.ConfidentialVm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ConfidentialVM")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ConfidentialVM")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            ConfidentialVM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TrustedLaunch">
+      <MemberSignature Language="C#" Value="TrustedLaunch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SecurityType TrustedLaunch = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SecurityType.TrustedLaunch" />
+      <MemberSignature Language="VB.NET" Value="TrustedLaunch" />
+      <MemberSignature Language="F#" Value="TrustedLaunch = 0" Usage="Azure.Provisioning.Compute.SecurityType.TrustedLaunch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            TrustedLaunch.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

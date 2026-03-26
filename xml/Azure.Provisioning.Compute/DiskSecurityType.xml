@@ -1,0 +1,155 @@
+<Type Name="DiskSecurityType" FullName="Azure.Provisioning.Compute.DiskSecurityType">
+  <TypeSignature Language="C#" Value="public enum DiskSecurityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskSecurityType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskSecurityType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskSecurityType" />
+  <TypeSignature Language="F#" Value="type DiskSecurityType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the SecurityType of the VM. Applicable for OS disks only.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConfidentialVmDiskEncryptedWithCustomerKey">
+      <MemberSignature Language="C#" Value="ConfidentialVmDiskEncryptedWithCustomerKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskSecurityType ConfidentialVmDiskEncryptedWithCustomerKey = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmDiskEncryptedWithCustomerKey" />
+      <MemberSignature Language="VB.NET" Value="ConfidentialVmDiskEncryptedWithCustomerKey" />
+      <MemberSignature Language="F#" Value="ConfidentialVmDiskEncryptedWithCustomerKey = 3" Usage="Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmDiskEncryptedWithCustomerKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ConfidentialVM_DiskEncryptedWithCustomerKey")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ConfidentialVM_DiskEncryptedWithCustomerKey")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskSecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Indicates Confidential VM disk with both OS disk and VM guest state
+            encrypted with a customer managed key.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfidentialVmDiskEncryptedWithPlatformKey">
+      <MemberSignature Language="C#" Value="ConfidentialVmDiskEncryptedWithPlatformKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskSecurityType ConfidentialVmDiskEncryptedWithPlatformKey = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmDiskEncryptedWithPlatformKey" />
+      <MemberSignature Language="VB.NET" Value="ConfidentialVmDiskEncryptedWithPlatformKey" />
+      <MemberSignature Language="F#" Value="ConfidentialVmDiskEncryptedWithPlatformKey = 2" Usage="Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmDiskEncryptedWithPlatformKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ConfidentialVM_DiskEncryptedWithPlatformKey")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ConfidentialVM_DiskEncryptedWithPlatformKey")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskSecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Indicates Confidential VM disk with both OS disk and VM guest state
+            encrypted with a platform managed key.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey">
+      <MemberSignature Language="C#" Value="ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskSecurityType ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey" />
+      <MemberSignature Language="VB.NET" Value="ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey" />
+      <MemberSignature Language="F#" Value="ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey = 1" Usage="Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmGuestStateOnlyEncryptedWithPlatformKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ConfidentialVM_VMGuestStateOnlyEncryptedWithPlatformKey")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ConfidentialVM_VMGuestStateOnlyEncryptedWithPlatformKey")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskSecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Indicates Confidential VM disk with only VM guest state encrypted.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfidentialVmNonPersistedTPM">
+      <MemberSignature Language="C#" Value="ConfidentialVmNonPersistedTPM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskSecurityType ConfidentialVmNonPersistedTPM = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmNonPersistedTPM" />
+      <MemberSignature Language="VB.NET" Value="ConfidentialVmNonPersistedTPM" />
+      <MemberSignature Language="F#" Value="ConfidentialVmNonPersistedTPM = 4" Usage="Azure.Provisioning.Compute.DiskSecurityType.ConfidentialVmNonPersistedTPM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ConfidentialVM_NonPersistedTPM")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ConfidentialVM_NonPersistedTPM")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskSecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Indicates Confidential VM disk with a ephemeral vTPM. vTPM state is not
+            persisted across VM reboots.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TrustedLaunch">
+      <MemberSignature Language="C#" Value="TrustedLaunch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskSecurityType TrustedLaunch = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskSecurityType.TrustedLaunch" />
+      <MemberSignature Language="VB.NET" Value="TrustedLaunch" />
+      <MemberSignature Language="F#" Value="TrustedLaunch = 0" Usage="Azure.Provisioning.Compute.DiskSecurityType.TrustedLaunch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskSecurityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Trusted Launch provides security features such as secure boot and
+            virtual Trusted Platform Module (vTPM).
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

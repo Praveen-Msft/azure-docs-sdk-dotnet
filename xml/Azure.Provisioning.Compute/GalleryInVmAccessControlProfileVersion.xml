@@ -1,0 +1,425 @@
+<Type Name="GalleryInVmAccessControlProfileVersion" FullName="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion">
+  <TypeSignature Language="C#" Value="public class GalleryInVmAccessControlProfileVersion : Azure.Provisioning.Primitives.ProvisionableResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryInVmAccessControlProfileVersion extends Azure.Provisioning.Primitives.ProvisionableResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryInVmAccessControlProfileVersion&#xA;Inherits ProvisionableResource" />
+  <TypeSignature Language="F#" Value="type GalleryInVmAccessControlProfileVersion = class&#xA;    inherit ProvisionableResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            GalleryInVmAccessControlProfileVersion.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryInVmAccessControlProfileVersion (string bicepIdentifier, string? resourceVersion = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string bicepIdentifier, string resourceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (bicepIdentifier As String, Optional resourceVersion As String = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion : string * string -&gt; Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion" Usage="new Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion (bicepIdentifier, resourceVersion)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="bicepIdentifier" Type="System.String" />
+        <Parameter Name="resourceVersion" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bicepIdentifier">
+            The the Bicep identifier name of the
+            GalleryInVmAccessControlProfileVersion resource.  This can be used to
+            refer to the resource in expressions, but is not the Azure name of the
+            resource.  This value can contain letters, numbers, and underscores.
+            </param>
+        <param name="resourceVersion">Version of the GalleryInVmAccessControlProfileVersion.</param>
+        <summary>
+            Creates a new GalleryInVmAccessControlProfileVersion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultAccess">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeGalleryEndpointAccess&gt; DefaultAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ComputeGalleryEndpointAccess&gt; DefaultAccess" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.DefaultAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultAccess As BicepValue(Of ComputeGalleryEndpointAccess)" />
+      <MemberSignature Language="F#" Value="member this.DefaultAccess : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeGalleryEndpointAccess&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.DefaultAccess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeGalleryEndpointAccess&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property allows you to specify if the requests will be allowed to
+            access the host endpoints. Possible values are: 'Allow',
+            'Deny'.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryInVmAccessControlProfileVersion.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            GalleryInVmAccessControlProfileVersion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeFromLatest">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; ExcludeFromLatest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; ExcludeFromLatest" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.ExcludeFromLatest" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeFromLatest As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ExcludeFromLatest : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.ExcludeFromLatest" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If set to true, Virtual Machines deployed from the latest version of
+            the Resource Profile won't use this Profile version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromExisting">
+      <MemberSignature Language="C#" Value="public static Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion FromExisting (string bicepIdentifier, string? resourceVersion = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion FromExisting(string bicepIdentifier, string resourceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.FromExisting(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromExisting (bicepIdentifier As String, Optional resourceVersion As String = Nothing) As GalleryInVmAccessControlProfileVersion" />
+      <MemberSignature Language="F#" Value="static member FromExisting : string * string -&gt; Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.FromExisting (bicepIdentifier, resourceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bicepIdentifier" Type="System.String" />
+        <Parameter Name="resourceVersion" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bicepIdentifier">
+            The the Bicep identifier name of the
+            GalleryInVmAccessControlProfileVersion resource.  This can be used to
+            refer to the resource in expressions, but is not the Azure name of the
+            resource.  This value can contain letters, numbers, and underscores.
+            </param>
+        <param name="resourceVersion">Version of the GalleryInVmAccessControlProfileVersion.</param>
+        <summary>
+            Creates a reference to an existing
+            GalleryInVmAccessControlProfileVersion.
+            </summary>
+        <returns>The existing GalleryInVmAccessControlProfileVersion resource.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.Id : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt; Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Core.AzureLocation&gt; Location" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As BicepValue(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.Location : Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Location" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.AzureLocation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Location.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesMode&gt; Mode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.GalleryInVmAccessControlRulesMode&gt; Mode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mode As BicepValue(Of GalleryInVmAccessControlRulesMode)" />
+      <MemberSignature Language="F#" Value="member this.Mode : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesMode&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Mode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesMode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property allows you to specify whether the access control rules
+            are in Audit mode, in Enforce mode or Disabled. Possible values are:
+            'Audit', 'Enforce' or 'Disabled'.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name of the gallery inVMAccessControlProfile version to be
+            retrieved.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryInVmAccessControlProfile? Parent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryInVmAccessControlProfile Parent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parent As GalleryInVmAccessControlProfile" />
+      <MemberSignature Language="F#" Value="member this.Parent : Azure.Provisioning.Compute.GalleryInVmAccessControlProfile with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Parent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryInVmAccessControlProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a reference to the parent GalleryInVmAccessControlProfile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt; ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.GalleryProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As BicepValue(Of GalleryProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt;" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The provisioning state, which only appears in the response.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishedOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; PublishedOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; PublishedOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.PublishedOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublishedOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.PublishedOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.PublishedOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The timestamp for when the Resource Profile Version is published.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplicationStatus">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ReplicationStatus ReplicationStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ReplicationStatus ReplicationStatus" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.ReplicationStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplicationStatus As ReplicationStatus" />
+      <MemberSignature Language="F#" Value="member this.ReplicationStatus : Azure.Provisioning.Compute.ReplicationStatus" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.ReplicationStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ReplicationStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the replication status of the gallery image version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rules">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryInVmAccessControlRules Rules { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryInVmAccessControlRules Rules" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Rules" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rules As GalleryInVmAccessControlRules" />
+      <MemberSignature Language="F#" Value="member this.Rules : Azure.Provisioning.Compute.GalleryInVmAccessControlRules with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Rules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryInVmAccessControlRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the Access Control Rules specification for an
+            inVMAccessControlProfile version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemData">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Resources.SystemData SystemData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Resources.SystemData SystemData" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.SystemData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemData As SystemData" />
+      <MemberSignature Language="F#" Value="member this.SystemData : Azure.Provisioning.Resources.SystemData" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.SystemData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Resources.SystemData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the SystemData.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepDictionary&lt;string&gt; Tags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepDictionary`1&lt;string&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As BicepDictionary(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Tags : Azure.Provisioning.BicepDictionary&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepDictionary&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Tags.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetLocations">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.TargetRegion&gt; TargetLocations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.TargetRegion&gt; TargetLocations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.TargetLocations" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetLocations As BicepList(Of TargetRegion)" />
+      <MemberSignature Language="F#" Value="member this.TargetLocations : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.TargetRegion&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlProfileVersion.TargetLocations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.TargetRegion&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The target regions where the Resource Profile version is going to be
+            replicated to. This property is updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

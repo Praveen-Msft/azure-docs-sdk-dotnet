@@ -1,0 +1,153 @@
+<Type Name="GalleryInVmAccessControlRules" FullName="Azure.Provisioning.Compute.GalleryInVmAccessControlRules">
+  <TypeSignature Language="C#" Value="public class GalleryInVmAccessControlRules : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryInVmAccessControlRules extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryInVmAccessControlRules" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryInVmAccessControlRules&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type GalleryInVmAccessControlRules = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            This is the Access Control Rules specification for an
+            inVMAccessControlProfile version.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryInVmAccessControlRules ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryInVmAccessControlRules.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new GalleryInVmAccessControlRules.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryInVmAccessControlRules.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryInVmAccessControlRules.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            GalleryInVmAccessControlRules.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Identities">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesIdentity&gt; Identities { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.GalleryInVmAccessControlRulesIdentity&gt; Identities" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlRules.Identities" />
+      <MemberSignature Language="VB.NET" Value="Public Property Identities As BicepList(Of GalleryInVmAccessControlRulesIdentity)" />
+      <MemberSignature Language="F#" Value="member this.Identities : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesIdentity&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlRules.Identities" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesIdentity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A list of identities.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Privileges">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesPrivilege&gt; Privileges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.GalleryInVmAccessControlRulesPrivilege&gt; Privileges" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlRules.Privileges" />
+      <MemberSignature Language="VB.NET" Value="Public Property Privileges As BicepList(Of GalleryInVmAccessControlRulesPrivilege)" />
+      <MemberSignature Language="F#" Value="member this.Privileges : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesPrivilege&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlRules.Privileges" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesPrivilege&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A list of privileges.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoleAssignments">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRoleAssignment&gt; RoleAssignments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRoleAssignment&gt; RoleAssignments" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlRules.RoleAssignments" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoleAssignments As BicepList(Of GalleryInVmAccessControlRulesRoleAssignment)" />
+      <MemberSignature Language="F#" Value="member this.RoleAssignments : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRoleAssignment&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlRules.RoleAssignments" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRoleAssignment&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A list of role assignments.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Roles">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRole&gt; Roles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRole&gt; Roles" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryInVmAccessControlRules.Roles" />
+      <MemberSignature Language="VB.NET" Value="Public Property Roles As BicepList(Of GalleryInVmAccessControlRulesRole)" />
+      <MemberSignature Language="F#" Value="member this.Roles : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRole&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryInVmAccessControlRules.Roles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.GalleryInVmAccessControlRulesRole&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A list of roles.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
