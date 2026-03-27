@@ -1,0 +1,31 @@
+{
+  "Name": "Azure.Provisioning.Batch",
+  "Version": "1.0.0-alpha.20260327.1",
+  "DevVersion": "1.0.0-alpha.20260327.1",
+  "DirectoryPath": "sdk/batch/Azure.Provisioning.Batch",
+  "ServiceDirectory": "batch",
+  "ReadMePath": "sdk/batch/Azure.Provisioning.Batch/README.md",
+  "ChangeLogPath": "sdk/batch/Azure.Provisioning.Batch/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Provisioning.Batch",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "Azure.Provisioning.Batch",
+    "triggeringPaths": [
+      "/sdk/batch/ci.mgmt.yml"
+    ],
+    "safeName": "AzureProvisioningBatch"
+  },
+  "CIParameters": {
+    "BuildSnippets": true,
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/batch/resource-manager/Microsoft.Batch/Batch",
+  "Namespaces": [
+    "Azure.Provisioning.Batch"
+  ]
+}
