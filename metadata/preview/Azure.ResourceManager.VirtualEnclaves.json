@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.VirtualEnclaves",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260327.1",
+  "DevVersion": "1.0.0-alpha.20260327.1",
   "DirectoryPath": "sdk/virtualenclaves/Azure.ResourceManager.VirtualEnclaves",
   "ServiceDirectory": "virtualenclaves",
   "ReadMePath": "sdk/virtualenclaves/Azure.ResourceManager.VirtualEnclaves/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.VirtualEnclaves",
-  "ReleaseStatus": "2025-09-19",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -21,11 +21,10 @@
     ]
   },
   "CIParameters": {
-    "CheckAOTCompat": false,
-    "AOTTestInputs": [],
-    "BuildSnippets": true,
-    "CIMatrixConfigs": []
+    "CIMatrixConfigs": [],
+    "BuildSnippets": true
   },
+  "SpecProjectPath": "specification\\mission\\Mission.Management",
   "Namespaces": [
     "Azure.ResourceManager.VirtualEnclaves",
     "Azure.ResourceManager.VirtualEnclaves.Mocking",
