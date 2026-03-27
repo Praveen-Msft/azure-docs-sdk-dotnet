@@ -15,6 +15,7 @@
     <AssemblyVersion>1.3.1.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.1.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -48,8 +49,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -66,8 +67,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;</ReturnType>
@@ -99,8 +100,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;&gt;</ReturnType>
@@ -132,8 +133,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -161,8 +162,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlServerData</ReturnType>
@@ -183,8 +184,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -213,8 +214,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -243,8 +244,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;</ReturnType>
@@ -270,8 +271,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;&gt;</ReturnType>
@@ -297,8 +298,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlLogFile&gt;</ReturnType>
@@ -324,8 +325,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlLogFile&gt;</ReturnType>
@@ -351,8 +352,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlConfigurationResource&gt;</ReturnType>
@@ -384,8 +385,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlConfigurationResource&gt;&gt;</ReturnType>
@@ -417,8 +418,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlConfigurationCollection</ReturnType>
@@ -439,8 +440,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlDatabaseResource&gt;</ReturnType>
@@ -472,8 +473,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlDatabaseResource&gt;&gt;</ReturnType>
@@ -505,8 +506,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlDatabaseCollection</ReturnType>
@@ -527,8 +528,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlFirewallRuleResource&gt;</ReturnType>
@@ -560,8 +561,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlFirewallRuleResource&gt;&gt;</ReturnType>
@@ -593,8 +594,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlFirewallRuleCollection</ReturnType>
@@ -615,8 +616,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -648,8 +649,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -681,8 +682,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlPrivateEndpointConnectionCollection</ReturnType>
@@ -703,8 +704,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlPrivateLinkResource&gt;</ReturnType>
@@ -736,8 +737,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlPrivateLinkResource&gt;&gt;</ReturnType>
@@ -769,8 +770,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlPrivateLinkResourceCollection</ReturnType>
@@ -791,8 +792,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlServerAdministratorResource</ReturnType>
@@ -813,8 +814,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerKeyResource&gt;</ReturnType>
@@ -846,8 +847,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerKeyResource&gt;&gt;</ReturnType>
@@ -879,8 +880,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlServerKeyCollection</ReturnType>
@@ -901,8 +902,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlServerSecurityAlertPolicyCollection</ReturnType>
@@ -923,8 +924,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerSecurityAlertPolicyResource&gt;</ReturnType>
@@ -952,8 +953,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerSecurityAlertPolicyResource&gt;&gt;</ReturnType>
@@ -981,8 +982,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlVirtualNetworkRuleResource&gt;</ReturnType>
@@ -1014,8 +1015,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlVirtualNetworkRuleResource&gt;&gt;</ReturnType>
@@ -1047,8 +1048,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlVirtualNetworkRuleCollection</ReturnType>
@@ -1069,8 +1070,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlRecoverableServerResourceData&gt;</ReturnType>
@@ -1096,8 +1097,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlRecoverableServerResourceData&gt;&gt;</ReturnType>
@@ -1123,8 +1124,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlPerformanceTierProperties&gt;</ReturnType>
@@ -1150,8 +1151,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlPerformanceTierProperties&gt;</ReturnType>
@@ -1177,8 +1178,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1198,8 +1199,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;</ReturnType>
@@ -1229,8 +1230,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;&gt;</ReturnType>
@@ -1260,8 +1261,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1280,8 +1281,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1310,8 +1311,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1340,8 +1341,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;</ReturnType>
@@ -1371,8 +1372,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;&gt;</ReturnType>
@@ -1405,8 +1406,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlServerData</ReturnType>
@@ -1438,8 +1439,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1470,8 +1471,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.PostgreSqlServerData</ReturnType>
@@ -1503,8 +1504,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1533,8 +1534,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -1561,8 +1562,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;</ReturnType>
@@ -1595,8 +1596,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.PostgreSql.PostgreSqlServerResource&gt;&gt;</ReturnType>
@@ -1629,8 +1630,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlConfigurationList&gt;</ReturnType>
@@ -1663,8 +1664,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.PostgreSql.Models.PostgreSqlConfigurationList&gt;&gt;</ReturnType>

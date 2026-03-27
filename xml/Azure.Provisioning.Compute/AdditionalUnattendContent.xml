@@ -1,0 +1,158 @@
+<Type Name="AdditionalUnattendContent" FullName="Azure.Provisioning.Compute.AdditionalUnattendContent">
+  <TypeSignature Language="C#" Value="public class AdditionalUnattendContent : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AdditionalUnattendContent extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.AdditionalUnattendContent" />
+  <TypeSignature Language="VB.NET" Value="Public Class AdditionalUnattendContent&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type AdditionalUnattendContent = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies additional XML formatted information that can be included in the
+            Unattend.xml file, which is used by Windows Setup. Contents are defined by
+            setting name, component name, and the pass in which the content is applied.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AdditionalUnattendContent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.AdditionalUnattendContent.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new AdditionalUnattendContent.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComponentName">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComponentName&gt; ComponentName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ComponentName&gt; ComponentName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AdditionalUnattendContent.ComponentName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ComponentName As BicepValue(Of ComponentName)" />
+      <MemberSignature Language="F#" Value="member this.ComponentName : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComponentName&gt; with get, set" Usage="Azure.Provisioning.Compute.AdditionalUnattendContent.ComponentName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComponentName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The component name. Currently, the only allowable value is
+            Microsoft-Windows-Shell-Setup.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Content" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AdditionalUnattendContent.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Content : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.AdditionalUnattendContent.Content" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the XML formatted content that is added to the unattend.xml
+            file for the specified path and component. The XML must be less than
+            4KB and must include the root element for the setting or feature that
+            is being inserted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.AdditionalUnattendContent.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="additionalUnattendContent.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of AdditionalUnattendContent.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PassName">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PassName&gt; PassName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.PassName&gt; PassName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AdditionalUnattendContent.PassName" />
+      <MemberSignature Language="VB.NET" Value="Public Property PassName As BicepValue(Of PassName)" />
+      <MemberSignature Language="F#" Value="member this.PassName : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PassName&gt; with get, set" Usage="Azure.Provisioning.Compute.AdditionalUnattendContent.PassName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PassName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The pass name. Currently, the only allowable value is OobeSystem.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SettingName">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SettingName&gt; SettingName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.SettingName&gt; SettingName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.AdditionalUnattendContent.SettingName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SettingName As BicepValue(Of SettingName)" />
+      <MemberSignature Language="F#" Value="member this.SettingName : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SettingName&gt; with get, set" Usage="Azure.Provisioning.Compute.AdditionalUnattendContent.SettingName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SettingName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the name of the setting to which the content applies.
+            Possible values are: FirstLogonCommands and AutoLogon.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -49,26 +49,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Filter">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentFilter Filter { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentFilter Filter" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentData.Filter" />
-      <MemberSignature Language="VB.NET" Value="Public Property Filter As MaintenanceConfigurationAssignmentFilter" />
-      <MemberSignature Language="F#" Value="member this.Filter : Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentFilter with get, set" Usage="Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentData.Filter" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentFilter</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Properties of the configuration assignment. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="JsonModelWriteCore">
       <MemberSignature Language="C#" Value="protected override void JsonModelWriteCore (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void JsonModelWriteCore(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
@@ -282,7 +262,7 @@
         <summary>
             Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
             </summary>
-        <returns>The format that the model uses when communicating with the serivce.</returns>
+        <returns>The format that the model uses when communicating with the service.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

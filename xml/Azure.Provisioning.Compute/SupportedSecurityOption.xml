@@ -1,0 +1,71 @@
+<Type Name="SupportedSecurityOption" FullName="Azure.Provisioning.Compute.SupportedSecurityOption">
+  <TypeSignature Language="C#" Value="public enum SupportedSecurityOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SupportedSecurityOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.SupportedSecurityOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SupportedSecurityOption" />
+  <TypeSignature Language="F#" Value="type SupportedSecurityOption = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Refers to the security capability of the disk supported to create a Trusted
+            launch or Confidential VM.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="TrustedLaunchAndConfidentialVmSupported">
+      <MemberSignature Language="C#" Value="TrustedLaunchAndConfidentialVmSupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SupportedSecurityOption TrustedLaunchAndConfidentialVmSupported = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SupportedSecurityOption.TrustedLaunchAndConfidentialVmSupported" />
+      <MemberSignature Language="VB.NET" Value="TrustedLaunchAndConfidentialVmSupported" />
+      <MemberSignature Language="F#" Value="TrustedLaunchAndConfidentialVmSupported = 1" Usage="Azure.Provisioning.Compute.SupportedSecurityOption.TrustedLaunchAndConfidentialVmSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="TrustedLaunchAndConfidentialVMSupported")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="TrustedLaunchAndConfidentialVMSupported")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SupportedSecurityOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The disk supports creating both Trusted Launch and Confidential VMs.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TrustedLaunchSupported">
+      <MemberSignature Language="C#" Value="TrustedLaunchSupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SupportedSecurityOption TrustedLaunchSupported = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SupportedSecurityOption.TrustedLaunchSupported" />
+      <MemberSignature Language="VB.NET" Value="TrustedLaunchSupported" />
+      <MemberSignature Language="F#" Value="TrustedLaunchSupported = 0" Usage="Azure.Provisioning.Compute.SupportedSecurityOption.TrustedLaunchSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SupportedSecurityOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The disk supports creating Trusted Launch VMs.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

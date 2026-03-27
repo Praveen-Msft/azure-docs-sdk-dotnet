@@ -1,16 +1,16 @@
 <Type Name="OneTimeTrigger" FullName="Azure.AI.Projects.OneTimeTrigger">
-  <TypeSignature Language="C#" Value="public class OneTimeTrigger : Azure.AI.Projects.Trigger, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.Projects.OneTimeTrigger&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.Projects.OneTimeTrigger&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OneTimeTrigger extends Azure.AI.Projects.Trigger implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.Projects.OneTimeTrigger&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.Projects.OneTimeTrigger&gt;" />
+  <TypeSignature Language="C#" Value="public class OneTimeTrigger : Azure.AI.Projects.ScheduleTrigger, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.Projects.OneTimeTrigger&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.Projects.OneTimeTrigger&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OneTimeTrigger extends Azure.AI.Projects.ScheduleTrigger implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.Projects.OneTimeTrigger&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.Projects.OneTimeTrigger&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.AI.Projects.OneTimeTrigger" />
-  <TypeSignature Language="VB.NET" Value="Public Class OneTimeTrigger&#xA;Inherits Trigger&#xA;Implements IJsonModel(Of OneTimeTrigger), IPersistableModel(Of OneTimeTrigger)" />
-  <TypeSignature Language="F#" Value="type OneTimeTrigger = class&#xA;    inherit Trigger&#xA;    interface IJsonModel&lt;OneTimeTrigger&gt;&#xA;    interface IPersistableModel&lt;OneTimeTrigger&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class OneTimeTrigger&#xA;Inherits ScheduleTrigger&#xA;Implements IJsonModel(Of OneTimeTrigger), IPersistableModel(Of OneTimeTrigger)" />
+  <TypeSignature Language="F#" Value="type OneTimeTrigger = class&#xA;    inherit ScheduleTrigger&#xA;    interface IJsonModel&lt;OneTimeTrigger&gt;&#xA;    interface IPersistableModel&lt;OneTimeTrigger&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.AI.Projects</AssemblyName>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.AI.Projects.Trigger</BaseTypeName>
+    <BaseTypeName>Azure.AI.Projects.ScheduleTrigger</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -51,18 +51,18 @@
       </Docs>
     </Member>
     <Member MemberName="JsonModelCreateCore">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.Trigger JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.Trigger JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ScheduleTrigger JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ScheduleTrigger JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.OneTimeTrigger.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As Trigger" />
-      <MemberSignature Language="F#" Value="override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.Trigger" Usage="oneTimeTrigger.JsonModelCreateCore (reader, options)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ScheduleTrigger" />
+      <MemberSignature Language="F#" Value="override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ScheduleTrigger" Usage="oneTimeTrigger.JsonModelCreateCore (reader, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Trigger</ReturnType>
+        <ReturnType>Azure.AI.Projects.ScheduleTrigger</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
@@ -102,18 +102,18 @@
       </Docs>
     </Member>
     <Member MemberName="PersistableModelCreateCore">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.Trigger PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.Trigger PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ScheduleTrigger PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ScheduleTrigger PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.OneTimeTrigger.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As Trigger" />
-      <MemberSignature Language="F#" Value="override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.Trigger" Usage="oneTimeTrigger.PersistableModelCreateCore (data, options)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As ScheduleTrigger" />
+      <MemberSignature Language="F#" Value="override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ScheduleTrigger" Usage="oneTimeTrigger.PersistableModelCreateCore (data, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Trigger</ReturnType>
+        <ReturnType>Azure.AI.Projects.ScheduleTrigger</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="data" Type="System.BinaryData" />

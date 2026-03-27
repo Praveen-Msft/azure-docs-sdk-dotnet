@@ -1,40 +1,36 @@
 <Type Name="DevTestLabResource" FullName="Azure.ResourceManager.DevTestLabs.DevTestLabResource">
-  <TypeSignature Language="C#" Value="public class DevTestLabResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DevTestLabResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class DevTestLabResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DevTestLabResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />
-  <TypeSignature Language="VB.NET" Value="Public Class DevTestLabResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of DevTestLabData), IPersistableModel(Of DevTestLabData)" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type DevTestLabResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;DevTestLabData&gt;&#xA;    interface IPersistableModel&lt;DevTestLabData&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class DevTestLabResource : Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DevTestLabResource extends Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class DevTestLabResource&#xA;Inherits ArmResource" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type DevTestLabResource = class&#xA;    inherit ArmResource" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class DevTestLabResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of DevTestLabData), IPersistableModel(Of DevTestLabData)" />
+  <TypeSignature Language="F#" Value="type DevTestLabResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;DevTestLabData&gt;&#xA;    interface IPersistableModel&lt;DevTestLabData&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DevTestLabs.DevTestLabData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
   <Docs>
     <summary>
-            A Class representing a DevTestLab along with the instance operations that can be performed on it.
-            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />
-            from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetDevTestLabResource method.
-            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetDevTestLab method.
+            A class representing a DevTestLab along with the instance operations that can be performed on it.
+            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetResource method.
+            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetDevTestLabs method.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -47,12 +43,11 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of DevTestLabResource for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -65,8 +60,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -80,9 +74,7 @@
         <param name="key"> The key for the tag. </param>
         <param name="value"> The value for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+        <summary> Add a tag to the current resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -98,8 +90,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;&gt;</ReturnType>
@@ -113,9 +104,7 @@
         <param name="key"> The key for the tag. </param>
         <param name="value"> The value for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+        <summary> Add a tag to the current resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -131,8 +120,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -147,7 +135,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Claim a random claimable virtual machine in the lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/claimAnyVm</description></item><item><term>Operation Id</term><description>Labs_ClaimAnyVm</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/claimAnyVm. </description></item><item><term> Operation Id. </term><description> Labs_ClaimAnyVm. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -161,8 +149,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -177,7 +164,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Claim a random claimable virtual machine in the lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/claimAnyVm</description></item><item><term>Operation Id</term><description>Labs_ClaimAnyVm</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/claimAnyVm. </description></item><item><term> Operation Id. </term><description> Labs_ClaimAnyVm. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,8 +178,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -209,7 +195,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create virtual machines in a lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/createEnvironment</description></item><item><term>Operation Id</term><description>Labs_CreateEnvironment</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/createEnvironment. </description></item><item><term> Operation Id. </term><description> Labs_CreateEnvironment. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -225,8 +211,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -243,7 +228,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create virtual machines in a lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/createEnvironment</description></item><item><term>Operation Id</term><description>Labs_CreateEnvironment</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/createEnvironment. </description></item><item><term> Operation Id. </term><description> Labs_CreateEnvironment. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -259,8 +244,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -274,7 +258,7 @@
         <param name="subscriptionId"> The subscriptionId. </param>
         <param name="resourceGroupName"> The resourceGroupName. </param>
         <param name="name"> The name. </param>
-        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> instance. </summary>
+        <summary> Generate the resource identifier for this resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,8 +272,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabData</ReturnType>
@@ -310,8 +293,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -326,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Delete</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}. </description></item><item><term> Operation Id. </term><description> Labs_Delete. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,8 +322,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -356,7 +337,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Delete</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}. </description></item><item><term> Operation Id. </term><description> Labs_Delete. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -370,8 +351,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult&gt;</ReturnType>
@@ -382,18 +362,18 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the policy set. </param>
+        <param name="name"> The name of the PolicySet. </param>
         <param name="content"> Request body for evaluating a policy set. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Evaluates lab policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/policysets/{name}/evaluatePolicies</description></item><item><term>Operation Id</term><description>PolicySets_EvaluatePolicies</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/policysets/{name}/evaluatePolicies. </description></item><item><term> Operation Id. </term><description> PolicySets_EvaluatePolicies. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="content" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="EvaluatePoliciesAsync">
@@ -405,8 +385,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult&gt;&gt;</ReturnType>
@@ -417,18 +396,18 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the policy set. </param>
+        <param name="name"> The name of the PolicySet. </param>
         <param name="content"> Request body for evaluating a policy set. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Evaluates lab policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/policysets/{name}/evaluatePolicies</description></item><item><term>Operation Id</term><description>PolicySets_EvaluatePolicies</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/policysets/{name}/evaluatePolicies. </description></item><item><term> Operation Id. </term><description> PolicySets_EvaluatePolicies. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="content" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="ExportResourceUsage">
@@ -440,8 +419,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -458,7 +436,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Exports the lab resource usage into a storage account This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/exportResourceUsage</description></item><item><term>Operation Id</term><description>Labs_ExportResourceUsage</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/exportResourceUsage. </description></item><item><term> Operation Id. </term><description> Labs_ExportResourceUsage. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -474,8 +452,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -492,7 +469,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Exports the lab resource usage into a storage account This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/exportResourceUsage</description></item><item><term>Operation Id</term><description>Labs_ExportResourceUsage</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/exportResourceUsage. </description></item><item><term> Operation Id. </term><description> Labs_ExportResourceUsage. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -508,8 +485,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabGenerateUploadUriResult&gt;</ReturnType>
@@ -523,7 +499,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generate a URI for uploading custom disk images to a Lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/generateUploadUri</description></item><item><term>Operation Id</term><description>Labs_GenerateUploadUri</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/generateUploadUri. </description></item><item><term> Operation Id. </term><description> Labs_GenerateUploadUri. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -539,8 +515,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabGenerateUploadUriResult&gt;&gt;</ReturnType>
@@ -554,7 +529,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generate a URI for uploading custom disk images to a Lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/generateUploadUri</description></item><item><term>Operation Id</term><description>Labs_GenerateUploadUri</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/generateUploadUri. </description></item><item><term> Operation Id. </term><description> Labs_GenerateUploadUri. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -570,8 +545,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -585,7 +559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}. </description></item><item><term> Operation Id. </term><description> Labs_Get. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -599,8 +573,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;&gt;</ReturnType>
@@ -614,7 +587,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}. </description></item><item><term> Operation Id. </term><description> Labs_Get. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -628,8 +601,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource&gt;</ReturnType>
@@ -643,9 +615,7 @@
         <param name="name"> The name of the artifact source. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=displayName)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get artifact source.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/artifactsources/{name}</description></item><item><term>Operation Id</term><description>ArtifactSources_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource" /></description></item></list></summary>
+        <summary> Get artifact source. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -663,8 +633,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource&gt;&gt;</ReturnType>
@@ -678,9 +647,7 @@
         <param name="name"> The name of the artifact source. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=displayName)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get artifact source.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/artifactsources/{name}</description></item><item><term>Operation Id</term><description>ArtifactSources_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource" /></description></item></list></summary>
+        <summary> Get artifact source. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -698,16 +665,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabArtifactSourceResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabArtifactSourceResources and their operations over a DevTestLabArtifactSourceResource. </returns>
+        <summary> Gets a collection of DevTestLabArtifactSources in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabArtifactSources and their operations over a DevTestLabArtifactSourceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -720,8 +686,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabCostResource&gt;</ReturnType>
@@ -735,9 +700,7 @@
         <param name="name"> The name of the cost. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($expand=labCostDetails)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get cost.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/costs/{name}</description></item><item><term>Operation Id</term><description>Costs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCostResource" /></description></item></list></summary>
+        <summary> Get cost. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -755,8 +718,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabCostResource&gt;&gt;</ReturnType>
@@ -770,9 +732,7 @@
         <param name="name"> The name of the cost. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($expand=labCostDetails)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get cost.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/costs/{name}</description></item><item><term>Operation Id</term><description>Costs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCostResource" /></description></item></list></summary>
+        <summary> Get cost. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -790,16 +750,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCostCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabCostResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabCostResources and their operations over a DevTestLabCostResource. </returns>
+        <summary> Gets a collection of DevTestLabCosts in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabCosts and their operations over a DevTestLabCostResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -812,8 +771,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource&gt;</ReturnType>
@@ -824,12 +782,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the custom image. </param>
+        <param name="name"> The name of the CustomImage. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=vm)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get custom image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/customimages/{name}</description></item><item><term>Operation Id</term><description>CustomImages_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource" /></description></item></list></summary>
+        <summary> Get custom image. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -847,8 +803,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource&gt;&gt;</ReturnType>
@@ -859,12 +814,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the custom image. </param>
+        <param name="name"> The name of the CustomImage. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=vm)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get custom image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/customimages/{name}</description></item><item><term>Operation Id</term><description>CustomImages_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource" /></description></item></list></summary>
+        <summary> Get custom image. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -882,16 +835,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabCustomImageResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabCustomImageResources and their operations over a DevTestLabCustomImageResource. </returns>
+        <summary> Gets a collection of DevTestLabCustomImages in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabCustomImages and their operations over a DevTestLabCustomImageResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -904,8 +856,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource&gt;</ReturnType>
@@ -919,9 +870,7 @@
         <param name="name"> The name of the formula. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=description)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get formula.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/formulas/{name}</description></item><item><term>Operation Id</term><description>Formulas_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource" /></description></item></list></summary>
+        <summary> Get formula. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -939,8 +888,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource&gt;&gt;</ReturnType>
@@ -954,9 +902,7 @@
         <param name="name"> The name of the formula. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=description)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get formula.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/formulas/{name}</description></item><item><term>Operation Id</term><description>Formulas_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource" /></description></item></list></summary>
+        <summary> Get formula. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -974,16 +920,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabFormulaCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabFormulaResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabFormulaResources and their operations over a DevTestLabFormulaResource. </returns>
+        <summary> Gets a collection of DevTestLabFormulas in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabFormulas and their operations over a DevTestLabFormulaResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -996,8 +941,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource&gt;</ReturnType>
@@ -1011,9 +955,7 @@
         <param name="name"> The name of the notification channel. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=webHookUrl)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get notification channel.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/notificationchannels/{name}</description></item><item><term>Operation Id</term><description>NotificationChannels_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource" /></description></item></list></summary>
+        <summary> Get notification channel. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1031,8 +973,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource&gt;&gt;</ReturnType>
@@ -1046,9 +987,7 @@
         <param name="name"> The name of the notification channel. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=webHookUrl)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get notification channel.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/notificationchannels/{name}</description></item><item><term>Operation Id</term><description>NotificationChannels_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource" /></description></item></list></summary>
+        <summary> Get notification channel. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1066,16 +1005,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabNotificationChannelResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabNotificationChannelResources and their operations over a DevTestLabNotificationChannelResource. </returns>
+        <summary> Gets a collection of DevTestLabNotificationChannels in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabNotificationChannels and their operations over a DevTestLabNotificationChannelResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1088,8 +1026,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabPolicyCollection</ReturnType>
@@ -1098,9 +1035,9 @@
         <Parameter Name="policySetName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="policySetName"> The name of the policy set. </param>
-        <summary> Gets a collection of DevTestLabPolicyResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabPolicyResources and their operations over a DevTestLabPolicyResource. </returns>
+        <param name="policySetName"> The policySetName for the resource. </param>
+        <summary> Gets a collection of DevTestLabPolicies in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabPolicies and their operations over a DevTestLabPolicyResource. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="policySetName" /> is null. </exception>
@@ -1117,8 +1054,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource&gt;</ReturnType>
@@ -1130,19 +1066,17 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="policySetName"> The name of the policy set. </param>
-        <param name="name"> The name of the policy. </param>
+        <param name="policySetName"> The policySetName for the resource. </param>
+        <param name="name"> The name of the Policy. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=description)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/policysets/{policySetName}/policies/{name}</description></item><item><term>Operation Id</term><description>Policies_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource" /></description></item></list></summary>
+        <summary> Get policy. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="policySetName" /> or <paramref name="name" /> is null. </exception>
+          <paramref name="name" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
-          <paramref name="policySetName" /> or <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevTestLabPolicyAsync">
@@ -1154,8 +1088,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource&gt;&gt;</ReturnType>
@@ -1167,19 +1100,17 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="policySetName"> The name of the policy set. </param>
-        <param name="name"> The name of the policy. </param>
+        <param name="policySetName"> The policySetName for the resource. </param>
+        <param name="name"> The name of the Policy. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=description)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/policysets/{policySetName}/policies/{name}</description></item><item><term>Operation Id</term><description>Policies_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource" /></description></item></list></summary>
+        <summary> Get policy. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="policySetName" /> or <paramref name="name" /> is null. </exception>
+          <paramref name="name" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
-          <paramref name="policySetName" /> or <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevTestLabSchedule">
@@ -1191,8 +1122,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource&gt;</ReturnType>
@@ -1203,12 +1133,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the schedule. </param>
+        <param name="name"> The name of the Schedule. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=status)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get schedule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/schedules/{name}</description></item><item><term>Operation Id</term><description>Schedules_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource" /></description></item></list></summary>
+        <summary> Get schedule. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1226,8 +1154,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource&gt;&gt;</ReturnType>
@@ -1238,12 +1165,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the schedule. </param>
+        <param name="name"> The name of the Schedule. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=status)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get schedule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/schedules/{name}</description></item><item><term>Operation Id</term><description>Schedules_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource" /></description></item></list></summary>
+        <summary> Get schedule. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1261,16 +1186,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabScheduleCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabScheduleResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabScheduleResources and their operations over a DevTestLabScheduleResource. </returns>
+        <summary> Gets a collection of DevTestLabSchedules in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabSchedules and their operations over a DevTestLabScheduleResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1283,8 +1207,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource&gt;</ReturnType>
@@ -1296,9 +1219,7 @@
       <Docs>
         <param name="name"> The name of the service runner. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get service runner.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/servicerunners/{name}</description></item><item><term>Operation Id</term><description>ServiceRunners_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource" /></description></item></list></summary>
+        <summary> Get service runner. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1316,8 +1237,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource&gt;&gt;</ReturnType>
@@ -1329,9 +1249,7 @@
       <Docs>
         <param name="name"> The name of the service runner. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get service runner.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/servicerunners/{name}</description></item><item><term>Operation Id</term><description>ServiceRunners_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource" /></description></item></list></summary>
+        <summary> Get service runner. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1349,16 +1267,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabServiceRunnerResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabServiceRunnerResources and their operations over a DevTestLabServiceRunnerResource. </returns>
+        <summary> Gets a collection of DevTestLabServiceRunners in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabServiceRunners and their operations over a DevTestLabServiceRunnerResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1371,8 +1288,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabUserResource&gt;</ReturnType>
@@ -1386,9 +1302,7 @@
         <param name="name"> The name of the user profile. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=identity)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get user profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/users/{name}</description></item><item><term>Operation Id</term><description>Users_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabUserResource" /></description></item></list></summary>
+        <summary> Get user profile. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1406,8 +1320,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabUserResource&gt;&gt;</ReturnType>
@@ -1421,9 +1334,7 @@
         <param name="name"> The name of the user profile. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=identity)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get user profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/users/{name}</description></item><item><term>Operation Id</term><description>Users_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabUserResource" /></description></item></list></summary>
+        <summary> Get user profile. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1441,16 +1352,67 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabUserCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabUserResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabUserResources and their operations over a DevTestLabUserResource. </returns>
+        <summary> Gets a collection of DevTestLabUsers in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabUsers and their operations over a DevTestLabUserResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDevTestLabVhds">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt; GetDevTestLabVhds (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt; GetDevTestLabVhds(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.DevTestLabResource.GetDevTestLabVhds(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDevTestLabVhds (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of DevTestLabVhd)" />
+      <MemberSignature Language="F#" Value="abstract member GetDevTestLabVhds : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt;&#xA;override this.GetDevTestLabVhds : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt;" Usage="devTestLabResource.GetDevTestLabVhds cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List disk images available for custom image creation.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/listVhds. </description></item><item><term> Operation Id. </term><description> Labs_ListVhds. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDevTestLabVhdsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt; GetDevTestLabVhdsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt; GetDevTestLabVhdsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.DevTestLabResource.GetDevTestLabVhdsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDevTestLabVhdsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of DevTestLabVhd)" />
+      <MemberSignature Language="F#" Value="abstract member GetDevTestLabVhdsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt;&#xA;override this.GetDevTestLabVhdsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt;" Usage="devTestLabResource.GetDevTestLabVhdsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List disk images available for custom image creation.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/listVhds. </description></item><item><term> Operation Id. </term><description> Labs_ListVhds. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1463,8 +1425,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource&gt;</ReturnType>
@@ -1478,9 +1439,7 @@
         <param name="name"> The name of the virtual network. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($expand=externalSubnets)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get virtual network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/virtualnetworks/{name}</description></item><item><term>Operation Id</term><description>VirtualNetworks_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource" /></description></item></list></summary>
+        <summary> Get virtual network. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1498,8 +1457,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource&gt;&gt;</ReturnType>
@@ -1513,9 +1471,7 @@
         <param name="name"> The name of the virtual network. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($expand=externalSubnets)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get virtual network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/virtualnetworks/{name}</description></item><item><term>Operation Id</term><description>VirtualNetworks_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource" /></description></item></list></summary>
+        <summary> Get virtual network. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1533,16 +1489,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabVirtualNetworkResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabVirtualNetworkResources and their operations over a DevTestLabVirtualNetworkResource. </returns>
+        <summary> Gets a collection of DevTestLabVirtualNetworks in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabVirtualNetworks and their operations over a DevTestLabVirtualNetworkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1555,8 +1510,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabVmResource&gt;</ReturnType>
@@ -1570,9 +1524,7 @@
         <param name="name"> The name of the virtual machine. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($expand=artifacts,computeVm,networkInterface,applicableSchedule)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/virtualmachines/{name}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmResource" /></description></item></list></summary>
+        <summary> Get virtual machine. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1590,8 +1542,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabVmResource&gt;&gt;</ReturnType>
@@ -1605,9 +1556,7 @@
         <param name="name"> The name of the virtual machine. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($expand=artifacts,computeVm,networkInterface,applicableSchedule)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/virtualmachines/{name}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmResource" /></description></item></list></summary>
+        <summary> Get virtual machine. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1625,16 +1574,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVmCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DevTestLabVmResources in the DevTestLab. </summary>
-        <returns> An object representing collection of DevTestLabVmResources and their operations over a DevTestLabVmResource. </returns>
+        <summary> Gets a collection of DevTestLabVms in the <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </summary>
+        <returns> An object representing collection of DevTestLabVms and their operations over a DevTestLabVmResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1647,8 +1595,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage&gt;</ReturnType>
@@ -1661,14 +1608,14 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="expand"> Specify the $expand query. Example: 'properties($select=author)'. </param>
+        <param name="expand"> Specify the $expand query. Example: 'properties($select=displayName)'. </param>
         <param name="filter"> The filter to apply to the operation. Example: '$filter=contains(name,'myName'). </param>
         <param name="top"> The maximum number of resources to return from the operation. Example: '$top=10'. </param>
         <param name="orderby"> The ordering expression for the results, using OData notation. Example: '$orderby=name desc'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List gallery images in a given lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/galleryimages</description></item><item><term>Operation Id</term><description>GalleryImages_List</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/galleryimages. </description></item><item><term> Operation Id. </term><description> GalleryImages_List. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1682,8 +1629,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage&gt;</ReturnType>
@@ -1696,15 +1642,15 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="expand"> Specify the $expand query. Example: 'properties($select=author)'. </param>
+        <param name="expand"> Specify the $expand query. Example: 'properties($select=displayName)'. </param>
         <param name="filter"> The filter to apply to the operation. Example: '$filter=contains(name,'myName'). </param>
         <param name="top"> The maximum number of resources to return from the operation. Example: '$top=10'. </param>
         <param name="orderby"> The ordering expression for the results, using OData notation. Example: '$orderby=name desc'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List gallery images in a given lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/galleryimages</description></item><item><term>Operation Id</term><description>GalleryImages_List</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item></list></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage" /> that may take multiple service requests to iterate over. </returns>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/galleryimages. </description></item><item><term> Operation Id. </term><description> GalleryImages_List. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1717,9 +1663,18 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("This operation is not supported. Please use the method GetDevTestLabVhds instead.", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This operation is not supported. Please use the method GetDevTestLabVhds instead.", false)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Resources.Models.SubResource&gt;</ReturnType>
       </ReturnValue>
@@ -1744,9 +1699,18 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("This operation is not supported. Please use the method GetDevTestLabVhdsAsync instead.", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This operation is not supported. Please use the method GetDevTestLabVhdsAsync instead.", false)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Resources.Models.SubResource&gt;</ReturnType>
       </ReturnValue>
@@ -1771,8 +1735,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1792,8 +1755,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1810,7 +1772,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Import a virtual machine into a different lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/importVirtualMachine</description></item><item><term>Operation Id</term><description>Labs_ImportVm</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/importVirtualMachine. </description></item><item><term> Operation Id. </term><description> Labs_ImportVirtualMachine. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1826,8 +1788,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1844,7 +1805,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Import a virtual machine into a different lab. This operation can take a while to complete.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/importVirtualMachine</description></item><item><term>Operation Id</term><description>Labs_ImportVm</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/importVirtualMachine. </description></item><item><term> Operation Id. </term><description> Labs_ImportVirtualMachine. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1860,8 +1821,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -1873,9 +1833,7 @@
       <Docs>
         <param name="key"> The key for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+        <summary> Removes a tag by key from the resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1891,8 +1849,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;&gt;</ReturnType>
@@ -1904,9 +1861,7 @@
       <Docs>
         <param name="key"> The key for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+        <summary> Removes a tag by key from the resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1922,8 +1877,7 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1942,8 +1896,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -1953,11 +1906,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
+        <param name="tags"> The tags to set on the resource. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+        <summary> Replace the tags on the resource with the given set. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1973,8 +1924,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;&gt;</ReturnType>
@@ -1984,11 +1934,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
+        <param name="tags"> The tags to set on the resource. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+        <summary> Replace the tags on the resource with the given set. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2007,18 +1955,18 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="reader"> The reader for deserializing the model. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
@@ -2039,18 +1987,18 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="writer"> The writer to serialize the model to. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Writes the model to the provided <see cref="T:System.Text.Json.Utf8JsonWriter" />.
             </summary>
@@ -2070,18 +2018,18 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="data"> The binary data to be processed. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
@@ -2102,16 +2050,16 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
             </summary>
@@ -2131,16 +2079,16 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Writes the model into a <see cref="T:System.BinaryData" />.
             </summary>
@@ -2158,8 +2106,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -2173,7 +2120,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Allows modifying tags of labs. All other properties will be ignored.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Update</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}. </description></item><item><term> Operation Id. </term><description> Labs_Update. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2189,8 +2136,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;&gt;</ReturnType>
@@ -2204,7 +2150,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Allows modifying tags of labs. All other properties will be ignored.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Update</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}. </description></item><item><term> Operation Id. </term><description> Labs_Update. </description></item><item><term> Default Api Version. </term><description> 2018-09-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

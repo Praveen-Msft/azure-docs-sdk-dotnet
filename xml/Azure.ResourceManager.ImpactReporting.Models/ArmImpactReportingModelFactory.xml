@@ -13,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -39,12 +39,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.ImpactReporting.Models.ImpactCategoryProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.ImpactCategoryData" />. </summary>
+        <summary> ImpactCategory resource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.ImpactCategoryData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -76,7 +76,7 @@
         <param name="parentCategoryId"> Unique ID of the parent category. </param>
         <param name="description"> Description of the category. </param>
         <param name="requiredImpactProperties"> The workloadImpact properties which are required when reporting with the impact category. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.Models.ImpactCategoryProperties" />. </summary>
+        <summary> Impact category properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.Models.ImpactCategoryProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -103,12 +103,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.ImpactReporting.Models.ImpactConnectorProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.ImpactConnectorData" />. </summary>
+        <summary> A connector is a resource that can be used to proactively report impacts against workloads in Azure to Microsoft. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.ImpactConnectorData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,7 +140,7 @@
         <param name="tenantId"> tenant id of this connector. </param>
         <param name="connectorType"> connector type. </param>
         <param name="lastRanOn"> last run time stamp of this connector in UTC time zone. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.Models.ImpactConnectorProperties" />. </summary>
+        <summary> Details of the Connector. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.Models.ImpactConnectorProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,12 +167,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.ImpactReporting.Models.ImpactInsightProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.ImpactInsightData" />. </summary>
+        <summary> Insight resource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.ImpactInsightData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,7 +214,7 @@
         <param name="insightUniqueId"> unique id of the insight. </param>
         <param name="impact"> details of of the impact for which insight has been generated. </param>
         <param name="additionalDetails"> additional details of the insight. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.Models.ImpactInsightProperties" />. </summary>
+        <summary> Impact category properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.Models.ImpactInsightProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +240,7 @@
       <Docs>
         <param name="name"> Name of the property. </param>
         <param name="allowedValues"> Allowed values values for the property. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.Models.RequiredImpactProperties" />. </summary>
+        <summary> Required impact properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.Models.RequiredImpactProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -267,12 +267,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.ImpactReporting.Models.WorkloadImpactProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> The resource-specific properties for this resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.WorkloadImpactData" />. </summary>
+        <summary> Workload Impact properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.WorkloadImpactData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,8 +312,8 @@
       </Parameters>
       <Docs>
         <param name="provisioningState"> Resource provisioning state. </param>
-        <param name="startOn"> Time at which impact was observed. </param>
-        <param name="endOn"> Time at which impact has ended. </param>
+        <param name="startOn"> Time at which impact was observed . </param>
+        <param name="endOn"> Time at which impact has ended . </param>
         <param name="impactedResourceId"> Azure resource id of the impacted resource. </param>
         <param name="impactUniqueId"> Unique ID of the impact (UUID). </param>
         <param name="reportedTimeUtc"> Time at which impact is reported. </param>
@@ -328,7 +328,7 @@
         <param name="impactGroupId"> Use this field to group impacts. </param>
         <param name="confidenceLevel"> Degree of confidence on the impact being a platform issue. </param>
         <param name="clientIncidentDetails"> Client incident details ex: incidentId , incident source. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ImpactReporting.Models.WorkloadImpactProperties" />. </summary>
+        <summary> Workload impact properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ImpactReporting.Models.WorkloadImpactProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,16 +1,16 @@
 <Type Name="InsightScheduleTask" FullName="Azure.AI.Projects.InsightScheduleTask">
-  <TypeSignature Language="C#" Value="public class InsightScheduleTask : Azure.AI.Projects.ScheduleTask, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.Projects.InsightScheduleTask&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.Projects.InsightScheduleTask&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InsightScheduleTask extends Azure.AI.Projects.ScheduleTask implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.Projects.InsightScheduleTask&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.Projects.InsightScheduleTask&gt;" />
+  <TypeSignature Language="C#" Value="public class InsightScheduleTask : Azure.AI.Projects.ProjectsScheduleTask, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.Projects.InsightScheduleTask&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.Projects.InsightScheduleTask&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InsightScheduleTask extends Azure.AI.Projects.ProjectsScheduleTask implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.Projects.InsightScheduleTask&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.Projects.InsightScheduleTask&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.AI.Projects.InsightScheduleTask" />
-  <TypeSignature Language="VB.NET" Value="Public Class InsightScheduleTask&#xA;Inherits ScheduleTask&#xA;Implements IJsonModel(Of InsightScheduleTask), IPersistableModel(Of InsightScheduleTask)" />
-  <TypeSignature Language="F#" Value="type InsightScheduleTask = class&#xA;    inherit ScheduleTask&#xA;    interface IJsonModel&lt;InsightScheduleTask&gt;&#xA;    interface IPersistableModel&lt;InsightScheduleTask&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class InsightScheduleTask&#xA;Inherits ProjectsScheduleTask&#xA;Implements IJsonModel(Of InsightScheduleTask), IPersistableModel(Of InsightScheduleTask)" />
+  <TypeSignature Language="F#" Value="type InsightScheduleTask = class&#xA;    inherit ProjectsScheduleTask&#xA;    interface IJsonModel&lt;InsightScheduleTask&gt;&#xA;    interface IPersistableModel&lt;InsightScheduleTask&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.AI.Projects</AssemblyName>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.AI.Projects.ScheduleTask</BaseTypeName>
+    <BaseTypeName>Azure.AI.Projects.ProjectsScheduleTask</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -29,18 +29,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public InsightScheduleTask (Azure.AI.Projects.Insight insight);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.Projects.Insight insight) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.InsightScheduleTask.#ctor(Azure.AI.Projects.Insight)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (insight As Insight)" />
-      <MemberSignature Language="F#" Value="new Azure.AI.Projects.InsightScheduleTask : Azure.AI.Projects.Insight -&gt; Azure.AI.Projects.InsightScheduleTask" Usage="new Azure.AI.Projects.InsightScheduleTask insight" />
+      <MemberSignature Language="C#" Value="public InsightScheduleTask (Azure.AI.Projects.ProjectInsight insight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.Projects.ProjectInsight insight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.InsightScheduleTask.#ctor(Azure.AI.Projects.ProjectInsight)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (insight As ProjectInsight)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.Projects.InsightScheduleTask : Azure.AI.Projects.ProjectInsight -&gt; Azure.AI.Projects.InsightScheduleTask" Usage="new Azure.AI.Projects.InsightScheduleTask insight" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="insight" Type="Azure.AI.Projects.Insight" />
+        <Parameter Name="insight" Type="Azure.AI.Projects.ProjectInsight" />
       </Parameters>
       <Docs>
         <param name="insight"> The insight payload. </param>
@@ -51,18 +51,18 @@
       </Docs>
     </Member>
     <Member MemberName="Insight">
-      <MemberSignature Language="C#" Value="public Azure.AI.Projects.Insight Insight { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Insight Insight" />
+      <MemberSignature Language="C#" Value="public Azure.AI.Projects.ProjectInsight Insight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.ProjectInsight Insight" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.InsightScheduleTask.Insight" />
-      <MemberSignature Language="VB.NET" Value="Public Property Insight As Insight" />
-      <MemberSignature Language="F#" Value="member this.Insight : Azure.AI.Projects.Insight with get, set" Usage="Azure.AI.Projects.InsightScheduleTask.Insight" />
+      <MemberSignature Language="VB.NET" Value="Public Property Insight As ProjectInsight" />
+      <MemberSignature Language="F#" Value="member this.Insight : Azure.AI.Projects.ProjectInsight with get, set" Usage="Azure.AI.Projects.InsightScheduleTask.Insight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Insight</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectInsight</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The insight payload. </summary>
@@ -71,18 +71,18 @@
       </Docs>
     </Member>
     <Member MemberName="JsonModelCreateCore">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ScheduleTask JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ScheduleTask JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ProjectsScheduleTask JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ProjectsScheduleTask JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.InsightScheduleTask.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ScheduleTask" />
-      <MemberSignature Language="F#" Value="override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ScheduleTask" Usage="insightScheduleTask.JsonModelCreateCore (reader, options)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ProjectsScheduleTask" />
+      <MemberSignature Language="F#" Value="override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ProjectsScheduleTask" Usage="insightScheduleTask.JsonModelCreateCore (reader, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ScheduleTask</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectsScheduleTask</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
@@ -122,18 +122,18 @@
       </Docs>
     </Member>
     <Member MemberName="PersistableModelCreateCore">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ScheduleTask PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ScheduleTask PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ProjectsScheduleTask PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ProjectsScheduleTask PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.InsightScheduleTask.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As ScheduleTask" />
-      <MemberSignature Language="F#" Value="override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ScheduleTask" Usage="insightScheduleTask.PersistableModelCreateCore (data, options)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As ProjectsScheduleTask" />
+      <MemberSignature Language="F#" Value="override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ProjectsScheduleTask" Usage="insightScheduleTask.PersistableModelCreateCore (data, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ScheduleTask</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectsScheduleTask</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="data" Type="System.BinaryData" />

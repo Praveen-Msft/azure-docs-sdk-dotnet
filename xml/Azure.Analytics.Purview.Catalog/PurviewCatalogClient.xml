@@ -1,0 +1,1031 @@
+<Type Name="PurviewCatalogClient" FullName="Azure.Analytics.Purview.Catalog.PurviewCatalogClient">
+  <TypeSignature Language="C#" Value="public class PurviewCatalogClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PurviewCatalogClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Analytics.Purview.Catalog.PurviewCatalogClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class PurviewCatalogClient" />
+  <TypeSignature Language="F#" Value="type PurviewCatalogClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The PurviewCatalog service client. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected PurviewCatalogClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewCatalogClient for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PurviewCatalogClient (Uri endpoint, Azure.Core.TokenCredential credential);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.#ctor(System.Uri,Azure.Core.TokenCredential)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential)" />
+      <MemberSignature Language="F#" Value="new Azure.Analytics.Purview.Catalog.PurviewCatalogClient : Uri * Azure.Core.TokenCredential -&gt; Azure.Analytics.Purview.Catalog.PurviewCatalogClient" Usage="new Azure.Analytics.Purview.Catalog.PurviewCatalogClient (endpoint, credential)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> The catalog endpoint of your Purview account. Example: https://{accountName}.purview.azure.com. </param>
+        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <summary> Initializes a new instance of PurviewCatalogClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PurviewCatalogClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Analytics.Purview.Catalog.PurviewCatalogClientOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Analytics.Purview.Catalog.PurviewCatalogClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Analytics.Purview.Catalog.PurviewCatalogClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, options As PurviewCatalogClientOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Analytics.Purview.Catalog.PurviewCatalogClient : Uri * Azure.Core.TokenCredential * Azure.Analytics.Purview.Catalog.PurviewCatalogClientOptions -&gt; Azure.Analytics.Purview.Catalog.PurviewCatalogClient" Usage="new Azure.Analytics.Purview.Catalog.PurviewCatalogClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="options" Type="Azure.Analytics.Purview.Catalog.PurviewCatalogClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> The catalog endpoint of your Purview account. Example: https://{accountName}.purview.azure.com. </param>
+        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <param name="options"> The options for configuring the client. </param>
+        <summary> Initializes a new instance of PurviewCatalogClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoComplete">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response AutoComplete (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response AutoComplete(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.AutoComplete(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AutoComplete (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member AutoComplete : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.AutoComplete : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="purviewCatalogClient.AutoComplete (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Get auto complete options.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call AutoComplete and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = client.AutoComplete(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call AutoComplete with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    keywords = "<keywords>",
+    limit = 1234,
+    filter = new object(),
+});
+Response response = client.AutoComplete(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("text").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("queryPlusText").ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoCompleteAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; AutoCompleteAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; AutoCompleteAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.AutoCompleteAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AutoCompleteAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member AutoCompleteAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.AutoCompleteAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewCatalogClient.AutoCompleteAsync (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Get auto complete options.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call AutoCompleteAsync and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = await client.AutoCompleteAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call AutoCompleteAsync with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    keywords = "<keywords>",
+    limit = 1234,
+    filter = new object(),
+});
+Response response = await client.AutoCompleteAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("text").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("queryPlusText").ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="Browse">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Browse (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Browse(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Browse(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Browse (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Browse : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.Browse : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="purviewCatalogClient.Browse (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Browse entities by path or entity type.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call Browse and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = client.Browse(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call Browse with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    entityType = "<entityType>",
+    path = "<path>",
+    limit = 1234,
+    offset = 1234,
+});
+Response response = client.Browse(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("@search.count").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("entityType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("isLeaf").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("displayName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("mail").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("contactType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("path").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("qualifiedName").ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="BrowseAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; BrowseAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; BrowseAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.BrowseAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BrowseAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member BrowseAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.BrowseAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewCatalogClient.BrowseAsync (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Browse entities by path or entity type.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call BrowseAsync and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = await client.BrowseAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call BrowseAsync with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    entityType = "<entityType>",
+    path = "<path>",
+    limit = 1234,
+    offset = 1234,
+});
+Response response = await client.BrowseAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("@search.count").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("entityType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("isLeaf").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("displayName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("mail").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner")[0].GetProperty("contactType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("path").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("qualifiedName").ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="Collections">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Purview.Catalog.PurviewCollections Collections { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Analytics.Purview.Catalog.PurviewCollections Collections" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Collections" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Collections As PurviewCollections" />
+      <MemberSignature Language="F#" Value="member this.Collections : Azure.Analytics.Purview.Catalog.PurviewCollections" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Collections" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewCollections</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides access to operations which interact with collections in the catalog.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Entities">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Purview.Catalog.PurviewEntities Entities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Analytics.Purview.Catalog.PurviewEntities Entities" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Entities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Entities As PurviewEntities" />
+      <MemberSignature Language="F#" Value="member this.Entities : Azure.Analytics.Purview.Catalog.PurviewEntities" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Entities" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewEntities</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides access to operations which interact with entities in the catalog.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPurviewCollectionsClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Analytics.Purview.Catalog.PurviewCollections GetPurviewCollectionsClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Analytics.Purview.Catalog.PurviewCollections GetPurviewCollectionsClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.GetPurviewCollectionsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPurviewCollectionsClient () As PurviewCollections" />
+      <MemberSignature Language="F#" Value="abstract member GetPurviewCollectionsClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewCollections&#xA;override this.GetPurviewCollectionsClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewCollections" Usage="purviewCatalogClient.GetPurviewCollectionsClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewCollections</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewCollections. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPurviewEntitiesClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Analytics.Purview.Catalog.PurviewEntities GetPurviewEntitiesClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Analytics.Purview.Catalog.PurviewEntities GetPurviewEntitiesClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.GetPurviewEntitiesClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPurviewEntitiesClient () As PurviewEntities" />
+      <MemberSignature Language="F#" Value="abstract member GetPurviewEntitiesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewEntities&#xA;override this.GetPurviewEntitiesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewEntities" Usage="purviewCatalogClient.GetPurviewEntitiesClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewEntities</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewEntities. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPurviewGlossariesClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Analytics.Purview.Catalog.PurviewGlossaries GetPurviewGlossariesClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Analytics.Purview.Catalog.PurviewGlossaries GetPurviewGlossariesClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.GetPurviewGlossariesClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPurviewGlossariesClient () As PurviewGlossaries" />
+      <MemberSignature Language="F#" Value="abstract member GetPurviewGlossariesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewGlossaries&#xA;override this.GetPurviewGlossariesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewGlossaries" Usage="purviewCatalogClient.GetPurviewGlossariesClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewGlossaries</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewGlossaries. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPurviewLineagesClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Analytics.Purview.Catalog.PurviewLineages GetPurviewLineagesClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Analytics.Purview.Catalog.PurviewLineages GetPurviewLineagesClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.GetPurviewLineagesClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPurviewLineagesClient () As PurviewLineages" />
+      <MemberSignature Language="F#" Value="abstract member GetPurviewLineagesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewLineages&#xA;override this.GetPurviewLineagesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewLineages" Usage="purviewCatalogClient.GetPurviewLineagesClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewLineages</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewLineages. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPurviewRelationshipsClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Analytics.Purview.Catalog.PurviewRelationships GetPurviewRelationshipsClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Analytics.Purview.Catalog.PurviewRelationships GetPurviewRelationshipsClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.GetPurviewRelationshipsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPurviewRelationshipsClient () As PurviewRelationships" />
+      <MemberSignature Language="F#" Value="abstract member GetPurviewRelationshipsClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewRelationships&#xA;override this.GetPurviewRelationshipsClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewRelationships" Usage="purviewCatalogClient.GetPurviewRelationshipsClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewRelationships</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewRelationships. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPurviewTypesClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Analytics.Purview.Catalog.PurviewTypes GetPurviewTypesClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Analytics.Purview.Catalog.PurviewTypes GetPurviewTypesClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.GetPurviewTypesClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPurviewTypesClient () As PurviewTypes" />
+      <MemberSignature Language="F#" Value="abstract member GetPurviewTypesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewTypes&#xA;override this.GetPurviewTypesClient : unit -&gt; Azure.Analytics.Purview.Catalog.PurviewTypes" Usage="purviewCatalogClient.GetPurviewTypesClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewTypes</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PurviewTypes. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Glossaries">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Purview.Catalog.PurviewGlossaries Glossaries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Analytics.Purview.Catalog.PurviewGlossaries Glossaries" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Glossaries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Glossaries As PurviewGlossaries" />
+      <MemberSignature Language="F#" Value="member this.Glossaries : Azure.Analytics.Purview.Catalog.PurviewGlossaries" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Glossaries" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewGlossaries</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides access to operations which interact with glossaries in the catalog.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lineages">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Purview.Catalog.PurviewLineages Lineages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Analytics.Purview.Catalog.PurviewLineages Lineages" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Lineages" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lineages As PurviewLineages" />
+      <MemberSignature Language="F#" Value="member this.Lineages : Azure.Analytics.Purview.Catalog.PurviewLineages" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Lineages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewLineages</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides access to operations which interact with lineages in the catalog.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pipeline">
+      <MemberSignature Language="C#" Value="public virtual Azure.Core.Pipeline.HttpPipeline Pipeline { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Pipeline.HttpPipeline Pipeline" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Pipeline" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Pipeline As HttpPipeline" />
+      <MemberSignature Language="F#" Value="member this.Pipeline : Azure.Core.Pipeline.HttpPipeline" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Pipeline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Relationships">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Purview.Catalog.PurviewRelationships Relationships { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Analytics.Purview.Catalog.PurviewRelationships Relationships" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Relationships" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Relationships As PurviewRelationships" />
+      <MemberSignature Language="F#" Value="member this.Relationships : Azure.Analytics.Purview.Catalog.PurviewRelationships" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Relationships" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewRelationships</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides access to operations which interact with glossaries in the catalog.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Search">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Search (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Search(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Search(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Search (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Search : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.Search : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="purviewCatalogClient.Search (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Gets data using search.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call Search and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = client.Search(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call Search with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    keywords = "<keywords>",
+    offset = 1234,
+    limit = 1234,
+    filter = new object(),
+    facets = new object[]
+    {
+        new
+        {
+            count = 1234,
+            facet = "<facet>",
+            sort = new object(),
+        }
+    },
+    taxonomySetting = new
+    {
+        assetTypes = new object[]
+        {
+            "<assetTypes>"
+        },
+    },
+});
+Response response = client.Search(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("@search.count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("assetType")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("assetType")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classification")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classification")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classificationCategory")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classificationCategory")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("contactId")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("contactId")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("fileExtension")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("fileExtension")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("label")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("label")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("term")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("term")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.score").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("id")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("qualifiedName")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("name")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("description")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("entityType")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.text").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("description").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("qualifiedName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("entityType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("classification")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("label")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("glossaryName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("guid").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("info").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("contactType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("assetType")[0].ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; SearchAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; SearchAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.SearchAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SearchAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member SearchAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.SearchAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewCatalogClient.SearchAsync (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Gets data using search.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call SearchAsync and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = await client.SearchAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call SearchAsync with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    keywords = "<keywords>",
+    offset = 1234,
+    limit = 1234,
+    filter = new object(),
+    facets = new object[]
+    {
+        new
+        {
+            count = 1234,
+            facet = "<facet>",
+            sort = new object(),
+        }
+    },
+    taxonomySetting = new
+    {
+        assetTypes = new object[]
+        {
+            "<assetTypes>"
+        },
+    },
+});
+Response response = await client.SearchAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("@search.count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("assetType")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("assetType")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classification")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classification")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classificationCategory")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("classificationCategory")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("contactId")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("contactId")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("fileExtension")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("fileExtension")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("label")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("label")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("term")[0].GetProperty("count").ToString());
+Console.WriteLine(result.GetProperty("@search.facets").GetProperty("term")[0].GetProperty("value").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.score").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("id")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("qualifiedName")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("name")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("description")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.highlights").GetProperty("entityType")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.text").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("description").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("qualifiedName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("entityType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("classification")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("label")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("glossaryName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("guid").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("info").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("contactType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("assetType")[0].ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="Suggest">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Suggest (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Suggest(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Suggest(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Suggest (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Suggest : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.Suggest : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="purviewCatalogClient.Suggest (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Get search suggestions by query criteria.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call Suggest and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = client.Suggest(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call Suggest with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    keywords = "<keywords>",
+    limit = 1234,
+    filter = new object(),
+});
+Response response = client.Suggest(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.score").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.text").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("description").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("qualifiedName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("entityType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("classification")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("label")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("glossaryName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("guid").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("info").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("contactType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("assetType")[0].ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; SuggestAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; SuggestAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.SuggestAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SuggestAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member SuggestAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.SuggestAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewCatalogClient.SuggestAsync (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Get search suggestions by query criteria.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+This sample shows how to call SuggestAsync and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new object());
+Response response = await client.SuggestAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call SuggestAsync with all request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<endpoint>");
+TokenCredential credential = new DefaultAzureCredential();
+PurviewCatalogClient client = new PurviewCatalogClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    keywords = "<keywords>",
+    limit = 1234,
+    filter = new object(),
+});
+Response response = await client.SuggestAsync(content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.score").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("@search.text").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("description").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("owner").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("qualifiedName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("entityType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("classification")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("label")[0].ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("glossaryName").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("term")[0].GetProperty("guid").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("info").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("contact")[0].GetProperty("contactType").ToString());
+Console.WriteLine(result.GetProperty("value")[0].GetProperty("assetType")[0].ToString());
+]]></code></example>
+      </Docs>
+    </Member>
+    <Member MemberName="Types">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Purview.Catalog.PurviewTypes Types { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Analytics.Purview.Catalog.PurviewTypes Types" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Types" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Types As PurviewTypes" />
+      <MemberSignature Language="F#" Value="member this.Types : Azure.Analytics.Purview.Catalog.PurviewTypes" Usage="Azure.Analytics.Purview.Catalog.PurviewCatalogClient.Types" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Catalog</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Analytics.Purview.Catalog.PurviewTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provides access to operations which interact with types in the catalog.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

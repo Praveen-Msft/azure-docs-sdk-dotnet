@@ -92,11 +92,11 @@
       </Docs>
     </Member>
     <Member MemberName="AgentTaxonomyInput">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.AgentTaxonomyInput AgentTaxonomyInput (Azure.AI.Projects.Target target = default, System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.RiskCategory&gt; riskCategories = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.AgentTaxonomyInput AgentTaxonomyInput(class Azure.AI.Projects.Target target, class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.AI.Projects.RiskCategory&gt; riskCategories) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.AgentTaxonomyInput(Azure.AI.Projects.Target,System.Collections.Generic.IEnumerable{Azure.AI.Projects.RiskCategory})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function AgentTaxonomyInput (Optional target As Target = Nothing, Optional riskCategories As IEnumerable(Of RiskCategory) = Nothing) As AgentTaxonomyInput" />
-      <MemberSignature Language="F#" Value="static member AgentTaxonomyInput : Azure.AI.Projects.Target * seq&lt;Azure.AI.Projects.RiskCategory&gt; -&gt; Azure.AI.Projects.AgentTaxonomyInput" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.AgentTaxonomyInput (target, riskCategories)" />
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.AgentTaxonomyInput AgentTaxonomyInput (Azure.AI.Projects.EvaluationTarget target = default, System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.RiskCategory&gt; riskCategories = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.AgentTaxonomyInput AgentTaxonomyInput(class Azure.AI.Projects.EvaluationTarget target, class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.AI.Projects.RiskCategory&gt; riskCategories) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.AgentTaxonomyInput(Azure.AI.Projects.EvaluationTarget,System.Collections.Generic.IEnumerable{Azure.AI.Projects.RiskCategory})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AgentTaxonomyInput (Optional target As EvaluationTarget = Nothing, Optional riskCategories As IEnumerable(Of RiskCategory) = Nothing) As AgentTaxonomyInput" />
+      <MemberSignature Language="F#" Value="static member AgentTaxonomyInput : Azure.AI.Projects.EvaluationTarget * seq&lt;Azure.AI.Projects.RiskCategory&gt; -&gt; Azure.AI.Projects.AgentTaxonomyInput" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.AgentTaxonomyInput (target, riskCategories)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
@@ -106,7 +106,7 @@
         <ReturnType>Azure.AI.Projects.AgentTaxonomyInput</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="target" Type="Azure.AI.Projects.Target" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="target" Type="Azure.AI.Projects.EvaluationTarget" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="riskCategories" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.RiskCategory&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
@@ -495,60 +495,6 @@
         <param name="metadataFields"> List of fields with metadata content. </param>
         <summary> Field mapping configuration class. </summary>
         <returns> A new <see cref="T:Azure.AI.Projects.AIProjectIndexFieldMapping" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AzureAIAgentTarget">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.AzureAIAgentTarget AzureAIAgentTarget (string name = default, string version = default, System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.ToolDescription&gt; toolDescriptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.AzureAIAgentTarget AzureAIAgentTarget(string name, string version, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Projects.ToolDescription&gt; toolDescriptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.AzureAIAgentTarget(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.Projects.ToolDescription})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function AzureAIAgentTarget (Optional name As String = Nothing, Optional version As String = Nothing, Optional toolDescriptions As IEnumerable(Of ToolDescription) = Nothing) As AzureAIAgentTarget" />
-      <MemberSignature Language="F#" Value="static member AzureAIAgentTarget : string * string * seq&lt;Azure.AI.Projects.ToolDescription&gt; -&gt; Azure.AI.Projects.AzureAIAgentTarget" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.AzureAIAgentTarget (name, version, toolDescriptions)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.AzureAIAgentTarget</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="version" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="toolDescriptions" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.ToolDescription&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="name"> The unique identifier of the Azure AI agent. </param>
-        <param name="version"> The version of the Azure AI agent. </param>
-        <param name="toolDescriptions"> The parameters used to control the sampling behavior of the agent during text generation. </param>
-        <summary> Represents a target specifying an Azure AI agent. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.AzureAIAgentTarget" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AzureAIModelTarget">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.AzureAIModelTarget AzureAIModelTarget (string model = default, Azure.AI.Projects.ModelSamplingParams samplingParams = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.AzureAIModelTarget AzureAIModelTarget(string model, class Azure.AI.Projects.ModelSamplingParams samplingParams) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.AzureAIModelTarget(System.String,Azure.AI.Projects.ModelSamplingParams)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function AzureAIModelTarget (Optional model As String = Nothing, Optional samplingParams As ModelSamplingParams = Nothing) As AzureAIModelTarget" />
-      <MemberSignature Language="F#" Value="static member AzureAIModelTarget : string * Azure.AI.Projects.ModelSamplingParams -&gt; Azure.AI.Projects.AzureAIModelTarget" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.AzureAIModelTarget (model, samplingParams)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.AzureAIModelTarget</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="model" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="samplingParams" Type="Azure.AI.Projects.ModelSamplingParams" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="model"> The unique identifier of the Azure AI model. </param>
-        <param name="samplingParams"> The parameters used to control the sampling behavior of the model during text generation. </param>
-        <summary> Represents a target specifying an Azure AI model for operations requiring model selection. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.AzureAIModelTarget" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1388,6 +1334,33 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="EvaluationTarget">
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.EvaluationTarget EvaluationTarget (string type = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.EvaluationTarget EvaluationTarget(string type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.EvaluationTarget(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EvaluationTarget (Optional type As String = Nothing) As EvaluationTarget" />
+      <MemberSignature Language="F#" Value="static member EvaluationTarget : string -&gt; Azure.AI.Projects.EvaluationTarget" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.EvaluationTarget type" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.EvaluationTarget</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="type"> The type of target. </param>
+        <summary>
+            Base class for targets with discriminator support.
+            Please note this is the abstract base class. The derived classes available for instantiation are: 
+            </summary>
+        <returns> A new <see cref="T:Azure.AI.Projects.EvaluationTarget" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="EvaluationTaxonomy">
       <MemberSignature Language="C#" Value="public static Azure.AI.Projects.EvaluationTaxonomy EvaluationTaxonomy (string id = default, string name = default, string version = default, string description = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.AI.Projects.EvaluationTaxonomyInput taxonomyInput = default, System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.TaxonomyCategory&gt; taxonomyCategories = default, System.Collections.Generic.IDictionary&lt;string,string&gt; properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.EvaluationTaxonomy EvaluationTaxonomy(string id, string name, string version, string description, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Azure.AI.Projects.EvaluationTaxonomyInput taxonomyInput, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Projects.TaxonomyCategory&gt; taxonomyCategories, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; properties) cil managed" />
@@ -1719,34 +1692,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="InputImageContentParamAutoParam">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.InputImageContentParamAutoParam InputImageContentParamAutoParam (Uri imageUrl = default, string fileId = default, Azure.AI.Projects.DetailEnum? detail = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.InputImageContentParamAutoParam InputImageContentParamAutoParam(class System.Uri imageUrl, string fileId, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.DetailEnum&gt; detail) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.InputImageContentParamAutoParam(System.Uri,System.String,System.Nullable{Azure.AI.Projects.DetailEnum})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function InputImageContentParamAutoParam (Optional imageUrl As Uri = Nothing, Optional fileId As String = Nothing, Optional detail As Nullable(Of DetailEnum) = Nothing) As InputImageContentParamAutoParam" />
-      <MemberSignature Language="F#" Value="static member InputImageContentParamAutoParam : Uri * string * Nullable&lt;Azure.AI.Projects.DetailEnum&gt; -&gt; Azure.AI.Projects.InputImageContentParamAutoParam" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.InputImageContentParamAutoParam (imageUrl, fileId, detail)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.InputImageContentParamAutoParam</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="imageUrl" Type="System.Uri" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="fileId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="detail" Type="System.Nullable&lt;Azure.AI.Projects.DetailEnum&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="imageUrl" />
-        <param name="fileId" />
-        <param name="detail" />
-        <summary> Input image. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.InputImageContentParamAutoParam" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="InputTextContentParam">
       <MemberSignature Language="C#" Value="public static Azure.AI.Projects.InputTextContentParam InputTextContentParam (string text = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.InputTextContentParam InputTextContentParam(string text) cil managed" />
@@ -1768,40 +1713,6 @@
         <param name="text"> The text input to the model. </param>
         <summary> Input text. </summary>
         <returns> A new <see cref="T:Azure.AI.Projects.InputTextContentParam" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Insight">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Insight Insight (string id = default, Azure.AI.Projects.InsightsMetadata metadata = default, Azure.AI.Projects.OperationStatus state = default, string displayName = default, Azure.AI.Projects.InsightRequest request = default, Azure.AI.Projects.InsightResult result = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Insight Insight(string id, class Azure.AI.Projects.InsightsMetadata metadata, valuetype Azure.AI.Projects.OperationStatus state, string displayName, class Azure.AI.Projects.InsightRequest request, class Azure.AI.Projects.InsightResult result) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.Insight(System.String,Azure.AI.Projects.InsightsMetadata,Azure.AI.Projects.OperationStatus,System.String,Azure.AI.Projects.InsightRequest,Azure.AI.Projects.InsightResult)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Insight (Optional id As String = Nothing, Optional metadata As InsightsMetadata = Nothing, Optional state As OperationStatus = Nothing, Optional displayName As String = Nothing, Optional request As InsightRequest = Nothing, Optional result As InsightResult = Nothing) As Insight" />
-      <MemberSignature Language="F#" Value="static member Insight : string * Azure.AI.Projects.InsightsMetadata * Azure.AI.Projects.OperationStatus * string * Azure.AI.Projects.InsightRequest * Azure.AI.Projects.InsightResult -&gt; Azure.AI.Projects.Insight" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.Insight (id, metadata, state, displayName, request, result)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Insight</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="metadata" Type="Azure.AI.Projects.InsightsMetadata" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="state" Type="Azure.AI.Projects.OperationStatus" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="displayName" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="request" Type="Azure.AI.Projects.InsightRequest" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="result" Type="Azure.AI.Projects.InsightResult" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The unique identifier for the insights report. </param>
-        <param name="metadata"> Metadata about the insights report. </param>
-        <param name="state"> The current state of the insights. </param>
-        <param name="displayName"> User friendly display name for the insight. </param>
-        <param name="request"> Request for the insights analysis. </param>
-        <param name="result"> The result of the insights report. </param>
-        <summary> The response body for cluster insights. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.Insight" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1955,11 +1866,11 @@
       </Docs>
     </Member>
     <Member MemberName="InsightScheduleTask">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.InsightScheduleTask InsightScheduleTask (System.Collections.Generic.IDictionary&lt;string,string&gt; configuration = default, Azure.AI.Projects.Insight insight = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.InsightScheduleTask InsightScheduleTask(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; configuration, class Azure.AI.Projects.Insight insight) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.InsightScheduleTask(System.Collections.Generic.IDictionary{System.String,System.String},Azure.AI.Projects.Insight)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function InsightScheduleTask (Optional configuration As IDictionary(Of String, String) = Nothing, Optional insight As Insight = Nothing) As InsightScheduleTask" />
-      <MemberSignature Language="F#" Value="static member InsightScheduleTask : System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.AI.Projects.Insight -&gt; Azure.AI.Projects.InsightScheduleTask" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.InsightScheduleTask (configuration, insight)" />
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.InsightScheduleTask InsightScheduleTask (System.Collections.Generic.IDictionary&lt;string,string&gt; configuration = default, Azure.AI.Projects.ProjectInsight insight = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.InsightScheduleTask InsightScheduleTask(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; configuration, class Azure.AI.Projects.ProjectInsight insight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.InsightScheduleTask(System.Collections.Generic.IDictionary{System.String,System.String},Azure.AI.Projects.ProjectInsight)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function InsightScheduleTask (Optional configuration As IDictionary(Of String, String) = Nothing, Optional insight As ProjectInsight = Nothing) As InsightScheduleTask" />
+      <MemberSignature Language="F#" Value="static member InsightScheduleTask : System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.AI.Projects.ProjectInsight -&gt; Azure.AI.Projects.InsightScheduleTask" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.InsightScheduleTask (configuration, insight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
@@ -1970,7 +1881,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="configuration" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="insight" Type="Azure.AI.Projects.Insight" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="insight" Type="Azure.AI.Projects.ProjectInsight" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="configuration"> Configuration for the task. </param>
@@ -2487,36 +2398,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ModelSamplingParams">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ModelSamplingParams ModelSamplingParams (float temperature = 0, float topP = 0, int seed = 0, int maxCompletionTokens = 0);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ModelSamplingParams ModelSamplingParams(float32 temperature, float32 topP, int32 seed, int32 maxCompletionTokens) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ModelSamplingParams(System.Single,System.Single,System.Int32,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ModelSamplingParams (Optional temperature As Single = 0, Optional topP As Single = 0, Optional seed As Integer = 0, Optional maxCompletionTokens As Integer = 0) As ModelSamplingParams" />
-      <MemberSignature Language="F#" Value="static member ModelSamplingParams : single * single * int * int -&gt; Azure.AI.Projects.ModelSamplingParams" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ModelSamplingParams (temperature, topP, seed, maxCompletionTokens)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ModelSamplingParams</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="temperature" Type="System.Single" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="topP" Type="System.Single" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="seed" Type="System.Int32" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="maxCompletionTokens" Type="System.Int32" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="temperature"> The temperature parameter for sampling. </param>
-        <param name="topP"> The top-p parameter for nucleus sampling. </param>
-        <param name="seed"> The random seed for reproducibility. </param>
-        <param name="maxCompletionTokens"> The maximum number of tokens allowed in the completion. </param>
-        <summary> Represents a set of parameters used to control the sampling behavior of a language model during text generation. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.ModelSamplingParams" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="MonthlyRecurrenceSchedule">
       <MemberSignature Language="C#" Value="public static Azure.AI.Projects.MonthlyRecurrenceSchedule MonthlyRecurrenceSchedule (System.Collections.Generic.IEnumerable&lt;int&gt; daysOfMonth = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.MonthlyRecurrenceSchedule MonthlyRecurrenceSchedule(class System.Collections.Generic.IEnumerable`1&lt;int32&gt; daysOfMonth) cil managed" />
@@ -2586,32 +2467,6 @@
         <param name="timeZone"> Time zone for the one-time trigger. </param>
         <summary> One-time trigger. </summary>
         <returns> A new <see cref="T:Azure.AI.Projects.OneTimeTrigger" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="PagedInsight">
-      <MemberSignature Language="C#" Value="public static Azure.Core.PagedInsight PagedInsight (System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.Insight&gt; value = default, Uri nextLink = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.PagedInsight PagedInsight(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Projects.Insight&gt; value, class System.Uri nextLink) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.PagedInsight(System.Collections.Generic.IEnumerable{Azure.AI.Projects.Insight},System.Uri)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function PagedInsight (Optional value As IEnumerable(Of Insight) = Nothing, Optional nextLink As Uri = Nothing) As PagedInsight" />
-      <MemberSignature Language="F#" Value="static member PagedInsight : seq&lt;Azure.AI.Projects.Insight&gt; * Uri -&gt; Azure.Core.PagedInsight" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.PagedInsight (value, nextLink)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Core.PagedInsight</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.Insight&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="nextLink" Type="System.Uri" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="value"> The Insight items on this page. </param>
-        <param name="nextLink"> The link to the next page of items. </param>
-        <summary> Paged collection of Insight items. </summary>
-        <returns> A new <see cref="T:Azure.Core.PagedInsight" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2740,6 +2595,111 @@
         <param name="pendingUploadType"> BlobReference is the only supported type. </param>
         <summary> Represents the response for a pending upload request. </summary>
         <returns> A new <see cref="T:Azure.AI.Projects.PendingUploadResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProjectInsight">
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ProjectInsight ProjectInsight (string id = default, Azure.AI.Projects.InsightsMetadata metadata = default, Azure.AI.Projects.OperationStatus state = default, string displayName = default, Azure.AI.Projects.InsightRequest request = default, Azure.AI.Projects.InsightResult result = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ProjectInsight ProjectInsight(string id, class Azure.AI.Projects.InsightsMetadata metadata, valuetype Azure.AI.Projects.OperationStatus state, string displayName, class Azure.AI.Projects.InsightRequest request, class Azure.AI.Projects.InsightResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ProjectInsight(System.String,Azure.AI.Projects.InsightsMetadata,Azure.AI.Projects.OperationStatus,System.String,Azure.AI.Projects.InsightRequest,Azure.AI.Projects.InsightResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ProjectInsight (Optional id As String = Nothing, Optional metadata As InsightsMetadata = Nothing, Optional state As OperationStatus = Nothing, Optional displayName As String = Nothing, Optional request As InsightRequest = Nothing, Optional result As InsightResult = Nothing) As ProjectInsight" />
+      <MemberSignature Language="F#" Value="static member ProjectInsight : string * Azure.AI.Projects.InsightsMetadata * Azure.AI.Projects.OperationStatus * string * Azure.AI.Projects.InsightRequest * Azure.AI.Projects.InsightResult -&gt; Azure.AI.Projects.ProjectInsight" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ProjectInsight (id, metadata, state, displayName, request, result)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.ProjectInsight</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="metadata" Type="Azure.AI.Projects.InsightsMetadata" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="state" Type="Azure.AI.Projects.OperationStatus" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="displayName" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="request" Type="Azure.AI.Projects.InsightRequest" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="result" Type="Azure.AI.Projects.InsightResult" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The unique identifier for the insights report. </param>
+        <param name="metadata"> Metadata about the insights report. </param>
+        <param name="state"> The current state of the insights. </param>
+        <param name="displayName"> User friendly display name for the insight. </param>
+        <param name="request"> Request for the insights analysis. </param>
+        <param name="result"> The result of the insights report. </param>
+        <summary> The response body for cluster insights. </summary>
+        <returns> A new <see cref="T:Azure.AI.Projects.ProjectInsight" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProjectsSchedule">
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ProjectsSchedule ProjectsSchedule (string id = default, string displayName = default, string description = default, bool enabled = false, Azure.AI.Projects.ScheduleProvisioningStatus? provisioningStatus = default, Azure.AI.Projects.ScheduleTrigger trigger = default, Azure.AI.Projects.ProjectsScheduleTask task = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, System.Collections.Generic.IDictionary&lt;string,string&gt; properties = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,string&gt; systemData = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ProjectsSchedule ProjectsSchedule(string id, string displayName, string description, bool enabled, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.ScheduleProvisioningStatus&gt; provisioningStatus, class Azure.AI.Projects.ScheduleTrigger trigger, class Azure.AI.Projects.ProjectsScheduleTask task, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; properties, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string&gt; systemData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ProjectsSchedule(System.String,System.String,System.String,System.Boolean,System.Nullable{Azure.AI.Projects.ScheduleProvisioningStatus},Azure.AI.Projects.ScheduleTrigger,Azure.AI.Projects.ProjectsScheduleTask,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ProjectsSchedule (Optional id As String = Nothing, Optional displayName As String = Nothing, Optional description As String = Nothing, Optional enabled As Boolean = false, Optional provisioningStatus As Nullable(Of ScheduleProvisioningStatus) = Nothing, Optional trigger As ScheduleTrigger = Nothing, Optional task As ProjectsScheduleTask = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional properties As IDictionary(Of String, String) = Nothing, Optional systemData As IReadOnlyDictionary(Of String, String) = Nothing) As ProjectsSchedule" />
+      <MemberSignature Language="F#" Value="static member ProjectsSchedule : string * string * string * bool * Nullable&lt;Azure.AI.Projects.ScheduleProvisioningStatus&gt; * Azure.AI.Projects.ScheduleTrigger * Azure.AI.Projects.ProjectsScheduleTask * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, string&gt; -&gt; Azure.AI.Projects.ProjectsSchedule" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ProjectsSchedule (id, displayName, description, enabled, provisioningStatus, trigger, task, tags, properties, systemData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.ProjectsSchedule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="displayName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="description" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enabled" Type="System.Boolean" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="provisioningStatus" Type="System.Nullable&lt;Azure.AI.Projects.ScheduleProvisioningStatus&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="trigger" Type="Azure.AI.Projects.ScheduleTrigger" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="task" Type="Azure.AI.Projects.ProjectsScheduleTask" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="properties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="systemData" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Identifier of the schedule. </param>
+        <param name="displayName"> Name of the schedule. </param>
+        <param name="description"> Description of the schedule. </param>
+        <param name="enabled"> Enabled status of the schedule. </param>
+        <param name="provisioningStatus"> Provisioning status of the schedule. </param>
+        <param name="trigger"> Trigger for the schedule. </param>
+        <param name="task"> Task for the schedule. </param>
+        <param name="tags"> Schedule's tags. Unlike properties, tags are fully mutable. </param>
+        <param name="properties"> Schedule's properties. Unlike tags, properties are add-only. Once added, a property cannot be removed. </param>
+        <param name="systemData"> System metadata for the resource. </param>
+        <summary> Schedule model. </summary>
+        <returns> A new <see cref="T:Azure.AI.Projects.ProjectsSchedule" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProjectsScheduleTask">
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ProjectsScheduleTask ProjectsScheduleTask (string type = default, System.Collections.Generic.IDictionary&lt;string,string&gt; configuration = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ProjectsScheduleTask ProjectsScheduleTask(string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ProjectsScheduleTask(System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ProjectsScheduleTask (Optional type As String = Nothing, Optional configuration As IDictionary(Of String, String) = Nothing) As ProjectsScheduleTask" />
+      <MemberSignature Language="F#" Value="static member ProjectsScheduleTask : string * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.AI.Projects.ProjectsScheduleTask" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ProjectsScheduleTask (type, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.ProjectsScheduleTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="configuration" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="type"> Type of the task. </param>
+        <param name="configuration"> Configuration for the task. </param>
+        <summary>
+            Schedule task model.
+            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.EvaluationScheduleTask" /> and <see cref="T:Azure.AI.Projects.InsightScheduleTask" />.
+            </summary>
+        <returns> A new <see cref="T:Azure.AI.Projects.ProjectsScheduleTask" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2924,48 +2884,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Schedule">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Schedule Schedule (string id = default, string displayName = default, string description = default, bool enabled = false, Azure.AI.Projects.ScheduleProvisioningStatus? provisioningStatus = default, Azure.AI.Projects.Trigger trigger = default, Azure.AI.Projects.ScheduleTask task = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, System.Collections.Generic.IDictionary&lt;string,string&gt; properties = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,string&gt; systemData = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Schedule Schedule(string id, string displayName, string description, bool enabled, valuetype System.Nullable`1&lt;valuetype Azure.AI.Projects.ScheduleProvisioningStatus&gt; provisioningStatus, class Azure.AI.Projects.Trigger trigger, class Azure.AI.Projects.ScheduleTask task, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; properties, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string&gt; systemData) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.Schedule(System.String,System.String,System.String,System.Boolean,System.Nullable{Azure.AI.Projects.ScheduleProvisioningStatus},Azure.AI.Projects.Trigger,Azure.AI.Projects.ScheduleTask,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Schedule (Optional id As String = Nothing, Optional displayName As String = Nothing, Optional description As String = Nothing, Optional enabled As Boolean = false, Optional provisioningStatus As Nullable(Of ScheduleProvisioningStatus) = Nothing, Optional trigger As Trigger = Nothing, Optional task As ScheduleTask = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional properties As IDictionary(Of String, String) = Nothing, Optional systemData As IReadOnlyDictionary(Of String, String) = Nothing) As Schedule" />
-      <MemberSignature Language="F#" Value="static member Schedule : string * string * string * bool * Nullable&lt;Azure.AI.Projects.ScheduleProvisioningStatus&gt; * Azure.AI.Projects.Trigger * Azure.AI.Projects.ScheduleTask * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, string&gt; -&gt; Azure.AI.Projects.Schedule" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.Schedule (id, displayName, description, enabled, provisioningStatus, trigger, task, tags, properties, systemData)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Schedule</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="displayName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="description" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="enabled" Type="System.Boolean" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="provisioningStatus" Type="System.Nullable&lt;Azure.AI.Projects.ScheduleProvisioningStatus&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="trigger" Type="Azure.AI.Projects.Trigger" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="task" Type="Azure.AI.Projects.ScheduleTask" Index="6" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="properties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="systemData" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="id"> Identifier of the schedule. </param>
-        <param name="displayName"> Name of the schedule. </param>
-        <param name="description"> Description of the schedule. </param>
-        <param name="enabled"> Enabled status of the schedule. </param>
-        <param name="provisioningStatus"> Provisioning status of the schedule. </param>
-        <param name="trigger"> Trigger for the schedule. </param>
-        <param name="task"> Task for the schedule. </param>
-        <param name="tags"> Schedule's tags. Unlike properties, tags are fully mutable. </param>
-        <param name="properties"> Schedule's properties. Unlike tags, properties are add-only. Once added, a property cannot be removed. </param>
-        <param name="systemData"> System metadata for the resource. </param>
-        <summary> Schedule model. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.Schedule" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ScheduleRun">
       <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ScheduleRun ScheduleRun (string runId = default, string scheduleId = default, bool success = false, string triggerTime = default, string error = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,string&gt; properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ScheduleRun ScheduleRun(string runId, string scheduleId, bool success, string triggerTime, string error, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string&gt; properties) cil managed" />
@@ -3000,59 +2918,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ScheduleTask">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ScheduleTask ScheduleTask (string type = default, System.Collections.Generic.IDictionary&lt;string,string&gt; configuration = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ScheduleTask ScheduleTask(string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; configuration) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ScheduleTask(System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ScheduleTask (Optional type As String = Nothing, Optional configuration As IDictionary(Of String, String) = Nothing) As ScheduleTask" />
-      <MemberSignature Language="F#" Value="static member ScheduleTask : string * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.AI.Projects.ScheduleTask" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ScheduleTask (type, configuration)" />
+    <Member MemberName="ScheduleTrigger">
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ScheduleTrigger ScheduleTrigger (string type = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ScheduleTrigger ScheduleTrigger(string type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ScheduleTrigger(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ScheduleTrigger (Optional type As String = Nothing) As ScheduleTrigger" />
+      <MemberSignature Language="F#" Value="static member ScheduleTrigger : string -&gt; Azure.AI.Projects.ScheduleTrigger" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ScheduleTrigger type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ScheduleTask</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="type" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="configuration" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="type"> Type of the task. </param>
-        <param name="configuration"> Configuration for the task. </param>
-        <summary>
-            Schedule task model.
-            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.EvaluationScheduleTask" /> and <see cref="T:Azure.AI.Projects.InsightScheduleTask" />.
-            </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.ScheduleTask" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Target">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Target Target (string type = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Target Target(string type) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.Target(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Target (Optional type As String = Nothing) As Target" />
-      <MemberSignature Language="F#" Value="static member Target : string -&gt; Azure.AI.Projects.Target" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.Target type" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Target</ReturnType>
+        <ReturnType>Azure.AI.Projects.ScheduleTrigger</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="type" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="type"> The type of target. </param>
+        <param name="type"> Type of the trigger. </param>
         <summary>
-            Base class for targets with discriminator support.
-            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.AzureAIModelTarget" /> and <see cref="T:Azure.AI.Projects.AzureAIAgentTarget" />.
+            Base model for Trigger of the schedule.
+            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.CronTrigger" />, <see cref="T:Azure.AI.Projects.RecurrenceTrigger" />, and <see cref="T:Azure.AI.Projects.OneTimeTrigger" />.
             </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.Target" /> instance for mocking. </returns>
+        <returns> A new <see cref="T:Azure.AI.Projects.ScheduleTrigger" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3146,59 +3035,6 @@
         <param name="properties"> Additional properties for the taxonomy sub-category. </param>
         <summary> Taxonomy sub-category definition. </summary>
         <returns> A new <see cref="T:Azure.AI.Projects.TaxonomySubCategory" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ToolDescription">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.ToolDescription ToolDescription (string name = default, string description = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.ToolDescription ToolDescription(string name, string description) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.ToolDescription(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ToolDescription (Optional name As String = Nothing, Optional description As String = Nothing) As ToolDescription" />
-      <MemberSignature Language="F#" Value="static member ToolDescription : string * string -&gt; Azure.AI.Projects.ToolDescription" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.ToolDescription (name, description)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ToolDescription</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="description" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="name"> The name of the tool. </param>
-        <param name="description"> A brief description of the tool's purpose. </param>
-        <summary> Description of a tool that can be used by an agent. </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.ToolDescription" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Trigger">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Trigger Trigger (string type = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Trigger Trigger(string type) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AzureAIProjectsModelFactory.Trigger(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Trigger (Optional type As String = Nothing) As Trigger" />
-      <MemberSignature Language="F#" Value="static member Trigger : string -&gt; Azure.AI.Projects.Trigger" Usage="Azure.AI.Projects.AzureAIProjectsModelFactory.Trigger type" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Projects</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Trigger</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="type" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="type"> Type of the trigger. </param>
-        <summary>
-            Base model for Trigger of the schedule.
-            Please note this is the abstract base class. The derived classes available for instantiation are: <see cref="T:Azure.AI.Projects.CronTrigger" />, <see cref="T:Azure.AI.Projects.RecurrenceTrigger" />, and <see cref="T:Azure.AI.Projects.OneTimeTrigger" />.
-            </summary>
-        <returns> A new <see cref="T:Azure.AI.Projects.Trigger" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

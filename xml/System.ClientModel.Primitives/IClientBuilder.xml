@@ -1,16 +1,21 @@
 <Type Name="IClientBuilder" FullName="System.ClientModel.Primitives.IClientBuilder">
-  <TypeSignature Language="C#" Value="public interface IClientBuilder : Microsoft.Extensions.Hosting.IHostApplicationBuilder" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IClientBuilder implements class Microsoft.Extensions.Hosting.IHostApplicationBuilder" />
+  <TypeSignature Language="C#" Value="public interface IClientBuilder : Microsoft.Extensions.Hosting.IHostApplicationBuilder" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IClientBuilder implements class Microsoft.Extensions.Hosting.IHostApplicationBuilder" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:System.ClientModel.Primitives.IClientBuilder" />
-  <TypeSignature Language="VB.NET" Value="Public Interface IClientBuilder&#xA;Implements IHostApplicationBuilder" />
-  <TypeSignature Language="F#" Value="type IClientBuilder = interface&#xA;    interface IHostApplicationBuilder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClientBuilder&#xA;Implements IHostApplicationBuilder" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="F#" Value="type IClientBuilder = interface&#xA;    interface IHostApplicationBuilder" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public interface IClientBuilder" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IClientBuilder" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClientBuilder" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="F#" Value="type IClientBuilder = interface" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>System.ClientModel</AssemblyName>
     <AssemblyVersion>1.9.0.0</AssemblyVersion>
     <AssemblyVersion>1.10.0.0</AssemblyVersion>
+    <AssemblyVersion>1.11.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
-    <Interface>
+    <Interface FrameworkAlternate="azure-dotnet">
       <InterfaceName>Microsoft.Extensions.Hosting.IHostApplicationBuilder</InterfaceName>
     </Interface>
   </Interfaces>
@@ -22,18 +27,24 @@
   </Docs>
   <Members>
     <Member MemberName="PostConfigure">
-      <MemberSignature Language="C#" Value="public Microsoft.Extensions.Hosting.IHostApplicationBuilder PostConfigure (Action&lt;System.ClientModel.Primitives.ClientSettings&gt; configure);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Extensions.Hosting.IHostApplicationBuilder PostConfigure(class System.Action`1&lt;class System.ClientModel.Primitives.ClientSettings&gt; configure) cil managed" />
+      <MemberSignature Language="C#" Value="public Microsoft.Extensions.Hosting.IHostApplicationBuilder PostConfigure (Action&lt;System.ClientModel.Primitives.ClientSettings&gt; configure);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Extensions.Hosting.IHostApplicationBuilder PostConfigure(class System.Action`1&lt;class System.ClientModel.Primitives.ClientSettings&gt; configure) cil managed" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.IClientBuilder.PostConfigure(System.Action{System.ClientModel.Primitives.ClientSettings})" />
-      <MemberSignature Language="VB.NET" Value="Public Function PostConfigure (configure As Action(Of ClientSettings)) As IHostApplicationBuilder" />
-      <MemberSignature Language="F#" Value="abstract member PostConfigure : Action&lt;System.ClientModel.Primitives.ClientSettings&gt; -&gt; Microsoft.Extensions.Hosting.IHostApplicationBuilder" Usage="iClientBuilder.PostConfigure configure" />
+      <MemberSignature Language="VB.NET" Value="Public Function PostConfigure (configure As Action(Of ClientSettings)) As IHostApplicationBuilder" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="abstract member PostConfigure : Action&lt;System.ClientModel.Primitives.ClientSettings&gt; -&gt; Microsoft.Extensions.Hosting.IHostApplicationBuilder" Usage="iClientBuilder.PostConfigure configure" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.ClientModel.Primitives.IClientBuilder PostConfigure (Action&lt;System.ClientModel.Primitives.ClientSettings&gt; configure);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ClientModel.Primitives.IClientBuilder PostConfigure(class System.Action`1&lt;class System.ClientModel.Primitives.ClientSettings&gt; configure) cil managed" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Function PostConfigure (configure As Action(Of ClientSettings)) As IClientBuilder" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="abstract member PostConfigure : Action&lt;System.ClientModel.Primitives.ClientSettings&gt; -&gt; System.ClientModel.Primitives.IClientBuilder" Usage="iClientBuilder.PostConfigure configure" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ClientModel</AssemblyName>
         <AssemblyVersion>1.10.0.0</AssemblyVersion>
+        <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.Extensions.Hosting.IHostApplicationBuilder</ReturnType>
+        <ReturnType FrameworkAlternate="azure-dotnet">Microsoft.Extensions.Hosting.IHostApplicationBuilder</ReturnType>
+        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.ClientModel.Primitives.IClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="configure" Type="System.Action&lt;System.ClientModel.Primitives.ClientSettings&gt;" />

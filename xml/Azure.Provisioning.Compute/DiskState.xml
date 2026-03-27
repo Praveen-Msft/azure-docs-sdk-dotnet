@@ -1,0 +1,204 @@
+<Type Name="DiskState" FullName="Azure.Provisioning.Compute.DiskState">
+  <TypeSignature Language="C#" Value="public enum DiskState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskState" />
+  <TypeSignature Language="F#" Value="type DiskState = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            This enumerates the possible state of the disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveSas">
+      <MemberSignature Language="C#" Value="ActiveSas" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState ActiveSas = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.ActiveSas" />
+      <MemberSignature Language="VB.NET" Value="ActiveSas" />
+      <MemberSignature Language="F#" Value="ActiveSas = 4" Usage="Azure.Provisioning.Compute.DiskState.ActiveSas" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ActiveSAS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ActiveSAS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            The disk currently has an Active SAS Uri associated with it.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveSasFrozen">
+      <MemberSignature Language="C#" Value="ActiveSasFrozen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState ActiveSasFrozen = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.ActiveSasFrozen" />
+      <MemberSignature Language="VB.NET" Value="ActiveSasFrozen" />
+      <MemberSignature Language="F#" Value="ActiveSasFrozen = 5" Usage="Azure.Provisioning.Compute.DiskState.ActiveSasFrozen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="ActiveSASFrozen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="ActiveSASFrozen")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            The disk is attached to a VM in hibernated state and has an active SAS
+            URI associated with it.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveUpload">
+      <MemberSignature Language="C#" Value="ActiveUpload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState ActiveUpload = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.ActiveUpload" />
+      <MemberSignature Language="VB.NET" Value="ActiveUpload" />
+      <MemberSignature Language="F#" Value="ActiveUpload = 7" Usage="Azure.Provisioning.Compute.DiskState.ActiveUpload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            A disk is created for upload and a write token has been issued for
+            uploading to it.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Attached">
+      <MemberSignature Language="C#" Value="Attached" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState Attached = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.Attached" />
+      <MemberSignature Language="VB.NET" Value="Attached" />
+      <MemberSignature Language="F#" Value="Attached = 1" Usage="Azure.Provisioning.Compute.DiskState.Attached" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The disk is currently attached to a running VM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Frozen">
+      <MemberSignature Language="C#" Value="Frozen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState Frozen = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.Frozen" />
+      <MemberSignature Language="VB.NET" Value="Frozen" />
+      <MemberSignature Language="F#" Value="Frozen = 3" Usage="Azure.Provisioning.Compute.DiskState.Frozen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            The disk is attached to a VM which is in hibernated state.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyToUpload">
+      <MemberSignature Language="C#" Value="ReadyToUpload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState ReadyToUpload = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.ReadyToUpload" />
+      <MemberSignature Language="VB.NET" Value="ReadyToUpload" />
+      <MemberSignature Language="F#" Value="ReadyToUpload = 6" Usage="Azure.Provisioning.Compute.DiskState.ReadyToUpload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            A disk is ready to be created by upload by requesting a write token.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved">
+      <MemberSignature Language="C#" Value="Reserved" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState Reserved = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.Reserved" />
+      <MemberSignature Language="VB.NET" Value="Reserved" />
+      <MemberSignature Language="F#" Value="Reserved = 2" Usage="Azure.Provisioning.Compute.DiskState.Reserved" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The disk is attached to a stopped-deallocated VM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unattached">
+      <MemberSignature Language="C#" Value="Unattached" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskState Unattached = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskState.Unattached" />
+      <MemberSignature Language="VB.NET" Value="Unattached" />
+      <MemberSignature Language="F#" Value="Unattached = 0" Usage="Azure.Provisioning.Compute.DiskState.Unattached" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The disk is not being used and can be attached to a VM.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

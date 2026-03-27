@@ -9,13 +9,14 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class to add extension methods to ResourceGroupResource. </summary>
+    <summary> A class to add extension methods to <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,10 +29,11 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of MockableGuestConfigurationResourceGroupResource for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -45,7 +47,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;</ReturnType>
       </ReturnValue>
@@ -54,11 +63,7 @@
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List all guest configuration assignments for a resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments
-            Operation Id: GuestConfigurationAssignments_RGList
-            </summary>
+        <summary> List all guest configuration assignments for a resource group. </summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +78,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;</ReturnType>
       </ReturnValue>
@@ -82,12 +94,480 @@
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> List all guest configuration assignments for a resource group. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationAssignments">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt; GetGuestConfigurationAssignments (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt; GetGuestConfigurationAssignments(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationAssignments(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationAssignments (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of GuestConfigurationAssignmentData)" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationAssignments : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;&#xA;override this.GetGuestConfigurationAssignments : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationAssignments cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all guest configuration assignments for a resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments
-            Operation Id: GuestConfigurationAssignments_RGList
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignmentsOperationGroup_RGList. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationAssignmentsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt; GetGuestConfigurationAssignmentsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt; GetGuestConfigurationAssignmentsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationAssignmentsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationAssignmentsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of GuestConfigurationAssignmentData)" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationAssignmentsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;&#xA;override this.GetGuestConfigurationAssignmentsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationAssignmentsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all guest configuration assignments for a resource group.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignmentsOperationGroup_RGList. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationHcrpAssignment">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt; GetGuestConfigurationHcrpAssignment (string machineName, string guestConfigurationAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt; GetGuestConfigurationHcrpAssignment(string machineName, string guestConfigurationAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationHcrpAssignment(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationHcrpAssignment (machineName As String, guestConfigurationAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GuestConfigurationHcrpAssignmentResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationHcrpAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;&#xA;override this.GetGuestConfigurationHcrpAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationHcrpAssignment (machineName, guestConfigurationAssignmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="machineName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="guestConfigurationAssignmentName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="machineName"> The machineName for the resource. </param>
+        <param name="guestConfigurationAssignmentName"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{machineName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationHCRPAssignments_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationHcrpAssignmentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;&gt; GetGuestConfigurationHcrpAssignmentAsync (string machineName, string guestConfigurationAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;&gt; GetGuestConfigurationHcrpAssignmentAsync(string machineName, string guestConfigurationAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationHcrpAssignmentAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationHcrpAssignmentAsync (machineName As String, guestConfigurationAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GuestConfigurationHcrpAssignmentResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationHcrpAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;&gt;&#xA;override this.GetGuestConfigurationHcrpAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationHcrpAssignmentAsync (machineName, guestConfigurationAssignmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="machineName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="guestConfigurationAssignmentName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="machineName"> The machineName for the resource. </param>
+        <param name="guestConfigurationAssignmentName"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{machineName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationHCRPAssignments_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationHcrpAssignments">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentCollection GetGuestConfigurationHcrpAssignments (string machineName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentCollection GetGuestConfigurationHcrpAssignments(string machineName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationHcrpAssignments(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationHcrpAssignments (machineName As String) As GuestConfigurationHcrpAssignmentCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationHcrpAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentCollection&#xA;override this.GetGuestConfigurationHcrpAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentCollection" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationHcrpAssignments machineName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="machineName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="machineName"> The machineName for the resource. </param>
+        <summary> Gets a collection of GuestConfigurationHcrpAssignments in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
+        <returns> An object representing collection of GuestConfigurationHcrpAssignments and their operations over a GuestConfigurationHcrpAssignmentResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVmAssignment">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt; GetGuestConfigurationVmAssignment (string vmName, string guestConfigurationAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt; GetGuestConfigurationVmAssignment(string vmName, string guestConfigurationAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmAssignment(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVmAssignment (vmName As String, guestConfigurationAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GuestConfigurationVmAssignmentResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVmAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&#xA;override this.GetGuestConfigurationVmAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmAssignment (vmName, guestConfigurationAssignmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="guestConfigurationAssignmentName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The vmName for the resource. </param>
+        <param name="guestConfigurationAssignmentName"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignments_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVmAssignmentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&gt; GetGuestConfigurationVmAssignmentAsync (string vmName, string guestConfigurationAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&gt; GetGuestConfigurationVmAssignmentAsync(string vmName, string guestConfigurationAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmAssignmentAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVmAssignmentAsync (vmName As String, guestConfigurationAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GuestConfigurationVmAssignmentResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVmAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&gt;&#xA;override this.GetGuestConfigurationVmAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmAssignmentAsync (vmName, guestConfigurationAssignmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="guestConfigurationAssignmentName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The vmName for the resource. </param>
+        <param name="guestConfigurationAssignmentName"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignments_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVmAssignments">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentCollection GetGuestConfigurationVmAssignments (string vmName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentCollection GetGuestConfigurationVmAssignments(string vmName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmAssignments(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVmAssignments (vmName As String) As GuestConfigurationVmAssignmentCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVmAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentCollection&#xA;override this.GetGuestConfigurationVmAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentCollection" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmAssignments vmName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The vmName for the resource. </param>
+        <summary> Gets a collection of GuestConfigurationVmAssignments in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
+        <returns> An object representing collection of GuestConfigurationVmAssignments and their operations over a GuestConfigurationVmAssignmentResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVmssAssignment">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt; GetGuestConfigurationVmssAssignment (string vmssName, string name, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt; GetGuestConfigurationVmssAssignment(string vmssName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmssAssignment(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVmssAssignment (vmssName As String, name As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GuestConfigurationVmssAssignmentResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVmssAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;&#xA;override this.GetGuestConfigurationVmssAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmssAssignment (vmssName, name, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmssName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmssName"> The vmssName for the resource. </param>
+        <param name="name"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment for VMSS
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmssName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{name}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignmentsVMSS_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVmssAssignmentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;&gt; GetGuestConfigurationVmssAssignmentAsync (string vmssName, string name, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;&gt; GetGuestConfigurationVmssAssignmentAsync(string vmssName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmssAssignmentAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVmssAssignmentAsync (vmssName As String, name As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GuestConfigurationVmssAssignmentResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVmssAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;&gt;&#xA;override this.GetGuestConfigurationVmssAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmssAssignmentAsync (vmssName, name, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmssName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmssName"> The vmssName for the resource. </param>
+        <param name="name"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment for VMSS
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmssName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{name}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignmentsVMSS_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVmssAssignments">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentCollection GetGuestConfigurationVmssAssignments (string vmssName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentCollection GetGuestConfigurationVmssAssignments(string vmssName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmssAssignments(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVmssAssignments (vmssName As String) As GuestConfigurationVmssAssignmentCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVmssAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentCollection&#xA;override this.GetGuestConfigurationVmssAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentCollection" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVmssAssignments vmssName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmssName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmssName"> The vmssName for the resource. </param>
+        <summary> Gets a collection of GuestConfigurationVmssAssignments in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
+        <returns> An object representing collection of GuestConfigurationVmssAssignments and their operations over a GuestConfigurationVmssAssignmentResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVMwarevSphereAssignment">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt; GetGuestConfigurationVMwarevSphereAssignment (string vmName, string guestConfigurationAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt; GetGuestConfigurationVMwarevSphereAssignment(string vmName, string guestConfigurationAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVMwarevSphereAssignment(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVMwarevSphereAssignment (vmName As String, guestConfigurationAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GuestConfigurationVMwarevSphereAssignmentResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVMwarevSphereAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;&#xA;override this.GetGuestConfigurationVMwarevSphereAssignment : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVMwarevSphereAssignment (vmName, guestConfigurationAssignmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="guestConfigurationAssignmentName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The vmName for the resource. </param>
+        <param name="guestConfigurationAssignmentName"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/virtualmachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationConnectedVMwarevSphereAssignments_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVMwarevSphereAssignmentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;&gt; GetGuestConfigurationVMwarevSphereAssignmentAsync (string vmName, string guestConfigurationAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;&gt; GetGuestConfigurationVMwarevSphereAssignmentAsync(string vmName, string guestConfigurationAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVMwarevSphereAssignmentAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVMwarevSphereAssignmentAsync (vmName As String, guestConfigurationAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GuestConfigurationVMwarevSphereAssignmentResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVMwarevSphereAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;&gt;&#xA;override this.GetGuestConfigurationVMwarevSphereAssignmentAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;&gt;" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVMwarevSphereAssignmentAsync (vmName, guestConfigurationAssignmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="guestConfigurationAssignmentName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The vmName for the resource. </param>
+        <param name="guestConfigurationAssignmentName"> The guest configuration assignment name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a guest configuration assignment
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/virtualmachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}. </description></item><item><term> Operation Id. </term><description> GuestConfigurationConnectedVMwarevSphereAssignments_Get. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestConfigurationVMwarevSphereAssignments">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentCollection GetGuestConfigurationVMwarevSphereAssignments (string vmName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentCollection GetGuestConfigurationVMwarevSphereAssignments(string vmName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVMwarevSphereAssignments(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestConfigurationVMwarevSphereAssignments (vmName As String) As GuestConfigurationVMwarevSphereAssignmentCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestConfigurationVMwarevSphereAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentCollection&#xA;override this.GetGuestConfigurationVMwarevSphereAssignments : string -&gt; Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentCollection" Usage="mockableGuestConfigurationResourceGroupResource.GetGuestConfigurationVMwarevSphereAssignments vmName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.GuestConfiguration.GuestConfigurationVMwarevSphereAssignmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The vmName for the resource. </param>
+        <summary> Gets a collection of GuestConfigurationVMwarevSphereAssignments in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
+        <returns> An object representing collection of GuestConfigurationVMwarevSphereAssignments and their operations over a GuestConfigurationVMwarevSphereAssignmentResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RGList">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt; RGList (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt; RGList(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.RGList(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RGList (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of GuestConfigurationVmAssignmentResource)" />
+      <MemberSignature Language="F#" Value="abstract member RGList : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&#xA;override this.RGList : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;" Usage="mockableGuestConfigurationResourceGroupResource.RGList cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all guest configuration assignments for a resource group.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignmentsOperationGroup_RGList. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RGListAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt; RGListAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt; RGListAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationResourceGroupResource.RGListAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RGListAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of GuestConfigurationVmAssignmentResource)" />
+      <MemberSignature Language="F#" Value="abstract member RGListAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;&#xA;override this.RGListAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;" Usage="mockableGuestConfigurationResourceGroupResource.RGListAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all guest configuration assignments for a resource group.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments. </description></item><item><term> Operation Id. </term><description> GuestConfigurationAssignmentsOperationGroup_RGList. </description></item><item><term> Default Api Version. </term><description> 2024-04-05. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

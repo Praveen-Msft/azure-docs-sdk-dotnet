@@ -1,0 +1,97 @@
+<Type Name="VirtualMachineScaleSetScaleInRule" FullName="Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule">
+  <TypeSignature Language="C#" Value="public enum VirtualMachineScaleSetScaleInRule" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VirtualMachineScaleSetScaleInRule extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule" />
+  <TypeSignature Language="VB.NET" Value="Public Enum VirtualMachineScaleSetScaleInRule" />
+  <TypeSignature Language="F#" Value="type VirtualMachineScaleSetScaleInRule = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The VirtualMachineScaleSetScaleInRule.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewestVm">
+      <MemberSignature Language="C#" Value="NewestVm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule NewestVm = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule.NewestVm" />
+      <MemberSignature Language="VB.NET" Value="NewestVm" />
+      <MemberSignature Language="F#" Value="NewestVm = 2" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule.NewestVm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="NewestVM")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="NewestVM")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            NewestVM.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OldestVm">
+      <MemberSignature Language="C#" Value="OldestVm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule OldestVm = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule.OldestVm" />
+      <MemberSignature Language="VB.NET" Value="OldestVm" />
+      <MemberSignature Language="F#" Value="OldestVm = 1" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule.OldestVm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="OldestVM")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="OldestVM")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetScaleInRule</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            OldestVM.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

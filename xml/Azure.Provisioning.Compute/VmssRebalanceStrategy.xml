@@ -1,0 +1,45 @@
+<Type Name="VmssRebalanceStrategy" FullName="Azure.Provisioning.Compute.VmssRebalanceStrategy">
+  <TypeSignature Language="C#" Value="public enum VmssRebalanceStrategy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VmssRebalanceStrategy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VmssRebalanceStrategy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum VmssRebalanceStrategy" />
+  <TypeSignature Language="F#" Value="type VmssRebalanceStrategy = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Type of rebalance strategy that will be used for rebalancing virtual
+            machines in the scale set across availability zones. Default and only
+            supported value for now is Recreate.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Recreate">
+      <MemberSignature Language="C#" Value="Recreate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VmssRebalanceStrategy Recreate = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VmssRebalanceStrategy.Recreate" />
+      <MemberSignature Language="VB.NET" Value="Recreate" />
+      <MemberSignature Language="F#" Value="Recreate = 0" Usage="Azure.Provisioning.Compute.VmssRebalanceStrategy.Recreate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VmssRebalanceStrategy</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Recreate.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -9,13 +9,14 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.CurrentQuotaLimitBaseData</ReturnType>
@@ -41,12 +43,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.QuotaProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> Quota properties for the specified resource, based on the API called, Quotas or Usages. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.CurrentQuotaLimitBaseData" />. </summary>
+        <summary> Quota limit. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.CurrentQuotaLimitBaseData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -61,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.CurrentUsagesBaseData</ReturnType>
@@ -73,12 +76,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.QuotaUsagesProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> Usage properties for the specified resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.CurrentUsagesBaseData" />. </summary>
+        <summary> Resource usage. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.CurrentUsagesBaseData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -93,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -118,10 +122,10 @@
         <param name="limit"> The current Group Quota Limit at the parentId level. </param>
         <param name="comment"> Any comment related to quota request. </param>
         <param name="unit"> The usages units, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
-        <param name="availableLimit"> The available Group Quota Limit at the MG level. This Group quota can be allocated to subscription(s). </param>
-        <param name="allocatedToSubscriptionsValue"> Quota allocated to subscriptions. </param>
         <param name="value"> Resource name. </param>
         <param name="localizedValue"> Resource display name. </param>
+        <param name="availableLimit"> The available Group Quota Limit at the MG level. This Group quota can be allocated to subscription(s). </param>
+        <param name="allocatedToSubscriptionsValue"> Quota allocated to subscriptions. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaDetails" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -137,6 +141,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaDetails</ReturnType>
@@ -155,11 +160,11 @@
         <param name="resourceName"> The resource name, such as SKU name. </param>
         <param name="limit"> The current Group Quota Limit at the parentId level. </param>
         <param name="comment"> Any comment related to quota request. </param>
-        <param name="unit"> The usages units, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
+        <param name="unit"> The usages units, such as Count and Bytes. When requesting quota, use the <b>unit</b> value returned in the GET response in the request body of your PUT operation. </param>
         <param name="value"> Resource name. </param>
         <param name="localizedValue"> Resource display name. </param>
         <param name="availableLimit"> The available Group Quota Limit at the MG level. This Group quota can be allocated to subscription(s). </param>
-        <param name="allocatedToSubscriptionsValue"> Quota allocated to subscriptions. </param>
+        <param name="allocatedToSubscriptionsValue"> List of Group Quota Limit allocated to subscriptions. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaDetails" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -175,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -207,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaEntityBase</ReturnType>
@@ -220,7 +227,7 @@
         <param name="displayName"> Display name of the GroupQuota entity. </param>
         <param name="groupType"> Type of the group. </param>
         <param name="provisioningState"> Provisioning state of the operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaEntityBase" />. </summary>
+        <summary> Properties and filters for ShareQuota. The request parameter is optional, if there are no filters specified. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaEntityBase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -235,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.GroupQuotaEntityData</ReturnType>
@@ -247,12 +255,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotasEntityProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> Properties. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.GroupQuotaEntityData" />. </summary>
+        <summary> Properties and filters for ShareQuota. The request parameter is optional, if there are no filters specified. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.GroupQuotaEntityData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -267,6 +275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaEntityPatch</ReturnType>
@@ -279,12 +288,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotasEntityPatchProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> Properties. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaEntityPatch" />. </summary>
+        <summary> Properties and filters for ShareQuota. The request parameter is optional, if there are no filters specified. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaEntityPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -299,6 +308,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.GroupQuotaLimitListData</ReturnType>
@@ -311,12 +321,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotaLimitListProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.GroupQuotaLimitListData" />. </summary>
+        <summary> List of Group Quota Limit details. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.GroupQuotaLimitListData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaLimitListProperties</ReturnType>
@@ -344,7 +355,7 @@
         <param name="provisioningState"> Request status. </param>
         <param name="value"> List of Group Quota Limit details. </param>
         <param name="nextLink"> The URL to use for getting the next set of results. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaLimitListProperties" />. </summary>
+        <summary> The GroupQuotaLimitListProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaLimitListProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -359,6 +370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -384,10 +396,10 @@
         <param name="limit"> The current Group Quota Limit at the parentId level. </param>
         <param name="comment"> Any comment related to quota request. </param>
         <param name="unit"> The usages units, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
-        <param name="availableLimit"> The available Group Quota Limit at the MG level. This Group quota can be allocated to subscription(s). </param>
-        <param name="allocatedToSubscriptionsValue"> Quota allocated to subscriptions. </param>
         <param name="value"> Resource name. </param>
         <param name="localizedValue"> Resource display name. </param>
+        <param name="availableLimit"> The available Group Quota Limit at the MG level. This Group quota can be allocated to subscription(s). </param>
+        <param name="allocatedToSubscriptionsValue"> Quota allocated to subscriptions. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaLimitProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaLimitProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -403,6 +415,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaLimitProperties</ReturnType>
@@ -421,11 +434,11 @@
         <param name="resourceName"> The resource name, such as SKU name. </param>
         <param name="limit"> The current Group Quota Limit at the parentId level. </param>
         <param name="comment"> Any comment related to quota request. </param>
-        <param name="unit"> The usages units, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
+        <param name="unit"> The usages units, such as Count and Bytes. When requesting quota, use the <b>unit</b> value returned in the GET response in the request body of your PUT operation. </param>
         <param name="value"> Resource name. </param>
         <param name="localizedValue"> Resource display name. </param>
         <param name="availableLimit"> The available Group Quota Limit at the MG level. This Group quota can be allocated to subscription(s). </param>
-        <param name="allocatedToSubscriptionsValue"> Quota allocated to subscriptions. </param>
+        <param name="allocatedToSubscriptionsValue"> List of Group Quota Limit allocated to subscriptions. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaLimitProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaLimitProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -441,6 +454,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -460,10 +474,10 @@
       </Parameters>
       <Docs>
         <param name="limit"> The new quota limit for the subscription. The incremental quota will be allocated from pre-approved group quota. </param>
-        <param name="region"> Location/Azure region for the quota requested for resource. </param>
-        <param name="comments"> GroupQuota Request comments and details for request. This is optional paramter to provide more details related to the requested resource. </param>
         <param name="value"> Resource name. </param>
         <param name="localizedValue"> Resource display name. </param>
+        <param name="region"> Location/Azure region for the quota requested for resource. </param>
+        <param name="comments"> GroupQuota Request comments and details for request. This is optional paramter to provide more details related to the requested resource. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaRequestBase" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaRequestBase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -479,6 +493,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.GroupQuotaRequestStatusData</ReturnType>
@@ -491,12 +506,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotaRequestStatusProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.GroupQuotaRequestStatusData" />. </summary>
+        <summary> Status of a single GroupQuota request. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.GroupQuotaRequestStatusData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -511,6 +526,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaRequestStatusProperties</ReturnType>
@@ -526,7 +542,7 @@
         <param name="requestSubmittedOn"> The request submission time. The date conforms to the following format specified by the ISO 8601 standard: yyyy-MM-ddTHH:mm:ssZ. </param>
         <param name="provisioningState"> Request status. </param>
         <param name="faultCode"> Details of the failure. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaRequestStatusProperties" />. </summary>
+        <summary> The GroupQuotaRequestStatusProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaRequestStatusProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -541,6 +557,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaResourceUsages</ReturnType>
@@ -553,12 +570,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotaUsagesBase" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties"> Resource details with usages and GroupQuota. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaResourceUsages" />. </summary>
+        <summary> Resource details with usages and GroupQuota. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaResourceUsages" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -573,6 +590,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.GroupQuotasEnforcementStatusData</ReturnType>
@@ -585,12 +603,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotasEnforcementStatusProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.GroupQuotasEnforcementStatusData" />. </summary>
+        <summary> The GroupQuota Enforcement status for a Azure Location/Region. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.GroupQuotasEnforcementStatusData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -605,6 +623,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotasEnforcementStatusProperties</ReturnType>
@@ -620,7 +639,7 @@
         <param name="enforcedGroupName"> The name of the group that is enforced. </param>
         <param name="provisioningState"> Request status. </param>
         <param name="faultCode"> Details of the failure. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEnforcementStatusProperties" />. </summary>
+        <summary> The GroupQuotasEnforcementStatusProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEnforcementStatusProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -635,6 +654,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotasEntityBasePatch</ReturnType>
@@ -646,7 +666,7 @@
       <Docs>
         <param name="displayName"> Display name of the GroupQuota entity. </param>
         <param name="provisioningState"> Provisioning state of the operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEntityBasePatch" />. </summary>
+        <summary> Properties and filters for ShareQuota. The request parameter is optional, if there are no filters specified. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEntityBasePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -661,6 +681,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotasEntityPatchProperties</ReturnType>
@@ -672,7 +693,7 @@
       <Docs>
         <param name="displayName"> Display name of the GroupQuota entity. </param>
         <param name="provisioningState"> Provisioning state of the operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEntityPatchProperties" />. </summary>
+        <summary> Properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEntityPatchProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -687,6 +708,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -719,6 +741,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotasEntityProperties</ReturnType>
@@ -732,7 +755,7 @@
         <param name="displayName"> Display name of the GroupQuota entity. </param>
         <param name="groupType"> Type of the group. </param>
         <param name="provisioningState"> Provisioning state of the operation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEntityProperties" />. </summary>
+        <summary> Properties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotasEntityProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -747,6 +770,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.GroupQuotaSubscriptionData</ReturnType>
@@ -759,12 +783,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.GroupQuotaSubscriptionData" />. </summary>
+        <summary> This represents a Azure subscriptionId that is associated with a GroupQuotasEntity. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.GroupQuotaSubscriptionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -779,6 +803,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionProperties</ReturnType>
@@ -790,7 +815,7 @@
       <Docs>
         <param name="subscriptionId"> An Azure subscriptionId. </param>
         <param name="provisioningState"> Status of this subscriptionId being associated with the GroupQuotasEntity. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionProperties" />. </summary>
+        <summary> The GroupQuotaSubscriptionProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -805,6 +830,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.GroupQuotaSubscriptionRequestStatusData</ReturnType>
@@ -817,12 +843,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionRequestStatusProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.GroupQuotaSubscriptionRequestStatusData" />. </summary>
+        <summary> The new quota limit request status. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.GroupQuotaSubscriptionRequestStatusData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -837,6 +863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionRequestStatusProperties</ReturnType>
@@ -850,7 +877,7 @@
         <param name="subscriptionId"> The subscription Id. </param>
         <param name="requestSubmitOn"> The request submission time. The date conforms to the following format specified by the ISO 8601 standard: yyyy-MM-ddTHH:mm:ssZ. </param>
         <param name="provisioningState"> Status of this subscriptionId being associated with the GroupQuotasEntity. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionRequestStatusProperties" />. </summary>
+        <summary> The GroupQuotaSubscriptionRequestStatusProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.GroupQuotaSubscriptionRequestStatusProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -865,6 +892,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.GroupQuotaUsagesBase</ReturnType>
@@ -897,6 +925,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaAllocationRequestBase</ReturnType>
@@ -927,6 +956,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.QuotaAllocationRequestStatusData</ReturnType>
@@ -942,10 +972,10 @@
         <Parameter Name="faultCode" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="requestedResource"> The new quota request allocated to subscription. </param>
         <param name="requestSubmittedOn"> The request submission time. The date conforms to the following format specified by the ISO 8601 standard: yyyy-MM-ddTHH:mm:ssZ. </param>
         <param name="provisioningState"> Request status. </param>
@@ -965,6 +995,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaOperationDisplay</ReturnType>
@@ -980,7 +1011,7 @@
         <param name="resource"> Resource name. </param>
         <param name="operation"> Operation name. </param>
         <param name="description"> Operation description. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaOperationDisplay" />. </summary>
+        <summary> The QuotaOperationDisplay. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaOperationDisplay" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -995,6 +1026,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaOperationResult</ReturnType>
@@ -1008,7 +1040,7 @@
         <param name="name" />
         <param name="display" />
         <param name="origin" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaOperationResult" />. </summary>
+        <summary> The QuotaOperationResult. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaOperationResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1023,6 +1055,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaProperties</ReturnType>
@@ -1037,12 +1070,8 @@
         <Parameter Name="properties" Type="System.BinaryData" />
       </Parameters>
       <Docs>
-        <param name="limit">
-            Resource quota limit properties.
-            Please note <see cref="T:Azure.ResourceManager.Quota.Models.QuotaLimitJsonObject" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="T:Azure.ResourceManager.Quota.Models.QuotaLimitObject" />.
-            </param>
-        <param name="unit"> The quota units, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
+        <param name="limit"> Resource quota limit properties. </param>
+        <param name="unit"> The quota units, such as Count and Bytes. When requesting quota, use the <b>unit</b> value returned in the GET response in the request body of your PUT operation. </param>
         <param name="name"> Resource name provided by the resource provider. Use this property name when requesting quota. </param>
         <param name="resourceTypeName"> The name of the resource type. Optional field. </param>
         <param name="quotaPeriod">
@@ -1054,7 +1083,7 @@
             </param>
         <param name="isQuotaApplicable"> States if quota can be requested for this resource. </param>
         <param name="properties"> Additional properties for the specific resource provider. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaProperties" />. </summary>
+        <summary> Quota properties for the specified resource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1069,6 +1098,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.QuotaRequestDetailData</ReturnType>
@@ -1085,10 +1115,10 @@
         <Parameter Name="value" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Quota.Models.QuotaSubRequestDetail&gt;" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="provisioningState"> The quota request status. </param>
         <param name="message"> User-friendly status message. </param>
         <param name="error"> Error details of the quota request. </param>
@@ -1109,6 +1139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaRequestResourceName</ReturnType>
@@ -1120,7 +1151,7 @@
       <Docs>
         <param name="value"> Resource name. </param>
         <param name="localizedValue"> Resource display name. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaRequestResourceName" />. </summary>
+        <summary> Name of the resource provided by the resource Provider. When requesting quota, use this property name. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaRequestResourceName" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1135,6 +1166,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaSubRequestDetail</ReturnType>
@@ -1151,16 +1183,12 @@
       <Docs>
         <param name="name"> Resource name. </param>
         <param name="resourceTypeName"> Resource type for which the quota properties were requested. </param>
-        <param name="unit"> Quota limit units, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
+        <param name="unit"> Quota limit units, such as Count and Bytes. When requesting quota, use the <b>unit</b> value returned in the GET response in the request body of your PUT operation. </param>
         <param name="provisioningState"> The quota request status. </param>
         <param name="message"> User-friendly status message. </param>
         <param name="subRequestId"> Quota request ID. </param>
-        <param name="limit">
-            Resource quota limit properties.
-            Please note <see cref="T:Azure.ResourceManager.Quota.Models.QuotaLimitJsonObject" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="T:Azure.ResourceManager.Quota.Models.QuotaLimitObject" />.
-            </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaSubRequestDetail" />. </summary>
+        <param name="limit"> Resource quota limit properties. </param>
+        <summary> Request property. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaSubRequestDetail" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1175,6 +1203,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaUsagesObject</ReturnType>
@@ -1186,7 +1215,7 @@
       <Docs>
         <param name="value"> The usages value. </param>
         <param name="usagesType"> The quota or usages limit types. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaUsagesObject" />. </summary>
+        <summary> The resource usages value. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaUsagesObject" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1201,6 +1230,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.QuotaUsagesProperties</ReturnType>
@@ -1216,7 +1246,7 @@
       </Parameters>
       <Docs>
         <param name="usages"> The quota limit properties for this resource. </param>
-        <param name="unit"> The units for the quota usage, such as Count and Bytes. When requesting quota, use the **unit** value returned in the GET response in the request body of your PUT operation. </param>
+        <param name="unit"> The units for the quota usage, such as Count and Bytes. When requesting quota, use the <b>unit</b> value returned in the GET response in the request body of your PUT operation. </param>
         <param name="name"> Resource name provided by the resource provider. Use this property name when requesting quota. </param>
         <param name="resourceTypeName"> The name of the resource type. Optional field. </param>
         <param name="quotaPeriod">
@@ -1228,7 +1258,7 @@
             </param>
         <param name="isQuotaApplicable"> States if quota can be requested for this resource. </param>
         <param name="properties"> Additional properties for the specific resource provider. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.QuotaUsagesProperties" />. </summary>
+        <summary> Usage properties for the specified resource. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.QuotaUsagesProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1243,6 +1273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.ServiceErrorDetail</ReturnType>
@@ -1254,7 +1285,7 @@
       <Docs>
         <param name="code"> Error code. </param>
         <param name="message"> Error message. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.ServiceErrorDetail" />. </summary>
+        <summary> Error details. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.ServiceErrorDetail" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1269,6 +1300,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.SubscriptionAllocatedQuota</ReturnType>
@@ -1280,7 +1312,7 @@
       <Docs>
         <param name="subscriptionId"> An Azure subscriptionId. </param>
         <param name="quotaAllocated"> The amount of quota allocated to this subscriptionId from the GroupQuotasEntity. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.SubscriptionAllocatedQuota" />. </summary>
+        <summary> SubscriptionIds and quota allocated to subscriptions from the GroupQuota. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.SubscriptionAllocatedQuota" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1295,6 +1327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.SubscriptionQuotaAllocationsListData</ReturnType>
@@ -1307,12 +1340,12 @@
         <Parameter Name="properties" Type="Azure.ResourceManager.Quota.Models.SubscriptionQuotaAllocationsListProperties" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
         <param name="properties" />
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.SubscriptionQuotaAllocationsListData" />. </summary>
+        <summary> Subscription quota list. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.SubscriptionQuotaAllocationsListData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1327,6 +1360,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.SubscriptionQuotaAllocationsListProperties</ReturnType>
@@ -1340,7 +1374,7 @@
         <param name="provisioningState"> Request status. </param>
         <param name="value"> Subscription quota list. </param>
         <param name="nextLink"> The URL to use for getting the next set of results. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Quota.Models.SubscriptionQuotaAllocationsListProperties" />. </summary>
+        <summary> The SubscriptionQuotaAllocationsListProperties. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Quota.Models.SubscriptionQuotaAllocationsListProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1355,6 +1389,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.SubscriptionQuotaAllocationsProperties</ReturnType>
@@ -1387,6 +1422,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Quota</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Quota.Models.SubscriptionQuotaDetails</ReturnType>

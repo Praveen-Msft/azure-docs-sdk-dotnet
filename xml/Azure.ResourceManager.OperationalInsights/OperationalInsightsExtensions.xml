@@ -13,6 +13,7 @@
     <AssemblyVersion>1.2.2.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.1.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,8 +33,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource&gt;</ReturnType>
@@ -65,8 +66,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource&gt;&gt;</ReturnType>
@@ -99,16 +100,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="workspaceName" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="workspaceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -140,16 +142,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="workspaceName" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="workspaceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -180,8 +183,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -211,8 +214,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -242,8 +245,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -273,8 +276,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -304,8 +307,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource&gt;</ReturnType>
@@ -339,8 +342,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource&gt;&gt;</ReturnType>
@@ -374,8 +377,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource</ReturnType>
@@ -406,8 +409,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackCollection</ReturnType>
@@ -435,8 +438,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource&gt;</ReturnType>
@@ -466,8 +469,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource&gt;</ReturnType>
@@ -497,8 +500,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryResource</ReturnType>
@@ -529,8 +532,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource&gt;</ReturnType>
@@ -564,8 +567,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource&gt;&gt;</ReturnType>
@@ -599,8 +602,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource</ReturnType>
@@ -631,8 +634,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterCollection</ReturnType>
@@ -660,8 +663,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource&gt;</ReturnType>
@@ -691,8 +694,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource&gt;</ReturnType>
@@ -722,8 +725,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource</ReturnType>
@@ -754,8 +757,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource</ReturnType>
@@ -786,8 +789,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource</ReturnType>
@@ -818,8 +821,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource</ReturnType>
@@ -850,8 +853,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource</ReturnType>
@@ -882,8 +885,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource</ReturnType>
@@ -914,8 +917,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -949,8 +952,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;&gt;</ReturnType>
@@ -984,8 +987,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource</ReturnType>
@@ -1016,8 +1019,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceCollection</ReturnType>
@@ -1045,8 +1048,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -1076,8 +1079,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -1107,8 +1110,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.StorageInsightResource</ReturnType>

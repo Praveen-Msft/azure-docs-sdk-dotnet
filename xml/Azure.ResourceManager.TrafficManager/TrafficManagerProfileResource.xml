@@ -29,10 +29,9 @@
   </Interfaces>
   <Docs>
     <summary>
-            A Class representing a TrafficManagerProfile along with the instance operations that can be performed on it.
-            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />
-            from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetTrafficManagerProfileResource method.
-            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetTrafficManagerProfile method.
+            A class representing a TrafficManagerProfile along with the instance operations that can be performed on it.
+            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetResource method.
+            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetTrafficManagerProfiles method.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -50,7 +49,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of TrafficManagerProfileResource for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,9 +77,7 @@
         <param name="key"> The key for the tag. </param>
         <param name="value"> The value for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Add a tag to the current resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -111,9 +108,7 @@
         <param name="key"> The key for the tag. </param>
         <param name="value"> The value for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Add a tag to the current resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -144,7 +139,7 @@
         <param name="subscriptionId"> The subscriptionId. </param>
         <param name="resourceGroupName"> The resourceGroupName. </param>
         <param name="profileName"> The profileName. </param>
-        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> instance. </summary>
+        <summary> Generate the resource identifier for this resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,12 +186,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="waitUntil">
-          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="waitUntil"> Completion option. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Deletes a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Delete</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Deletes a Traffic Manager profile. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,12 +213,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="waitUntil">
-          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="waitUntil"> Completion option. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Deletes a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Delete</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Deletes a Traffic Manager profile. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,7 +242,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}. </description></item><item><term> Operation Id. </term><description> Profiles_Get. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -280,9 +269,41 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}. </description></item><item><term> Operation Id. </term><description> Profiles_Get. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTrafficManagerEndpoint">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt; GetTrafficManagerEndpoint (Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType endpointType, string endpointName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt; GetTrafficManagerEndpoint(valuetype Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType endpointType, string endpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource.GetTrafficManagerEndpoint(Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTrafficManagerEndpoint (endpointType As TrafficManagerEndpointType, endpointName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of TrafficManagerEndpointResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetTrafficManagerEndpoint : Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&#xA;override this.GetTrafficManagerEndpoint : Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;" Usage="trafficManagerProfileResource.GetTrafficManagerEndpoint (endpointType, endpointName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointType" Type="Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="endpointName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="endpointType"> The type of the Traffic Manager endpoint. </param>
+        <param name="endpointName"> The name of the Traffic Manager endpoint. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Gets a Traffic Manager endpoint. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpointName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="endpointName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetTrafficManagerEndpoint">
@@ -297,6 +318,12 @@
         <AssemblyVersion>1.1.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;</ReturnType>
       </ReturnValue>
@@ -306,18 +333,48 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="endpointType"> The type of the Traffic Manager endpoint. Only AzureEndpoints, ExternalEndpoints and NestedEndpoints are allowed here. </param>
+        <param name="endpointType"> The type of the Traffic Manager endpoint. </param>
         <param name="endpointName"> The name of the Traffic Manager endpoint. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a Traffic Manager endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/{endpointType}/{endpointName}</description></item><item><term>Operation Id</term><description>Endpoints_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource" /></description></item></list></summary>
+        <summary> Gets a Traffic Manager endpoint. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="endpointType" /> or <paramref name="endpointName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="endpointType" /> or <paramref name="endpointName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTrafficManagerEndpointAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&gt; GetTrafficManagerEndpointAsync (Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType endpointType, string endpointName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&gt; GetTrafficManagerEndpointAsync(valuetype Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType endpointType, string endpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource.GetTrafficManagerEndpointAsync(Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTrafficManagerEndpointAsync (endpointType As TrafficManagerEndpointType, endpointName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of TrafficManagerEndpointResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetTrafficManagerEndpointAsync : Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&gt;&#xA;override this.GetTrafficManagerEndpointAsync : Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&gt;" Usage="trafficManagerProfileResource.GetTrafficManagerEndpointAsync (endpointType, endpointName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointType" Type="Azure.ResourceManager.TrafficManager.Models.TrafficManagerEndpointType" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="endpointName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="endpointType"> The type of the Traffic Manager endpoint. </param>
+        <param name="endpointName"> The name of the Traffic Manager endpoint. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Gets a Traffic Manager endpoint. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpointName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="endpointName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetTrafficManagerEndpointAsync">
@@ -332,6 +389,12 @@
         <AssemblyVersion>1.1.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -341,12 +404,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="endpointType"> The type of the Traffic Manager endpoint. Only AzureEndpoints, ExternalEndpoints and NestedEndpoints are allowed here. </param>
+        <param name="endpointType"> The type of the Traffic Manager endpoint. </param>
         <param name="endpointName"> The name of the Traffic Manager endpoint. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a Traffic Manager endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/{endpointType}/{endpointName}</description></item><item><term>Operation Id</term><description>Endpoints_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource" /></description></item></list></summary>
+        <summary> Gets a Traffic Manager endpoint. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -372,8 +433,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of TrafficManagerEndpointResources in the TrafficManagerProfile. </summary>
-        <returns> An object representing collection of TrafficManagerEndpointResources and their operations over a TrafficManagerEndpointResource. </returns>
+        <summary> Gets a collection of TrafficManagerEndpoints in the <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />. </summary>
+        <returns> An object representing collection of TrafficManagerEndpoints and their operations over a TrafficManagerEndpointResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -399,13 +460,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="heatMapType"> The type of HeatMap for the Traffic Manager profile. </param>
+        <param name="heatMapType"> The type of the heatmap. </param>
         <param name="topLeft"> The top left latitude,longitude pair of the rectangular viewport to query for. </param>
         <param name="botRight"> The bottom right latitude,longitude pair of the rectangular viewport to query for. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets latest heatmap for Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/heatMaps/{heatMapType}</description></item><item><term>Operation Id</term><description>HeatMap_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource" /></description></item></list></summary>
+        <summary> Gets latest heatmap for Traffic Manager profile. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -432,13 +491,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="heatMapType"> The type of HeatMap for the Traffic Manager profile. </param>
+        <param name="heatMapType"> The type of the heatmap. </param>
         <param name="topLeft"> The top left latitude,longitude pair of the rectangular viewport to query for. </param>
         <param name="botRight"> The bottom right latitude,longitude pair of the rectangular viewport to query for. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets latest heatmap for Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/heatMaps/{heatMapType}</description></item><item><term>Operation Id</term><description>HeatMap_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource" /></description></item></list></summary>
+        <summary> Gets latest heatmap for Traffic Manager profile. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -460,8 +517,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of TrafficManagerHeatMapResources in the TrafficManagerProfile. </summary>
-        <returns> An object representing collection of TrafficManagerHeatMapResources and their operations over a TrafficManagerHeatMapResource. </returns>
+        <summary> Gets a collection of TrafficManagerHeatMaps in the <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />. </summary>
+        <returns> An object representing collection of TrafficManagerHeatMaps and their operations over a TrafficManagerHeatMapResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -508,9 +565,7 @@
       <Docs>
         <param name="key"> The key for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Removes a tag by key from the resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -539,9 +594,7 @@
       <Docs>
         <param name="key"> The key for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Removes a tag by key from the resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -588,11 +641,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
+        <param name="tags"> The tags to set on the resource. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Replace the tags on the resource with the given set. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -619,11 +670,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
+        <param name="tags"> The tags to set on the resource. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+        <summary> Replace the tags on the resource with the given set. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -653,8 +702,8 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="reader"> The reader for deserializing the model. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
@@ -686,8 +735,8 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="writer"> The writer to serialize the model to. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Writes the model to the provided <see cref="T:System.Text.Json.Utf8JsonWriter" />.
             </summary>
@@ -718,8 +767,8 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="data"> The binary data to be processed. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
@@ -750,7 +799,7 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
             </summary>
@@ -780,7 +829,7 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Writes the model into a <see cref="T:System.BinaryData" />.
             </summary>
@@ -813,7 +862,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Update</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}. </description></item><item><term> Operation Id. </term><description> Profiles_Update. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -844,7 +893,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Update</description></item><item><term>Default Api Version</term><description>2024-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}. </description></item><item><term> Operation Id. </term><description> Profiles_Update. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -1,0 +1,131 @@
+<Type Name="DiskEncryptionSettings" FullName="Azure.Provisioning.Compute.DiskEncryptionSettings">
+  <TypeSignature Language="C#" Value="public class DiskEncryptionSettings : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiskEncryptionSettings extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskEncryptionSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class DiskEncryptionSettings&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type DiskEncryptionSettings = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a Encryption Settings for a Disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiskEncryptionSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiskEncryptionSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new DiskEncryptionSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiskEncryptionSettings.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="diskEncryptionSettings.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of DiskEncryptionSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskEncryptionKey">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.KeyVaultSecretReference DiskEncryptionKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.KeyVaultSecretReference DiskEncryptionKey" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskEncryptionSettings.DiskEncryptionKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiskEncryptionKey As KeyVaultSecretReference" />
+      <MemberSignature Language="F#" Value="member this.DiskEncryptionKey : Azure.Provisioning.Compute.KeyVaultSecretReference with get, set" Usage="Azure.Provisioning.Compute.DiskEncryptionSettings.DiskEncryptionKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.KeyVaultSecretReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the location of the disk encryption key, which is a Key Vault
+            Secret.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskEncryptionSettings.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskEncryptionSettings.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether disk encryption should be enabled on the virtual
+            machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyEncryptionKey">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.KeyVaultKeyReference KeyEncryptionKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.KeyVaultKeyReference KeyEncryptionKey" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskEncryptionSettings.KeyEncryptionKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyEncryptionKey As KeyVaultKeyReference" />
+      <MemberSignature Language="F#" Value="member this.KeyEncryptionKey : Azure.Provisioning.Compute.KeyVaultKeyReference with get, set" Usage="Azure.Provisioning.Compute.DiskEncryptionSettings.KeyEncryptionKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.KeyVaultKeyReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the location of the key encryption key in Key Vault.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

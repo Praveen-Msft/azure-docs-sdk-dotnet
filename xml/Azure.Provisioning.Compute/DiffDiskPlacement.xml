@@ -1,0 +1,93 @@
+<Type Name="DiffDiskPlacement" FullName="Azure.Provisioning.Compute.DiffDiskPlacement">
+  <TypeSignature Language="C#" Value="public enum DiffDiskPlacement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiffDiskPlacement extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiffDiskPlacement" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiffDiskPlacement" />
+  <TypeSignature Language="F#" Value="type DiffDiskPlacement = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the ephemeral disk placement for operating system disk. This
+            property can be used by user in the request to choose the location i.e,
+            cache disk, resource disk or nvme disk space for Ephemeral OS disk
+            provisioning. For more information on Ephemeral OS disk size requirements,
+            please refer Ephemeral OS disk size requirements for Windows VM at
+            https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks#size-requirements
+            and Linux VM at
+            https://docs.microsoft.com/azure/virtual-machines/linux/ephemeral-os-disks#size-requirements.
+            Minimum api-version for NvmeDisk: 2024-03-01.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CacheDisk">
+      <MemberSignature Language="C#" Value="CacheDisk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiffDiskPlacement CacheDisk = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiffDiskPlacement.CacheDisk" />
+      <MemberSignature Language="VB.NET" Value="CacheDisk" />
+      <MemberSignature Language="F#" Value="CacheDisk = 0" Usage="Azure.Provisioning.Compute.DiffDiskPlacement.CacheDisk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiffDiskPlacement</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            CacheDisk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NvmeDisk">
+      <MemberSignature Language="C#" Value="NvmeDisk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiffDiskPlacement NvmeDisk = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiffDiskPlacement.NvmeDisk" />
+      <MemberSignature Language="VB.NET" Value="NvmeDisk" />
+      <MemberSignature Language="F#" Value="NvmeDisk = 2" Usage="Azure.Provisioning.Compute.DiffDiskPlacement.NvmeDisk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiffDiskPlacement</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            NvmeDisk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceDisk">
+      <MemberSignature Language="C#" Value="ResourceDisk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiffDiskPlacement ResourceDisk = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiffDiskPlacement.ResourceDisk" />
+      <MemberSignature Language="VB.NET" Value="ResourceDisk" />
+      <MemberSignature Language="F#" Value="ResourceDisk = 1" Usage="Azure.Provisioning.Compute.DiffDiskPlacement.ResourceDisk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiffDiskPlacement</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            ResourceDisk.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

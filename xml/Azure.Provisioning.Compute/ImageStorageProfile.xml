@@ -1,0 +1,137 @@
+<Type Name="ImageStorageProfile" FullName="Azure.Provisioning.Compute.ImageStorageProfile">
+  <TypeSignature Language="C#" Value="public class ImageStorageProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageStorageProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ImageStorageProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImageStorageProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ImageStorageProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a storage profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageStorageProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ImageStorageProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ImageStorageProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataDisks">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ImageDataDisk&gt; DataDisks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.ImageDataDisk&gt; DataDisks" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageStorageProfile.DataDisks" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataDisks As BicepList(Of ImageDataDisk)" />
+      <MemberSignature Language="F#" Value="member this.DataDisks : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ImageDataDisk&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageStorageProfile.DataDisks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ImageDataDisk&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the parameters that are used to add a data disk to a virtual
+            machine. &lt;br&gt;&lt;br&gt; For more information about disks, see
+            [About disks and VHDs for Azure virtual
+            machines](https://docs.microsoft.com/azure/virtual-machines/managed-disks-overview).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ImageStorageProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="imageStorageProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ImageStorageProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSDisk">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ImageOSDisk OSDisk { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ImageOSDisk OSDisk" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageStorageProfile.OSDisk" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSDisk As ImageOSDisk" />
+      <MemberSignature Language="F#" Value="member this.OSDisk : Azure.Provisioning.Compute.ImageOSDisk with get, set" Usage="Azure.Provisioning.Compute.ImageStorageProfile.OSDisk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ImageOSDisk</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies information about the operating system disk used by the
+            virtual machine. &lt;br&gt;&lt;br&gt; For more information about
+            disks, see [About disks and VHDs for Azure virtual
+            machines](https://docs.microsoft.com/azure/virtual-machines/managed-disks-overview).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZoneResilient">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; ZoneResilient { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; ZoneResilient" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ImageStorageProfile.ZoneResilient" />
+      <MemberSignature Language="VB.NET" Value="Public Property ZoneResilient As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ZoneResilient : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.ImageStorageProfile.ZoneResilient" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether an image is zone resilient or not. Default is false.
+            Zone resilient images can be created only in regions that provide Zone
+            Redundant Storage (ZRS).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

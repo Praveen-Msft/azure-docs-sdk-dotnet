@@ -8,13 +8,14 @@
     <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -27,8 +28,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.ComputeDataDisk</ReturnType>
@@ -44,7 +44,7 @@
         <param name="diskUri"> When backed by a blob, the URI of underlying blob. </param>
         <param name="managedDiskId"> When backed by managed disk, this is the ID of the compute disk resource. </param>
         <param name="diskSizeGiB"> Gets data disk size in GiB. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.ComputeDataDisk" />. </summary>
+        <summary> A data disks attached to a virtual machine. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.ComputeDataDisk" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -58,8 +58,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.ComputeVmInstanceViewStatus</ReturnType>
@@ -73,7 +72,7 @@
         <param name="code"> Gets the status Code. </param>
         <param name="displayStatus"> Gets the short localizable label for the status. </param>
         <param name="message"> Gets the message associated with the status. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.ComputeVmInstanceViewStatus" />. </summary>
+        <summary> Status information about a virtual machine. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.ComputeVmInstanceViewStatus" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -87,8 +86,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.ComputeVmProperties</ReturnType>
@@ -110,7 +108,7 @@
         <param name="osDiskId"> Gets OS disk blob uri for the virtual machine. </param>
         <param name="dataDiskIds"> Gets data disks blob uri for the virtual machine. </param>
         <param name="dataDisks"> Gets all data disks attached to the virtual machine. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.ComputeVmProperties" />. </summary>
+        <summary> Properties of a virtual machine returned by the Microsoft.Compute API. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.ComputeVmProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,8 +122,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabAnnouncement</ReturnType>
@@ -147,7 +144,7 @@
         <param name="isExpired"> Has this announcement expired?. </param>
         <param name="provisioningState"> The provisioning status of the resource. </param>
         <param name="uniqueIdentifier"> The unique immutable identifier of a resource (Guid). </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabAnnouncement" />. </summary>
+        <summary> Properties of a lab's announcement banner. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabAnnouncement" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -161,8 +158,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabApplicableSchedule</ReturnType>
@@ -200,8 +196,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArmTemplateData</ReturnType>
@@ -251,8 +246,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateInfo</ReturnType>
@@ -264,7 +258,7 @@
       <Docs>
         <param name="template"> The template's contents. </param>
         <param name="parameters"> The parameters of the ARM template. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateInfo" />. </summary>
+        <summary> Information about a generated ARM template. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -278,8 +272,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArtifactData</ReturnType>
@@ -329,8 +322,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactDeploymentStatus</ReturnType>
@@ -344,8 +336,74 @@
         <param name="deploymentStatus"> The deployment status of the artifact. </param>
         <param name="artifactsApplied"> The total count of the artifacts that were successfully applied. </param>
         <param name="totalArtifacts"> The total count of the artifacts that were tentatively applied. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactDeploymentStatus" />. </summary>
+        <summary> Properties of an artifact deployment. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactDeploymentStatus" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabArtifactGenerateArmTemplateContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactGenerateArmTemplateContent DevTestLabArtifactGenerateArmTemplateContent (string vmName = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabParameter&gt; parameters = default, Azure.Core.AzureLocation? location = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabFileUploadOption? fileUploadOptions = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactGenerateArmTemplateContent DevTestLabArtifactGenerateArmTemplateContent(string vmName, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabParameter&gt; parameters, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabFileUploadOption&gt; fileUploadOptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabArtifactGenerateArmTemplateContent(System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabParameter},System.Nullable{Azure.Core.AzureLocation},System.Nullable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabFileUploadOption})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabArtifactGenerateArmTemplateContent (Optional vmName As String = Nothing, Optional parameters As IEnumerable(Of DevTestLabParameter) = Nothing, Optional location As Nullable(Of AzureLocation) = Nothing, Optional fileUploadOptions As Nullable(Of DevTestLabFileUploadOption) = Nothing) As DevTestLabArtifactGenerateArmTemplateContent" />
+      <MemberSignature Language="F#" Value="static member DevTestLabArtifactGenerateArmTemplateContent : string * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabParameter&gt; * Nullable&lt;Azure.Core.AzureLocation&gt; * Nullable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabFileUploadOption&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactGenerateArmTemplateContent" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabArtifactGenerateArmTemplateContent (vmName, parameters, location, fileUploadOptions)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactGenerateArmTemplateContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabParameter&gt;" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="fileUploadOptions" Type="System.Nullable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabFileUploadOption&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="vmName"> The resource name of the virtual machine. </param>
+        <param name="parameters"> The parameters of the ARM template. </param>
+        <param name="location"> The location of the virtual machine. </param>
+        <param name="fileUploadOptions"> Options for uploading the files for the artifact. UploadFilesAndGenerateSasTokens is the default value. </param>
+        <summary> Parameters for generating an ARM template for deploying artifacts. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactGenerateArmTemplateContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabArtifactInstallInfo">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo DevTestLabArtifactInstallInfo (string artifactId = default, string artifactTitle = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactParameter&gt; parameters = default, string status = default, string deploymentStatusMessage = default, string vmExtensionStatusMessage = default, DateTimeOffset? installOn = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo DevTestLabArtifactInstallInfo(string artifactId, string artifactTitle, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactParameter&gt; parameters, string status, string deploymentStatusMessage, string vmExtensionStatusMessage, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; installOn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabArtifactInstallInfo(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactParameter},System.String,System.String,System.String,System.Nullable{System.DateTimeOffset})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabArtifactInstallInfo (Optional artifactId As String = Nothing, Optional artifactTitle As String = Nothing, Optional parameters As IEnumerable(Of DevTestLabArtifactParameter) = Nothing, Optional status As String = Nothing, Optional deploymentStatusMessage As String = Nothing, Optional vmExtensionStatusMessage As String = Nothing, Optional installOn As Nullable(Of DateTimeOffset) = Nothing) As DevTestLabArtifactInstallInfo" />
+      <MemberSignature Language="F#" Value="static member DevTestLabArtifactInstallInfo : string * string * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactParameter&gt; * string * string * string * Nullable&lt;DateTimeOffset&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabArtifactInstallInfo (artifactId, artifactTitle, parameters, status, deploymentStatusMessage, vmExtensionStatusMessage, installOn)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="artifactId" Type="System.String" />
+        <Parameter Name="artifactTitle" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactParameter&gt;" />
+        <Parameter Name="status" Type="System.String" />
+        <Parameter Name="deploymentStatusMessage" Type="System.String" />
+        <Parameter Name="vmExtensionStatusMessage" Type="System.String" />
+        <Parameter Name="installOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="artifactId"> The artifact's identifier. </param>
+        <param name="artifactTitle"> The artifact's title. </param>
+        <param name="parameters"> The parameters of the artifact. </param>
+        <param name="status"> The status of the artifact. </param>
+        <param name="deploymentStatusMessage"> The status message from the deployment. </param>
+        <param name="vmExtensionStatusMessage"> The status message from the virtual machine extension. </param>
+        <param name="installOn"> The time that the artifact starts to install on the virtual machine. </param>
+        <summary> Properties of an artifact. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -358,8 +416,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceData</ReturnType>
@@ -406,6 +463,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabArtifactSourcePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactSourcePatch DevTestLabArtifactSourcePatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactSourcePatch DevTestLabArtifactSourcePatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabArtifactSourcePatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabArtifactSourcePatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabArtifactSourcePatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabArtifactSourcePatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactSourcePatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabArtifactSourcePatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactSourcePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> Properties of an artifact source. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactSourcePatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabCostData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabCostData DevTestLabCostData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost targetCost = default, double? estimatedLabCost = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostDetails&gt; labCostDetails = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourceCost&gt; resourceCosts = default, string currencyCode = default, DateTimeOffset? startOn = default, DateTimeOffset? endOn = default, DateTimeOffset? createdOn = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabCostData DevTestLabCostData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost targetCost, valuetype System.Nullable`1&lt;float64&gt; estimatedLabCost, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostDetails&gt; labCostDetails, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourceCost&gt; resourceCosts, string currencyCode, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; endOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -415,8 +496,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCostData</ReturnType>
@@ -470,8 +550,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostDetails</ReturnType>
@@ -485,7 +564,7 @@
         <param name="on"> The date of the cost item. </param>
         <param name="cost"> The cost component of the cost item. </param>
         <param name="costType"> The type of the cost. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostDetails" />. </summary>
+        <summary> The properties of a lab cost item. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -499,8 +578,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageData</ReturnType>
@@ -549,6 +627,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabCustomImagePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabCustomImagePatch DevTestLabCustomImagePatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabCustomImagePatch DevTestLabCustomImagePatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabCustomImagePatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabCustomImagePatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabCustomImagePatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabCustomImagePatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabCustomImagePatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabCustomImagePatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabCustomImagePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A custom image. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabCustomImagePatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabData DevTestLabData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, string defaultStorageAccount = default, string defaultPremiumStorageAccount = default, string artifactsStorageAccount = default, string premiumDataDiskStorageAccount = default, string vaultName = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabStorageType? labStorageType = default, System.Collections.Generic.IEnumerable&lt;string&gt; mandatoryArtifactsResourceIdsLinux = default, System.Collections.Generic.IEnumerable&lt;string&gt; mandatoryArtifactsResourceIdsWindows = default, DateTimeOffset? createdOn = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabPremiumDataDisk? premiumDataDisks = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPermission? environmentPermission = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabAnnouncement announcement = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabSupport support = default, string vmCreationResourceGroup = default, string publicIPId = default, string loadBalancerId = default, string networkSecurityGroupId = default, System.Collections.Generic.IDictionary&lt;string,string&gt; extendedProperties = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabData DevTestLabData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, string defaultStorageAccount, string defaultPremiumStorageAccount, string artifactsStorageAccount, string premiumDataDiskStorageAccount, string vaultName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabStorageType&gt; labStorageType, class System.Collections.Generic.IEnumerable`1&lt;string&gt; mandatoryArtifactsResourceIdsLinux, class System.Collections.Generic.IEnumerable`1&lt;string&gt; mandatoryArtifactsResourceIdsWindows, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabPremiumDataDisk&gt; premiumDataDisks, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPermission&gt; environmentPermission, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabAnnouncement announcement, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabSupport support, string vmCreationResourceGroup, string publicIPId, string loadBalancerId, string networkSecurityGroupId, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; extendedProperties, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -558,8 +660,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabData</ReturnType>
@@ -610,8 +711,8 @@
         <param name="createdOn"> The creation date of the lab. </param>
         <param name="premiumDataDisks">
             The setting to enable usage of premium data disks.
-            When its value is 'Enabled', creation of standard or premium data disks is allowed.
-            When its value is 'Disabled', only creation of standard data disks is allowed.
+                        When its value is 'Enabled', creation of standard or premium data disks is allowed.
+                        When its value is 'Disabled', only creation of standard data disks is allowed.
             </param>
         <param name="environmentPermission"> The access rights to be granted to the user when provisioning an environment. </param>
         <param name="announcement"> The properties of any lab announcement associated with this lab. </param>
@@ -637,8 +738,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabDiskData</ReturnType>
@@ -685,6 +785,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabDiskPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabDiskPatch DevTestLabDiskPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabDiskPatch DevTestLabDiskPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabDiskPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabDiskPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabDiskPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabDiskPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabDiskPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabDiskPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabDiskPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A Disk. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabDiskPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabEnvironmentData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentData DevTestLabEnvironmentData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment deploymentProperties = default, string armTemplateDisplayName = default, string resourceGroupId = default, string createdByUser = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentData DevTestLabEnvironmentData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment deploymentProperties, string armTemplateDisplayName, string resourceGroupId, string createdByUser, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -694,8 +818,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentData</ReturnType>
@@ -732,6 +855,80 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabEnvironmentDeployment">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment DevTestLabEnvironmentDeployment (Azure.Core.ResourceIdentifier armTemplateId = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateParameter&gt; parameters = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment DevTestLabEnvironmentDeployment(class Azure.Core.ResourceIdentifier armTemplateId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateParameter&gt; parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabEnvironmentDeployment(Azure.Core.ResourceIdentifier,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateParameter})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabEnvironmentDeployment (Optional armTemplateId As ResourceIdentifier = Nothing, Optional parameters As IEnumerable(Of DevTestLabArmTemplateParameter) = Nothing) As DevTestLabEnvironmentDeployment" />
+      <MemberSignature Language="F#" Value="static member DevTestLabEnvironmentDeployment : Azure.Core.ResourceIdentifier * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateParameter&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabEnvironmentDeployment (armTemplateId, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armTemplateId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="parameters" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArmTemplateParameter&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="armTemplateId"> The Azure Resource Manager template's identifier. </param>
+        <param name="parameters"> The parameters of the Azure Resource Manager template. </param>
+        <summary> Properties of an environment deployment. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentDeployment" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabEnvironmentPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPatch DevTestLabEnvironmentPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPatch DevTestLabEnvironmentPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabEnvironmentPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabEnvironmentPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabEnvironmentPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabEnvironmentPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabEnvironmentPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> An environment, which is essentially an ARM template deployment. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabEnvironmentPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabEvaluatePoliciesContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesContent DevTestLabEvaluatePoliciesContent (System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePolicy&gt; policies = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesContent DevTestLabEvaluatePoliciesContent(class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePolicy&gt; policies) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabEvaluatePoliciesContent(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePolicy})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabEvaluatePoliciesContent (Optional policies As IEnumerable(Of DevTestLabEvaluatePolicy) = Nothing) As DevTestLabEvaluatePoliciesContent" />
+      <MemberSignature Language="F#" Value="static member DevTestLabEvaluatePoliciesContent : seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePolicy&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesContent" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabEvaluatePoliciesContent policies" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="policies" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePolicy&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="policies"> Policies to evaluate. </param>
+        <summary> Request body for evaluating a policy set. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabEvaluatePoliciesResult">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult DevTestLabEvaluatePoliciesResult (System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult&gt; results = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult DevTestLabEvaluatePoliciesResult(class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult&gt; results) cil managed" />
@@ -741,8 +938,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult</ReturnType>
@@ -752,7 +948,7 @@
       </Parameters>
       <Docs>
         <param name="results"> Results of evaluating a policy set. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult" />. </summary>
+        <summary> Response body for evaluating a policy set. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabEvaluatePoliciesResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -766,8 +962,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabExternalSubnet</ReturnType>
@@ -779,7 +974,7 @@
       <Docs>
         <param name="id"> Gets or sets the identifier. </param>
         <param name="name"> Gets or sets the name. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabExternalSubnet" />. </summary>
+        <summary> Subnet information as returned by the Microsoft.Network API. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabExternalSubnet" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -793,8 +988,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabFormulaData</ReturnType>
@@ -835,6 +1029,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabFormulaPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabFormulaPatch DevTestLabFormulaPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabFormulaPatch DevTestLabFormulaPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabFormulaPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabFormulaPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabFormulaPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabFormulaPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabFormulaPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabFormulaPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabFormulaPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A formula for creating a VM, specifying an image base and other parameters. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabFormulaPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabGalleryImage">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage DevTestLabGalleryImage (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, string author = default, DateTimeOffset? createdOn = default, string description = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference imageReference = default, string icon = default, bool? isEnabled = default, string planId = default, bool? isPlanAuthorized = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage DevTestLabGalleryImage(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, string author, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, string description, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference imageReference, string icon, valuetype System.Nullable`1&lt;bool&gt; isEnabled, string planId, valuetype System.Nullable`1&lt;bool&gt; isPlanAuthorized) cil managed" />
@@ -844,8 +1062,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImage</ReturnType>
@@ -895,8 +1112,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabGenerateUploadUriResult</ReturnType>
@@ -906,7 +1122,7 @@
       </Parameters>
       <Docs>
         <param name="uploadUri"> The upload URI for the VHD. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabGenerateUploadUriResult" />. </summary>
+        <summary> Response body for generating an upload URI. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabGenerateUploadUriResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -920,8 +1136,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelData</ReturnType>
@@ -962,6 +1177,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabNotificationChannelPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabNotificationChannelPatch DevTestLabNotificationChannelPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabNotificationChannelPatch DevTestLabNotificationChannelPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabNotificationChannelPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabNotificationChannelPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabNotificationChannelPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabNotificationChannelPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabNotificationChannelPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabNotificationChannelPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabNotificationChannelPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A notification. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabNotificationChannelPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabParametersValueFileInfo">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabParametersValueFileInfo DevTestLabParametersValueFileInfo (string fileName = default, BinaryData parametersValueInfo = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabParametersValueFileInfo DevTestLabParametersValueFileInfo(string fileName, class System.BinaryData parametersValueInfo) cil managed" />
@@ -971,8 +1210,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabParametersValueFileInfo</ReturnType>
@@ -984,8 +1222,32 @@
       <Docs>
         <param name="fileName"> File name. </param>
         <param name="parametersValueInfo"> Contents of the file. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabParametersValueFileInfo" />. </summary>
+        <summary> A file containing a set of parameter values for an ARM template. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabParametersValueFileInfo" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabPatch DevTestLabPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabPatch DevTestLabPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A lab. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -998,8 +1260,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabPolicyData</ReturnType>
@@ -1042,6 +1303,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabPolicyPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyPatch DevTestLabPolicyPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyPatch DevTestLabPolicyPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabPolicyPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabPolicyPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabPolicyPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabPolicyPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabPolicyPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A Policy. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabPolicySetResult">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult DevTestLabPolicySetResult (bool? hasError = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyViolation&gt; policyViolations = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult DevTestLabPolicySetResult(valuetype System.Nullable`1&lt;bool&gt; hasError, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyViolation&gt; policyViolations) cil managed" />
@@ -1051,8 +1336,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult</ReturnType>
@@ -1064,7 +1348,7 @@
       <Docs>
         <param name="hasError"> A value indicating whether this policy set evaluation has discovered violations. </param>
         <param name="policyViolations"> The list of policy violations. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult" />. </summary>
+        <summary> Result of a policy set evaluation. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicySetResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1078,8 +1362,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyViolation</ReturnType>
@@ -1091,7 +1374,7 @@
       <Docs>
         <param name="code"> The code of the policy violation. </param>
         <param name="message"> The message of the policy violation. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyViolation" />. </summary>
+        <summary> Policy violation. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabPolicyViolation" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1105,8 +1388,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabRdpConnection</ReturnType>
@@ -1116,7 +1398,7 @@
       </Parameters>
       <Docs>
         <param name="contents"> The contents of the .rdp file. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabRdpConnection" />. </summary>
+        <summary> Represents a .rdp file. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabRdpConnection" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1130,8 +1412,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourceCost</ReturnType>
@@ -1157,8 +1438,32 @@
         <param name="resourceStatus"> The status of the resource (ex. Active). </param>
         <param name="resourceId"> The ID of the resource. </param>
         <param name="externalResourceId"> The ID of the external resource. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourceCost" />. </summary>
+        <summary> The properties of a resource cost item. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourceCost" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabResourcePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourcePatch DevTestLabResourcePatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourcePatch DevTestLabResourcePatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabResourcePatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabResourcePatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabResourcePatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabResourcePatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourcePatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabResourcePatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourcePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> Represents an update resource. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabResourcePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1171,8 +1476,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter</ReturnType>
@@ -1216,8 +1520,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabScheduleData</ReturnType>
@@ -1264,6 +1567,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabSchedulePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabSchedulePatch DevTestLabSchedulePatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabSchedulePatch DevTestLabSchedulePatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabSchedulePatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabSchedulePatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabSchedulePatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabSchedulePatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabSchedulePatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabSchedulePatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabSchedulePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A schedule. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabSchedulePatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabSecretData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabSecretData DevTestLabSecretData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, string value = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabSecretData DevTestLabSecretData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, string value, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -1273,8 +1600,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabSecretData</ReturnType>
@@ -1305,6 +1631,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabSecretPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabSecretPatch DevTestLabSecretPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabSecretPatch DevTestLabSecretPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabSecretPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabSecretPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabSecretPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabSecretPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabSecretPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabSecretPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabSecretPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A secret. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabSecretPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabServiceFabricData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricData DevTestLabServiceFabricData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, string externalServiceFabricId = default, string environmentId = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabApplicableSchedule applicableSchedule = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricData DevTestLabServiceFabricData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, string externalServiceFabricId, string environmentId, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabApplicableSchedule applicableSchedule, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -1314,8 +1664,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricData</ReturnType>
@@ -1350,6 +1699,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabServiceFabricPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabServiceFabricPatch DevTestLabServiceFabricPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabServiceFabricPatch DevTestLabServiceFabricPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabServiceFabricPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabServiceFabricPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabServiceFabricPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabServiceFabricPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabServiceFabricPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabServiceFabricPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabServiceFabricPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A Service Fabric. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabServiceFabricPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabServiceRunnerData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerData DevTestLabServiceRunnerData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabManagedIdentity identity = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerData DevTestLabServiceRunnerData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabManagedIdentity identity) cil managed" />
@@ -1359,8 +1732,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerData</ReturnType>
@@ -1387,6 +1759,40 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabTargetCost">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost DevTestLabTargetCost (Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCostStatus? status = default, int? target = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostThreshold&gt; costThresholds = default, DateTimeOffset? cycleStartOn = default, DateTimeOffset? cycleEndOn = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabReportingCycleType? cycleType = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost DevTestLabTargetCost(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCostStatus&gt; status, valuetype System.Nullable`1&lt;int32&gt; target, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostThreshold&gt; costThresholds, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; cycleStartOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; cycleEndOn, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabReportingCycleType&gt; cycleType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabTargetCost(System.Nullable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCostStatus},System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostThreshold},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabReportingCycleType})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabTargetCost (Optional status As Nullable(Of DevTestLabTargetCostStatus) = Nothing, Optional target As Nullable(Of Integer) = Nothing, Optional costThresholds As IEnumerable(Of DevTestLabCostThreshold) = Nothing, Optional cycleStartOn As Nullable(Of DateTimeOffset) = Nothing, Optional cycleEndOn As Nullable(Of DateTimeOffset) = Nothing, Optional cycleType As Nullable(Of DevTestLabReportingCycleType) = Nothing) As DevTestLabTargetCost" />
+      <MemberSignature Language="F#" Value="static member DevTestLabTargetCost : Nullable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCostStatus&gt; * Nullable&lt;int&gt; * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostThreshold&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabReportingCycleType&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabTargetCost (status, target, costThresholds, cycleStartOn, cycleEndOn, cycleType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCostStatus&gt;" />
+        <Parameter Name="target" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="costThresholds" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabCostThreshold&gt;" />
+        <Parameter Name="cycleStartOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="cycleEndOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="cycleType" Type="System.Nullable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabReportingCycleType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="status"> Target cost status. </param>
+        <param name="target"> Lab target cost. </param>
+        <param name="costThresholds"> Cost thresholds. </param>
+        <param name="cycleStartOn"> Reporting cycle start date. </param>
+        <param name="cycleEndOn"> Reporting cycle end date. </param>
+        <param name="cycleType"> Reporting cycle type. </param>
+        <summary> Properties of a cost target. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabTargetCost" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabUserData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabUserData DevTestLabUserData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserIdentity identity = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserSecretStore secretStore = default, DateTimeOffset? createdOn = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabUserData DevTestLabUserData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserIdentity identity, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserSecretStore secretStore, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -1396,8 +1802,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabUserData</ReturnType>
@@ -1432,6 +1837,54 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabUserPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserPatch DevTestLabUserPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserPatch DevTestLabUserPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabUserPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabUserPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabUserPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabUserPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabUserPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> Profile of a lab user. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabUserPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabVhd">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd DevTestLabVhd (Uri id = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd DevTestLabVhd(class System.Uri id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVhd(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabVhd (Optional id As Uri = Nothing) As DevTestLabVhd" />
+      <MemberSignature Language="F#" Value="static member DevTestLabVhd : Uri -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVhd id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The URI to the VHD. </param>
+        <summary> Properties of a VHD in the lab. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVhd" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabVirtualNetworkData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkData DevTestLabVirtualNetworkData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabSubnet&gt; allowedSubnets = default, string description = default, string externalProviderResourceId = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabExternalSubnet&gt; externalSubnets = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabSubnetOverride&gt; subnetOverrides = default, DateTimeOffset? createdOn = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkData DevTestLabVirtualNetworkData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabSubnet&gt; allowedSubnets, string description, string externalProviderResourceId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabExternalSubnet&gt; externalSubnets, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabSubnetOverride&gt; subnetOverrides, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -1441,8 +1894,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkData</ReturnType>
@@ -1483,6 +1935,130 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DevTestLabVirtualNetworkPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabVirtualNetworkPatch DevTestLabVirtualNetworkPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVirtualNetworkPatch DevTestLabVirtualNetworkPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVirtualNetworkPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabVirtualNetworkPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabVirtualNetworkPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabVirtualNetworkPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabVirtualNetworkPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVirtualNetworkPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabVirtualNetworkPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A virtual network. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVirtualNetworkPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabVmApplyArtifactsContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmApplyArtifactsContent DevTestLabVmApplyArtifactsContent (System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; artifacts = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmApplyArtifactsContent DevTestLabVmApplyArtifactsContent(class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; artifacts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVmApplyArtifactsContent(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabVmApplyArtifactsContent (Optional artifacts As IEnumerable(Of DevTestLabArtifactInstallInfo) = Nothing) As DevTestLabVmApplyArtifactsContent" />
+      <MemberSignature Language="F#" Value="static member DevTestLabVmApplyArtifactsContent : seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmApplyArtifactsContent" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVmApplyArtifactsContent artifacts" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmApplyArtifactsContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="artifacts" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="artifacts"> The list of artifacts to apply. </param>
+        <summary> Request body for applying artifacts to a virtual machine. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmApplyArtifactsContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabVmCreationContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationContent DevTestLabVmCreationContent (string notes = default, string ownerObjectId = default, string ownerUserPrincipalName = default, DateTimeOffset? createdOn = default, string customImageId = default, string size = default, string userName = default, string password = default, string sshKey = default, bool? isAuthenticationWithSshKey = default, string labSubnetName = default, Azure.Core.ResourceIdentifier labVirtualNetworkId = default, bool? disallowPublicIPAddress = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; artifacts = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference galleryImageReference = default, string planId = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface networkInterface = default, DateTimeOffset? expireOn = default, bool? allowClaim = default, string storageType = default, string environmentId = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties&gt; dataDiskParameters = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter&gt; scheduleParameters = default, int? bulkCreationParametersInstanceCount = default, string name = default, Azure.Core.AzureLocation? location = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationContent DevTestLabVmCreationContent(string notes, string ownerObjectId, string ownerUserPrincipalName, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, string customImageId, string size, string userName, string password, string sshKey, valuetype System.Nullable`1&lt;bool&gt; isAuthenticationWithSshKey, string labSubnetName, class Azure.Core.ResourceIdentifier labVirtualNetworkId, valuetype System.Nullable`1&lt;bool&gt; disallowPublicIPAddress, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; artifacts, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference galleryImageReference, string planId, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface networkInterface, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; expireOn, valuetype System.Nullable`1&lt;bool&gt; allowClaim, string storageType, string environmentId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties&gt; dataDiskParameters, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter&gt; scheduleParameters, valuetype System.Nullable`1&lt;int32&gt; bulkCreationParametersInstanceCount, string name, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVmCreationContent(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.String,Azure.Core.ResourceIdentifier,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo},Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference,System.String,Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface,System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter},System.Nullable{System.Int32},System.String,System.Nullable{Azure.Core.AzureLocation},System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabVmCreationContent (Optional notes As String = Nothing, Optional ownerObjectId As String = Nothing, Optional ownerUserPrincipalName As String = Nothing, Optional createdOn As Nullable(Of DateTimeOffset) = Nothing, Optional customImageId As String = Nothing, Optional size As String = Nothing, Optional userName As String = Nothing, Optional password As String = Nothing, Optional sshKey As String = Nothing, Optional isAuthenticationWithSshKey As Nullable(Of Boolean) = Nothing, Optional labSubnetName As String = Nothing, Optional labVirtualNetworkId As ResourceIdentifier = Nothing, Optional disallowPublicIPAddress As Nullable(Of Boolean) = Nothing, Optional artifacts As IEnumerable(Of DevTestLabArtifactInstallInfo) = Nothing, Optional galleryImageReference As DevTestLabGalleryImageReference = Nothing, Optional planId As String = Nothing, Optional networkInterface As DevTestLabNetworkInterface = Nothing, Optional expireOn As Nullable(Of DateTimeOffset) = Nothing, Optional allowClaim As Nullable(Of Boolean) = Nothing, Optional storageType As String = Nothing, Optional environmentId As String = Nothing, Optional dataDiskParameters As IEnumerable(Of DevTestLabDataDiskProperties) = Nothing, Optional scheduleParameters As IEnumerable(Of DevTestLabScheduleCreationParameter) = Nothing, Optional bulkCreationParametersInstanceCount As Nullable(Of Integer) = Nothing, Optional name As String = Nothing, Optional location As Nullable(Of AzureLocation) = Nothing, Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabVmCreationContent" />
+      <MemberSignature Language="F#" Value="static member DevTestLabVmCreationContent : string * string * string * Nullable&lt;DateTimeOffset&gt; * string * string * string * string * string * Nullable&lt;bool&gt; * string * Azure.Core.ResourceIdentifier * Nullable&lt;bool&gt; * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; * Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference * string * Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;bool&gt; * string * string * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties&gt; * seq&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter&gt; * Nullable&lt;int&gt; * string * Nullable&lt;Azure.Core.AzureLocation&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationContent" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVmCreationContent (notes, ownerObjectId, ownerUserPrincipalName, createdOn, customImageId, size, userName, password, sshKey, isAuthenticationWithSshKey, labSubnetName, labVirtualNetworkId, disallowPublicIPAddress, artifacts, galleryImageReference, planId, networkInterface, expireOn, allowClaim, storageType, environmentId, dataDiskParameters, scheduleParameters, bulkCreationParametersInstanceCount, name, location, tags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notes" Type="System.String" />
+        <Parameter Name="ownerObjectId" Type="System.String" />
+        <Parameter Name="ownerUserPrincipalName" Type="System.String" />
+        <Parameter Name="createdOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="customImageId" Type="System.String" />
+        <Parameter Name="size" Type="System.String" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="sshKey" Type="System.String" />
+        <Parameter Name="isAuthenticationWithSshKey" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="labSubnetName" Type="System.String" />
+        <Parameter Name="labVirtualNetworkId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="disallowPublicIPAddress" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="artifacts" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt;" />
+        <Parameter Name="galleryImageReference" Type="Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference" />
+        <Parameter Name="planId" Type="System.String" />
+        <Parameter Name="networkInterface" Type="Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface" />
+        <Parameter Name="expireOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="allowClaim" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="storageType" Type="System.String" />
+        <Parameter Name="environmentId" Type="System.String" />
+        <Parameter Name="dataDiskParameters" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties&gt;" />
+        <Parameter Name="scheduleParameters" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter&gt;" />
+        <Parameter Name="bulkCreationParametersInstanceCount" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="notes"> The notes of the virtual machine. </param>
+        <param name="ownerObjectId"> The object identifier of the owner of the virtual machine. </param>
+        <param name="ownerUserPrincipalName"> The user principal name of the virtual machine owner. </param>
+        <param name="createdOn"> The creation date of the virtual machine. </param>
+        <param name="customImageId"> The custom image identifier of the virtual machine. </param>
+        <param name="size"> The size of the virtual machine. </param>
+        <param name="userName"> The user name of the virtual machine. </param>
+        <param name="password"> The password of the virtual machine administrator. </param>
+        <param name="sshKey"> The SSH key of the virtual machine administrator. </param>
+        <param name="isAuthenticationWithSshKey"> Indicates whether this virtual machine uses an SSH key for authentication. </param>
+        <param name="labSubnetName"> The lab subnet name of the virtual machine. </param>
+        <param name="labVirtualNetworkId"> The lab virtual network identifier of the virtual machine. </param>
+        <param name="disallowPublicIPAddress"> Indicates whether the virtual machine is to be created without a public IP address. </param>
+        <param name="artifacts"> The artifacts to be installed on the virtual machine. </param>
+        <param name="galleryImageReference"> The Microsoft Azure Marketplace image reference of the virtual machine. </param>
+        <param name="planId"> The id of the plan associated with the virtual machine image. </param>
+        <param name="networkInterface"> The network interface properties. </param>
+        <param name="expireOn"> The expiration date for VM. </param>
+        <param name="allowClaim"> Indicates whether another user can take ownership of the virtual machine. </param>
+        <param name="storageType"> Storage type to use for virtual machine (i.e. Standard, Premium). </param>
+        <param name="environmentId"> The resource ID of the environment that contains this virtual machine, if any. </param>
+        <param name="dataDiskParameters"> New or existing data disks to attach to the virtual machine after creation. </param>
+        <param name="scheduleParameters"> Virtual Machine schedules to be created. </param>
+        <param name="bulkCreationParametersInstanceCount"> The number of virtual machine instances to create. </param>
+        <param name="name"> The name of the virtual machine or environment. </param>
+        <param name="location"> The location of the new virtual machine or environment. </param>
+        <param name="tags"> The tags of the resource. </param>
+        <summary>To be added.</summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DevTestLabVmData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.DevTestLabVmData DevTestLabVmData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, string notes = default, string ownerObjectId = default, string ownerUserPrincipalName = default, string createdByUserId = default, string createdByUser = default, DateTimeOffset? createdOn = default, Azure.Core.ResourceIdentifier computeId = default, string customImageId = default, string osType = default, string size = default, string userName = default, string password = default, string sshKey = default, bool? isAuthenticationWithSshKey = default, string fqdn = default, string labSubnetName = default, Azure.Core.ResourceIdentifier labVirtualNetworkId = default, bool? disallowPublicIPAddress = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; artifacts = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactDeploymentStatus artifactDeploymentStatus = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference galleryImageReference = default, string planId = default, Azure.ResourceManager.DevTestLabs.Models.ComputeVmProperties computeVm = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface networkInterface = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabApplicableSchedule applicableSchedule = default, DateTimeOffset? expireOn = default, bool? allowClaim = default, string storageType = default, Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationSource? vmCreationSource = default, Azure.Core.ResourceIdentifier environmentId = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties&gt; dataDiskParameters = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter&gt; scheduleParameters = default, string lastKnownPowerState = default, string provisioningState = default, Guid? uniqueIdentifier = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.DevTestLabVmData DevTestLabVmData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, string notes, string ownerObjectId, string ownerUserPrincipalName, string createdByUserId, string createdByUser, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, class Azure.Core.ResourceIdentifier computeId, string customImageId, string osType, string size, string userName, string password, string sshKey, valuetype System.Nullable`1&lt;bool&gt; isAuthenticationWithSshKey, string fqdn, string labSubnetName, class Azure.Core.ResourceIdentifier labVirtualNetworkId, valuetype System.Nullable`1&lt;bool&gt; disallowPublicIPAddress, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactInstallInfo&gt; artifacts, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabArtifactDeploymentStatus artifactDeploymentStatus, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabGalleryImageReference galleryImageReference, string planId, class Azure.ResourceManager.DevTestLabs.Models.ComputeVmProperties computeVm, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabNetworkInterface networkInterface, class Azure.ResourceManager.DevTestLabs.Models.DevTestLabApplicableSchedule applicableSchedule, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; expireOn, valuetype System.Nullable`1&lt;bool&gt; allowClaim, string storageType, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmCreationSource&gt; vmCreationSource, class Azure.Core.ResourceIdentifier environmentId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabDataDiskProperties&gt; dataDiskParameters, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DevTestLabs.Models.DevTestLabScheduleCreationParameter&gt; scheduleParameters, string lastKnownPowerState, string provisioningState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; uniqueIdentifier) cil managed" />
@@ -1492,8 +2068,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVmData</ReturnType>
@@ -1585,6 +2160,56 @@
         <param name="uniqueIdentifier"> The unique immutable identifier of a resource (Guid). </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabVmPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmPatch DevTestLabVmPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmPatch DevTestLabVmPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVmPatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabVmPatch (Optional tags As IDictionary(Of String, String) = Nothing) As DevTestLabVmPatch" />
+      <MemberSignature Language="F#" Value="static member DevTestLabVmPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmPatch" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabVmPatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> The tags of the resource. </param>
+        <summary> A virtual machine. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabVmPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevTestLabWeekDetails">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DevTestLabs.Models.DevTestLabWeekDetails DevTestLabWeekDetails (System.Collections.Generic.IEnumerable&lt;string&gt; weekdays = default, string time = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DevTestLabs.Models.DevTestLabWeekDetails DevTestLabWeekDetails(class System.Collections.Generic.IEnumerable`1&lt;string&gt; weekdays, string time) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabWeekDetails(System.Collections.Generic.IEnumerable{System.String},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DevTestLabWeekDetails (Optional weekdays As IEnumerable(Of String) = Nothing, Optional time As String = Nothing) As DevTestLabWeekDetails" />
+      <MemberSignature Language="F#" Value="static member DevTestLabWeekDetails : seq&lt;string&gt; * string -&gt; Azure.ResourceManager.DevTestLabs.Models.DevTestLabWeekDetails" Usage="Azure.ResourceManager.DevTestLabs.Models.ArmDevTestLabsModelFactory.DevTestLabWeekDetails (weekdays, time)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DevTestLabs.Models.DevTestLabWeekDetails</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="weekdays" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="time" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="weekdays"> The days of the week for which the schedule is set (e.g. Sunday, Monday, Tuesday, etc.). </param>
+        <param name="time"> The time of the day the schedule will occur. </param>
+        <summary> Properties of a weekly schedule. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DevTestLabs.Models.DevTestLabWeekDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

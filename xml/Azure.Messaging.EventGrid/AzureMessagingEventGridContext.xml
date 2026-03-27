@@ -8,6 +8,7 @@
     <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
     <AssemblyVersion>4.31.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
@@ -15,8 +16,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            Context class which will be filled in by the System.ClientModel.SourceGeneration.
-            For more information see 'https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/System.ClientModel/src/docs/ModelReaderWriterContext.md'
+            This class is used to provide a default ModelReaderWriterContext for Azure Messaging Event Grid.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -31,12 +31,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.AzureMessagingEventGridContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets the default instance </summary>
+        <summary>
+            The default <see cref="T:Azure.Messaging.EventGrid.AzureMessagingEventGridContext" /> instance.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -56,8 +59,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="builder" Type="System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" RefType="out" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="builder" Type="System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" RefType="out" Index="1" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
         <param name="type">The type to get info for.</param>

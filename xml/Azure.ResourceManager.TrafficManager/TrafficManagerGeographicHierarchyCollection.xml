@@ -1,0 +1,197 @@
+<Type Name="TrafficManagerGeographicHierarchyCollection" FullName="Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection">
+  <TypeSignature Language="C#" Value="public class TrafficManagerGeographicHierarchyCollection : Azure.ResourceManager.ArmCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TrafficManagerGeographicHierarchyCollection extends Azure.ResourceManager.ArmCollection" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class TrafficManagerGeographicHierarchyCollection&#xA;Inherits ArmCollection" />
+  <TypeSignature Language="F#" Value="type TrafficManagerGeographicHierarchyCollection = class&#xA;    inherit ArmCollection" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.ArmCollection</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A class representing a collection of <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource" /> and their operations.
+            Each <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.Resources.TenantResource" />.
+            To get a <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection" /> instance call the GetTrafficManagerGeographicHierarchies method from an instance of <see cref="T:Azure.ResourceManager.Resources.TenantResource" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected TrafficManagerGeographicHierarchyCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of TrafficManagerGeographicHierarchyCollection for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;bool&gt; Exists (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;bool&gt; Exists(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.Exists(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Exists (Optional cancellationToken As CancellationToken = Nothing) As Response(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Exists : System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;&#xA;override this.Exists : System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;" Usage="trafficManagerGeographicHierarchyCollection.Exists cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks to see if the resource exists in azure.
+            <list type="bullet"><item><term> Request Path. </term><description> /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default. </description></item><item><term> Operation Id. </term><description> TrafficManagerGeographicHierarchies_GetDefault. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt; ExistsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;bool&gt;&gt; ExistsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.ExistsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExistsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of Boolean))" />
+      <MemberSignature Language="F#" Value="abstract member ExistsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;&#xA;override this.ExistsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;" Usage="trafficManagerGeographicHierarchyCollection.ExistsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks to see if the resource exists in azure.
+            <list type="bullet"><item><term> Request Path. </term><description> /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default. </description></item><item><term> Operation Id. </term><description> TrafficManagerGeographicHierarchies_GetDefault. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.Get(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of TrafficManagerGeographicHierarchyResource)" />
+      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;" Usage="trafficManagerGeographicHierarchyCollection.Get cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the default Geographic Hierarchy used by the Geographic traffic routing method.
+            <list type="bullet"><item><term> Request Path. </term><description> /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default. </description></item><item><term> Operation Id. </term><description> TrafficManagerGeographicHierarchies_GetDefault. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.GetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of TrafficManagerGeographicHierarchyResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt;" Usage="trafficManagerGeographicHierarchyCollection.GetAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the default Geographic Hierarchy used by the Geographic traffic routing method.
+            <list type="bullet"><item><term> Request Path. </term><description> /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default. </description></item><item><term> Operation Id. </term><description> TrafficManagerGeographicHierarchies_GetDefault. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt; GetIfExists (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.NullableResponse`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt; GetIfExists(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.GetIfExists(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (Optional cancellationToken As CancellationToken = Nothing) As NullableResponse(Of TrafficManagerGeographicHierarchyResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&#xA;override this.GetIfExists : System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;" Usage="trafficManagerGeographicHierarchyCollection.GetIfExists cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term> Request Path. </term><description> /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default. </description></item><item><term> Operation Id. </term><description> TrafficManagerGeographicHierarchies_GetDefault. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt; GetIfExistsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.NullableResponse`1&lt;class Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt; GetIfExistsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyCollection.GetIfExistsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of NullableResponse(Of TrafficManagerGeographicHierarchyResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt;&#xA;override this.GetIfExistsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt;" Usage="trafficManagerGeographicHierarchyCollection.GetIfExistsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term> Request Path. </term><description> /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default. </description></item><item><term> Operation Id. </term><description> TrafficManagerGeographicHierarchies_GetDefault. </description></item><item><term> Default Api Version. </term><description> 2022-04-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

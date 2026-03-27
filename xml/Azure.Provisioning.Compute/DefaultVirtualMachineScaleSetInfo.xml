@@ -1,0 +1,112 @@
+<Type Name="DefaultVirtualMachineScaleSetInfo" FullName="Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo">
+  <TypeSignature Language="C#" Value="public class DefaultVirtualMachineScaleSetInfo : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DefaultVirtualMachineScaleSetInfo extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class DefaultVirtualMachineScaleSetInfo&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type DefaultVirtualMachineScaleSetInfo = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Indicates the target Virtual Machine ScaleSet properties upon triggering a
+            seamless migration without downtime of the VMs via the
+            ConvertToVirtualMachineScaleSet API.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DefaultVirtualMachineScaleSetInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new DefaultVirtualMachineScaleSetInfo.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConstrainedMaximumCapacity">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; ConstrainedMaximumCapacity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; ConstrainedMaximumCapacity" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo.ConstrainedMaximumCapacity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConstrainedMaximumCapacity As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ConstrainedMaximumCapacity : Azure.Provisioning.BicepValue&lt;bool&gt;" Usage="Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo.ConstrainedMaximumCapacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates if the the maximum capacity of the default migrated Virtual
+            Machine Scale Set after its migration will be constrained to a limited
+            number of VMs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultVirtualMachineScaleSetId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; DefaultVirtualMachineScaleSetId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; DefaultVirtualMachineScaleSetId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo.DefaultVirtualMachineScaleSetId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultVirtualMachineScaleSetId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.DefaultVirtualMachineScaleSetId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo.DefaultVirtualMachineScaleSetId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DefaultVirtualMachineScaleSetInfo.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="defaultVirtualMachineScaleSetInfo.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            DefaultVirtualMachineScaleSetInfo.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

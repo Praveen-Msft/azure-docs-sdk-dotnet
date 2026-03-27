@@ -110,18 +110,18 @@
       </Docs>
     </Member>
     <Member MemberName="Agents">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Agents.AgentsClient Agents { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Agents.AgentsClient Agents" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Agents.AgentAdministrationClient Agents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Agents.AgentAdministrationClient Agents" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.AIProjectClient.Agents" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Agents As AgentsClient" />
-      <MemberSignature Language="F#" Value="member this.Agents : Azure.AI.Projects.Agents.AgentsClient" Usage="Azure.AI.Projects.AIProjectClient.Agents" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Agents As AgentAdministrationClient" />
+      <MemberSignature Language="F#" Value="member this.Agents : Azure.AI.Projects.Agents.AgentAdministrationClient" Usage="Azure.AI.Projects.AIProjectClient.Agents" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Agents.AgentsClient</ReturnType>
+        <ReturnType>Azure.AI.Projects.Agents.AgentAdministrationClient</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
@@ -233,18 +233,18 @@
       </Docs>
     </Member>
     <Member MemberName="Evaluators">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Evaluators Evaluators { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Evaluators Evaluators" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.ProjectEvaluators Evaluators { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.ProjectEvaluators Evaluators" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.AIProjectClient.Evaluators" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Evaluators As Evaluators" />
-      <MemberSignature Language="F#" Value="member this.Evaluators : Azure.AI.Projects.Evaluators" Usage="Azure.AI.Projects.AIProjectClient.Evaluators" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Evaluators As ProjectEvaluators" />
+      <MemberSignature Language="F#" Value="member this.Evaluators : Azure.AI.Projects.ProjectEvaluators" Usage="Azure.AI.Projects.AIProjectClient.Evaluators" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Evaluators</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectEvaluators</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
@@ -315,6 +315,69 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetProjectEvaluatorsClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.ProjectEvaluators GetProjectEvaluatorsClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.Projects.ProjectEvaluators GetProjectEvaluatorsClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AIProjectClient.GetProjectEvaluatorsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetProjectEvaluatorsClient () As ProjectEvaluators" />
+      <MemberSignature Language="F#" Value="abstract member GetProjectEvaluatorsClient : unit -&gt; Azure.AI.Projects.ProjectEvaluators&#xA;override this.GetProjectEvaluatorsClient : unit -&gt; Azure.AI.Projects.ProjectEvaluators" Usage="aIProjectClient.GetProjectEvaluatorsClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.ProjectEvaluators</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of ProjectEvaluators. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProjectInsightsClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.ProjectInsights GetProjectInsightsClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.Projects.ProjectInsights GetProjectInsightsClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AIProjectClient.GetProjectInsightsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetProjectInsightsClient () As ProjectInsights" />
+      <MemberSignature Language="F#" Value="abstract member GetProjectInsightsClient : unit -&gt; Azure.AI.Projects.ProjectInsights&#xA;override this.GetProjectInsightsClient : unit -&gt; Azure.AI.Projects.ProjectInsights" Usage="aIProjectClient.GetProjectInsightsClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.ProjectInsights</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of ProjectInsights. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProjectSchedulesClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.ProjectSchedules GetProjectSchedulesClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.Projects.ProjectSchedules GetProjectSchedulesClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AIProjectClient.GetProjectSchedulesClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetProjectSchedulesClient () As ProjectSchedules" />
+      <MemberSignature Language="F#" Value="abstract member GetProjectSchedulesClient : unit -&gt; Azure.AI.Projects.ProjectSchedules&#xA;override this.GetProjectSchedulesClient : unit -&gt; Azure.AI.Projects.ProjectSchedules" Usage="aIProjectClient.GetProjectSchedulesClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Projects</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.Projects.ProjectSchedules</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of ProjectSchedules. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Indexes">
       <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.AIProjectIndexesOperations Indexes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.AIProjectIndexesOperations Indexes" />
@@ -337,18 +400,18 @@
       </Docs>
     </Member>
     <Member MemberName="Insights">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Insights Insights { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Insights Insights" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.ProjectInsights Insights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.ProjectInsights Insights" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.AIProjectClient.Insights" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Insights As Insights" />
-      <MemberSignature Language="F#" Value="member this.Insights : Azure.AI.Projects.Insights" Usage="Azure.AI.Projects.AIProjectClient.Insights" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Insights As ProjectInsights" />
+      <MemberSignature Language="F#" Value="member this.Insights : Azure.AI.Projects.ProjectInsights" Usage="Azure.AI.Projects.AIProjectClient.Insights" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Insights</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectInsights</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
@@ -438,18 +501,18 @@
       </Docs>
     </Member>
     <Member MemberName="Schedules">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.Schedules Schedules { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Schedules Schedules" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.Projects.ProjectSchedules Schedules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.ProjectSchedules Schedules" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.AIProjectClient.Schedules" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Schedules As Schedules" />
-      <MemberSignature Language="F#" Value="member this.Schedules : Azure.AI.Projects.Schedules" Usage="Azure.AI.Projects.AIProjectClient.Schedules" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Schedules As ProjectSchedules" />
+      <MemberSignature Language="F#" Value="member this.Schedules : Azure.AI.Projects.ProjectSchedules" Usage="Azure.AI.Projects.AIProjectClient.Schedules" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Schedules</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectSchedules</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

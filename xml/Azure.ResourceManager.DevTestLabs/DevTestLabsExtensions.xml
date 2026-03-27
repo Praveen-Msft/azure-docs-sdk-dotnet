@@ -10,6 +10,7 @@
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,8 +30,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -42,19 +42,19 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <param name="name"> The name of the lab. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=defaultStorageAccount)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLab(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLab(System.String,System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="name" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevTestLabArmTemplateResource">
@@ -66,8 +66,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArmTemplateResource</ReturnType>
@@ -77,12 +76,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArmTemplateResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabArmTemplateResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArmTemplateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabArmTemplateResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabArmTemplateResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArmTemplateResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -98,8 +96,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArtifactResource</ReturnType>
@@ -109,12 +106,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabArtifactResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabArtifactResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -130,8 +126,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource</ReturnType>
@@ -141,12 +136,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabArtifactSourceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabArtifactSourceResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabArtifactSourceResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -162,8 +156,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;&gt;</ReturnType>
@@ -175,19 +168,19 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <param name="name"> The name of the lab. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=defaultStorageAccount)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get lab.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="name" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevTestLabCostResource">
@@ -199,8 +192,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCostResource</ReturnType>
@@ -210,12 +202,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCostResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabCostResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCostResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabCostResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabCostResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCostResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -231,8 +222,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource</ReturnType>
@@ -242,12 +232,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabCustomImageResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabCustomImageResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabCustomImageResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -263,8 +252,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabDiskResource</ReturnType>
@@ -274,12 +262,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabDiskResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabDiskResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabDiskResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabDiskResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabDiskResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabDiskResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -295,8 +282,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentResource</ReturnType>
@@ -306,12 +292,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabEnvironmentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabEnvironmentResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabEnvironmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -327,8 +312,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource</ReturnType>
@@ -338,12 +322,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabFormulaResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabFormulaResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabFormulaResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -359,8 +342,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource&gt;</ReturnType>
@@ -372,19 +354,19 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="name"> The name of the schedule. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
+        <param name="name"> The name of the Schedule. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=status)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get schedule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/schedules/{name}</description></item><item><term>Operation Id</term><description>GlobalSchedules_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabGlobalSchedule(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabGlobalSchedule(System.String,System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="name" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevTestLabGlobalScheduleAsync">
@@ -396,8 +378,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource&gt;&gt;</ReturnType>
@@ -409,19 +390,19 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="name"> The name of the schedule. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
+        <param name="name"> The name of the Schedule. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=status)'. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get schedule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/schedules/{name}</description></item><item><term>Operation Id</term><description>GlobalSchedules_Get</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabGlobalScheduleAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabGlobalScheduleAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="name" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevTestLabGlobalScheduleResource">
@@ -433,8 +414,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource</ReturnType>
@@ -444,12 +424,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabGlobalScheduleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabGlobalScheduleResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -465,8 +444,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleCollection</ReturnType>
@@ -475,11 +453,10 @@
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <summary>
-            Gets a collection of DevTestLabGlobalScheduleResources in the ResourceGroupResource.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabGlobalSchedules" /> instead.</description></item></summary>
-        <returns> An object representing collection of DevTestLabGlobalScheduleResources and their operations over a DevTestLabGlobalScheduleResource. </returns>
+            Gets a collection of DevTestLabGlobalSchedules in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /><item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabGlobalSchedules" /> instead. </description></item></summary>
+        <returns> An object representing collection of DevTestLabGlobalSchedules and their operations over a DevTestLabGlobalScheduleResource. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceGroupResource" /> is null. </exception>
@@ -494,8 +471,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource&gt;</ReturnType>
@@ -509,7 +485,7 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=status)'. </param>
         <param name="filter"> The filter to apply to the operation. Example: '$filter=contains(name,'myName'). </param>
         <param name="top"> The maximum number of resources to return from the operation. Example: '$top=10'. </param>
@@ -517,7 +493,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List schedules in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DevTestLab/schedules</description></item><item><term>Operation Id</term><description>GlobalSchedules_ListBySubscription</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabGlobalSchedules(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabGlobalSchedules(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -533,8 +509,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource&gt;</ReturnType>
@@ -548,7 +523,7 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=status)'. </param>
         <param name="filter"> The filter to apply to the operation. Example: '$filter=contains(name,'myName'). </param>
         <param name="top"> The maximum number of resources to return from the operation. Example: '$top=10'. </param>
@@ -556,8 +531,8 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List schedules in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DevTestLab/schedules</description></item><item><term>Operation Id</term><description>GlobalSchedules_ListBySubscription</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabGlobalSchedules(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /> that may take multiple service requests to iterate over. </returns>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabGlobalSchedulesAsync(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabGlobalScheduleResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="subscriptionResource" /> is null. </exception>
@@ -572,8 +547,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource</ReturnType>
@@ -583,12 +557,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabNotificationChannelResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabNotificationChannelResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabNotificationChannelResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -604,8 +577,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource</ReturnType>
@@ -615,12 +587,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabPolicyResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -636,8 +607,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabResource</ReturnType>
@@ -647,12 +617,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -668,8 +637,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabCollection</ReturnType>
@@ -678,11 +646,10 @@
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <summary>
-            Gets a collection of DevTestLabResources in the ResourceGroupResource.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabs" /> instead.</description></item></summary>
-        <returns> An object representing collection of DevTestLabResources and their operations over a DevTestLabResource. </returns>
+            Gets a collection of DevTestLabs in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /><item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsResourceGroupResource.GetDevTestLabs" /> instead. </description></item></summary>
+        <returns> An object representing collection of DevTestLabs and their operations over a DevTestLabResource. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceGroupResource" /> is null. </exception>
@@ -697,8 +664,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -712,7 +678,7 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=defaultStorageAccount)'. </param>
         <param name="filter"> The filter to apply to the operation. Example: '$filter=contains(name,'myName'). </param>
         <param name="top"> The maximum number of resources to return from the operation. Example: '$top=10'. </param>
@@ -720,7 +686,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List labs in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DevTestLab/labs</description></item><item><term>Operation Id</term><description>Labs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabs(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabs(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -736,8 +702,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DevTestLabs.DevTestLabResource&gt;</ReturnType>
@@ -751,7 +716,7 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
         <param name="expand"> Specify the $expand query. Example: 'properties($select=defaultStorageAccount)'. </param>
         <param name="filter"> The filter to apply to the operation. Example: '$filter=contains(name,'myName'). </param>
         <param name="top"> The maximum number of resources to return from the operation. Example: '$top=10'. </param>
@@ -759,8 +724,8 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List labs in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DevTestLab/labs</description></item><item><term>Operation Id</term><description>Labs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2018-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabs(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> that may take multiple service requests to iterate over. </returns>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsSubscriptionResource.GetDevTestLabsAsync(System.String,System.String,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="subscriptionResource" /> is null. </exception>
@@ -775,8 +740,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource</ReturnType>
@@ -786,12 +750,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabScheduleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabScheduleResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabScheduleResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -807,8 +770,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabSecretResource</ReturnType>
@@ -818,12 +780,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabSecretResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabSecretResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabSecretResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabSecretResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabSecretResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabSecretResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -839,8 +800,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricResource</ReturnType>
@@ -850,12 +810,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabServiceFabricResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabServiceFabricResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -871,8 +830,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricScheduleResource</ReturnType>
@@ -882,12 +840,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricScheduleResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricScheduleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabServiceFabricScheduleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabServiceFabricScheduleResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceFabricScheduleResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -903,8 +860,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource</ReturnType>
@@ -914,12 +870,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabServiceRunnerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabServiceRunnerResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabServiceRunnerResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -935,8 +890,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabUserResource</ReturnType>
@@ -946,12 +900,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabUserResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabUserResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabUserResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabUserResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabUserResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabUserResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -967,8 +920,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource</ReturnType>
@@ -978,12 +930,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabVirtualNetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabVirtualNetworkResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVirtualNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -999,8 +950,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVmResource</ReturnType>
@@ -1010,12 +960,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabVmResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabVmResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabVmResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1031,8 +980,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevTestLabs</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevTestLabs.DevTestLabVmScheduleResource</ReturnType>
@@ -1042,12 +990,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmScheduleResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DevTestLabs.DevTestLabVmScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmScheduleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabVmScheduleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.DevTestLabs.Mocking.MockableDevTestLabsArmClient.GetDevTestLabVmScheduleResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DevTestLabs.DevTestLabVmScheduleResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

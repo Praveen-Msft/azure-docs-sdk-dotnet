@@ -29,18 +29,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AgentTaxonomyInput (Azure.AI.Projects.Target target, System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.RiskCategory&gt; riskCategories);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.Projects.Target target, class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.AI.Projects.RiskCategory&gt; riskCategories) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AgentTaxonomyInput.#ctor(Azure.AI.Projects.Target,System.Collections.Generic.IEnumerable{Azure.AI.Projects.RiskCategory})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (target As Target, riskCategories As IEnumerable(Of RiskCategory))" />
-      <MemberSignature Language="F#" Value="new Azure.AI.Projects.AgentTaxonomyInput : Azure.AI.Projects.Target * seq&lt;Azure.AI.Projects.RiskCategory&gt; -&gt; Azure.AI.Projects.AgentTaxonomyInput" Usage="new Azure.AI.Projects.AgentTaxonomyInput (target, riskCategories)" />
+      <MemberSignature Language="C#" Value="public AgentTaxonomyInput (Azure.AI.Projects.EvaluationTarget target, System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.RiskCategory&gt; riskCategories);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.Projects.EvaluationTarget target, class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.AI.Projects.RiskCategory&gt; riskCategories) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.AgentTaxonomyInput.#ctor(Azure.AI.Projects.EvaluationTarget,System.Collections.Generic.IEnumerable{Azure.AI.Projects.RiskCategory})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (target As EvaluationTarget, riskCategories As IEnumerable(Of RiskCategory))" />
+      <MemberSignature Language="F#" Value="new Azure.AI.Projects.AgentTaxonomyInput : Azure.AI.Projects.EvaluationTarget * seq&lt;Azure.AI.Projects.RiskCategory&gt; -&gt; Azure.AI.Projects.AgentTaxonomyInput" Usage="new Azure.AI.Projects.AgentTaxonomyInput (target, riskCategories)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="target" Type="Azure.AI.Projects.Target" />
+        <Parameter Name="target" Type="Azure.AI.Projects.EvaluationTarget" />
         <Parameter Name="riskCategories" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Projects.RiskCategory&gt;" />
       </Parameters>
       <Docs>
@@ -314,18 +314,18 @@
       </Docs>
     </Member>
     <Member MemberName="Target">
-      <MemberSignature Language="C#" Value="public Azure.AI.Projects.Target Target { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.Target Target" />
+      <MemberSignature Language="C#" Value="public Azure.AI.Projects.EvaluationTarget Target { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.Projects.EvaluationTarget Target" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.AgentTaxonomyInput.Target" />
-      <MemberSignature Language="VB.NET" Value="Public Property Target As Target" />
-      <MemberSignature Language="F#" Value="member this.Target : Azure.AI.Projects.Target with get, set" Usage="Azure.AI.Projects.AgentTaxonomyInput.Target" />
+      <MemberSignature Language="VB.NET" Value="Public Property Target As EvaluationTarget" />
+      <MemberSignature Language="F#" Value="member this.Target : Azure.AI.Projects.EvaluationTarget with get, set" Usage="Azure.AI.Projects.AgentTaxonomyInput.Target" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Target</ReturnType>
+        <ReturnType>Azure.AI.Projects.EvaluationTarget</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Target configuration for the agent. </summary>

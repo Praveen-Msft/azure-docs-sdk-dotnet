@@ -45,18 +45,18 @@
       </Docs>
     </Member>
     <Member MemberName="Days">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.DayOfWeek&gt; Days { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Azure.ResourceManager.NetApp.Models.DayOfWeek&gt; Days" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppDayOfWeek&gt; Days { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Azure.ResourceManager.NetApp.Models.NetAppDayOfWeek&gt; Days" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.ElasticSnapshotPolicyWeeklySchedule.Days" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Days As IList(Of DayOfWeek)" />
-      <MemberSignature Language="F#" Value="member this.Days : System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.DayOfWeek&gt;" Usage="Azure.ResourceManager.NetApp.Models.ElasticSnapshotPolicyWeeklySchedule.Days" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Days As IList(Of NetAppDayOfWeek)" />
+      <MemberSignature Language="F#" Value="member this.Days : System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppDayOfWeek&gt;" Usage="Azure.ResourceManager.NetApp.Models.ElasticSnapshotPolicyWeeklySchedule.Days" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.DayOfWeek&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppDayOfWeek&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Indicates which weekday(s) snapshot(s) should be taken, accepts a list of week day names in english. </summary>

@@ -9,6 +9,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,14 +30,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.DeletedVaultProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="vaultId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="vaultDeletionOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="purgeOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="vaultId" Type="System.String" />
+        <Parameter Name="vaultDeletionOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="purgeOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
       </Parameters>
       <Docs>
         <param name="vaultId"> ARM Id of the Vault which was deleted. </param>
@@ -57,12 +59,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.DeletedVaultRestoreInput</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="deletedVaultRestoreInputRecoveryResourceGroupId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="deletedVaultRestoreInputRecoveryResourceGroupId" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="deletedVaultRestoreInputRecoveryResourceGroupId"> Recovery resource group Id. </param>
@@ -81,13 +84,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.DnsZoneResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subResource" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultSubResourceType&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="requiredZoneNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subResource" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultSubResourceType&gt;" />
+        <Parameter Name="requiredZoneNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="subResource"> Subresource type for vault AzureBackup, AzureBackup_secondary or AzureSiteRecovery. </param>
@@ -107,16 +111,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesDeletedVaultData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.RecoveryServices.Models.DeletedVaultProperties" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.RecoveryServices.Models.DeletedVaultProperties" />
       </Parameters>
       <Docs>
         <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
@@ -139,6 +144,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesNameAvailabilityResult</ReturnType>
@@ -167,6 +173,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnection</ReturnType>
@@ -197,6 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties</ReturnType>
@@ -231,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesPrivateLinkResourceData</ReturnType>
@@ -267,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateLinkServiceConnectionState</ReturnType>
@@ -286,20 +296,19 @@
       </Docs>
     </Member>
     <Member MemberName="RecoveryServicesSecuritySettings">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings RecoveryServicesSecuritySettings (Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState? immutabilityState, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings softDeleteSettings, Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization? multiUserAuthorization);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings RecoveryServicesSecuritySettings (Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState? immutabilityState, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings softDeleteSettings, Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization? multiUserAuthorization);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings RecoveryServicesSecuritySettings(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState&gt; immutabilityState, class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings softDeleteSettings, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization&gt; multiUserAuthorization) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.RecoveryServicesSecuritySettings(System.Nullable{Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState},Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings,System.Nullable{Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesSecuritySettings (immutabilityState As Nullable(Of ImmutabilityState), softDeleteSettings As RecoveryServicesSoftDeleteSettings, multiUserAuthorization As Nullable(Of MultiUserAuthorization)) As RecoveryServicesSecuritySettings" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesSecuritySettings (immutabilityState As Nullable(Of ImmutabilityState), softDeleteSettings As RecoveryServicesSoftDeleteSettings, multiUserAuthorization As Nullable(Of MultiUserAuthorization)) As RecoveryServicesSecuritySettings" />
       <MemberSignature Language="F#" Value="static member RecoveryServicesSecuritySettings : Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState&gt; * Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization&gt; -&gt; Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings" Usage="Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.RecoveryServicesSecuritySettings (immutabilityState, softDeleteSettings, multiUserAuthorization)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings RecoveryServicesSecuritySettings (Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState? immutabilityState = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings softDeleteSettings = default, Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization? multiUserAuthorization = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesSecuritySettings (Optional immutabilityState As Nullable(Of ImmutabilityState) = Nothing, Optional softDeleteSettings As RecoveryServicesSoftDeleteSettings = Nothing, Optional multiUserAuthorization As Nullable(Of MultiUserAuthorization) = Nothing) As RecoveryServicesSecuritySettings" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -331,15 +340,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="immutabilityState" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="softDeleteSettings" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="multiUserAuthorization" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="sourceScanConfiguration" Type="Azure.ResourceManager.RecoveryServices.Models.SourceScanConfiguration" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="immutabilityState" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.ImmutabilityState&gt;" />
+        <Parameter Name="softDeleteSettings" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSoftDeleteSettings" />
+        <Parameter Name="multiUserAuthorization" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.MultiUserAuthorization&gt;" />
+        <Parameter Name="sourceScanConfiguration" Type="Azure.ResourceManager.RecoveryServices.Models.SourceScanConfiguration" />
       </Parameters>
       <Docs>
         <param name="immutabilityState"> Gets or sets the State. </param>
@@ -352,17 +362,16 @@
       </Docs>
     </Member>
     <Member MemberName="RecoveryServicesVaultData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData RecoveryServicesVaultData (Azure.Core.ResourceIdentifier id, string name, Azure.Core.ResourceType resourceType, Azure.ResourceManager.Models.SystemData systemData, System.Collections.Generic.IDictionary&lt;string,string&gt; tags, Azure.Core.AzureLocation location, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties properties = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku sku = default, Azure.ETag? etag = default);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData RecoveryServicesVaultData (Azure.Core.ResourceIdentifier id, string name, Azure.Core.ResourceType resourceType, Azure.ResourceManager.Models.SystemData systemData, System.Collections.Generic.IDictionary&lt;string,string&gt; tags, Azure.Core.AzureLocation location, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties properties = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku sku = default, Azure.ETag? etag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData RecoveryServicesVaultData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.Models.ManagedServiceIdentity identity, class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties properties, class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku sku, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; etag) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.RecoveryServicesVaultData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.Collections.Generic.IDictionary{System.String,System.String},Azure.Core.AzureLocation,Azure.ResourceManager.Models.ManagedServiceIdentity,Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties,Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku,System.Nullable{Azure.ETag})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesVaultData (id As ResourceIdentifier, name As String, resourceType As ResourceType, systemData As SystemData, tags As IDictionary(Of String, String), location As AzureLocation, Optional identity As ManagedServiceIdentity = Nothing, Optional properties As RecoveryServicesVaultProperties = Nothing, Optional sku As RecoveryServicesSku = Nothing, Optional etag As Nullable(Of ETag) = Nothing) As RecoveryServicesVaultData" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesVaultData (id As ResourceIdentifier, name As String, resourceType As ResourceType, systemData As SystemData, tags As IDictionary(Of String, String), location As AzureLocation, Optional identity As ManagedServiceIdentity = Nothing, Optional properties As RecoveryServicesVaultProperties = Nothing, Optional sku As RecoveryServicesSku = Nothing, Optional etag As Nullable(Of ETag) = Nothing) As RecoveryServicesVaultData" />
       <MemberSignature Language="F#" Value="static member RecoveryServicesVaultData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.Core.AzureLocation * Azure.ResourceManager.Models.ManagedServiceIdentity * Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties * Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku * Nullable&lt;Azure.ETag&gt; -&gt; Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData" Usage="Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.RecoveryServicesVaultData (id, name, resourceType, systemData, tags, location, identity, properties, sku, etag)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData RecoveryServicesVaultData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties properties = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku sku = default, Azure.ETag? etag = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesVaultData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As AzureLocation = Nothing, Optional identity As ManagedServiceIdentity = Nothing, Optional properties As RecoveryServicesVaultProperties = Nothing, Optional sku As RecoveryServicesSku = Nothing, Optional etag As Nullable(Of ETag) = Nothing) As RecoveryServicesVaultData" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData</ReturnType>
@@ -386,8 +395,8 @@
         <param name="systemData"> The systemData. </param>
         <param name="tags"> The tags. </param>
         <param name="location"> The location. </param>
-        <param name="identity"> Identity for the resource. </param>
         <param name="properties"> Properties of the vault. </param>
+        <param name="identity"> Identity for the resource. </param>
         <param name="sku"> Identifies the unique system identifier for each Azure resource. </param>
         <param name="etag"> etag for the resource. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData" />. </summary>
@@ -405,21 +414,22 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="sku" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="etag" Type="System.Nullable&lt;Azure.ETag&gt;" Index="9" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties" />
+        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" />
+        <Parameter Name="sku" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSku" />
+        <Parameter Name="etag" Type="System.Nullable&lt;Azure.ETag&gt;" />
       </Parameters>
       <Docs>
         <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
@@ -447,6 +457,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultExtendedInfoData</ReturnType>
@@ -487,6 +498,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultPatch</ReturnType>
@@ -520,20 +532,19 @@
       </Docs>
     </Member>
     <Member MemberName="RecoveryServicesVaultProperties">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties RecoveryServicesVaultProperties (string provisioningState, Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails upgradeDetails, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt; privateEndpointConnections, Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState? privateEndpointStateForBackup, Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState? privateEndpointStateForSiteRecovery, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption encryption, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails moveDetails, Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState? moveState, Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion? backupStorageVersion, Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess? publicNetworkAccess, Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings monitoringSettings, Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState? crossSubscriptionRestoreState, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings redundancySettings, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings securitySettings, Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel? secureScore);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties RecoveryServicesVaultProperties (string provisioningState, Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails upgradeDetails, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt; privateEndpointConnections, Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState? privateEndpointStateForBackup, Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState? privateEndpointStateForSiteRecovery, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption encryption, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails moveDetails, Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState? moveState, Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion? backupStorageVersion, Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess? publicNetworkAccess, Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings monitoringSettings, Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState? crossSubscriptionRestoreState, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings redundancySettings, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings securitySettings, Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel? secureScore);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties RecoveryServicesVaultProperties(string provisioningState, class Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails upgradeDetails, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt; privateEndpointConnections, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt; privateEndpointStateForBackup, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt; privateEndpointStateForSiteRecovery, class Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption encryption, class Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails moveDetails, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState&gt; moveState, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion&gt; backupStorageVersion, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess&gt; publicNetworkAccess, class Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings monitoringSettings, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState&gt; crossSubscriptionRestoreState, class Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings redundancySettings, class Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings securitySettings, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel&gt; secureScore) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.RecoveryServicesVaultProperties(System.String,Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties},System.Nullable{Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState},System.Nullable{Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState},Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption,Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails,System.Nullable{Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState},System.Nullable{Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion},System.Nullable{Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess},Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings,System.Nullable{Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState},Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings,Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings,System.Nullable{Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesVaultProperties (provisioningState As String, upgradeDetails As VaultUpgradeDetails, privateEndpointConnections As IEnumerable(Of RecoveryServicesPrivateEndpointConnectionVaultProperties), privateEndpointStateForBackup As Nullable(Of VaultPrivateEndpointState), privateEndpointStateForSiteRecovery As Nullable(Of VaultPrivateEndpointState), encryption As VaultPropertiesEncryption, moveDetails As VaultPropertiesMoveDetails, moveState As Nullable(Of ResourceMoveState), backupStorageVersion As Nullable(Of BackupStorageVersion), publicNetworkAccess As Nullable(Of VaultPublicNetworkAccess), monitoringSettings As VaultMonitoringSettings, crossSubscriptionRestoreState As Nullable(Of CrossSubscriptionRestoreState), redundancySettings As VaultPropertiesRedundancySettings, securitySettings As RecoveryServicesSecuritySettings, secureScore As Nullable(Of SecureScoreLevel)) As RecoveryServicesVaultProperties" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesVaultProperties (provisioningState As String, upgradeDetails As VaultUpgradeDetails, privateEndpointConnections As IEnumerable(Of RecoveryServicesPrivateEndpointConnectionVaultProperties), privateEndpointStateForBackup As Nullable(Of VaultPrivateEndpointState), privateEndpointStateForSiteRecovery As Nullable(Of VaultPrivateEndpointState), encryption As VaultPropertiesEncryption, moveDetails As VaultPropertiesMoveDetails, moveState As Nullable(Of ResourceMoveState), backupStorageVersion As Nullable(Of BackupStorageVersion), publicNetworkAccess As Nullable(Of VaultPublicNetworkAccess), monitoringSettings As VaultMonitoringSettings, crossSubscriptionRestoreState As Nullable(Of CrossSubscriptionRestoreState), redundancySettings As VaultPropertiesRedundancySettings, securitySettings As RecoveryServicesSecuritySettings, secureScore As Nullable(Of SecureScoreLevel)) As RecoveryServicesVaultProperties" />
       <MemberSignature Language="F#" Value="static member RecoveryServicesVaultProperties : string * Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails * seq&lt;Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt; * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt; * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt; * Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption * Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState&gt; * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion&gt; * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess&gt; * Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState&gt; * Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings * Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings * Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel&gt; -&gt; Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties" Usage="Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.RecoveryServicesVaultProperties (provisioningState, upgradeDetails, privateEndpointConnections, privateEndpointStateForBackup, privateEndpointStateForSiteRecovery, encryption, moveDetails, moveState, backupStorageVersion, publicNetworkAccess, monitoringSettings, crossSubscriptionRestoreState, redundancySettings, securitySettings, secureScore)" />
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties RecoveryServicesVaultProperties (string provisioningState = default, Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails upgradeDetails = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt; privateEndpointConnections = default, Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState? privateEndpointStateForBackup = default, Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState? privateEndpointStateForSiteRecovery = default, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption encryption = default, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails moveDetails = default, Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState? moveState = default, Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion? backupStorageVersion = default, Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess? publicNetworkAccess = default, Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings monitoringSettings = default, Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState? crossSubscriptionRestoreState = default, Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings redundancySettings = default, Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings securitySettings = default, Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel? secureScore = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecoveryServicesVaultProperties (Optional provisioningState As String = Nothing, Optional upgradeDetails As VaultUpgradeDetails = Nothing, Optional privateEndpointConnections As IEnumerable(Of RecoveryServicesPrivateEndpointConnectionVaultProperties) = Nothing, Optional privateEndpointStateForBackup As Nullable(Of VaultPrivateEndpointState) = Nothing, Optional privateEndpointStateForSiteRecovery As Nullable(Of VaultPrivateEndpointState) = Nothing, Optional encryption As VaultPropertiesEncryption = Nothing, Optional moveDetails As VaultPropertiesMoveDetails = Nothing, Optional moveState As Nullable(Of ResourceMoveState) = Nothing, Optional backupStorageVersion As Nullable(Of BackupStorageVersion) = Nothing, Optional publicNetworkAccess As Nullable(Of VaultPublicNetworkAccess) = Nothing, Optional monitoringSettings As VaultMonitoringSettings = Nothing, Optional crossSubscriptionRestoreState As Nullable(Of CrossSubscriptionRestoreState) = Nothing, Optional redundancySettings As VaultPropertiesRedundancySettings = Nothing, Optional securitySettings As RecoveryServicesSecuritySettings = Nothing, Optional secureScore As Nullable(Of SecureScoreLevel) = Nothing) As RecoveryServicesVaultProperties" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -589,28 +600,29 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provisioningState" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="upgradeDetails" Type="Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="privateEndpointConnections" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="privateEndpointStateForBackup" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="privateEndpointStateForSiteRecovery" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt;" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="encryption" Type="Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="moveDetails" Type="Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="moveState" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="backupStorageVersion" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="publicNetworkAccess" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess&gt;" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="monitoringSettings" Type="Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="crossSubscriptionRestoreState" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState&gt;" Index="11" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="redundancySettings" Type="Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings" Index="12" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="securitySettings" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings" Index="13" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="secureScore" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel&gt;" Index="14" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="bcdrSecurityLevel" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.BcdrSecurityLevel&gt;" Index="15" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="resourceGuardOperationRequests" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="16" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="upgradeDetails" Type="Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails" />
+        <Parameter Name="privateEndpointConnections" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties&gt;" />
+        <Parameter Name="privateEndpointStateForBackup" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt;" />
+        <Parameter Name="privateEndpointStateForSiteRecovery" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPrivateEndpointState&gt;" />
+        <Parameter Name="encryption" Type="Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesEncryption" />
+        <Parameter Name="moveDetails" Type="Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails" />
+        <Parameter Name="moveState" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.ResourceMoveState&gt;" />
+        <Parameter Name="backupStorageVersion" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.BackupStorageVersion&gt;" />
+        <Parameter Name="publicNetworkAccess" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.VaultPublicNetworkAccess&gt;" />
+        <Parameter Name="monitoringSettings" Type="Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSettings" />
+        <Parameter Name="crossSubscriptionRestoreState" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.CrossSubscriptionRestoreState&gt;" />
+        <Parameter Name="redundancySettings" Type="Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings" />
+        <Parameter Name="securitySettings" Type="Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings" />
+        <Parameter Name="secureScore" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.SecureScoreLevel&gt;" />
+        <Parameter Name="bcdrSecurityLevel" Type="System.Nullable&lt;Azure.ResourceManager.RecoveryServices.Models.BcdrSecurityLevel&gt;" />
+        <Parameter Name="resourceGuardOperationRequests" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="provisioningState"> Provisioning State. </param>
@@ -645,6 +657,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ReplicationJobSummary</ReturnType>
@@ -673,6 +686,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ReplicationUsage</ReturnType>
@@ -707,6 +721,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateAndAadDetails</ReturnType>
@@ -759,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateAndAcsDetails</ReturnType>
@@ -803,6 +819,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateDetails</ReturnType>
@@ -846,6 +863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultCertificateResult</ReturnType>
@@ -878,6 +896,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSummary</ReturnType>
@@ -912,6 +931,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails</ReturnType>
@@ -944,6 +964,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings</ReturnType>
@@ -970,6 +991,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails</ReturnType>
@@ -1010,6 +1032,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultUsage</ReturnType>
@@ -1044,6 +1067,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultUsageNameInfo</ReturnType>

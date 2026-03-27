@@ -13,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Extension methods to add <see cref="T:Azure.AI.AnomalyDetector.AnomalyDetectorClient" /> to client builder. </summary>
+    <summary> Extension methods to add clients to <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,14 +46,13 @@
       <Docs>
         <typeparam name="TBuilder">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="endpoint">
-            Supported Azure Cognitive Services endpoints (protocol and host name, such as
-            https://westus2.api.cognitive.microsoft.com).
-            </param>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
-        <summary> Registers a <see cref="T:Azure.AI.AnomalyDetector.AnomalyDetectorClient" /> instance. </summary>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <summary> Registers a <see cref="T:Azure.AI.AnomalyDetector.AnomalyDetectorClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="AddAnomalyDetectorClient&lt;TBuilder,TConfiguration&gt;">
@@ -86,8 +85,8 @@
         <typeparam name="TBuilder">To be added.</typeparam>
         <typeparam name="TConfiguration">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="configuration"> The configuration values. </param>
-        <summary> Registers a <see cref="T:Azure.AI.AnomalyDetector.AnomalyDetectorClient" /> instance. </summary>
+        <param name="configuration"> The configuration to use for the client. </param>
+        <summary> Registers a <see cref="T:Azure.AI.AnomalyDetector.AnomalyDetectorClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

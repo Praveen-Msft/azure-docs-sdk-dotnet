@@ -1,16 +1,16 @@
 <Type Name="EvaluationScheduleTask" FullName="Azure.AI.Projects.EvaluationScheduleTask">
-  <TypeSignature Language="C#" Value="public class EvaluationScheduleTask : Azure.AI.Projects.ScheduleTask, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.Projects.EvaluationScheduleTask&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.Projects.EvaluationScheduleTask&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EvaluationScheduleTask extends Azure.AI.Projects.ScheduleTask implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.Projects.EvaluationScheduleTask&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.Projects.EvaluationScheduleTask&gt;" />
+  <TypeSignature Language="C#" Value="public class EvaluationScheduleTask : Azure.AI.Projects.ProjectsScheduleTask, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.Projects.EvaluationScheduleTask&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.Projects.EvaluationScheduleTask&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EvaluationScheduleTask extends Azure.AI.Projects.ProjectsScheduleTask implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.Projects.EvaluationScheduleTask&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.Projects.EvaluationScheduleTask&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.AI.Projects.EvaluationScheduleTask" />
-  <TypeSignature Language="VB.NET" Value="Public Class EvaluationScheduleTask&#xA;Inherits ScheduleTask&#xA;Implements IJsonModel(Of EvaluationScheduleTask), IPersistableModel(Of EvaluationScheduleTask)" />
-  <TypeSignature Language="F#" Value="type EvaluationScheduleTask = class&#xA;    inherit ScheduleTask&#xA;    interface IJsonModel&lt;EvaluationScheduleTask&gt;&#xA;    interface IPersistableModel&lt;EvaluationScheduleTask&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class EvaluationScheduleTask&#xA;Inherits ProjectsScheduleTask&#xA;Implements IJsonModel(Of EvaluationScheduleTask), IPersistableModel(Of EvaluationScheduleTask)" />
+  <TypeSignature Language="F#" Value="type EvaluationScheduleTask = class&#xA;    inherit ProjectsScheduleTask&#xA;    interface IJsonModel&lt;EvaluationScheduleTask&gt;&#xA;    interface IPersistableModel&lt;EvaluationScheduleTask&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.AI.Projects</AssemblyName>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.AI.Projects.ScheduleTask</BaseTypeName>
+    <BaseTypeName>Azure.AI.Projects.ProjectsScheduleTask</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -93,18 +93,18 @@
       </Docs>
     </Member>
     <Member MemberName="JsonModelCreateCore">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ScheduleTask JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ScheduleTask JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ProjectsScheduleTask JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ProjectsScheduleTask JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.EvaluationScheduleTask.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ScheduleTask" />
-      <MemberSignature Language="F#" Value="override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ScheduleTask" Usage="evaluationScheduleTask.JsonModelCreateCore (reader, options)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ProjectsScheduleTask" />
+      <MemberSignature Language="F#" Value="override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ProjectsScheduleTask" Usage="evaluationScheduleTask.JsonModelCreateCore (reader, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ScheduleTask</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectsScheduleTask</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
@@ -144,18 +144,18 @@
       </Docs>
     </Member>
     <Member MemberName="PersistableModelCreateCore">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ScheduleTask PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ScheduleTask PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.Projects.ProjectsScheduleTask PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.Projects.ProjectsScheduleTask PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.EvaluationScheduleTask.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As ScheduleTask" />
-      <MemberSignature Language="F#" Value="override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ScheduleTask" Usage="evaluationScheduleTask.PersistableModelCreateCore (data, options)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As ProjectsScheduleTask" />
+      <MemberSignature Language="F#" Value="override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.AI.Projects.ProjectsScheduleTask" Usage="evaluationScheduleTask.PersistableModelCreateCore (data, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.ScheduleTask</ReturnType>
+        <ReturnType>Azure.AI.Projects.ProjectsScheduleTask</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="data" Type="System.BinaryData" />

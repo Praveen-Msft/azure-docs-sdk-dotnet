@@ -12,6 +12,7 @@
     <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -45,8 +46,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.EventGrid.Namespaces.FailedLockToken&gt;</ReturnType>
@@ -67,13 +68,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader"> The JSON reader. </param>
@@ -93,13 +95,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer"> The JSON writer. </param>
@@ -109,24 +112,31 @@
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static explicit operator Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult (Azure.Response result);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult op_Explicit(class Azure.Response result) cil managed" />
+      <MemberSignature Language="C#" Value="public static explicit operator Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult (Azure.Response result);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult op_Explicit(class Azure.Response result) cil managed" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult.op_Explicit(Azure.Response)~Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (result As Response) As AcknowledgeResult" />
-      <MemberSignature Language="F#" Value="static member op_Explicit : Azure.Response -&gt; Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" Usage="Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult.op_Explicit result" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (result As Response) As AcknowledgeResult" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : Azure.Response -&gt; Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" Usage="Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult.op_Explicit result" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static explicit operator Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult (Azure.Response response);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult op_Explicit(class Azure.Response response) cil managed" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (response As Response) As AcknowledgeResult" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : Azure.Response -&gt; Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" Usage="Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult.op_Explicit response" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="result" Type="Azure.Response" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="response" Type="Azure.Response" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="result"> The <see cref="T:Azure.Response" /> to deserialize the <see cref="T:Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" /> from. </param>
+        <param name="response"> The <see cref="T:Azure.Response" /> to deserialize the <see cref="T:Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" /> from. </param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -142,12 +152,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestContent</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="acknowledgeResult" Type="Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="acknowledgeResult" Type="Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" />
       </Parameters>
       <Docs>
         <param name="acknowledgeResult"> The <see cref="T:Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult" /> to serialize into <see cref="T:Azure.Core.RequestContent" />. </param>
@@ -166,13 +177,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data"> The data to parse. </param>
@@ -192,12 +204,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options"> The client options for reading and writing models. </param>
@@ -219,8 +232,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -243,8 +256,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult</ReturnType>
@@ -276,8 +289,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -308,8 +321,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.Namespaces.AcknowledgeResult</ReturnType>
@@ -341,8 +354,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -371,8 +384,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.Namespaces</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

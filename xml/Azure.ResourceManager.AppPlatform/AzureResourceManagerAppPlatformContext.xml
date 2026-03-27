@@ -1,0 +1,874 @@
+<Type Name="AzureResourceManagerAppPlatformContext" FullName="Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext">
+  <TypeSignature Language="C#" Value="public class AzureResourceManagerAppPlatformContext : System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureResourceManagerAppPlatformContext extends System.ClientModel.Primitives.ModelReaderWriterContext" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureResourceManagerAppPlatformContext&#xA;Inherits ModelReaderWriterContext" />
+  <TypeSignature Language="F#" Value="type AzureResourceManagerAppPlatformContext = class&#xA;    inherit ModelReaderWriterContext" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ActiveAppPlatformDeploymentsContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ActiveAppPlatformDeploymentsContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApiPortalCustomDomainProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApiPortalCustomDomainProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApiPortalCustomDomainResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApiPortalCustomDomainResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApiPortalResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApiPortalResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuilderResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuilderResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuildList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuildList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuildResultList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuildResultList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuildServiceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppBuildServiceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppCustomPersistentDisk))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppCustomPersistentDisk))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppCustomPersistentDiskProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppCustomPersistentDiskProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppIngressSettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppIngressSettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceExecAction))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceExecAction))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceHttpGetAction))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceHttpGetAction))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceProbe))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceProbe))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceProbeAction))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceProbeAction))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceTcpSocketAction))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppInstanceTcpSocketAction))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationDiagnosticContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationDiagnosticContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationInsightsAgentVersions))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationInsightsAgentVersions))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationRemoteDebuggingConfig))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationRemoteDebuggingConfig))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationRemoteDebuggingContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ApplicationRemoteDebuggingContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppLoadedCertificate))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppLoadedCertificate))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPersistentDisk))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPersistentDisk))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalCustomDomainData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalCustomDomainData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalCustomDomainResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalCustomDomainResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformApiPortalInstance))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformApiPortalInstance))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformApiPortalProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformApiPortalProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformApiPortalResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformApiPortalResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformApiPortalResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformAppData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformAppData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformAppProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformAppProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformAppResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformAppResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformAzureFileVolume))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformAzureFileVolume))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBindingData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBindingData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBindingProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBindingProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBindingResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBindingResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuilderData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuilderData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuilderProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuilderProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuilderResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuilderResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildpackBindingData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildpackBindingData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildpackBindingProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildpackBindingProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildpackBindingResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildpackBindingResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildResultData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildResultData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResultLog))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResultLog))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResultProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResultProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildResultResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildResultResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResultUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildResultUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceAgentPoolData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceAgentPoolData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildServiceAgentPoolProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildServiceAgentPoolProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceAgentPoolResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceAgentPoolResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildServiceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildServiceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformBuildServiceResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildServiceResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildServiceResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildStageProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformBuildStageProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCertificateData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCertificateData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCertificateProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCertificateProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCertificateResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCertificateResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformClusterStackProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformClusterStackProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigServerData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigServerData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigServerGitProperty))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigServerGitProperty))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigServerProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigServerProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigServerResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigServerResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceGitRepository))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceGitRepository))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceGitReposValidationMessages))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceGitReposValidationMessages))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceGitValidateResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceGitValidateResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceInstance))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceInstance))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceSettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceSettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceSettingsValidateResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceSettingsValidateResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformContentCertificateProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformContentCertificateProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomContainer))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomContainer))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomContainerUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomContainerUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCustomDomainData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCustomDomainData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomDomainProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomDomainProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCustomDomainResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformCustomDomainResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomDomainValidateContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomDomainValidateContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomDomainValidateResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformCustomDomainValidateResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformDeploymentData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformDeploymentData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentInstance))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentInstance))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformDeploymentResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformDeploymentResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentSettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformDeploymentSettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformErrorInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformErrorInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayApiMetadataProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayApiMetadataProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayApiRoute))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayApiRoute))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayCorsProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayCorsProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayCustomDomainData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayCustomDomainData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayCustomDomainResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayCustomDomainResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayInstance))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayInstance))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayOperatorProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayOperatorProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayOperatorResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayOperatorResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayRouteConfigData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayRouteConfigData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayRouteConfigProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformGatewayRouteConfigProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayRouteConfigResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformGatewayRouteConfigResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformImageRegistryCredential))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformImageRegistryCredential))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformKeyVaultCertificateProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformKeyVaultCertificateProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformLogFileUriResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformLogFileUriResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformMonitoringSettingData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformMonitoringSettingData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformMonitoringSettingProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformMonitoringSettingProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformMonitoringSettingResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformMonitoringSettingResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformNameAvailabilityContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformNameAvailabilityContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformNameAvailabilityResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformNameAvailabilityResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformResourceUploadResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformResourceUploadResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceNetworkProfile))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceNetworkProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceRegistryData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceRegistryData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRegistryInstance))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRegistryInstance))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRegistryProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRegistryProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceRegistryResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceRegistryResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRegistryResourceRequirements))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRegistryResourceRequirements))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRequiredTraffic))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceRequiredTraffic))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformServiceResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceTestKeys))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformServiceTestKeys))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSku))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSku))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuCapabilities))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuCapabilities))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuCapacity))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuCapacity))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuLocationInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuLocationInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuRestrictionInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuRestrictionInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuRestrictions))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuRestrictions))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuZoneDetails))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSkuZoneDetails))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSsoProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSsoProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformStorageAccount))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformStorageAccount))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformStorageData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformStorageData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformStorageProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformStorageProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformStorageResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformStorageResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedBuildpackData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedBuildpackData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedBuildpackResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedBuildpackResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSupportedRuntimeVersion))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSupportedRuntimeVersion))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedStackData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedStackData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSupportedStackProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformSupportedStackProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedStackResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.AppPlatformSupportedStackResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformUploadedUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformUploadedUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppPlatformUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppTemporaryDisk))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppTemporaryDisk))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppVnetAddons))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AppVnetAddons))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AvailableAppPlatformSku))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AvailableAppPlatformSku))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AvailableRuntimeVersions))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.AvailableRuntimeVersions))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BindingResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BindingResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildpackBindingLaunchProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildpackBindingLaunchProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildpackBindingResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildpackBindingResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildpacksGroupProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildpacksGroupProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildServiceAgentPoolResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildServiceAgentPoolResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildServiceAgentPoolSizeProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.BuildServiceAgentPoolSizeProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.CertificateResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.CertificateResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerGitPatternRepository))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerGitPatternRepository))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerSettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerSettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerSettingsErrorRecord))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerSettingsErrorRecord))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerSettingsValidateResult))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigServerSettingsValidateResult))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigurationServiceGitProperty))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigurationServiceGitProperty))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigurationServiceResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ConfigurationServiceResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ContainerProbeSettings))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ContainerProbeSettings))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.CustomDomainResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.CustomDomainResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.DeploymentList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.DeploymentList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.DeploymentResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.DeploymentResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayCustomDomainProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayCustomDomainProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayCustomDomainResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayCustomDomainResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayRouteConfigOpenApiProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayRouteConfigOpenApiProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayRouteConfigResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.GatewayRouteConfigResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.IngressConfig))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.IngressConfig))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.IngressSettingsClientAuth))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.IngressSettingsClientAuth))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.JarUploadedUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.JarUploadedUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.ManagedServiceIdentity))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.ManagedServiceIdentity))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.NetCoreZipUploadedUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.NetCoreZipUploadedUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.NetworkProfileOutboundIPs))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.NetworkProfileOutboundIPs))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.RegenerateAppPlatformServiceTestKeyContent))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.RegenerateAppPlatformServiceTestKeyContent))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ResourceSkuList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ResourceSkuList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResponseError))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ServiceRegistryResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ServiceRegistryResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ServiceResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ServiceResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ServiceVnetAddons))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.ServiceVnetAddons))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SourceUploadedUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SourceUploadedUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.StorageResourceList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.StorageResourceList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.SubResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.SubResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SupportedBuildpackResourceProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SupportedBuildpackResourceProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SupportedBuildpacksList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SupportedBuildpacksList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SupportedStacksList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.SupportedStacksList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.SystemData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownCertificateProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownCertificateProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownCustomPersistentDiskProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownCustomPersistentDiskProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownProbeAction))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownProbeAction))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownStorageProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownStorageProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownUserSourceInfo))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.AppPlatform.Models.UnknownUserSourceInfo))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.UserAssignedIdentity))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Models.UserAssignedIdentity))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.WritableSubResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Resources.Models.WritableSubResource))&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Context class which will be filled in by the System.ClientModel.SourceGeneration.
+            For more information see 'https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/System.ClientModel/src/docs/ModelReaderWriterContext.md'
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext Default" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As AzureResourceManagerAppPlatformContext" />
+      <MemberSignature Language="F#" Value="static member Default : Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext" Usage="Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext.Default" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the default instance </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetTypeBuilderCore">
+      <MemberSignature Language="C#" Value="protected override bool TryGetTypeBuilderCore (Type type, out System.ClientModel.Primitives.ModelReaderWriterTypeBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool TryGetTypeBuilderCore(class System.Type type, [out] class System.ClientModel.Primitives.ModelReaderWriterTypeBuilder&amp; builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppPlatform.AzureResourceManagerAppPlatformContext.TryGetTypeBuilderCore(System.Type,System.ClientModel.Primitives.ModelReaderWriterTypeBuilder@)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function TryGetTypeBuilderCore (type As Type, ByRef builder As ModelReaderWriterTypeBuilder) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.TryGetTypeBuilderCore : Type * ModelReaderWriterTypeBuilder -&gt; bool" Usage="azureResourceManagerAppPlatformContext.TryGetTypeBuilderCore (type, builder)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="builder" Type="System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="type">The type to get info for.</param>
+        <param name="builder">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if found.</param>
+        <summary>
+            Tries to gets a <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> for the given <see cref="T:System.Type" /> to allow <see cref="T:System.ClientModel.Primitives.ModelReaderWriter" /> to work with AOT.
+            </summary>
+        <returns>True if the corresponding <see cref="T:System.ClientModel.Primitives.ModelReaderWriterTypeBuilder" /> if defined in the context otherwise false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

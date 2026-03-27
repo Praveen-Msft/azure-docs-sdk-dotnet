@@ -137,18 +137,18 @@
       </Docs>
     </Member>
     <Member MemberName="EntraIdConfig">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch EntraIdConfig { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch EntraIdConfig" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppEntraIdConfigPatch EntraIdConfig { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.NetAppEntraIdConfigPatch EntraIdConfig" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.EntraIdConfig" />
-      <MemberSignature Language="VB.NET" Value="Public Property EntraIdConfig As EntraIdConfigPatch" />
-      <MemberSignature Language="F#" Value="member this.EntraIdConfig : Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.EntraIdConfig" />
+      <MemberSignature Language="VB.NET" Value="Public Property EntraIdConfig As NetAppEntraIdConfigPatch" />
+      <MemberSignature Language="F#" Value="member this.EntraIdConfig : Azure.ResourceManager.NetApp.Models.NetAppEntraIdConfigPatch with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.EntraIdConfig" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.Models.EntraIdConfigPatch</ReturnType>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.NetAppEntraIdConfigPatch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Entra ID configuration for the account. </summary>
@@ -204,18 +204,18 @@
       </Docs>
     </Member>
     <Member MemberName="LdapConfiguration">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch LdapConfiguration { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch LdapConfiguration" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppLdapConfigurationPatch LdapConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetApp.Models.NetAppLdapConfigurationPatch LdapConfiguration" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.LdapConfiguration" />
-      <MemberSignature Language="VB.NET" Value="Public Property LdapConfiguration As LdapConfigurationPatch" />
-      <MemberSignature Language="F#" Value="member this.LdapConfiguration : Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.LdapConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property LdapConfiguration As NetAppLdapConfigurationPatch" />
+      <MemberSignature Language="F#" Value="member this.LdapConfiguration : Azure.ResourceManager.NetApp.Models.NetAppLdapConfigurationPatch with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.LdapConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.Models.LdapConfigurationPatch</ReturnType>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.NetAppLdapConfigurationPatch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> LDAP Configuration for the account. </summary>

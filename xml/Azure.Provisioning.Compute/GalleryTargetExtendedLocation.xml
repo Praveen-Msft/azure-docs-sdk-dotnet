@@ -1,0 +1,177 @@
+<Type Name="GalleryTargetExtendedLocation" FullName="Azure.Provisioning.Compute.GalleryTargetExtendedLocation">
+  <TypeSignature Language="C#" Value="public class GalleryTargetExtendedLocation : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryTargetExtendedLocation extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryTargetExtendedLocation" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryTargetExtendedLocation&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type GalleryTargetExtendedLocation = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The GalleryTargetExtendedLocation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryTargetExtendedLocation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new GalleryTargetExtendedLocation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryTargetExtendedLocation.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            GalleryTargetExtendedLocation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Encryption">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.EncryptionImages Encryption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.EncryptionImages Encryption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.Encryption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Encryption As EncryptionImages" />
+      <MemberSignature Language="F#" Value="member this.Encryption : Azure.Provisioning.Compute.EncryptionImages with get, set" Usage="Azure.Provisioning.Compute.GalleryTargetExtendedLocation.Encryption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EncryptionImages</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Allows users to provide customer managed keys for encrypting
+            the OS and data disks in the gallery artifact.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedLocation">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.GalleryExtendedLocation ExtendedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.GalleryExtendedLocation ExtendedLocation" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.ExtendedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedLocation As GalleryExtendedLocation" />
+      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.Provisioning.Compute.GalleryExtendedLocation with get, set" Usage="Azure.Provisioning.Compute.GalleryTargetExtendedLocation.ExtendedLocation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryExtendedLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name of the extended location.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedLocationReplicaCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; ExtendedLocationReplicaCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; ExtendedLocationReplicaCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.ExtendedLocationReplicaCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedLocationReplicaCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ExtendedLocationReplicaCount : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryTargetExtendedLocation.ExtendedLocationReplicaCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of replicas of the Image Version to be created per extended
+            location. This property is updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GalleryStorageAccountType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.EdgeZoneStorageAccountType&gt; GalleryStorageAccountType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.EdgeZoneStorageAccountType&gt; GalleryStorageAccountType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.GalleryStorageAccountType" />
+      <MemberSignature Language="VB.NET" Value="Public Property GalleryStorageAccountType As BicepValue(Of EdgeZoneStorageAccountType)" />
+      <MemberSignature Language="F#" Value="member this.GalleryStorageAccountType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.EdgeZoneStorageAccountType&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryTargetExtendedLocation.GalleryStorageAccountType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.EdgeZoneStorageAccountType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the storage account type to be used to store the image. This
+            property is not updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryTargetExtendedLocation.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.GalleryTargetExtendedLocation.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name of the region.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -409,7 +409,7 @@
         <param name="data"> Resource create parameters. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Adds a subscription as a guest to consume the compute limits shared by the host subscription.
+            Update a ComputeLimitGuestSubscription.
             <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.ComputeLimit/locations/{location}/guestSubscriptions/{guestSubscriptionId}. </description></item><item><term> Operation Id. </term><description> GuestSubscriptions_Create. </description></item><item><term> Default Api Version. </term><description> 2025-08-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.ComputeLimit.ComputeLimitGuestSubscriptionResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -442,7 +442,7 @@
         <param name="data"> Resource create parameters. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Adds a subscription as a guest to consume the compute limits shared by the host subscription.
+            Update a ComputeLimitGuestSubscription.
             <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.ComputeLimit/locations/{location}/guestSubscriptions/{guestSubscriptionId}. </description></item><item><term> Operation Id. </term><description> GuestSubscriptions_Create. </description></item><item><term> Default Api Version. </term><description> 2025-08-15. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.ComputeLimit.ComputeLimitGuestSubscriptionResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

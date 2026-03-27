@@ -1,0 +1,45 @@
+<Type Name="VmssRebalanceBehavior" FullName="Azure.Provisioning.Compute.VmssRebalanceBehavior">
+  <TypeSignature Language="C#" Value="public enum VmssRebalanceBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VmssRebalanceBehavior extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VmssRebalanceBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Enum VmssRebalanceBehavior" />
+  <TypeSignature Language="F#" Value="type VmssRebalanceBehavior = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Type of rebalance behavior that will be used for recreating virtual
+            machines in the scale set across availability zones. Default and only
+            supported value for now is CreateBeforeDelete.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateBeforeDelete">
+      <MemberSignature Language="C#" Value="CreateBeforeDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VmssRebalanceBehavior CreateBeforeDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VmssRebalanceBehavior.CreateBeforeDelete" />
+      <MemberSignature Language="VB.NET" Value="CreateBeforeDelete" />
+      <MemberSignature Language="F#" Value="CreateBeforeDelete = 0" Usage="Azure.Provisioning.Compute.VmssRebalanceBehavior.CreateBeforeDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VmssRebalanceBehavior</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            CreateBeforeDelete.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

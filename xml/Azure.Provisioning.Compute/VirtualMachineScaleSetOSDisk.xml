@@ -1,0 +1,328 @@
+<Type Name="VirtualMachineScaleSetOSDisk" FullName="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk">
+  <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetOSDisk : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetOSDisk extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetOSDisk&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineScaleSetOSDisk = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a virtual machine scale set operating system disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetOSDisk ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineScaleSetOSDisk.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caching">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt; Caching { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.CachingType&gt; Caching" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.Caching" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caching As BicepValue(Of CachingType)" />
+      <MemberSignature Language="F#" Value="member this.Caching : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.Caching" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the caching requirements. Possible values are: **None,**
+            **ReadOnly,** **ReadWrite.** The default values are: **None for
+            Standard storage. ReadOnly for Premium storage.**.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOption">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskCreateOptionType&gt; CreateOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DiskCreateOptionType&gt; CreateOption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.CreateOption" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateOption As BicepValue(Of DiskCreateOptionType)" />
+      <MemberSignature Language="F#" Value="member this.CreateOption : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskCreateOptionType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.CreateOption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskCreateOptionType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies how the virtual machines in the scale set should be created.
+            The only allowed value is: **FromImage.** This value is used when you
+            are using an image to create the virtual machine. If you are using a
+            platform image, you also use the imageReference element described
+            above. If you are using a marketplace image, you  also use the plan
+            element previously described.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineScaleSetOSDisk.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of VirtualMachineScaleSetOSDisk.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteOption">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskDeleteOptionType&gt; DeleteOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DiskDeleteOptionType&gt; DeleteOption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DeleteOption" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteOption As BicepValue(Of DiskDeleteOptionType)" />
+      <MemberSignature Language="F#" Value="member this.DeleteOption : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskDeleteOptionType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DeleteOption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskDeleteOptionType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether OS Disk should be deleted or detached upon VMSS Flex
+            deletion (This feature is available for VMSS with Flexible
+            OrchestrationMode only). &lt;br&gt;&lt;br&gt; Possible values:
+            &lt;br&gt;&lt;br&gt; **Delete** If this value is used, the OS disk is
+            deleted when VMSS Flex VM is deleted.&lt;br&gt;&lt;br&gt; **Detach**
+            If this value is used, the OS disk is retained after VMSS Flex VM is
+            deleted. &lt;br&gt;&lt;br&gt; The default value is set to **Delete**.
+            For an Ephemeral OS Disk, the default value is set to **Delete**. User
+            cannot change the delete option for Ephemeral OS Disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiffDiskSettings">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.DiffDiskSettings DiffDiskSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.DiffDiskSettings DiffDiskSettings" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DiffDiskSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiffDiskSettings As DiffDiskSettings" />
+      <MemberSignature Language="F#" Value="member this.DiffDiskSettings : Azure.Provisioning.Compute.DiffDiskSettings with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DiffDiskSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiffDiskSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the ephemeral disk Settings for the operating system disk
+            used by the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskSizeGB">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; DiskSizeGB { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; DiskSizeGB" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DiskSizeGB" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiskSizeGB As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.DiskSizeGB : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.DiskSizeGB" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the size of an empty data disk in gigabytes. This element can
+            be used to overwrite the size of the disk in a virtual machine image.
+            The property 'diskSizeGB' is the number of bytes x 1024^3
+            for the disk and the value cannot be larger than 1023.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; ImageUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; ImageUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.ImageUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImageUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.ImageUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.ImageUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the virtual hard disk's uri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedDisk">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineScaleSetManagedDisk ManagedDisk { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineScaleSetManagedDisk ManagedDisk" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.ManagedDisk" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedDisk As VirtualMachineScaleSetManagedDisk" />
+      <MemberSignature Language="F#" Value="member this.ManagedDisk : Azure.Provisioning.Compute.VirtualMachineScaleSetManagedDisk with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.ManagedDisk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineScaleSetManagedDisk</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The managed disk parameters.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The disk name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; OSType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; OSType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.OSType" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSType As BicepValue(Of SupportedOperatingSystemType)" />
+      <MemberSignature Language="F#" Value="member this.OSType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.OSType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SupportedOperatingSystemType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property allows you to specify the type of the OS that is included
+            in the disk if creating a VM from user-image or a specialized VHD.
+            Possible values are: **Windows,** **Linux.**.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VhdContainers">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;string&gt; VhdContainers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;string&gt; VhdContainers" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.VhdContainers" />
+      <MemberSignature Language="VB.NET" Value="Public Property VhdContainers As BicepList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.VhdContainers : Azure.Provisioning.BicepList&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.VhdContainers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the container urls that are used to store operating system
+            disks for the scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteAcceleratorEnabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; WriteAcceleratorEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; WriteAcceleratorEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.WriteAcceleratorEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property WriteAcceleratorEnabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.WriteAcceleratorEnabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSDisk.WriteAcceleratorEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether writeAccelerator should be enabled or disabled on the
+            disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

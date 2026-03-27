@@ -28,18 +28,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ProtocolVersionRecord (Azure.AI.Projects.Agents.AgentProtocol protocol, string version);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.AI.Projects.Agents.AgentProtocol protocol, string version) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Agents.ProtocolVersionRecord.#ctor(Azure.AI.Projects.Agents.AgentProtocol,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (protocol As AgentProtocol, version As String)" />
-      <MemberSignature Language="F#" Value="new Azure.AI.Projects.Agents.ProtocolVersionRecord : Azure.AI.Projects.Agents.AgentProtocol * string -&gt; Azure.AI.Projects.Agents.ProtocolVersionRecord" Usage="new Azure.AI.Projects.Agents.ProtocolVersionRecord (protocol, version)" />
+      <MemberSignature Language="C#" Value="public ProtocolVersionRecord (Azure.AI.Projects.Agents.ProjectsAgentProtocol protocol, string version);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.AI.Projects.Agents.ProjectsAgentProtocol protocol, string version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Agents.ProtocolVersionRecord.#ctor(Azure.AI.Projects.Agents.ProjectsAgentProtocol,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (protocol As ProjectsAgentProtocol, version As String)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.Projects.Agents.ProtocolVersionRecord : Azure.AI.Projects.Agents.ProjectsAgentProtocol * string -&gt; Azure.AI.Projects.Agents.ProtocolVersionRecord" Usage="new Azure.AI.Projects.Agents.ProtocolVersionRecord (protocol, version)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects.Agents</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="protocol" Type="Azure.AI.Projects.Agents.AgentProtocol" />
+        <Parameter Name="protocol" Type="Azure.AI.Projects.Agents.ProjectsAgentProtocol" />
         <Parameter Name="version" Type="System.String" />
       </Parameters>
       <Docs>
@@ -153,18 +153,18 @@
       </Docs>
     </Member>
     <Member MemberName="Protocol">
-      <MemberSignature Language="C#" Value="public Azure.AI.Projects.Agents.AgentProtocol Protocol { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.AI.Projects.Agents.AgentProtocol Protocol" />
+      <MemberSignature Language="C#" Value="public Azure.AI.Projects.Agents.ProjectsAgentProtocol Protocol { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.AI.Projects.Agents.ProjectsAgentProtocol Protocol" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.Projects.Agents.ProtocolVersionRecord.Protocol" />
-      <MemberSignature Language="VB.NET" Value="Public Property Protocol As AgentProtocol" />
-      <MemberSignature Language="F#" Value="member this.Protocol : Azure.AI.Projects.Agents.AgentProtocol with get, set" Usage="Azure.AI.Projects.Agents.ProtocolVersionRecord.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public Property Protocol As ProjectsAgentProtocol" />
+      <MemberSignature Language="F#" Value="member this.Protocol : Azure.AI.Projects.Agents.ProjectsAgentProtocol with get, set" Usage="Azure.AI.Projects.Agents.ProtocolVersionRecord.Protocol" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects.Agents</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Agents.AgentProtocol</ReturnType>
+        <ReturnType>Azure.AI.Projects.Agents.ProjectsAgentProtocol</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The protocol type. </summary>

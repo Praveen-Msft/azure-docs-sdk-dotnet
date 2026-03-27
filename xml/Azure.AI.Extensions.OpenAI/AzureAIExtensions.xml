@@ -199,30 +199,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="get_StructuredInputs">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Extensions.OpenAI.ExtraDataDictionary get_StructuredInputs (OpenAI.Responses.CreateResponseOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Extensions.OpenAI.ExtraDataDictionary get_StructuredInputs(class OpenAI.Responses.CreateResponseOptions options) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Extensions.OpenAI.AzureAIExtensions.get_StructuredInputs(OpenAI.Responses.CreateResponseOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Function get_StructuredInputs (options As CreateResponseOptions) As ExtraDataDictionary" />
-      <MemberSignature Language="F#" Value="static member get_StructuredInputs : OpenAI.Responses.CreateResponseOptions -&gt; Azure.AI.Extensions.OpenAI.ExtraDataDictionary" Usage="Azure.AI.Extensions.OpenAI.AzureAIExtensions.get_StructuredInputs options" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.Extensions.OpenAI</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.Extensions.OpenAI.ExtraDataDictionary</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="options" Type="OpenAI.Responses.CreateResponseOptions" />
-      </Parameters>
-      <Docs>
-        <param name="options">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetAzureFileStatus">
       <MemberSignature Language="C#" Value="public static string GetAzureFileStatus (this OpenAI.Files.OpenAIFile file);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAzureFileStatus(class OpenAI.Files.OpenAIFile file) cil managed" />

@@ -1,0 +1,104 @@
+<Type Name="NetworkApiVersion" FullName="Azure.Provisioning.Compute.NetworkApiVersion">
+  <TypeSignature Language="C#" Value="public enum NetworkApiVersion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed NetworkApiVersion extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.NetworkApiVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Enum NetworkApiVersion" />
+  <TypeSignature Language="F#" Value="type NetworkApiVersion = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            specifies the Microsoft.Network API version used when creating networking
+            resources in the Network Interface Configurations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="TwoThousandTwenty1101">
+      <MemberSignature Language="C#" Value="TwoThousandTwenty1101" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.NetworkApiVersion TwoThousandTwenty1101 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.NetworkApiVersion.TwoThousandTwenty1101" />
+      <MemberSignature Language="VB.NET" Value="TwoThousandTwenty1101" />
+      <MemberSignature Language="F#" Value="TwoThousandTwenty1101 = 2" Usage="Azure.Provisioning.Compute.NetworkApiVersion.TwoThousandTwenty1101" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="2020-11-01")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="2020-11-01")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.NetworkApiVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            2020-11-01.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="v2020_11_01">
+      <MemberSignature Language="C#" Value="v2020_11_01" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.NetworkApiVersion v2020_11_01 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.NetworkApiVersion.v2020_11_01" />
+      <MemberSignature Language="VB.NET" Value="v2020_11_01" />
+      <MemberSignature Language="F#" Value="v2020_11_01 = 0" Usage="Azure.Provisioning.Compute.NetworkApiVersion.v2020_11_01" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="2020-11-01")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="2020-11-01")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.NetworkApiVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            2020-11-01.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="v2022_11_01">
+      <MemberSignature Language="C#" Value="v2022_11_01" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.NetworkApiVersion v2022_11_01 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.NetworkApiVersion.v2022_11_01" />
+      <MemberSignature Language="VB.NET" Value="v2022_11_01" />
+      <MemberSignature Language="F#" Value="v2022_11_01 = 1" Usage="Azure.Provisioning.Compute.NetworkApiVersion.v2022_11_01" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="2022-11-01")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="2022-11-01")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.NetworkApiVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            2022-11-01.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

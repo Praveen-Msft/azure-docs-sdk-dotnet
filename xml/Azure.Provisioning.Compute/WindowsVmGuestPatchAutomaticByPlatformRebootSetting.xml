@@ -1,0 +1,107 @@
+<Type Name="WindowsVmGuestPatchAutomaticByPlatformRebootSetting" FullName="Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting">
+  <TypeSignature Language="C#" Value="public enum WindowsVmGuestPatchAutomaticByPlatformRebootSetting" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WindowsVmGuestPatchAutomaticByPlatformRebootSetting extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WindowsVmGuestPatchAutomaticByPlatformRebootSetting" />
+  <TypeSignature Language="F#" Value="type WindowsVmGuestPatchAutomaticByPlatformRebootSetting = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the reboot setting for all AutomaticByPlatform patch installation
+            operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Always">
+      <MemberSignature Language="C#" Value="Always" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting Always = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.Always" />
+      <MemberSignature Language="VB.NET" Value="Always" />
+      <MemberSignature Language="F#" Value="Always = 3" Usage="Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.Always" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Always.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IfRequired">
+      <MemberSignature Language="C#" Value="IfRequired" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting IfRequired = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.IfRequired" />
+      <MemberSignature Language="VB.NET" Value="IfRequired" />
+      <MemberSignature Language="F#" Value="IfRequired = 1" Usage="Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.IfRequired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            IfRequired.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Never">
+      <MemberSignature Language="C#" Value="Never" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting Never = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.Never" />
+      <MemberSignature Language="VB.NET" Value="Never" />
+      <MemberSignature Language="F#" Value="Never = 2" Usage="Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.Never" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Never.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.WindowsVmGuestPatchAutomaticByPlatformRebootSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unknown.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

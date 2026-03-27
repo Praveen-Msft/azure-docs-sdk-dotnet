@@ -1,0 +1,181 @@
+<Type Name="LinuxConfiguration" FullName="Azure.Provisioning.Compute.LinuxConfiguration">
+  <TypeSignature Language="C#" Value="public class LinuxConfiguration : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LinuxConfiguration extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.LinuxConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class LinuxConfiguration&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type LinuxConfiguration = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies the Linux operating system settings on the virtual machine. For a
+            list of supported Linux distributions, see [Linux on Azure-Endorsed
+            Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LinuxConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.LinuxConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new LinuxConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.LinuxConfiguration.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="linuxConfiguration.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of LinuxConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPasswordAuthenticationDisabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsPasswordAuthenticationDisabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsPasswordAuthenticationDisabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LinuxConfiguration.IsPasswordAuthenticationDisabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPasswordAuthenticationDisabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsPasswordAuthenticationDisabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.LinuxConfiguration.IsPasswordAuthenticationDisabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether password authentication should be disabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVmAgentPlatformUpdatesEnabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsVmAgentPlatformUpdatesEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsVmAgentPlatformUpdatesEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LinuxConfiguration.IsVmAgentPlatformUpdatesEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVmAgentPlatformUpdatesEnabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsVmAgentPlatformUpdatesEnabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.LinuxConfiguration.IsVmAgentPlatformUpdatesEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether VMAgent Platform Updates is enabled for the Linux
+            virtual machine. Default value is false.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchSettings">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.LinuxPatchSettings PatchSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.LinuxPatchSettings PatchSettings" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LinuxConfiguration.PatchSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatchSettings As LinuxPatchSettings" />
+      <MemberSignature Language="F#" Value="member this.PatchSettings : Azure.Provisioning.Compute.LinuxPatchSettings with get, set" Usage="Azure.Provisioning.Compute.LinuxConfiguration.PatchSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.LinuxPatchSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            [Preview Feature] Specifies settings related to VM Guest Patching on
+            Linux.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisionVmAgent">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; ProvisionVmAgent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; ProvisionVmAgent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LinuxConfiguration.ProvisionVmAgent" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisionVmAgent As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ProvisionVmAgent : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.LinuxConfiguration.ProvisionVmAgent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether virtual machine agent should be provisioned on the
+            virtual machine. When this property is not specified in the request
+            body, default behavior is to set it to true. This will ensure that VM
+            Agent is installed on the VM so that extensions can be added to the VM
+            later.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SshPublicKeys">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.SshPublicKeyConfiguration&gt; SshPublicKeys { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.SshPublicKeyConfiguration&gt; SshPublicKeys" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LinuxConfiguration.SshPublicKeys" />
+      <MemberSignature Language="VB.NET" Value="Public Property SshPublicKeys As BicepList(Of SshPublicKeyConfiguration)" />
+      <MemberSignature Language="F#" Value="member this.SshPublicKeys : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.SshPublicKeyConfiguration&gt; with get, set" Usage="Azure.Provisioning.Compute.LinuxConfiguration.SshPublicKeys" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.SshPublicKeyConfiguration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The list of SSH public keys used to authenticate with linux based VMs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

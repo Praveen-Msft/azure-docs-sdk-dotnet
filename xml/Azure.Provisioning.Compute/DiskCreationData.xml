@@ -1,0 +1,414 @@
+<Type Name="DiskCreationData" FullName="Azure.Provisioning.Compute.DiskCreationData">
+  <TypeSignature Language="C#" Value="public class DiskCreationData : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiskCreationData extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskCreationData" />
+  <TypeSignature Language="VB.NET" Value="Public Class DiskCreationData&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type DiskCreationData = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Data used when creating a disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiskCreationData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiskCreationData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new DiskCreationData.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOption">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskCreateOption&gt; CreateOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.DiskCreateOption&gt; CreateOption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.CreateOption" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateOption As BicepValue(Of DiskCreateOption)" />
+      <MemberSignature Language="F#" Value="member this.CreateOption : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskCreateOption&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.CreateOption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.DiskCreateOption&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This enumerates the possible sources of a disk's creation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiskCreationData.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="diskCreationData.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of DiskCreationData.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElasticSanResourceId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; ElasticSanResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; ElasticSanResourceId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.ElasticSanResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ElasticSanResourceId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.ElasticSanResourceId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.ElasticSanResourceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required if createOption is CopyFromSanSnapshot. This is the ARM id of
+            the source elastic san volume snapshot.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GalleryImageReference">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ImageDiskReference GalleryImageReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ImageDiskReference GalleryImageReference" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.GalleryImageReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property GalleryImageReference As ImageDiskReference" />
+      <MemberSignature Language="F#" Value="member this.GalleryImageReference : Azure.Provisioning.Compute.ImageDiskReference with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.GalleryImageReference" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ImageDiskReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required if creating from a Gallery Image. The
+            id/sharedGalleryImageId/communityGalleryImageId of the
+            ImageDiskReference will be the ARM id of the shared galley image
+            version from which to create a disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageReference">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ImageDiskReference ImageReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ImageDiskReference ImageReference" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.ImageReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImageReference As ImageDiskReference" />
+      <MemberSignature Language="F#" Value="member this.ImageReference : Azure.Provisioning.Compute.ImageDiskReference with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.ImageReference" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ImageDiskReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Disk source information for PIR or user images.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantAccessDurationMinutes">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;long&gt; InstantAccessDurationMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int64&gt; InstantAccessDurationMinutes" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.InstantAccessDurationMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property InstantAccessDurationMinutes As BicepValue(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.InstantAccessDurationMinutes : Azure.Provisioning.BicepValue&lt;int64&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.InstantAccessDurationMinutes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            For snapshots created from Premium SSD v2 or Ultra disk, this property
+            determines the time in minutes the snapshot is retained for instant
+            access to enable faster restore.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPerformancePlusEnabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsPerformancePlusEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsPerformancePlusEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.IsPerformancePlusEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPerformancePlusEnabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsPerformancePlusEnabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.IsPerformancePlusEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Set this flag to true to get a boost on the performance target of the
+            disk deployed, see here on the respective performance target. This
+            flag can only be set on disk creation time and cannot be disabled
+            after enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogicalSectorSize">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; LogicalSectorSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; LogicalSectorSize" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.LogicalSectorSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogicalSectorSize As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.LogicalSectorSize : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.LogicalSectorSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Logical sector size in bytes for Ultra disks. Supported values are 512
+            ad 4096. 4096 is the default.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisionedBandwidthCopySpeed">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption&gt; ProvisionedBandwidthCopySpeed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption&gt; ProvisionedBandwidthCopySpeed" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.ProvisionedBandwidthCopySpeed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisionedBandwidthCopySpeed As BicepValue(Of ProvisionedBandwidthCopyOption)" />
+      <MemberSignature Language="F#" Value="member this.ProvisionedBandwidthCopySpeed : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.ProvisionedBandwidthCopySpeed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ProvisionedBandwidthCopyOption&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If this field is set on a snapshot and createOption is CopyStart, the
+            snapshot will be copied at a quicker speed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecurityDataUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; SecurityDataUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; SecurityDataUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.SecurityDataUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecurityDataUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.SecurityDataUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.SecurityDataUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If createOption is ImportSecure, this is the URI of a blob to be
+            imported into VM guest state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecurityMetadataUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; SecurityMetadataUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; SecurityMetadataUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.SecurityMetadataUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecurityMetadataUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.SecurityMetadataUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.SecurityMetadataUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If createOption is ImportSecure, this is the URI of a blob to be
+            imported into VM metadata for Confidential VM.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceResourceId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; SourceResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; SourceResourceId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.SourceResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceResourceId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.SourceResourceId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.SourceResourceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If createOption is Copy, this is the ARM id of the source snapshot or
+            disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceUniqueId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; SourceUniqueId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; SourceUniqueId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.SourceUniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceUniqueId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.SourceUniqueId : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.DiskCreationData.SourceUniqueId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If this field is set, this is the unique id identifying the source of
+            this resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; SourceUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; SourceUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.SourceUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.SourceUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.SourceUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If createOption is Import, this is the URI of a blob to be imported
+            into a managed disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageAccountId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; StorageAccountId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; StorageAccountId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.StorageAccountId" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageAccountId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.StorageAccountId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.StorageAccountId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required if createOption is Import. The Azure Resource Manager
+            identifier of the storage account containing the blob to import as a
+            disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UploadSizeBytes">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;long&gt; UploadSizeBytes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int64&gt; UploadSizeBytes" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskCreationData.UploadSizeBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property UploadSizeBytes As BicepValue(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.UploadSizeBytes : Azure.Provisioning.BicepValue&lt;int64&gt; with get, set" Usage="Azure.Provisioning.Compute.DiskCreationData.UploadSizeBytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If createOption is Upload, this is the size of the contents of the
+            upload including the VHD footer. This value should be between 20972032
+            (20 MiB + 512 bytes for the VHD footer) and 35183298347520 bytes (32
+            TiB + 512 bytes for the VHD footer).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

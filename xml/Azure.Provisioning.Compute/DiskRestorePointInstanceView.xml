@@ -1,0 +1,130 @@
+<Type Name="DiskRestorePointInstanceView" FullName="Azure.Provisioning.Compute.DiskRestorePointInstanceView">
+  <TypeSignature Language="C#" Value="public class DiskRestorePointInstanceView : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiskRestorePointInstanceView extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskRestorePointInstanceView" />
+  <TypeSignature Language="VB.NET" Value="Public Class DiskRestorePointInstanceView&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type DiskRestorePointInstanceView = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The instance view of a disk restore point.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiskRestorePointInstanceView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiskRestorePointInstanceView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new DiskRestorePointInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.DiskRestorePointInstanceView.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="diskRestorePointInstanceView.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of DiskRestorePointInstanceView.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskRestorePointInstanceView.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Id : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.DiskRestorePointInstanceView.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Disk restore point Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplicationStatus">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.DiskRestorePointReplicationStatus ReplicationStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.DiskRestorePointReplicationStatus ReplicationStatus" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskRestorePointInstanceView.ReplicationStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplicationStatus As DiskRestorePointReplicationStatus" />
+      <MemberSignature Language="F#" Value="member this.ReplicationStatus : Azure.Provisioning.Compute.DiskRestorePointReplicationStatus" Usage="Azure.Provisioning.Compute.DiskRestorePointInstanceView.ReplicationStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskRestorePointReplicationStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The disk restore point replication status information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SnapshotAccessState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SnapshotAccessState&gt; SnapshotAccessState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.SnapshotAccessState&gt; SnapshotAccessState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.DiskRestorePointInstanceView.SnapshotAccessState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SnapshotAccessState As BicepValue(Of SnapshotAccessState)" />
+      <MemberSignature Language="F#" Value="member this.SnapshotAccessState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SnapshotAccessState&gt;" Usage="Azure.Provisioning.Compute.DiskRestorePointInstanceView.SnapshotAccessState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.SnapshotAccessState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The state of snapshot which determines the access availability of the
+            snapshot.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

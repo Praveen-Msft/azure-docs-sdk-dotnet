@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Dell.Storage</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dell.Storage</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dell.Storage.DellFileSystemData</ReturnType>
@@ -65,6 +67,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dell.Storage</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dell.Storage.Models.DellFileSystemMarketplaceDetails</ReturnType>
@@ -105,14 +108,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dell.Storage</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dell.Storage.Models.DellFileSystemPatch</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.Dell.Storage.Models.DellFileSystemPatchProperties" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.Dell.Storage.Models.DellFileSystemPatchProperties" />
       </Parameters>
       <Docs>
         <param name="identity"> The managed service identities assigned to this resource. </param>
@@ -133,6 +137,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dell.Storage</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Dell.Storage.Models.DellFileSystemProperties</ReturnType>

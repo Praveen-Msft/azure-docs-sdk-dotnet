@@ -1,0 +1,122 @@
+<Type Name="WinRMListener" FullName="Azure.Provisioning.Compute.WinRMListener">
+  <TypeSignature Language="C#" Value="public class WinRMListener : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WinRMListener extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.WinRMListener" />
+  <TypeSignature Language="VB.NET" Value="Public Class WinRMListener&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type WinRMListener = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes Protocol and thumbprint of Windows Remote Management listener.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WinRMListener ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.WinRMListener.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new WinRMListener.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CertificateUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; CertificateUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; CertificateUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.WinRMListener.CertificateUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property CertificateUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.CertificateUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.WinRMListener.CertificateUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This is the URL of a certificate that has been uploaded to Key Vault as
+            a secret. For adding a secret to the Key Vault, see [Add a key or
+            secret to the key
+            vault](https://docs.microsoft.com/azure/key-vault/key-vault-get-started/#add).
+            In this case, your certificate needs to be the Base64 encoding of the
+            following JSON Object which is encoded in UTF-8: &lt;br&gt;&lt;br&gt;
+            {&lt;br&gt;
+            "data":"&lt;Base64-encoded-certificate&gt;",&lt;br&gt;
+            "dataType":"pfx",&lt;br&gt;
+            "password":"&lt;pfx-file-password&gt;"&lt;br&gt;}
+            &lt;br&gt; To install certificates on a virtual machine it is
+            recommended to use the [Azure Key Vault virtual machine extension for
+            Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/key-vault-linux)
+            or the [Azure Key Vault virtual machine extension for
+            Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/key-vault-windows).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.WinRMListener.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="winRMListener.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of WinRMListener.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Protocol">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.WinRMListenerProtocolType&gt; Protocol { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.WinRMListenerProtocolType&gt; Protocol" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.WinRMListener.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public Property Protocol As BicepValue(Of WinRMListenerProtocolType)" />
+      <MemberSignature Language="F#" Value="member this.Protocol : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.WinRMListenerProtocolType&gt; with get, set" Usage="Azure.Provisioning.Compute.WinRMListener.Protocol" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.WinRMListenerProtocolType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the protocol of WinRM listener. Possible values are:
+            **http,** **https.**.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

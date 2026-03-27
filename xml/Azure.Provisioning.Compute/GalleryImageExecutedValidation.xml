@@ -1,0 +1,153 @@
+<Type Name="GalleryImageExecutedValidation" FullName="Azure.Provisioning.Compute.GalleryImageExecutedValidation">
+  <TypeSignature Language="C#" Value="public class GalleryImageExecutedValidation : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GalleryImageExecutedValidation extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryImageExecutedValidation" />
+  <TypeSignature Language="VB.NET" Value="Public Class GalleryImageExecutedValidation&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type GalleryImageExecutedValidation = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            This is the executed Validation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryImageExecutedValidation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageExecutedValidation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new GalleryImageExecutedValidation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.GalleryImageExecutedValidation.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="galleryImageExecutedValidation.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            GalleryImageExecutedValidation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutedValidationType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ExecutedValidationType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ExecutedValidationType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageExecutedValidation.ExecutedValidationType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutedValidationType As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ExecutedValidationType : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.GalleryImageExecutedValidation.ExecutedValidationType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property specifies the type of image version validation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; ExecutionOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; ExecutionOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageExecutedValidation.ExecutionOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ExecutionOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.GalleryImageExecutedValidation.ExecutionOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property specifies the starting timestamp.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeGalleryValidationStatus&gt; Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ComputeGalleryValidationStatus&gt; Status" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageExecutedValidation.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As BicepValue(Of ComputeGalleryValidationStatus)" />
+      <MemberSignature Language="F#" Value="member this.Status : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeGalleryValidationStatus&gt;" Usage="Azure.Provisioning.Compute.GalleryImageExecutedValidation.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeGalleryValidationStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property specifies the status of the validationProfile of the
+            image version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Version" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.GalleryImageExecutedValidation.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Version : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.GalleryImageExecutedValidation.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property specifies the valid version of the validation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

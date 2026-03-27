@@ -246,255 +246,6 @@
           <paramref name="subscriptionResource" /> or <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetActiveDirectoryConfig">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfig (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfig(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfig(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveDirectoryConfig (resourceGroupResource As ResourceGroupResource, activeDirectoryConfigName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ActiveDirectoryConfigResource)" />
-      <MemberSignature Language="F#" Value="static member GetActiveDirectoryConfig : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfig (resourceGroupResource, activeDirectoryConfigName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="activeDirectoryConfigName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="activeDirectoryConfigName"> The name of the ActiveDirectoryConfig. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get the details of the specified active directory configuration
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/activeDirectoryConfigs/{activeDirectoryConfigName}</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetActiveDirectoryConfig(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="activeDirectoryConfigName" /> is null. </exception>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="activeDirectoryConfigName" /> is an empty string, and was expected to be non-empty. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActiveDirectoryConfigAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;&gt; GetActiveDirectoryConfigAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;&gt; GetActiveDirectoryConfigAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveDirectoryConfigAsync (resourceGroupResource As ResourceGroupResource, activeDirectoryConfigName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ActiveDirectoryConfigResource))" />
-      <MemberSignature Language="F#" Value="static member GetActiveDirectoryConfigAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigAsync (resourceGroupResource, activeDirectoryConfigName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="activeDirectoryConfigName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="activeDirectoryConfigName"> The name of the ActiveDirectoryConfig. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get the details of the specified active directory configuration
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/activeDirectoryConfigs/{activeDirectoryConfigName}</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetActiveDirectoryConfigAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="activeDirectoryConfigName" /> is null. </exception>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="activeDirectoryConfigName" /> is an empty string, and was expected to be non-empty. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActiveDirectoryConfigResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource GetActiveDirectoryConfigResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource GetActiveDirectoryConfigResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveDirectoryConfigResource (client As ArmClient, id As ResourceIdentifier) As ActiveDirectoryConfigResource" />
-      <MemberSignature Language="F#" Value="static member GetActiveDirectoryConfigResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetActiveDirectoryConfigResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActiveDirectoryConfigs">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ActiveDirectoryConfigCollection GetActiveDirectoryConfigs (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ActiveDirectoryConfigCollection GetActiveDirectoryConfigs(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigs(Azure.ResourceManager.Resources.ResourceGroupResource)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveDirectoryConfigs (resourceGroupResource As ResourceGroupResource) As ActiveDirectoryConfigCollection" />
-      <MemberSignature Language="F#" Value="static member GetActiveDirectoryConfigs : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.NetApp.ActiveDirectoryConfigCollection" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigs resourceGroupResource" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ActiveDirectoryConfigCollection</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary>
-            Gets a collection of ActiveDirectoryConfigResources in the ResourceGroupResource.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetActiveDirectoryConfigs" /> instead.</description></item></summary>
-        <returns> An object representing collection of ActiveDirectoryConfigResources and their operations over a ActiveDirectoryConfigResource. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActiveDirectoryConfigs">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigs (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigs(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigs(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveDirectoryConfigs (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ActiveDirectoryConfigResource)" />
-      <MemberSignature Language="F#" Value="static member GetActiveDirectoryConfigs : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigs (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List all active directory configurations within the subscription
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetActiveDirectoryConfigs(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActiveDirectoryConfigsAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigsAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigsAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveDirectoryConfigsAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ActiveDirectoryConfigResource)" />
-      <MemberSignature Language="F#" Value="static member GetActiveDirectoryConfigsAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetActiveDirectoryConfigsAsync (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List all active directory configurations within the subscription
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetActiveDirectoryConfigs(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetBucketResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.BucketResource GetBucketResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.BucketResource GetBucketResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetBucketResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBucketResource (client As ArmClient, id As ResourceIdentifier) As BucketResource" />
-      <MemberSignature Language="F#" Value="static member GetBucketResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.BucketResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetBucketResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.BucketResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.BucketResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.BucketResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.BucketResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetBucketResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.BucketResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetCacheResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.CacheResource GetCacheResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.CacheResource GetCacheResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetCacheResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCacheResource (client As ArmClient, id As ResourceIdentifier) As CacheResource" />
-      <MemberSignature Language="F#" Value="static member GetCacheResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.CacheResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetCacheResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.CacheResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.CacheResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.CacheResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.CacheResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetCacheResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.CacheResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="GetCapacityPoolResource">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.CapacityPoolResource GetCapacityPoolResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.CapacityPoolResource GetCapacityPoolResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
@@ -522,410 +273,6 @@
             You can use <see cref="M:Azure.ResourceManager.NetApp.CapacityPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.CapacityPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetCapacityPoolResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.CapacityPoolResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccount">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccount (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccount(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccount(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticAccount (resourceGroupResource As ResourceGroupResource, accountName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ElasticAccountResource)" />
-      <MemberSignature Language="F#" Value="static member GetElasticAccount : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccount (resourceGroupResource, accountName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="accountName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="accountName"> The name of the ElasticAccount. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get the NetApp Elastic Account
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/elasticAccounts/{accountName}</description></item><item><term>Operation Id</term><description>ElasticAccounts_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetElasticAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="accountName" /> is null. </exception>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccountAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;&gt; GetElasticAccountAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.ElasticAccountResource&gt;&gt; GetElasticAccountAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccountAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticAccountAsync (resourceGroupResource As ResourceGroupResource, accountName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ElasticAccountResource))" />
-      <MemberSignature Language="F#" Value="static member GetElasticAccountAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccountAsync (resourceGroupResource, accountName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="accountName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="accountName"> The name of the ElasticAccount. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get the NetApp Elastic Account
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/elasticAccounts/{accountName}</description></item><item><term>Operation Id</term><description>ElasticAccounts_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetElasticAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="accountName" /> is null. </exception>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccountResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticAccountResource GetElasticAccountResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticAccountResource GetElasticAccountResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccountResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticAccountResource (client As ArmClient, id As ResourceIdentifier) As ElasticAccountResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticAccountResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticAccountResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccountResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticAccountResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticAccountResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccounts">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticAccountCollection GetElasticAccounts (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticAccountCollection GetElasticAccounts(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccounts(Azure.ResourceManager.Resources.ResourceGroupResource)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticAccounts (resourceGroupResource As ResourceGroupResource) As ElasticAccountCollection" />
-      <MemberSignature Language="F#" Value="static member GetElasticAccounts : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.NetApp.ElasticAccountCollection" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccounts resourceGroupResource" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticAccountCollection</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary>
-            Gets a collection of ElasticAccountResources in the ResourceGroupResource.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetElasticAccounts" /> instead.</description></item></summary>
-        <returns> An object representing collection of ElasticAccountResources and their operations over a ElasticAccountResource. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccounts">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccounts (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccounts(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccounts(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticAccounts (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ElasticAccountResource)" />
-      <MemberSignature Language="F#" Value="static member GetElasticAccounts : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccounts (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List and describe all NetApp elastic accounts in the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetElasticAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccountsAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccountsAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccountsAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccountsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticAccountsAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ElasticAccountResource)" />
-      <MemberSignature Language="F#" Value="static member GetElasticAccountsAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticAccountsAsync (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List and describe all NetApp elastic accounts in the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetElasticAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticBackupPolicyResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticBackupPolicyResource GetElasticBackupPolicyResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticBackupPolicyResource GetElasticBackupPolicyResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticBackupPolicyResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticBackupPolicyResource (client As ArmClient, id As ResourceIdentifier) As ElasticBackupPolicyResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticBackupPolicyResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticBackupPolicyResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticBackupPolicyResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticBackupPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupPolicyResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticBackupResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticBackupResource GetElasticBackupResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticBackupResource GetElasticBackupResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticBackupResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticBackupResource (client As ArmClient, id As ResourceIdentifier) As ElasticBackupResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticBackupResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticBackupResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticBackupResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticBackupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticBackupResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticBackupVaultResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticBackupVaultResource GetElasticBackupVaultResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticBackupVaultResource GetElasticBackupVaultResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticBackupVaultResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticBackupVaultResource (client As ArmClient, id As ResourceIdentifier) As ElasticBackupVaultResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticBackupVaultResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticBackupVaultResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticBackupVaultResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticBackupVaultResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupVaultResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticBackupVaultResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticBackupVaultResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticCapacityPoolResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticCapacityPoolResource GetElasticCapacityPoolResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticCapacityPoolResource GetElasticCapacityPoolResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticCapacityPoolResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticCapacityPoolResource (client As ArmClient, id As ResourceIdentifier) As ElasticCapacityPoolResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticCapacityPoolResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticCapacityPoolResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticCapacityPoolResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticCapacityPoolResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticCapacityPoolResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticSnapshotPolicyResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource GetElasticSnapshotPolicyResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource GetElasticSnapshotPolicyResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticSnapshotPolicyResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticSnapshotPolicyResource (client As ArmClient, id As ResourceIdentifier) As ElasticSnapshotPolicyResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticSnapshotPolicyResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticSnapshotPolicyResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticSnapshotPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotPolicyResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticSnapshotResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticSnapshotResource GetElasticSnapshotResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticSnapshotResource GetElasticSnapshotResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticSnapshotResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticSnapshotResource (client As ArmClient, id As ResourceIdentifier) As ElasticSnapshotResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticSnapshotResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticSnapshotResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticSnapshotResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticSnapshotResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticSnapshotResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticSnapshotResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticSnapshotResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticVolumeResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.ElasticVolumeResource GetElasticVolumeResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.ElasticVolumeResource GetElasticVolumeResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticVolumeResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElasticVolumeResource (client As ArmClient, id As ResourceIdentifier) As ElasticVolumeResource" />
-      <MemberSignature Language="F#" Value="static member GetElasticVolumeResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.ElasticVolumeResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetElasticVolumeResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.ElasticVolumeResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.NetApp.ElasticVolumeResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.ElasticVolumeResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.NetApp.ElasticVolumeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetElasticVolumeResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.ElasticVolumeResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="client" /> is null. </exception>
@@ -1160,6 +507,193 @@
           <paramref name="subscriptionResource" /> is null. </exception>
       </Docs>
     </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfig">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfig (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfig(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfig(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppActiveDirectoryConfig (resourceGroupResource As ResourceGroupResource, activeDirectoryConfigName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of NetAppActiveDirectoryConfigResource)" />
+      <MemberSignature Language="F#" Value="static member GetNetAppActiveDirectoryConfig : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfig (resourceGroupResource, activeDirectoryConfigName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="activeDirectoryConfigName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="activeDirectoryConfigName"> The name of the ActiveDirectoryConfig. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the specified active directory configuration
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/activeDirectoryConfigs/{activeDirectoryConfigName}</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppActiveDirectoryConfig(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> or <paramref name="activeDirectoryConfigName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="activeDirectoryConfigName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;&gt; GetNetAppActiveDirectoryConfigAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;&gt; GetNetAppActiveDirectoryConfigAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string activeDirectoryConfigName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppActiveDirectoryConfigAsync (resourceGroupResource As ResourceGroupResource, activeDirectoryConfigName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of NetAppActiveDirectoryConfigResource))" />
+      <MemberSignature Language="F#" Value="static member GetNetAppActiveDirectoryConfigAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigAsync (resourceGroupResource, activeDirectoryConfigName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="activeDirectoryConfigName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="activeDirectoryConfigName"> The name of the ActiveDirectoryConfig. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the specified active directory configuration
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/activeDirectoryConfigs/{activeDirectoryConfigName}</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppActiveDirectoryConfigAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> or <paramref name="activeDirectoryConfigName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="activeDirectoryConfigName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource GetNetAppActiveDirectoryConfigResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource GetNetAppActiveDirectoryConfigResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppActiveDirectoryConfigResource (client As ArmClient, id As ResourceIdentifier) As NetAppActiveDirectoryConfigResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppActiveDirectoryConfigResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppActiveDirectoryConfigResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigs">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigCollection GetNetAppActiveDirectoryConfigs (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigCollection GetNetAppActiveDirectoryConfigs(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigs(Azure.ResourceManager.Resources.ResourceGroupResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppActiveDirectoryConfigs (resourceGroupResource As ResourceGroupResource) As NetAppActiveDirectoryConfigCollection" />
+      <MemberSignature Language="F#" Value="static member GetNetAppActiveDirectoryConfigs : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigCollection" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigs resourceGroupResource" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <summary>
+            Gets a collection of NetAppActiveDirectoryConfigResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppActiveDirectoryConfigs" /> instead.</description></item></summary>
+        <returns> An object representing collection of NetAppActiveDirectoryConfigResources and their operations over a NetAppActiveDirectoryConfigResource. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigs">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigs (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigs(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigs(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppActiveDirectoryConfigs (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of NetAppActiveDirectoryConfigResource)" />
+      <MemberSignature Language="F#" Value="static member GetNetAppActiveDirectoryConfigs : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigs (subscriptionResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all active directory configurations within the subscription
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppActiveDirectoryConfigs(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="subscriptionResource" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigsAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigsAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigsAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppActiveDirectoryConfigsAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of NetAppActiveDirectoryConfigResource)" />
+      <MemberSignature Language="F#" Value="static member GetNetAppActiveDirectoryConfigsAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppActiveDirectoryConfigsAsync (subscriptionResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all active directory configurations within the subscription
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppActiveDirectoryConfigs(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="subscriptionResource" /> is null. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="GetNetAppBackupPolicyResource">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppBackupPolicyResource GetNetAppBackupPolicyResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppBackupPolicyResource GetNetAppBackupPolicyResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
@@ -1251,6 +785,472 @@
             You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppBackupVaultResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppBucketResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppBucketResource GetNetAppBucketResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppBucketResource GetNetAppBucketResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppBucketResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppBucketResource (client As ArmClient, id As ResourceIdentifier) As NetAppBucketResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppBucketResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppBucketResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppBucketResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppBucketResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppBucketResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppBucketResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppBucketResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppBucketResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppBucketResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppCacheResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppCacheResource GetNetAppCacheResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppCacheResource GetNetAppCacheResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppCacheResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppCacheResource (client As ArmClient, id As ResourceIdentifier) As NetAppCacheResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppCacheResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppCacheResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppCacheResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppCacheResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppCacheResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppCacheResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppCacheResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccount">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccount (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccount(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccount(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticAccount (resourceGroupResource As ResourceGroupResource, accountName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of NetAppElasticAccountResource)" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticAccount : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccount (resourceGroupResource, accountName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="accountName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="accountName"> The name of the ElasticAccount. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the NetApp Elastic Account
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/elasticAccounts/{accountName}</description></item><item><term>Operation Id</term><description>ElasticAccounts_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppElasticAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> or <paramref name="accountName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccountAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;&gt; GetNetAppElasticAccountAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;&gt; GetNetAppElasticAccountAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccountAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticAccountAsync (resourceGroupResource As ResourceGroupResource, accountName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of NetAppElasticAccountResource))" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticAccountAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccountAsync (resourceGroupResource, accountName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="accountName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="accountName"> The name of the ElasticAccount. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the NetApp Elastic Account
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/elasticAccounts/{accountName}</description></item><item><term>Operation Id</term><description>ElasticAccounts_Get</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppElasticAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> or <paramref name="accountName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccountResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticAccountResource GetNetAppElasticAccountResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticAccountResource GetNetAppElasticAccountResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccountResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticAccountResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticAccountResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticAccountResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticAccountResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccountResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticAccountResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticAccountResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccounts">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticAccountCollection GetNetAppElasticAccounts (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticAccountCollection GetNetAppElasticAccounts(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccounts(Azure.ResourceManager.Resources.ResourceGroupResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticAccounts (resourceGroupResource As ResourceGroupResource) As NetAppElasticAccountCollection" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticAccounts : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.NetApp.NetAppElasticAccountCollection" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccounts resourceGroupResource" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticAccountCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <summary>
+            Gets a collection of NetAppElasticAccountResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppElasticAccounts" /> instead.</description></item></summary>
+        <returns> An object representing collection of NetAppElasticAccountResources and their operations over a NetAppElasticAccountResource. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccounts">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccounts (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccounts(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccounts(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticAccounts (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of NetAppElasticAccountResource)" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticAccounts : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccounts (subscriptionResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List and describe all NetApp elastic accounts in the subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppElasticAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="subscriptionResource" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccountsAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccountsAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccountsAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccountsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticAccountsAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of NetAppElasticAccountResource)" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticAccountsAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticAccountsAsync (subscriptionResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List and describe all NetApp elastic accounts in the subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppElasticAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="subscriptionResource" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticBackupPolicyResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource GetNetAppElasticBackupPolicyResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource GetNetAppElasticBackupPolicyResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticBackupPolicyResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticBackupPolicyResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticBackupPolicyResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticBackupPolicyResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticBackupPolicyResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticBackupPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupPolicyResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticBackupResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticBackupResource GetNetAppElasticBackupResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticBackupResource GetNetAppElasticBackupResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticBackupResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticBackupResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticBackupResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticBackupResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticBackupResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticBackupResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticBackupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticBackupResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticBackupVaultResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource GetNetAppElasticBackupVaultResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource GetNetAppElasticBackupVaultResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticBackupVaultResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticBackupVaultResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticBackupVaultResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticBackupVaultResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticBackupVaultResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticBackupVaultResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticBackupVaultResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticCapacityPoolResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource GetNetAppElasticCapacityPoolResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource GetNetAppElasticCapacityPoolResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticCapacityPoolResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticCapacityPoolResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticCapacityPoolResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticCapacityPoolResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticCapacityPoolResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticCapacityPoolResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticCapacityPoolResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticSnapshotPolicyResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource GetNetAppElasticSnapshotPolicyResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource GetNetAppElasticSnapshotPolicyResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticSnapshotPolicyResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticSnapshotPolicyResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticSnapshotPolicyResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticSnapshotPolicyResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticSnapshotPolicyResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticSnapshotPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotPolicyResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticSnapshotResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource GetNetAppElasticSnapshotResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource GetNetAppElasticSnapshotResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticSnapshotResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticSnapshotResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticSnapshotResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticSnapshotResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticSnapshotResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticSnapshotResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticSnapshotResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="client" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticVolumeResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppElasticVolumeResource GetNetAppElasticVolumeResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppElasticVolumeResource GetNetAppElasticVolumeResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticVolumeResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppElasticVolumeResource (client As ArmClient, id As ResourceIdentifier) As NetAppElasticVolumeResource" />
+      <MemberSignature Language="F#" Value="static member GetNetAppElasticVolumeResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppElasticVolumeResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.NetAppElasticVolumeResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppElasticVolumeResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticVolumeResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="client" /> is null. </exception>

@@ -8,13 +8,14 @@
     <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.2.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class to add extension methods to ArmClient. </summary>
+    <summary> A class to add extension methods to <see cref="T:Azure.ResourceManager.ArmClient" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -27,10 +28,11 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.Peering.Mocking.MockablePeeringArmClient" /> class for mocking. </summary>
+        <summary> Initializes a new instance of MockablePeeringArmClient for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -44,6 +46,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.ConnectionMonitorTestResource</ReturnType>
@@ -53,10 +56,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.ConnectionMonitorTestResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.ConnectionMonitorTestResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.ConnectionMonitorTestResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.ConnectionMonitorTestResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.ConnectionMonitorTestResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -71,6 +71,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.PeerAsnResource</ReturnType>
@@ -80,10 +81,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeerAsnResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.PeerAsnResource.CreateResourceIdentifier(System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.PeerAsnResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeerAsnResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.PeerAsnResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -98,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.PeeringRegisteredAsnResource</ReturnType>
@@ -107,10 +106,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredAsnResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.PeeringRegisteredAsnResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredAsnResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredAsnResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredAsnResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -125,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.PeeringRegisteredPrefixResource</ReturnType>
@@ -134,10 +131,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredPrefixResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.PeeringRegisteredPrefixResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredPrefixResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredPrefixResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.PeeringRegisteredPrefixResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.PeeringResource</ReturnType>
@@ -161,10 +156,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.PeeringResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.PeeringResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.PeeringResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.PeeringServicePrefixResource</ReturnType>
@@ -188,10 +181,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringServicePrefixResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.PeeringServicePrefixResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.PeeringServicePrefixResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringServicePrefixResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.PeeringServicePrefixResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Peering</AssemblyName>
         <AssemblyVersion>1.2.2.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Peering.PeeringServiceResource</ReturnType>
@@ -215,10 +206,7 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringServiceResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Peering.PeeringServiceResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Peering.PeeringServiceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Peering.PeeringServiceResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Peering.PeeringServiceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

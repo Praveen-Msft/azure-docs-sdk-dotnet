@@ -1,0 +1,203 @@
+<Type Name="ProxyAgentSettings" FullName="Azure.Provisioning.Compute.ProxyAgentSettings">
+  <TypeSignature Language="C#" Value="public class ProxyAgentSettings : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProxyAgentSettings extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ProxyAgentSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProxyAgentSettings&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ProxyAgentSettings = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies ProxyAgent settings for the virtual machine or virtual machine
+            scale set. Minimum api-version: 2023-09-01.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProxyAgentSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ProxyAgentSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ProxyAgentSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddProxyAgentExtension">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; AddProxyAgentExtension { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; AddProxyAgentExtension" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ProxyAgentSettings.AddProxyAgentExtension" />
+      <MemberSignature Language="VB.NET" Value="Public Property AddProxyAgentExtension As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AddProxyAgentExtension : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.ProxyAgentSettings.AddProxyAgentExtension" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specify whether to implicitly install the ProxyAgent Extension. This
+            option is currently applicable only for Linux Os.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ProxyAgentSettings.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="proxyAgentSettings.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ProxyAgentSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ProxyAgentSettings.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.ProxyAgentSettings.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether ProxyAgent feature should be enabled on the virtual
+            machine or virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Imds">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.HostEndpointSettings Imds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.HostEndpointSettings Imds" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ProxyAgentSettings.Imds" />
+      <MemberSignature Language="VB.NET" Value="Public Property Imds As HostEndpointSettings" />
+      <MemberSignature Language="F#" Value="member this.Imds : Azure.Provisioning.Compute.HostEndpointSettings with get, set" Usage="Azure.Provisioning.Compute.ProxyAgentSettings.Imds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.HostEndpointSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the IMDS endpoint settings while creating the virtual machine
+            or virtual machine scale set. Minimum api-version: 2024-03-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyIncarnationId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; KeyIncarnationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; KeyIncarnationId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ProxyAgentSettings.KeyIncarnationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyIncarnationId As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.KeyIncarnationId : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.ProxyAgentSettings.KeyIncarnationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Increase the value of this property allows users to reset the key used
+            for securing communication channel between guest and host.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.Mode&gt; Mode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.Mode&gt; Mode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ProxyAgentSettings.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mode As BicepValue(Of Mode)" />
+      <MemberSignature Language="F#" Value="member this.Mode : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.Mode&gt; with get, set" Usage="Azure.Provisioning.Compute.ProxyAgentSettings.Mode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.Mode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the mode that ProxyAgent will execute on. Warning: this
+            property has been deprecated, please specify 'mode' under
+            particular hostendpoint setting.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WireServer">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.HostEndpointSettings WireServer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.HostEndpointSettings WireServer" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ProxyAgentSettings.WireServer" />
+      <MemberSignature Language="VB.NET" Value="Public Property WireServer As HostEndpointSettings" />
+      <MemberSignature Language="F#" Value="member this.WireServer : Azure.Provisioning.Compute.HostEndpointSettings with get, set" Usage="Azure.Provisioning.Compute.ProxyAgentSettings.WireServer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.HostEndpointSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the Wire Server endpoint settings while creating the virtual
+            machine or virtual machine scale set. Minimum api-version: 2024-03-01.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

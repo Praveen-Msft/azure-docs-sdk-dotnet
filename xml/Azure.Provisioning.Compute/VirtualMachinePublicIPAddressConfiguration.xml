@@ -1,0 +1,289 @@
+<Type Name="VirtualMachinePublicIPAddressConfiguration" FullName="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration">
+  <TypeSignature Language="C#" Value="public class VirtualMachinePublicIPAddressConfiguration : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachinePublicIPAddressConfiguration extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachinePublicIPAddressConfiguration&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachinePublicIPAddressConfiguration = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a virtual machines IP Configuration's PublicIPAddress
+            configuration.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachinePublicIPAddressConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachinePublicIPAddressConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachinePublicIPAddressConfiguration.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachinePublicIPAddressConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteOption">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeDeleteOption&gt; DeleteOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ComputeDeleteOption&gt; DeleteOption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.DeleteOption" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteOption As BicepValue(Of ComputeDeleteOption)" />
+      <MemberSignature Language="F#" Value="member this.DeleteOption : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeDeleteOption&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.DeleteOption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ComputeDeleteOption&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specify what happens to the public IP address when the VM is deleted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DnsSettings">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachinePublicIPAddressDnsSettingsConfiguration DnsSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachinePublicIPAddressDnsSettingsConfiguration DnsSettings" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.DnsSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property DnsSettings As VirtualMachinePublicIPAddressDnsSettingsConfiguration" />
+      <MemberSignature Language="F#" Value="member this.DnsSettings : Azure.Provisioning.Compute.VirtualMachinePublicIPAddressDnsSettingsConfiguration with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.DnsSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachinePublicIPAddressDnsSettingsConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The dns settings to be applied on the publicIP addresses .
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdleTimeoutInMinutes">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; IdleTimeoutInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; IdleTimeoutInMinutes" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.IdleTimeoutInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property IdleTimeoutInMinutes As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.IdleTimeoutInMinutes : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.IdleTimeoutInMinutes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The idle timeout of the public IP address.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IPTags">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineIPTag&gt; IPTags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.VirtualMachineIPTag&gt; IPTags" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.IPTags" />
+      <MemberSignature Language="VB.NET" Value="Public Property IPTags As BicepList(Of VirtualMachineIPTag)" />
+      <MemberSignature Language="F#" Value="member this.IPTags : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineIPTag&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.IPTags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineIPTag&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The list of IP tags associated with the public IP address.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The publicIP address configuration name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPAddressVersion">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.IPVersion&gt; PublicIPAddressVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.IPVersion&gt; PublicIPAddressVersion" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.PublicIPAddressVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicIPAddressVersion As BicepValue(Of IPVersion)" />
+      <MemberSignature Language="F#" Value="member this.PublicIPAddressVersion : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.IPVersion&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.PublicIPAddressVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.IPVersion&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Available from Api-Version 2019-07-01 onwards, it represents whether
+            the specific ipconfiguration is IPv4 or IPv6. Default is taken as
+            IPv4. Possible values are: 'IPv4' and 'IPv6'.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPAllocationMethod">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PublicIPAllocationMethod&gt; PublicIPAllocationMethod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.PublicIPAllocationMethod&gt; PublicIPAllocationMethod" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.PublicIPAllocationMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicIPAllocationMethod As BicepValue(Of PublicIPAllocationMethod)" />
+      <MemberSignature Language="F#" Value="member this.PublicIPAllocationMethod : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PublicIPAllocationMethod&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.PublicIPAllocationMethod" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PublicIPAllocationMethod&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specify the public IP allocation type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPPrefixId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; PublicIPPrefixId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; PublicIPPrefixId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.PublicIPPrefixId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicIPPrefixId As BicepValue(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.PublicIPPrefixId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.PublicIPPrefixId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ComputePublicIPAddressSku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ComputePublicIPAddressSku Sku" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.Sku" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As ComputePublicIPAddressSku" />
+      <MemberSignature Language="F#" Value="member this.Sku : Azure.Provisioning.Compute.ComputePublicIPAddressSku with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.Sku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputePublicIPAddressSku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Describes the public IP Sku. It can only be set with OrchestrationMode
+            as Flexible.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepDictionary&lt;string&gt; Tags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepDictionary`1&lt;string&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As BicepDictionary(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Tags : Azure.Provisioning.BicepDictionary&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePublicIPAddressConfiguration.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepDictionary&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Resource tags applied to the publicIP address created by this
+            PublicIPAddressConfiguration.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

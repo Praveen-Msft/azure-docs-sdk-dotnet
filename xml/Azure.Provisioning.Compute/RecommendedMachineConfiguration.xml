@@ -1,0 +1,109 @@
+<Type Name="RecommendedMachineConfiguration" FullName="Azure.Provisioning.Compute.RecommendedMachineConfiguration">
+  <TypeSignature Language="C#" Value="public class RecommendedMachineConfiguration : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecommendedMachineConfiguration extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.RecommendedMachineConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecommendedMachineConfiguration&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type RecommendedMachineConfiguration = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The properties describe the recommended machine configuration for this
+            Image Definition. These properties are updatable.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecommendedMachineConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.RecommendedMachineConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new RecommendedMachineConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.RecommendedMachineConfiguration.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="recommendedMachineConfiguration.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            RecommendedMachineConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Memory">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ResourceRange Memory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ResourceRange Memory" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RecommendedMachineConfiguration.Memory" />
+      <MemberSignature Language="VB.NET" Value="Public Property Memory As ResourceRange" />
+      <MemberSignature Language="F#" Value="member this.Memory : Azure.Provisioning.Compute.ResourceRange with get, set" Usage="Azure.Provisioning.Compute.RecommendedMachineConfiguration.Memory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResourceRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Describes the resource range.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VCpus">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ResourceRange VCpus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ResourceRange VCpus" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RecommendedMachineConfiguration.VCpus" />
+      <MemberSignature Language="VB.NET" Value="Public Property VCpus As ResourceRange" />
+      <MemberSignature Language="F#" Value="member this.VCpus : Azure.Provisioning.Compute.ResourceRange with get, set" Usage="Azure.Provisioning.Compute.RecommendedMachineConfiguration.VCpus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ResourceRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Describes the resource range.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

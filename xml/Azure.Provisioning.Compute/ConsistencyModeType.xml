@@ -1,0 +1,87 @@
+<Type Name="ConsistencyModeType" FullName="Azure.Provisioning.Compute.ConsistencyModeType">
+  <TypeSignature Language="C#" Value="public enum ConsistencyModeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConsistencyModeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ConsistencyModeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConsistencyModeType" />
+  <TypeSignature Language="F#" Value="type ConsistencyModeType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            ConsistencyMode of the RestorePoint. Can be specified in the input while
+            creating a restore point. For now, only CrashConsistent is accepted as a
+            valid input. Please refer to https://aka.ms/RestorePoints for more details.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationConsistent">
+      <MemberSignature Language="C#" Value="ApplicationConsistent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConsistencyModeType ApplicationConsistent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConsistencyModeType.ApplicationConsistent" />
+      <MemberSignature Language="VB.NET" Value="ApplicationConsistent" />
+      <MemberSignature Language="F#" Value="ApplicationConsistent = 2" Usage="Azure.Provisioning.Compute.ConsistencyModeType.ApplicationConsistent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConsistencyModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            ApplicationConsistent.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CrashConsistent">
+      <MemberSignature Language="C#" Value="CrashConsistent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConsistencyModeType CrashConsistent = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConsistencyModeType.CrashConsistent" />
+      <MemberSignature Language="VB.NET" Value="CrashConsistent" />
+      <MemberSignature Language="F#" Value="CrashConsistent = 0" Usage="Azure.Provisioning.Compute.ConsistencyModeType.CrashConsistent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConsistencyModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            CrashConsistent.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSystemConsistent">
+      <MemberSignature Language="C#" Value="FileSystemConsistent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConsistencyModeType FileSystemConsistent = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConsistencyModeType.FileSystemConsistent" />
+      <MemberSignature Language="VB.NET" Value="FileSystemConsistent" />
+      <MemberSignature Language="F#" Value="FileSystemConsistent = 1" Usage="Azure.Provisioning.Compute.ConsistencyModeType.FileSystemConsistent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConsistencyModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            FileSystemConsistent.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

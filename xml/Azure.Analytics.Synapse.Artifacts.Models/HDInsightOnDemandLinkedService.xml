@@ -141,6 +141,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ClusterResourceGroupAuthType">
+      <MemberSignature Language="C#" Value="public Azure.Analytics.Synapse.Artifacts.Models.HDInsightOndemandClusterResourceGroupAuthenticationType? ClusterResourceGroupAuthType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Analytics.Synapse.Artifacts.Models.HDInsightOndemandClusterResourceGroupAuthenticationType&gt; ClusterResourceGroupAuthType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Synapse.Artifacts.Models.HDInsightOnDemandLinkedService.ClusterResourceGroupAuthType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterResourceGroupAuthType As Nullable(Of HDInsightOndemandClusterResourceGroupAuthenticationType)" />
+      <MemberSignature Language="F#" Value="member this.ClusterResourceGroupAuthType : Nullable&lt;Azure.Analytics.Synapse.Artifacts.Models.HDInsightOndemandClusterResourceGroupAuthenticationType&gt; with get, set" Usage="Azure.Analytics.Synapse.Artifacts.Models.HDInsightOnDemandLinkedService.ClusterResourceGroupAuthType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Synapse.Artifacts</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Analytics.Synapse.Artifacts.Models.HDInsightOndemandClusterResourceGroupAuthenticationType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> HDInsight On-demand cluster resource group authentication type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ClusterSize">
       <MemberSignature Language="C#" Value="public object ClusterSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterSize" />

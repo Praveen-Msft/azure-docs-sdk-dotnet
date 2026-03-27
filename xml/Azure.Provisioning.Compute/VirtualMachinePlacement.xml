@@ -1,0 +1,143 @@
+<Type Name="VirtualMachinePlacement" FullName="Azure.Provisioning.Compute.VirtualMachinePlacement">
+  <TypeSignature Language="C#" Value="public class VirtualMachinePlacement : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachinePlacement extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachinePlacement" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachinePlacement&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachinePlacement = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the user-defined constraints for resource hardware placement.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachinePlacement ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachinePlacement.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachinePlacement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachinePlacement.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachinePlacement.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of VirtualMachinePlacement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeZones">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;string&gt; ExcludeZones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;string&gt; ExcludeZones" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePlacement.ExcludeZones" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeZones As BicepList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ExcludeZones : Azure.Provisioning.BicepList&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePlacement.ExcludeZones" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property supplements the 'zonePlacementPolicy' property.
+            If 'zonePlacementPolicy' is set to
+            'Any'/'Auto', availability zone selected by the
+            system must not be present in the list of availability zones passed
+            with 'excludeZones'. If 'excludeZones' is not
+            provided, all availability zones in region will be considered for
+            selection.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeZones">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;string&gt; IncludeZones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;string&gt; IncludeZones" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePlacement.IncludeZones" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeZones As BicepList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.IncludeZones : Azure.Provisioning.BicepList&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePlacement.IncludeZones" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            This property supplements the 'zonePlacementPolicy' property.
+            If 'zonePlacementPolicy' is set to
+            'Any'/'Auto', availability zone selected by the
+            system must be present in the list of availability zones passed with
+            'includeZones'. If 'includeZones' is not provided,
+            all availability zones in region will be considered for selection.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZonePlacementPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ZonePlacementPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ZonePlacementPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachinePlacement.ZonePlacementPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ZonePlacementPolicy As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ZonePlacementPolicy : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachinePlacement.ZonePlacementPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the policy for resource's placement in availability
+            zone. Possible values are: **Any** (used for Virtual Machines),
+            **Auto** (used for Virtual Machine Scale Sets) - An availability zone
+            will be automatically picked by system as part of resource creation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

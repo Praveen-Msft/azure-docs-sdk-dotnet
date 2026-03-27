@@ -1,0 +1,136 @@
+<Type Name="UserArtifactSettings" FullName="Azure.Provisioning.Compute.UserArtifactSettings">
+  <TypeSignature Language="C#" Value="public class UserArtifactSettings : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserArtifactSettings extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.UserArtifactSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserArtifactSettings&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type UserArtifactSettings = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Additional settings for the VM app that contains the target package and
+            config file name when it is deployed to target VM or VM scale set.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserArtifactSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.UserArtifactSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new UserArtifactSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfigFileName">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ConfigFileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ConfigFileName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.UserArtifactSettings.ConfigFileName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConfigFileName As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ConfigFileName : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.UserArtifactSettings.ConfigFileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The name to assign the downloaded config file on the VM. This
+            is limited to 4096 characters. If not specified, the config file will
+            be named the Gallery Application name appended with
+            "_config".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.UserArtifactSettings.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="userArtifactSettings.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of UserArtifactSettings.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PackageFileName">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; PackageFileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; PackageFileName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.UserArtifactSettings.PackageFileName" />
+      <MemberSignature Language="VB.NET" Value="Public Property PackageFileName As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.PackageFileName : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.UserArtifactSettings.PackageFileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The name to assign the downloaded package file on the VM.
+            This is limited to 4096 characters. If not specified, the package file
+            will be named the same as the Gallery Application name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScriptBehaviorAfterReboot">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryApplicationScriptRebootBehavior&gt; ScriptBehaviorAfterReboot { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.GalleryApplicationScriptRebootBehavior&gt; ScriptBehaviorAfterReboot" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.UserArtifactSettings.ScriptBehaviorAfterReboot" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScriptBehaviorAfterReboot As BicepValue(Of GalleryApplicationScriptRebootBehavior)" />
+      <MemberSignature Language="F#" Value="member this.ScriptBehaviorAfterReboot : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryApplicationScriptRebootBehavior&gt; with get, set" Usage="Azure.Provisioning.Compute.UserArtifactSettings.ScriptBehaviorAfterReboot" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.GalleryApplicationScriptRebootBehavior&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The action to be taken with regards to install/update/remove
+            of the gallery application in the event of a reboot.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

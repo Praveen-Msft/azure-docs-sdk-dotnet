@@ -1,0 +1,43 @@
+<Type Name="DiffDiskOption" FullName="Azure.Provisioning.Compute.DiffDiskOption">
+  <TypeSignature Language="C#" Value="public enum DiffDiskOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiffDiskOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiffDiskOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiffDiskOption" />
+  <TypeSignature Language="F#" Value="type DiffDiskOption = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the ephemeral disk option for operating system disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Local">
+      <MemberSignature Language="C#" Value="Local" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiffDiskOption Local = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiffDiskOption.Local" />
+      <MemberSignature Language="VB.NET" Value="Local" />
+      <MemberSignature Language="F#" Value="Local = 0" Usage="Azure.Provisioning.Compute.DiffDiskOption.Local" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiffDiskOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Local.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,239 @@
+<Type Name="RestorePointSourceVmOSDisk" FullName="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk">
+  <TypeSignature Language="C#" Value="public class RestorePointSourceVmOSDisk : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RestorePointSourceVmOSDisk extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk" />
+  <TypeSignature Language="VB.NET" Value="Public Class RestorePointSourceVmOSDisk&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type RestorePointSourceVmOSDisk = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes an Operating System disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RestorePointSourceVmOSDisk ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new RestorePointSourceVmOSDisk.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caching">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt; Caching { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.CachingType&gt; Caching" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.Caching" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caching As BicepValue(Of CachingType)" />
+      <MemberSignature Language="F#" Value="member this.Caching : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.Caching" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.CachingType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the caching type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="restorePointSourceVmOSDisk.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of RestorePointSourceVmOSDisk.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskRestorePoint">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.DiskRestorePointAttributes DiskRestorePoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.DiskRestorePointAttributes DiskRestorePoint" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.DiskRestorePoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiskRestorePoint As DiskRestorePointAttributes" />
+      <MemberSignature Language="F#" Value="member this.DiskRestorePoint : Azure.Provisioning.Compute.DiskRestorePointAttributes with get, set" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.DiskRestorePoint" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskRestorePointAttributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Contains Disk Restore Point properties.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskSizeGB">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; DiskSizeGB { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; DiskSizeGB" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.DiskSizeGB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiskSizeGB As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.DiskSizeGB : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.DiskSizeGB" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the disk size in GB.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionSettings">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.DiskEncryptionSettings EncryptionSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.DiskEncryptionSettings EncryptionSettings" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.EncryptionSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EncryptionSettings As DiskEncryptionSettings" />
+      <MemberSignature Language="F#" Value="member this.EncryptionSettings : Azure.Provisioning.Compute.DiskEncryptionSettings" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.EncryptionSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskEncryptionSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the disk encryption settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedDisk">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.VirtualMachineManagedDisk ManagedDisk { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.VirtualMachineManagedDisk ManagedDisk" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.ManagedDisk" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedDisk As VirtualMachineManagedDisk" />
+      <MemberSignature Language="F#" Value="member this.ManagedDisk : Azure.Provisioning.Compute.VirtualMachineManagedDisk with get, set" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.ManagedDisk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineManagedDisk</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the managed disk details.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the disk name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OperatingSystemType&gt; OSType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.OperatingSystemType&gt; OSType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.OSType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSType As BicepValue(Of OperatingSystemType)" />
+      <MemberSignature Language="F#" Value="member this.OSType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OperatingSystemType&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.OSType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.OperatingSystemType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Operating System type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteAcceleratorEnabled">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; WriteAcceleratorEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; WriteAcceleratorEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.WriteAcceleratorEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WriteAcceleratorEnabled As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.WriteAcceleratorEnabled : Azure.Provisioning.BicepValue&lt;bool&gt;" Usage="Azure.Provisioning.Compute.RestorePointSourceVmOSDisk.WriteAcceleratorEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Shows true if the disk is write-accelerator enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,112 @@
+<Type Name="GalleryImageVersionPolicyViolationCategory" FullName="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory">
+  <TypeSignature Language="C#" Value="public enum GalleryImageVersionPolicyViolationCategory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GalleryImageVersionPolicyViolationCategory extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GalleryImageVersionPolicyViolationCategory" />
+  <TypeSignature Language="F#" Value="type GalleryImageVersionPolicyViolationCategory = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Describes the nature of the policy violation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CopyrightValidation">
+      <MemberSignature Language="C#" Value="CopyrightValidation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory CopyrightValidation = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.CopyrightValidation" />
+      <MemberSignature Language="VB.NET" Value="CopyrightValidation" />
+      <MemberSignature Language="F#" Value="CopyrightValidation = 2" Usage="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.CopyrightValidation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            CopyrightValidation.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageFlaggedUnsafe">
+      <MemberSignature Language="C#" Value="ImageFlaggedUnsafe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory ImageFlaggedUnsafe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.ImageFlaggedUnsafe" />
+      <MemberSignature Language="VB.NET" Value="ImageFlaggedUnsafe" />
+      <MemberSignature Language="F#" Value="ImageFlaggedUnsafe = 1" Usage="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.ImageFlaggedUnsafe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            ImageFlaggedUnsafe.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IPTheft">
+      <MemberSignature Language="C#" Value="IPTheft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory IPTheft = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.IPTheft" />
+      <MemberSignature Language="VB.NET" Value="IPTheft" />
+      <MemberSignature Language="F#" Value="IPTheft = 3" Usage="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.IPTheft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="IpTheft")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="IpTheft")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            IpTheft.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory Other = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberSignature Language="F#" Value="Other = 0" Usage="Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory.Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryImageVersionPolicyViolationCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Other.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

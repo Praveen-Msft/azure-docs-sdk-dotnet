@@ -1,0 +1,88 @@
+<Type Name="VirtualMachinePriorityType" FullName="Azure.Provisioning.Compute.VirtualMachinePriorityType">
+  <TypeSignature Language="C#" Value="public enum VirtualMachinePriorityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VirtualMachinePriorityType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachinePriorityType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum VirtualMachinePriorityType" />
+  <TypeSignature Language="F#" Value="type VirtualMachinePriorityType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the priority for a standalone virtual machine or the virtual
+            machines in the scale set. 'Low' enum will be deprecated in the
+            future, please use 'Spot' as the enum to deploy Azure Spot
+            VM/VMSS.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Low">
+      <MemberSignature Language="C#" Value="Low" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachinePriorityType Low = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachinePriorityType.Low" />
+      <MemberSignature Language="VB.NET" Value="Low" />
+      <MemberSignature Language="F#" Value="Low = 1" Usage="Azure.Provisioning.Compute.VirtualMachinePriorityType.Low" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachinePriorityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Low.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Regular">
+      <MemberSignature Language="C#" Value="Regular" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachinePriorityType Regular = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachinePriorityType.Regular" />
+      <MemberSignature Language="VB.NET" Value="Regular" />
+      <MemberSignature Language="F#" Value="Regular = 0" Usage="Azure.Provisioning.Compute.VirtualMachinePriorityType.Regular" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachinePriorityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Regular.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Spot">
+      <MemberSignature Language="C#" Value="Spot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachinePriorityType Spot = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachinePriorityType.Spot" />
+      <MemberSignature Language="VB.NET" Value="Spot" />
+      <MemberSignature Language="F#" Value="Spot = 2" Usage="Azure.Provisioning.Compute.VirtualMachinePriorityType.Spot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachinePriorityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Spot.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

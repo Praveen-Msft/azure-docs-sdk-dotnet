@@ -1,0 +1,312 @@
+<Type Name="VirtualMachineScaleSetOSProfile" FullName="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile">
+  <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetOSProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetOSProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetOSProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineScaleSetOSProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a virtual machine scale set OS profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetOSProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineScaleSetOSProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdminPassword">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; AdminPassword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; AdminPassword" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.AdminPassword" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdminPassword As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.AdminPassword : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.AdminPassword" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the password of the administrator account.
+            &lt;br&gt;&lt;br&gt; **Minimum-length (Windows):** 8 characters
+            &lt;br&gt;&lt;br&gt; **Minimum-length (Linux):** 6 characters
+            &lt;br&gt;&lt;br&gt; **Max-length (Windows):** 123 characters
+            &lt;br&gt;&lt;br&gt; **Max-length (Linux):** 72 characters
+            &lt;br&gt;&lt;br&gt; **Complexity requirements:** 3 out of 4
+            conditions below need to be fulfilled &lt;br&gt; Has lower characters
+            &lt;br&gt;Has upper characters &lt;br&gt; Has a digit &lt;br&gt; Has a
+            special character (Regex match [\W_]) &lt;br&gt;&lt;br&gt;
+            **Disallowed values:** "abc@123", "P@$$w0rd",
+            "P@ssw0rd", "P@ssword123", "Pa$$word",
+            "pass@word1", "Password!", "Password1",
+            "Password22", "iloveyou!" &lt;br&gt;&lt;br&gt; For
+            resetting the password, see [How to reset the Remote Desktop service
+            or its login password in a Windows
+            VM](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/reset-rdp)
+            &lt;br&gt;&lt;br&gt; For resetting root password, see [Manage users,
+            SSH, and check or repair disks on Azure Linux VMs using the VMAccess
+            Extension](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-ssh-connection).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdminUsername">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; AdminUsername { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; AdminUsername" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.AdminUsername" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdminUsername As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.AdminUsername : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.AdminUsername" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the name of the administrator account. &lt;br&gt;&lt;br&gt;
+            **Windows-only restriction:** Cannot end in "."
+            &lt;br&gt;&lt;br&gt; **Disallowed values:** "administrator",
+            "admin", "user", "user1",
+            "test", "user2", "test1",
+            "user3", "admin1", "1", "123",
+            "a", "actuser", "adm",
+            "admin2", "aspnet", "backup",
+            "console", "david", "guest",
+            "john", "owner", "root",
+            "server", "sql", "support",
+            "support_388945a0", "sys", "test2",
+            "test3", "user4", "user5".
+            &lt;br&gt;&lt;br&gt; **Minimum-length (Linux):** 1  character
+            &lt;br&gt;&lt;br&gt; **Max-length (Linux):** 64 characters
+            &lt;br&gt;&lt;br&gt; **Max-length (Windows):** 20 characters.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowExtensionOperations">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; AllowExtensionOperations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; AllowExtensionOperations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.AllowExtensionOperations" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowExtensionOperations As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AllowExtensionOperations : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.AllowExtensionOperations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies whether extension operations should be allowed on the virtual
+            machine scale set. This may only be set to False when no extensions
+            are present on the virtual machine scale set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputerNamePrefix">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; ComputerNamePrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; ComputerNamePrefix" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.ComputerNamePrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property ComputerNamePrefix As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ComputerNamePrefix : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.ComputerNamePrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the computer name prefix for all of the virtual machines in
+            the scale set. Computer name prefixes must be 1 to 15 characters long.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomData">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; CustomData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; CustomData" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.CustomData" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomData As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.CustomData : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.CustomData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies a base-64 encoded string of custom data. The base-64 encoded
+            string is decoded to a binary array that is saved as a file on the
+            Virtual Machine. The maximum length of the binary array is 65535
+            bytes. For using cloud-init for your VM, see [Using cloud-init to
+            customize a Linux VM during
+            creation](https://docs.microsoft.com/azure/virtual-machines/linux/using-cloud-init).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineScaleSetOSProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineScaleSetOSProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinuxConfiguration">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.LinuxConfiguration LinuxConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.LinuxConfiguration LinuxConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.LinuxConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinuxConfiguration As LinuxConfiguration" />
+      <MemberSignature Language="F#" Value="member this.LinuxConfiguration : Azure.Provisioning.Compute.LinuxConfiguration with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.LinuxConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.LinuxConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the Linux operating system settings on the virtual machine.
+            For a list of supported Linux distributions, see [Linux on
+            Azure-Endorsed
+            Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequireGuestProvisionSignal">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; RequireGuestProvisionSignal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; RequireGuestProvisionSignal" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.RequireGuestProvisionSignal" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequireGuestProvisionSignal As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.RequireGuestProvisionSignal : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.RequireGuestProvisionSignal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional property which must either be set to True or omitted.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Secrets">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VaultSecretGroup&gt; Secrets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.VaultSecretGroup&gt; Secrets" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.Secrets" />
+      <MemberSignature Language="VB.NET" Value="Public Property Secrets As BicepList(Of VaultSecretGroup)" />
+      <MemberSignature Language="F#" Value="member this.Secrets : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VaultSecretGroup&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.Secrets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VaultSecretGroup&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies set of certificates that should be installed onto the virtual
+            machines in the scale set. To install certificates on a virtual
+            machine it is recommended to use the [Azure Key Vault virtual machine
+            extension for
+            Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/key-vault-linux)
+            or the [Azure Key Vault virtual machine extension for
+            Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/key-vault-windows).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsConfiguration">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.WindowsConfiguration WindowsConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.WindowsConfiguration WindowsConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.WindowsConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowsConfiguration As WindowsConfiguration" />
+      <MemberSignature Language="F#" Value="member this.WindowsConfiguration : Azure.Provisioning.Compute.WindowsConfiguration with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineScaleSetOSProfile.WindowsConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.WindowsConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies Windows operating system settings on the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

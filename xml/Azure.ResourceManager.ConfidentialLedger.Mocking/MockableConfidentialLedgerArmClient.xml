@@ -13,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class to add extension methods to ArmClient. </summary>
+    <summary> A class to add extension methods to <see cref="T:Azure.ResourceManager.ArmClient" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -29,7 +29,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.ConfidentialLedger.Mocking.MockableConfidentialLedgerArmClient" /> class for mocking. </summary>
+        <summary> Initializes a new instance of MockableConfidentialLedgerArmClient for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -52,38 +52,8 @@
       </Parameters>
       <Docs>
         <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ConfidentialLedgerResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.ConfidentialLedger.ConfidentialLedgerResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ConfidentialLedgerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ConfidentialLedgerResource" /> along with the instance operations that can be performed on it but with no data. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ConfidentialLedgerResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetManagedCcfResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource GetManagedCcfResource (Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource GetManagedCcfResource(class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConfidentialLedger.Mocking.MockableConfidentialLedgerArmClient.GetManagedCcfResource(Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedCcfResource (id As ResourceIdentifier) As ManagedCcfResource" />
-      <MemberSignature Language="F#" Value="abstract member GetManagedCcfResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource&#xA;override this.GetManagedCcfResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource" Usage="mockableConfidentialLedgerArmClient.GetManagedCcfResource id" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ConfidentialLedger</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.ConfidentialLedger.ManagedCcfResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

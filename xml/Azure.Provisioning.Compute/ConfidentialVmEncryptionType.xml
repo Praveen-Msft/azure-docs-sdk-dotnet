@@ -1,0 +1,112 @@
+<Type Name="ConfidentialVmEncryptionType" FullName="Azure.Provisioning.Compute.ConfidentialVmEncryptionType">
+  <TypeSignature Language="C#" Value="public enum ConfidentialVmEncryptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConfidentialVmEncryptionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ConfidentialVmEncryptionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConfidentialVmEncryptionType" />
+  <TypeSignature Language="F#" Value="type ConfidentialVmEncryptionType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            confidential VM encryption types.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EncryptedVmGuestStateOnlyWithPmk">
+      <MemberSignature Language="C#" Value="EncryptedVmGuestStateOnlyWithPmk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConfidentialVmEncryptionType EncryptedVmGuestStateOnlyWithPmk = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConfidentialVmEncryptionType.EncryptedVmGuestStateOnlyWithPmk" />
+      <MemberSignature Language="VB.NET" Value="EncryptedVmGuestStateOnlyWithPmk" />
+      <MemberSignature Language="F#" Value="EncryptedVmGuestStateOnlyWithPmk = 0" Usage="Azure.Provisioning.Compute.ConfidentialVmEncryptionType.EncryptedVmGuestStateOnlyWithPmk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="EncryptedVMGuestStateOnlyWithPmk")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="EncryptedVMGuestStateOnlyWithPmk")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConfidentialVmEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            EncryptedVMGuestStateOnlyWithPmk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedWithCmk">
+      <MemberSignature Language="C#" Value="EncryptedWithCmk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConfidentialVmEncryptionType EncryptedWithCmk = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConfidentialVmEncryptionType.EncryptedWithCmk" />
+      <MemberSignature Language="VB.NET" Value="EncryptedWithCmk" />
+      <MemberSignature Language="F#" Value="EncryptedWithCmk = 2" Usage="Azure.Provisioning.Compute.ConfidentialVmEncryptionType.EncryptedWithCmk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConfidentialVmEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            EncryptedWithCmk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedWithPmk">
+      <MemberSignature Language="C#" Value="EncryptedWithPmk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConfidentialVmEncryptionType EncryptedWithPmk = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConfidentialVmEncryptionType.EncryptedWithPmk" />
+      <MemberSignature Language="VB.NET" Value="EncryptedWithPmk" />
+      <MemberSignature Language="F#" Value="EncryptedWithPmk = 1" Usage="Azure.Provisioning.Compute.ConfidentialVmEncryptionType.EncryptedWithPmk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConfidentialVmEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            EncryptedWithPmk.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonPersistedTPM">
+      <MemberSignature Language="C#" Value="NonPersistedTPM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ConfidentialVmEncryptionType NonPersistedTPM = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ConfidentialVmEncryptionType.NonPersistedTPM" />
+      <MemberSignature Language="VB.NET" Value="NonPersistedTPM" />
+      <MemberSignature Language="F#" Value="NonPersistedTPM = 3" Usage="Azure.Provisioning.Compute.ConfidentialVmEncryptionType.NonPersistedTPM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ConfidentialVmEncryptionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            NonPersistedTPM.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,65 @@
+<Type Name="GalleryReplicationMode" FullName="Azure.Provisioning.Compute.GalleryReplicationMode">
+  <TypeSignature Language="C#" Value="public enum GalleryReplicationMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GalleryReplicationMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.GalleryReplicationMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GalleryReplicationMode" />
+  <TypeSignature Language="F#" Value="type GalleryReplicationMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Optional parameter which specifies the mode to be used for replication.
+            This property is not updatable.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Full">
+      <MemberSignature Language="C#" Value="Full" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryReplicationMode Full = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryReplicationMode.Full" />
+      <MemberSignature Language="VB.NET" Value="Full" />
+      <MemberSignature Language="F#" Value="Full = 0" Usage="Azure.Provisioning.Compute.GalleryReplicationMode.Full" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryReplicationMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Full.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shallow">
+      <MemberSignature Language="C#" Value="Shallow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.GalleryReplicationMode Shallow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.GalleryReplicationMode.Shallow" />
+      <MemberSignature Language="VB.NET" Value="Shallow" />
+      <MemberSignature Language="F#" Value="Shallow = 1" Usage="Azure.Provisioning.Compute.GalleryReplicationMode.Shallow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.GalleryReplicationMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Shallow.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,106 @@
+<Type Name="RegionalReplicationState" FullName="Azure.Provisioning.Compute.RegionalReplicationState">
+  <TypeSignature Language="C#" Value="public enum RegionalReplicationState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RegionalReplicationState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.RegionalReplicationState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RegionalReplicationState" />
+  <TypeSignature Language="F#" Value="type RegionalReplicationState = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            This is the regional replication state.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Completed">
+      <MemberSignature Language="C#" Value="Completed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RegionalReplicationState Completed = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RegionalReplicationState.Completed" />
+      <MemberSignature Language="VB.NET" Value="Completed" />
+      <MemberSignature Language="F#" Value="Completed = 2" Usage="Azure.Provisioning.Compute.RegionalReplicationState.Completed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RegionalReplicationState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Completed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RegionalReplicationState Failed = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RegionalReplicationState.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 3" Usage="Azure.Provisioning.Compute.RegionalReplicationState.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RegionalReplicationState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Failed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replicating">
+      <MemberSignature Language="C#" Value="Replicating" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RegionalReplicationState Replicating = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RegionalReplicationState.Replicating" />
+      <MemberSignature Language="VB.NET" Value="Replicating" />
+      <MemberSignature Language="F#" Value="Replicating = 1" Usage="Azure.Provisioning.Compute.RegionalReplicationState.Replicating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RegionalReplicationState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Replicating.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.RegionalReplicationState Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.RegionalReplicationState.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Azure.Provisioning.Compute.RegionalReplicationState.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RegionalReplicationState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unknown.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

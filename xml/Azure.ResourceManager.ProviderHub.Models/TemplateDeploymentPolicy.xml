@@ -1,31 +1,28 @@
 <Type Name="TemplateDeploymentPolicy" FullName="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy">
-  <TypeSignature Language="C#" Value="public class TemplateDeploymentPolicy : System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplateDeploymentPolicy extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class TemplateDeploymentPolicy : System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplateDeploymentPolicy extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" />
-  <TypeSignature Language="VB.NET" Value="Public Class TemplateDeploymentPolicy&#xA;Implements IJsonModel(Of TemplateDeploymentPolicy), IPersistableModel(Of TemplateDeploymentPolicy)" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type TemplateDeploymentPolicy = class&#xA;    interface IJsonModel&lt;TemplateDeploymentPolicy&gt;&#xA;    interface IPersistableModel&lt;TemplateDeploymentPolicy&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class TemplateDeploymentPolicy" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplateDeploymentPolicy extends System.Object" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class TemplateDeploymentPolicy" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type TemplateDeploymentPolicy = class" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class TemplateDeploymentPolicy&#xA;Implements IJsonModel(Of TemplateDeploymentPolicy), IPersistableModel(Of TemplateDeploymentPolicy)" />
+  <TypeSignature Language="F#" Value="type TemplateDeploymentPolicy = class&#xA;    interface IJsonModel&lt;TemplateDeploymentPolicy&gt;&#xA;    interface IPersistableModel&lt;TemplateDeploymentPolicy&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -35,19 +32,20 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TemplateDeploymentPolicy (Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability capabilities, Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption preflightOptions);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability capabilities, valuetype Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption preflightOptions) cil managed" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.#ctor(Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability,Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (capabilities As TemplateDeploymentCapability, preflightOptions As TemplateDeploymentPreflightOption)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability * Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption -&gt; Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" Usage="new Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy (capabilities, preflightOptions)" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public TemplateDeploymentPolicy (Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability capabilities, Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption preflightOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability capabilities, valuetype Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption preflightOptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.#ctor(Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability,Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (capabilities As TemplateDeploymentCapability, preflightOptions As TemplateDeploymentPreflightOption)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability * Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption -&gt; Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy" Usage="new Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy (capabilities, preflightOptions)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="capabilities" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="preflightOptions" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="capabilities" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability" />
+        <Parameter Name="preflightOptions" Type="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption" />
       </Parameters>
       <Docs>
         <param name="capabilities"> The capabilities. </param>
@@ -57,19 +55,16 @@
       </Docs>
     </Member>
     <Member MemberName="Capabilities">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability Capabilities { get; set; }" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability Capabilities { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability Capabilities" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.Capabilities" />
-      <MemberSignature Language="VB.NET" Value="Public Property Capabilities As TemplateDeploymentCapability" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Capabilities : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability with get, set" Usage="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.Capabilities" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability Capabilities { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As TemplateDeploymentCapability" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Capabilities : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability" Usage="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.Capabilities" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Capabilities As TemplateDeploymentCapability" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability with get, set" Usage="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.Capabilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentCapability</ReturnType>
@@ -90,13 +85,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer"> The JSON writer. </param>
@@ -115,6 +111,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightNotification&gt;</ReturnType>
@@ -126,19 +123,16 @@
       </Docs>
     </Member>
     <Member MemberName="PreflightOptions">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption PreflightOptions { get; set; }" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption PreflightOptions { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption PreflightOptions" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.PreflightOptions" />
-      <MemberSignature Language="VB.NET" Value="Public Property PreflightOptions As TemplateDeploymentPreflightOption" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.PreflightOptions : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption with get, set" Usage="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.PreflightOptions" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption PreflightOptions { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreflightOptions As TemplateDeploymentPreflightOption" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.PreflightOptions : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption" Usage="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.PreflightOptions" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreflightOptions As TemplateDeploymentPreflightOption" />
+      <MemberSignature Language="F#" Value="member this.PreflightOptions : Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption with get, set" Usage="Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy.PreflightOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPreflightOption</ReturnType>
@@ -162,13 +156,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
@@ -194,13 +189,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
@@ -225,13 +221,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.Models.TemplateDeploymentPolicy</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
@@ -257,12 +254,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
@@ -286,12 +284,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>

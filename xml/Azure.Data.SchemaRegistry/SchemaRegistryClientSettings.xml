@@ -1,0 +1,100 @@
+<Type Name="SchemaRegistryClientSettings" FullName="Azure.Data.SchemaRegistry.SchemaRegistryClientSettings">
+  <TypeSignature Language="C#" Value="public class SchemaRegistryClientSettings : System.ClientModel.Primitives.ClientSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SchemaRegistryClientSettings extends System.ClientModel.Primitives.ClientSettings" />
+  <TypeSignature Language="DocId" Value="T:Azure.Data.SchemaRegistry.SchemaRegistryClientSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class SchemaRegistryClientSettings&#xA;Inherits ClientSettings" />
+  <TypeSignature Language="F#" Value="type SchemaRegistryClientSettings = class&#xA;    inherit ClientSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Data.SchemaRegistry</AssemblyName>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Represents the settings used to configure a <see cref="T:Azure.Data.SchemaRegistry.SchemaRegistryClient" /> that can be loaded from an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" />. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchemaRegistryClientSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Data.SchemaRegistry.SchemaRegistryClientSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Data.SchemaRegistry</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindCore">
+      <MemberSignature Language="C#" Value="protected override void BindCore (Microsoft.Extensions.Configuration.IConfigurationSection section);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void BindCore(class Microsoft.Extensions.Configuration.IConfigurationSection section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Data.SchemaRegistry.SchemaRegistryClientSettings.BindCore(Microsoft.Extensions.Configuration.IConfigurationSection)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub BindCore (section As IConfigurationSection)" />
+      <MemberSignature Language="F#" Value="override this.BindCore : Microsoft.Extensions.Configuration.IConfigurationSection -&gt; unit" Usage="schemaRegistryClientSettings.BindCore section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Data.SchemaRegistry</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
+      </Parameters>
+      <Docs>
+        <param name="section"> The configuration section. </param>
+        <summary> Binds configuration values from the given section. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullyQualifiedNamespace">
+      <MemberSignature Language="C#" Value="public string FullyQualifiedNamespace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullyQualifiedNamespace" />
+      <MemberSignature Language="DocId" Value="P:Azure.Data.SchemaRegistry.SchemaRegistryClientSettings.FullyQualifiedNamespace" />
+      <MemberSignature Language="VB.NET" Value="Public Property FullyQualifiedNamespace As String" />
+      <MemberSignature Language="F#" Value="member this.FullyQualifiedNamespace : string with get, set" Usage="Azure.Data.SchemaRegistry.SchemaRegistryClientSettings.FullyQualifiedNamespace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Data.SchemaRegistry</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the FullyQualifiedNamespace. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Options">
+      <MemberSignature Language="C#" Value="public Azure.Data.SchemaRegistry.SchemaRegistryClientOptions Options { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Data.SchemaRegistry.SchemaRegistryClientOptions Options" />
+      <MemberSignature Language="DocId" Value="P:Azure.Data.SchemaRegistry.SchemaRegistryClientSettings.Options" />
+      <MemberSignature Language="VB.NET" Value="Public Property Options As SchemaRegistryClientOptions" />
+      <MemberSignature Language="F#" Value="member this.Options : Azure.Data.SchemaRegistry.SchemaRegistryClientOptions with get, set" Usage="Azure.Data.SchemaRegistry.SchemaRegistryClientSettings.Options" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Data.SchemaRegistry</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Data.SchemaRegistry.SchemaRegistryClientOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the Options. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

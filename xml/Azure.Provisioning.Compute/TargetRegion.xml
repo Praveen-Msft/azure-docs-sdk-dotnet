@@ -1,0 +1,199 @@
+<Type Name="TargetRegion" FullName="Azure.Provisioning.Compute.TargetRegion">
+  <TypeSignature Language="C#" Value="public class TargetRegion : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TargetRegion extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.TargetRegion" />
+  <TypeSignature Language="VB.NET" Value="Public Class TargetRegion&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type TargetRegion = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the target region information.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TargetRegion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.TargetRegion.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new TargetRegion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalReplicaSets">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.AdditionalReplicaSet&gt; AdditionalReplicaSets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.AdditionalReplicaSet&gt; AdditionalReplicaSets" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.TargetRegion.AdditionalReplicaSets" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalReplicaSets As BicepList(Of AdditionalReplicaSet)" />
+      <MemberSignature Language="F#" Value="member this.AdditionalReplicaSets : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.AdditionalReplicaSet&gt; with get, set" Usage="Azure.Provisioning.Compute.TargetRegion.AdditionalReplicaSets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.AdditionalReplicaSet&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List of storage sku with replica count to create direct drive replicas.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.TargetRegion.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="targetRegion.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of TargetRegion.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Encryption">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.EncryptionImages Encryption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.EncryptionImages Encryption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.TargetRegion.Encryption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Encryption As EncryptionImages" />
+      <MemberSignature Language="F#" Value="member this.Encryption : Azure.Provisioning.Compute.EncryptionImages with get, set" Usage="Azure.Provisioning.Compute.TargetRegion.Encryption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.EncryptionImages</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Allows users to provide customer managed keys for encrypting
+            the OS and data disks in the gallery artifact.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExcludedFromLatest">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsExcludedFromLatest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsExcludedFromLatest" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.TargetRegion.IsExcludedFromLatest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExcludedFromLatest As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsExcludedFromLatest : Azure.Provisioning.BicepValue&lt;bool&gt; with get, set" Usage="Azure.Provisioning.Compute.TargetRegion.IsExcludedFromLatest" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Contains the flag setting to hide an image when users specify
+            version='latest'.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.TargetRegion.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.TargetRegion.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name of the region.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegionalReplicaCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; RegionalReplicaCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; RegionalReplicaCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.TargetRegion.RegionalReplicaCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property RegionalReplicaCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.RegionalReplicaCount : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.Compute.TargetRegion.RegionalReplicaCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of replicas of the Image Version to be created per region.
+            This property is updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageAccountType">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ImageStorageAccountType&gt; StorageAccountType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ImageStorageAccountType&gt; StorageAccountType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.TargetRegion.StorageAccountType" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageAccountType As BicepValue(Of ImageStorageAccountType)" />
+      <MemberSignature Language="F#" Value="member this.StorageAccountType : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ImageStorageAccountType&gt; with get, set" Usage="Azure.Provisioning.Compute.TargetRegion.StorageAccountType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ImageStorageAccountType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the storage account type to be used to store the image. This
+            property is not updatable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -13,9 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Azure Cognitive Search client that can be used to query an knowledge base.
-            </summary>
+    <summary> The KnowledgeBaseRetrievalClient. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,10 +30,130 @@
       <Parameters />
       <Docs>
         <summary>
-            Initializes a new instance of the SearchClient class for
+            Initializes a new instance of the KnowledgeBaseRetrievalClient class for
             mocking.
             </summary>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KnowledgeBaseRetrievalClient (Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.#ctor(Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As KnowledgeBaseRetrievalClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient : Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClientSettings -&gt; Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient" Usage="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClientSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for KnowledgeBaseRetrievalClient. </param>
+        <summary> Initializes a new instance of KnowledgeBaseRetrievalClient from a <see cref="T:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClientSettings" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KnowledgeBaseRetrievalClient (Uri endpoint, Azure.AzureKeyCredential credential);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.AzureKeyCredential credential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.#ctor(System.Uri,Azure.AzureKeyCredential)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As AzureKeyCredential)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient : Uri * Azure.AzureKeyCredential -&gt; Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient" Usage="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient (endpoint, credential)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.AzureKeyCredential" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <summary> Initializes a new instance of KnowledgeBaseRetrievalClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KnowledgeBaseRetrievalClient (Uri endpoint, Azure.Core.TokenCredential credential);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.#ctor(System.Uri,Azure.Core.TokenCredential)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient : Uri * Azure.Core.TokenCredential -&gt; Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient" Usage="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient (endpoint, credential)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <summary> Initializes a new instance of KnowledgeBaseRetrievalClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KnowledgeBaseRetrievalClient (Uri endpoint, Azure.AzureKeyCredential credential, Azure.Search.Documents.SearchClientOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.AzureKeyCredential credential, class Azure.Search.Documents.SearchClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.#ctor(System.Uri,Azure.AzureKeyCredential,Azure.Search.Documents.SearchClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As AzureKeyCredential, options As SearchClientOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient : Uri * Azure.AzureKeyCredential * Azure.Search.Documents.SearchClientOptions -&gt; Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient" Usage="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.AzureKeyCredential" />
+        <Parameter Name="options" Type="Azure.Search.Documents.SearchClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <param name="options"> The options for configuring the client. </param>
+        <summary> Initializes a new instance of KnowledgeBaseRetrievalClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KnowledgeBaseRetrievalClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Search.Documents.SearchClientOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Search.Documents.SearchClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Search.Documents.SearchClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, options As SearchClientOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient : Uri * Azure.Core.TokenCredential * Azure.Search.Documents.SearchClientOptions -&gt; Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient" Usage="new Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="options" Type="Azure.Search.Documents.SearchClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <param name="options"> The options for configuring the client. </param>
+        <summary> Initializes a new instance of KnowledgeBaseRetrievalClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -228,9 +346,7 @@
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            The HTTP pipeline for sending and receiving REST requests and responses.
-            </summary>
+        <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -265,6 +381,78 @@
           <paramref name="retrievalRequest" /> is null. </exception>
       </Docs>
     </Member>
+    <Member MemberName="Retrieve">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Retrieve (string knowledgeBaseName, Azure.Core.RequestContent content, string querySourceAuthorization = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Retrieve(string knowledgeBaseName, class Azure.Core.RequestContent content, string querySourceAuthorization, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.Retrieve(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Retrieve (knowledgeBaseName As String, content As RequestContent, Optional querySourceAuthorization As String = Nothing, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Retrieve : string * Azure.Core.RequestContent * string * Azure.RequestContext -&gt; Azure.Response&#xA;override this.Retrieve : string * Azure.Core.RequestContent * string * Azure.RequestContext -&gt; Azure.Response" Usage="knowledgeBaseRetrievalClient.Retrieve (knowledgeBaseName, content, querySourceAuthorization, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="knowledgeBaseName" Type="System.String" />
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="knowledgeBaseName"> The name of the knowledge base. </param>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] KnowledgeBase retrieves relevant data from backing stores.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="knowledgeBaseName" /> or <paramref name="content" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="knowledgeBaseName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Retrieve">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt; Retrieve (string knowledgeBaseName, Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest retrievalRequest, string querySourceAuthorization = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt; Retrieve(string knowledgeBaseName, class Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest retrievalRequest, string querySourceAuthorization, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.Retrieve(System.String,Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Retrieve (knowledgeBaseName As String, retrievalRequest As KnowledgeBaseRetrievalRequest, Optional querySourceAuthorization As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of KnowledgeBaseRetrievalResponse)" />
+      <MemberSignature Language="F#" Value="abstract member Retrieve : string * Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&#xA;override this.Retrieve : string * Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;" Usage="knowledgeBaseRetrievalClient.Retrieve (knowledgeBaseName, retrievalRequest, querySourceAuthorization, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="knowledgeBaseName" Type="System.String" />
+        <Parameter Name="retrievalRequest" Type="Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="knowledgeBaseName"> The name of the knowledge base. </param>
+        <param name="retrievalRequest"> The retrieval request to process. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> KnowledgeBase retrieves relevant data from backing stores. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="knowledgeBaseName" /> or <paramref name="retrievalRequest" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="knowledgeBaseName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="RetrieveAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt; RetrieveAsync (Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest retrievalRequest, string xMsQuerySourceAuthorization = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt; RetrieveAsync(class Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest retrievalRequest, string xMsQuerySourceAuthorization, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -293,6 +481,78 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="retrievalRequest" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="RetrieveAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; RetrieveAsync (string knowledgeBaseName, Azure.Core.RequestContent content, string querySourceAuthorization = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; RetrieveAsync(string knowledgeBaseName, class Azure.Core.RequestContent content, string querySourceAuthorization, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.RetrieveAsync(System.String,Azure.Core.RequestContent,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RetrieveAsync (knowledgeBaseName As String, content As RequestContent, Optional querySourceAuthorization As String = Nothing, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member RetrieveAsync : string * Azure.Core.RequestContent * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.RetrieveAsync : string * Azure.Core.RequestContent * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="knowledgeBaseRetrievalClient.RetrieveAsync (knowledgeBaseName, content, querySourceAuthorization, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="knowledgeBaseName" Type="System.String" />
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="knowledgeBaseName"> The name of the knowledge base. </param>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] KnowledgeBase retrieves relevant data from backing stores.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="knowledgeBaseName" /> or <paramref name="content" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="knowledgeBaseName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="RetrieveAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt; RetrieveAsync (string knowledgeBaseName, Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest retrievalRequest, string querySourceAuthorization = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt; RetrieveAsync(string knowledgeBaseName, class Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest retrievalRequest, string querySourceAuthorization, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.KnowledgeBases.KnowledgeBaseRetrievalClient.RetrieveAsync(System.String,Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RetrieveAsync (knowledgeBaseName As String, retrievalRequest As KnowledgeBaseRetrievalRequest, Optional querySourceAuthorization As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of KnowledgeBaseRetrievalResponse))" />
+      <MemberSignature Language="F#" Value="abstract member RetrieveAsync : string * Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt;&#xA;override this.RetrieveAsync : string * Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt;" Usage="knowledgeBaseRetrievalClient.RetrieveAsync (knowledgeBaseName, retrievalRequest, querySourceAuthorization, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Search.Documents</AssemblyName>
+        <AssemblyVersion>11.8.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalResponse&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="knowledgeBaseName" Type="System.String" />
+        <Parameter Name="retrievalRequest" Type="Azure.Search.Documents.KnowledgeBases.Models.KnowledgeBaseRetrievalRequest" />
+        <Parameter Name="querySourceAuthorization" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="knowledgeBaseName"> The name of the knowledge base. </param>
+        <param name="retrievalRequest"> The retrieval request to process. </param>
+        <param name="querySourceAuthorization"> Token identifying the user for which the query is being executed. This token is used to enforce security restrictions on documents. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> KnowledgeBase retrieves relevant data from backing stores. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="knowledgeBaseName" /> or <paramref name="retrievalRequest" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="knowledgeBaseName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
   </Members>

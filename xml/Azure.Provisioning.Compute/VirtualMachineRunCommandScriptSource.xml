@@ -1,0 +1,214 @@
+<Type Name="VirtualMachineRunCommandScriptSource" FullName="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource">
+  <TypeSignature Language="C#" Value="public class VirtualMachineRunCommandScriptSource : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineRunCommandScriptSource extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineRunCommandScriptSource&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineRunCommandScriptSource = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the script sources for run command. Use only one of these script
+            sources: script, scriptUri, commandId, galleryScriptReferenceId.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineRunCommandScriptSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineRunCommandScriptSource.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; CommandId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; CommandId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.CommandId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.CommandId : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.CommandId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies a commandId of predefined built-in script. Command IDs
+            available for Linux are listed at
+            https://aka.ms/RunCommandManagedLinux#available-commands, Windows at
+            https://aka.ms/RunCommandManagedWindows#available-commands.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineRunCommandScriptSource.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            VirtualMachineRunCommandScriptSource.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GalleryScriptReferenceId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; GalleryScriptReferenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; GalleryScriptReferenceId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.GalleryScriptReferenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property GalleryScriptReferenceId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.GalleryScriptReferenceId : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.GalleryScriptReferenceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The resource ID of a Gallery Script version that needs to be executed.
+            Example ID looks like
+            /subscriptions/{subId}/resourceGroups/{rgName}/providers/Microsoft.Compute/galleries/{galleryName}/scripts/{scriptName}/versions/{version}.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Script">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Script { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Script" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.Script" />
+      <MemberSignature Language="VB.NET" Value="Public Property Script As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Script : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.Script" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the script content to be executed on the VM.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScriptShell">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ScriptShellType&gt; ScriptShell { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.ScriptShellType&gt; ScriptShell" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.ScriptShell" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScriptShell As BicepValue(Of ScriptShellType)" />
+      <MemberSignature Language="F#" Value="member this.ScriptShell : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ScriptShellType&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.ScriptShell" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.ScriptShellType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Specify which shell to use for running the script. These
+            values must match those expected by the extension. Currently supported
+            only for Windows VMs, script uses Powershell 7 when specified.
+            Powershell 7 must be already installed on the machine to use
+            Powershell7 parameter value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScriptUri">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Uri&gt; ScriptUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;class System.Uri&gt; ScriptUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.ScriptUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScriptUri As BicepValue(Of Uri)" />
+      <MemberSignature Language="F#" Value="member this.ScriptUri : Azure.Provisioning.BicepValue&lt;Uri&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.ScriptUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the script download location. It can be either SAS URI of an
+            Azure storage blob with read access or public URI.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScriptUriManagedIdentity">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.RunCommandManagedIdentity ScriptUriManagedIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.RunCommandManagedIdentity ScriptUriManagedIdentity" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.ScriptUriManagedIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScriptUriManagedIdentity As RunCommandManagedIdentity" />
+      <MemberSignature Language="F#" Value="member this.ScriptUriManagedIdentity : Azure.Provisioning.Compute.RunCommandManagedIdentity with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineRunCommandScriptSource.ScriptUriManagedIdentity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.RunCommandManagedIdentity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            User-assigned managed identity that has access to scriptUri in case of
+            Azure storage blob. Use an empty object in case of system-assigned
+            identity. Make sure the Azure storage blob exists, and managed
+            identity has been given access to blob's container with
+            'Storage Blob Data Reader' role assignment. In case of
+            user-assigned identity, make sure you add it under VM's identity.
+            For more info on managed identity and Run Command, refer
+            https://aka.ms/ManagedIdentity and https://aka.ms/RunCommandManaged.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

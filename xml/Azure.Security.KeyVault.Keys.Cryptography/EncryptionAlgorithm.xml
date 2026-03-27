@@ -16,6 +16,7 @@
     <AssemblyVersion>4.7.0.0</AssemblyVersion>
     <AssemblyVersion>4.8.0.0</AssemblyVersion>
     <AssemblyVersion>4.9.0.0</AssemblyVersion>
+    <AssemblyVersion>4.10.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -41,8 +42,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -64,8 +65,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -87,8 +88,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -110,8 +111,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -133,8 +134,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -156,8 +157,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -179,8 +180,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -202,8 +203,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -225,8 +226,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -248,8 +249,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -257,50 +258,6 @@
       <Docs>
         <summary>
             Gets a 256-bit AES-GCM <see cref="T:Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm" />.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CkmAesKeyWrap">
-      <MemberSignature Language="C#" Value="public static Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm CkmAesKeyWrap { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm CkmAesKeyWrap" />
-      <MemberSignature Language="DocId" Value="P:Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm.CkmAesKeyWrap" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CkmAesKeyWrap As EncryptionAlgorithm" />
-      <MemberSignature Language="F#" Value="static member CkmAesKeyWrap : Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm" Usage="Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm.CkmAesKeyWrap" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets a 256-bit CKM AES Key Wrap <see cref="T:Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm" />.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CkmAesKeyWrapPad">
-      <MemberSignature Language="C#" Value="public static Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm CkmAesKeyWrapPad { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm CkmAesKeyWrapPad" />
-      <MemberSignature Language="DocId" Value="P:Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm.CkmAesKeyWrapPad" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CkmAesKeyWrapPad As EncryptionAlgorithm" />
-      <MemberSignature Language="F#" Value="static member CkmAesKeyWrapPad : Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm" Usage="Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm.CkmAesKeyWrapPad" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets a 256-bit CKM AES Key Wrap <see cref="T:Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm" /> with PKCS padding.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -318,8 +275,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -345,8 +302,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -378,8 +335,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -407,8 +364,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -436,8 +393,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -463,8 +420,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -492,8 +449,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -523,8 +480,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -554,8 +511,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Keys.Cryptography.EncryptionAlgorithm</ReturnType>
@@ -577,8 +534,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Keys</AssemblyName>
-        <AssemblyVersion>4.8.0.0</AssemblyVersion>
         <AssemblyVersion>4.9.0.0</AssemblyVersion>
+        <AssemblyVersion>4.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -1,0 +1,65 @@
+<Type Name="SharingProfileGroupType" FullName="Azure.Provisioning.Compute.SharingProfileGroupType">
+  <TypeSignature Language="C#" Value="public enum SharingProfileGroupType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SharingProfileGroupType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.SharingProfileGroupType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SharingProfileGroupType" />
+  <TypeSignature Language="F#" Value="type SharingProfileGroupType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            This property allows you to specify the type of sharing group. Possible
+            values are: **Subscriptions,** **AADTenants.**.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AADTenants">
+      <MemberSignature Language="C#" Value="AADTenants" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SharingProfileGroupType AADTenants = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SharingProfileGroupType.AADTenants" />
+      <MemberSignature Language="VB.NET" Value="AADTenants" />
+      <MemberSignature Language="F#" Value="AADTenants = 1" Usage="Azure.Provisioning.Compute.SharingProfileGroupType.AADTenants" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SharingProfileGroupType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            AADTenants.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscriptions">
+      <MemberSignature Language="C#" Value="Subscriptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SharingProfileGroupType Subscriptions = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SharingProfileGroupType.Subscriptions" />
+      <MemberSignature Language="VB.NET" Value="Subscriptions" />
+      <MemberSignature Language="F#" Value="Subscriptions = 0" Usage="Azure.Provisioning.Compute.SharingProfileGroupType.Subscriptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SharingProfileGroupType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Subscriptions.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

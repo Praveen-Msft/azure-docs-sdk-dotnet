@@ -125,5 +125,25 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="TreatDecimalAsString">
+      <MemberSignature Language="C#" Value="public object TreatDecimalAsString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TreatDecimalAsString" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Synapse.Artifacts.Models.ScriptActivity.TreatDecimalAsString" />
+      <MemberSignature Language="VB.NET" Value="Public Property TreatDecimalAsString As Object" />
+      <MemberSignature Language="F#" Value="member this.TreatDecimalAsString : obj with get, set" Usage="Azure.Analytics.Synapse.Artifacts.Models.ScriptActivity.TreatDecimalAsString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Synapse.Artifacts</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Indicates whether to treat decimal values as strings to avoid value overflow issue. This option is enabled for SnowflakeV2 connector only. Type: boolean (or Expression with resultType boolean). </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>

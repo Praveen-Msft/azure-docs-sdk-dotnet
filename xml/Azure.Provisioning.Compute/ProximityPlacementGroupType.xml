@@ -1,0 +1,66 @@
+<Type Name="ProximityPlacementGroupType" FullName="Azure.Provisioning.Compute.ProximityPlacementGroupType">
+  <TypeSignature Language="C#" Value="public enum ProximityPlacementGroupType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProximityPlacementGroupType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ProximityPlacementGroupType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProximityPlacementGroupType" />
+  <TypeSignature Language="F#" Value="type ProximityPlacementGroupType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the type of the proximity placement group. Possible values are:
+            **Standard** : Co-locate resources within an Azure region or Availability
+            Zone. **Ultra** : For future use.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ProximityPlacementGroupType Standard = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ProximityPlacementGroupType.Standard" />
+      <MemberSignature Language="VB.NET" Value="Standard" />
+      <MemberSignature Language="F#" Value="Standard = 0" Usage="Azure.Provisioning.Compute.ProximityPlacementGroupType.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ProximityPlacementGroupType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Standard.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Ultra">
+      <MemberSignature Language="C#" Value="Ultra" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ProximityPlacementGroupType Ultra = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ProximityPlacementGroupType.Ultra" />
+      <MemberSignature Language="VB.NET" Value="Ultra" />
+      <MemberSignature Language="F#" Value="Ultra = 1" Usage="Azure.Provisioning.Compute.ProximityPlacementGroupType.Ultra" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ProximityPlacementGroupType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Ultra.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

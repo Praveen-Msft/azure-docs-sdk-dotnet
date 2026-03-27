@@ -18,7 +18,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> Current availability status of the resource. </summary>
+    <summary> Availability status. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -103,6 +103,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="False">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus False { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus False" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.False" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property False As ElasticResourceAvailabilityStatus" />
+      <MemberSignature Language="F#" Value="static member False : Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus" Usage="Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.False" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Value indicating the the name is invalid, unavailable, or both. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetHashCode">
       <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
@@ -127,46 +147,6 @@
       <Docs>
         <summary>Returns the hash code for this instance.</summary>
         <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Offline">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus Offline { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus Offline" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.Offline" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Offline As ElasticResourceAvailabilityStatus" />
-      <MemberSignature Language="F#" Value="static member Offline : Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus" Usage="Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.Offline" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The resource is currently Offline and not accessible. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Online">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus Online { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus Online" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.Online" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Online As ElasticResourceAvailabilityStatus" />
-      <MemberSignature Language="F#" Value="static member Online : Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus" Usage="Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.Online" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The resource is currently Online and accessible. </summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -264,6 +244,26 @@
       <Docs>
         <summary>Returns the fully qualified type name of this instance.</summary>
         <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="True">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus True { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus True" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.True" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property True As ElasticResourceAvailabilityStatus" />
+      <MemberSignature Language="F#" Value="static member True : Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus" Usage="Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus.True" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.ElasticResourceAvailabilityStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Value indicating the name is valid and available. </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

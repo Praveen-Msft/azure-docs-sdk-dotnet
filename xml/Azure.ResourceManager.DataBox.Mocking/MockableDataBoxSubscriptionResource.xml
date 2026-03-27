@@ -9,13 +9,14 @@
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <AssemblyVersion>1.0.4.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class to add extension methods to SubscriptionResource. </summary>
+    <summary> A class to add extension methods to <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,10 +29,11 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.DataBox.Mocking.MockableDataBoxSubscriptionResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of MockableDataBoxSubscriptionResource for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -45,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -58,7 +61,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the jobs available under the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/jobs</description></item><item><term>Operation Id</term><description>Jobs_List</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/jobs. </description></item><item><term> Operation Id. </term><description> JobResources_List. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -86,8 +90,8 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the jobs available under the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/jobs</description></item><item><term>Operation Id</term><description>Jobs_List</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /> that may take multiple service requests to iterate over. </returns>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/jobs. </description></item><item><term> Operation Id. </term><description> JobResources_List. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -101,6 +105,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.Models.RegionConfigurationResult&gt;</ReturnType>
@@ -111,12 +116,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="location"> The location of the resource. </param>
-        <param name="content"> Request body to get the configuration for the region. </param>
+        <param name="location"> The name of the Azure region. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This API provides configuration details specific to given region/location at Subscription level.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/regionConfiguration</description></item><item><term>Operation Id</term><description>Service_RegionConfiguration</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/regionConfiguration. </description></item><item><term> Operation Id. </term><description> ServiceOperationGroup_RegionConfiguration. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -133,6 +138,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.Models.RegionConfigurationResult&gt;&gt;</ReturnType>
@@ -143,12 +149,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="location"> The location of the resource. </param>
-        <param name="content"> Request body to get the configuration for the region. </param>
+        <param name="location"> The name of the Azure region. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This API provides configuration details specific to given region/location at Subscription level.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/regionConfiguration</description></item><item><term>Operation Id</term><description>Service_RegionConfiguration</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/regionConfiguration. </description></item><item><term> Operation Id. </term><description> ServiceOperationGroup_RegionConfiguration. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -165,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.Models.AddressValidationOutput&gt;</ReturnType>
@@ -175,12 +182,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="location"> The location of the resource. </param>
-        <param name="content"> Shipping address of the customer. </param>
+        <param name="location"> The name of the Azure region. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             [DEPRECATED NOTICE: This operation will soon be removed]. This method validates the customer shipping address and provide alternate addresses if any.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateAddress</description></item><item><term>Operation Id</term><description>Service_ValidateAddress</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateAddress. </description></item><item><term> Operation Id. </term><description> ServiceOperationGroup_ValidateAddress. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -197,6 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.Models.AddressValidationOutput&gt;&gt;</ReturnType>
@@ -207,12 +215,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="location"> The location of the resource. </param>
-        <param name="content"> Shipping address of the customer. </param>
+        <param name="location"> The name of the Azure region. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             [DEPRECATED NOTICE: This operation will soon be removed]. This method validates the customer shipping address and provide alternate addresses if any.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateAddress</description></item><item><term>Operation Id</term><description>Service_ValidateAddress</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateAddress. </description></item><item><term> Operation Id. </term><description> ServiceOperationGroup_ValidateAddress. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -229,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.Models.DataBoxValidationResult&gt;</ReturnType>
@@ -239,12 +248,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="location"> The location of the resource. </param>
-        <param name="content"> Inputs of the customer. </param>
+        <param name="location"> The name of the Azure region. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This method does all necessary pre-job creation validation under subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateInputs</description></item><item><term>Operation Id</term><description>Service_ValidateInputs</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateInputs. </description></item><item><term> Operation Id. </term><description> ServiceOperationGroup_ValidateInputs. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -261,6 +270,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.Models.DataBoxValidationResult&gt;&gt;</ReturnType>
@@ -271,12 +281,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="location"> The location of the resource. </param>
-        <param name="content"> Inputs of the customer. </param>
+        <param name="location"> The name of the Azure region. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This method does all necessary pre-job creation validation under subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateInputs</description></item><item><term>Operation Id</term><description>Service_ValidateInputs</description></item><item><term>Default Api Version</term><description>2025-02-01</description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateInputs. </description></item><item><term> Operation Id. </term><description> ServiceOperationGroup_ValidateInputs. </description></item><item><term> Default Api Version. </term><description> 2025-07-01. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

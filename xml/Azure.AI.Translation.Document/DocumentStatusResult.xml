@@ -8,6 +8,7 @@
     <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +41,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -62,6 +64,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResponseError</ReturnType>
@@ -108,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -130,13 +135,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer"> The JSON writer. </param>
@@ -155,6 +161,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -177,6 +184,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -199,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Translation.Document.DocumentTranslationStatus</ReturnType>
@@ -224,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Translation.Document.DocumentStatusResult</ReturnType>
@@ -256,6 +266,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -287,6 +298,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Translation.Document.DocumentStatusResult</ReturnType>
@@ -319,6 +331,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -331,7 +344,7 @@
         <summary>
             Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
             </summary>
-        <returns>The format that the model uses when communicating with the serivce.</returns>
+        <returns>The format that the model uses when communicating with the service.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,6 +361,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -365,6 +379,46 @@
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
     </Member>
+    <Member MemberName="TotalImageScansFailed">
+      <MemberSignature Language="C#" Value="public int? TotalImageScansFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalImageScansFailed" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.Translation.Document.DocumentStatusResult.TotalImageScansFailed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalImageScansFailed As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.TotalImageScansFailed : Nullable&lt;int&gt;" Usage="Azure.AI.Translation.Document.DocumentStatusResult.TotalImageScansFailed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Total image scans failed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalImageScansSucceeded">
+      <MemberSignature Language="C#" Value="public int? TotalImageScansSucceeded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalImageScansSucceeded" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.Translation.Document.DocumentStatusResult.TotalImageScansSucceeded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalImageScansSucceeded As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.TotalImageScansSucceeded : Nullable&lt;int&gt;" Usage="Azure.AI.Translation.Document.DocumentStatusResult.TotalImageScansSucceeded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Total image scans charged by the API. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="TranslatedDocumentUri">
       <MemberSignature Language="C#" Value="public Uri TranslatedDocumentUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri TranslatedDocumentUri" />
@@ -375,6 +429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -397,6 +452,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -420,6 +476,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>

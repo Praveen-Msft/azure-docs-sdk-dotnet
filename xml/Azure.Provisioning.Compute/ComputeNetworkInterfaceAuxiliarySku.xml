@@ -1,0 +1,128 @@
+<Type Name="ComputeNetworkInterfaceAuxiliarySku" FullName="Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku">
+  <TypeSignature Language="C#" Value="public enum ComputeNetworkInterfaceAuxiliarySku" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComputeNetworkInterfaceAuxiliarySku extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComputeNetworkInterfaceAuxiliarySku" />
+  <TypeSignature Language="F#" Value="type ComputeNetworkInterfaceAuxiliarySku = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies whether the Auxiliary sku is enabled for the Network Interface
+            resource.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="A1">
+      <MemberSignature Language="C#" Value="A1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku A1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A1" />
+      <MemberSignature Language="VB.NET" Value="A1" />
+      <MemberSignature Language="F#" Value="A1 = 1" Usage="Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            A1.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="A2">
+      <MemberSignature Language="C#" Value="A2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku A2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A2" />
+      <MemberSignature Language="VB.NET" Value="A2" />
+      <MemberSignature Language="F#" Value="A2 = 2" Usage="Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            A2.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="A4">
+      <MemberSignature Language="C#" Value="A4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku A4 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A4" />
+      <MemberSignature Language="VB.NET" Value="A4" />
+      <MemberSignature Language="F#" Value="A4 = 3" Usage="Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            A4.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="A8">
+      <MemberSignature Language="C#" Value="A8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku A8 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A8" />
+      <MemberSignature Language="VB.NET" Value="A8" />
+      <MemberSignature Language="F#" Value="A8 = 4" Usage="Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.A8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            A8.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeNetworkInterfaceAuxiliarySku</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            None.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

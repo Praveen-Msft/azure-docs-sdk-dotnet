@@ -36,6 +36,26 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextTranslationClient (Azure.AI.Translation.Text.TextTranslationClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.Translation.Text.TextTranslationClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.#ctor(Azure.AI.Translation.Text.TextTranslationClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (settings As TextTranslationClientSettings)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.Translation.Text.TextTranslationClient : Azure.AI.Translation.Text.TextTranslationClientSettings -&gt; Azure.AI.Translation.Text.TextTranslationClient" Usage="new Azure.AI.Translation.Text.TextTranslationClient settings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="settings" Type="Azure.AI.Translation.Text.TextTranslationClientSettings" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="settings"> The settings for TextTranslationClient. </param>
+        <summary> Initializes a new instance of TextTranslationClient from a <see cref="T:Azure.AI.Translation.Text.TextTranslationClientSettings" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextTranslationClient (Uri endpoint);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.#ctor(System.Uri)" />

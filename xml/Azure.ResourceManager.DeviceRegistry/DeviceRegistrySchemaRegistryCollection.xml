@@ -144,7 +144,7 @@
         <param name="schemaRegistryName"> Schema registry name parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get a SchemaRegistry
+            Checks to see if the resource exists in azure.
             <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DeviceRegistry/schemaRegistries/{schemaRegistryName}. </description></item><item><term> Operation Id. </term><description> SchemaRegistries_Get. </description></item><item><term> Default Api Version. </term><description> 2025-11-01-preview. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -176,7 +176,7 @@
         <param name="schemaRegistryName"> Schema registry name parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get a SchemaRegistry
+            Checks to see if the resource exists in azure.
             <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DeviceRegistry/schemaRegistries/{schemaRegistryName}. </description></item><item><term> Operation Id. </term><description> SchemaRegistries_Get. </description></item><item><term> Default Api Version. </term><description> 2025-11-01-preview. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -324,7 +324,7 @@
         <param name="schemaRegistryName"> Schema registry name parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get a SchemaRegistry
+            Tries to get details for this resource from the service.
             <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DeviceRegistry/schemaRegistries/{schemaRegistryName}. </description></item><item><term> Operation Id. </term><description> SchemaRegistries_Get. </description></item><item><term> Default Api Version. </term><description> 2025-11-01-preview. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -356,7 +356,7 @@
         <param name="schemaRegistryName"> Schema registry name parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get a SchemaRegistry
+            Tries to get details for this resource from the service.
             <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DeviceRegistry/schemaRegistries/{schemaRegistryName}. </description></item><item><term> Operation Id. </term><description> SchemaRegistries_Get. </description></item><item><term> Default Api Version. </term><description> 2025-11-01-preview. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

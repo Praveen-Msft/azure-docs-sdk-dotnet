@@ -1,0 +1,79 @@
+<Type Name="DiskControllerType" FullName="Azure.Provisioning.Compute.DiskControllerType">
+  <TypeSignature Language="C#" Value="public enum DiskControllerType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskControllerType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.DiskControllerType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskControllerType" />
+  <TypeSignature Language="F#" Value="type DiskControllerType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the disk controller type configured for the VM and
+            VirtualMachineScaleSet. This property is only supported for virtual
+            machines whose operating system disk and VM sku supports Generation 2
+            (https://docs.microsoft.com/en-us/azure/virtual-machines/generation-2),
+            please check the HyperVGenerations capability returned as part of VM sku
+            capabilities in the response of Microsoft.Compute SKUs api for the region
+            contains V2
+            (https://docs.microsoft.com/rest/api/compute/resourceskus/list). For more
+            information about Disk Controller Types supported please refer to
+            https://aka.ms/azure-diskcontrollertypes.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NVMe">
+      <MemberSignature Language="C#" Value="NVMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskControllerType NVMe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskControllerType.NVMe" />
+      <MemberSignature Language="VB.NET" Value="NVMe" />
+      <MemberSignature Language="F#" Value="NVMe = 1" Usage="Azure.Provisioning.Compute.DiskControllerType.NVMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskControllerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            NVMe.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Scsi">
+      <MemberSignature Language="C#" Value="Scsi" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.DiskControllerType Scsi = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.DiskControllerType.Scsi" />
+      <MemberSignature Language="VB.NET" Value="Scsi" />
+      <MemberSignature Language="F#" Value="Scsi = 0" Usage="Azure.Provisioning.Compute.DiskControllerType.Scsi" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="SCSI")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="SCSI")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.DiskControllerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            SCSI.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

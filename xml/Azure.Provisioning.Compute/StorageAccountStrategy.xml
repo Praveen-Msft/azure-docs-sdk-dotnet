@@ -1,0 +1,83 @@
+<Type Name="StorageAccountStrategy" FullName="Azure.Provisioning.Compute.StorageAccountStrategy">
+  <TypeSignature Language="C#" Value="public enum StorageAccountStrategy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StorageAccountStrategy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.StorageAccountStrategy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StorageAccountStrategy" />
+  <TypeSignature Language="F#" Value="type StorageAccountStrategy = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the strategy to be used when selecting the storage account type.
+            Cannot be specified along with storageAccountType, but can be overridden
+            per region by specifying targetRegions[].storageAccountType. This property
+            is not updatable.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DefaultStandardLrs">
+      <MemberSignature Language="C#" Value="DefaultStandardLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountStrategy DefaultStandardLrs = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountStrategy.DefaultStandardLrs" />
+      <MemberSignature Language="VB.NET" Value="DefaultStandardLrs" />
+      <MemberSignature Language="F#" Value="DefaultStandardLrs = 1" Usage="Azure.Provisioning.Compute.StorageAccountStrategy.DefaultStandardLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="DefaultStandard_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="DefaultStandard_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountStrategy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Choose Standard_LRS storage unless overridden by specifying regional
+            storageAccountType.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PreferStandardZrs">
+      <MemberSignature Language="C#" Value="PreferStandardZrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.StorageAccountStrategy PreferStandardZrs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.StorageAccountStrategy.PreferStandardZrs" />
+      <MemberSignature Language="VB.NET" Value="PreferStandardZrs" />
+      <MemberSignature Language="F#" Value="PreferStandardZrs = 0" Usage="Azure.Provisioning.Compute.StorageAccountStrategy.PreferStandardZrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="PreferStandard_ZRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="PreferStandard_ZRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.StorageAccountStrategy</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Choose Standard_ZRS storage if the region supports it, else choose
+            Standard_LRS storage, unless overridden by specifying regional
+            storageAccountType. If no storageAccountStrategy is specified, this is
+            the default strategy (from API version 2025-03-03 onwards).
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

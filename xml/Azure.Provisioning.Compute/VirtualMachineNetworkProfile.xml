@@ -1,0 +1,133 @@
+<Type Name="VirtualMachineNetworkProfile" FullName="Azure.Provisioning.Compute.VirtualMachineNetworkProfile">
+  <TypeSignature Language="C#" Value="public class VirtualMachineNetworkProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineNetworkProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineNetworkProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineNetworkProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type VirtualMachineNetworkProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Specifies the network interfaces or the networking configuration of the
+            virtual machine.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineNetworkProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineNetworkProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new VirtualMachineNetworkProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.VirtualMachineNetworkProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="virtualMachineNetworkProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of VirtualMachineNetworkProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkApiVersion">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.NetworkApiVersion&gt; NetworkApiVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.NetworkApiVersion&gt; NetworkApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkProfile.NetworkApiVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkApiVersion As BicepValue(Of NetworkApiVersion)" />
+      <MemberSignature Language="F#" Value="member this.NetworkApiVersion : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.NetworkApiVersion&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkProfile.NetworkApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.NetworkApiVersion&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            specifies the Microsoft.Network API version used when creating
+            networking resources in the Network Interface Configurations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkInterfaceConfigurations">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceConfiguration&gt; NetworkInterfaceConfigurations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceConfiguration&gt; NetworkInterfaceConfigurations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkProfile.NetworkInterfaceConfigurations" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkInterfaceConfigurations As BicepList(Of VirtualMachineNetworkInterfaceConfiguration)" />
+      <MemberSignature Language="F#" Value="member this.NetworkInterfaceConfigurations : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceConfiguration&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkProfile.NetworkInterfaceConfigurations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceConfiguration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the networking configurations that will be used to create the
+            virtual machine networking resources.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkInterfaces">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceReference&gt; NetworkInterfaces { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceReference&gt; NetworkInterfaces" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.VirtualMachineNetworkProfile.NetworkInterfaces" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkInterfaces As BicepList(Of VirtualMachineNetworkInterfaceReference)" />
+      <MemberSignature Language="F#" Value="member this.NetworkInterfaces : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceReference&gt; with get, set" Usage="Azure.Provisioning.Compute.VirtualMachineNetworkProfile.NetworkInterfaces" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.VirtualMachineNetworkInterfaceReference&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the list of resource Ids for the network interfaces
+            associated with the virtual machine.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

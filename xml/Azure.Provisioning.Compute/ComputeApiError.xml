@@ -1,0 +1,173 @@
+<Type Name="ComputeApiError" FullName="Azure.Provisioning.Compute.ComputeApiError">
+  <TypeSignature Language="C#" Value="public class ComputeApiError : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ComputeApiError extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputeApiError" />
+  <TypeSignature Language="VB.NET" Value="Public Class ComputeApiError&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ComputeApiError = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Api error.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeApiError ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ComputeApiError.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ComputeApiError.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Code">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Code { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Code" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeApiError.Code" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Code As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Code : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.ComputeApiError.Code" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The error code.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ComputeApiError.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="computeApiError.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of ComputeApiError.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ComputeApiErrorBase&gt; Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.Compute.ComputeApiErrorBase&gt; Details" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeApiError.Details" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Details As BicepList(Of ComputeApiErrorBase)" />
+      <MemberSignature Language="F#" Value="member this.Details : Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ComputeApiErrorBase&gt;" Usage="Azure.Provisioning.Compute.ComputeApiError.Details" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.Compute.ComputeApiErrorBase&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Api error details.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Innererror">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.InnerError Innererror { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.InnerError Innererror" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeApiError.Innererror" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Innererror As InnerError" />
+      <MemberSignature Language="F#" Value="member this.Innererror : Azure.Provisioning.Compute.InnerError" Usage="Azure.Provisioning.Compute.ComputeApiError.Innererror" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.InnerError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Api inner error.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Message { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Message" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeApiError.Message" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Message : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.ComputeApiError.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The error message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Target { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Target" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeApiError.Target" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Target As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Target : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.ComputeApiError.Target" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The target of the particular error.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

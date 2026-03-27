@@ -1,0 +1,108 @@
+<Type Name="ComputeScheduledEventsProfile" FullName="Azure.Provisioning.Compute.ComputeScheduledEventsProfile">
+  <TypeSignature Language="C#" Value="public class ComputeScheduledEventsProfile : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ComputeScheduledEventsProfile extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.ComputeScheduledEventsProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class ComputeScheduledEventsProfile&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ComputeScheduledEventsProfile = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The ComputeScheduledEventsProfile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeScheduledEventsProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ComputeScheduledEventsProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ComputeScheduledEventsProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.ComputeScheduledEventsProfile.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="computeScheduledEventsProfile.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            ComputeScheduledEventsProfile.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSImageNotificationProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.OSImageNotificationProfile OSImageNotificationProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.OSImageNotificationProfile OSImageNotificationProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeScheduledEventsProfile.OSImageNotificationProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSImageNotificationProfile As OSImageNotificationProfile" />
+      <MemberSignature Language="F#" Value="member this.OSImageNotificationProfile : Azure.Provisioning.Compute.OSImageNotificationProfile with get, set" Usage="Azure.Provisioning.Compute.ComputeScheduledEventsProfile.OSImageNotificationProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.OSImageNotificationProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies OS Image Scheduled Event related configurations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TerminateNotificationProfile">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.TerminateNotificationProfile TerminateNotificationProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.TerminateNotificationProfile TerminateNotificationProfile" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.ComputeScheduledEventsProfile.TerminateNotificationProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property TerminateNotificationProfile As TerminateNotificationProfile" />
+      <MemberSignature Language="F#" Value="member this.TerminateNotificationProfile : Azure.Provisioning.Compute.TerminateNotificationProfile with get, set" Usage="Azure.Provisioning.Compute.ComputeScheduledEventsProfile.TerminateNotificationProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.TerminateNotificationProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies Terminate Scheduled Event related configurations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

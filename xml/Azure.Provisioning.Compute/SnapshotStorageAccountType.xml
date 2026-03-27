@@ -1,0 +1,103 @@
+<Type Name="SnapshotStorageAccountType" FullName="Azure.Provisioning.Compute.SnapshotStorageAccountType">
+  <TypeSignature Language="C#" Value="public enum SnapshotStorageAccountType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SnapshotStorageAccountType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.SnapshotStorageAccountType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SnapshotStorageAccountType" />
+  <TypeSignature Language="F#" Value="type SnapshotStorageAccountType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The sku name.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PremiumLrs">
+      <MemberSignature Language="C#" Value="PremiumLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotStorageAccountType PremiumLrs = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotStorageAccountType.PremiumLrs" />
+      <MemberSignature Language="VB.NET" Value="PremiumLrs" />
+      <MemberSignature Language="F#" Value="PremiumLrs = 1" Usage="Azure.Provisioning.Compute.SnapshotStorageAccountType.PremiumLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Premium_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Premium_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Premium SSD locally redundant storage.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardLrs">
+      <MemberSignature Language="C#" Value="StandardLrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotStorageAccountType StandardLrs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotStorageAccountType.StandardLrs" />
+      <MemberSignature Language="VB.NET" Value="StandardLrs" />
+      <MemberSignature Language="F#" Value="StandardLrs = 0" Usage="Azure.Provisioning.Compute.SnapshotStorageAccountType.StandardLrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Standard_LRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Standard_LRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Standard HDD locally redundant storage.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardZrs">
+      <MemberSignature Language="C#" Value="StandardZrs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.SnapshotStorageAccountType StandardZrs = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.SnapshotStorageAccountType.StandardZrs" />
+      <MemberSignature Language="VB.NET" Value="StandardZrs" />
+      <MemberSignature Language="F#" Value="StandardZrs = 2" Usage="Azure.Provisioning.Compute.SnapshotStorageAccountType.StandardZrs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="Standard_ZRS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="Standard_ZRS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.SnapshotStorageAccountType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Standard zone redundant storage.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,314 @@
+<Type Name="LastPatchInstallationSummary" FullName="Azure.Provisioning.Compute.LastPatchInstallationSummary">
+  <TypeSignature Language="C#" Value="public class LastPatchInstallationSummary : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LastPatchInstallationSummary extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.LastPatchInstallationSummary" />
+  <TypeSignature Language="VB.NET" Value="Public Class LastPatchInstallationSummary&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type LastPatchInstallationSummary = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the properties of the last installed patch summary.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LastPatchInstallationSummary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.LastPatchInstallationSummary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new LastPatchInstallationSummary.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.LastPatchInstallationSummary.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="lastPatchInstallationSummary.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of LastPatchInstallationSummary.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.Compute.ComputeApiError Error { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.Compute.ComputeApiError Error" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.Error" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Error As ComputeApiError" />
+      <MemberSignature Language="F#" Value="member this.Error : Azure.Provisioning.Compute.ComputeApiError" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.ComputeApiError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The errors that were encountered during execution of the operation. The
+            details array contains the list of them.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludedPatchCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; ExcludedPatchCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; ExcludedPatchCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.ExcludedPatchCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExcludedPatchCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ExcludedPatchCount : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.ExcludedPatchCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of all available patches but excluded explicitly by a
+            customer-specified exclusion list match.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedPatchCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; FailedPatchCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; FailedPatchCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.FailedPatchCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailedPatchCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.FailedPatchCount : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.FailedPatchCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The count of patches that failed installation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstallationActivityId">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; InstallationActivityId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; InstallationActivityId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.InstallationActivityId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstallationActivityId As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.InstallationActivityId : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.InstallationActivityId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The activity ID of the operation that produced this result. It is used
+            to correlate across CRP and extension logs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstalledPatchCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; InstalledPatchCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; InstalledPatchCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.InstalledPatchCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstalledPatchCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.InstalledPatchCount : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.InstalledPatchCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The count of patches that successfully installed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; LastModifiedOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; LastModifiedOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.LastModifiedOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.LastModifiedOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.LastModifiedOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The UTC timestamp when the operation began.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaintenanceWindowExceeded">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; MaintenanceWindowExceeded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; MaintenanceWindowExceeded" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.MaintenanceWindowExceeded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaintenanceWindowExceeded As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.MaintenanceWindowExceeded : Azure.Provisioning.BicepValue&lt;bool&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.MaintenanceWindowExceeded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Describes whether the operation ran out of time before it completed all
+            its intended actions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSelectedPatchCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; NotSelectedPatchCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; NotSelectedPatchCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.NotSelectedPatchCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NotSelectedPatchCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.NotSelectedPatchCount : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.NotSelectedPatchCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of all available patches but not going to be installed
+            because it didn't match a classification or inclusion list entry.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingPatchCount">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; PendingPatchCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; PendingPatchCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.PendingPatchCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PendingPatchCount As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.PendingPatchCount : Azure.Provisioning.BicepValue&lt;int&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.PendingPatchCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of all available patches expected to be installed over the
+            course of the patch installation operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; StartOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; StartOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.StartOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.StartOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.StartOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The UTC timestamp when the operation began.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PatchOperationStatus&gt; Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.PatchOperationStatus&gt; Status" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.LastPatchInstallationSummary.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As BicepValue(Of PatchOperationStatus)" />
+      <MemberSignature Language="F#" Value="member this.Status : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PatchOperationStatus&gt;" Usage="Azure.Provisioning.Compute.LastPatchInstallationSummary.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.PatchOperationStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The overall success or failure status of the operation. It remains
+            "InProgress" until the operation completes. At that point it
+            will become "Unknown", "Failed",
+            "Succeeded", or "CompletedWithWarnings.".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,64 @@
+<Type Name="VirtualMachineEvictionPolicyType" FullName="Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType">
+  <TypeSignature Language="C#" Value="public enum VirtualMachineEvictionPolicyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VirtualMachineEvictionPolicyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum VirtualMachineEvictionPolicyType" />
+  <TypeSignature Language="F#" Value="type VirtualMachineEvictionPolicyType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Specifies the eviction policy for the Azure Spot VM/VMSS.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Deallocate">
+      <MemberSignature Language="C#" Value="Deallocate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType Deallocate = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType.Deallocate" />
+      <MemberSignature Language="VB.NET" Value="Deallocate" />
+      <MemberSignature Language="F#" Value="Deallocate = 0" Usage="Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType.Deallocate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Deallocate.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType Delete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="F#" Value="Delete = 1" Usage="Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType.Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Compute.VirtualMachineEvictionPolicyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Delete.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

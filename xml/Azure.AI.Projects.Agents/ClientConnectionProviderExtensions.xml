@@ -18,25 +18,27 @@
   </Docs>
   <Members>
     <Member MemberName="GetProjectAgentsClient">
-      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Agents.AgentsClient GetProjectAgentsClient (this System.ClientModel.Primitives.ClientConnectionProvider connectionProvider, Azure.AI.Projects.Agents.AgentsClientOptions options = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Agents.AgentsClient GetProjectAgentsClient(class System.ClientModel.Primitives.ClientConnectionProvider connectionProvider, class Azure.AI.Projects.Agents.AgentsClientOptions options) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Agents.ClientConnectionProviderExtensions.GetProjectAgentsClient(System.ClientModel.Primitives.ClientConnectionProvider,Azure.AI.Projects.Agents.AgentsClientOptions)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProjectAgentsClient (connectionProvider As ClientConnectionProvider, Optional options As AgentsClientOptions = Nothing) As AgentsClient" />
-      <MemberSignature Language="F#" Value="static member GetProjectAgentsClient : System.ClientModel.Primitives.ClientConnectionProvider * Azure.AI.Projects.Agents.AgentsClientOptions -&gt; Azure.AI.Projects.Agents.AgentsClient" Usage="Azure.AI.Projects.Agents.ClientConnectionProviderExtensions.GetProjectAgentsClient (connectionProvider, options)" />
+      <MemberSignature Language="C#" Value="public static Azure.AI.Projects.Agents.AgentAdministrationClient GetProjectAgentsClient (this System.ClientModel.Primitives.ClientConnectionProvider connectionProvider, Uri endpoint = default, Azure.AI.Projects.Agents.AgentAdministrationClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.Projects.Agents.AgentAdministrationClient GetProjectAgentsClient(class System.ClientModel.Primitives.ClientConnectionProvider connectionProvider, class System.Uri endpoint, class Azure.AI.Projects.Agents.AgentAdministrationClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Projects.Agents.ClientConnectionProviderExtensions.GetProjectAgentsClient(System.ClientModel.Primitives.ClientConnectionProvider,System.Uri,Azure.AI.Projects.Agents.AgentAdministrationClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProjectAgentsClient (connectionProvider As ClientConnectionProvider, Optional endpoint As Uri = Nothing, Optional options As AgentAdministrationClientOptions = Nothing) As AgentAdministrationClient" />
+      <MemberSignature Language="F#" Value="static member GetProjectAgentsClient : System.ClientModel.Primitives.ClientConnectionProvider * Uri * Azure.AI.Projects.Agents.AgentAdministrationClientOptions -&gt; Azure.AI.Projects.Agents.AgentAdministrationClient" Usage="Azure.AI.Projects.Agents.ClientConnectionProviderExtensions.GetProjectAgentsClient (connectionProvider, endpoint, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Projects.Agents</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.Projects.Agents.AgentsClient</ReturnType>
+        <ReturnType>Azure.AI.Projects.Agents.AgentAdministrationClient</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="connectionProvider" Type="System.ClientModel.Primitives.ClientConnectionProvider" RefType="this" />
-        <Parameter Name="options" Type="Azure.AI.Projects.Agents.AgentsClientOptions" />
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="options" Type="Azure.AI.Projects.Agents.AgentAdministrationClientOptions" />
       </Parameters>
       <Docs>
         <param name="connectionProvider">To be added.</param>
+        <param name="endpoint">To be added.</param>
         <param name="options">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>

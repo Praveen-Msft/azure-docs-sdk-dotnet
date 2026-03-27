@@ -1,0 +1,217 @@
+<Type Name="MaintenanceRedeployStatus" FullName="Azure.Provisioning.Compute.MaintenanceRedeployStatus">
+  <TypeSignature Language="C#" Value="public class MaintenanceRedeployStatus : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MaintenanceRedeployStatus extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Compute.MaintenanceRedeployStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Class MaintenanceRedeployStatus&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type MaintenanceRedeployStatus = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Maintenance Operation Status.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MaintenanceRedeployStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.MaintenanceRedeployStatus.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new MaintenanceRedeployStatus.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Compute.MaintenanceRedeployStatus.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="maintenanceRedeployStatus.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of MaintenanceRedeployStatus.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCustomerInitiatedMaintenanceAllowed">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;bool&gt; IsCustomerInitiatedMaintenanceAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;bool&gt; IsCustomerInitiatedMaintenanceAllowed" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.IsCustomerInitiatedMaintenanceAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCustomerInitiatedMaintenanceAllowed As BicepValue(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsCustomerInitiatedMaintenanceAllowed : Azure.Provisioning.BicepValue&lt;bool&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.IsCustomerInitiatedMaintenanceAllowed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            True, if customer is allowed to perform Maintenance.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastOperationMessage">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; LastOperationMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; LastOperationMessage" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.LastOperationMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastOperationMessage As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.LastOperationMessage : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.LastOperationMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Message returned for the last Maintenance Operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastOperationResultCode">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.MaintenanceOperationResultCodeType&gt; LastOperationResultCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.Compute.MaintenanceOperationResultCodeType&gt; LastOperationResultCode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.LastOperationResultCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastOperationResultCode As BicepValue(Of MaintenanceOperationResultCodeType)" />
+      <MemberSignature Language="F#" Value="member this.LastOperationResultCode : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.MaintenanceOperationResultCodeType&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.LastOperationResultCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.Compute.MaintenanceOperationResultCodeType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Last Maintenance Operation Result Code.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaintenanceWindowEndOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; MaintenanceWindowEndOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; MaintenanceWindowEndOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.MaintenanceWindowEndOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaintenanceWindowEndOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.MaintenanceWindowEndOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.MaintenanceWindowEndOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            End Time for the Maintenance Window.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaintenanceWindowStartOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; MaintenanceWindowStartOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; MaintenanceWindowStartOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.MaintenanceWindowStartOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaintenanceWindowStartOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.MaintenanceWindowStartOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.MaintenanceWindowStartOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Start Time for the Maintenance Window.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreMaintenanceWindowEndOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; PreMaintenanceWindowEndOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; PreMaintenanceWindowEndOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.PreMaintenanceWindowEndOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreMaintenanceWindowEndOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.PreMaintenanceWindowEndOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.PreMaintenanceWindowEndOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            End Time for the Pre Maintenance Window.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreMaintenanceWindowStartOn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt; PreMaintenanceWindowStartOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype System.DateTimeOffset&gt; PreMaintenanceWindowStartOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Compute.MaintenanceRedeployStatus.PreMaintenanceWindowStartOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreMaintenanceWindowStartOn As BicepValue(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.PreMaintenanceWindowStartOn : Azure.Provisioning.BicepValue&lt;DateTimeOffset&gt;" Usage="Azure.Provisioning.Compute.MaintenanceRedeployStatus.PreMaintenanceWindowStartOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Start Time for the Pre Maintenance Window.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

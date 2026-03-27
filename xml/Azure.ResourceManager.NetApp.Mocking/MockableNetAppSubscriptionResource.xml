@@ -245,110 +245,6 @@
           <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetActiveDirectoryConfigs">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigs (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigs(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetActiveDirectoryConfigs(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetActiveDirectoryConfigs (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ActiveDirectoryConfigResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetActiveDirectoryConfigs : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;&#xA;override this.GetActiveDirectoryConfigs : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;" Usage="mockableNetAppSubscriptionResource.GetActiveDirectoryConfigs cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List all active directory configurations within the subscription
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /></description></item></list></summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActiveDirectoryConfigsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigsAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt; GetActiveDirectoryConfigsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetActiveDirectoryConfigsAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetActiveDirectoryConfigsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ActiveDirectoryConfigResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetActiveDirectoryConfigsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;&#xA;override this.GetActiveDirectoryConfigsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;" Usage="mockableNetAppSubscriptionResource.GetActiveDirectoryConfigsAsync cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List all active directory configurations within the subscription
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /></description></item></list></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.ActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccounts">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccounts (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccounts(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetElasticAccounts(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticAccounts (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ElasticAccountResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticAccounts : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;&#xA;override this.GetElasticAccounts : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;" Usage="mockableNetAppSubscriptionResource.GetElasticAccounts cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List and describe all NetApp elastic accounts in the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /></description></item></list></summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetElasticAccountsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccountsAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.ElasticAccountResource&gt; GetElasticAccountsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetElasticAccountsAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetElasticAccountsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ElasticAccountResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetElasticAccountsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;&#xA;override this.GetElasticAccountsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;" Usage="mockableNetAppSubscriptionResource.GetElasticAccountsAsync cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.ElasticAccountResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List and describe all NetApp elastic accounts in the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /></description></item></list></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.ElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetNetAppAccounts">
       <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppAccountResource&gt; GetNetAppAccounts (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.NetAppAccountResource&gt; GetNetAppAccounts(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -400,6 +296,110 @@
             List and describe all NetApp accounts in the subscription.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/netAppAccounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigs">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigs (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigs(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppActiveDirectoryConfigs(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppActiveDirectoryConfigs (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of NetAppActiveDirectoryConfigResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppActiveDirectoryConfigs : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;&#xA;override this.GetNetAppActiveDirectoryConfigs : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;" Usage="mockableNetAppSubscriptionResource.GetNetAppActiveDirectoryConfigs cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all active directory configurations within the subscription
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /></description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppActiveDirectoryConfigsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt; GetNetAppActiveDirectoryConfigsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppActiveDirectoryConfigsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppActiveDirectoryConfigsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of NetAppActiveDirectoryConfigResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppActiveDirectoryConfigsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;&#xA;override this.GetNetAppActiveDirectoryConfigsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;" Usage="mockableNetAppSubscriptionResource.GetNetAppActiveDirectoryConfigsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List all active directory configurations within the subscription
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/activeDirectoryConfigs</description></item><item><term>Operation Id</term><description>ActiveDirectoryConfigs_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /></description></item></list></summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppActiveDirectoryConfigResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccounts">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccounts (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccounts(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppElasticAccounts(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticAccounts (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of NetAppElasticAccountResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticAccounts : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;&#xA;override this.GetNetAppElasticAccounts : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;" Usage="mockableNetAppSubscriptionResource.GetNetAppElasticAccounts cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List and describe all NetApp elastic accounts in the subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /></description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNetAppElasticAccountsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccountsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt; GetNetAppElasticAccountsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppElasticAccountsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetAppElasticAccountsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of NetAppElasticAccountResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetNetAppElasticAccountsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;&#xA;override this.GetNetAppElasticAccountsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;" Usage="mockableNetAppSubscriptionResource.GetNetAppElasticAccountsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppElasticAccountResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List and describe all NetApp elastic accounts in the subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/elasticAccounts</description></item><item><term>Operation Id</term><description>ElasticAccounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /></description></item></list></summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppElasticAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
