@@ -1,28 +1,28 @@
 {
   "Name": "Azure.Provisioning.Cdn",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
-  "DirectoryPath": "sdk/provisioning/Azure.Provisioning.Cdn",
-  "ServiceDirectory": "provisioning",
-  "ReadMePath": "sdk/provisioning/Azure.Provisioning.Cdn/README.md",
-  "ChangeLogPath": "sdk/provisioning/Azure.Provisioning.Cdn/CHANGELOG.md",
+  "Version": "1.0.0-alpha.20260327.1",
+  "DevVersion": "1.0.0-alpha.20260327.1",
+  "DirectoryPath": "sdk/cdn/Azure.Provisioning.Cdn",
+  "ServiceDirectory": "cdn",
+  "ReadMePath": "sdk/cdn/Azure.Provisioning.Cdn/README.md",
+  "ChangeLogPath": "sdk/cdn/Azure.Provisioning.Cdn/CHANGELOG.md",
   "Group": null,
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Provisioning.Cdn",
-  "ReleaseStatus": "2026-03-13",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "safeName": "AzureProvisioningCdn",
+    "name": "Azure.Provisioning.Cdn",
     "triggeringPaths": [
-      "/sdk/provisioning/ci.compute.yml"
-    ],
-    "name": "Azure.Provisioning.Cdn"
+      "/sdk/cdn/ci.mgmt.yml"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": [],
-    "BuildSnippets": true
+    "BuildSnippets": false
   },
   "SpecProjectPath": null,
   "Namespaces": [
