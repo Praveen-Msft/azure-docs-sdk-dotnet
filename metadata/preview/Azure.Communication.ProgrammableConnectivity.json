@@ -1,0 +1,32 @@
+{
+  "Name": "Azure.Communication.ProgrammableConnectivity",
+  "Version": "1.0.0-alpha.20260327.1",
+  "DevVersion": "1.0.0-alpha.20260327.1",
+  "DirectoryPath": "sdk/communication/Azure.Communication.ProgrammableConnectivity",
+  "ServiceDirectory": "communication",
+  "ReadMePath": "sdk/communication/Azure.Communication.ProgrammableConnectivity/README.md",
+  "ChangeLogPath": "sdk/communication/Azure.Communication.ProgrammableConnectivity/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Communication.ProgrammableConnectivity",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/communication/ci.yml"
+    ],
+    "safeName": "AzureCommunicationProgrammableConnectivity",
+    "name": "Azure.Communication.ProgrammableConnectivity"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": [],
+    "BuildSnippets": false
+  },
+  "SpecProjectPath": "specification/programmableconnectivity/Azure.ProgrammableConnectivity",
+  "Namespaces": [
+    "Azure.Communication.ProgrammableConnectivity",
+    "Microsoft.Extensions.Azure"
+  ]
+}
