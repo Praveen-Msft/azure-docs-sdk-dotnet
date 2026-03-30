@@ -1,12 +1,12 @@
 ---
 title: Azure AI Projects client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.AI.Projects, ai
-ms.date: 03/18/2026
+ms.date: 03/30/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: ai
 ---
-# Azure AI Projects client library for .NET - version 2.0.0-beta.2 
+# Azure AI Projects client library for .NET - version 2.0.0-alpha.20260330.1 
 
 The AI Projects client library is part of the Azure AI Foundry SDK and provides easy access to resources in your Azure AI Foundry Project. Use it to:
 
@@ -184,15 +184,15 @@ Create Agent
 
 Synchronous call:
 ```C# Snippet:Sample_CreateAgentVersionCRUD_Sync
-PromptAgentDefinition agentDefinition = new(model: modelDeploymentName)
+DeclarativeAgentDefinition agentDefinition = new(model: modelDeploymentName)
 {
     Instructions = "You are a prompt agent."
 };
-AgentVersion agentVersion1 = projectClient.Agents.CreateAgentVersion(
+ProjectsAgentVersion agentVersion1 = projectClient.Agents.CreateAgentVersion(
     agentName: "myAgent1",
     options: new(agentDefinition));
 Console.WriteLine($"Agent created (id: {agentVersion1.Id}, name: {agentVersion1.Name}, version: {agentVersion1.Version})");
-AgentVersion agentVersion2 = projectClient.Agents.CreateAgentVersion(
+ProjectsAgentVersion agentVersion2 = projectClient.Agents.CreateAgentVersion(
     agentName: "myAgent2",
     options: new(agentDefinition));
 Console.WriteLine($"Agent created (id: {agentVersion2.Id}, name: {agentVersion2.Name}, version: {agentVersion2.Version})");
@@ -200,15 +200,15 @@ Console.WriteLine($"Agent created (id: {agentVersion2.Id}, name: {agentVersion2.
 
 Asynchronous call:
 ```C# Snippet:Sample_CreateAgentVersionCRUD_Async
-PromptAgentDefinition agentDefinition = new(model: modelDeploymentName)
+DeclarativeAgentDefinition agentDefinition = new(model: modelDeploymentName)
 {
     Instructions = "You are a prompt agent."
 };
-AgentVersion agentVersion1 = await projectClient.Agents.CreateAgentVersionAsync(
+ProjectsAgentVersion agentVersion1 = await projectClient.Agents.CreateAgentVersionAsync(
     agentName: "myAgent1",
     options: new(agentDefinition));
 Console.WriteLine($"Agent created (id: {agentVersion1.Id}, name: {agentVersion1.Name}, version: {agentVersion1.Version})");
-AgentVersion agentVersion2 = await projectClient.Agents.CreateAgentVersionAsync(
+ProjectsAgentVersion agentVersion2 = await projectClient.Agents.CreateAgentVersionAsync(
     agentName: "myAgent2",
     options: new(agentDefinition));
 Console.WriteLine($"Agent created (id: {agentVersion2.Id}, name: {agentVersion2.Name}, version: {agentVersion2.Version})");
@@ -218,13 +218,13 @@ Get Agent
 
 Synchronous call:
 ```C# Snippet:Sample_GetAgentCRUD_Sync
-AgentRecord result = projectClient.Agents.GetAgent(agentVersion1.Name);
+ProjectsAgentRecord result = projectClient.Agents.GetAgent(agentVersion1.Name);
 Console.WriteLine($"Agent created (id: {result.Id}, name: {result.Name})");
 ```
 
 Asynchronous call:
 ```C# Snippet:Sample_GetAgentCRUD_Async
-AgentRecord result = await projectClient.Agents.GetAgentAsync(agentVersion1.Name);
+ProjectsAgentRecord result = await projectClient.Agents.GetAgentAsync(agentVersion1.Name);
 Console.WriteLine($"Agent created (id: {result.Id}, name: {result.Name})");
 ```
 
@@ -232,7 +232,7 @@ List Agents
 
 Synchronous call:
 ```C# Snippet:Sample_ListAgentsCRUD_Sync
-foreach (AgentRecord agent in projectClient.Agents.GetAgents())
+foreach (ProjectsAgentRecord agent in projectClient.Agents.GetAgents())
 {
     Console.WriteLine($"Listed Agent: id: {agent.Id}, name: {agent.Name}");
 }
@@ -240,7 +240,7 @@ foreach (AgentRecord agent in projectClient.Agents.GetAgents())
 
 Asynchronous call:
 ```C# Snippet:Sample_ListAgentsCRUD_Async
-await foreach (AgentRecord agent in projectClient.Agents.GetAgentsAsync())
+await foreach (ProjectsAgentRecord agent in projectClient.Agents.GetAgentsAsync())
 {
     Console.WriteLine($"Listed Agent: id: {agent.Id}, name: {agent.Name}");
 }
@@ -1276,7 +1276,7 @@ For tracing to Azure Monitor from your application, the preferred option is to u
 dotnet add package Azure.Monitor.OpenTelemetry.AspNetCore
 ```
 
-More information about using the Azure.Monitor.OpenTelemetry.AspNetCore package can be found [here](https://github.com/Azure/azure-sdk-for-net/blob/Azure.AI.Projects_2.0.0-beta.2/sdk/monitor/Azure.Monitor.OpenTelemetry.AspNetCore/README.md).
+More information about using the Azure.Monitor.OpenTelemetry.AspNetCore package can be found [here](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.OpenTelemetry.AspNetCore/README.md).
 
 Another option is to use Azure.Monitor.OpenTelemetry.Exporter package. Install the package with [NuGet](https://www.nuget.org/ ):
 ```dotnetcli
@@ -1402,7 +1402,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [product_doc]: https://aka.ms/azsdk/azure-ai-projects-v2/product-doc
 [azure_identity]: https://learn.microsoft.com/dotnet/api/overview/azure/identity-readme?view=azure-dotnet
 [azure_identity_dac]: https://learn.microsoft.com/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet
-[aiprojects_contrib]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.AI.Projects_2.0.0-beta.2/CONTRIBUTING.md
+[aiprojects_contrib]: https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md
 [cla]: https://cla.microsoft.com
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [code_of_conduct_faq]: https://opensource.microsoft.com/codeofconduct/faq/
